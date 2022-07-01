@@ -1,9 +1,10 @@
 ---
 title: Versionshinweise | Adobe Experience Manager-Handbücher Version 4.1
-description: 'Aktuelle Version der Adobe Experience Manager-Handbücher '
-source-git-commit: 714d335d95c54fb02b0fe02ad112fa36719dc970
+description: Aktuelle Version der Adobe Experience Manager-Handbücher
+exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
+source-git-commit: 7fc8eb3ea46eee89eac4d5779f14d61aa6106505
 workflow-type: tm+mt
-source-wordcount: '2983'
+source-wordcount: '2973'
 ht-degree: 3%
 
 ---
@@ -18,7 +19,7 @@ Sie können Ihre aktuelle Version der Adobe Experience Manager-Handbücher (spä
 * Wenn Sie Version 3.8.5 verwenden, müssen Sie auf Version 4.0.x aktualisieren, bevor Sie auf Version 4.1 aktualisieren.
 * Wenn Sie eine Version vor 3.8.5 verwenden, lesen Sie den Abschnitt zur Aktualisierung im produktspezifischen Installationshandbuch.
 
-Weitere Informationen finden Sie unter [Upgrade-Anweisungen](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-1/Adobe-Experience-Manager-Guides_Upgrade-Instructions_EN.pdf).
+Weitere Informationen finden Sie unter [Upgrade-Anweisungen](assets/Adobe-Experience-Manager-Guides_Upgrade-Instructions_EN.pdf).
 
 ## Kompatibilitätsmatrix
 
@@ -289,4 +290,3 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * SVG von Bildern, die in den Autorenmodi des XML-Editors nicht korrekt dargestellt werden. (9426)
 * Die Grundlinie wird beim Veröffentlichen über Salesforce nicht berücksichtigt. (8953)
 * Die Möglichkeit, die Rootmap aus den Einstellungen der Benutzereinstellungen zu löschen, ist nicht vorhanden. (8534)
-
