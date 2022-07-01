@@ -131,7 +131,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Beschriftungen für bedingte Attribute (nicht die Werte) werden beim Hinzufügen aller Bedingungen über die Option &quot;Alle Eigenschaften hinzufügen&quot;im Quellmodus angezeigt. (9501)
 * Dateien werden beim Zurücksetzen auf eine beliebige Version automatisch ausgecheckt. (9482)
 * Beim Zurücksetzen einer Dateiversion werden in der Assets-Benutzeroberfläche falsche Unterschiede beim Zeitstempel angezeigt. (9480)
-* Beim Einfügen von Elementen in das topicref -Element der DITA-Zuordnung werden mehrere Elemente aus Suchergebnissen hinzugefügt. (9474)
+* Beim Einfügen von Elementen in das topicref -Element der DITA Map werden mehrere Elemente aus Suchergebnissen hinzugefügt. (9474)
 * Wenn die Einstellung **Neue Version für hochgeladene Datei erstellen** auf EIN gesetzt ist, wird eine neue Version erstellt, wenn auf einem beliebigen eingefrorenen Knoten der Modus zurückgesetzt und gespeichert wird. (9473)
 * Der Anzeigetext der Schlüsselreferenz und der Inhaltsschlüsselreferenz wird beim Ändern der Link-URL nicht beibehalten, wenn beim Definieren der Schlüsselreferenz kein Anzeigetext hinzugefügt wird. (9458)
 * Im Versionsverlauf werden Versionsnummer und Titel für die aktuelle Version nicht angezeigt. (9446)
