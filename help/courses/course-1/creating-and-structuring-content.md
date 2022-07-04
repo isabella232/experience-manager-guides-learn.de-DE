@@ -2,7 +2,7 @@
 title: Erstellen von Inhalten in [!DNL AEM Guides]
 description: Erstellen von Inhalten in [!DNL Adobe Experience Manager Guides]
 exl-id: f7cfc5c8-414f-4480-a9c9-b9920975a55d
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 6959927315c7afc62a7423e835a36895c76fdc6d
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 1%
@@ -24,6 +24,7 @@ Sobald Sie sich mit der Benutzeroberfläche vertraut gemacht haben, können Sie 
 1. Wählen Sie die **+** Symbol und **Ordner**.
 
    ![+ icon](images/lesson-3/+-icon.png)
+
 1. Geben Sie dem Ordner einen Titel.
 1. Wählen Sie **Erstellen**.
 Sie haben einen neuen Ordner erstellt, der jetzt im Repository angezeigt wird. Dieser Ordner wird Ihr Zuhause für alle Kursinhalte sein.
@@ -37,6 +38,7 @@ Jetzt können wir einen Ordner in Ihrem neuen Ordner erstellen, der Bilder oder 
    ![Ellipsensymbol](images/lesson-3/ellipses-icon.png)
 
    Das Menü Optionen wird angezeigt.
+
 1. Auswählen **Erstellen von \> Ordner**.
    ![Erstellen eines Unterordners](images/lesson-3/create-subfolder-with-markings.png)
 
@@ -49,6 +51,7 @@ Jetzt können wir einen Ordner in Ihrem neuen Ordner erstellen, der Bilder oder 
    ![Ellipsensymbol](images/lesson-3/ellipses-icon.png)
 
    Das Menü Optionen wird angezeigt.
+
 1. Auswählen **Erstellen \> Thema**.
 
    ![Neues Thema erstellen](images/lesson-3/create-topic-with-markings.png)
@@ -93,6 +96,7 @@ Sie können Ihre Arbeit jederzeit mit Speichern oder als neue Version speichern.
    >[!NOTE]
    > 
    > Wenn Ihr Programm mit vordefinierten Bezeichnungen konfiguriert ist, können Sie aus diesen auswählen, um eine konsistente Beschriftung sicherzustellen.
+
 1. Wählen Sie **Speichern** aus.
 
    Sie haben eine neue Version Ihres Themas erstellt und die Versionsnummer wird aktualisiert.

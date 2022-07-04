@@ -2,7 +2,7 @@
 title: Bedingungen
 description: Arbeiten mit Bedingungen in AEM Guids
 exl-id: 2cb670d9-1a22-47c6-8409-52d1d526010a
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 01083e771baced42146044bf319d3897a2c5f51b
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 3%
@@ -31,11 +31,11 @@ Beispieldateien, die Sie für diese Lektion verwenden können, finden Sie in der
 
 5. Füllen Sie die erforderlichen Felder aus.
 
-   ・ Der Name sollte einem Attribut entsprechen, das für die Profilerstellung verwendet wird.
+   - Der Name sollte einem Attribut entsprechen, das für die Profilerstellung verwendet wird.
 
-   ・ Der Wert ist der genaue Eintrag, der in der DITA-Codequelle verwendet wird.
+   - Der Wert ist der genaue Eintrag, der in der DITA-Codequelle verwendet wird.
 
-   ・ Der Titel ist das Wort, das der Benutzer sehen wird, der Attribute eingibt.
+   - Die Bezeichnung ist das Wort, das der Benutzer sehen wird, der Attribute eingibt.
 
 6. Klicken Sie auf [!UICONTROL **Speichern**].
 
@@ -104,7 +104,6 @@ Themenschema-Karten sind eine spezielle Form der Ditamap und werden durch eine K
    >[!IMPORTANT]
    >
    >Wichtig: Die ausgewählte Stammkarte muss die Karte sein, die das Themenschema enthält.
-
 
    ![Benutzereinstellungen](images/lesson-13/user-preferences-2.png)
 

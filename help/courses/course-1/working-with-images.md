@@ -2,7 +2,7 @@
 title: Arbeiten mit Bildern in AEM Handbüchern
 description: Arbeiten mit Bildern in Adobe Experience Manager-Handbüchern
 exl-id: 8b920a9a-bedb-434c-b6fb-3569ce4b7a81
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1f8fe099be2b4123eec6f7c973668b415097ac45
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 1%
@@ -27,10 +27,10 @@ Sie können die Beispielbilddatei von [hier.](assets/working-with-images/SignInS
 
    ![Assets hochladen](images/lesson-4/upload-assets.png)
 
-
 1. Wählen Sie das Bild aus, das Sie von Ihrem lokalen System hochladen möchten, und wählen Sie **Öffnen**.
 
    Die [!UICONTROL Hochladen von Assets] angezeigt.
+
 1. Wählen Sie **Hochladen**.
 
 ## Einfügen eines Bildes in ein Thema
@@ -52,7 +52,6 @@ Stellen Sie für Folgendes sicher, dass Ihr Thema im Dokumenteditor geöffnet is
 1. Wählen Sie die **Bild einfügen** Symbol.
 
    ![Symbol &quot;Bild einfügen&quot;](images/lesson-4/insert-image.png)
-
 
    Das Dialogfeld Bild einfügen wird angezeigt.
 
@@ -88,9 +87,11 @@ Da Sie eine wichtige Änderung an Ihrem Thema vorgenommen haben, kann es jetzt n
 1. Geben Sie im Feld Versionsbezeichnungen alle relevanten Bezeichnungen ein.
 
    Mit Beschriftungen können Sie die Version angeben, die Sie beim Veröffentlichen einbeziehen möchten.
+
    >[!NOTE]
    > 
    > Wenn Ihr Programm mit vordefinierten Bezeichnungen konfiguriert ist, können Sie aus diesen auswählen, um eine konsistente Beschriftung sicherzustellen.
+
 1. Wählen Sie **Speichern** aus.
 
    Sie haben eine neue Version Ihres Themas erstellt und die Versionsnummer wird aktualisiert.

@@ -2,7 +2,7 @@
 title: Rechtschreibprüfung und Suchen/Ersetzen
 description: Rechtschreibprüfung und Suchen/Ersetzen in AEM Handbüchern verwenden
 exl-id: 5f39618d-a919-4d3c-a4de-2896f2d1bf20
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 0b4326b02ef52f5de77c3f26c18feec84567cebb
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 3%
@@ -37,9 +37,9 @@ Möglicherweise möchten Sie ein anderes Rechtschreibprüfungs-Tool als das Stan
 
 3. Dabei gibt es zwei Möglichkeiten:
 
-   ・ **BrowserRechtschreibprüfung** - die Standardeinstellung, bei der die Rechtschreibprüfung das integrierte Wörterbuch des Browsers verwendet.
+   - **BrowserRechtschreibprüfung** - die Standardeinstellung, bei der die Rechtschreibprüfung das integrierte Wörterbuch des Browsers verwendet.
 
-   ・ **Rechtschreibprüfung AEM** - Verwenden Sie dies, um mithilfe des benutzerdefinierten Wörterbuchs AEM eine benutzerdefinierte Wortliste zu erstellen.
+   - **Rechtschreibprüfung AEM** - Verwenden Sie dies, um mithilfe des benutzerdefinierten Wörterbuchs AEM eine benutzerdefinierte Wortliste zu erstellen.
 
 4. Auswählen **Rechtschreibprüfung AEM**.
 
@@ -59,19 +59,17 @@ Der Administrator kann die Einstellungen ändern, sodass das AEM Wörterbuch ben
 
    ![Konfigurationsknoten der CRXDE Lite](images/lesson-11/config-node.png)
 
-
 4. Erstellen Sie eine neue Datei.
 
    a. Klicken Sie mit der rechten Maustaste auf den Ordner config .
-b. Auswählen **Erstellen > Datei erstellen**.
+
+   b. Auswählen **Erstellen > Datei erstellen**.
 
    ![Erstellung neuer Wörterbuchdateien](images/lesson-11/new-dictionary-file.png)
-
 
    c. Benennen Sie die Datei. _**user_dictionary.txt**_.
 
    ![Wörterbuchtext eines Benutzers](images/lesson-11/user-dictionary.png)
-
 
    d. Klicken [!UICONTROL **OK**].
 
@@ -109,12 +107,11 @@ Autoren müssen möglicherweise ihre Web-Editor-Sitzung neu starten, um die aktu
 
 4. Wählen Sie entweder
 
-   ・ **Checkout-Datei vor Ersetzen** — Wenn dies von einem Administrator aktiviert wird, wird die Datei automatisch ausgecheckt, bevor die Suchbegriffe ersetzt werden.
+   - **Checkout-Datei vor Ersetzen** — Wenn dies von einem Administrator aktiviert wird, wird die Datei automatisch ausgecheckt, bevor die Suchbegriffe ersetzt werden.
 
-   ・ **Nur ganzes Wort** — beschränkt die Suche so, dass nur das genaue eingegebene Wort oder die eingegebene Wortgruppe zurückgegeben wird.
+   - **Nur ganzes Wort** — beschränkt die Suche so, dass nur das genaue eingegebene Wort oder die eingegebene Wortgruppe zurückgegeben wird.
 
    ![Ersetzen in Repository suchen](images/lesson-11/repository-find-replace.png)
-
 
 5. Klicken Sie auf [!UICONTROL **Filter anwenden**] -Symbol, um den Pfad im Repository auszuwählen, in dem Sie die Suche durchführen möchten.
 

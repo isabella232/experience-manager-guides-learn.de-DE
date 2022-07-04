@@ -2,7 +2,7 @@
 title: Einfache Workflows zur Inhaltserstellung
 description: Erstellen von Inhalten in AEM Handbüchern
 exl-id: e4b8e512-0688-44f7-b981-78af33b57b08
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 92c269c4a5f73317345bbd0ab247951656426ff4
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 2%
@@ -37,13 +37,13 @@ Bilder können direkt von einem lokalen Laufwerk aus hinzugefügt werden.
 
 3. Verwendung **Inhaltseigenschaften** auf der rechten Seite, um die
 
-   ・ Skala
+   - scale
 
-   • position
+   - position
 
-   ・ Ausrichtung oder
+   - Ausrichtung oder
 
-   ・ andere Attribute.
+   - andere Attribute.
 
    ![Inhaltseigenschaften](images/lesson-15/content-properties.png)
 
@@ -98,7 +98,6 @@ Benutzer können eine PDF des aktuellen Themas herunterladen, um sie zu markiere
 3. Auswählen **Suchen in**.
 
 4. Wählen Sie entweder **Repository** oder **Zuordnung** , um zur gewünschten Themenposition zu springen.
-
 
 ## Thema verändern
 
@@ -183,7 +182,6 @@ Die Versionsnummer wird aktualisiert.
    - Der Versionsverlauf mit Bezeichnungen wird auf der linken Seite angezeigt.
 
    ![Versionsverlauf](images/lesson-15/version-history.png)
-
 
 4. Klicken Sie auf eine Version, um auf Optionen wie **Auf diese Version zurücksetzen** und **Vorschau der Version**.
 

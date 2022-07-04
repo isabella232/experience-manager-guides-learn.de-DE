@@ -2,7 +2,7 @@
 title: Änderungen verfolgen
 description: Verfolgen von Änderungen in AEM Handbüchern
 exl-id: 57779920-b3b4-44be-a1fb-89ea7c89eef7
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 7bc636b4aceee327d86cfa74a9f8e61e0ad0a1cf
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 1%
@@ -92,9 +92,9 @@ Wenn Sie in einer Umgebung mit mehreren Autoren arbeiten, kann es schwierig sein
 
 4. Wählen Sie unter Optionen Folgendes aus:
 
-   ・ **Änderungen von ausgewählter Version verfolgen**: Diese Option zeigt alle Inhaltsaktualisierungen in Form von getrackten Änderungen an. Sie können dann entscheiden, Änderungen im Dokument einzeln oder alle gleichzeitig zu akzeptieren oder abzulehnen.
+   - **Änderungen von ausgewählter Version verfolgen**: Diese Option zeigt alle Inhaltsaktualisierungen in Form von getrackten Änderungen an. Sie können dann entscheiden, Änderungen im Dokument einzeln oder alle gleichzeitig zu akzeptieren oder abzulehnen.
 
-   ・ **Auf ausgewählte Version zurücksetzen**: Mit dieser Option wird die aktuelle Version des Dokuments auf die ausgewählte Version zurückgesetzt. Sie haben keine Kontrolle darüber, welche Inhalte akzeptiert oder abgelehnt werden.
+   - **Auf ausgewählte Version zurücksetzen**: Mit dieser Option wird die aktuelle Version des Dokuments auf die ausgewählte Version zurückgesetzt. Sie haben keine Kontrolle darüber, welche Inhalte akzeptiert oder abgelehnt werden.
 
 5. Klicken Sie auf [!UICONTROL **Fertig**].
 

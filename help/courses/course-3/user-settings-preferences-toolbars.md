@@ -2,7 +2,7 @@
 title: Benutzereinstellungen, Editor-Einstellungen und Editor-Symbolleisten
 description: Ändern von Benutzereinstellungen und Editor-Einstellungen in AEM Handbüchern
 exl-id: 8cb099e4-d985-4eeb-b1a5-0e372b04d218
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 3d81727cdf4a58921724b0f1aa93b0700f821f60
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 2%
@@ -25,13 +25,13 @@ Tags sind visuelle Hinweise, die die Grenzen eines Elements angeben. Eine Elemen
 
    Tags werden innerhalb des Themas angezeigt. Mit der Tag-Ansicht auf können Sie:
 
-   ・ Wählen Sie den Inhalt eines Elements aus, indem Sie auf das öffnende oder schließende -Tag klicken.
+   - Wählen Sie den Inhalt eines Elements aus, indem Sie auf das öffnende oder schließende -Tag klicken.
 
-   ・ Erweitern oder reduzieren Sie Tags durch Klicken auf das Pluszeichen (+) oder - im -Tag.
+   - Erweitern oder reduzieren Sie Tags, indem Sie auf das Pluszeichen (+) oder - im Tag klicken.
 
-   ・ Verwenden Sie das Kontextmenü, um das ausgewählte Element auszuschneiden, zu kopieren oder über das ausgewählte Element hinaus zu kopieren.
+   - Über das Kontextmenü können Sie das ausgewählte Element ausschneiden, kopieren oder überwinden.
 
-   ・ Ziehen Sie Elemente per Drag-and-Drop in den Arbeitsbereich, indem Sie das Tag auswählen und das Element an einer gültigen Position ablegen.
+   - Ziehen Sie Elemente per Drag-and-Drop in den Arbeitsbereich, indem Sie das Tag auswählen und das Element an einer gültigen Position ablegen.
 
 2. Klicken Sie auf [!UICONTROL **Anzeigen von Tags ein/aus**] erneut ein, um Tags auszublenden.
 
@@ -75,11 +75,11 @@ In der Symbolleiste oben rechts im Bildschirm können Sie zwischen Ansichten wec
 
 ![Modi](images/lesson-2/modes.png)
 
-・ Auswählen **Autor** , um die Struktur und den Inhalt während der Arbeit mit einem Thema anzuzeigen.
+- Auswählen **Autor** , um die Struktur und den Inhalt während der Arbeit mit einem Thema anzuzeigen.
 
-・ Auswählen **Quelle** , um die zugrunde liegende XML anzuzeigen, aus der das Thema besteht.
+- Auswählen **Quelle** , um die zugrunde liegende XML anzuzeigen, aus der das Thema besteht.
 
-・ Auswählen **Vorschau** um anzuzeigen, wie ein Thema angezeigt wird, wenn ein Benutzer es in seinem Browser anzeigt.
+- Auswählen **Vorschau** um anzuzeigen, wie ein Thema angezeigt wird, wenn ein Benutzer es in seinem Browser anzeigt.
 
 ## Design mit Benutzereinstellungen ändern
 
