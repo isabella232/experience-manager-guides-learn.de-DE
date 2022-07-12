@@ -2,7 +2,7 @@
 user-guide-title: Tutorials für AEM Guides
 user-guide-description: Lesen Sie unsere Sammlung an Tutorials für Adobe Experience Manager Guides.
 breadcrumb-title: Tutorials für AEM Guides
-source-git-commit: be04e01add023cbfeb1319ee946cea053bf6294b
+source-git-commit: 7246fe38f139bbf10f1926761a366e1dc617d821
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 26%
@@ -38,4 +38,4 @@ ht-degree: 26%
    + [PDF-Ausgabe veröffentlichen](./web-editor/native-pdf-web-editor.md)
    + [Zusätzliche Sonderzeichen konfigurieren](./web-editor/configure-additional-special-characters.md)
 + Versionierung {#versioning}
-   + [Komponenten einer PDF-Vorlage](./native-pdf/pdf-template.md)
+   + [Komponenten einer PDF-Vorlage](./native-pdf/components-pdf-template.md)
