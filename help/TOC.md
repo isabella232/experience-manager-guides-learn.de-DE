@@ -2,10 +2,10 @@
 user-guide-title: Tutorials- und Videokurse für AEM
 user-guide-description: Sehen Sie sich unsere Tutorials und Videos für Adobe Experience Manager-Handbücher an.
 breadcrumb-title: Tutorials und Videos AEM Handbücher
-source-git-commit: f08fe1a96f0a0bcb9a50e316bd0b6c9ff2670104
+source-git-commit: d8ffc09abc0a79d21d2d1df1832f75a34130a65e
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 7%
+source-wordcount: '228'
+ht-degree: 8%
 
 ---
 
@@ -41,7 +41,8 @@ ht-degree: 7%
    + Native WIP-PDF-Artikel {#hidden}
       + [Ausgeblendete PDF-Vorlage](./tutorials/native-pdf/pdf-template.md)
       + [Ausgeblendete Komponenten einer PDF-Vorlage](./tutorials/native-pdf/components-pdf-template.md)
-+ [Videos](./courses/overview.md)
++ Videos {#videos}
+   + [Übersicht](./courses/overview.md)
    + Erste Schritte mit [!DNL AEM Guides] {#getting-started}
       + [Kursübersicht](./courses/course-1/overview.md)
       + [Grundlegendes zur AEM Benutzeroberfläche](./courses/course-1/understanding-the-aem-user-interface.md)
