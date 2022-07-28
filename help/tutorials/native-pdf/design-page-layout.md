@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie Ihr Seitenlayout für die Präsentation von I
 hide: true
 hidefromtoc: true
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
-source-git-commit: 64e8ab1288674437f6182010ce4963b3780e98a9
+source-git-commit: 2607a02867765b8f78134ab4e37012e8b08e222c
 workflow-type: tm+mt
 source-wordcount: '3289'
 ht-degree: 0%
@@ -137,7 +137,7 @@ Im folgenden Beispiel werden wir eine Seitenzahl und einen Thementitel in den Fu
 
    <img src="./assets/insert-page-number-field.svg" width="400">
 
-   <br>
+   <img src="./assets/transparent-background.png" width="30">
 
    >[!NOTE]
    >
@@ -175,7 +175,7 @@ Im folgenden Beispiel werden wir eine Seitenzahl und einen Thementitel in den Fu
 
 | Entwicklerecke: | <img src="./assets/developer-corner-icon.svg" width="25"> |
 |--- |--- |
-| Wenn Sie direkt mit dem CSS- und HTML-Code arbeiten möchten, können Sie dies auch erreichen, indem Sie zur Quellansicht des Seitenlayouts navigieren und Änderungen am Code vornehmen. Das folgende Codefragment zeigt dieselbe Fußzeileneinstellung, die über den Code vorgenommen wurde: |
+Wenn Sie direkt mit dem CSS- und HTML-Code arbeiten möchten, können Sie dies auch erreichen, indem Sie zur Quellansicht des Seitenlayouts navigieren und Änderungen am Code vornehmen. Das folgende Codefragment zeigt dieselbe Fußzeileneinstellung, die über den Code vorgenommen wurde:
 
 ```md
 …
@@ -206,6 +206,7 @@ Im folgenden Beispiel wird ein Kapitel-TOC in das Layout Erste Seite eines Kapit
    Das standardmäßige Kapitel-Inhaltsverzeichnis wird in den Inhaltsbereich eingefügt.
 
    <img src="./assets/chapter-toc-default.png" width="400">
+    <img src="./assets/transparent-background.png" width="30">
 
    >[!NOTE]
    >
@@ -221,7 +222,7 @@ Im folgenden Beispiel wird ein Kapitel-TOC in das Layout Erste Seite eines Kapit
 
    <img src="./assets/chapter-toc-updated.png" width="400">
 
-   <br>
+   <img src="./assets/transparent-background.png" width="30">
 
    >[!NOTE]
    >
@@ -265,7 +266,7 @@ So erstellen Sie ein Seitenlayout mit mehreren Spalten:
 
    <img src="./assets/element-span-across-columns.png" width="400">
 
-   <br>
+   <img src="./assets/transparent-background.png" width="30">
 
    >[!IMPORTANT]
    Sie können die Eigenschaft &quot;Span Column&quot;auf jedes DITA-Element anwenden.
