@@ -3,9 +3,9 @@ title: Native PDF-Veröffentlichungsfunktion | Erstellen eines Seitenlayouts
 description: 'Erfahren Sie, wie Sie Ihr Seitenlayout für die Präsentation von Informationen in verschiedenen Bereichen Ihrer PDF-Ausgabe entwerfen. '
 hide: true
 hidefromtoc: true
-source-git-commit: 77256556d9222ffd096a599e5875c94108ebb8ed
+source-git-commit: 97c7337684e4afb8352912e53d6a59939f7d182f
 workflow-type: tm+mt
-source-wordcount: '3300'
+source-wordcount: '3289'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,10 @@ Die Einstellungen für Seitenlayouts unter **Vorlage > Einstellungen** -Bereich 
 
 Verschiedene Seitenlayouts in Ihrer PDF-Vorlage können weiter angepasst werden, indem Sie unterschiedliche Seitenlayouts auf der ersten, rechten oder linken Seite haben. Sie können diese Seiten mit dem Seitenlayout-Designer unterschiedlich entwerfen.
 
-> **Hinweis**: Wenn Sie ein einseitiges Seitenlayout für einen Abschnitt in Ihrem Buch haben möchten, müssen Sie keine Layouts für die erste, rechte oder linke Seite erstellen.
+>[!NOTE]
+>
+>Wenn Sie ein einseitiges Seitenlayout für einen Abschnitt in Ihrem Buch haben möchten, müssen Sie keine Layouts für die erste, rechte oder linke Seite erstellen.
+
 
 Beachten Sie beim Erstellen der Seitenlayouts die folgenden Punkte:
 
@@ -56,7 +59,7 @@ Das folgende Beispiel führt Sie durch den Prozess der Erstellung von Varianten 
 
    Wenn Sie ein Seitenlayout erstellen, wird es standardmäßig auch zur Bearbeitung geöffnet. Im folgenden Screenshot wird ein leeres (standardmäßiges) Seitenlayout angezeigt:
 
-   <img src="./assets/default-blank-page-layout.png" height="400">
+   <img src="./assets/default-blank-page-layout.png" width="300">
 
    Der Kopf-, Fußzeilen- und Inhaltsbereich in einer Vorlage wird standardmäßig erstellt. Sie können diese Bereiche einfach mithilfe der Tools, Seiteneigenschaften und Inhaltseigenschaften anpassen, die in der Benutzeroberfläche angegeben sind. Für eine erweiterte Konfiguration können Sie die Quellansicht verwenden und Ihren benutzerdefinierten HTML- und CSS-Code hinzufügen.
 
@@ -76,7 +79,9 @@ Wenn Sie beispielsweise ein Bild in den Kopfzeilenbereich der ersten Seite Ihrer
 
 1. Öffnen Sie das gewünschte Seitenlayout zur Bearbeitung.
 
-   > **Hinweis**: Siehe _Seitenlayout anpassen_ zum Öffnen eines Seitenlayouts zur Anpassung oder Bearbeitung.
+   >[!NOTE]
+   >
+   >Siehe _Seitenlayout anpassen_ zum Öffnen eines Seitenlayouts zur Anpassung oder Bearbeitung.
 
 1. Klicken Sie auf die Kopfzeile bearbeiten (<img src="./assets/header-icon.svg" width="25">), um den Cursor in den Kopfzeilenbereich zu bringen.
 
@@ -114,7 +119,9 @@ Im folgenden Beispiel werden wir eine Seitenzahl und einen Thementitel in den Fu
 
 1. Öffnen Sie das gewünschte Seitenlayout zur Bearbeitung.
 
-   Hinweis: Siehe _Seitenlayout anpassen_ zum Öffnen eines Seitenlayouts zur Anpassung oder Bearbeitung.
+   >[!NOTE]
+   >
+   >Siehe _Seitenlayout anpassen_ zum Öffnen eines Seitenlayouts zur Anpassung oder Bearbeitung.
 
 1. Klicken Sie auf Fußzeile bearbeiten (![](./assets/footer-icon.svg)), um den Cursor in den Fußzeilenbereich zu bringen.
 
@@ -128,7 +135,9 @@ Im folgenden Beispiel werden wir eine Seitenzahl und einen Thementitel in den Fu
 
    <img src="./assets/insert-page-number-field.svg" width="400">
 
-   > **Hinweis**: Sie können auch das Format aller Felder mit Ausnahme des Standardformats bearbeiten. Klicken Sie dazu auf das Symbol Bearbeiten neben dem Format, das Sie bearbeiten möchten, nehmen Sie Änderungen vor und klicken Sie auf OK.
+   >[!NOTE]
+   >
+   >Sie können auch das Format aller Felder mit Ausnahme des Standardformats bearbeiten. Klicken Sie dazu auf das Symbol Bearbeiten neben dem Format, das Sie bearbeiten möchten, nehmen Sie Änderungen vor und klicken Sie auf OK.
 
    Das standardmäßige Feld für die Seitenzahl wird in den Fußzeilenbereich des Seitenlayouts eingefügt.
 
@@ -160,8 +169,8 @@ Im folgenden Beispiel werden wir eine Seitenzahl und einen Thementitel in den Fu
 
       <img src="./assets/topic-title-moved-right-footer.png" width="500">
 
-> **Entwicklerecke:**  ![](./assets/developer-corner-icon.svg)
-
+| Entwicklerecke: | <img src="./assets/developer-corner-icon.svg" width="40"> |
+|--- |--- |
 Wenn Sie direkt mit dem CSS- und HTML-Code arbeiten möchten, können Sie dies auch erreichen, indem Sie zur Quellansicht des Seitenlayouts navigieren und Änderungen am Code vornehmen. Das folgende Codefragment zeigt dieselbe Fußzeileneinstellung, die über den Code vorgenommen wurde:
 
 ```md
@@ -183,7 +192,9 @@ Im folgenden Beispiel wird ein Kapitel-TOC in das Layout Erste Seite eines Kapit
 
 1. Öffnen Sie das gewünschte Seitenlayout zur Bearbeitung.
 
-   Hinweis: Siehe _Seitenlayout anpassen_ zum Öffnen eines Seitenlayouts zur Anpassung oder Bearbeitung.
+   >[!NOTE]
+   >
+   >Siehe _Seitenlayout anpassen_ zum Öffnen eines Seitenlayouts zur Anpassung oder Bearbeitung.
 
 1. Platzieren Sie den Cursor im Inhaltsbereich des Seitenlayouts.
 1. Klicken Sie auf das Kapitel-Inhaltsverzeichnis (<img src="./assets/chapter-toc-icon.svg">) icon.
@@ -192,7 +203,9 @@ Im folgenden Beispiel wird ein Kapitel-TOC in das Layout Erste Seite eines Kapit
 
    <img src="./assets/chapter-toc-default.png" width="400">
 
-   > **Hinweis**: Das standardmäßige Kapitel-Inhaltsverzeichnis enthält die Überschriften 1 bis 4. Hier ist Überschrift 1 der Titel des Kapitels selbst. Daher möchten Sie möglicherweise nicht, dass der Kapiteltitel erneut im Inhaltsverzeichnis enthalten ist, oder Sie möchten die Ebene der Überschriften, die Sie im Inhaltsverzeichnis anzeigen möchten, erhöhen. Sie können das Inhaltsverzeichnis anpassen, indem Sie die Eigenschaften ändern.
+   >[!NOTE]
+   >
+   >Das standardmäßige Kapitel-Inhaltsverzeichnis enthält die Überschriften 1 bis 4. Hier ist Überschrift 1 der Titel des Kapitels selbst. Daher möchten Sie möglicherweise nicht, dass der Kapiteltitel erneut im Inhaltsverzeichnis enthalten ist, oder Sie möchten die Ebene der Überschriften, die Sie im Inhaltsverzeichnis anzeigen möchten, erhöhen. Sie können das Inhaltsverzeichnis anpassen, indem Sie die Eigenschaften ändern.
 
 1. Öffnen Sie das Bedienfeld HTML Content Properties , um die Überschriftenebenen des Inhaltsverzeichnisses anzupassen.
 
@@ -204,7 +217,9 @@ Im folgenden Beispiel wird ein Kapitel-TOC in das Layout Erste Seite eines Kapit
 
    <img src="./assets/chapter-toc-updated.png" width="400">
 
-   > **Hinweis**: Die endgültige veröffentlichte PDF zeigt nur die TOC-Einträge basierend auf dem Inhalt in Ihren Kapiteln an. Wenn ein Kapitel keine Überschriften der Stufe 5 enthält, wird es nicht in der endgültigen Ausgabe angezeigt.
+   >[!NOTE]
+   >
+   >Die endgültige veröffentlichte PDF zeigt nur die TOC-Einträge basierend auf dem Inhalt in Ihren Kapiteln an. Wenn ein Kapitel keine Überschriften der Stufe 5 enthält, wird es nicht in der endgültigen Ausgabe angezeigt.
 
 ## Arbeiten mit mehrspaltigem Seitenlayout
 
@@ -214,7 +229,9 @@ So erstellen Sie ein Seitenlayout mit mehreren Spalten:
 
 1. Öffnen Sie das gewünschte Seitenlayout zur Bearbeitung.
 
-   > **Hinweis**: Siehe _Seitenlayout anpassen_ zum Öffnen eines Seitenlayouts zur Anpassung oder Bearbeitung.
+   >[!NOTE]
+   >
+   >Siehe _Seitenlayout anpassen_ zum Öffnen eines Seitenlayouts zur Anpassung oder Bearbeitung.
 
 1. Da das mehrspaltige Layout auf den Inhalt angewendet wird, mit Ausnahme des Kopf- und Fußzeilenbereichs, müssen Sie das Inhaltselement im Breadcrumb auswählen.
 
@@ -228,7 +245,9 @@ So erstellen Sie ein Seitenlayout mit mehreren Spalten:
 
    * **Spaltenbreite:** Geben Sie die Breite einer Spalte in einem mehrspaltigen Layout an. Standardmäßig wird die Größe in Pixel (px) festgelegt. Sie können sie auch in pt, rem, em, % oder in Einheiten angeben.
 
-      >**Hinweis:** Wenn Sie keine Größe angeben, werden die Spalten automatisch an die angegebenen Seitenränder angepasst.
+      >[!NOTE]
+      >
+      >Wenn Sie keine Größe angeben, werden die Spalten automatisch an die angegebenen Seitenränder angepasst.
 
    * **Spalten-Gap** : Geben Sie den Abstand zwischen einzelnen Spalten an.
 
@@ -240,7 +259,7 @@ So erstellen Sie ein Seitenlayout mit mehreren Spalten:
 
    <img src="./assets/element-span-across-columns.png" width="400">
 
-   >[**WICHTIG**]
+   >[!IMPORTANT]
    Sie können die Eigenschaft &quot;Span Column&quot;auf jedes DITA-Element anwenden.
 
    * **Spaltenfüllung** : Geben Sie an, wie Spalten mit Inhalt gefüllt werden sollen. Standardmäßig ist dies auf Balance gesetzt, wodurch jede Spalte mit gleicher Inhaltsmenge gefüllt wird.
@@ -248,7 +267,7 @@ So erstellen Sie ein Seitenlayout mit mehreren Spalten:
    * **Spaltenregel** : Wenn Sie eine Zeile zwischen Spalten haben möchten, verwenden Sie diese Eigenschaft, um die Zeilen- oder Regelstile zu definieren. Geben Sie die Werte für Stil, Farbe und Breite des Lineals an, um eine Linie zwischen den Spalten hinzuzufügen.
 
 
-## Seiteneigenschaften für unterschiedliche Seitenausrichtung verwenden**
+## Seiteneigenschaften für unterschiedliche Seitenausrichtung verwenden
 
 Beim Entwerfen eines Seitenlayouts ist es wichtig, die verschiedenen Seiteneigenschaften zu steuern. Die native PDF-Funktion enthält alle wichtigen Seiteneigenschaften im Bereich Seiteneigenschaften . Der Bereich Seiteneigenschaften bietet Zugriff auf verschiedene Eigenschaften in den folgenden Abschnitten:
 
@@ -268,7 +287,7 @@ Beim Entwerfen eines Seitenlayouts ist es wichtig, die verschiedenen Seiteneigen
 
 Sehen wir uns ein Beispiel an, in dem eine Kombination aus Seitenausrichtung im Hoch- und Querformat und Seitendrehungseigenschaften verwendet wird. In diesem Beispiel wird eine PDF mit standardmäßiger Hochformatausrichtung erstellt, eine Tabelle wird jedoch im Querformat mit Inhalten in der 90-Grad-Ansicht im Uhrzeigersinn gerendert. Die endgültige Ausgabe sieht in etwa wie folgt aus:
 
-<img src="./assets/portrait-landscape-page-layouts.png" height="800">
+<img src="./assets/portrait-landscape-page-layouts.png" width="400">
 
 In der obigen Ausgabe werden die Kontaktlisten-Informationen im Querformat angezeigt, wobei der Inhalt ebenfalls um 90 Grad gedreht wird. Der restliche Inhalt wird im normalen Hochformat angezeigt.
 
@@ -338,7 +357,7 @@ Führen Sie die folgenden Schritte aus, um die oben genannten Aufgaben zu erledi
 
    1. Im **Inhaltseigenschaften** Bedienfeld hinzufügen, eine neue `outputclass` Eigenschaft mit `landscape-style` als Eigenschaftswert.
 
-      <img src="./assets/new-style-table-outputclass.png" height="400">
+      <img src="./assets/new-style-table-outputclass.png" width="300">
 
    1. Klicken **Alle speichern** , um die aktualisierte Datei zu speichern.
 
@@ -350,7 +369,8 @@ Der Tabelleninhalt wird am Anfang des PDF im Querformat gerendert.
 
 Im Bereich &quot;Inhaltseigenschaften&quot;können Sie das Erscheinungsbild der Elemente auf Ihrer Seite einfach aktualisieren. Die Eigenschaften im Bereich Inhaltseigenschaften sind in die folgenden Abschnitte unterteilt:
 
->**Hinweis**: Weitere Informationen zur Verwendung dieser Eigenschaften finden Sie in der Dokumentation zu den W3C CSS Page Media Standards .
+>[!NOTE]
+Weitere Informationen zur Verwendung dieser Eigenschaften finden Sie in der Dokumentation zu den W3C CSS Page Media Standards .
 
 * **Attribute**: Enthält Eigenschaften für ID, Klasse und Übersetzen. Wenn Sie die Eigenschaft &quot;Translate&quot;auf &quot;nein&quot;setzen, wird der Inhalt in diesem bestimmten Element nicht übersetzt.
 
