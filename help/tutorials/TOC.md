@@ -2,10 +2,10 @@
 user-guide-title: Tutorials für AEM Guides
 user-guide-description: Lesen Sie unsere Sammlung an Tutorials für Adobe Experience Manager Guides.
 breadcrumb-title: Tutorials für AEM Guides
-source-git-commit: 8a0049d737dd4d80cf42f8b9d4ffa8adc349682f
+source-git-commit: cb066f0e09aec000f216c11c774c8da111b2a7f7
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 25%
+source-wordcount: '121'
+ht-degree: 23%
 
 ---
 
@@ -41,3 +41,4 @@ ht-degree: 25%
 + Native WIP-PDF-Artikel {#hidden}
    + [Ausgeblendete PDF-Vorlage](./native-pdf/pdf-template.md)
    + [Ausgeblendete Komponenten einer PDF-Vorlage](./native-pdf/components-pdf-template.md)
+   + [Ausgeblendetes Erstellen eines Seitenlayouts](./native-pdf/design-page-layout.md)
