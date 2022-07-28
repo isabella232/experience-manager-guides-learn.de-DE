@@ -1,14 +1,16 @@
 ---
 title: Native PDF-Veröffentlichungsfunktion | Erstellen eines Seitenlayouts
-description: 'Erfahren Sie, wie Sie Ihr Seitenlayout für die Präsentation von Informationen in verschiedenen Bereichen Ihrer PDF-Ausgabe entwerfen. '
+description: Erfahren Sie, wie Sie Ihr Seitenlayout für die Präsentation von Informationen in verschiedenen Bereichen Ihrer PDF-Ausgabe entwerfen.
 hide: true
 hidefromtoc: true
-source-git-commit: 97c7337684e4afb8352912e53d6a59939f7d182f
+exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
+source-git-commit: 64e8ab1288674437f6182010ce4963b3780e98a9
 workflow-type: tm+mt
 source-wordcount: '3289'
 ht-degree: 0%
 
 ---
+
 
 # Erstellen eines Seitenlayouts
 
@@ -85,7 +87,7 @@ Wenn Sie beispielsweise ein Bild in den Kopfzeilenbereich der ersten Seite Ihrer
 
 1. Klicken Sie auf die Kopfzeile bearbeiten (<img src="./assets/header-icon.svg" width="25">), um den Cursor in den Kopfzeilenbereich zu bringen.
 
-1. Klicken Sie auf das Inert-Bild (<img src="./assets/insert-image-icon.svg" width="25"> ) icon.
+1. Klicken Sie auf das Inert-Bild (<img src="./assets/insert-image-icon.svg" width="25">) icon.
 
    Das Popup Pfad auswählen wird angezeigt.
 
@@ -135,6 +137,8 @@ Im folgenden Beispiel werden wir eine Seitenzahl und einen Thementitel in den Fu
 
    <img src="./assets/insert-page-number-field.svg" width="400">
 
+   <br>
+
    >[!NOTE]
    >
    >Sie können auch das Format aller Felder mit Ausnahme des Standardformats bearbeiten. Klicken Sie dazu auf das Symbol Bearbeiten neben dem Format, das Sie bearbeiten möchten, nehmen Sie Änderungen vor und klicken Sie auf OK.
@@ -169,9 +173,9 @@ Im folgenden Beispiel werden wir eine Seitenzahl und einen Thementitel in den Fu
 
       <img src="./assets/topic-title-moved-right-footer.png" width="500">
 
-| Entwicklerecke: | <img src="./assets/developer-corner-icon.svg" width="40"> |
+| Entwicklerecke: | <img src="./assets/developer-corner-icon.svg" width="25"> |
 |--- |--- |
-Wenn Sie direkt mit dem CSS- und HTML-Code arbeiten möchten, können Sie dies auch erreichen, indem Sie zur Quellansicht des Seitenlayouts navigieren und Änderungen am Code vornehmen. Das folgende Codefragment zeigt dieselbe Fußzeileneinstellung, die über den Code vorgenommen wurde:
+| Wenn Sie direkt mit dem CSS- und HTML-Code arbeiten möchten, können Sie dies auch erreichen, indem Sie zur Quellansicht des Seitenlayouts navigieren und Änderungen am Code vornehmen. Das folgende Codefragment zeigt dieselbe Fußzeileneinstellung, die über den Code vorgenommen wurde: |
 
 ```md
 …
@@ -197,7 +201,7 @@ Im folgenden Beispiel wird ein Kapitel-TOC in das Layout Erste Seite eines Kapit
    >Siehe _Seitenlayout anpassen_ zum Öffnen eines Seitenlayouts zur Anpassung oder Bearbeitung.
 
 1. Platzieren Sie den Cursor im Inhaltsbereich des Seitenlayouts.
-1. Klicken Sie auf das Kapitel-Inhaltsverzeichnis (<img src="./assets/chapter-toc-icon.svg">) icon.
+1. Klicken Sie auf das Kapitel-Inhaltsverzeichnis (<img src="./assets/chapter-toc-icon.svg">).
 
    Das standardmäßige Kapitel-Inhaltsverzeichnis wird in den Inhaltsbereich eingefügt.
 
@@ -216,6 +220,8 @@ Im folgenden Beispiel wird ein Kapitel-TOC in das Layout Erste Seite eines Kapit
    Wenn Sie Überschriften bis Ebene 5 haben möchten, ändern Sie die zweite Dropdown-Liste in 5. Das aktualisierte Inhaltsverzeichnis sieht wie folgt aus:
 
    <img src="./assets/chapter-toc-updated.png" width="400">
+
+   <br>
 
    >[!NOTE]
    >
@@ -258,6 +264,8 @@ So erstellen Sie ein Seitenlayout mit mehreren Spalten:
    Wie im folgenden Beispiel gezeigt, ist die Eigenschaft Spalte spalten für den Überschriftentext auf &quot;all&quot;festgelegt. Dadurch wird sichergestellt, dass sich die Überschrift, auch wenn das Dokument mehrspaltig ist, über mehrere Spalten erstreckt.
 
    <img src="./assets/element-span-across-columns.png" width="400">
+
+   <br>
 
    >[!IMPORTANT]
    Sie können die Eigenschaft &quot;Span Column&quot;auf jedes DITA-Element anwenden.
@@ -385,4 +393,3 @@ Weitere Informationen zur Verwendung dieser Eigenschaften finden Sie in der Doku
 * **Hintergrund**: Enthält Eigenschaften zum Einschließen eines Hintergrundbilds oder einer Farbschattierung. Sie können die Bildgröße (durch Festlegen von Höhe oder Breite), die Hintergrundwiederholung (als Wiederholung, Keine Wiederholung, Runde oder mehr) und die Hintergrundposition (als links oben, rechts, Mitte unten oder mehr) festlegen.
 
 * **Mehrere Spalten**: Enthält Eigenschaften zum Konfigurieren mehrspaltiger Eigenschaften für die Seite oder eines bestimmten Elements, z. B. Kapitel-Inhaltsverzeichnis. Weitere Informationen zu den Eigenschaften und deren Verwendung finden Sie unter _Arbeiten mit mehrspaltigem Seitenlayout_.
-
