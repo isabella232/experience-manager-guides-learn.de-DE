@@ -3,9 +3,10 @@ title: Native PDF-Veröffentlichungsfunktion | Komponenten einer PDF-Vorlage
 description: Lernen Sie die verschiedenen Komponenten einer PDF-Vorlage kennen und erfahren Sie, wie Sie sie anpassen und konfigurieren.
 hide: true
 hidefromtoc: true
-source-git-commit: 698469293e41558753ff6aada92f050f45be867a
+exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
+source-git-commit: e0602e325fec014fe5a9ebe231b0c62611a4e52d
 workflow-type: tm+mt
-source-wordcount: '2208'
+source-wordcount: '2295'
 ht-degree: 0%
 
 ---
@@ -39,6 +40,19 @@ Mit den Einstellungen in der Komponente Seitenlayouts können Sie die Struktur e
 1. Klicken Sie auf **Fertig**.
 
    Das neue Layout wird unter Seitenlayouts erstellt und hinzugefügt.
+
+### Duplizieren eines Seitenlayouts
+
+1. Im **Vorlagen** Bereich der Vorlage, die Sie duplizieren möchten, doppelklicken Sie auf **Seitenlayouts** oder klicken Sie auf **>** Symbol vor **Seitenlayouts**.
+
+   Dadurch wird die Liste der Seitenlayouts in der Vorlage angezeigt.
+
+1. Bewegen Sie den Mauszeiger über das Seitenlayout, das Sie duplizieren möchten, und klicken Sie auf (*Optionen* Symbol) **...** und wählen Sie **Duplizieren** aus dem Kontextmenü aus.
+
+1. Im _Layout duplizieren_ ein, geben Sie einen Namen für das Seitenlayout ein.
+
+1. Klicken Sie auf **Fertig**.
+Eine Kopie des ausgewählten Seitenlayouts wird erstellt und unter Seitenlayouts hinzugefügt.
 
 ### Seitenlayout anpassen
 
