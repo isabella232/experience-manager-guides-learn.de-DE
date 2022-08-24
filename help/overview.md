@@ -1,15 +1,15 @@
 ---
-title: Tutorials für Experience Manager-Handbücher
+title: Tutorials zu Experience Manager-Handbüchern
 description: Eine Sammlung von Tutorials für Experience Manager-Handbücher (früher XML Documentation für Adobe Experience Manager).
 exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
-source-git-commit: b2c51539bbe49c6d5de601e319ceb5def99d9020
+source-git-commit: 0ab4c1590507b38cd3dbeb385a2200dc169fc36a
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Tutorials- und Videokurse [!DNL Adobe Experience Manager Guides] {#overview}
+# [!DNL Adobe Experience Manager Guides] Tutorials {#overview}
 
 [!DNL Adobe Experience Manager Guides] (bezeichnet als [!DNL AEM Guides] -Lösung (später in diesem Handbuch) ist eine leistungsstarke, unternehmenseigene Inhaltsverwaltungslösung (Component Content Management Solution, CCMS). Sie ermöglicht native DITA-Unterstützung in Adobe Experience Manager und ermöglicht AEM die Bearbeitung der DITA-basierten Inhaltserstellung und -Bereitstellung. Sie ermöglicht es Autoren, Inhalte mit einem beliebigen Offline-DITA-Authoring-Tool wie Adobe FrameMaker oder einem benutzerfreundlichen integrierten Web-Editor zu erstellen.
 
@@ -30,6 +30,10 @@ Mit [!DNL AEM Guides] -Lösung können Unternehmen nahtlose und personalisierte 
 * **[[!DNL AEM Guides] Einführungskurs](course-1/overview.md)**
 
    *Erfahren Sie, wie Sie Inhalte erstellen, organisieren, erstellen und veröffentlichen können mit [!DNL Adobe Experience Manager Guides].*
+
+* **[Authoring im integrierten Web-Editor](course-3/overview.md)**
+
+   *Erfahren Sie in den Experience Manager-Handbüchern, wie Sie mit dem nativen Web-Editor Inhalte erstellen. Verschaffen Sie sich umfassende Kenntnisse zu Benutzereinstellungen, Editor-Einstellungen, Konfiguration, Symbolleisten und mehr.*
 
 * **[Generierung der Ausgabe mit [!DNL AEM Guides]](course-2/overview.md)**
 
