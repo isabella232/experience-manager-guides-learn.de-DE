@@ -2,10 +2,10 @@
 title: Tutorials für Experience Manager-Handbücher
 description: Hier finden Sie Anleitungsvideos für Experience Manager-Handbücher (früher XML Documentation für Adobe Experience Manager). Erfahren Sie mehr über native DITA-Unterstützung und strukturiertes Authoring in Experience Manager.
 exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
-source-git-commit: fff5c163bc8551bea298cd8da320c2abf9b9be3b
+source-git-commit: 7fa60a962a94ad5011359398cc668f8080859a8c
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 3%
+source-wordcount: '315'
+ht-degree: 2%
 
 ---
 
@@ -26,6 +26,11 @@ Mit [!DNL AEM Guides] -Lösung können Unternehmen nahtlose und personalisierte 
 * **[[!DNL AEM Guides] Einführungskurs](../courses/course-1/overview.md)**
 
    _Erfahren Sie, wie Sie Inhalte erstellen, organisieren, erstellen und veröffentlichen können mit [!DNL Adobe Experience Manager Guides]._
+
+
+* **[[!DNL AEM Guides] Authoring im integrierten Web-Editor](../courses/course-3/overview.md)**
+
+   _Erfahren Sie, wie Sie Inhalte mithilfe des nativen Web-Editors in  [!DNL Adobe Experience Manager Guides]. Verschaffen Sie sich umfassende Kenntnisse zu Benutzereinstellungen, Editor-Einstellungen, Konfiguration, Symbolleisten und mehr._
 
 * **[Generierung der Ausgabe mit [!DNL AEM Guides]](../courses/course-2/overview.md)**
 
