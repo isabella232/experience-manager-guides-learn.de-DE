@@ -3,9 +3,9 @@ title: Native PDF-Veröffentlichungsfunktion | Arbeiten mit allgemeinen Inhaltss
 description: Erfahren Sie, wie Sie Stile für Ihren Inhalt erstellen und Stile erstellen.
 hide: true
 hidefromtoc: true
-source-git-commit: 563a301e4db20cd8076eaffd970d53b7a8743449
+source-git-commit: cbd5f4b0763bf4087d016f3d3c8d723518f0b8e7
 workflow-type: tm+mt
-source-wordcount: '3500'
+source-wordcount: '3496'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Der Stileditor ist ein WYSIWYG-Editor, der alle Komplexität eines CSS-Codes hin
 * Seitenstile
 * Weitere Stile
 
-Beim Arbeiten mit strukturierten DITA-Inhalten ist die Stilzuordnung für die meisten DITA-Elemente im Standard-Stylesheet vorhanden. Wenn Sie mit standardmäßigen DITA-Elementen arbeiten, können Sie deren Erscheinungsbild ändern, indem Sie direkt Änderungen an der Stildefinition vornehmen. Diese Stildefinitionen sind unter der Kategorie &quot;Sonstige Stile&quot;verfügbar. Weitere Informationen finden Sie unter *Arbeiten mit anderen Stilen* später in diesem Thema.
+Beim Arbeiten mit strukturierten DITA-Inhalten ist die Stilzuordnung für die meisten DITA-Elemente im Standard-Stylesheet vorhanden. Wenn Sie mit standardmäßigen DITA-Elementen arbeiten, können Sie deren Erscheinungsbild ändern, indem Sie direkt Änderungen an der Stildefinition vornehmen. Diese Stildefinitionen sind unter der Kategorie &quot;Sonstige Stile&quot;verfügbar. Weitere Informationen finden Sie unter [Arbeiten mit anderen Stilen](#other-styles) später in diesem Thema.
 
 In den folgenden Abschnitten werden die am häufigsten verwendeten Stileinstellungen in Form von Beispielen beschrieben.
 
@@ -42,7 +42,7 @@ Die Überschriftenstile enthalten alle Basisstile für die Überschriften, die i
 
 >[!NOTE]
 >
->Sie können eigene benutzerdefinierte Überschriftenstile erstellen und diese in Ihren Inhalten mit der Ausgabeklasse verwenden. Weitere Informationen finden Sie in Schritt 4 unter *Seitenausrichtung und Anzeigenrotation verwenden* Beispiel.
+>Sie können eigene benutzerdefinierte Überschriftenstile erstellen und diese in Ihren Inhalten mit der Ausgabeklasse verwenden. Weitere Informationen finden Sie in Schritt 4 unter [Seitenausrichtung und Anzeigenrotation verwenden](design-page-layout.md#page-orientation-rotation) Beispiel.
 
 ### Erstellen benutzerdefinierter Überschriften auf Kapitelebene {#create-chapter-level-heading}
 
@@ -55,7 +55,7 @@ In diesem Beispiel erstellen wir einen Stil für Kapitel der zweiten Ebene:
 1. Öffnen Sie das erforderliche Stylesheet zur Bearbeitung.
    >[!NOTE]
    >
-   >Siehe *Vordefinierten oder neuen Stil anpassen* zum Öffnen eines Stylesheets zur Anpassung oder Bearbeitung.
+   >Siehe [Vordefinierten oder neuen Stil anpassen](components-pdf-template.md#customize-style) zum Öffnen eines Stylesheets zur Anpassung oder Bearbeitung.
 
 1. Im **Stile** Liste, erweitern Sie die **Überschriftenstile**.
 1. Rechtsklick auf **Überschriftenstile** Stil und Auswahl **Neuer Stil**.
@@ -76,7 +76,7 @@ In diesem Beispiel passen wir die Überschriften von Ebene 1 zu Ebene 3 an, um d
 
    >[!NOTE]
    >
-   >Siehe *Vordefinierten oder neuen Stil anpassen* zum Öffnen eines Stylesheets zur Anpassung oder Bearbeitung.
+   >Siehe [Vordefinierten oder neuen Stil anpassen](components-pdf-template.md#customize-style) zum Öffnen eines Stylesheets zur Anpassung oder Bearbeitung.
 
 1. Im **Stile** Liste, erweitern Sie die **Überschriftenstile**.
 
@@ -142,7 +142,7 @@ Im folgenden Beispiel erstellen wir einen Stil für die Dropdownliste:
 1. Öffnen Sie das erforderliche Stylesheet zur Bearbeitung.
 
    >[!NOTE]
-   Siehe *Vordefinierten oder neuen Stil anpassen* zum Öffnen eines Stylesheets zur Anpassung oder Bearbeitung.
+   Siehe [Vordefinierten oder neuen Stil anpassen](components-pdf-template.md#customize-style) zum Öffnen eines Stylesheets zur Anpassung oder Bearbeitung.
 
 1. Im **Stile** Liste, erweitern Sie die **Absatzformate**.
 
@@ -177,7 +177,7 @@ Im folgenden Beispiel wird ein Inline-Zeichenstil erstellt:
 1. Öffnen Sie das erforderliche Stylesheet zur Bearbeitung.
 
    >[!NOTE]
-   Siehe *Vordefinierten oder neuen Stil anpassen* zum Öffnen eines Stylesheets zur Anpassung oder Bearbeitung.
+   Siehe [Vordefinierten oder neuen Stil anpassen](components-pdf-template.md#customize-style) zum Öffnen eines Stylesheets zur Anpassung oder Bearbeitung.
 
 1. Im **Stile** Liste, erweitern Sie die **Zeichenstile**.
 
@@ -196,7 +196,7 @@ Im folgenden Beispiel wird ein Inline-Zeichenstil erstellt:
    * **Schriftart**: In diesem Abschnitt können Sie alle Schrifteigenschaften anpassen. Standardmäßig sind einige Schriftarten im Paket mit dem Produkt enthalten. Sie können die gewünschte Schriftart für den Zeichenstil auswählen. Legen Sie für unser Beispiel die Schriftfamilie auf *serif,* und wählen Sie *Fett* und *Kursiv* in der Eigenschaft &quot;Font Style&quot;. Sie können auch andere Schrifteigenschaften anpassen, z. B. Schriftstärke (fett, heller), Textdekoration (z. B. Unterstreichung, Überstreichung), Schriftgröße, Schriftfarbe, Textausrichtung und mehr.
 
       >[!NOTE]
-      Sie können Ihrer Vorlage auch Schriftarten hinzufügen, die im Bereich Ressourcen Ihrer Vorlage gespeichert sind. Weitere Informationen zum Hinzufügen von Schriftarten und zum Arbeiten mit Ressourcen finden Sie unter **Link zum Abschnitt Ressourcen hinzufügen**.
+      Sie können Ihrer Vorlage auch Schriftarten hinzufügen, die im Bereich Ressourcen Ihrer Vorlage gespeichert sind. Weitere Informationen zum Hinzufügen von Schriftarten und zum Arbeiten mit Ressourcen finden Sie unter [Arbeiten mit Ressourcen](components-pdf-template.md#work-with-resources).
 
    * **Layout**: Sie können die Layout-bezogenen Eigenschaften festlegen, z. B. Höhe und Breite, Rand, Abstand, Ausrichtung usw.
 
@@ -219,7 +219,7 @@ Im folgenden Beispiel wird der Stil einer nummerierten oder sortierten Liste ang
 1. Öffnen Sie das erforderliche Stylesheet zur Bearbeitung.
 
    >[!NOTE]
-   Siehe *Vordefinierten oder neuen Stil anpassen* zum Öffnen eines Stylesheets zur Anpassung oder Bearbeitung.
+   Siehe [Vordefinierten oder neuen Stil anpassen](components-pdf-template.md#customize-style) zum Öffnen eines Stylesheets zur Anpassung oder Bearbeitung.
 
 1. Im **Stile** Liste, erweitern Sie die **Listenstile**.
 
@@ -278,7 +278,7 @@ Im folgenden Beispiel sehen wir, wie Sie einen Tabellenstil und die verschiedene
 1. Öffnen Sie das erforderliche Stylesheet zur Bearbeitung.
 
    >[!NOTE]
-   Siehe *Vordefinierten oder neuen Stil anpassen* zum Öffnen eines Stylesheets zur Anpassung oder Bearbeitung.
+   Siehe [Vordefinierten oder neuen Stil anpassen](components-pdf-template.md#customize-style) zum Öffnen eines Stylesheets zur Anpassung oder Bearbeitung.
 
 1. Im **Stile** Liste, klicken Sie mit der rechten Maustaste auf die **Tabellenformat** und wählen Sie **Neuer Stil**.
 
@@ -322,7 +322,7 @@ Im folgenden Beispiel sehen wir, wie Sie einen Tabellenstil und die verschiedene
 
 ## Arbeiten mit anderen Stilen {#other-styles}
 
-Wenn Sie mit strukturiertem (DITA-)Inhalt arbeiten, werden Sie feststellen, dass fast alle DITA-Elemente im Standard-Stylesheet über ein Stilmapping verfügen. Beispiel: eine `<shortdesc>` Der Stil des Elements wird unter definiert. **Sonstige Stile** > **.shortdesc** Stildefinition. Sie können diese Stile einfach anpassen und sie werden automatisch in der PDF-Ausgabe angewendet, die aus Ihrem strukturierten Inhalt generiert wird. Das bedeutet, dass Sie im Gegensatz zu anderen benutzerdefinierten Stilen keine `outputclass` -Attribut auf den Inhalt für diese Stile.
+Wenn Sie mit strukturiertem (DITA-)Inhalt arbeiten, werden Sie feststellen, dass fast alle DITA-Elemente im Standard-Stylesheet über ein Stilmapping verfügen. Beispiel: eine `<shortdesc>` Der Stil des Elements wird unter **Sonstige Stile** > **.shortdesc** Stildefinition. Sie können diese Stile einfach anpassen und sie werden automatisch in der PDF-Ausgabe angewendet, die aus Ihrem strukturierten Inhalt generiert wird. Das bedeutet, dass Sie im Gegensatz zu anderen benutzerdefinierten Stilen keine `outputclass` -Attribut auf den Inhalt für diese Stile.
 
 Wenn Sie eine Stildefinition für ein Element erstellen möchten, das nicht standardmäßig verfügbar ist, oder wenn Sie ein benutzerdefiniertes Element haben, können Sie es einfach im Stylesheet erstellen. Der einzige Punkt, den Sie beachten müssen, ist die Erstellung des Stils mit demselben Namen wie der des strukturierten Elements.
 
@@ -331,7 +331,7 @@ Im folgenden Beispiel wird der Titel eines neuen Fensters (`wintitle`) style:
 1. Öffnen Sie das erforderliche Stylesheet zur Bearbeitung.
 
    >[!NOTE]
-   Siehe *Vordefinierten oder neuen Stil anpassen* zum Öffnen eines Stylesheets zur Anpassung oder Bearbeitung.
+   Siehe [Vordefinierten oder neuen Stil anpassen](components-pdf-template.md#customize-style) zum Öffnen eines Stylesheets zur Anpassung oder Bearbeitung.
 
 1. Im **Stile** Liste, erweitern **Weitere Stile**.
 
