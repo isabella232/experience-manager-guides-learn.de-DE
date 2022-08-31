@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Ihr Seitenlayout für die Präsentation von I
 hide: true
 hidefromtoc: true
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
-source-git-commit: 563a301e4db20cd8076eaffd970d53b7a8743449
+source-git-commit: 7b96fe9e8fad0e017626be04f5c41c1e42e7469d
 workflow-type: tm+mt
-source-wordcount: '4686'
+source-wordcount: '4649'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Beim Entwerfen eines Seitenlayouts ist es wichtig, die verschiedenen Seiteneigen
 >
 >Das Bedienfeld Seiteneigenschaften enthält die Eigenschaften und folgt den Regeln, die unter dem [Seitenmedienstandards](https://www.w3.org/TR/css-page-3/).
 
-* **Seitengröße** : Geben Sie die Seitengröße für das Seitenlayout an. In der Dropdownliste Seitengröße können Sie aus über 15 Seitengrößen wählen. Sie können auch ein Seitenlayout mit einer benutzerdefinierten Seitengröße erstellen, siehe [Seitengröße festlegen](design-page-layout.md#set-the-page-size) für weitere Details.
+* **Seitengröße** : Geben Sie die Seitengröße für das Seitenlayout an. In der Dropdownliste Seitengröße können Sie aus über 15 Seitengrößen wählen. Sie können auch ein Seitenlayout mit einer benutzerdefinierten Seitengröße erstellen, siehe [Seitengröße festlegen](#set-page-size) für weitere Details.
 
 * **Ausrichtung** : Geben Sie die Seitenausrichtung für das Seitenlayout an. Sie können zwischen den Ausrichtungen Hochformat oder Querformat wählen. Beachten Sie, dass Sie in einem Seitenlayout unterschiedliche Ausrichtungen auf verschiedene Seitenvarianten anwenden können. Wenn Ihr Inhalt beispielsweise eine breite Tabelle oder ein großes Bild enthält, können Sie ein Querformatlayout erstellen und dieses Layout auf die breitere Tabelle oder das Bild anwenden.
 
@@ -341,7 +341,7 @@ Der folgende Screenshot zeigt ein Beispielbild, das im Kopfzeilenbereich hinzuge
 
 <img src="./assets/image-in-header-area.png" width="500">
 
-Nachdem ein Bild eingefügt wurde, können Sie seine Attribute ändern, um ihm das gewünschte Aussehen zu verleihen. Die einfachste Möglichkeit, die Darstellung eines Bildes oder eines anderen Elements im Seitenlayout zu ändern, besteht darin, den Bereich Inhaltseigenschaften zu verwenden. Siehe [Arbeiten mit dem Bereich &quot;Inhaltseigenschaften&quot;](design-page-layout.md#work-with-content-properties-panel) für die verschiedenen Eigenschaften, die über die Benutzeroberfläche zur Anpassung verfügbar sind.
+Nachdem ein Bild eingefügt wurde, können Sie seine Attribute ändern, um ihm das gewünschte Aussehen zu verleihen. Die einfachste Möglichkeit, die Darstellung eines Bildes oder eines anderen Elements im Seitenlayout zu ändern, besteht darin, den Bereich Inhaltseigenschaften zu verwenden. Siehe [Arbeiten mit dem Bereich &quot;Inhaltseigenschaften&quot;](#work-with-content-props) für die verschiedenen Eigenschaften, die über die Benutzeroberfläche zur Anpassung verfügbar sind.
 
 ### Felder und Metadaten hinzufügen {#add-fields-metadata}
 
@@ -361,7 +361,7 @@ Es gibt die folgenden Kategorien für Felder, die Sie in Ihr Seitenlayout einfü
 
 Jede dieser Feldkategorien enthält verschiedene Varianten, in die die Feldinformationen eingefügt werden können. Ein Datumsfeld kann beispielsweise unterschiedliche Varianten aufweisen, z. B. `YYYY-MM-DD`, `MM/DD/YY`, `MM/DD/YYYY` und so weiter. Auf ähnliche Weise kann die Seitenzahl Variationen in Form von roman-, decimal- oder sogar gebietsschemaspezifischen Formaten wie _Arabisch_, _Devanagari_, _Hebräisch_ und mehr.
 
-Zusätzlich zu den vordefinierten Feldern können Sie auch Metadateninformationen als Variablen oder Felder in Ihrem Seitenlayout hinzufügen. Diese Metadaten werden in Ihrem Quell-DITA-Map-Inhalt gespeichert und können einfach in Ihr Seitenlayout eingefügt werden. Weitere Informationen finden Sie unter [Felder und Metadaten hinzufügen](design-page-layout.md#add-fields-and-metadata).
+Zusätzlich zu den vordefinierten Feldern können Sie auch Metadateninformationen als Variablen oder Felder in Ihrem Seitenlayout hinzufügen. Diese Metadaten werden in Ihrem Quell-DITA-Map-Inhalt gespeichert und können einfach in Ihr Seitenlayout eingefügt werden. <!--For more information, see [Add fields and metadata](design-page-layout.md#add-fields-and-metadata).-->
 
 Im folgenden Beispiel werden wir eine Seitenzahl und einen Kapiteltitel in den Fußzeilenbereich eines Seitenlayouts einfügen.
 
@@ -387,7 +387,7 @@ Im folgenden Beispiel werden wir eine Seitenzahl und einen Kapiteltitel in den F
 
    >[!NOTE]
    >
-   >Sie können auch das Format aller Felder mit Ausnahme des Standardformats bearbeiten. Klicken Sie dazu auf das Symbol Bearbeiten neben dem Format, das Sie bearbeiten möchten, nehmen Sie Änderungen vor und klicken Sie auf OK. Weitere Informationen finden Sie unter [Felder und Metadaten hinzufügen](design-page-layout.md#add-fields-and-metadata).
+   >Sie können auch das Format aller Felder mit Ausnahme des Standardformats bearbeiten. Klicken Sie dazu auf das Symbol Bearbeiten neben dem Format, das Sie bearbeiten möchten, nehmen Sie Änderungen vor und klicken Sie auf OK. Weitere Informationen finden Sie unter [Felder und Metadaten hinzufügen](#add-fields-metadata).
 
    Das standardmäßige Feld für die Seitenzahl wird in den Fußzeilenbereich des Seitenlayouts eingefügt.
 
@@ -449,7 +449,7 @@ Im folgenden Beispiel wird ein Kapitel-TOC in das erste Seitenlayout eines Kapit
 
 >[!NOTE]
 >
->Für dieses Verfahren wird davon ausgegangen, dass Sie die erste Seitenvariante für ein Kapitelseitenlayout erstellt haben. Anweisungen zum Erstellen einer Seitenvariante finden Sie unter _Erstellen der Layout-Varianten für die erste, rechte oder linke Seite_.
+>Für dieses Verfahren wird davon ausgegangen, dass Sie die erste Seitenvariante für ein Kapitelseitenlayout erstellt haben. Anweisungen zum Erstellen einer Seitenvariante finden Sie unter [Erstellen der Layout-Varianten für die erste, rechte oder linke Seite](#page-layout-variants).
 
 1. Öffnen Sie das gewünschte Seitenlayout zur Bearbeitung.
 
@@ -483,7 +483,7 @@ Im folgenden Beispiel wird ein Kapitel-TOC in das erste Seitenlayout eines Kapit
    >
    >Die endgültige veröffentlichte PDF zeigt nur die TOC-Einträge basierend auf dem Inhalt in Ihren Kapiteln an. Wenn ein Kapitel keine Überschriften der Stufe 5 enthält, wird es nicht in der endgültigen Ausgabe angezeigt.
 
-Das Erscheinungsbild des Standard-Inhaltsverzeichnisses kann mithilfe der Stylesheets angepasst werden. Der Stil beginnt mit `chaptoc-level-#` (like `chaptoc-level-1`, `chaptoc-level-2`usw.) verwendet werden, um die Stile für das Kapitel-Inhaltsverzeichnis anzupassen. Weitere Informationen zu den im Inhaltsverzeichnis verwendeten Stylesheet-Elementen und deren Anpassung finden Sie unter _Anpassen des standardmäßigen Kapitel-TOC_.
+Das Erscheinungsbild des Standard-Inhaltsverzeichnisses kann mithilfe der Stylesheets angepasst werden. Der Stil beginnt mit `chaptoc-level-#` (like `chaptoc-level-1`, `chaptoc-level-2`usw.) verwendet werden, um die Stile für das Kapitel-Inhaltsverzeichnis anzupassen. <!--For more details on the stylesheet elements used in the TOC and how to customize them, see _Customize default chapter TOC_-->.
 
 >[!IMPORTANT]
 >
@@ -519,7 +519,7 @@ So erstellen Sie ein Seitenlayout mit mehreren Spalten:
 
    * **Spalten-Gap** : Geben Sie den Abstand zwischen einzelnen Spalten an.
 
-   * **Spaltenbereich** : Wenn Sie möchten, dass ein Element im Seitenlayout über mehrere Spalten erstreckt, müssen Sie diese Eigenschaft verwenden. Dies wird erreicht, indem der Stil des gewünschten Elements mithilfe der Stylesheets geändert wird. Weitere Informationen finden Sie unter _Abschnitt zur Stilanpassung_.
+   * **Spaltenbereich** : Wenn Sie möchten, dass ein Element im Seitenlayout über mehrere Spalten erstreckt, müssen Sie diese Eigenschaft verwenden. Dies wird erreicht, indem der Stil des gewünschten Elements mithilfe der Stylesheets geändert wird. <!--for more information see _Section explaining style customization_-->.
 
    Wenn im Seitenlayout ein bestimmter Text auf der ersten Seite aller Kapitelseitenlayouts angezeigt werden soll, können Sie ihn der ersten Seitenvariante des Kapitelseitenlayouts hinzufügen.
 
@@ -549,4 +549,4 @@ Im Bereich &quot;Inhaltseigenschaften&quot;können Sie das Erscheinungsbild der 
 * **Layout** : Enthält Eigenschaften zum Konfigurieren des Layouts eines Elements im Seitenlayout. Sie können Höhe, Breite, Spannen und Abstand (für oben, unten, links oder rechts), Horizontale oder vertikale Ausrichtung, Gleitkommazahl (als links, rechts oder nicht), Löschen (als links, rechts, beides oder ohne), Elementposition (als absolut, fest, relativ oder mehr), Anzeige (als Block, Inhalt, Korrektur oder höher), Z Index, Transparenz, Transformierung (durch Drehen oder Skalieren) festlegen. ) und &quot;Ursprung transformieren&quot;(durch X und Y-Versatz).
 
 * **Hintergrund** : Enthält Eigenschaften zum Einschließen eines Hintergrundbilds oder einer Farbschattierung. Sie können die Bildgröße (durch Festlegen von Höhe oder Breite), die Hintergrundwiederholung (als Wiederholung, Keine Wiederholung, Runde oder mehr) und die Hintergrundposition (als links oben, rechts, Mitte unten oder mehr) festlegen.
-* **Mehrere Spalten** : Enthält Eigenschaften zum Konfigurieren mehrspaltiger Eigenschaften für die Seite oder eines bestimmten Elements, z. B. Kapitel-Inhaltsverzeichnis. Weitere Informationen zu den Eigenschaften und deren Verwendung finden Sie unter _Arbeiten mit mehrspaltigem Seitenlayout_.
+* **Mehrere Spalten** : Enthält Eigenschaften zum Konfigurieren mehrspaltiger Eigenschaften für die Seite oder eines bestimmten Elements, z. B. Kapitel-Inhaltsverzeichnis. Weitere Informationen zu den Eigenschaften und deren Verwendung finden Sie unter [Arbeiten mit mehrspaltigem Seitenlayout](#multi-column-layout).
