@@ -4,23 +4,23 @@ description: Erfahren Sie, wie Sie Ihr Seitenlayout für die Präsentation von I
 hide: true
 hidefromtoc: true
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
-source-git-commit: f8af7d7180b3d70d17e1410885017212dec721ef
+source-git-commit: 563a301e4db20cd8076eaffd970d53b7a8743449
 workflow-type: tm+mt
-source-wordcount: '4688'
+source-wordcount: '4686'
 ht-degree: 0%
 
 ---
 
 
-# Erstellen eines Seitenlayouts
+# Erstellen eines Seitenlayouts {#design-page-layout}
 
 Bei der Erstellung eines PDF-Dokuments würden Sie verschiedene Bereiche für die Darstellung verschiedener Informationstypen haben. Beispielsweise würde ein PDF-Dokument von einer Vorder- oder Titelseite aus beginnen, die das Logo, den Buchtitel oder die Versionsinformationen Ihres Unternehmens enthält. Dann gibt es Kapitel, Anhänge oder Glossarseiten. Jeder Bereich in einem PDF-Dokument sieht anders aus, was durch Erstellen und Anpassen des Seitenlayouts erreicht wird.
 
 Beim Entwerfen des Seitenlayouts können Sie die verschiedenen Elemente einer Seite definieren. Sie können beispielsweise die Seitengröße, die Ränder, Kopf- und Fußzeilen, die Ausrichtung und andere Seitenspezifikationen auf einer Seite definieren. Mit der nativen PDF-Veröffentlichungsfunktion können Sie Ihre Seite gemäß dem [Seitenmedienstandards](https://www.w3.org/TR/css-page-3/). Die meisten Einstellungen, die unter den Standards für Seitenmedien behandelt werden, können einfach über die Benutzeroberfläche der nativen PDF-Veröffentlichungsfunktion angepasst werden. Für weitere Formatierungen auf erweiterter Ebene können Sie die Quellansicht verwenden, um Ihren eigenen CSS-Code zu schreiben.
 
-Nachdem Sie die Seitenlayouts entworfen haben, müssen Sie diese Layouts mit den entsprechenden Abschnitten in den PDF-Seitenlayouteinstellungen verknüpfen. Siehe _Seitenlayouts erstellen und anpassen_ -Abschnitt für Details zum Erstellen und Öffnen eines Seitenlayouts für die Anpassung.
+Nachdem Sie die Seitenlayouts entworfen haben, müssen Sie diese Layouts mit den entsprechenden Abschnitten in den PDF-Seitenlayouteinstellungen verknüpfen. Siehe [Seitenlayouts erstellen und anpassen](components-pdf-template.md#create-customize-page-layout) -Abschnitt für Details zum Erstellen und Öffnen eines Seitenlayouts für die Anpassung.
 
-## Typen von Seitenlayouts
+## Typen von Seitenlayouts {#types-of-page-layout}
 
 Ein PDF-Dokument enthält in der Regel die folgenden Abschnitte:
 
@@ -33,11 +33,11 @@ Ein PDF-Dokument enthält in der Regel die folgenden Abschnitte:
 * Index
 * Zurück-Seite
 
-Diese Abschnitte benötigen ein entsprechendes Seitenlayout, um die Informationen in einem bestimmten Format darzustellen. Darüber hinaus können Sie auch eine leere Seite haben, die als Füller verwendet wird, um ein neues Kapitel von einer ungeraden oder geraden Seite aus zu beginnen. In diesem Fall können Sie entweder das standardmäßige Seitenlayout verwenden oder ein Seitenlayout für eine leere Seite erstellen. Siehe _Neues Seitenlayout erstellen_ für weitere Details.
+Diese Abschnitte benötigen ein entsprechendes Seitenlayout, um die Informationen in einem bestimmten Format darzustellen. Darüber hinaus können Sie auch eine leere Seite haben, die als Füller verwendet wird, um ein neues Kapitel von einer ungeraden oder geraden Seite aus zu beginnen. In diesem Fall können Sie entweder das standardmäßige Seitenlayout verwenden oder ein Seitenlayout für eine leere Seite erstellen. Siehe [Neues Seitenlayout erstellen](components-pdf-template.md#create-page-layout) für weitere Details.
 
 Die Einstellungen für Seitenlayouts unter **Vorlage > Einstellungen** können Sie festlegen, welches Seitenlayout für verschiedene Bereiche Ihrer PDF verwendet werden soll. Jedes Seitenlayout kann außerdem verschiedene Varianten für die erste, rechte oder linke Seite aufweisen.
 
-### Erstellen der Layout-Varianten für die erste, rechte oder linke Seite
+### Erstellen der Layout-Varianten für die erste, rechte oder linke Seite {#page-layout-variants}
 
 Verschiedene Seitenlayouts in Ihrer PDF-Vorlage können weiter angepasst werden, indem unterschiedliche Layoutvarianten für die erste, rechte oder linke Seite verwendet werden. Sie können diese Seiten mit dem Seitenlayout-Designer unterschiedlich entwerfen.
 
@@ -61,7 +61,7 @@ Beachten Sie beim Erstellen der Seitenlayouts die folgenden Punkte:
 
    >[!NOTE]
    >
-   >Wenn Sie kein eigenes leeres Seitenlayout erstellen, wird das standardmäßige Seitenlayout verwendet. Informationen zum Erstellen eines Seitenlayouts finden Sie unter _Neues Seitenlayout erstellen_.
+   >Wenn Sie kein eigenes leeres Seitenlayout erstellen, wird das standardmäßige Seitenlayout verwendet. Informationen zum Erstellen eines Seitenlayouts finden Sie unter [Neues Seitenlayout erstellen](components-pdf-template.md#create-page-layout).
 
 Das folgende Beispiel führt Sie durch den Prozess der Erstellung von Varianten eines Seitenlayouts:
 
@@ -85,7 +85,7 @@ Das folgende Beispiel führt Sie durch den Prozess der Erstellung von Varianten 
 
 Das Layout der ausgewählten Seite wird mithilfe einer Kopie des grundlegenden Kapitellayouts erstellt. Wenn Sie also Änderungen am standardmäßigen Seiten-Layout für Kapitel vorgenommen haben, werden dieselben Änderungen zum Zeitpunkt der Erstellung des Seitenlayouts im varianten Seitenlayout repliziert.
 
-## Arbeiten mit den Seiteneigenschaften eines Seitenlayouts
+## Arbeiten mit den Seiteneigenschaften eines Seitenlayouts {#page-props-page-layout}
 
 Beim Entwerfen eines Seitenlayouts ist es wichtig, die verschiedenen Seiteneigenschaften zu steuern. Die Funktion Natives PDF-Publishing enthält alle wichtigen Seiteneigenschaften im Bereich Seiteneigenschaften . Der Bereich Seiteneigenschaften bietet Zugriff auf verschiedene Eigenschaften in den folgenden Abschnitten:
 
@@ -93,7 +93,7 @@ Beim Entwerfen eines Seitenlayouts ist es wichtig, die verschiedenen Seiteneigen
 >
 >Das Bedienfeld Seiteneigenschaften enthält die Eigenschaften und folgt den Regeln, die unter dem [Seitenmedienstandards](https://www.w3.org/TR/css-page-3/).
 
-* **Seitengröße** : Geben Sie die Seitengröße für das Seitenlayout an. In der Dropdownliste Seitengröße können Sie aus über 15 Seitengrößen wählen. Sie können auch ein Seitenlayout mit einer benutzerdefinierten Seitengröße erstellen, siehe **Seitengröße festlegen** für weitere Details.
+* **Seitengröße** : Geben Sie die Seitengröße für das Seitenlayout an. In der Dropdownliste Seitengröße können Sie aus über 15 Seitengrößen wählen. Sie können auch ein Seitenlayout mit einer benutzerdefinierten Seitengröße erstellen, siehe [Seitengröße festlegen](design-page-layout.md#set-the-page-size) für weitere Details.
 
 * **Ausrichtung** : Geben Sie die Seitenausrichtung für das Seitenlayout an. Sie können zwischen den Ausrichtungen Hochformat oder Querformat wählen. Beachten Sie, dass Sie in einem Seitenlayout unterschiedliche Ausrichtungen auf verschiedene Seitenvarianten anwenden können. Wenn Ihr Inhalt beispielsweise eine breite Tabelle oder ein großes Bild enthält, können Sie ein Querformatlayout erstellen und dieses Layout auf die breitere Tabelle oder das Bild anwenden.
 
@@ -109,7 +109,7 @@ Beim Entwerfen eines Seitenlayouts ist es wichtig, die verschiedenen Seiteneigen
 
 * **Fußnote** : Geben Sie die Eigenschaften an, mit denen Fußnoten in der Ausgabe angezeigt werden sollen. Sie können die Eigenschaften für Ränder und Abstand sowie einen Randstil festlegen.
 
-### Seitengröße festlegen
+### Seitengröße festlegen {#set-page-size}
 
 Das allererste, was Sie in einem Seitenlayout definieren müssen, ist die Seitengröße. In den Seiteneigenschaften gibt es mehr als 15 Seitengrößen, die Sie für ein Seitenlayout auswählen können. Sie können auch eine benutzerdefinierte Seitengröße erstellen, indem Sie die folgenden Schritte ausführen:
 
@@ -117,7 +117,7 @@ Das allererste, was Sie in einem Seitenlayout definieren müssen, ist die Seiten
 
    >[!NOTE]
    >
-   >Siehe _Seitenlayout anpassen_ zum Öffnen eines Seitenlayouts zur Anpassung oder Bearbeitung.
+   >Siehe [Seitenlayout anpassen](components-pdf-template.md#customize-page-layout) zum Öffnen eines Seitenlayouts zur Anpassung oder Bearbeitung.
 
 1. Klicken Sie im rechten Bereich auf **Seiteneigenschaften**.
 1. Im **Seitengröße** Dropdown-Liste auswählen **Benutzerdefiniert**.
@@ -130,7 +130,7 @@ Das allererste, was Sie in einem Seitenlayout definieren müssen, ist die Seiten
    >
    >Einige der am häufigsten verwendeten Einheiten sind px (Pixel), pt (Punkte), rem, em, % (Prozent) und in (Zoll).
 
-### Seitenausrichtung und Anzeigenrotation verwenden
+### Seitenausrichtung und Anzeigenrotation verwenden {#page-orientation-rotation}
 
 Sehen wir uns ein Beispiel an, in dem eine Kombination aus Seitenausrichtung im Hoch- und Querformat und Seitenumdrehungseigenschaften verwendet wird. In diesem Beispiel wird eine PDF mit standardmäßiger Hochformatausrichtung erstellt, eine Tabelle wird jedoch im Querformat mit Inhalten in der 90-Grad-Ansicht im Uhrzeigersinn gerendert. Die endgültige Ausgabe sieht in etwa wie folgt aus:
 
@@ -215,7 +215,7 @@ Führen Sie die folgenden Schritte aus, um die oben genannten Aufgaben zu erledi
 
 Der Tabelleninhalt wird am Anfang des PDF im Querformat gerendert.
 
-### Hintergrundbild hinzufügen
+### Hintergrundbild hinzufügen {#add-bg-image}
 
 Je nach Ihren Anforderungen können Sie ein Hintergrundbild hinzufügen, das auf jeder ersten Seite einer Kapitelausgabe (PDF) angezeigt wird. Mit den Hintergrundeigenschaften unter &quot;Seiteneigenschaften&quot;können Sie einfach ein Hintergrundbild hinzufügen. Sie können dieses Bild auf einer Seite replizieren und das Bild an einer beliebigen Stelle im oberen, unteren oder mittleren Bereich der Seite positionieren.
 
@@ -225,7 +225,7 @@ Um beispielsweise ein Hintergrundbild in den mittleren Teil Ihres Inhaltsbereich
 
    >[!NOTE]
    >
-   >Siehe _Seitenlayout anpassen_ zum Öffnen eines Seitenlayouts zur Anpassung oder Bearbeitung.
+   >Siehe [Seitenlayout anpassen](components-pdf-template.md#customize-page-layout) zum Öffnen eines Seitenlayouts zur Anpassung oder Bearbeitung.
 
 1. Klicken Sie auf eine beliebige Stelle im Inhaltsbereich.
 
@@ -255,13 +255,13 @@ Der folgende Screenshot zeigt das Hintergrundbild mit der Eigenschaft &quot;Back
 
 <img src="./assets/background-image.png" width="500">
 
-## Arbeiten mit Seitenkopf- und -fußzeile
+## Arbeiten mit Seitenkopf- und -fußzeile {#work-header-footer}
 
 Wenn Sie Informationen in eine Kopf- oder Fußzeile eines Seitenlayouts aufnehmen, werden diese Informationen auf allen Seiten mit diesem Seitenlayout wiederholt. In der Regel wird der Kopfzeilenbereich für den Kapitel- oder Thementitel und der Fußzeilenbereich für die Anzeige der Seitenzahlen verwendet.
 
 Wenn Sie ein neues Seitenlayout erstellen, wird der Kopf- und Fußzeilenbereich standardmäßig erstellt. Sie können viele Anpassungen im Kopf- und Fußzeilenbereich eines Seitenlayouts vornehmen. Sie können beispielsweise ein Bild (wie ein Logo), Variablen (mit dynamischen Informationen) oder statischen Inhalt einfügen.
 
-### Ändern der Kopf- und Fußzeilenränder und -zeilen
+### Ändern der Kopf- und Fußzeilenränder und -zeilen {#header-footer-margins}
 
 Standardmäßig sind die Ränder für Kopf- und Fußzeilen auf 1 Zoll eingestellt. Sie können diesen Standardwert ändern, indem Sie im Bereich Seiteneigenschaften die Einstellung Rand ändern. Führen Sie die folgenden Schritte aus, um die Kopf- und Fußzeilengröße zu ändern:
 
@@ -269,7 +269,7 @@ Standardmäßig sind die Ränder für Kopf- und Fußzeilen auf 1 Zoll eingestell
 
    >[!NOTE]
    >
-   >Siehe _Seitenlayout anpassen_ zum Öffnen eines Seitenlayouts zur Anpassung oder Bearbeitung.
+   >Siehe [Seitenlayout anpassen](components-pdf-template.md#customize-page-layout) zum Öffnen eines Seitenlayouts zur Anpassung oder Bearbeitung.
 
 1. Klicken Sie im rechten Bereich auf **Seiteneigenschaften**.
 1. Erweitern Sie die **Layout** Abschnitt.
@@ -301,7 +301,7 @@ Wenn Sie direkt mit dem CSS- und HTML-Code arbeiten möchten, können Sie die Ra
 >
 >Im obigen Beispiel werden verschiedene Einheiten verwendet, um die Randwerte anzugeben.
 
-### Kopf- und Fußzeile entfernen
+### Kopf- und Fußzeile entfernen {#remove-header-footer}
 
 Die Überlagerung für Kopf- und Fußzeile befindet sich am oberen und unteren Rand. Technisch gesehen bedeutet dies, dass Sie, wenn Sie eine Kopf- und Fußzeile in Ihrem Seitenlayout haben möchten, den erforderlichen Platz am oberen und unteren Rand beibehalten müssen.
 
@@ -310,7 +310,7 @@ Wenn Sie nicht möchten, dass ein Seitenlayout über eine Kopf- und Fußzeile ve
 * Wenn Sie die oberen und unteren Ränder beibehalten möchten, lassen Sie den Kopf- und Fußzeilenbereich leer.
 * Wenn Sie die oberen und unteren Ränder nicht beibehalten möchten (z. B. die Vorder- und Rückseite einer Zeitschrift), können Sie die Ränder entfernen, indem Sie die Eigenschaften für die oberen und unteren Ränder auf 0 setzen. Dadurch bleibt kein Platz für die Kopf- und Fußzeile.
 
-### Hinzufügen eines Bildes oder eines Logos in der Kopfzeile
+### Hinzufügen eines Bildes oder eines Logos in der Kopfzeile {#add-image-header}
 
 Je nach Ihren Anforderungen können Sie ein Bild hinzufügen, das im Kopfzeilenbereich (oder einem anderen Teil) des Seitenlayouts angezeigt wird. Es gibt zwei Möglichkeiten, ein Bild in Ihrem Seitenlayout hinzuzufügen:
 
@@ -327,7 +327,7 @@ Gehen Sie wie folgt vor, um ein Bild wie das Logo Ihres Unternehmens in den Kopf
 
 >[!NOTE]
 >
->Siehe _Seitenlayout anpassen_ zum Öffnen eines Seitenlayouts zur Anpassung oder Bearbeitung.
+>Siehe [Seitenlayout anpassen](components-pdf-template.md#customize-page-layout) zum Öffnen eines Seitenlayouts zur Anpassung oder Bearbeitung.
 
 1. Klicken Sie auf die Kopfzeile bearbeiten (<img src="./assets/header-icon.svg" width="25">), um den Cursor in den Kopfzeilenbereich zu bringen.
 
@@ -341,9 +341,9 @@ Der folgende Screenshot zeigt ein Beispielbild, das im Kopfzeilenbereich hinzuge
 
 <img src="./assets/image-in-header-area.png" width="500">
 
-Nachdem ein Bild eingefügt wurde, können Sie seine Attribute ändern, um ihm das gewünschte Aussehen zu verleihen. Die einfachste Möglichkeit, die Darstellung eines Bildes oder eines anderen Elements im Seitenlayout zu ändern, besteht darin, den Bereich Inhaltseigenschaften zu verwenden. Siehe _Arbeiten mit dem Bereich &quot;Inhaltseigenschaften&quot;_ für die verschiedenen Eigenschaften, die über die Benutzeroberfläche zur Anpassung verfügbar sind.
+Nachdem ein Bild eingefügt wurde, können Sie seine Attribute ändern, um ihm das gewünschte Aussehen zu verleihen. Die einfachste Möglichkeit, die Darstellung eines Bildes oder eines anderen Elements im Seitenlayout zu ändern, besteht darin, den Bereich Inhaltseigenschaften zu verwenden. Siehe [Arbeiten mit dem Bereich &quot;Inhaltseigenschaften&quot;](design-page-layout.md#work-with-content-properties-panel) für die verschiedenen Eigenschaften, die über die Benutzeroberfläche zur Anpassung verfügbar sind.
 
-### Felder und Metadaten hinzufügen
+### Felder und Metadaten hinzufügen {#add-fields-metadata}
 
 Felder sind sehr nützlich, wenn Sie vordefinierte Informationen einfügen möchten. Sie können beispielsweise ein Feld für den Kapiteltitel in den Kopfzeilenbereich Ihres Kapitels einfügen, das bei seiner Veröffentlichung durch den Titel des Kapitels ersetzt wird.
 
@@ -361,7 +361,7 @@ Es gibt die folgenden Kategorien für Felder, die Sie in Ihr Seitenlayout einfü
 
 Jede dieser Feldkategorien enthält verschiedene Varianten, in die die Feldinformationen eingefügt werden können. Ein Datumsfeld kann beispielsweise unterschiedliche Varianten aufweisen, z. B. `YYYY-MM-DD`, `MM/DD/YY`, `MM/DD/YYYY` und so weiter. Auf ähnliche Weise kann die Seitenzahl Variationen in Form von roman-, decimal- oder sogar gebietsschemaspezifischen Formaten wie _Arabisch_, _Devanagari_, _Hebräisch_ und mehr.
 
-Zusätzlich zu den vordefinierten Feldern können Sie auch Metadateninformationen als Variablen oder Felder in Ihrem Seitenlayout hinzufügen. Diese Metadaten werden in Ihrem Quell-DITA-Map-Inhalt gespeichert und können einfach in Ihr Seitenlayout eingefügt werden. Weitere Informationen finden Sie unter _Arbeiten mit Feldern und Metadaten_.
+Zusätzlich zu den vordefinierten Feldern können Sie auch Metadateninformationen als Variablen oder Felder in Ihrem Seitenlayout hinzufügen. Diese Metadaten werden in Ihrem Quell-DITA-Map-Inhalt gespeichert und können einfach in Ihr Seitenlayout eingefügt werden. Weitere Informationen finden Sie unter [Felder und Metadaten hinzufügen](design-page-layout.md#add-fields-and-metadata).
 
 Im folgenden Beispiel werden wir eine Seitenzahl und einen Kapiteltitel in den Fußzeilenbereich eines Seitenlayouts einfügen.
 
@@ -369,7 +369,7 @@ Im folgenden Beispiel werden wir eine Seitenzahl und einen Kapiteltitel in den F
 
    >[!NOTE]
    >
-   >Siehe _Seitenlayout anpassen_ zum Öffnen eines Seitenlayouts zur Anpassung oder Bearbeitung.
+   >Siehe [Seitenlayout anpassen](components-pdf-template.md#customize-page-layout) zum Öffnen eines Seitenlayouts zur Anpassung oder Bearbeitung.
 
 1. Klicken Sie auf **Fußzeile bearbeiten** (![](./assets/footer-icon.svg)), um den Cursor in den Fußzeilenbereich zu bringen.
 
@@ -387,7 +387,7 @@ Im folgenden Beispiel werden wir eine Seitenzahl und einen Kapiteltitel in den F
 
    >[!NOTE]
    >
-   >Sie können auch das Format aller Felder mit Ausnahme des Standardformats bearbeiten. Klicken Sie dazu auf das Symbol Bearbeiten neben dem Format, das Sie bearbeiten möchten, nehmen Sie Änderungen vor und klicken Sie auf OK. Weitere Informationen finden Sie unter _Arbeiten mit Feldern und Metadaten_.
+   >Sie können auch das Format aller Felder mit Ausnahme des Standardformats bearbeiten. Klicken Sie dazu auf das Symbol Bearbeiten neben dem Format, das Sie bearbeiten möchten, nehmen Sie Änderungen vor und klicken Sie auf OK. Weitere Informationen finden Sie unter [Felder und Metadaten hinzufügen](design-page-layout.md#add-fields-and-metadata).
 
    Das standardmäßige Feld für die Seitenzahl wird in den Fußzeilenbereich des Seitenlayouts eingefügt.
 
@@ -433,7 +433,7 @@ Wenn Sie direkt mit dem CSS- und HTML-Code arbeiten möchten, können Sie dies a
 …
 ```
 
-## Arbeiten mit dem Inhaltsbereich
+## Arbeiten mit dem Inhaltsbereich {#content-area}
 
 Der Inhaltsbereich ist gemessen am Inhaltsbereich der größte Bereich. Der Inhaltsbereich wird mit dem Inhalt Ihres Themas gefüllt. In einigen Sonderfällen können Sie Bausteininhalte im Inhaltsbereich hinzufügen. Dieser Inhalt wird an der angegebenen Stelle in Ihrem Seitenlayout veröffentlicht. Beispielsweise kann die Überschrift in Ihrem Inhaltsverzeichnis, Glossar und Index als Textbausteininhalt hinzugefügt werden, der &quot;unverändert&quot;in der endgültigen Ausgabe veröffentlicht wird. Ein weiteres Beispiel ist das Kapitel-TOC, das normalerweise auf der ersten Seite eines jeden Kapitels hinzugefügt wird.
 
@@ -441,7 +441,7 @@ Eine der am häufigsten verwendeten Anpassungen im Inhaltsbereich ist das mehrsp
 
 In den folgenden Abschnitten werden wir verschiedene Szenarien behandeln, um den Inhaltsbereich anzupassen.
 
-### Kapitel-Inhaltsverzeichnis hinzufügen
+### Kapitel-Inhaltsverzeichnis hinzufügen {#add-chapter-toc}
 
 Ein Kapitelinhaltsverzeichnis dient den Lesern als Kurzanleitung, um zu erfahren, was im Kapitel enthalten ist. Normalerweise wird ein Kapitel-Inhaltsverzeichnis ganz am Anfang eines Kapitels hinzugefügt. Wenn Sie also ein Kapitel-Inhaltsverzeichnis verwenden möchten, können Sie es im Inhaltsbereich des Hauptseitenlayouts des Kapitels oder der ersten Seitenlayoutvariante eines Kapitels hinzufügen.
 
@@ -455,7 +455,7 @@ Im folgenden Beispiel wird ein Kapitel-TOC in das erste Seitenlayout eines Kapit
 
    >[!NOTE]
    >
-   >Siehe _Seitenlayout anpassen_ zum Öffnen eines Seitenlayouts zur Anpassung oder Bearbeitung.
+   >Siehe [Seitenlayout anpassen](components-pdf-template.md#customize-a-page-layout) zum Öffnen eines Seitenlayouts zur Anpassung oder Bearbeitung.
 
 1. Platzieren Sie den Cursor im Inhaltsbereich des Seitenlayouts.
 
@@ -489,7 +489,7 @@ Das Erscheinungsbild des Standard-Inhaltsverzeichnisses kann mithilfe der Styles
 >
 >Wenn Sie derzeit Stilaktualisierungen in einem Stylesheet vornehmen, wird dies möglicherweise nicht in der Inhaltsvorschau angezeigt. Die Ausgabe wird jedoch mit den aktualisierten Stilen gerendert.
 
-### Arbeiten mit mehrspaltigem Seitenlayout
+### Arbeiten mit mehrspaltigem Seitenlayout {#multi-column-layout}
 
 Mehrspaltige Seitenlayouts kommen häufig bei der Veröffentlichung von Zeitschriften oder Indizes in einem Buch vor. Mit der nativen PDF-Veröffentlichungsfunktion können Sie Ihr Dokument einfach in mehrere Spalten aufteilen. Bei unterschiedlichen Seitenlayouts können Sie festlegen, dass nur ein bestimmter Abschnitt in mehrere Spalten unterteilt bleibt, während Sie die anderen Abschnitte in einem einzigen Spalten- (oder normalen) Layout beibehalten.
 
@@ -499,7 +499,7 @@ So erstellen Sie ein Seitenlayout mit mehreren Spalten:
 
    >[!NOTE]
    >
-   >Siehe _Seitenlayout anpassen_ zum Öffnen eines Seitenlayouts zur Anpassung oder Bearbeitung.
+   >Siehe [Seitenlayout anpassen](components-pdf-template.md#customize-a-page-layout) zum Öffnen eines Seitenlayouts zur Anpassung oder Bearbeitung.
 
 1. Da das mehrspaltige Layout auf den Inhalt angewendet wird, mit Ausnahme des Kopf- und Fußzeilenbereichs, müssen Sie das Inhaltselement im Breadcrumb auswählen.
 
@@ -536,7 +536,7 @@ So erstellen Sie ein Seitenlayout mit mehreren Spalten:
    * **Spaltenregel** : Wenn Sie eine Zeile zwischen Spalten haben möchten, verwenden Sie diese Eigenschaft, um die Zeilen- oder Regelstile zu definieren. Geben Sie die Werte für Stil, Farbe und Breite des Lineals an, um eine Linie zwischen den Spalten hinzuzufügen.
 
 
-## Arbeiten mit dem Bereich &quot;Inhaltseigenschaften&quot;
+## Arbeiten mit dem Bereich &quot;Inhaltseigenschaften&quot; {#work-with-content-props}
 
 Im Bereich &quot;Inhaltseigenschaften&quot;können Sie das Erscheinungsbild der Elemente auf Ihrer Seite einfach aktualisieren. Die Eigenschaften im Bereich Inhaltseigenschaften sind in die folgenden Abschnitte unterteilt:
 

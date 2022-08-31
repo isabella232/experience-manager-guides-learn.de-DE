@@ -3,14 +3,15 @@ title: Native PDF-Veröffentlichungsfunktion | Anpassen und Konfigurieren der na
 description: Erfahren Sie, wie Sie die verschiedenen Komponenten der nativen PDF-Funktion anpassen und konfigurieren.
 hide: true
 hidefromtoc: true
-source-git-commit: 0f18d9f7d7967b6f25c5d05b54a22f65e9fc20f7
+exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
+source-git-commit: 563a301e4db20cd8076eaffd970d53b7a8743449
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 0%
 
 ---
 
-# PDF-Vorlage
+# PDF-Vorlage {#PDF-template}
 
 Die Verwendung einer Vorlage stellt die Konsistenz des Inhaltslayouts und der Inhaltsstruktur sicher. Da Vorlagen vordefiniert sind, können Sie Formatierungsprobleme, die bei jedem neuen Projekt oder jeder neuen Aktualisierung auftreten, vermeiden. Mit Vorlagen können Sie Seitenlayouts entwerfen, Inhalte gestalten und verschiedene Einstellungen anwenden, um Ihre PDF anzupassen.
 
@@ -31,7 +32,7 @@ Gehen Sie wie folgt vor, um eine neue PDF-Vorlage zu erstellen:
 
 Die neue Vorlage wird erstellt und im *Vorlagen* Bereich.
 
-## PDF-Vorlage duplizieren
+## PDF-Vorlage duplizieren {#duplicate-pdf-template}
 
 Wenn Sie eine neue Vorlage mit demselben Seitenlayout und derselben Formatierung wie eine vorhandene Vorlage erstellen möchten, können Sie eine Kopie erstellen. Nachdem eine Vorlage dupliziert wurde, können Sie ihre Komponenten nach Bedarf weiter anpassen.
 
@@ -53,7 +54,7 @@ Gehen Sie wie folgt vor, um eine vorhandene PDF-Vorlage zu duplizieren:
 
    Eine duplizierte Vorlage wird unter Vorlagen erstellt und hinzugefügt.
 
-## PDF-Vorlage anpassen
+## PDF-Vorlage anpassen {#customize-pdf-template}
 
 Sie können Vorlagen anpassen, indem Sie die Vorlagenkomponenten anpassen und Stilformate mithilfe von Stylesheets anwenden.
 
@@ -71,13 +72,11 @@ Gehen Sie wie folgt vor, um eine PDF-Vorlage anzupassen:
    <img src="assets/customize-pdf-template.png" alt="Anpassen von PDF Teamplte" width="350">
 
    Die verschiedenen Vorlagenkomponenten, die Sie anpassen können, werden in die folgenden Abschnitte kategorisiert:
-   * Seitenlayouts: Eine typische PDF enthält verschiedene Seiten, wie z. B. ein Titelblatt oder eine Titelseite, ein Inhaltsverzeichnis, ein Kapitel, einen Index usw. Im Bereich Seitenlayouts können Sie das Erscheinungsbild verschiedener Seiten entwerfen, aus denen sich Ihre PDF zusammensetzt. Zusätzlich zum Erscheinungsbild können Sie auch die Anordnung der Seitenelemente wie Kopf- und Fußzeilen sowie Inhaltsbereiche auf einer Seite definieren. Weitere Informationen zum Anpassen des Seitenlayouts finden Sie unter ***Seitenlayouts erstellen und anpassen***.
-   * Stylesheets: Mit den Einstellungen im Abschnitt Stylesheets können Sie das Erscheinungsbild der Seitenlayoutkomponenten anpassen, wie das Inhaltsverzeichnis, den Index, das Glossar und mehr. Darüber hinaus können Sie die Stile für den DITA-Inhalt wie Überschriften, Absätze, Listen und mehr anpassen. Weitere Informationen zur Verwendung der Stylesheets finden Sie unter ***Verwenden von Stylesheets zum Anpassen von PDF***.
-   * Ressourcen: Speichern Sie Asset-Dateien, die Sie zum Anpassen oder Entwerfen von PDF-Vorlagen benötigen. Assets wie Logos, benutzerdefinierte Schriftarten, Hintergrundbilder und mehr werden in den Ressourcen gespeichert. Weitere Informationen zur Verwendung von Ressourcen finden Sie unter ***Arbeiten mit Ressourcen***.
-   * Einstellungen: Konfigurieren Sie die Ausgabeeinstellungen zum Generieren einer PDF mithilfe der Vorlage. In diesem Abschnitt können Sie die Vorlagenzuordnung für verschiedene Seiten in einer PDF, Kapitel-Startseite, Druckmarken und mehr definieren. Weitere Informationen zum Anwenden von Einstellungen finden Sie unter ***Erweiterte PDF-Einstellungen***.
+   * Seitenlayouts: Eine typische PDF enthält verschiedene Seiten, wie z. B. ein Titelblatt oder eine Titelseite, ein Inhaltsverzeichnis, ein Kapitel, einen Index usw. Im Bereich Seitenlayouts können Sie das Erscheinungsbild verschiedener Seiten entwerfen, aus denen sich Ihre PDF zusammensetzt. Zusätzlich zum Erscheinungsbild können Sie auch die Anordnung der Seitenelemente wie Kopf- und Fußzeilen sowie Inhaltsbereiche auf einer Seite definieren. Weitere Informationen zum Anpassen des Seitenlayouts finden Sie unter [Seitenlayouts erstellen und anpassen](components-pdf-template.md#create-customize-page-layout).
+   * Stylesheets: Mit den Einstellungen im Abschnitt Stylesheets können Sie das Erscheinungsbild der Seitenlayoutkomponenten anpassen, wie das Inhaltsverzeichnis, den Index, das Glossar und mehr. Darüber hinaus können Sie die Stile für den DITA-Inhalt wie Überschriften, Absätze, Listen und mehr anpassen. Weitere Informationen zur Verwendung der Stylesheets finden Sie unter [Verwenden von Stylesheets zum Anpassen von PDF](components-pdf-template.md#stylesheet-customization).
+   * Ressourcen: Speichern Sie Asset-Dateien, die Sie zum Anpassen oder Entwerfen von PDF-Vorlagen benötigen. Assets wie Logos, benutzerdefinierte Schriftarten, Hintergrundbilder und mehr werden in den Ressourcen gespeichert. Weitere Informationen zur Verwendung von Ressourcen finden Sie unter [Arbeiten mit Ressourcen](components-pdf-template.md#work-with-resources).
+   * Einstellungen: Konfigurieren Sie die Ausgabeeinstellungen zum Generieren einer PDF mithilfe der Vorlage. In diesem Abschnitt können Sie die Vorlagenzuordnung für verschiedene Seiten in einer PDF, Kapitel-Startseite, Druckmarken und mehr definieren. Weitere Informationen zum Anwenden von Einstellungen finden Sie unter [Erweiterte PDF-Einstellungen](components-pdf-template.md#advanced-pdf-settings).
 1. Doppelklicken Sie zum Anpassen einer Vorlagenkomponente auf eine Vorlagenkomponente oder klicken Sie davor auf das Symbol > .
 
    Doppelklicken Sie beispielsweise auf *Seitenlayouts* oder klicken Sie auf *>* Symbol vor *Seitenlayouts* um die verfügbaren Seitenlayouts anzuzeigen.
 1. Nachdem Sie die gewünschten Änderungen vorgenommen haben, klicken Sie auf *Alle speichern* (oder `Ctrl+S`).
-
-

@@ -3,7 +3,7 @@ title: Native PDF-Veröffentlichungsfunktion | Arbeiten mit allgemeinen Inhaltss
 description: Erfahren Sie, wie Sie Stile für Ihren Inhalt erstellen und Stile erstellen.
 hide: true
 hidefromtoc: true
-source-git-commit: 78db1486af3eb99b165a136d6bae6f7f15a1b527
+source-git-commit: 563a301e4db20cd8076eaffd970d53b7a8743449
 workflow-type: tm+mt
 source-wordcount: '3500'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 ---
 
 
-# Arbeiten mit allgemeinen Inhaltsstilen
+# Arbeiten mit allgemeinen Inhaltsstilen {#work-with-common-styles}
 
 Ein Stylesheet enthält die Stildefinitionen für die Elemente, die in Ihrer PDF-Ausgabe verwendet werden. Sie können zwischen der Arbeit mit den Beispiel-Stylesheets oder der Erstellung neuer Stylesheets wählen. In den meisten Fällen hilft Ihnen das Erstellen einer Kopie des OOTB-Musterstylesheets beim schnellen Einstieg.
 
@@ -36,7 +36,7 @@ In den folgenden Abschnitten werden die am häufigsten verwendeten Stileinstellu
 >
 >In den folgenden Beispielen wird davon ausgegangen, dass Sie mit dem mit dem Produkt gelieferten Stylesheet arbeiten.
 
-## Arbeiten mit Überschriftenstilen
+## Arbeiten mit Überschriftenstilen {#heading-styles}
 
 Die Überschriftenstile enthalten alle Basisstile für die Überschriften, die in Ihrem Inhalt verwendet werden. OOTB erhalten Sie 6 grundlegende Überschriftenstile und einen Überschriftenstil für das Thema/Kapitel und die Überschrift des Anhangs. In einem strukturierten Dokument stellt H1 den Titel des Themas oder Kapitels dar und H2 bis H6 wird für Unterthemen oder Abschnitte innerhalb eines Themas/Kapitels verwendet. Diese Hierarchie von Überschriften wird automatisch auf Ihren Inhalt angewendet, sobald die entsprechende Überschrift gefunden wird.
 
@@ -44,7 +44,7 @@ Die Überschriftenstile enthalten alle Basisstile für die Überschriften, die i
 >
 >Sie können eigene benutzerdefinierte Überschriftenstile erstellen und diese in Ihren Inhalten mit der Ausgabeklasse verwenden. Weitere Informationen finden Sie in Schritt 4 unter *Seitenausrichtung und Anzeigenrotation verwenden* Beispiel.
 
-### Erstellen benutzerdefinierter Überschriften auf Kapitelebene
+### Erstellen benutzerdefinierter Überschriften auf Kapitelebene {#create-chapter-level-heading}
 
 In einem Buch (oder einer Bookmap) arbeiten Sie mit Kapiteln. Die grundlegenden Überschriftenstile werden so gestaltet, dass sie ohne Anpassungen auf Ihre Überschriften auf Kapitelebene angewendet werden. Wenn Sie jedoch spezielle Überschriften für Ihren Inhalt erstellen möchten, müssen Sie diese Überschriften erstellen. Beispielsweise wird die Standardeinstellung `h1.chapter` -Überschrift wird auf den Titel Ihres Kapitels angewendet. Wenn Ihr Kapiteltitel in einem anderen Stil angezeigt werden soll, müssen Sie die `h1.chapter` Stil. Auf ähnliche Weise können Sie benutzerdefinierte Stile für Unterüberschriften in Ihrem Kapitel erstellen. Wenn Sie beispielsweise einen benutzerdefinierten Stil für alle 2 erstellen möchten<sup>nd</sup> und 3<sup>rd</sup> Ebenenüberschriften in Ihrem Kapitel erstellen Sie dann einen neuen Stil als `h2.chatper` und `h3.chatper`.
 
@@ -66,7 +66,7 @@ Ein neuer Überschriftenstil mit dem Namen `h2.chapter` wird erstellt und unter 
 
 Nachdem Sie einen Stil erstellt haben, können Sie die erforderlichen Eigenschaften des Stils mit dem Stileditor anpassen.
 
-### Erstellen von Überschriften für automatische Nummern
+### Erstellen von Überschriften für automatische Nummern {#auto-number-heading}
 
 Einer der am häufigsten verwendeten Ausgabeformate sind automatisch nummerierte Überschriften. Diese Überschriften stellen die Kapitelnummer, Themen und Unterthemennummern dar. Die Überschriften mit automatischer Nummer unterscheiden sich von den Listenstilen, bei denen einer Liste von Elementen innerhalb eines Themas automatische Zahlen zugewiesen werden.
 
@@ -129,11 +129,11 @@ Die Eigenschaften für den h1-Stil werden zusammen mit der Vorschau im Bereich E
 
    <img src="./assets/auto-number-output.png" width="500">
 
-## Arbeiten mit Absatzstilen
+## Arbeiten mit Absatzstilen {#paragraph-style}
 
 Es kann ein Absatzstil erstellt werden, um eine spezielle Formatierung auf einen ganzen Absatz anzuwenden. Mit der Pseudo-Klasse können Sie jedoch einen Stil nur auf einen bestimmten Teil des Textes anwenden. Im folgenden Beispiel erstellen wir einen Absatzstil, um den Stil der Dropcap-Komponente zu verwenden.
 
-### Erstellen des Dropcap-Stils
+### Erstellen des Dropcap-Stils {#drop-cap-style}
 
 In Magazinen und literarischen Dokumenten wird ein Tropfendeckel (oder ein fallendes Kapital) verwendet, wobei das erste Zeichen eines Absatzes oder Abschnitts mit einem speziellen Stil versehen ist. Mit der Funktion &quot;Native PDF-Veröffentlichung&quot;können Sie denselben Effekt erzielen.
 
@@ -164,11 +164,11 @@ Als `p` -Tag mit dem `<p>` -Element in DITA verwenden, müssen Sie diesen Stil n
 
 <img src="./assets/char-style-drop-cap.png" width="500">
 
-## Arbeiten mit Zeichenstilen
+## Arbeiten mit Zeichenstilen {#char-style}
 
 Mithilfe der Zeichenstile können Sie Stile zum Formatieren von Zeichen oder Wörtern in Ihrem Inhalt erstellen. Sie können beispielsweise einen Zeichenstil für Inline-Code oder Dateinamen erstellen oder einen Stil erstellen, der mehrere Formatierungsformate für ausgewählten Inhalt verwendet.
 
-### Erstellen eines Inline-Zeichenstils
+### Erstellen eines Inline-Zeichenstils {#inline-char-style}
 
 Die Formatierung von Inline-Zeichen oder Wörtern in einem Absatz ist ein sehr häufiger Stil. Der Prozess der Erstellung eines Inline-Stils umfasst zwei Aufgaben: Erstellen Sie zunächst einen neuen Stil im Stylesheet und wenden Sie anschließend den Stil in Ihren Inhalt mithilfe der `outputclass` -Attribut.
 
@@ -210,7 +210,7 @@ Das folgende Beispiel zeigt das Format &quot;Fett kursiv&quot;, das an verschied
 
 <img src="./assets/char-format-applied.png" width="500">
 
-## Listenstil anpassen
+## Listenstil anpassen {#custom-list-style}
 
 Die Listenstile enthalten die standardmäßigen Stileinstellungen für die sortierten und unsortierten Listen. Sie können diese Listenstile einfach an Ihre Dokumentationsanforderungen anpassen.
 
@@ -269,7 +269,7 @@ Im folgenden Beispiel wird der Stil einer nummerierten oder sortierten Liste ang
       <img src="./assets/list-number-format-final.png" width="500">
 
 
-## Arbeiten mit Tabellenstil
+## Arbeiten mit Tabellenstil {#table-styles}
 
 Mit den Stylesheets können Sie *n* Anzahl der Tabellenstile. Mithilfe der Tabellenstile können Sie entwerfen, wie die gesamte Tabelle, eine bestimmte Zeile oder Spalte dargestellt wird. Mit Steuerung auf Zellenebene können Sie sehr anschauliche Tabellenstile erstellen.
 
@@ -320,7 +320,7 @@ Im folgenden Beispiel sehen wir, wie Sie einen Tabellenstil und die verschiedene
 
    <img src="./assets/table-final-design.png" width="500">
 
-## Arbeiten mit anderen Stilen
+## Arbeiten mit anderen Stilen {#other-styles}
 
 Wenn Sie mit strukturiertem (DITA-)Inhalt arbeiten, werden Sie feststellen, dass fast alle DITA-Elemente im Standard-Stylesheet über ein Stilmapping verfügen. Beispiel: eine `<shortdesc>` Der Stil des Elements wird unter definiert. **Sonstige Stile** > **.shortdesc** Stildefinition. Sie können diese Stile einfach anpassen und sie werden automatisch in der PDF-Ausgabe angewendet, die aus Ihrem strukturierten Inhalt generiert wird. Das bedeutet, dass Sie im Gegensatz zu anderen benutzerdefinierten Stilen keine `outputclass` -Attribut auf den Inhalt für diese Stile.
 

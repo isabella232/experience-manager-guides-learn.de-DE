@@ -4,30 +4,34 @@ description: Lernen Sie die verschiedenen Komponenten einer PDF-Vorlage kennen u
 hide: true
 hidefromtoc: true
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: e0602e325fec014fe5a9ebe231b0c62611a4e52d
+source-git-commit: 563a301e4db20cd8076eaffd970d53b7a8743449
 workflow-type: tm+mt
-source-wordcount: '2295'
+source-wordcount: '2275'
 ht-degree: 0%
 
 ---
 
-# Komponenten einer PDF-Vorlage
+# Komponenten einer PDF-Vorlage {#components-pdf-template}
 
 Eine PDF-Vorlage besteht aus vier Komponenten: Seitenlayouts, Stylesheets, Ressourcen und Einstellungen. Sie können eine Vorlage erstellen, indem Sie diese einzelnen Komponenten anpassen und die Vorlage beim Generieren einer PDF-Ausgabe mit einer Ausgabevorgabe verknüpfen. In den folgenden Abschnitten werden diese Komponenten und ihr Anpassungsprozess ausführlich beschrieben.
 
 
-## Seitenlayouts erstellen und anpassen
+## Seitenlayouts erstellen und anpassen {#create-customize-page-layout}
 
 Mit den Einstellungen in der Komponente Seitenlayouts können Sie die Struktur einer Seite entwerfen, indem Sie die Kopf- und Fußzeile sowie den Inhaltsbereich auf einer Seite definieren. Mit dem WYSIWYG-Seitenlayouteditor können Sie ein Seitenlayout für verschiedene Bereiche in einer PDF erstellen, z. B. für die Titelseiten vor und zurück, Kapitel, Inhaltsverzeichnis (Inhaltsverzeichnis), Index, leere Seite, Bildliste (LOF), Tabellenliste (LOT), Glossar oder ein Layout für eine benutzerdefinierte Seite. In den PDF-Vorlageneinstellungen können Sie ein Seitenlayout mit verschiedenen Abschnitten innerhalb einer PDF zuweisen, die dann zum Generieren der PDF-Ausgabe verwendet werden.
 
-### Neues Seitenlayout erstellen
+### Neues Seitenlayout erstellen {#create-page-layout}
 
-> **Hinweis**: Es gibt Beispielseitenlayouts, die standardmäßig bereitgestellt werden. Sie können diese anpassen oder neue Seitenlayouts erstellen.
+>[!NOTE]
+>
+>Es gibt Beispielseitenlayouts, die standardmäßig bereitgestellt werden. Sie können diese anpassen oder neue Seitenlayouts erstellen.
 
 1. Navigieren Sie im Web-Editor zum **Ausgabe** Registerkarte.
 1. Erweitern Sie die linke Seitenleiste und klicken Sie auf **Vorlagen**.
 1. Öffnen Sie die Vorlage, mit der Sie arbeiten möchten.
-   > **Hinweis**: Sie können eine Vorlage öffnen, indem Sie auf ihren Namen doppelklicken oder auf das Symbol > neben ihrem Namen klicken.
+   >[!NOTE]
+   >
+   >Sie können eine Vorlage öffnen, indem Sie auf ihren Namen doppelklicken oder auf das Symbol > neben ihrem Namen klicken.
 1. Führen Sie einen der folgenden Schritte aus, um ein neues Seitenlayout zu erstellen:
    * Bewegen **Seitenlayouts** und klicken Sie auf (*Optionen* Symbol) **...** und wählen Sie **Neues Seitenlayout**.
    * Im **Vorlagen** auf **+** Symbol neben **Vorlagen** und wählen Sie **Seitenlayout** aus dem Kontextmenü aus.
@@ -36,12 +40,14 @@ Mit den Einstellungen in der Komponente Seitenlayouts können Sie die Struktur e
 
       <img src="assets/add-layout-2.png" alt="Dialogfeld "Layout hinzufügen"" width="250">
 1. Geben Sie einen Namen für das neue Seitenlayout an.
-   > **Hinweis:** Vermeiden Sie die Verwendung von Sonderzeichen bei der Benennung eines Seitenlayouts. Ein Leerzeichen im Namen wird durch einen Unterstrich &quot;_&quot;ersetzt.
+   >[!NOTE]
+   >
+   >Vermeiden Sie die Verwendung von Sonderzeichen bei der Benennung eines Seitenlayouts. Ein Leerzeichen im Namen wird durch einen Unterstrich &quot;_&quot;ersetzt.
 1. Klicken Sie auf **Fertig**.
 
    Das neue Layout wird unter Seitenlayouts erstellt und hinzugefügt.
 
-### Duplizieren eines Seitenlayouts
+### Duplizieren eines Seitenlayouts {#duplicate-page-layout}
 
 1. Im **Vorlagen** Bereich der Vorlage, die Sie duplizieren möchten, doppelklicken Sie auf **Seitenlayouts** oder klicken Sie auf **>** Symbol vor **Seitenlayouts**.
 
@@ -54,7 +60,7 @@ Mit den Einstellungen in der Komponente Seitenlayouts können Sie die Struktur e
 1. Klicken Sie auf **Fertig**.
 Eine Kopie des ausgewählten Seitenlayouts wird erstellt und unter Seitenlayouts hinzugefügt.
 
-### Seitenlayout anpassen
+### Seitenlayout anpassen {#customize-page-layout}
 
 1. Im **Vorlagen** in der Vorlage, die Sie bearbeiten möchten, doppelklicken Sie auf **Seitenlayouts** oder klicken Sie auf **>** Symbol vor **Seitenlayouts**.
 
@@ -66,13 +72,13 @@ Eine Kopie des ausgewählten Seitenlayouts wird erstellt und unter Seitenlayouts
    Dadurch wird der Seitenlayout-Editor zur Anpassung geöffnet.
 1. Nachdem Sie die gewünschten Änderungen vorgenommen haben, klicken Sie auf *Alle speichern* (oder `Crl+S`).
 
-   Weitere Informationen zum Definieren einzelner Layoutelemente wie Kopf- und Fußzeile, Seitenzahl, Titel und mehr finden Sie unter *Arbeiten mit Seitenlayoutelementen*.
+   Weitere Informationen zum Definieren einzelner Layoutelemente wie Kopf- und Fußzeile, Seitenzahl, Titel und mehr finden Sie unter [Erstellen eines Seitenlayouts](design-page-layout.md).
 
-## Verwenden von Stylesheets zum Anpassen von PDF
+## Verwenden von Stylesheets zum Anpassen von PDF {#stylesheet-customization}
 
 Mit den Einstellungen in der Komponente &quot;Stylesheets&quot;können Sie die Seitenlayoutkomponenten und DITA-Inhalte mit dem WYSIWYG-Editor gestalten oder direkt mit der CSS-Datei arbeiten. Sie können eigene Stile erstellen oder die Standardstileigenschaften anpassen. Der WYSIWYG-Editor bietet Ihnen Zugriff auf die meisten Eigenschaften, die Sie zum Gestalten Ihres Seitenlayouts oder DITA-Inhalts benötigen. Für erweiterte Anpassungen können Sie direkt in der Quellansicht arbeiten.
 
-### Neues Stylesheet erstellen
+### Neues Stylesheet erstellen {#create-stylesheet}
 
 Während CSS-Dateien für Inhalt und Layout bereitgestellt werden, können Sie ein neues Stylesheet erstellen, um mehrere Anpassungen auf einen bestimmten Stiltyp anzuwenden, der dann auf eine Zielkomponente angewendet werden kann. Standardmäßig werden Beispiel-CSS-Dateien innerhalb des Produkts gebündelt. Diese CSS-Dateien sollen Ihnen dabei helfen, Ihre Styling-Informationen über Inhalte und Layouts hinweg zu organisieren. Sie können diese Stile in einer oder mehreren CSS-Dateien zusammenführen.
 
@@ -92,7 +98,7 @@ Gehen Sie wie folgt vor, um ein Stylesheet zu erstellen:
 
    Ein neues Stylesheet wird unter dem Abschnitt Stylesheets erstellt und hinzugefügt.
 
-### Neuen Stil erstellen
+### Neuen Stil erstellen {#create-style}
 
 Standardmäßig enthalten die CSS-Dateien Stile für Überschrift, Absatz, Zeichen, Hyperlink, Bild, Tabelle, div, Seite und andere Stile. Sie können das Standard-Stilformat überschreiben oder einen neuen Stil erstellen.
 
@@ -114,7 +120,7 @@ Gehen Sie wie folgt vor, um einen neuen Stil zu erstellen:
 
    Ein neuer Stil wird erstellt und im Basisstil hinzugefügt.
 
-### Vordefinierten oder neuen Stil anpassen
+### Vordefinierten oder neuen Stil anpassen {#customize-style}
 
 Nachdem Sie eine neue CSS-Datei mit Standardstilen erstellt haben oder die Stile in einer vorhandenen CSS-Datei anpassen möchten, können Sie dazu den Stileditor verwenden.
 
@@ -134,7 +140,9 @@ Gehen Sie wie folgt vor, um einen Stil anzupassen:
 
 1. Um einen Stil anzupassen, doppelklicken Sie auf einen Stil oder klicken Sie auf das Symbol > vor einem Stil, um ihn mithilfe des Stileditors anzuzeigen und anzupassen.
 
-## Arbeiten mit Ressourcen
+Weitere Informationen zum Arbeiten mit den gängigsten Stilen finden Sie unter [Arbeiten mit allgemeinen Inhaltsstilen](stylesheet.md)
+
+## Arbeiten mit Ressourcen {#work-with-resources}
 
 Dies ist ein Container für alle Assets, die zum Entwerfen einer Vorlage verwendet werden. Sie können sich dies als Ordner vorstellen, der Assets wie Hintergrundbilder, benutzerdefinierte Schriftarten, Logos und mehr enthält. Jedes Mal, wenn Sie ein Asset in Ihrer Vorlage hinzufügen, wird es in den Asset-Ordner hochgeladen oder dort eingecheckt. Anschließend können Sie diese Assets verwenden, um Ihre PDF-Vorlagen anzupassen oder zu entwerfen.
 
@@ -146,13 +154,16 @@ Gehen Sie wie folgt vor, um eine Asset-Datei zum Ordner Ressourcen hinzuzufügen
    <img src="assets/resources-import-assets.png" alt="Hochladen von Assets" width="300">
 
    Der Pfad, in den die Asset-Datei hochgeladen wird, wird im **Asset-Ordner auswählen** -Feld.
-   > **Hinweis:** Sie können den Pfad zum Hochladen von Assets nicht ändern. Standardmäßig werden alle Assets unter dem `/content/dam/dita-templates/pdf/<PDF-template-name>` Ordner.
+   >[!NOTE]
+   >
+   >Sie können den Pfad zum Hochladen von Assets nicht ändern. Standardmäßig werden alle Assets unter dem `/content/dam/dita-templates/pdf/<PDF-template-name>` Ordner.
 
 1. Klicken **Dateien auswählen** zum Durchsuchen der Asset-Datei von Ihrem lokalen Computer aus
+
 1. Klicken Sie auf **Hochladen**.
 Die ausgewählte Datei wird importiert und im Ordner Ressourcen aufgeführt.
 
-## Erweiterte PDF-Einstellungen
+## Erweiterte PDF-Einstellungen {#advanced-pdf-settings}
 
 Konfigurieren Sie im Bereich Einstellungen die erweiterten Einstellungen für das Seitenlayout von PDF, ausgehend vom PDF von einer ungeraden oder geraden Seite, die Formate für die Querverweise und aktivieren Sie die Druckmarkierungen auf der endgültigen PDF, die mithilfe der Vorlage generiert wird.
 
@@ -181,10 +192,12 @@ Legen Sie die grundlegenden Konfigurationseinstellungen für das Starten eines K
    Hier können Sie bemerken, dass die erweiterten PDF-Einstellungen des ersten Kapitels keine Seitenzahl erhalten, da sie verschachtelte oder untergeordnete Themen haben. Eine Seitenzahl hingegen, wenn sie Anhang und Legal zugewiesen wird, da es sich um eigenständige Themen ohne untergeordnetes Thema handelt.
 
 * **Füllzeichenformat**: Verwenden Sie die Dropdown-Liste, um die Füllzeichenlinien &quot;Gepunktet&quot;, &quot;Durchgehend&quot;oder &quot;Leerzeichen&quot;auszuwählen, um die Überschriftenebenen mit den entsprechenden Seitenzahlen zu verbinden.
-Informationen zum Anwenden der TOC-Struktur und der Styling-Überschriftenebenen finden Sie unter *Definieren des Inhaltsverzeichnisses*.
+Informationen zum Anwenden der TOC-Struktur und der Styling-Überschriftenebenen finden Sie unter [Kapitel-Inhaltsverzeichnis hinzufügen](design-page-layout.md#add-chapter-toc).
 
-   > **Hinweis**: Wenn Sie CSS-Entwickler sind, können Sie das Füllzeichenformat auch direkt in der CSS-Datei definieren.
-* **Verwenden der Tabellenfortsetzungsmarkierung**: Wählen Sie diese Option aus, um Markierungen für lange Tabellen zu definieren, die über mehrere Seiten verteilt sind. Weitere Informationen zur Verwendung von Markern für die Tabellenfortsetzung finden Sie unter Verwendung von Markern für die Tabellenfortsetzung.
+   >[!NOTE]
+   >
+   >Wenn Sie CSS-Entwickler sind, können Sie das Füllzeichenformat auch direkt in der CSS-Datei definieren.
+* **Verwenden der Tabellenfortsetzungsmarkierung**: Wählen Sie diese Option aus, um Markierungen für lange Tabellen zu definieren, die über mehrere Seiten verteilt sind. <!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 **Seitenlayouts**
 
@@ -195,7 +208,7 @@ Wenn Sie für einen bestimmten Bereich in Ihrem Dokument kein Layout erstellt ha
 Wenn Sie ein Deckblatt und eine Rückseite wünschen, muss in den Einstellungen ein Seitenlayout erstellt und angewendet werden. Andernfalls enthält Ihre PDF keine Deckblatt- und Hinterseiten.
 
 
-Weitere Informationen zu Seitenlayouts finden Sie unter *Festlegen des Seitenlayouts*.
+Weitere Informationen zu Seitenlayouts finden Sie unter [Erstellen eines Seitenlayouts](design-page-layout.md).
 
 **Druck**
 
@@ -212,10 +225,12 @@ Konfigurieren Sie die Druckproduktionseinstellungen, um Druckermarkierungen zuzu
 * **Größe des Medienfelds**: Dies ist die Gesamtseitengröße einschließlich des erweiterten Bereichs, der von Druckermarkierungen belegt wird. Verwenden Sie die Dropdown-Option, um die Seitengröße für Ihre PDF-Ausgabe auszuwählen oder eine eigene benutzerdefinierte Größe zu erstellen.
 
 * **Farbraum**: Sie haben die Möglichkeit, aus RGB- oder CMYK-Farbräumen auszuwählen, um Ihr PDF-Dokument zu drucken. Wählen Sie RGB aus, um die generierte PDF digital und CMYK für den physischen Druck anzuzeigen. Im Dokument definierte Farben werden in den ausgewählten Farbraum konvertiert.
-   > **Hinweis**: Für die Erstellung von PDF/A ist bei Verwendung des CMYK-Farbraums ein ICC-Farbprofil erforderlich.
+   >[!NOTE]
+   >
+   >Für die Erstellung von PDF/A ist bei Verwendung des CMYK-Farbraums ein ICC-Farbprofil erforderlich.
 
-   Weitere Informationen zum Anwenden dieser Druckeinstellungen finden Sie unter *Druckeinstellungen*.
+   <!--For more information on applying these print settings, see *Printing preferences*.-->
 
 **Querverweise**
 
-Auf der Registerkarte &quot;Querverweis&quot;können Sie definieren, wie Querverweise auf der PDF veröffentlicht werden. Sie können die Querverweise für Thementitel, Tabellen, Zahlen und mehr formatieren. Weitere Informationen finden Sie unter *Formatieren von Querverweisen*.
+Auf der Registerkarte &quot;Querverweis&quot;können Sie definieren, wie Querverweise auf der PDF veröffentlicht werden. Sie können die Querverweise für Thementitel, Tabellen, Zahlen und mehr formatieren. <!--For more information, see *Format cross-references*.-->
