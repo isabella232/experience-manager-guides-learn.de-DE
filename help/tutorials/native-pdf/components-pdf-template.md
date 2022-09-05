@@ -1,10 +1,8 @@
 ---
 title: Native PDF-Veröffentlichungsfunktion | Komponenten einer PDF-Vorlage
 description: Lernen Sie die verschiedenen Komponenten einer PDF-Vorlage kennen und erfahren Sie, wie Sie sie anpassen und konfigurieren.
-hide: true
-hidefromtoc: true
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 563a301e4db20cd8076eaffd970d53b7a8743449
+source-git-commit: a1367a6915e760e533bb984705f4be37596b5477
 workflow-type: tm+mt
 source-wordcount: '2275'
 ht-degree: 0%
@@ -165,7 +163,7 @@ Die ausgewählte Datei wird importiert und im Ordner Ressourcen aufgeführt.
 
 ## Erweiterte PDF-Einstellungen {#advanced-pdf-settings}
 
-Konfigurieren Sie im Bereich Einstellungen die erweiterten Einstellungen für das Seitenlayout von PDF, ausgehend vom PDF von einer ungeraden oder geraden Seite, die Formate für die Querverweise und aktivieren Sie die Druckmarkierungen auf der endgültigen PDF, die mithilfe der Vorlage generiert wird.
+Verwenden Sie den Bereich Einstellungen , um das Layout der erweiterten PDF zu konfigurieren, das PDF von ungeraden oder geraden Seiten zu starten, die Formate für die Querverweise zu konfigurieren und Druckmarkierungen in der endgültigen PDF zu aktivieren, die mithilfe der Vorlage generiert wird.
 
 Klicken Sie zum Konfigurieren auf **Einstellungen** im **Vorlagen** -Bereich, um die folgenden Optionen anzuzeigen:
 
