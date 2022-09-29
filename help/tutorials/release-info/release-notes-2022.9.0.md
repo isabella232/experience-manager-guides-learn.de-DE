@@ -1,7 +1,7 @@
 ---
 title: Versionshinweise | Adobe Experience Manager-Handbücher as a Cloud Service, Version September 2022
 description: Neueste Version der Adobe Experience Manager-Handbücher as a Cloud Service
-source-git-commit: f2ad6e920c47fff61dd85e3aeafb558c7fd6cfea
+source-git-commit: 748a37298849b3fbf6079c19de3cb052dee3a464
 workflow-type: tm+mt
 source-wordcount: '1284'
 ht-degree: 3%
@@ -58,7 +58,7 @@ AEM Guides as a Cloud Service bietet viele Verbesserungen und neue Funktionen de
 Jetzt bietet Ihnen AEM Guides die Möglichkeit, dynamische Grundlinien basierend auf Bezeichnungen zu erstellen. Wenn Sie eine Grundlinie erstellen, eine Grundlinie herunterladen oder ein Übersetzungsprojekt mit einer Grundlinie erstellen, werden die Dateien dynamisch anhand der aktualisierten Beschriftungen ausgewählt. Diese Funktion ist praktisch, da Sie die Grundlinie bei der Aktualisierung der Beschriftungen nicht ändern müssen.
 Sie können die Momentaufnahme der Grundlinie auch als CSV exportieren.
 
-![Erstellen von Grundlinien](assets/preset-metadata.png)
+![Erstellen von Grundlinien](assets/dynamic-baseline.png)
 
 ### Suchen und Ersetzen von Text auf Zuordnungsebene
 
