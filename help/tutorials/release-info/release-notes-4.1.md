@@ -2,24 +2,83 @@
 title: Versionshinweise | Adobe Experience Manager-Handbücher Version 4.1
 description: Aktuelle Version der Adobe Experience Manager-Handbücher
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
-source-git-commit: 7fc8eb3ea46eee89eac4d5779f14d61aa6106505
+source-git-commit: f74126c1eb7bccf0c9464cbe9b1138af5bd4938f
 workflow-type: tm+mt
-source-wordcount: '2973'
+source-wordcount: '3275'
 ht-degree: 3%
 
 ---
 
-# Aktuelle Version der Adobe Experience Manager-Handbücher
+# Version 4.1.x der Adobe Experience Manager-Handbücher
+
+Diese Versionshinweise behandeln die Upgrade-Anweisungen, neuen Funktionen und Verbesserungen in Version 4.1.x der Adobe Experience Manager-Handbücher (später auch als *AEM*).
 
 ## Aktualisierung auf die neueste Version
 
-Sie können Ihre aktuelle Version der Adobe Experience Manager-Handbücher (später als *AEM*) auf Version 4.1. Bevor Sie mit der Aktualisierung auf Version 4.1 von AEM Guides fortfahren, müssen Sie die folgenden Punkte beachten:
-
-* Wenn Sie Version 4.0.x verwenden, können Sie direkt auf Version 4.1 aktualisieren. Vor der Aktualisierung auf Version 4.1 müssen Sie auf Version 4.0.x aktualisieren.
+Sie können Ihre aktuelle Version von AEM Guides einfach auf Version 4.1.2 aktualisieren. Bevor Sie mit der Aktualisierung auf Version 4.1.2 von AEM Guides fortfahren, müssen Sie die folgenden Punkte beachten:
+* Wenn Sie Version 4.1 oder 4.1.x verwenden, können Sie direkt auf Version 4.1.2 aktualisieren.
+* Wenn Sie Version 4.0.x verwenden, müssen Sie auf Version 4.1 oder 4.1.x aktualisieren, bevor Sie auf Version 4.1.2 aktualisieren.
 * Wenn Sie Version 3.8.5 verwenden, müssen Sie auf Version 4.0.x aktualisieren, bevor Sie auf Version 4.1 aktualisieren.
 * Wenn Sie eine Version vor 3.8.5 verwenden, lesen Sie den Abschnitt zur Aktualisierung im produktspezifischen Installationshandbuch.
 
-Weitere Informationen finden Sie unter [Upgrade-Anweisungen](assets/Adobe-Experience-Manager-Guides_Upgrade-Instructions_EN.pdf).
+Weitere Informationen finden Sie unter [Upgrade-Anweisungen](assets/Adobe-Experience-Manager-Guides-Upgrade-Instructions-EN.pdf).
+
+## 4.1.2 | Versionshinweise
+
+## Kompatibilitätsmatrix
+
+In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen aufgelistet, die von AEM Guides 4.1.2 unterstützt werden.
+
+### Adobe Experience Manager
+
+**Nicht-UUID**
+Version 6.5 Service Pack 13, 12, 11 oder 10
+
+**UUID**
+Version 6.5 Service Pack 13, 12, 11 oder 10
+
+Weitere Informationen finden Sie im Abschnitt Technische Anforderungen im Handbuch Installieren und Konfigurieren von Adobe Experience Manager-Handbüchern.
+
+
+### FrameMaker und FrameMaker Publishing Server
+
+| Release | FMPS 2020 | FMPS 2019 | FM 2020 | FM 2019 |
+| --- | --- | --- | --- | --- |
+| 4.1.2 (Nicht-UUID) | 2020.2 oder höher* | 2019 | 2020.3 oder höher | 2019.8 (neueste Aktualisierung) |
+| 4.1.2 (UUID) | 2020.2 oder höher* | Nicht kompatibel | 2020.4 oder höher | Nicht kompatibel |
+|  |  |  |  |
+
+*Die in AEM erstellten Grundlinien und Bedingungen werden in FMPS-Versionen ab 2020.2 unterstützt.
+
+### Sauerstoffanschluss
+
+| Version | Sauerstoff Connector Windows | Sauerstoff Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
+| --- | --- | --- |--- |--- |
+| 4.1.2 (Nicht-UUID) | 2,0 | 2,0 | 1,6 | 1,6 |
+| 4.1.2 (UUID) | 2.7 | 2,7 | 2.3 | 2,3 |
+|  |  |  |
+
+
+## Behobene Probleme
+
+Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
+
+* Bei der Auswahl aller Ordnerprofile wird ein unsichtbares Ordnerprofil angezeigt (das falsch ist). (10393)
+* Bei der Grundlagenerstellung wird nicht die neueste Version ausgewählt, wenn sich die Zeitzone des Benutzers von der Zeitzone des Servers unterscheidet. (10336)
+* Mit der Tastenkombination Strg+F wird das Browser-Suchmodul nach der Installation der AEM Guides 4.1 nicht in der Konsole &quot;Assets&quot;geöffnet. (10339)
+* Es tritt ein Fehler bei der Grundlagenerstellung für das Thema auf, das auf einen Ordner verweist. (10383)
+* Die Registerkarte &quot;Ausgabevorgaben&quot;zeigt gelegentlich einen leeren Bildschirm an, und in einigen Fällen werden nicht bearbeitbare Vorgaben angezeigt. (10390)
+* Das Keyspace-Management führt zu Ausnahmen und Fehlern. (10449)
+
+### Bekannte Probleme mit Problemumgehung
+
+* Die während der Übersetzung exportierte Grundlinie wird nicht auf der Registerkarte &quot;Grundlinie&quot;des Editors geladen.
+
+   **Problemumgehung**: Verwenden Sie die Registerkarte &quot;Grundlinie&quot;des DITA-Map-Dashboards.
+
+## 4,1 | Versionshinweise
+
+Diese Versionshinweise behandeln die Upgrade-Anweisungen, neuen Funktionen und Verbesserungen in Version 4.1.x der Adobe Experience Manager-Handbücher (später auch als *AEM*).
 
 ## Kompatibilitätsmatrix
 
@@ -40,7 +99,7 @@ Weitere Informationen finden Sie im Abschnitt Technische Anforderungen im Handbu
 
 ### FrameMaker und FrameMaker Publishing Server
 
-| Release | FMPS 2020 | FMPS 2019 | FM 2020 | FM 2019 |
+| Version | FMPS 2020 | FMPS 2019 | FM 2020 | FM 2019 |
 | --- | --- | --- | --- | --- |
 | 4.1 (Nicht-UUID) | 2020.2 oder höher* | 2019 | 2020.3 oder höher | 2019.8 (neueste Aktualisierung) |
 | 4.1 (UUID) | 2020.2 oder höher* | Nicht kompatibel | 2020.4 oder höher | Nicht kompatibel |
@@ -53,13 +112,13 @@ Weitere Informationen finden Sie im Abschnitt Technische Anforderungen im Handbu
 | Version | Sauerstoff Connector Windows | Sauerstoff Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
 | --- | --- | --- |--- |--- |
 | 4.1 (Nicht-UUID) | 2,0 | 2,0 | 1,6 | 1,6 |
-| 4.1 (UUID) | 2.7 | 2,7 | 2.3 | 2,3 |
+| 4.1 (UUID) | 2,7 | 2,7 | 2,3 | 2,3 |
 |  |  |  |
 
 
 ## Neue Funktionen und Erweiterungen
 
-AEM-Handbücher bieten viele Verbesserungen und neue Funktionen der neuesten Version:
+AEM-Handbücher bieten viele Verbesserungen und neue Funktionen in Version 4.1:
 
 ### Verbesserter Web-Editor
 
