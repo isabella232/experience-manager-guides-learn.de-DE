@@ -2,10 +2,10 @@
 title: Native PDF | PDF-Ausgabegenerierung
 description: Generieren einer PDF-Ausgabe in Adobe Experience Manager Guides as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: 1b46f5e496e6c974abeba019a9d3174d5bc5315c
+source-git-commit: d832e78b690b533f44dc2205e9fea483d9213c58
 workflow-type: tm+mt
-source-wordcount: '2170'
-ht-degree: 0%
+source-wordcount: '2299'
+ht-degree: 1%
 
 ---
 
@@ -62,7 +62,7 @@ Das Fenster &quot;Voreingestellt&quot;wird geöffnet.
    * Klicken Sie auf das + -Symbol neben **Vorgaben** , um eine neue Ausgabevorgabe von **Typ: PDF**
 3. So konfigurieren Sie die Einstellungen einer vorhandenen PDF-Vorgabe:
    * Klicken Sie auf  **Optionen** ![options](assets/options.svg) Symbol neben der gewünschten Ausgabevorgabe und wählen Sie **Bearbeiten**.
-Sie können die folgenden Einstellungen in der **Allgemein**, **Layout**, **Sicherheit** und **Erweitert** Registerkarten zum Konfigurieren einer PDF-Ausgabevorgabe:
+Sie können die folgenden Einstellungen in der **Allgemein**, **Metadaten**, **Layout**, **Sicherheit** und **Erweitert** Registerkarten zum Konfigurieren einer PDF-Ausgabevorgabe:
 
 **Allgemein**
 
@@ -74,6 +74,23 @@ Verwenden Sie , um grundlegende Ausgabeeinstellungen anzugeben, z. B. Ausgabepfa
 | **PDF-Datei** | Geben Sie einen Dateinamen an, um die PDF zu speichern. Standardmäßig fügt der PDF-Dateiname den DITA-Map-Namen zusammen mit dem Vorgabennamen hinzu. Beispielsweise ist ditamap &quot;TestMap&quot;und der Name der Vorgabe &quot;preset1&quot;. Dann lautet der Standardname des PDF-Dokuments &quot;TestMap_preset1.pdf&quot;. |
 | **Bedingungen anwenden mit** | Wählen Sie für konditionalisierten Inhalt aus den folgenden Optionen, um eine PDF-Ausgabe zu generieren, die auf diesen Bedingungen basiert: <br>* **Keine angewendet** Wählen Sie diese Option aus, wenn Sie keine Bedingung auf die Zuordnung und den Quellinhalt anwenden möchten. <br> * **Ditaval-Datei** Wählen Sie eine DITAVAL-Datei aus, um bedingte Inhalte zu generieren. Klicken Sie zur Auswahl auf unter &quot;Bedingungsvorgabe&quot;und suchen Sie die Datei. <br> * **Bedingungsvorgabe** Wählen Sie eine Bedingungsvorgabe aus der Dropdown-Liste aus, um beim Veröffentlichen der Ausgabe eine Bedingung anzuwenden. Diese Option ist sichtbar, wenn Sie eine Bedingung für die DITA-Map-Datei hinzugefügt haben. Die bedingten Einstellungen sind auf der Registerkarte Bedingungsvorgaben der DITA-Zuordnungskonsole verfügbar. Weitere Informationen zur Bedingungsvorgabe finden Sie unter [Verwenden von Bedingungsvorgaben](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html). <br> |
 | **Grundlinie verwenden** | Wenn Sie eine Grundlinie für die ausgewählte DITA-Zuordnung erstellt haben, wählen Sie diese Option, um die Version anzugeben, die Sie veröffentlichen möchten. Siehe [Arbeiten mit Grundlinien](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html) für weitere Details. |
+
+**Metadaten**
+
+Metadaten sind die Beschreibung oder Definition Ihres Inhalts. Metadaten helfen beim Content Management und beim Durchsuchen von Dateien im Internet.
+
+Legen Sie auf der Registerkarte &quot;Metadaten&quot;Titel, Autor, Betreff und Suchbegriffe für die PDF-Ausgabe fest. Diese Metadaten werden den Metadaten auf der Registerkarte &quot;Beschreibung&quot;in den Dokumenteigenschaften Ihrer Ausgabe-PDF zugeordnet.
+
+**Hinweis**: Diese Metadaten setzen die auf Buchebene definierten Metadaten außer Kraft.
+
+![Metadaten-Registerkarte](assets/pdf-metadata.png)
+
+| Einstellung | Beschreibung |
+|---|---|
+| **Titel** | Geben Sie einen kurzen und klaren Titel an, um das Dokument zu definieren. |
+| **Autor** | Geben Sie die Namen der Autoren an, die das Dokument erstellt haben. |
+| **Betreff** | Definieren Sie den Betreff oder die Sammlung, mit dem/der das Dokument in Beziehung steht. |
+| **Schlüsselwörter** | Verwenden Sie relevante Suchbegriffe, um Ihre Suchmaschinenoptimierung (SEO) zu verbessern und den Benutzern bei der Suche nach Ihren zugehörigen Inhalten zu helfen. |
 
 **Layout**
 

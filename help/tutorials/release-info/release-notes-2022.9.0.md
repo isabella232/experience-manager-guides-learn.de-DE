@@ -1,21 +1,21 @@
 ---
 title: Versionshinweise | Adobe Experience Manager-Handbücher as a Cloud Service, Version September 2022
-description: Neueste Version der Adobe Experience Manager-Handbücher as a Cloud Service
-source-git-commit: 748a37298849b3fbf6079c19de3cb052dee3a464
+description: September-Version der Adobe Experience Manager-Handbücher as a Cloud Service
+source-git-commit: 28712c3f2057d7553ed2fe955db0dfe278c8a9b9
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1285'
 ht-degree: 3%
 
 ---
 
-# Neueste Version der Adobe Experience Manager-Handbücher as a Cloud Service
+# September-Version der Adobe Experience Manager-Handbücher as a Cloud Service
 
-## Aktualisierung auf die neueste Version
+## Aktualisierung auf die September-Version
 
 Aktualisieren Sie Ihre aktuellen Adobe Experience Manager-Handbücher as a Cloud Service (später als *AEM as a Cloud Service Handbücher*) einrichten, indem Sie die folgenden Schritte ausführen:
 1. Sehen Sie sich den Git-Code des Cloud Services an und wechseln Sie zu der Verzweigung, die in der Cloud Services-Pipeline entsprechend der Umgebung konfiguriert ist, die Sie aktualisieren möchten.
 2. Aktualisieren `<dox.version>` -Eigenschaft in `/dox/dox.installer/pom.xml` -Datei Ihres Cloud Services-Git-Codes auf 2022.9.178.
-3. Übertragen Sie die Änderungen und führen Sie die Cloud Services-Pipeline aus, um auf die neueste Version der as a Cloud Service AEM Guides zu aktualisieren.
+3. Übertragen Sie die Änderungen und führen Sie die Cloud Services-Pipeline aus, um auf die September-Version von AEM Guides as a Cloud Service zu aktualisieren.
 
 ## Schritte zum Indexieren des vorhandenen Inhalts
 
@@ -50,7 +50,7 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen
 
 ## Neue Funktionen und Erweiterungen
 
-AEM Guides as a Cloud Service bietet viele Verbesserungen und neue Funktionen der neuesten Version:
+AEM Guides as a Cloud Service bietet viele Verbesserungen und neue Funktionen in der Septemberversion:
 
 
 ### Dynamische Grundlinie basierend auf Bezeichnungen erstellen
