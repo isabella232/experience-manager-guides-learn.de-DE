@@ -2,16 +2,16 @@
 title: Native PDF | PDF-Ausgabegenerierung
 description: Generieren einer PDF-Ausgabe in Adobe Experience Manager Guides as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: d832e78b690b533f44dc2205e9fea483d9213c58
+source-git-commit: e7fe44f6d0c0ce08d5f94140474212c280b41f52
 workflow-type: tm+mt
-source-wordcount: '2299'
+source-wordcount: '2297'
 ht-degree: 1%
 
 ---
 
 # PDF-Ausgabe veröffentlichen
 
-Mit der AEM Guides-Lösung können Sie PDF einzelner Themen oder einer ganzen Map-Datei generieren. Sie können Ihre Inhalte mit einer der drei folgenden Methoden im PDF-Format veröffentlichen:
+Mit AEM Guides können Sie PDF einzelner Themen oder einer ganzen Map-Datei generieren. Sie können Ihre Inhalte mit einer der drei folgenden Methoden im PDF-Format veröffentlichen:
 
 * **DITA-OT**
 
