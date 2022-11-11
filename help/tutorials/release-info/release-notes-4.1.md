@@ -2,9 +2,9 @@
 title: Versionshinweise | Adobe Experience Manager-Handbücher Version 4.1
 description: Aktuelle Version der Adobe Experience Manager-Handbücher
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
-source-git-commit: f74126c1eb7bccf0c9464cbe9b1138af5bd4938f
+source-git-commit: 0bddd791e7fb6e6f8eb0f8e2ad73146a758ffc47
 workflow-type: tm+mt
-source-wordcount: '3275'
+source-wordcount: '3400'
 ht-degree: 3%
 
 ---
@@ -119,6 +119,18 @@ Weitere Informationen finden Sie im Abschnitt Technische Anforderungen im Handbu
 ## Neue Funktionen und Erweiterungen
 
 AEM-Handbücher bieten viele Verbesserungen und neue Funktionen in Version 4.1:
+
+### Native PDF-Veröffentlichung
+
+Die Version 4.1 von AEM Guides unterstützt auch die Erstellung einer nativen PDF. Eine neue Publishing-Engine wurde mit den folgenden Funktionen eingeführt:
+* Erstellen einer CSS-Vorlage
+* Erstellen verschiedener Seitenvorlagen
+* Design-PDF-Vorlagen mit CSS- und Seitenvorlagen
+* Veröffentlichen von Zuordnungs- und Themeninhalten im PDF-Format
+
+### Unterstützung für den Knowledgebase-Site-Pfad in der artikelbasierten Veröffentlichung
+
+AEM Handbücher bieten die Funktion zum artikelbasierten Veröffentlichen, um schrittweise eine Ausgabe eines oder mehrerer Themen zu generieren oder Ihre Inhalte auf einer Knowledgebase-Plattform zu veröffentlichen. Mit Version 4.1 haben Sie eine zusätzliche Option, den Knowledgebase-Site-Pfad auszuwählen, zu dem das Thema/die Karte veröffentlicht werden muss. Nachdem Sie den Pfad ausgewählt haben, wird die Ausgabe am angegebenen Pfad generiert.
 
 ### Verbesserter Web-Editor
 
