@@ -2,9 +2,9 @@
 title: Versionshinweise | Adobe Experience Manager-Handbücher Version 4.1
 description: Aktuelle Version der Adobe Experience Manager-Handbücher
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
-source-git-commit: 0bddd791e7fb6e6f8eb0f8e2ad73146a758ffc47
+source-git-commit: c7b147777a59d422e93d63118e84d806adaaad24
 workflow-type: tm+mt
-source-wordcount: '3400'
+source-wordcount: '3532'
 ht-degree: 3%
 
 ---
@@ -15,13 +15,56 @@ Diese Versionshinweise behandeln die Upgrade-Anweisungen, neuen Funktionen und V
 
 ## Aktualisierung auf die neueste Version
 
-Sie können Ihre aktuelle Version von AEM Guides einfach auf Version 4.1.2 aktualisieren. Bevor Sie mit der Aktualisierung auf Version 4.1.2 von AEM Guides fortfahren, müssen Sie die folgenden Punkte beachten:
-* Wenn Sie Version 4.1 oder 4.1.x verwenden, können Sie direkt auf Version 4.1.2 aktualisieren.
-* Wenn Sie Version 4.0.x verwenden, müssen Sie auf Version 4.1 oder 4.1.x aktualisieren, bevor Sie auf Version 4.1.2 aktualisieren.
+Sie können Ihre aktuelle Version von AEM Guides einfach auf Version 4.1.3 aktualisieren. Bevor Sie mit der Aktualisierung auf Version 4.1.3 von AEM Guides fortfahren, müssen Sie die folgenden Punkte beachten:
+* Wenn Sie Version 4.1 oder 4.1.x verwenden, können Sie direkt auf Version 4.1.3 aktualisieren.
+* Wenn Sie Version 4.0.x verwenden, müssen Sie auf Version 4.1 oder 4.1.x aktualisieren, bevor Sie auf Version 4.1.3 aktualisieren.
 * Wenn Sie Version 3.8.5 verwenden, müssen Sie auf Version 4.0.x aktualisieren, bevor Sie auf Version 4.1 aktualisieren.
 * Wenn Sie eine Version vor 3.8.5 verwenden, lesen Sie den Abschnitt zur Aktualisierung im produktspezifischen Installationshandbuch.
 
 Weitere Informationen finden Sie unter [Upgrade-Anweisungen](assets/Adobe-Experience-Manager-Guides-Upgrade-Instructions-EN.pdf).
+
+## 4.1.3 | Versionshinweise
+
+## Kompatibilitätsmatrix
+
+In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen aufgelistet, die von AEM Guides 4.1.3 unterstützt werden.
+
+### Adobe Experience Manager
+
+**Nicht-UUID**
+Version 6.5 Service Pack 13, 12, 11 oder 10
+
+**UUID**
+Version 6.5 Service Pack 13, 12, 11 oder 10
+
+Weitere Informationen finden Sie im Abschnitt Technische Anforderungen im Handbuch Installieren und Konfigurieren von Adobe Experience Manager-Handbüchern.
+
+
+### FrameMaker und FrameMaker Publishing Server
+
+| Release | FMPS 2020 | FMPS 2019 | FM 2020 | FM 2019 |
+| --- | --- | --- | --- | --- |
+| 4.1.3 (Nicht-UUID) | 2020.2 oder höher* | 2019 | 2020.3 oder höher | 2019.8 (neueste Aktualisierung) |
+| 4.1.3 (UUID) | 2020.2 oder höher* | Nicht kompatibel | 2020.4 oder höher | Nicht kompatibel |
+|  |  |  |  |
+
+*Die in AEM erstellten Grundlinien und Bedingungen werden in FMPS-Versionen ab 2020.2 unterstützt.
+
+### Sauerstoffanschluss
+
+| Version | Sauerstoff Connector Windows | Sauerstoff Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
+| --- | --- | --- |--- |--- |
+| 4.1.3 (Nicht-UUID) | 2,0 | 2,0 | 1,6 | 1,6 |
+| 4.1.3 (UUID) | 2.7 | 2,7 | 2.3 | 2,3 |
+|  |  |  |
+
+
+## Behobene Probleme
+
+Der behobene Fehler ist unten aufgeführt:
+
+* Der Web Editor lädt zeitweise eine leere Seite. (10678)
+
 
 ## 4.1.2 | Versionshinweise
 
@@ -42,7 +85,7 @@ Weitere Informationen finden Sie im Abschnitt Technische Anforderungen im Handbu
 
 ### FrameMaker und FrameMaker Publishing Server
 
-| Release | FMPS 2020 | FMPS 2019 | FM 2020 | FM 2019 |
+| Version | FMPS 2020 | FMPS 2019 | FM 2020 | FM 2019 |
 | --- | --- | --- | --- | --- |
 | 4.1.2 (Nicht-UUID) | 2020.2 oder höher* | 2019 | 2020.3 oder höher | 2019.8 (neueste Aktualisierung) |
 | 4.1.2 (UUID) | 2020.2 oder höher* | Nicht kompatibel | 2020.4 oder höher | Nicht kompatibel |
@@ -55,7 +98,7 @@ Weitere Informationen finden Sie im Abschnitt Technische Anforderungen im Handbu
 | Version | Sauerstoff Connector Windows | Sauerstoff Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
 | --- | --- | --- |--- |--- |
 | 4.1.2 (Nicht-UUID) | 2,0 | 2,0 | 1,6 | 1,6 |
-| 4.1.2 (UUID) | 2.7 | 2,7 | 2.3 | 2,3 |
+| 4.1.2 (UUID) | 2,7 | 2,7 | 2,3 | 2,3 |
 |  |  |  |
 
 
