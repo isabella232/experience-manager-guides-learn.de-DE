@@ -1,21 +1,22 @@
 ---
 title: Versionshinweise | Adobe Experience Manager-Handbücher as a Cloud Service, Version Oktober 2022
-description: Neueste Version der Adobe Experience Manager-Handbücher as a Cloud Service
-source-git-commit: f673d53a1f3c76e1089e0a0c633c402722f99d00
+description: Oktober-Version der Adobe Experience Manager-Handbücher as a Cloud Service
+exl-id: 38638080-625c-49c3-9e54-56cc23831546
+source-git-commit: 4183162142f5f6291fdb6e832e10b46a3c0da73a
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 4%
 
 ---
 
-# Neueste Version der Adobe Experience Manager-Handbücher as a Cloud Service
+# Oktober-Version der Adobe Experience Manager-Handbücher as a Cloud Service
 
-## Aktualisierung auf die neueste Version
+## Aktualisierung auf die Oktober-Version
 
 Aktualisieren Sie Ihre aktuellen Adobe Experience Manager-Handbücher as a Cloud Service (später als *AEM as a Cloud Service Handbücher*) einrichten, indem Sie die folgenden Schritte ausführen:
 1. Sehen Sie sich den Git-Code des Cloud Services an und wechseln Sie zu der Verzweigung, die in der Cloud Services-Pipeline entsprechend der Umgebung konfiguriert ist, die Sie aktualisieren möchten.
 2. Aktualisieren `<dox.version>` -Eigenschaft in `/dox/dox.installer/pom.xml` -Datei Ihres Cloud Services-Git-Codes auf 2022.10.183.
-3. Übertragen Sie die Änderungen und führen Sie die Cloud Services-Pipeline aus, um auf die neueste Version der as a Cloud Service AEM Guides zu aktualisieren.
+3. Übertragen Sie die Änderungen und führen Sie die Cloud Services-Pipeline aus, um auf die Oktober-Version der AEM Guides as a Cloud Service zu aktualisieren.
 
 ## Kompatibilitätsmatrix
 
@@ -40,7 +41,7 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen
 
 ## Neue Funktionen und Erweiterungen
 
-AEM Guides as a Cloud Service bietet Verbesserungen und neue Funktionen der neuesten Version:
+AEM Guides as a Cloud Service bietet Verbesserungen und neue Funktionen in der Oktober-Version:
 
 
 ### Bereich &quot;Schnellgenerierung&quot;

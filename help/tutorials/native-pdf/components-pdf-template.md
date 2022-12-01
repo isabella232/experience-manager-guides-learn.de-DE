@@ -1,10 +1,10 @@
 ---
 title: Native PDF-Veröffentlichungsfunktion | Komponenten einer PDF-Vorlage
-description: Lernen Sie die verschiedenen Komponenten einer PDF-Vorlage kennen und erfahren Sie, wie Sie sie anpassen und konfigurieren.
+description: Erfahren Sie mehr über die verschiedenen Komponenten einer PDF-Vorlage und wie Sie diese anpassen und konfigurieren.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: a1367a6915e760e533bb984705f4be37596b5477
+source-git-commit: f693ebb6a96ed9898050a754e10a74db235299fe
 workflow-type: tm+mt
-source-wordcount: '2275'
+source-wordcount: '2516'
 ht-degree: 0%
 
 ---
@@ -185,6 +185,7 @@ Legen Sie die grundlegenden Konfigurationseinstellungen für das Starten eines K
    Im obigen Beispiel sind Erweiterte PDF-Einstellungen, Anhang und rechtliche Themen die ersten Themenüberschriften oder Kapiteltitel. Allen diesen Überschriften wird eine Seitenzahl zugewiesen.
 
    Wenn Sie jetzt diese Option auswählen und die Ausgabe generieren, erhalten Sie das folgende Inhaltsverzeichnis:
+
    <img src="assets/page-number-missing-in-toc.png" alt="Hochladen von Assets" width="250">
 
    Hier können Sie bemerken, dass die erweiterten PDF-Einstellungen des ersten Kapitels keine Seitenzahl erhalten, da sie verschachtelte oder untergeordnete Themen haben. Eine Seitenzahl hingegen, wenn sie Anhang und Legal zugewiesen wird, da es sich um eigenständige Themen ohne untergeordnetes Thema handelt.
@@ -201,10 +202,35 @@ Informationen zum Anwenden der TOC-Struktur und der Styling-Überschriftenebenen
 
 Mit den Einstellungen für Seitenlayouts können Sie vollständig festlegen, welches Seitenlayout für einen bestimmten Abschnitt Ihres Dokuments verwendet werden soll. Um beispielsweise ein Layout für das Inhaltsverzeichnis auszuwählen, klicken Sie auf das Dropdown-Menü unter dem Feld Inhaltsverzeichnis und wählen Sie das Layout aus, das Sie zum Generieren des Inhaltsverzeichnisses entwickelt haben.
 
-Wenn Sie für einen bestimmten Bereich in Ihrem Dokument kein Layout erstellt haben, können Sie einfach ein Layout wählen, das als Standardlayout für diese Abschnitte oder Themen dient. Das standardmäßige Seitenlayout wird dann auf alle Abschnitte angewendet, die kein dediziertes Seitenlayout aufweisen.
+Die folgenden Einstellungen sind im Abschnitt Seitenlayout verfügbar:
 
-Wenn Sie ein Deckblatt und eine Rückseite wünschen, muss in den Einstellungen ein Seitenlayout erstellt und angewendet werden. Andernfalls enthält Ihre PDF keine Deckblatt- und Hinterseiten.
+<img src="assets/template-page-layout.png" alt="Seitenlayouts" width="550">
 
+
+**Standardseitenlayout**: Wählen Sie ein Seitenlayout, das als Standardlayout für alle Seiten in Ihrer PDF dient. Dies ist das grundlegende Seitenlayout, das auf die Abschnitte oder Themen angewendet wird, in denen Sie kein dediziertes Seitenlayout erstellt haben.
+
+**Seitenlayout für verschiedene Abschnitte**: Sie können ein Seitenlayout den folgenden Abschnitten Ihrer PDF-Ausgabe zuordnen:
+* IHV
+* Liste der Abbildungen
+* Tabellenliste
+* Kapitel und Themen
+* Index
+* Glossar
+
+Wenn Sie in Ihrer PDF-Ausgabe keinen bestimmten Bereich anzeigen möchten, können Sie dies deaktivieren, indem Sie den Umschalter deaktivieren.
+
+**Kapitel und Themen** Layout ist immer aktiviert und **Glossar** Das Layout ist standardmäßig immer deaktiviert. Sie können sie nicht umschalten.
+
+Sie können auch die Reihenfolge festlegen, in der diese unterschiedlichen Bereiche in Ihrer PDF generiert werden. Wenn Sie die Standardreihenfolge dieser Seiten ändern möchten, halten Sie den Mauszeiger auf der linken Seite eines Seitenlayouts und klicken Sie auf das gepunktete Balkensymbol, um das Seitenlayout an die gewünschte Position zu ziehen.
+Ihre PDF enthält die aktivierten Seitenlayouts in der Reihenfolge, in der Sie sie hier organisiert haben.
+
+**Seitenlayout für leere Seiten**: Sie können auch das Seitenlayout für leere Seiten festlegen. Das ausgewählte Layout wird auf alle leeren Seiten angewendet. Wenn Sie beispielsweise ein leeres Seitenlayout für alle leeren Seiten entworfen haben, wählen Sie **Leer** in der Dropdown-Liste und alle leeren Seiten in Ihrem Dokument haben das Layout &quot;Leere Seite&quot;.
+
+**Titelseite und Rückseite**: Wenn Sie ein Deckblatt-Layout entworfen haben, ordnen Sie es dem **Titelseite** -Option. Wenn Sie ein Layout für die Rückseite haben, ordnen Sie es dem **Zurück-Seite** -Option. Wenn keine Deckblatt- oder Rückseite-Layouts erstellt wurden, wird das standardmäßige Seitenlayout angewendet.
+
+>[!NOTE]
+>
+>Die Einstellungen für die Lesekarte haben Vorrang vor den Einstellungen für das Seitenlayout.
 
 Weitere Informationen zu Seitenlayouts finden Sie unter [Erstellen eines Seitenlayouts](design-page-layout.md).
 

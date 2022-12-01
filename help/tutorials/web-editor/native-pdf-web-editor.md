@@ -2,9 +2,9 @@
 title: Native PDF | PDF-Ausgabegenerierung
 description: Generieren einer PDF-Ausgabe in Adobe Experience Manager Guides as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: e7fe44f6d0c0ce08d5f94140474212c280b41f52
+source-git-commit: e03ef8e99b2d60dc8d34a76d0a02180eab41e35f
 workflow-type: tm+mt
-source-wordcount: '2297'
+source-wordcount: '2663'
 ht-degree: 1%
 
 ---
@@ -56,11 +56,14 @@ So erstellen oder konfigurieren Sie eine PDF-Ausgabevorgabe:
 
 1. Klicken Sie auf der Registerkarte Ausgabe auf **Vorgaben** in der linken Seitenleiste.
 Das Fenster &quot;Voreingestellt&quot;wird geöffnet.
-   ![Vorgabenbedienfeld](assets/preset-panel.png)
-2. In der Ausgabe **Vorgaben** einen der folgenden Schritte ausführen:
+
+<img src="assets/preset-panel.png" alt="Vorgabenbedienfeld" width="600">
+
+1. In der Ausgabe **Vorgaben** einen der folgenden Schritte ausführen:
    * Doppelklicken Sie auf eine vordefinierte PDF-Ausgabevorgabe, um sie anzuzeigen.
    * Klicken Sie auf das + -Symbol neben **Vorgaben** , um eine neue Ausgabevorgabe von **Typ: PDF**
-3. So konfigurieren Sie die Einstellungen einer vorhandenen PDF-Vorgabe:
+
+1. So konfigurieren Sie die Einstellungen einer vorhandenen PDF-Vorgabe:
    * Klicken Sie auf  **Optionen** ![options](assets/options.svg) Symbol neben der gewünschten Ausgabevorgabe und wählen Sie **Bearbeiten**.
 Sie können die folgenden Einstellungen in der **Allgemein**, **Metadaten**, **Layout**, **Sicherheit** und **Erweitert** Registerkarten zum Konfigurieren einer PDF-Ausgabevorgabe:
 
@@ -70,10 +73,12 @@ Verwenden Sie , um grundlegende Ausgabeeinstellungen anzugeben, z. B. Ausgabepfa
 
 | Einstellung | Beschreibung |
 | --- | --- |
-| **Ausgabepfad** | Der Pfad im AEM-Repository, in dem die PDF-Ausgabe gespeichert wird. Stellen Sie sicher, dass sich der Ausgabepfad nicht im Projektordner befindet. Wenn Sie das Feld leer lassen, wird die Ausgabe am standardmäßigen Speicherort der DITA-Zuordnung generiert. |
-| **PDF-Datei** | Geben Sie einen Dateinamen an, um die PDF zu speichern. Standardmäßig fügt der PDF-Dateiname den DITA-Map-Namen zusammen mit dem Vorgabennamen hinzu. Beispielsweise ist ditamap &quot;TestMap&quot;und der Name der Vorgabe &quot;preset1&quot;. Dann lautet der Standardname des PDF-Dokuments &quot;TestMap_preset1.pdf&quot;. |
-| **Bedingungen anwenden mit** | Wählen Sie für konditionalisierten Inhalt aus den folgenden Optionen, um eine PDF-Ausgabe zu generieren, die auf diesen Bedingungen basiert: <br>* **Keine angewendet** Wählen Sie diese Option aus, wenn Sie keine Bedingung auf die Zuordnung und den Quellinhalt anwenden möchten. <br> * **Ditaval-Datei** Wählen Sie eine DITAVAL-Datei aus, um bedingte Inhalte zu generieren. Klicken Sie zur Auswahl auf unter &quot;Bedingungsvorgabe&quot;und suchen Sie die Datei. <br> * **Bedingungsvorgabe** Wählen Sie eine Bedingungsvorgabe aus der Dropdown-Liste aus, um beim Veröffentlichen der Ausgabe eine Bedingung anzuwenden. Diese Option ist sichtbar, wenn Sie eine Bedingung für die DITA-Map-Datei hinzugefügt haben. Die bedingten Einstellungen sind auf der Registerkarte Bedingungsvorgaben der DITA-Zuordnungskonsole verfügbar. Weitere Informationen zur Bedingungsvorgabe finden Sie unter [Verwenden von Bedingungsvorgaben](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html). <br> |
+| **Ausgabepfad** | Der Pfad im AEM-Repository, in dem die PDF-Ausgabe gespeichert wird. Stellen Sie sicher, dass sich der Ausgabepfad nicht im Projektordner befindet. Wenn Sie das Feld leer lassen, wird die Ausgabe am standardmäßigen Speicherort der DITA-Zuordnung generiert.<br>Sie können auch die folgenden nativen Variablen verwenden, um den Ausgabepfad zu definieren. Sie können eine einzelne oder eine Kombination von Variablen verwenden, um diese Option zu definieren. <br> `${map_filename}`: Verwendet den Namen der DITA-Map-Dateien, um den Zielpfad zu erstellen. <br> `${map_title}`: Verwendet den DITA-Map-Titel, um den Zielpfad zu erstellen. <br>`${preset_name}`: Verwendet den Namen der Ausgabevorgabe, um den Zielpfad zu erstellen. <br> `${language_code}`: Verwendet den Sprachcode, in dem sich die Map-Datei befindet, um den Zielpfad zu erstellen. <br> `${map_parentpath}`: Verwendet den vollständigen Pfad der Map-Datei, um den Zielpfad zu erstellen.  <br>`${path_after_langfolder}`: Verwendet den Pfad der Map-Datei nach dem Sprachordner, um den Zielpfad zu erstellen. |
+| **PDF-Datei** | Geben Sie einen Dateinamen an, um die PDF zu speichern. Standardmäßig fügt der PDF-Dateiname den DITA-Map-Namen zusammen mit dem Vorgabennamen hinzu. Beispielsweise ist ditamap &quot;TestMap&quot;und der Name der Vorgabe &quot;preset1&quot;. Dann lautet der Standardname des PDF-Dokuments &quot;TestMap_preset1.pdf&quot;. <br>Sie können auch die folgenden nativen Variablen verwenden, um die PDF-Datei zu definieren. Sie können eine einzelne oder eine Kombination von Variablen verwenden, um diese Option zu definieren. <br>`${map_filename}`<br>`${map_title}`<br>`${preset_name}` <br> `${language_code}` möglich. |
+| **Bedingungen anwenden mithilfe von** | Wählen Sie für konditionalisierten Inhalt aus den folgenden Optionen, um eine PDF-Ausgabe zu generieren, die auf diesen Bedingungen basiert: <br>* **Keine angewendet** Wählen Sie diese Option aus, wenn Sie keine Bedingung auf die Zuordnung und den Quellinhalt anwenden möchten. <br>* **Ditaval-Datei** Wählen Sie eine DITAVAL-Datei aus, um bedingte Inhalte zu generieren. Klicken Sie zur Auswahl auf unter &quot;Bedingungsvorgabe&quot;und suchen Sie die Datei. <br> * **Bedingungsvorgabe** Wählen Sie eine Bedingungsvorgabe aus der Dropdown-Liste aus, um beim Veröffentlichen der Ausgabe eine Bedingung anzuwenden. Diese Option ist sichtbar, wenn Sie eine Bedingung für die DITA-Map-Datei hinzugefügt haben. Die bedingten Einstellungen sind auf der Registerkarte Bedingungsvorgaben der DITA-Zuordnungskonsole verfügbar. Weitere Informationen zur Bedingungsvorgabe finden Sie unter [Verwenden von Bedingungsvorgaben](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html). <br> |
 | **Grundlinie verwenden** | Wenn Sie eine Grundlinie für die ausgewählte DITA-Zuordnung erstellt haben, wählen Sie diese Option, um die Version anzugeben, die Sie veröffentlichen möchten. Siehe [Arbeiten mit Grundlinien](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html) für weitere Details. |
+| **PDF mit Änderungsleiste zwischen veröffentlichten Versionen erstellen** | Verwenden Sie die folgenden Optionen, um mithilfe von Änderungsleisten eine PDF zu erstellen, die die Inhaltsunterschiede zwischen zwei Versionen zeigt:   <br>* **Grundlinie der vorherigen Version** Wählen Sie die Grundlinienversion aus, die Sie mit der aktuellen Version oder einer anderen Grundlinie vergleichen möchten. Auf der PDF wird eine Änderungsleiste angezeigt, die den geänderten Inhalt angibt. Eine Änderungsleiste ist eine vertikale Linie, die neue oder überarbeitete Inhalte visuell identifiziert. Die Änderungsleiste wird links neben dem Inhalt angezeigt, der eingefügt, geändert oder gelöscht wurde. <br> **Hinweis**: Wenn Sie **Grundlinie verwenden** und eine Grundlinie für die Veröffentlichung auswählen, wird der Vergleich zwischen den beiden ausgewählten Grundversionen durchgeführt. Wenn Sie beispielsweise die Grundlinie Version 1.3 unter **Grundlinie verwenden** und Version 1.1 unter **Grundlinie der vorherigen Version**, wird der Vergleich zwischen Version 1.1 der Grundlinie und Version 1.3 durchgeführt. <br>* **Hinzugefügten Text anzeigen** Wählen Sie diese Option aus, um den eingefügten Text in grüner Farbe und unterstrichen anzuzeigen. Standardmäßig ist diese Option aktiviert. <br> * **Gelöschten Text anzeigen** Wählen Sie diese Option, um den gelöschten Text in roter Farbe anzuzeigen und mit einer Durchstreichung zu markieren. Standardmäßig ist diese Option aktiviert. <br>**Hinweis** Sie können die Formatierung der Änderungsleiste, des eingefügten Inhalts oder des gelöschten Inhalts auch mithilfe des Stylesheets anpassen.<br> |
+| **Arbeitsablauf nach der Erstellung** | Wählen Sie diese Option, um eine Dropdownliste mit allen in AEM konfigurierten Workflows anzuzeigen. Sie können den Workflow auswählen, der nach Abschluss des Workflows zur PDF-Generierung ausgeführt werden soll. |
 
 **Metadaten**
 
@@ -83,7 +88,8 @@ Legen Sie auf der Registerkarte &quot;Metadaten&quot;Titel, Autor, Betreff und S
 
 **Hinweis**: Diese Metadaten setzen die auf Buchebene definierten Metadaten außer Kraft.
 
-![Metadaten-Registerkarte](assets/pdf-metadata.png)
+<img src="assets/pdf-metadata.png" alt="Metadaten-Registerkarte" width="600">
+
 
 | Einstellung | Beschreibung |
 |---|---|
@@ -147,6 +153,6 @@ Sie können eine Fortschrittsleiste neben der ausgewählten Ausgabevorgabe im Be
 6. Sobald die Generierung der Ausgabe abgeschlossen ist, klicken Sie auf  **Ausgabe anzeigen** ![Anzeige der Ausgabe](assets/view-output.svg) in der oberen Leiste, um die Ausgabe anzuzeigen.\
    A **Erfolg** wird in der rechten unteren Ecke des Bildschirms angezeigt.
 Wenn eine Ausgabe nicht erfolgreich ist, wird die folgende Fehlermeldung angezeigt.
-   ![Fehlerprotokoll](assets/error-log.png)
+<img src="assets/error-log.png" alt="Fehlerprotokoll" width="250">
 
 Um das Fehlerprotokoll anzuzeigen, klicken Sie auf **Verwerfen**, bewegen Sie den Mauszeiger über die ausgewählte Vorgabe-Registerkarte und klicken Sie auf ![options](assets/options.svg) **Optionen** > **Protokoll anzeigen**.
