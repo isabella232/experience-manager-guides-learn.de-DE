@@ -2,9 +2,9 @@
 title: Versionshinweise | Adobe Experience Manager-Handbücher as a Cloud Service, Version November 2022
 description: Neueste Version der Adobe Experience Manager-Handbücher as a Cloud Service
 exl-id: 9f329ec1-dd74-47cc-8567-3fadd962584a
-source-git-commit: 84ff7619722fbda2787ce4c27cc69b5f71e25927
+source-git-commit: 0663ed4434fdf583a9446891f944d94b85f375c6
 workflow-type: tm+mt
-source-wordcount: '1370'
+source-wordcount: '1372'
 ht-degree: 2%
 
 ---
@@ -101,9 +101,7 @@ Im Übersetzungs-Dashboard wird auch die Spalte Versionsbezeichnung angezeigt. D
 <img src="assets/send-translation.png" alt="Übersetzen" width="600">
 
 
-## Verbesserungen der nativen PDF-Veröffentlichung
-
-### PDF mit Änderungsleiste, die den Unterschied zwischen Dokumentversionen anzeigt
+### Native PDF | PDF mit Änderungsleiste, die den Unterschied zwischen Dokumentversionen anzeigt
 
 Jetzt können Sie eine PDF erstellen, die die Inhaltsunterschiede zwischen zwei Versionen mithilfe der Änderungsleiste anzeigt. Sie können die aktuelle Version mit einer Grundlinie der vorherigen Version vergleichen oder zwischen den beiden ausgewählten Grundversionen vergleichen.
 
@@ -113,7 +111,7 @@ Auf der PDF wird eine Änderungsleiste angezeigt, die den geänderten, eingefüg
 * Eingefügten Inhalt in grüner Farbe anzeigen und unterstrichen
 * Gelöschte Inhalte in roter Farbe anzeigen und mit einem Durchstreichen markieren
 
-### Variablenunterstützung für Output Path und PDF File Name
+### Native PDF | Variablenunterstützung für Output Path und PDF File Name
 
 Jetzt können Sie auch die folgenden vordefinierten Variablen verwenden, um den Ausgabepfad und die PDF-Datei zu definieren. Sie können eine einzelne oder eine Kombination von Variablen verwenden, um die folgenden Optionen zu definieren:
 * `${map_filename}`
@@ -124,7 +122,7 @@ Jetzt können Sie auch die folgenden vordefinierten Variablen verwenden, um den 
 * `${path_after_langfolder}` (Nur für Ausgabepfad)
 
 
-### Inhaltsverzeichnis für DITA-Maps generieren und Seitenlayouts neu anordnen
+### Native PDF | Inhaltsverzeichnis für DITA-Maps generieren und Seitenlayouts neu anordnen
 
 Jetzt können Sie das Inhaltsverzeichnis auch in DITA-Maps generieren, indem Sie eine erweiterte PDF-Einstellung der Vorlage verwenden. Sie können die Anzeige der verschiedenen Seitenlayouts aktivieren oder deaktivieren und ihre Position neu anordnen.
 
