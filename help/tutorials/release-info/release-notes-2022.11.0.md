@@ -1,9 +1,10 @@
 ---
 title: Versionshinweise | Adobe Experience Manager-Handbücher as a Cloud Service, Version November 2022
 description: Neueste Version der Adobe Experience Manager-Handbücher as a Cloud Service
-source-git-commit: 549417d6a45508d0afe98574499f1694ae32e708
+exl-id: 9f329ec1-dd74-47cc-8567-3fadd962584a
+source-git-commit: 84ff7619722fbda2787ce4c27cc69b5f71e25927
 workflow-type: tm+mt
-source-wordcount: '1423'
+source-wordcount: '1370'
 ht-degree: 2%
 
 ---
@@ -131,7 +132,6 @@ Jetzt können Sie das Inhaltsverzeichnis auch in DITA-Maps generieren, indem Sie
 
 Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
-* Native PDF | Eine Fußnote in der Tabellenüberschrift führt zu einem fett und zentrierten Fußnotentext in der Fußzeile in der PDF-Ausgabe. (10610)
 * Native PDF | `conkeyref` wird in der generierten PDF-Ausgabe nicht aufgelöst. (10564)
 * Native PDF | Beim Zugriff auf Metadaten einer Zuordnung in der PDF-Ausgabe treten Probleme auf. (10556)
 * Native PDF | Inline-Stil wird zum Generieren von Tags anstelle von Klassennamen verwendet.  (10498)
@@ -141,7 +141,6 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Hinweis innerhalb eines para-Tags, das eine conref ist, wird nicht in der Vorschau angezeigt. (10559)
 * Wenn Sie die Rücktaste am Ende eines Listenelements drücken, wird die gesamte Liste entfernt. (10540)
 * Bei Verwendung eines nativen PDF exportieren Sie die verschachtelten `<indexterm>` sind nicht im Index verschachtelt. (10521)
-* Bei der falschen Verwendung von Grundlinien-Publishing `cq:tags` werden ausgewählt (aus der aktuellen Arbeitskopie statt aus der Versionskopie ausgewählt). (10494)
 * **Auto-Indent** in der Symbolleiste fehlt in der Quellansicht. (10448)
 * Das erste Zeichen eines Listenelements geht verloren, während die Liste im Editor erstellt wird. (10447)
 * Es werden mehrere Popups angezeigt, wenn eine DITA-Asset-Version geändert und im Fenster der Basisbearbeitung gespeichert wird. (10399)
@@ -150,7 +149,6 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Die Nachbearbeitung wird für den gesamten Sprachordner blockiert, dessen Assets in einem aktiven Übersetzungsprojekt vorhanden sind. (10332)
 * Die Registerkarte &quot;Vorlage&quot;im XML-Editor ist für Ordnerprofiladministratoren nicht sichtbar. (10266)
 * Navigationsprobleme treten im Web Editor nach der Aktualisierung auf Version 4.0 auf. (10159)
-* Das erste Zeichen ist beim Authoring im Web Editor in koreanischer Sprache nicht lesbar. (10049)
 * SVG-Dateien werden nicht im Vorschaumodus angezeigt. (10010)
 * Wenn die Registerkarte &quot;Ausgabe&quot;des Editors mehr Vorgaben enthält, kann kein Bildlauf im Bereich &quot;Vorgaben&quot;durchgeführt werden und nicht alle Vorgaben werden angezeigt. (9787)
 * **Bearbeiten** und **Anmerken** -Optionen für ein Bild funktionieren in der Spaltenansicht nicht ordnungsgemäß. (8758)
