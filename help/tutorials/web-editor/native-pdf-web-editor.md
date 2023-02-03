@@ -2,9 +2,9 @@
 title: Native PDF | PDF-Ausgabegenerierung
 description: Generieren einer PDF-Ausgabe in Adobe Experience Manager Guides as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: e03ef8e99b2d60dc8d34a76d0a02180eab41e35f
+source-git-commit: 618030a32b6cc8d703e71d4eb91a340cb89a413b
 workflow-type: tm+mt
-source-wordcount: '2663'
+source-wordcount: '2666'
 ht-degree: 1%
 
 ---
@@ -124,7 +124,7 @@ Verwenden Sie die folgenden Optionen, um erweiterte Einstellungen zum Zusammenf�
 | Einstellung | Beschreibung |
 | --- | --- |
 | **Zugreifbare (getaggte) PDF erstellen** | Wählen Sie diese Option aus, um eine PDF mit Tags zu generieren. Eine getaggte PDF erleichtert Sprachausgaben das Lesen und Navigieren von Inhalten, Hyperlinks, Lesezeichen usw. Wenn beispielsweise eine Tabelle mit Tags versehen ist, weiß die Bildschirmlesehilfe, dass sie die Tabelle liest und nicht nur Zeilen und Text. |
-| **Im Inhaltsverzeichnis enthaltene PDF zusammenführen** | Wählen Sie diese Option aus, um vorhandene PDF in Ihrer Ausgabe zusammenzuführen, indem Sie sie zum Inhaltsverzeichnis hinzufügen. Die PDF werden an der im Inhaltsverzeichnis dargestellten Stelle eingefügt und die Seiten werden entsprechend inkrementiert. |
+| **Im Inhaltsverzeichnis enthaltene PDF zusammenführen** | Wählen Sie diese Option, um vorhandene PDF in Ihrer Ausgabe zusammenzuführen, indem Sie sie Ihrer DITA-Map als Ressourcendatei hinzufügen. Die PDF werden an der Stelle eingefügt, die in der Karte dargestellt wird, und die Seiten werden entsprechend inkrementiert. |
 | **Einbetten verwendeter Schriftarten** | Aktivieren Sie diese Option bei der Verwendung von Schriftarten, die möglicherweise nicht auf dem Computer des Endbenutzers installiert sind. Wenn diese Option aktiviert ist, werden die verwendeten Schriftarten in die PDF eingebettet, sodass der Benutzer die PDF wie gewünscht sehen kann, selbst wenn die Schriftarten nicht auf seinem Computer installiert sind. <br> **Hinweis**: Eine Schrift kann nur eingebettet werden, wenn sie eine Einstellung des Schriftartenherstellers enthält, die die Einbettung ermöglicht. Stellen Sie sicher, dass Sie über die erforderliche Einstellung oder Lizenz verfügen, bevor Sie eine Schriftart einbetten. |
 | **Automatische Silbentrennung verwenden** | Wenn die automatische Silbentrennung aktiviert ist, werden die Wörter am Zeilenende mit einem Bindestrich an grammatisch korrekten Stellen umbrochen. |
 | **JavaScript aktivieren** | Aktivieren Sie diese Option, wenn Sie über einen JavaScript-Code verfügen, den Sie verwenden möchten, um Ihren Inhalt dynamisch umzuwandeln, bevor Sie eine PDF generieren. |
