@@ -2,7 +2,7 @@
 title: Rechtschreibprüfung und Suchen/Ersetzen
 description: Rechtschreibprüfung und Suchen/Ersetzen in AEM Handbüchern verwenden
 exl-id: 5f39618d-a919-4d3c-a4de-2896f2d1bf20
-source-git-commit: 0b4326b02ef52f5de77c3f26c18feec84567cebb
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 3%
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 Der AEM Guides-Editor verfügt über leistungsstarke Funktionen zum Überprüfen und Ersetzen von Rechtschreibfehlern.
 
->[!VIDEO](https://video.tv.adobe.com/v/342768)
+>[!VIDEO](https://video.tv.adobe.com/v/342768?quality=12&learn=on)
 
 Rechtschreibfehler korrigieren
 
@@ -39,7 +39,7 @@ Möglicherweise möchten Sie ein anderes Rechtschreibprüfungs-Tool als das Stan
 
    - **BrowserRechtschreibprüfung** - die Standardeinstellung, bei der die Rechtschreibprüfung das integrierte Wörterbuch des Browsers verwendet.
 
-   - **Rechtschreibprüfung AEM** - Verwenden Sie dies, um mithilfe des benutzerdefinierten Wörterbuchs AEM eine benutzerdefinierte Wortliste zu erstellen.
+   - **Rechtschreibprüfung AEM** - Verwenden Sie dies, um eine benutzerdefinierte Wortliste mithilfe AEM benutzerdefinierten Wörterbuchs zu erstellen.
 
 4. Auswählen **Rechtschreibprüfung AEM**.
 
@@ -73,7 +73,7 @@ Der Administrator kann die Einstellungen ändern, sodass das AEM Wörterbuch ben
 
    d. Klicken [!UICONTROL **OK**].
 
-5. Öffnen Sie die Datei.
+5. Öffnen Sie die Datei .
 
 6. Fügen Sie eine Liste der Wörter hinzu, die Sie in Ihr benutzerdefiniertes Wörterbuch aufnehmen möchten.
 

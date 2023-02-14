@@ -2,7 +2,7 @@
 title: Gliederungsansicht
 description: Verwenden der Linienansicht in AEM Handbüchern
 exl-id: 300f550f-dc79-4971-b8ba-43fe8499ea02
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Die Gliederungsansicht bietet eine breite Palette an Unterstützung bei der Arbeit mit einem strukturierten Dokument. Erweitern und reduzieren Sie die Ansicht, navigieren Sie zur Struktur, arbeiten Sie mit Attributen (z. B. zum Erstellen einer neuen ID) und organisieren, entpacken und restrukturieren Sie Elemente durch Klicken auf eine Schaltfläche.
 
->[!VIDEO](https://video.tv.adobe.com/v/342767)
+>[!VIDEO](https://video.tv.adobe.com/v/342767?quality=12&learn=on)
 
 ## Erweitern und Reduzieren der Gliederungsansicht
 

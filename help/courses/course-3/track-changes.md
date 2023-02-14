@@ -2,7 +2,7 @@
 title: Änderungen verfolgen
 description: Verfolgen von Änderungen in AEM Handbüchern
 exl-id: 57779920-b3b4-44be-a1fb-89ea7c89eef7
-source-git-commit: 7bc636b4aceee327d86cfa74a9f8e61e0ad0a1cf
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 1%
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 Sie können alle an einem Dokument vorgenommenen Aktualisierungen verfolgen, indem Sie den Modus Änderungen verfolgen aktivieren. Mit diesem Modus können Sie und Ihr Team alle Einfügungen und Löschungen während des Dokumentüberprüfungsprozesses erfassen.
 
->[!VIDEO](https://video.tv.adobe.com/v/342763)
+>[!VIDEO](https://video.tv.adobe.com/v/342763?quality=12&learn=on)
 
 ## Arbeiten mit der Funktion &quot;Änderungen verfolgen&quot;
 
@@ -60,7 +60,7 @@ Mehrere getrackte Änderungen können auch durch Einfügen, Löschen oder Überp
 
 ## Verfolgte Änderungen akzeptieren oder ablehnen
 
-Überprüfer und Fachexperten können Änderungen anderer Benutzer entweder einzeln oder alle gleichzeitig akzeptieren oder ablehnen.
+Überprüfer und Fachexperten können die Änderungen anderer Benutzer entweder einzeln oder alle gleichzeitig akzeptieren oder ablehnen.
 
 1. Klicken Sie auf [!UICONTROL **Getrackte Änderungen**] rechts, um auf das Bedienfeld &quot;Getrackte Änderungen&quot;zuzugreifen.
 

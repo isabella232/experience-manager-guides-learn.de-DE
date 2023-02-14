@@ -2,7 +2,7 @@
 title: Erstellen und Veröffentlichen mit Grundlinien
 description: Erstellen und Veröffentlichen mit Grundlinien in [!DNL Adobe Experience Manager Guides]
 exl-id: 3c229c30-f2e0-4fb0-b60c-7bae60ef1a5b
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 2%
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 Mithilfe einer Grundlinie können Sie eine Version Ihrer Zuordnungsthemen und zugehörigen Referenzinhalte erstellen. Dies kann auf einem bestimmten Datum, einer bestimmten Uhrzeit oder auf Bezeichnungen basieren.
 
->[!VIDEO](https://video.tv.adobe.com/v/338993)
+>[!VIDEO](https://video.tv.adobe.com/v/338993?quality=12&learn=on)
 
 ## Zugriff auf die Registerkarte &quot;Grundlinien&quot;im Map Dashboard
 
@@ -191,7 +191,7 @@ In diesem Fall erstellen wir eine Ausgabevorgabe basierend auf einer Grundlinie.
 
 1. Navigieren Sie im Map Dashboard zur Registerkarte Ausgabevorgaben .
 
-2. Wählen Sie **Erstellen**.
+2. Wählen Sie **Erstellen** aus.
 
    ![create-output-preset.png](images/create-output-preset.png)
 

@@ -2,7 +2,7 @@
 title: Arbeiten mit Berichten
 description: Arbeiten mit Berichten in [!DNL Adobe Experience Manager Guides]
 exl-id: 755506a6-c416-4a8c-8359-8db7e63a90a4
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 1%
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 Auf der Registerkarte Berichte im Map-Dashboard können Sie fehlerhafte Links, referenzierte und wiederverwendete Inhalte (Conrefs), Querverweise oder andere fehlende Informationen identifizieren und auflösen.
 
->[!VIDEO](https://video.tv.adobe.com/v/339039)
+>[!VIDEO](https://video.tv.adobe.com/v/339039?quality=12&learn=on)
 
 ## Vorbereitung der Übung
 
@@ -49,7 +49,7 @@ Die DITA-Dateien werden geöffnet und Sie sollten sie auf Probleme mit fehlendem
 
 3. Wählen Sie im Feld Vorlage die Option **Lesezeichen** (oder **Zuordnung** basierend auf dem Inhaltstyp, den Sie erstellen) aus dem Dropdown-Menü und geben Sie Ihrer Karte einen Titel.
 
-4. Wählen Sie **Erstellen**.
+4. Wählen Sie **Erstellen** aus.
 
 Ihre Zuordnung wird erstellt und die linke Leiste ändert sich automatisch von der Ansicht &quot;Repository&quot;in die Ansicht &quot;Map&quot;.
 

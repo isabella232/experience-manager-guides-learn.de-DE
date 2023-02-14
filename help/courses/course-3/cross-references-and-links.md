@@ -2,7 +2,7 @@
 title: Querverweise und Links
 description: Erstellen von Querverweisen und Links in AEM Guides
 exl-id: bee7d50f-cbdd-4ac8-b15b-101febc4ae80
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Der XML-Editor und DITA bieten eine leistungsstarke Möglichkeit, Themen miteina
 Beispieldateien, die Sie für diese Lektion verwenden können, finden Sie in der Datei .
 [crossreferencesandlinks.zip](assets/crossreferencesandlinks.zip)
 
->[!VIDEO](https://video.tv.adobe.com/v/342764)
+>[!VIDEO](https://video.tv.adobe.com/v/342764?quality=12&learn=on)
 
 ## Erstellen eines Querverweises auf ein externes Thema
 

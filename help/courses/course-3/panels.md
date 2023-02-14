@@ -2,10 +2,10 @@
 title: Bedienfelder
 description: Verwenden von Bedienfeldern in AEM Guides
 exl-id: 24ecfc93-3540-4efa-ae85-afb346454b7f
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '1446'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Der Web Editor für AEM Guides ist in mehrere Abschnitte unterteilt, darunter eine Hauptsymbolleiste, eine sekundäre Symbolleiste, ein linker Bereich, einen Inhaltsbearbeitungsbereich und einen rechten Bereich.
 
->[!VIDEO](https://video.tv.adobe.com/v/342760)
+>[!VIDEO](https://video.tv.adobe.com/v/342760?quality=12&learn=on)
 
 ## Größe des linken Bedienfelds ändern
 
@@ -83,7 +83,7 @@ Eine weitere Möglichkeit, ein Thema zu Ihren Favoriten hinzuzufügen, ist ein g
 
 2. Doppelklicken Sie auf ein Thema, um es zu öffnen.
 
-3. Klicken Sie mit der rechten Maustaste auf das **Registerkarte &quot;Titel&quot;** im Editor , um auf kontextbezogene Optionen zuzugreifen.
+3. Klicken Sie mit der rechten Maustaste auf die **Registerkarte &quot;Titel&quot;** im Editor , um auf kontextbezogene Optionen zuzugreifen.
 
 4. Auswählen **Hinzufügen zu** > **Favoriten**.
 
@@ -237,7 +237,7 @@ Dateieigenschaften zeigen zusätzliche Informationen zum gesamten geöffneten Th
 
    Die Ansicht ändert sich in &quot;Kartenansicht&quot;.
 
-7. Klicken Sie auf [!UICONTROL **Bearbeiten**] Symbol.
+7. Klicken Sie auf das Symbol [!UICONTROL **Bearbeiten**].
 
    ![Symbol &quot;Karte bearbeiten&quot;](images/lesson-5/edit-map-icon.png)
 

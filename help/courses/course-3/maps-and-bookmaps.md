@@ -2,7 +2,7 @@
 title: Karten und Lesekarten
 description: Erstellen und Bearbeiten von Karten und Bookmaps in AEM Handbüchern
 exl-id: 9c717e4b-017b-4f2b-b93e-f2c0e7525c55
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 Der Map Editor von Adobe Experience Manager Guides ermöglicht das Erstellen und Bearbeiten von Zuordnungsdateien. Mit dem Map Editor können Sie zwei Arten von Dateien bearbeiten - DITA-Zuordnung und Bookmap. Für unsere Zwecke betrachten sie als weitgehend austauschbare Konzepte.
 Der Map Editor ist in zwei Modi verfügbar: den Basic Map Editor und den Advanced Map Editor.
 
->[!VIDEO](https://video.tv.adobe.com/v/342766)
+>[!VIDEO](https://video.tv.adobe.com/v/342766?quality=12&learn=on)
 
 ## Erstellen einer Karte
 

@@ -2,7 +2,7 @@
 title: Massenveröffentlichung
 description: Massenveröffentlichung in [!DNL Adobe Experience Manager Guides]
 exl-id: b277e846-ef71-47ec-a66c-ac9d392d53e0
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 4%
@@ -13,7 +13,7 @@ ht-degree: 4%
 
 Bei der Veröffentlichung sind häufig mehr als eine Art von Dokumentation erforderlich. Mithilfe von Sammlungen zuordnen können Sie die Anzahl und die Arten der Ausgabe steuern, die assembliert und generiert werden und die Massenveröffentlichung starten. Im Dashboard &quot;Veröffentlichen&quot;können Sie aktive Veröffentlichungsaufträge anzeigen. Das Dashboard für die Massenveröffentlichung bietet eine Möglichkeit, Sammlungen stapelweise zu aktivieren.
 
->[!VIDEO](https://video.tv.adobe.com/v/338985)
+>[!VIDEO](https://video.tv.adobe.com/v/338985?quality=12&learn=on)
 
 ## Arbeiten mit Sammlungen zuordnen
 
