@@ -1,10 +1,11 @@
 ---
 title: Inhalte übersetzen
 description: Erfahren Sie, wie Sie Ihre Inhalte in mehrere Sprachen übersetzen können.
-source-git-commit: 78d8834a3c5ba038f28289bd5c90755badb38d82
+exl-id: c8dacbdc-4b0b-44ca-82d4-889cd83741ff
+source-git-commit: 5b3ffb33619755b3a5bc6c541a07b3084e9154f1
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 3%
+source-wordcount: '195'
+ht-degree: 4%
 
 ---
 
@@ -18,7 +19,7 @@ In dieser Sitzung erfahren Sie mehr über den Übersetzungsprozess, den Integrat
 
 ## Sitzungsaufzeichnung
 
->Anzeigen der aufgezeichneten [Video](https://video.tv.adobe.com/v/3414140/translation-aem-guides?quality=12&learn=on) Sitzung.
+>[Video](https://video.tv.adobe.com/v/3414140/translation-aem-guides?quality=12&learn=on)
 
 ## Lichter
 
@@ -50,11 +51,11 @@ In dieser Sitzung erfahren Sie mehr über Folgendes:
 > - Cloud Services 2207 oder höher
 
 
-## Mehr Expertensitzungen
+## Nächste Sachverständigensitzung
 
 - **Thema** - [Verwalten von Inhalten mit Grundlinien](baselines-dec22.md)
 - **Geplant am** - 8. Dezember 2022
 
 ## Kontakt
 
-Für alle Fragen senden Sie uns eine E-Mail an techcomm@adobe.com.
+Für alle Fragen senden Sie uns eine E-Mail unter <techcomm@adobe.com>

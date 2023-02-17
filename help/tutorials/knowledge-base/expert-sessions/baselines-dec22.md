@@ -1,9 +1,10 @@
 ---
 title: Verwalten von Inhalten mit Grundlinien
 description: Erfahren Sie, wie Sie Grundlinien verwenden können, um Ihre Inhalte effektiv zu verwalten.
-source-git-commit: 34b373b5f2cdd082ea7b9f9c33bfb903bd8a493a
+exl-id: 3fc2e889-b255-4e8d-9750-ab61337107ae
+source-git-commit: 5b3ffb33619755b3a5bc6c541a07b3084e9154f1
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '211'
 ht-degree: 1%
 
 ---
@@ -18,7 +19,7 @@ In dieser Sitzung erfahren Sie, wie Sie mithilfe von Grundlinien Inhalte effekti
 
 ## Sitzungsaufzeichnung
 
->Anzeigen der aufgezeichneten [Video](https://video.tv.adobe.com/v/3414172/version-management-release-management-baseline?quality=12&learn=on) Sitzung.
+>[Video](https://video.tv.adobe.com/v/3414172/version-management-release-management-baseline?quality=12&learn=on)
 
 ## Lichter
 
@@ -50,11 +51,11 @@ In dieser Sitzung erfahren Sie mehr über Folgendes:
 > - Cloud Services 2211 und höher
 
 
-## Mehr Expertensitzungen
+## Nächste Sachverständigensitzung
 
 - **Thema** - [Webbasierte Inhalte erstellen](webbased-authoring-jan2023.md)
 - **Geplant am** - 19. Januar 2023
 
 ## Kontakt
 
-Für alle Fragen senden Sie uns eine E-Mail an techcomm@adobe.com.
+Für alle Fragen senden Sie uns eine E-Mail unter <techcomm@adobe.com>
