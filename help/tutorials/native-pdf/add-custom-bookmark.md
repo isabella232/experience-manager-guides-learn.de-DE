@@ -1,9 +1,9 @@
 ---
-title: Native PDF-Veröffentlichungsfunktion | Anwenden eines benutzerdefinierten Stils auf Inhaltsverzeichniseinträge und Themeninhalte
+title: Native PDF-Veröffentlichungsfunktion | Hinzufügen eines benutzerdefinierten Lesezeichens in der PDF-Ausgabe
 description: Erfahren Sie, wie Sie Stile für Ihren Inhalt erstellen und Stile erstellen.
-source-git-commit: fbb81704ea8d9d2793b066fa159b405460fa1dcf
+source-git-commit: fb7ffbaefcdca4302e43d8369bc056c1f08a3ed6
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,7 @@ Im Allgemeinen wird das Inhaltsverzeichnis in einer DITA-Zuordnung als Lesezeich
 `bookmark-level: 3`
 
 Hier wird die `bookmark-level` ist ein Attribut und eine Zahl `3` ist der Wert, der die Ebene in der Lesezeichenhierarchie angibt, auf der das Lesezeichen hinzugefügt wird. Im folgenden Beispiel enthält das erste Thema &quot;Kontakte&quot;eine Tabelle &quot;Kontaktliste&quot;, zu der wir eine `outputclass` -Attribut mit dem Wert von `custom-bookmark`.
+
 
 <img src="./assets/custom-bookmark-attribute.png" width="500">
 
@@ -33,3 +34,8 @@ Die folgende Definition der `custom-bookmark` -Klasse wird in der CSS-Datei hinz
 In der PDF-Ausgabe wird die *Kontaktliste* -Tabelle wird auf der zweiten Ebene in der PDF-Lesezeichenliste hinzugefügt, wie unten dargestellt:
 
 <img src="./assets/custom-bookmark-in-pdf-output.png" width="500">
+
+>[!NOTE]
+>
+>Sie müssen die richtige Ebene auswählen, auf der das benutzerdefinierte Lesezeichen hinzugefügt wird. Wenn Sie eine Zahl angeben, die kleiner als das Lesezeichen des übergeordneten Themas ist, nimmt das benutzerdefinierte Lesezeichen die Position des übergeordneten Lesezeichens an, und alle anderen Lesezeichen werden als untergeordnete Elemente angezeigt. Dies kann zu einer unerwarteten Lesezeichenstruktur führen.
+

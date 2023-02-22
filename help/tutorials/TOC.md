@@ -2,10 +2,10 @@
 user-guide-title: Tutorials für AEM Guides
 user-guide-description: Lesen Sie unsere Sammlung an Tutorials für Adobe Experience Manager Guides.
 breadcrumb-title: Tutorials für AEM Guides
-source-git-commit: 638bc7daa3bccfdb0334927ac277c4052cf2becb
+source-git-commit: ae85e78b428f1962945d3212f1b42839dbbe3096
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 20%
+source-wordcount: '175'
+ht-degree: 17%
 
 ---
 
@@ -28,6 +28,7 @@ ht-degree: 20%
          + [Februar - Versionshinweise](./release-info/release-notes-2022.2.0.md)
          + [Januar - Versionshinweise](./release-info/release-notes-2022.1.0.md)
       + On-Premise/Managed Services {#on-prem-release-notes}
+         + [4.2 Versionshinweise](./release-info/release-notes-4.2.md)
          + [4.1.x - Versionshinweise](./release-info/release-notes-4.1.md)
          + [4.0.x - Versionshinweise](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
          + [3.8.x - Versionshinweise](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
@@ -40,6 +41,9 @@ ht-degree: 20%
       + [Komponenten einer PDF-Vorlage](./native-pdf/components-pdf-template.md)
       + [Erstellen eines Seitenlayouts](./native-pdf/design-page-layout.md)
       + [Arbeiten mit allgemeinen Inhaltsstilen](./native-pdf/stylesheet.md)
+      + [Anwenden eines benutzerdefinierten Stils auf Inhaltsverzeichniseinträge und Themeninhalte](./native-pdf/custom-style-toc.md)
+      + [Hinzufügen eines benutzerdefinierten Lesezeichens in der PDF-Ausgabe](./native-pdf/add-custom-bookmark.md)
+      + [Verwenden von JavaScript zum Arbeiten mit Inhalt oder Stil](./native-pdf/use-javascript-content-style.md)
    + [Einrichten eines benutzerdefinierten DITA-OT](./configuring/setup-a-custom-dita-ot.md)
 + Übersetzung {#translation}
    + [Absätze von der Übersetzung ausschließen](./translation/exclude-paragraphs-from-translation.md)
