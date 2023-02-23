@@ -1,9 +1,10 @@
 ---
 title: Versionshinweise | Adobe Experience Manager-Handbücher Version 4.2
 description: Aktuelle Version der Adobe Experience Manager-Handbücher
-source-git-commit: 2fb46bdfb7f42fd9b3ef19343700009818c5b4f2
+exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
+source-git-commit: 890d64aed5f4005e3f4d3143bc35804e39036ad3
 workflow-type: tm+mt
-source-wordcount: '3681'
+source-wordcount: '3668'
 ht-degree: 2%
 
 ---
@@ -251,12 +252,12 @@ Auf der PDF wird eine Änderungsleiste angezeigt, die den geänderten, eingefüg
 ### Native PDF | Variablenunterstützung für Output Path und PDF File Name
 
 Jetzt können Sie auch die folgenden vordefinierten Variablen verwenden, um den Ausgabepfad und die PDF-Datei zu definieren. Sie können eine einzelne oder eine Kombination von Variablen verwenden, um die folgenden Optionen zu definieren:
-* ${map_filename}
-* ${map_title}
-* ${preset_name}
-* ${language_code}
-* ${map_parentpath} (Nur für Ausgabepfad)
-* ${path_after_langfolder} (nur für Ausgabepfad)
+* `${map_filename}`
+* `${map_title}`
+* `${preset_name}`
+* `${language_code}`
+* `${map_parentpath}` (Nur für Ausgabepfad)
+* `${path_after_langfolder}` (Nur für Ausgabepfad)
 
 ### Native PDF | Inhaltsverzeichnis für DITA-Maps generieren und Seitenlayouts neu anordnen
 
