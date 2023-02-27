@@ -1,9 +1,9 @@
 ---
 title: Grundlagen der nativen PDF-Veröffentlichung
 description: Erfahren Sie, wie Sie PDF mithilfe der nativen PDF-Engine in AEM Guides veröffentlichen.
-source-git-commit: b79e7287cdf7eaff0a6fa47d94e12c8928a44b49
+source-git-commit: 285dbf9ea7eb5eb4288dfbdfc977d35b2feef111
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '233'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ In dieser Sitzung erfahren Sie mehr über Folgendes:
 
 - **Funktionsvideos** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **Benutzerhandbuch** - [Autoreninhalt](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/pdf-template.html?lang=en)
+- **Benutzerhandbuch** - [Native PDF-Veröffentlichung](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/pdf-template.html?lang=en)
 
 - **Community-Forum** - Sitzungsspezifische Community-Interaktionen auf Experience League finden Sie unter  [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
@@ -53,7 +53,7 @@ In dieser Sitzung erfahren Sie mehr über Folgendes:
 
 ## Nächste Sachverständigensitzung
 
-- **Thema** - Veröffentlichung und Berichte *(basierend auf den Umfrageergebnissen)*
+- **Thema** - TBD *(in Erwartung der Umfrageergebnisse)*
 - **Geplant am** - 30. März 2023
 
 ## Kontakt

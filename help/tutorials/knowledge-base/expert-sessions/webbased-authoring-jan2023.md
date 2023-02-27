@@ -2,9 +2,9 @@
 title: Webbasierte Inhalte erstellen
 description: Erfahren Sie, wie Sie strukturierte Inhalte mit dem Web-Editor erstellen.
 exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
-source-git-commit: cb7cb66eb4ba81120afb43582867e859661b434c
+source-git-commit: 285dbf9ea7eb5eb4288dfbdfc977d35b2feef111
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '223'
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ In dieser Sitzung erfahren Sie mehr über Folgendes:
 
 ## Nächste Sachverständigensitzung
 
-- **Thema** - Native PDF Publishing *(basierend auf den Umfrageergebnissen)*
+- **Thema** - [Grundlagen der nativen PDF-Veröffentlichung](native-pdf-publishing-essentials-feb23.md)
 - **Geplant am** - 23. Februar 2023
 
 ## Kontakt
