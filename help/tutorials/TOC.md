@@ -2,9 +2,9 @@
 user-guide-title: Tutorials für AEM Guides
 user-guide-description: Lesen Sie unsere Sammlung an Tutorials für Adobe Experience Manager Guides.
 breadcrumb-title: Tutorials für AEM Guides
-source-git-commit: 9eb44211684c8a3af036acf12390dafb617fd24a
+source-git-commit: d13a04448be357f37290dbd37317d82b5a8ea736
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '204'
 ht-degree: 17%
 
 ---
@@ -14,11 +14,12 @@ ht-degree: 17%
 
 + [Tutorials für [!DNL AEM Guides]](overview.md)
 + Versionshinweise {#release-info}
-   + [[!DNL AEM Guides] Releases](./release-info/latest-release-info.md)
+   + [[!DNL AEM Guides] releases](./release-info/latest-release-info.md)
    + Versionshinweise {#release-notes}
       + Cloud Services {#cloud-release-notes}
          + [Bereitstellungsanweisungen](./release-info/deploy-xml-on-aemaacs.md)
-         + [Aktuelle Versionshinweise](./release-info/release-notes-2022.11.0.md)
+         + [Aktuelle Versionshinweise](./release-info/release-notes-2023.2.0.md)
+         + [November-Versionshinweise](./release-info/release-notes-2022.11.0.md)
          + [Oktober - Versionshinweise](./release-info/release-notes-2022.10.0.md)
          + [September - Versionshinweise](./release-info/release-notes-2022.9.0.md)
          + [August - Versionshinweise](./release-info/release-notes-2022.8.0.md)
@@ -58,6 +59,8 @@ ht-degree: 17%
       + [Verwalten von Inhalten mit Grundlinien](./knowledge-base/expert-sessions/baselines-dec22.md)
       + [Webbasierte Inhalte erstellen](./knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
       + [Grundlagen der nativen PDF-Veröffentlichung](./knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
+   + Veröffentlichung{#publishing}
+      + [Neue mikrodienstbasierte Veröffentlichung für AEM Guides as a Cloud Service konfigurieren](./knowledge-base/publishing/configure-microservices.md)
    + Artikel {#kb-articles}
       + Authoring {#authoring}
          + Webeditor {#webeditor}

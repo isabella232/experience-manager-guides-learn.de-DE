@@ -1,28 +1,28 @@
 ---
 title: Versionshinweise | Adobe Experience Manager-Handbücher as a Cloud Service, Version November 2022
-description: Neueste Version der Adobe Experience Manager-Handbücher as a Cloud Service
+description: November-Version der Adobe Experience Manager-Handbücher as a Cloud Service
 exl-id: 9f329ec1-dd74-47cc-8567-3fadd962584a
-source-git-commit: 0663ed4434fdf583a9446891f944d94b85f375c6
+source-git-commit: 715d5622c4cc59dfb24ac9a3442e61efdb10a797
 workflow-type: tm+mt
 source-wordcount: '1372'
 ht-degree: 2%
 
 ---
 
-# Neueste Version der Adobe Experience Manager-Handbücher as a Cloud Service
+# November-Version der Adobe Experience Manager-Handbücher as a Cloud Service
 
-## Aktualisierung auf die neueste Version
+## Aktualisierung auf die November-Version
 
 Aktualisieren Sie Ihre aktuellen Adobe Experience Manager-Handbücher as a Cloud Service (später als *AEM as a Cloud Service Handbücher*) einrichten, indem Sie die folgenden Schritte ausführen:
 1. Sehen Sie sich den Git-Code des Cloud Services an und wechseln Sie zu der Verzweigung, die in der Cloud Services-Pipeline entsprechend der Umgebung konfiguriert ist, die Sie aktualisieren möchten.
 2. Aktualisieren `<dox.version>` -Eigenschaft in `/dox/dox.installer/pom.xml` -Datei Ihres Cloud Services-Git-Codes auf 2022.11.198.
-3. Übertragen Sie die Änderungen und führen Sie die Cloud Services-Pipeline aus, um auf die neueste Version der as a Cloud Service AEM Guides zu aktualisieren.
+3. Übertragen Sie die Änderungen und führen Sie die Cloud Services-Pipeline aus, um auf die November-Version von AEM Guides as a Cloud Service zu aktualisieren.
 
 ## Schritte zum Indexieren des vorhandenen Inhalts (nur, wenn Sie eine Version vor der September-Version von AEM Guides as a Cloud Service verwenden)
 
 Führen Sie die folgenden Schritte für die Indizierung des vorhandenen Inhalts aus und verwenden Sie den neuen Suchen- und Ersetzen-Text auf Zuordnungsebene:
 
-* Führen Sie eine POST-Anfrage an den Server aus (mit der richtigen Authentifizierung) - `http://<server:port>/bin/guides/map-find/indexin`.
+* Führen Sie eine POST-Anfrage an den Server aus (mit der richtigen Authentifizierung) - `http://<server:port>/bin/guides/map-find/indexing`.
 (Optional: Sie können bestimmte Pfade der Maps übergeben, um sie zu indizieren. Standardmäßig werden alle Maps indiziert || Beispiel : `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 * Die API gibt eine jobId zurück. Um den Status des Auftrags zu überprüfen, können Sie eine GET-Anfrage mit Auftrags-ID an denselben Endpunkt senden - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
@@ -48,13 +48,13 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen
 
 | AEM zu Handbüchern as a Cloud - Version | Sauerstoff Connector Windows | Sauerstoff Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
 | --- | --- | --- | --- | --- |
-| 2022.11.0 | 2,7,13 | 2,7,13 | 2.3 | 2,3 |
+| 2022.11.0 | 2.7.13 | 2.7.13 | 2.3 | 2.3 |
 |  |  |  |  |
 
 
 ## Neue Funktionen und Erweiterungen
 
-AEM Guides as a Cloud Service bietet Verbesserungen und neue Funktionen der neuesten Version:
+AEM Guides as a Cloud Service bietet Verbesserungen und neue Funktionen in der November-Version:
 
 
 ### Löschen von Dateien aus dem Repository-Bereich
