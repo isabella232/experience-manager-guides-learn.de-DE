@@ -2,9 +2,9 @@
 title: Inhalte übersetzen
 description: Erfahren Sie, wie Sie Ihre Inhalte in mehrere Sprachen übersetzen können.
 exl-id: c8dacbdc-4b0b-44ca-82d4-889cd83741ff
-source-git-commit: cb7cb66eb4ba81120afb43582867e859661b434c
+source-git-commit: 3d12389dbd7458a74bb9b9ec488e83bf39c8c9bf
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '183'
 ht-degree: 3%
 
 ---
@@ -50,11 +50,6 @@ In dieser Sitzung erfahren Sie mehr über Folgendes:
 > - On-Premise 4.1 oder höher
 > - Cloud Services 2207 oder höher
 
-
-## Nächste Sachverständigensitzung
-
-- **Thema** - [Verwalten von Inhalten mit Grundlinien](baselines-dec22.md)
-- **Geplant am** - 8. Dezember 2022
 
 ## Kontakt
 

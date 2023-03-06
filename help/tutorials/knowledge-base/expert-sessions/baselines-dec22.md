@@ -2,9 +2,9 @@
 title: Verwalten von Inhalten mit Grundlinien
 description: Erfahren Sie, wie Sie Grundlinien verwenden können, um Ihre Inhalte effektiv zu verwalten.
 exl-id: 3fc2e889-b255-4e8d-9750-ab61337107ae
-source-git-commit: cb7cb66eb4ba81120afb43582867e859661b434c
+source-git-commit: 3d12389dbd7458a74bb9b9ec488e83bf39c8c9bf
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '200'
 ht-degree: 1%
 
 ---
@@ -50,11 +50,6 @@ In dieser Sitzung erfahren Sie mehr über Folgendes:
 > - On-Premise 4.1 und höher
 > - Cloud Services 2211 und höher
 
-
-## Nächste Sachverständigensitzung
-
-- **Thema** - [Webbasierte Inhalte erstellen](webbased-authoring-jan2023.md)
-- **Geplant am** - 19. Januar 2023
 
 ## Kontakt
 
