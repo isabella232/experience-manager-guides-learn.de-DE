@@ -1,7 +1,7 @@
 ---
 title: FMPS- und AEM-Handbücher
 description: Veröffentlichen mit FMPS mithilfe von AEM
-source-git-commit: 5c53f89a811571c2193769bb4821657df3212dc0
+source-git-commit: 82f010a97d0ed0e3c6351e6411e5955c79e0b01f
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Wählen Sie im Menü &quot;PDF mithilfe generieren&quot;die Option &quot;FrameMa
 Der Benutzer kann &quot;settings File(.sts)&quot;und &quot;ditaval&quot;angeben. Die Filterung erfolgt mithilfe eines Ditavars, das auf den von Ihnen angegebenen Bedingungen basiert.
 
 - **Festlegen der Datei**: Veröffentlichungseinstellung für FrameMaker/FMPS , die alle Einstellungen enthält, die FMPS beim Veröffentlichen berücksichtigen soll. Beispiel: Generieren der Ausgabe mit der benutzerdefinierten Vorlage, Generieren von Marken und Anschnitten (PDF), Generieren von PDF mit Inhaltsverzeichnis, Index usw.
-- **FMPS vorhanden:** Vordefinierte Kombination aus Ditaval und Einstellungsdatei, anstatt separate Ditaval- und Einstellungsdateien bereitzustellen, kann der Benutzer eine FMPS-Vorgabe vorab erstellen, die für Veröffentlichungsanforderungen wiederverwendet werden kann.
+- **FMPS-Vorgabe:** Vordefinierte Kombination aus Ditaval und Einstellungsdatei, anstatt separate Ditaval- und Einstellungsdateien bereitzustellen, kann der Benutzer eine FMPS-Vorgabe vorab erstellen, die für Veröffentlichungsanforderungen wiederverwendet werden kann.
 
 **Hinweis:** Wenn Sie keine der Einstellungen oder FMPS-Vorgaben auswählen, wird FMPS mit der Standardsystemeinstellung veröffentlicht.
 
