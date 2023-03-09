@@ -1,5 +1,5 @@
 ---
-source-git-commit: f79a387de64a31dc62455992c54fc82dc6235ebc
+source-git-commit: 2e1f1644e5f22fc928ad813f46137a3f284df022
 workflow-type: tm+mt
 source-wordcount: '5800'
 ht-degree: 1%
@@ -633,33 +633,33 @@ Lösung : Dieses Problem wurde behoben, indem ein Proxy-Server zwischen DITA-OT 
 
 ### AEM Bedienfeld Guides navigiert nicht zum geöffneten Dateispeicherort { .section}
 
-Problem : Wenn Sie eine Datei zum Bearbeiten in der XML-Autoreninstanz von AEM Server aus öffnen, wird die Datei zur Bearbeitung in der XML-Autoreninstanz geöffnet. Das Bedienfeld AEM Guides zeigt jedoch nicht den Speicherort der Datei in der Navigationsstruktur an.
+Problem: Wenn Sie eine Datei zum Bearbeiten in der XML-Autoreninstanz von AEM Server aus öffnen, wird die Datei zur Bearbeitung in der XML-Autoreninstanz geöffnet. Das Bedienfeld AEM Guides zeigt jedoch nicht den Speicherort der Datei in der Navigationsstruktur an.
 
-Lösung : Dieses Problem wurde in Szenarien beobachtet, in denen der Dateipfad /content/dam zweimal enthält. Standardmäßig werden alle Assets in AEM im Ordner /content/dam gespeichert. Wenn Sie eine Ordnerstruktur hochladen oder erstellen, die auch /content/dam enthält, wird dieses Problem beobachtet. Sie können alle normalen Vorgänge für diese Dateien ausführen, ihr Speicherort innerhalb der Navigationsstruktur wird jedoch nicht standardmäßig angezeigt. Um auf diese Datei in der Navigationsstruktur zuzugreifen, müssen Sie manuell zum Speicherort der Datei navigieren. Beachten Sie, dass in der Navigationsstruktur der doppelte Pfad /content/dam durch /content/assets ersetzt wird.
+Lösung: Dieses Problem wurde in Szenarien beobachtet, in denen der Dateipfad /content/dam zweimal enthält. Standardmäßig werden alle Assets in AEM im Ordner /content/dam gespeichert. Wenn Sie eine Ordnerstruktur hochladen oder erstellen, die auch /content/dam enthält, wird dieses Problem beobachtet. Sie können alle normalen Vorgänge für diese Dateien ausführen, ihr Speicherort innerhalb der Navigationsstruktur wird jedoch nicht standardmäßig angezeigt. Um auf diese Datei in der Navigationsstruktur zuzugreifen, müssen Sie manuell zum Speicherort der Datei navigieren. Beachten Sie, dass in der Navigationsstruktur der doppelte Pfad /content/dam durch /content/assets ersetzt wird.
 
 ### Konfigurieren der Protokollierung { .section}
 
-Problem : Standardmäßig generiert das Oxygen-Plug-in für AEM Guides keine Protokolle, was das Debuggen von Fehlerszenarien erschwert.
+Problem: Standardmäßig generiert das Oxygen-Plug-in für AEM Guides keine Protokolle, was das Debuggen von Fehlerszenarien erschwert.
 
-Lösung : Führen Sie die folgenden Schritte aus, um die Protokollgenerierungsfunktion im Plug-in zu aktivieren:
+Lösung: Führen Sie die folgenden Schritte aus, um die Protokollgenerierungsfunktion im Plug-in zu aktivieren:
 
     1.  Navigieren Sie zum Installationsspeicherort der Oxygen XML-Autoreninstanz.
     
-    2.  Öffnen Sie die Datei SauerstoffAuthor19.1.vmoptions in einem Texteditor.
+    1.  Öffnen Sie die Datei SauerstoffAuthor19.1.vmoptions in einem Texteditor.
     
     **Hinweis:**
     
     Die Versionsnummer der Datei kann je nach der Versionsnummer der auf Ihrem System installierten Anwendung unterschiedlich sein.
     
-    3.  Hängen Sie die folgende Zeile in die Datei an:
+    1.  Hängen Sie die folgende Zeile in die Datei an:
     
     &quot;
     -Djava.util.logging.config.file=./log.properties
     &quot;
     
-    4.  Speichern und schließen Sie die Datei.
+    1.  Speichern und schließen Sie die Datei.
     
-     5.  Erstellen Sie am selben Speicherort eine Datei mit dem Namen log.properties mit folgendem Inhalt:
+    1.  Erstellen Sie am selben Speicherort eine Datei mit dem Namen log.properties mit folgendem Inhalt:
     
     &quot;
     handlers=java.util.logging.FileHandler
@@ -671,9 +671,9 @@ Lösung : Führen Sie die folgenden Schritte aus, um die Protokollgenerierungsfu
     java.util.logging.FileHandler.format=[%1$tF %1$tT] [%4$s] %5$s %n
     &quot;
     
-    6.  Speichern und schließen Sie die Datei.
+    1.  Speichern und schließen Sie die Datei.
     
-    7.  Starten Sie die XML-Autoreninstanz von Oxygen.
+    1.  Starten Sie die XML-Autoreninstanz von Oxygen.
     
     
     Das Plug-in erstellt jetzt Protokolle im Basisverzeichnis des Benutzers mit dem Dateinamen aem-pluginX.log \(*wobei X die Rotationsnummer*\ angibt).
