@@ -1,9 +1,9 @@
 ---
 title: Sauerstoff-Plug-in für Adobe Experience Manager-Handbücher
 description: Erfahren Sie, wie Sie mit dem Oxygen-Plug-in für Adobe Experience Manager-Handbücher Inhalte erstellen und verwalten können.
-source-git-commit: 50b1b02c69ff81d4ee050d02ed945e88fac9dae0
+source-git-commit: c3d50c3fc9f12d98942b6cb68512e01559b47d93
 workflow-type: tm+mt
-source-wordcount: '5812'
+source-wordcount: '5792'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,9 @@ Mit dem Sauerstoff-Plug-in für Adobe Experience Manager-Handbücher \(später a
 
 Das Sauerstoff-Plugin für AEM Guides wird über Ihr Adobe Software Distribution-Portal bereitgestellt. Suchen Sie auf der Registerkarte &quot;Experience Manager&quot;nach &quot;Sauerstoff&quot;und laden Sie dann das Plug-in-Installationsprogramm von Ihrem [Adobe Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html).
 
-**Hinweis:** Überprüfen Sie in den Versionshinweisen für die jeweiligen Adobe Experience Manager-Handbücher auf die Kompatibilität der Adobe-Connector-Version.
+>[!NOTE]
+>
+>Überprüfen Sie in den Versionshinweisen für die jeweiligen Adobe Experience Manager-Handbücher auf die Kompatibilität der Adobe-Connector-Version.
 
 Nachdem Sie das Installationsprogramm installiert haben, installieren Sie es auf Ihrem lokalen Computer, auf dem die Oxygen XML Author installiert ist. Bevor Sie mit der Installation beginnen, müssen Sie sicherstellen, dass Ihr System die technischen Anforderungen für die Installation des Oxygen Plugins für AEM Guides erfüllt.
 
@@ -36,9 +38,9 @@ Nachdem Sie das Installationsprogramm installiert haben, installieren Sie es auf
 
 ### Installieren des Plug-ins unter Windows
 
-**Wichtig:**
-
-Wenn Sie eine ältere Version des Plug-ins auf Ihrem System installiert haben, stellen Sie sicher, dass Sie es deinstallieren, bevor Sie den Installationsprozess starten. Siehe **Deinstallieren von Paketen** im Abschnitt [Arbeiten mit Paketen](https://helpx.adobe.com/de/experience-manager/6-4/sites/administering/using/package-manager.html) Artikel für Anweisungen zur Deinstallation.
+>[!IMPORTANT]
+>
+>Wenn Sie eine ältere Version des Plug-ins auf Ihrem System installiert haben, stellen Sie sicher, dass Sie es deinstallieren, bevor Sie den Installationsprozess starten. Siehe **Deinstallieren von Paketen** im Abschnitt [Arbeiten mit Paketen](https://helpx.adobe.com/de/experience-manager/6-4/sites/administering/using/package-manager.html) Artikel für Anweisungen zur Deinstallation.
 
 Führen Sie die folgenden Schritte für das System aus, auf dem Oxygen XML Author installiert ist:
 
@@ -63,16 +65,16 @@ Führen Sie die folgenden Schritte für das System aus, auf dem Oxygen XML Autho
 
    ![](images/oxygen-aem-connector.png)
 
-   **Hinweis:**
-
-   Wenn das Bedienfeld AEM Guides nicht angezeigt wird, finden Sie die Problemumgehungen im Abschnitt zur Fehlerbehebung .—[Bedienfeld AEM Guides fehlt](#id192BH200ZAX).
+   >[!NOTE]
+   >
+   >Wenn das Bedienfeld AEM Guides nicht angezeigt wird, finden Sie die Problemumgehungen im Abschnitt zur Fehlerbehebung .—[Bedienfeld AEM Guides fehlt](#id192BH200ZAX).
 
 
 ### Installieren des Plug-ins in Mac
 
-**Wichtig:**
-
-Wenn Sie eine ältere Version des Plug-ins auf Ihrem System installiert haben, stellen Sie sicher, dass Sie es deinstallieren, bevor Sie den Installationsprozess starten. Siehe **Deinstallieren von Paketen** im Abschnitt [Arbeiten mit Paketen](https://helpx.adobe.com/de/experience-manager/6-4/sites/administering/using/package-manager.html) Anweisungen zur Deinstallation des Artikels.
+>[!IMPORTANT]
+>
+>Wenn Sie eine ältere Version des Plug-ins auf Ihrem System installiert haben, stellen Sie sicher, dass Sie es deinstallieren, bevor Sie den Installationsprozess starten. Siehe **Deinstallieren von Paketen** im Abschnitt [Arbeiten mit Paketen](https://helpx.adobe.com/de/experience-manager/6-4/sites/administering/using/package-manager.html) Anweisungen zur Deinstallation des Artikels.
 
 Führen Sie die folgenden Schritte für das System aus, auf dem Oxygen XML Author installiert ist:
 
@@ -82,9 +84,9 @@ Führen Sie die folgenden Schritte für das System aus, auf dem Oxygen XML Autho
 
    Die .dmg-Datei enthält einen Ordner aem-connector-x.x und eine Datei aem-connector-x.x-setup .
 
-   **Hinweis:**
-
-   x.x in den Dateinamen ist die Versionsnummer des Plug-ins.
+   >[!NOTE]
+   >
+   >x.x in den Dateinamen ist die Versionsnummer des Plug-ins.
 
 1. Kopieren Sie den Ordner aem-connector-x.x in den Ordner plugins von Oxygen XML Author.
 1. Doppelklicken Sie auf die Datei aem-connector-x.x-setup , um das Installationsprogramm zu starten.
@@ -95,9 +97,9 @@ Führen Sie die folgenden Schritte für das System aus, auf dem Oxygen XML Autho
 
    ![](images/oxygen-aem-connector-mac.png)
 
-   **Hinweis:**
-
-   Wenn das Bedienfeld AEM Guides nicht angezeigt wird, finden Sie die Problemumgehungen im Abschnitt zur Fehlerbehebung .—[Bedienfeld AEM Guides fehlt](#id192BH200ZAX).
+   >[!NOTE]
+   >
+   >Wenn das Bedienfeld AEM Guides nicht angezeigt wird, finden Sie die Problemumgehungen im Abschnitt zur Fehlerbehebung .—[Bedienfeld AEM Guides fehlt](#id192BH200ZAX).
 
 
 ### Installieren Sie das Paket für die Aktivierung der Dokumentbearbeitungsfunktion über AEM Web-Oberfläche {#id182CE0Q0TY4}
@@ -132,9 +134,9 @@ Als AEM Administrator führen Sie die folgenden Schritte aus, um das Paket zu in
 
    **In Sauerstoff bearbeiten** ist in der Symbolleiste verfügbar. Weitere Informationen zur Verwendung dieser Option finden Sie unter [Öffnen Sie das DITA-Thema in der Oxygen XML Author über AEM Web-Oberfläche.](#id182CE0I905Z).
 
-   **Hinweis:**
-
-   Die **In Sauerstoff bearbeiten** angezeigt, wenn Sie ein DITA-Thema auswählen. Wenn Sie mehrere Themen auswählen, ist die Option nicht sichtbar.
+   >[!NOTE]
+   >
+   >Die **In Sauerstoff bearbeiten** angezeigt, wenn Sie ein DITA-Thema auswählen. Wenn Sie mehrere Themen auswählen, ist die Option nicht sichtbar.
 
 
 ## Konfigurieren des Sauerstoffplugins für AEM Guides {#id1826KF00AHS}
@@ -151,7 +153,9 @@ JxBrowser wird für die SSO-Authentifizierung durch das Oxygen-Connector-Plug-in
 
 Aktualisieren Sie die angegebenen Dateien, um die Web-Authentifizierungseinstellungen im Oxygen-Plug-in für AEM Guides zu konfigurieren:
 
-**Hinweis:** Erstellen Sie eine Sicherungskopie der Datei, bevor Sie sie aktualisieren.
+>[!NOTE]
+>
+>Erstellen Sie eine Sicherungskopie der Datei, bevor Sie sie aktualisieren.
 
 **Für Mac und Sauerstoff 24.1**
 
@@ -181,9 +185,9 @@ Fügen Sie die folgenden Zeilen in die Datei SauerstoffAuthor.bat ein
 -Djdk.module.illegalAccess=permit -Djava.ipc.external=true
 ```
 
-**Hinweis:**
-
-Als Administrator müssen Sie Sauerstoff von SauerstoffAuthor.sh für Mac und SauerstoffAuthor.bat für Windows ausführen.
+>[!NOTE]
+>
+>Als Administrator müssen Sie Sauerstoff von SauerstoffAuthor.sh für Mac und SauerstoffAuthor.bat für Windows ausführen.
 
 ### Allgemeine Einstellungen
 
@@ -191,7 +195,7 @@ Führen Sie die folgenden Schritte aus, um die Verbindungseinstellungen im Sauer
 
 1. Klicken Sie im Bedienfeld AEM Guides auf das Einstellungssymbol und wählen Sie dann **Einstellungen**.
 
-   ![](images/Settings.png)
+   ![](images/settings.png)
 
 1. Geben Sie die folgenden Details an:
    - **Server-URL**: URL des AEM-Servers, z. B.:
@@ -202,9 +206,9 @@ Führen Sie die folgenden Schritte aus, um die Verbindungseinstellungen im Sauer
 
       Geben Sie in der obigen URL den Hostnamen und Port des Servers an, auf dem AEM Server bereitgestellt wird.
 
-      **Wichtig:**
-
-      Wenn Ihr AEM-Server an Port 80 oder 443 bereitgestellt wird, müssen Sie ihn nicht in der URL angeben.
+      >[!IMPORTANT]
+      >
+      >Wenn Ihr AEM-Server an Port 80 oder 443 bereitgestellt wird, müssen Sie ihn nicht in der URL angeben.
 
    - **Authentifizierung:** Wählen Sie aus **Einfach \(Benutzername/Kennwort\)** oder **Webauthentifizierung**. Wenn Sie **Allgemein** Authentifizierung müssen Sie die **Benutzername** und **Passwort** im Dialogfeld &quot;Voreinstellungen&quot;.
 
@@ -232,7 +236,7 @@ Führen Sie die folgenden Schritte aus, um Profilattribute zu konfigurieren:
 
 1. Im **Klassenpfad** Wählen Sie com.adobe.o2.connector im **Übergeordnete Klassenlader vom Plug-in mit ID verwenden** Dropdown-Liste.
 
-   ![](images/DITA%20Extension.png)
+   ![](images/dita-extension.png)
 
 1. Im **Erweiterungen** -Tab, nehmen Sie die folgenden Änderungen vor:
 1. 
@@ -286,7 +290,9 @@ Der folgende Bildschirm zeigt das Bedienfeld AEM Guides .
 - **Verbinden**: Wählen Sie diese Option, um eine Verbindung zum AEM-Server herzustellen. Die Option ist deaktiviert, wenn die XML-Autoreninstanz mit dem AEM Server verbunden ist.
 - **Aktualisieren**: Wählen Sie diese Option aus, um den aktuellen Status der Dateien und Ordner aus dem AEM Repository abzurufen.
 
-   **Hinweis:** Achten Sie darauf, die Dateien zu speichern, bevor Sie sie aktualisieren. Wenn Sie **Aktualisieren** -Option, erhalten Sie eine Warnung, um Ihre Dateien zu speichern, bevor Sie sie aktualisieren. Wenn Sie Ihre Dateien nicht gespeichert haben, können Sie auf **Abbrechen** und speichern Sie sie.
+   >[!NOTE]
+   >
+   >Achten Sie darauf, die Dateien zu speichern, bevor Sie sie aktualisieren. Wenn Sie **Aktualisieren** -Option, erhalten Sie eine Warnung, um Ihre Dateien zu speichern, bevor Sie sie aktualisieren. Wenn Sie Ihre Dateien nicht gespeichert haben, können Sie auf **Abbrechen** und speichern Sie sie.
 
 - **Einstellungen**: Sie können diese Option verwenden, um das Dialogfeld &quot;Allgemeine Voreinstellungen&quot;des Plug-ins zu öffnen.
 - **Abmelden**: Wählen Sie diese Option, um die AEM Serververbindung zu schließen. Diese Option ist nur verfügbar, wenn Sie den Webauthentifizierungsmodus verwenden.
@@ -331,9 +337,9 @@ Nachdem Sie eine Verbindung zum AEM-Repository hergestellt haben, können Sie Da
 
 Wenn Sie die Option **Datei für automatisches Auschecken beim Öffnen** Option \(im Dialogfeld Voreinstellungen\), wird die Datei beim Öffnen automatisch ausgecheckt und steht zur Bearbeitung zur Verfügung. Um eine Datei zu öffnen, können Sie entweder auf einen Dateinamen doppelklicken oder mit der rechten Maustaste auf den Dateinamen klicken und **Öffnen** aus dem Kontextmenü aus. Wenn diese Option nicht ausgewählt ist, wird die Datei im schreibgeschützten Modus geöffnet.
 
-**Hinweis:**
-
-Sie können auch auf eine Datei doppelklicken, um sie zu öffnen.
+>[!NOTE]
+>
+>Sie können auch auf eine Datei doppelklicken, um sie zu öffnen.
 
 ### Öffnen Sie die Datei im Editor AEM Guides . {#id195GH0V30KX}
 
@@ -370,9 +376,9 @@ Wenn eine Datei ausgecheckt wird, ändert sich das Symbol der Datei, um den Sper
 
 Im obigen Screenshot wird eine von einem anderen Benutzer ausgecheckte Datei mit einem schwarzen Sperrsymbol \(A\) angezeigt. Die vom aktuellen Benutzer ausgecheckte Datei wird mit einem grünen Schloss \(B\) angezeigt.
 
-**Hinweis:**
-
-Wenn die ausgecheckte Datei gelöscht oder in einen anderen Ordner in AEM verschoben wird, erhalten Sie beim Einchecken der Datei eine Fehlermeldung. Vergewissern Sie sich, dass die ausgecheckte Datei nicht über die AEM Web-Oberfläche verschoben oder gelöscht wird.
+>[!NOTE]
+>
+>Wenn die ausgecheckte Datei gelöscht oder in einen anderen Ordner in AEM verschoben wird, erhalten Sie beim Einchecken der Datei eine Fehlermeldung. Vergewissern Sie sich, dass die ausgecheckte Datei nicht über die AEM Web-Oberfläche verschoben oder gelöscht wird.
 
 ### Einchecken einer Datei {#id182CF0J0FHS}
 
@@ -397,15 +403,15 @@ Wenn Sie eine Datei einchecken, wird die lokale Kopie von Ihrem System im AEM-Re
 
 1. \(Optional\) Fügen Sie im Dialogfeld &quot;Einchecken&quot;einen Kommentar hinzu unter **Versionskommentare** Textfeld.
 
-   **Hinweis:**
-
-   Dieser Kommentar wird im AEM Versionsverlauf der Datei angezeigt.
+   >[!NOTE]
+   >
+   >Dieser Kommentar wird im AEM Versionsverlauf der Datei angezeigt.
 
 1. Klicken Sie auf **OK**.
 
-**Hinweis:**
-
-Wenn die ausgecheckte Datei gelöscht oder in einen anderen Ordner in AEM verschoben wird, erhalten Sie beim Einchecken der Datei eine Fehlermeldung. Vergewissern Sie sich, dass die ausgecheckte Datei nicht über die AEM Web-Oberfläche verschoben oder gelöscht wird.
+>[!NOTE]
+>
+>Wenn die ausgecheckte Datei gelöscht oder in einen anderen Ordner in AEM verschoben wird, erhalten Sie beim Einchecken der Datei eine Fehlermeldung. Vergewissern Sie sich, dass die ausgecheckte Datei nicht über die AEM Web-Oberfläche verschoben oder gelöscht wird.
 
 ### Ausgecheckte Dateien in AEM Guides-Ansicht
 
@@ -512,7 +518,7 @@ Führen Sie die folgenden Schritte aus, um Themen zu suchen:
 
    Das Ergebnis wird auf der Registerkarte Suchergebnisse als Liste mit dem Dateipfad angezeigt. Wenn für Ihre Suchanfrage kein passendes Ergebnis vorliegt, werden in &lt;path of=&quot;&quot; the=&quot;&quot; selected=&quot;&quot; folder=&quot;&quot;> angezeigt.
 
-   ![](images/Search.png)
+   ![](images/search.png)
 
 1. \(Optional\) Doppelklicken Sie auf eine Datei im Suchergebnis, um sie in der XML-Autoreninstanz von Oxygen zu öffnen.
 1. Führen Sie einen der folgenden Schritte aus, um zur AEM Repository-Ansicht zurückzukehren:
@@ -523,9 +529,9 @@ Führen Sie die folgenden Schritte aus, um Themen zu suchen:
 
 Sie können Ihr DITA-Thema in der Oxygen XML Author über die AEM Web-Oberfläche öffnen und bearbeiten. Sie müssen ein Package in AEM installieren, um diese Option zu aktivieren. Weitere Informationen zur Paketinstallation finden Sie unter [Installieren Sie das Paket für die Aktivierung der Dokumentbearbeitungsfunktion über AEM Web-Oberfläche](#id182CE0Q0TY4).
 
-**Hinweis:**
-
-Die **In Sauerstoff bearbeiten** -Option kann an verschiedenen Stellen in AEM aufgerufen werden: wenn ein Thema ausgewählt ist, wenn ein Thema in der Vorschau angezeigt wird, oder über die Registerkarte Themen und Berichte der DITA-Zuordnungskonsole. Wenn Sie mehrere Themen auswählen, ist die Option nicht in der Symbolleiste sichtbar.
+>[!NOTE]
+>
+>Die **In Sauerstoff bearbeiten** -Option kann an verschiedenen Stellen in AEM aufgerufen werden: wenn ein Thema ausgewählt ist, wenn ein Thema in der Vorschau angezeigt wird, oder über die Registerkarte Themen und Berichte der DITA-Zuordnungskonsole. Wenn Sie mehrere Themen auswählen, ist die Option nicht in der Symbolleiste sichtbar.
 
 **DITA-Thema öffnen**
 
@@ -533,9 +539,9 @@ Führen Sie die folgenden Schritte aus, um ein DITA-Thema in der XML-Autoreninst
 
 1. Wählen Sie ein Thema in Ihren Assets aus und klicken Sie auf **In Sauerstoff bearbeiten** in der Symbolleiste.
 
-   **Hinweis:**
-
-   Wenn das Thema nicht ausgecheckt ist, wird es zunächst ausgecheckt und dann im Bearbeitungsmodus in Sauerstoff geöffnet.
+   >[!NOTE]
+   >
+   >Wenn das Thema nicht ausgecheckt ist, wird es zunächst ausgecheckt und dann im Bearbeitungsmodus in Sauerstoff geöffnet.
 
 1. Wählen Sie Oxygen XML Author *&lt;version>* im **Launch-Anwendung** Meldungsfeld. Sie können **Meine Auswahl an AEM-Links speichern** -Option, um Ihre Voreinstellung zu speichern.
 
@@ -546,9 +552,9 @@ Führen Sie die folgenden Schritte aus, um ein DITA-Thema in der Oxygen XML Auth
 1. Auswählen und Auschecken eines Themas in Ihren Assets.
 1. Klicken **In Sauerstoff bearbeiten** in der Symbolleiste.
 
-   **Hinweis:**
-
-   Wenn das Thema nicht ausgecheckt ist, wird es zunächst ausgecheckt und dann im Bearbeitungsmodus in Sauerstoff geöffnet.
+   >[!NOTE]
+   >
+   >Wenn das Thema nicht ausgecheckt ist, wird es zunächst ausgecheckt und dann im Bearbeitungsmodus in Sauerstoff geöffnet.
 
 1. Wählen Sie Oxygen XML Author *&lt;version>* im **Launch-Anwendung** Meldungsfeld. Sie können **Meine Auswahl an AEM-Links speichern** -Option, um Ihre Voreinstellung zu speichern.
 1. Bearbeiten Sie das Thema in der Oxygen XML Author.
@@ -556,18 +562,18 @@ Führen Sie die folgenden Schritte aus, um ein DITA-Thema in der Oxygen XML Auth
 
    Weitere Informationen zum Einchecken eines Themas mit dem Sauerstoff-Plug-in für AEM Guides finden Sie unter [Einchecken einer Datei](#id182CF0J0FHS).
 
-   **Hinweis:**
-
-   Stellen Sie sicher, dass Sie das Thema mit dem Sauerstoff-Plug-in für AEM Guides einchecken. Wenn Sie über die AEM Web-Oberfläche einchecken, werden die Änderungen, die Sie in der Sauerstoff-XML-Autoreninstanz vornehmen, nicht in der eingecheckten Version des Themas gespeichert.
+   >[!NOTE]
+   >
+   >Stellen Sie sicher, dass Sie das Thema mit dem Sauerstoff-Plug-in für AEM Guides einchecken. Wenn Sie über die AEM Web-Oberfläche einchecken, werden die Änderungen, die Sie in der Sauerstoff-XML-Autoreninstanz vornehmen, nicht in der eingecheckten Version des Themas gespeichert.
 
 
 ## Arbeiten mit Attributprofilen {#id1827JA002YK}
 
 Mit AEM Guides können Sie bedingte Attribute mithilfe der relevanten DITA-Attribute einfach erstellen und zuordnen. Sie können bedingte Attribute auf globaler Ebene oder auf Ordnerebene definieren. Die global definierten Bedingungen sind für alle Projekte sichtbar und die Bedingungen auf Ordnerebene sind nur in Projekten sichtbar, die innerhalb des angegebenen Ordners erstellt wurden. Inhaltsautoren können diese bedingten Attribute verwenden, um Inhalte in ihren DITA-Themen oder -Maps, die sie erstellen oder verwenden, an Bedingungen zu knüpfen. Weitere Informationen zum Erstellen von bedingten Attributen in AEM mithilfe der AEM-Handbücher finden Sie unter *Bedingte Attribute für globale Profile oder Profile auf Ordnerebene konfigurieren* unter Installieren und Konfigurieren von Adobe Experience Manager-Handbüchern.
 
-**Hinweis:**
-
-Stellen Sie sicher, dass Sie die bedingten Attribute in AEM hinzugefügt und [Voreinstellung für die Profilattributanpassung](#id1827K0D0OHT) bevor Sie bedingte Attribute zu Ihrem Inhalt hinzufügen.
+>[!NOTE]
+>
+>Stellen Sie sicher, dass Sie die bedingten Attribute in AEM hinzugefügt und [Voreinstellung für die Profilattributanpassung](#id1827K0D0OHT) bevor Sie bedingte Attribute zu Ihrem Inhalt hinzufügen.
 
 Führen Sie die folgenden Schritte aus, um Ihrem Inhalt in der XML-Autoreninstanz Bedingungsattribute hinzuzufügen:
 
@@ -651,9 +657,9 @@ Lösung: Führen Sie die folgenden Schritte aus, um die Protokollgenerierungsfun
     
     1.  Öffnen Sie die Datei SauerstoffAuthor19.1.vmoptions in einem Texteditor.
     
-    **Hinweis:**
-    
-    Die Versionsnummer der Datei kann je nach der Versionsnummer der auf Ihrem System installierten Anwendung unterschiedlich sein.
+    >[!NOTE]
+    >
+    >Die Versionsnummer der Datei kann je nach der Versionsnummer der auf Ihrem System installierten Anwendung unterschiedlich sein.
     
     1.  Hängen Sie die folgende Zeile in die Datei an:
     
