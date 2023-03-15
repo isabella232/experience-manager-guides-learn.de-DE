@@ -2,10 +2,10 @@
 user-guide-title: Tutorials für AEM Guides
 user-guide-description: Lesen Sie unsere Sammlung an Tutorials für Adobe Experience Manager Guides.
 breadcrumb-title: Tutorials für AEM Guides
-source-git-commit: 53a4917328626f589f2a9e8243d169fa10a6efff
+source-git-commit: f5591818f3b9479678026a578b29d7e56e55f506
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 18%
+source-wordcount: '214'
+ht-degree: 17%
 
 ---
 
@@ -41,10 +41,13 @@ ht-degree: 18%
       + [PDF-Vorlage](./native-pdf/pdf-template.md)
       + [Komponenten einer PDF-Vorlage](./native-pdf/components-pdf-template.md)
       + [Erstellen eines Seitenlayouts](./native-pdf/design-page-layout.md)
-      + [Arbeiten mit allgemeinen Inhaltsstilen](./native-pdf/stylesheet.md)
-      + [Anwenden eines benutzerdefinierten Stils auf Inhaltsverzeichniseinträge und Themeninhalte](./native-pdf/custom-style-toc.md)
-      + [Hinzufügen eines benutzerdefinierten Lesezeichens in der PDF-Ausgabe](./native-pdf/add-custom-bookmark.md)
-      + [Verwenden von JavaScript zum Arbeiten mit Inhalt oder Stil](./native-pdf/use-javascript-content-style.md)
+      + Allgemeine Inhaltsstile {#content-styles}
+         + [Arbeiten mit allgemeinen Inhaltsstilen](./native-pdf/stylesheet.md)
+         + [Arbeiten mit benutzerdefinierten Änderungsbalkenstilen](./native-pdf/change-bar-style.md)
+         + [Anwenden eines benutzerdefinierten Stils auf Inhaltsverzeichniseinträge und Themeninhalte](./native-pdf/custom-style-toc.md)
+         + [Hinzufügen eines benutzerdefinierten Lesezeichens in der PDF-Ausgabe](./native-pdf/add-custom-bookmark.md)
+         + [Verwenden von JavaScript zum Arbeiten mit Inhalt oder Stil](./native-pdf/use-javascript-content-style.md)
+         + [Verwenden benutzerdefinierter Stile in Fußnoten](./native-pdf/footnote-number-style.md)
    + [Einrichten eines benutzerdefinierten DITA-OT](./configuring/setup-a-custom-dita-ot.md)
 + Übersetzung {#translation}
    + [Absätze von der Übersetzung ausschließen](./translation/exclude-paragraphs-from-translation.md)
