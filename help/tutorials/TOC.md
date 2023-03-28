@@ -2,10 +2,10 @@
 user-guide-title: Tutorials für AEM Guides
 user-guide-description: Lesen Sie unsere Sammlung an Tutorials für Adobe Experience Manager Guides.
 breadcrumb-title: Tutorials für AEM Guides
-source-git-commit: f5591818f3b9479678026a578b29d7e56e55f506
+source-git-commit: ee520ab86ea41df7556a1f40d7bfc5e3617b34ae
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 17%
+source-wordcount: '219'
+ht-degree: 16%
 
 ---
 
@@ -18,16 +18,19 @@ ht-degree: 17%
    + Versionshinweise {#release-notes}
       + Cloud Services {#cloud-release-notes}
          + [Bereitstellungsanweisungen](./release-info/deploy-xml-on-aemaacs.md)
-         + [Aktuelle Versionshinweise](./release-info/release-notes-2023.2.0.md)
-         + [November-Versionshinweise](./release-info/release-notes-2022.11.0.md)
-         + [Oktober - Versionshinweise](./release-info/release-notes-2022.10.0.md)
-         + [September - Versionshinweise](./release-info/release-notes-2022.9.0.md)
-         + [August - Versionshinweise](./release-info/release-notes-2022.8.0.md)
-         + [Mai - Versionshinweise](./release-info/release-notes-2022.5.0.md)
-         + [April - Versionshinweise](./release-info/release-notes-2022.4.0.md)
-         + [März - Versionshinweise](./release-info/release-notes-2022.3.0.md)
-         + [Februar - Versionshinweise](./release-info/release-notes-2022.2.0.md)
-         + [Januar - Versionshinweise](./release-info/release-notes-2022.1.0.md)
+         + Versionen 2023{#2023-releases}
+            + [Aktuelle Versionshinweise](./release-info/release-notes-2023.3.0.md)
+            + [Februar - Versionshinweise](./release-info/release-notes-2023.2.0.md)
+         + Versionen 2022 {#2022-releases}
+            + [November-Versionshinweise](./release-info/release-notes-2022.11.0.md)
+            + [Oktober - Versionshinweise](./release-info/release-notes-2022.10.0.md)
+            + [September - Versionshinweise](./release-info/release-notes-2022.9.0.md)
+            + [August - Versionshinweise](./release-info/release-notes-2022.8.0.md)
+            + [Mai - Versionshinweise](./release-info/release-notes-2022.5.0.md)
+            + [April - Versionshinweise](./release-info/release-notes-2022.4.0.md)
+            + [März - Versionshinweise](./release-info/release-notes-2022.3.0.md)
+            + [Februar - Versionshinweise](./release-info/release-notes-2022.2.0.md)
+            + [Januar - Versionshinweise](./release-info/release-notes-2022.1.0.md)
       + On-Premise/Managed Services {#on-prem-release-notes}
          + [4.2 Versionshinweise](./release-info/release-notes-4.2.md)
          + [4.1.x - Versionshinweise](./release-info/release-notes-4.1.md)

@@ -1,21 +1,22 @@
 ---
 title: Versionshinweise | Adobe Experience Manager-Handbücher as a Cloud Service, Version Februar 2023
-description: Neueste Version der Adobe Experience Manager-Handbücher as a Cloud Service
-source-git-commit: d56855bf9078482ec1676b0eeb7a13df05475d5c
+description: Februar-Version der Adobe Experience Manager-Handbücher as a Cloud Service
+exl-id: c639b136-11ed-4a8b-a595-4bb5da879747
+source-git-commit: ee520ab86ea41df7556a1f40d7bfc5e3617b34ae
 workflow-type: tm+mt
 source-wordcount: '2178'
 ht-degree: 2%
 
 ---
 
-# Neueste Version der Adobe Experience Manager-Handbücher as a Cloud Service
+# Februar-Version der Adobe Experience Manager-Handbücher as a Cloud Service
 
-## Aktualisierung auf die neueste Version
+## Aktualisierung auf die Februarversion
 
 Aktualisieren Sie Ihre aktuellen Adobe Experience Manager-Handbücher as a Cloud Service (später als *AEM as a Cloud Service Handbücher*) einrichten, indem Sie die folgenden Schritte ausführen:
 1. Sehen Sie sich den Git-Code des Cloud Services an und wechseln Sie zu der Verzweigung, die in der Cloud Services-Pipeline entsprechend der Umgebung konfiguriert ist, die Sie aktualisieren möchten.
 2. Aktualisieren `<dox.version>` -Eigenschaft in `/dox/dox.installer/pom.xml` -Datei Ihres Cloud Services-Git-Codes auf 2023.2.235.
-3. Übertragen Sie die Änderungen und führen Sie die Cloud Services-Pipeline aus, um auf die neueste Version der as a Cloud Service AEM Guides zu aktualisieren.
+3. Übertragen Sie die Änderungen und führen Sie die Cloud Services-Pipeline aus, um auf die Februar-Version der as a Cloud Service AEM Guides zu aktualisieren.
 
 ## Schritte zum Indexieren des vorhandenen Inhalts (nur, wenn Sie eine Version vor der September-Version von AEM Guides as a Cloud Service verwenden)
 
@@ -53,7 +54,7 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen
 
 ## Neue Funktionen und Erweiterungen
 
-AEM Guides as a Cloud Service bietet Verbesserungen und neue Funktionen der neuesten Version:
+AEM Guides as a Cloud Service bietet Verbesserungen und neue Funktionen in der Februar-Version:
 
 ### Generieren von Berichten über den Web-Editor
 
