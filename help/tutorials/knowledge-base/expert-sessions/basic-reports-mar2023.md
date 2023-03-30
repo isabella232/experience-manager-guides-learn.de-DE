@@ -1,7 +1,7 @@
 ---
 title: Berichte in AEM Handbüchern
 description: Erfahren Sie, welche Berichte in AEM verfügbar sind, um Benutzer bei der Verbesserung der Inhaltsqualität zu unterstützen.
-source-git-commit: 91afddedb73a54a3148afe13b456e9a83eeeb0f7
+source-git-commit: b1527db4ee7ee5847026b1ba12c668557c23766f
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 1%
@@ -38,10 +38,10 @@ In dieser Sitzung werden wir die nativen Berichte freigeben, die Benutzern zur V
 
 ## Wichtige Schritte
 
-In dieser Sitzung erfahren Sie mehr über Folgendes:
+In dieser Sitzung haben Sie Folgendes erfahren:
 - Bedeutung von Berichten in CCMS
 - Welche Berichte sind standardmäßig verfügbar?
-- Wie kann ich Berichtsfunktionen erweitern?
+- Wie können Sie Berichtsfunktionen erweitern?
 - Beispiele für die Berichterstellung über Inhalte
 
 
