@@ -1,9 +1,10 @@
 ---
 title: Grundlagen der nativen PDF-Veröffentlichung
 description: Erfahren Sie, wie Sie PDF mithilfe der nativen PDF-Engine in AEM Guides veröffentlichen.
-source-git-commit: 285dbf9ea7eb5eb4288dfbdfc977d35b2feef111
+exl-id: e7ba6d2d-ebfb-4400-9b10-c4fb173123cf
+source-git-commit: 093cb6c3b3a523e56f401e813c2b51a414c725d2
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '222'
 ht-degree: 1%
 
 ---
@@ -50,11 +51,6 @@ In dieser Sitzung erfahren Sie mehr über Folgendes:
 > - On-Premise 4.2 oder höher
 > - Cloud Services 2211 und höher
 
-
-## Nächste Sachverständigensitzung
-
-- **Thema** - TBD *(in Erwartung der Umfrageergebnisse)*
-- **Geplant am** - 30. März 2023
 
 ## Kontakt
 
