@@ -1,9 +1,9 @@
 ---
 title: Berichte in AEM Handbüchern
 description: Erfahren Sie, welche Berichte in AEM verfügbar sind, um Benutzer bei der Verbesserung der Inhaltsqualität zu unterstützen.
-source-git-commit: 98c81b20a5ae6347d7c06a98112564d5a5b3d81b
+source-git-commit: b909e6848c3f81e3350c1ce07165d5ea00564345
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '280'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ In dieser Sitzung haben Sie Folgendes erfahren:
 
 ## Verwandte Ressourcen
 
-- **[PDF herunterladen](./assets/aem-guides-expert-session-reports-documentation.pdf)** um die Details der in der Sitzung demonstrierten Berichte zu verstehen.
+- **[Handbuch AEM Guides-Berichte herunterladen](./assets/aem-guides-expert-session-reports-documentation.pdf)** um die Details der in der Sitzung demonstrierten Berichte zu verstehen.
 
 - **Funktionsvideos** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)
 
