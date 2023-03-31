@@ -1,26 +1,26 @@
 ---
 title: Berichte in AEM Handbüchern
 description: Erfahren Sie, welche Berichte in AEM verfügbar sind, um Benutzer bei der Verbesserung der Inhaltsqualität zu unterstützen.
-source-git-commit: b1527db4ee7ee5847026b1ba12c668557c23766f
+source-git-commit: aa5cbe2b8a8be8d7aa8b57d27f71e4a319dd5ccf
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '278'
 ht-degree: 1%
 
 ---
 
-# Webbasierte Inhalte erstellen
+# Berichte in AEM Handbüchern
 
 Bei einer organisatorischen Einrichtung möchten Sie die Gesamtvollständigkeit Ihres Inhalts überprüfen, bevor Sie die Dokumente zur Verwendung durch Endbenutzer pushen. Eine solche Notwendigkeit wird in Umgebungen mit mehreren Benutzern und großen Umgebungen, in denen Inhalte in verschiedenen Kontexten wiederverwendet werden können, umso wichtiger, da die Validierung Ihres Inhalts oder Dokuments eine Notwendigkeit darstellt. Im Zusammenhang mit strukturierten Inhalten gibt es einige spezifische Berichtstypen, die häufig benötigt werden.
 
 
 ## Sitzungsübersicht
 
-In dieser Sitzung werden wir die nativen Berichte freigeben, die Benutzern zur Verfügung stehen. Wir werden im Großen und Ganzen die folgenden Berichtstypen abdecken:
-- Berichtsfunktion für AEM Assets
+In dieser Sitzung wurden native Berichte angezeigt, die Benutzern zur Verfügung standen. Wir haben im Großen und Ganzen Folgendes behandelt:
 - Dokument- (Zuordnung) und Themenberichte
 - Metadatenberichte und Optionen zur Massenverwaltung von Metadaten
-- Anzeigen von Statistiken zur Wiederverwendung von Inhalten
-- Vollständigkeit des Inhaltsimports
+- Berichte zur Inhaltswiederverwendung
+- Richtigkeit des Inhaltsimports
+- Nutzung der Berichterstellungsfunktion von AEM Assets
 
 
 ## Sitzungsaufzeichnung
@@ -40,14 +40,13 @@ In dieser Sitzung werden wir die nativen Berichte freigeben, die Benutzern zur V
 
 In dieser Sitzung haben Sie Folgendes erfahren:
 - Bedeutung von Berichten in CCMS
-- Welche Berichte sind standardmäßig verfügbar?
-- Wie können Sie Berichtsfunktionen erweitern?
+- Verfügbare native Berichte
 - Beispiele für die Berichterstellung über Inhalte
 
 
 ## Verwandte Ressourcen
 
-- In dieser Sitzung haben wir mehrere Berichte vorgestellt. Informationen zum Erstellen ähnlicher Berichte finden Sie in den Schritten im angehängten Dokument. [PDF herunterladen](./assets/aem-guides-expert-session-reports-documentation.pdf)
+- [PDF herunterladen](./assets/aem-guides-expert-session-reports-documentation.pdf) , um Berichte zu erstellen, die den in der Sitzung demonstrierten Anwendungsfällen ähneln.
 
 - **Funktionsvideos** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)
 
@@ -58,8 +57,8 @@ In dieser Sitzung haben Sie Folgendes erfahren:
 >[!NOTE]
 >
 > Die in dieser Sitzung angezeigten Funktionen sind in den folgenden Versionen AEM Handbücher verfügbar:
-> - On-Premise 4.2 oder höher
-> - Cloud Services 2302 oder höher
+> - On-Premise: 4.2 oder höher
+> - Cloud Services: 2302 oder höher
 
 
 
