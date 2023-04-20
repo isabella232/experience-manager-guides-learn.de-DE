@@ -1,7 +1,8 @@
 ---
 title: Berichte in AEM Handbüchern
 description: Erfahren Sie, welche Berichte in AEM verfügbar sind, um Benutzer bei der Verbesserung der Inhaltsqualität zu unterstützen.
-source-git-commit: b909e6848c3f81e3350c1ce07165d5ea00564345
+exl-id: f0d761ff-efea-452c-bb8e-865f34a182fc
+source-git-commit: 7871a54f3181fd114e24e0e10cfc15351cefd761
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 1%
@@ -36,7 +37,7 @@ In dieser Sitzung wurden native Berichte angezeigt, die Benutzern zur Verfügung
 - **Zielgruppe** - Kunden, Partner und Mitarbeiter der Adobe
 
 
-## Wichtige Schritte
+## Haupterkenntnisse
 
 In dieser Sitzung haben Sie Folgendes erfahren:
 - Bedeutung von Berichten in CCMS
@@ -64,7 +65,7 @@ In dieser Sitzung haben Sie Folgendes erfahren:
 
 ## Nächste Sachverständigensitzung
 
-- **Thema** - TBD *(in Erwartung der Umfrageergebnisse)*
+- **Thema** - Einrichtung von Inhalten und Vorlagen
 - **Geplant am** - 27. April 2023
 
 
