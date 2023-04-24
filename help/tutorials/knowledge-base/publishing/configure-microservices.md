@@ -1,9 +1,10 @@
 ---
 title: Neue mikrodienstbasierte Veröffentlichung für AEM Guides as a Cloud Service konfigurieren
 description: Erfahren Sie, wie Sie neue mikrodienstbasierte Veröffentlichungen für AEM-Handbücher konfigurieren.
-source-git-commit: c2981b5635353eb84c9e46a03de1b1ed07aa5bf3
+exl-id: 92e3091d-6337-4dc6-9609-12b1503684cd
+source-git-commit: 95c89acd02b798d42c817b52f6f8e0710a0abb76
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '567'
 ht-degree: 0%
 
 ---
@@ -13,6 +14,10 @@ ht-degree: 0%
 Mit dem neuen Publishing-Microservice können Benutzer gleichzeitig große Veröffentlichungsarbeitslasten auf AEM Handbüchern as a Cloud Service ausführen und die branchenführende Server-lose Adobe I/O Runtime-Plattform nutzen.
 
 Für jede Veröffentlichungsanforderung AEM Handbücher führt as a Cloud Service einen separaten Container aus, der entsprechend den Benutzeranforderungen horizontal skaliert wird. Dadurch erhalten Benutzer die Möglichkeit, mehrere Veröffentlichungsanfragen auszuführen und eine bessere Leistung zu erzielen als ihre großen On-Premise-AEM-Server.
+
+>[!NOTE]
+>
+> Derzeit unterstützt das auf Microservice basierende Publishing in AEM Guides nur die PDF-Ausgabe mithilfe des nativen PDF-Publishing oder über DITA-OT. Wir werden in zukünftigen Versionen Unterstützung für mikrodienstbasierte Veröffentlichung für weitere Ausgabetypen hinzufügen.
 
 Da der neue Cloud Publishing-Dienst durch die JWT-basierte Authentifizierung von Adobe IMS geschützt ist, sollten Kunden die folgenden Schritte ausführen, um ihre Umgebungen in sichere Token-basierte Authentifizierungsarbeitsabläufe von Adobe zu integrieren und mit der neuen Cloud-basierten skalierbaren Publishing-Lösung zu beginnen.
 
@@ -87,7 +92,7 @@ Danach sollten Sie in der Lage sein, das neue Microservice-basierte Cloud Publis
 
 ## Anhang {#appendix}
 
-**File**:
+**Datei**:
 `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
 
 **Inhalt**:
@@ -99,9 +104,11 @@ Danach sollten Sie in der Lage sein, das neue Microservice-basierte Cloud Publis
 }
 ```
 
-**File**: `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
+**Datei**: `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
 
 **Inhalt**:
+* `dxml.use.publish.microservice`: Wechseln Sie zur Aktivierung der mikrodienstbasierten PDF-Veröffentlichung mithilfe von DITA-OT.
+* `dxml.use.publish.microservice.native.pdf`: Wechseln zur Aktivierung der mikrodienstbasierten nativen PDF-Veröffentlichung
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -109,5 +116,6 @@ Danach sollten Sie in der Lage sein, das neue Microservice-basierte Cloud Publis
           jcr:primaryType="sling:OsgiConfig"
           dxml.publish.microservice.url="https://adobeioruntime.net/api/v1/web/543112-guidespublisher/default/publishercaller.json"
           dxml.use.publish.microservice="{Boolean}true"
+          dxml.use.publish.microservice.native.pdf="{Boolean}true"
 />
 ```
