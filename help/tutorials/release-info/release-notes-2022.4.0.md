@@ -2,7 +2,7 @@
 title: Versionshinweise | Adobe Experience Manager-Handbücher as a Cloud Service, Version April 2022
 description: April-Version der Adobe Experience Manager-Handbücher as a Cloud Service
 exl-id: c735ba24-a803-454b-8723-57dacf90061b
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 3%
@@ -15,8 +15,8 @@ ht-degree: 3%
 
 Aktuelles Upgrade durchführen [!DNL Adobe Experience Manager Guides] as a Cloud Service (später genannt) *[!DNL AEM Guides]as a Cloud Service*) einrichten, indem Sie die folgenden Schritte ausführen:
 1. Sehen Sie sich den Git-Code des Cloud Services an und wechseln Sie zu der Verzweigung, die in der Cloud Services-Pipeline entsprechend der Umgebung konfiguriert ist, die Sie aktualisieren möchten.
-2. Aktualisieren `<dox.version>` -Eigenschaft in `/dox/dox.installer/pom.xml` -Datei Ihres Cloud Services-Git-Codes auf 2022.4.133.
-3. Übertragen Sie die Änderungen und führen Sie die Cloud Services-Pipeline aus, um auf die April-Version von zu aktualisieren. [!DNL AEM Guides] as a Cloud Service.
+1. Aktualisieren `<dox.version>` -Eigenschaft in `/dox/dox.installer/pom.xml` -Datei Ihres Cloud Services-Git-Codes auf 2022.4.133.
+1. Übertragen Sie die Änderungen und führen Sie die Cloud Services-Pipeline aus, um auf die April-Version von zu aktualisieren. [!DNL AEM Guides] as a Cloud Service.
 
 ## Kompatibilitätsmatrix
 
@@ -34,7 +34,7 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die von [!DNL AEM Guide
 
 | Cloud-Version für AEM Guides | Sauerstoff Connector Windows | Sauerstoff Connector Mac |
 | --- | --- | --- |
-| 2022.4.0 | 2,5,6 | 2,5,6 |
+| 2022.4.0 | 2.5.6 | 2.5.6 |
 |  |  |  |
 
 *Die in AEM erstellten Grundlinien und Bedingungen werden in FMPS-Versionen ab 2020.2 unterstützt.
@@ -52,8 +52,8 @@ Ein DITA-Inhaltsschlüsselverweis fügt einen Teil des Inhalts von einem Thema i
 Jetzt werden die Schlüsselverweise auf der Grundlage der in der folgenden Prioritätsreihenfolge festgelegten Stammzuordnung aufgelöst:
 
 1. Benutzereinstellungen
-2. Bedienfeld &quot;Landkartenansicht&quot;
-3. Ordnerprofil
+1. Bedienfeld &quot;Landkartenansicht&quot;
+1. Ordnerprofil
 
 Weitere Informationen finden Sie unter *Schlüsselverweise auflösen* im Benutzerhandbuch.
 

@@ -2,10 +2,10 @@
 title: Glossar
 description: Verwenden des Glossarbedienfelds in AEM Handbüchern
 exl-id: 509880b1-852f-44f0-b4a9-09fee8bcb954
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '385'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ Beispieldateien, die Sie für diese Lektion verwenden können, finden Sie in der
 
 1. Navigieren Sie zum **Glossar** Bereich.
 
-2. Ziehen Sie den Eintrag per Drag-and-Drop aus dem **Glossar** an die gewünschte Position in Ihrem Thema.
+1. Ziehen Sie den Eintrag per Drag-and-Drop aus dem **Glossar** an die gewünschte Position in Ihrem Thema.
 
 Wenn die Karte Glossareinträge enthält und ordnungsgemäß konfiguriert ist, können Themen automatisch aktualisiert werden, um ein abgekürztes Formular zu enthalten.
 
@@ -31,15 +31,15 @@ Die richtige Stammzuordnung muss ausgewählt sein, damit sie mit einem Glossar o
 
 1. Wenn ein Thema geöffnet ist, wählen Sie **Glossar** aus dem linken Bereich.
 
-2. Klicken Sie auf [!UICONTROL **Benutzereinstellungen**] in der oberen Symbolleiste.
+1. Klicken Sie auf [!UICONTROL **Benutzereinstellungen**] in der oberen Symbolleiste.
 
    ![Symbol &quot;Benutzereinstellungen&quot;](images/reuse/user-prefs-icon.png)
 
-3. Klicken Sie auf das Schlüsselsymbol, um die richtige Stammzuordnung für die Arbeit mit dem Glossar anzugeben.
+1. Klicken Sie auf das Schlüsselsymbol, um die richtige Stammzuordnung für die Arbeit mit dem Glossar anzugeben.
 
-4. Klicken Sie auf [!UICONTROL **Auswählen**].
+1. Klicken [!UICONTROL **Auswählen**].
 
-5. Klicken Sie auf [!UICONTROL **Speichern**].
+1. Klicken Sie auf [!UICONTROL **Speichern**].
 
 Das Glossarbedienfeld wird automatisch aktualisiert.
 
@@ -47,13 +47,13 @@ Das Glossarbedienfeld wird automatisch aktualisiert.
 
 1. Navigieren Sie zum **Repository-Ansicht**.
 
-2. Wählen Sie die vorkonfigurierte Zuordnung für die Verwendung des Glossars aus.
+1. Wählen Sie die vorkonfigurierte Zuordnung für die Verwendung des Glossars aus.
 
    ![Vorkonfigurationszuordnungssymbol](images/lesson-10/preconfig-map.png)
 
-3. Wählen Sie die [!UICONTROL **Kartenansicht**].
+1. Wählen Sie die [!UICONTROL **Kartenansicht**].
 
-4. Stellen Sie sicher, dass die Kartenansicht die erforderlichen Themen anzeigt.
+1. Stellen Sie sicher, dass die Kartenansicht die erforderlichen Themen anzeigt.
 
 ## Vorschau eines Glossars
 
@@ -61,7 +61,7 @@ Da es möglich ist, Massenänderungen vorzunehmen, kann es wichtig sein, eine Vo
 
 1. Auswählen **Glossar** aus dem linken Bereich.
 
-2. Klicken Sie auf das Kontextmenü neben einem Glossar und wählen Sie [!UICONTROL **Vorschau**].
+1. Klicken Sie auf das Kontextmenü neben einem Glossar und wählen Sie [!UICONTROL **Vorschau**].
 
 Sowohl die abgekürzte Form als auch die Glossardefinition werden angezeigt.
 
@@ -73,14 +73,14 @@ Verwenden Sie das Hotspot-Tool, um eine komplette Sammlung von Glossareinträgen
 
    ![Hotspot-Symbol](images/lesson-10/hotspot-icon.png)
 
-2. Klicken Sie auf [!UICONTROL **Glossarschlüssel**] und wählen Sie nur die Schlüssel aus, die Sie anwenden möchten.
+1. Klicken Sie auf [!UICONTROL **Glossarschlüssel**] und wählen Sie nur die Schlüssel aus, die Sie anwenden möchten.
 
-3. Klicken Sie auf [!UICONTROL **Themen**] aus, um den Inhalt auszuwählen, der betroffen sein soll.
+1. Klicken Sie auf [!UICONTROL **Themen**] aus, um den Inhalt auszuwählen, der betroffen sein soll.
 
-4. Klicken Sie auf [!UICONTROL **Themen nach Status filtern**] Dropdown, um die konfigurierten Optionen zu überprüfen.
+1. Klicken Sie auf [!UICONTROL **Themen nach Status filtern**] Dropdown, um die konfigurierten Optionen zu überprüfen.
 
-5. Konfigurieren Sie die restlichen Einstellungen nach Bedarf.
+1. Konfigurieren Sie die restlichen Einstellungen nach Bedarf.
 
-6. Klicken Sie abschließend auf [!UICONTROL **Konvertieren**].
+1. Klicken Sie abschließend auf [!UICONTROL **Konvertieren**].
 
 Im Glossar-Bedienfeld werden jetzt alle aktualisierten Themen sowie Themen mit Fehlern angezeigt.

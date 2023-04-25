@@ -2,9 +2,9 @@
 title: Native PDF | PDF-Ausgabegenerierung
 description: Generieren einer PDF-Ausgabe in Adobe Experience Manager Guides as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: cc7ae2e5445cca11e169667d3af8aa9de93809b9
+source-git-commit: b9cf70ac957bfacbf9a6bf4c3b32d4f73c2b1287
 workflow-type: tm+mt
-source-wordcount: '2666'
+source-wordcount: '2755'
 ht-degree: 1%
 
 ---
@@ -74,7 +74,7 @@ Verwenden Sie , um grundlegende Ausgabeeinstellungen anzugeben, z. B. Ausgabepfa
 | Einstellung | Beschreibung |
 | --- | --- |
 | **Ausgabepfad** | Der Pfad im AEM-Repository, in dem die PDF-Ausgabe gespeichert wird. Stellen Sie sicher, dass sich der Ausgabepfad nicht im Projektordner befindet. Wenn Sie das Feld leer lassen, wird die Ausgabe am standardmäßigen Speicherort der DITA-Zuordnung generiert.<br>Sie können auch die folgenden nativen Variablen verwenden, um den Ausgabepfad zu definieren. Sie können eine einzelne oder eine Kombination von Variablen verwenden, um diese Option zu definieren. <br> `${map_filename}`: Verwendet den Namen der DITA-Map-Dateien, um den Zielpfad zu erstellen. <br> `${map_title}`: Verwendet den DITA-Map-Titel, um den Zielpfad zu erstellen. <br>`${preset_name}`: Verwendet den Namen der Ausgabevorgabe, um den Zielpfad zu erstellen. <br> `${language_code}`: Verwendet den Sprachcode, in dem sich die Map-Datei befindet, um den Zielpfad zu erstellen. <br> `${map_parentpath}`: Verwendet den vollständigen Pfad der Map-Datei, um den Zielpfad zu erstellen.  <br>`${path_after_langfolder}`: Verwendet den Pfad der Map-Datei nach dem Sprachordner, um den Zielpfad zu erstellen. |
-| **PDF-Datei** | Geben Sie einen Dateinamen an, um die PDF zu speichern. Standardmäßig fügt der PDF-Dateiname den DITA-Map-Namen zusammen mit dem Vorgabennamen hinzu. Beispielsweise ist ditamap &quot;TestMap&quot;und der Name der Vorgabe &quot;preset1&quot;. Dann lautet der Standardname des PDF-Dokuments &quot;TestMap_preset1.pdf&quot;. <br>Sie können auch die folgenden nativen Variablen verwenden, um die PDF-Datei zu definieren. Sie können eine einzelne oder eine Kombination von Variablen verwenden, um diese Option zu definieren. <br>`${map_filename}`<br>`${map_title}`<br>`${preset_name}` <br> `${language_code}`. |
+| **PDF-Datei** | Geben Sie einen Dateinamen an, um die PDF zu speichern. Standardmäßig fügt der PDF-Dateiname den DITA-Map-Namen zusammen mit dem Vorgabennamen hinzu. Beispielsweise ist ditamap &#39;TestMap&#39; und der Name der Vorgabe &#39;preset1&#39;. Dann lautet der Standardname des PDF-Dokuments &#39;TestMap_preset1.pdf&#39;. <br>Sie können auch die folgenden nativen Variablen verwenden, um die PDF-Datei zu definieren. Sie können eine einzelne oder eine Kombination von Variablen verwenden, um diese Option zu definieren. <br>`${map_filename}`<br>`${map_title}`<br>`${preset_name}` <br> `${language_code}`. |
 | **Bedingungen anwenden mithilfe von** | Wählen Sie für konditionalisierten Inhalt aus den folgenden Optionen, um eine PDF-Ausgabe zu generieren, die auf diesen Bedingungen basiert: <br><ul> <li> **Keine angewendet** Wählen Sie diese Option aus, wenn Sie keine Bedingung auf die Zuordnung und den Quellinhalt anwenden möchten. <br><li> **Ditaval-Datei** Wählen Sie eine DITAVAL-Datei aus, um bedingte Inhalte zu generieren. Klicken Sie zur Auswahl auf unter &quot;Bedingungsvorgabe&quot;und suchen Sie die Datei. <br> <li> **Bedingungsvorgabe** Wählen Sie eine Bedingungsvorgabe aus der Dropdown-Liste aus, um beim Veröffentlichen der Ausgabe eine Bedingung anzuwenden. Diese Option ist sichtbar, wenn Sie eine Bedingung für die DITA-Map-Datei hinzugefügt haben. Die bedingten Einstellungen sind auf der Registerkarte Bedingungsvorgaben der DITA-Zuordnungskonsole verfügbar. Weitere Informationen zur Bedingungsvorgabe finden Sie unter [Verwenden von Bedingungsvorgaben](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html). <br> </ul> |
 | **Grundlinie verwenden** | Wenn Sie eine Grundlinie für die ausgewählte DITA-Zuordnung erstellt haben, wählen Sie diese Option, um die Version anzugeben, die Sie veröffentlichen möchten. Siehe [Arbeiten mit Grundlinien](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html) für weitere Details. |
 | **PDF mit Änderungsleiste zwischen veröffentlichten Versionen erstellen** | Verwenden Sie die folgenden Optionen, um mithilfe von Änderungsleisten eine PDF zu erstellen, die die Inhaltsunterschiede zwischen zwei Versionen zeigt:   <br><ul><li> **Grundlinie der vorherigen Version** Wählen Sie die Grundlinienversion aus, die Sie mit der aktuellen Version oder einer anderen Grundlinie vergleichen möchten. Auf der PDF wird eine Änderungsleiste angezeigt, die den geänderten Inhalt angibt. Eine Änderungsleiste ist eine vertikale Linie, die neue oder überarbeitete Inhalte visuell identifiziert. Die Änderungsleiste wird links neben dem Inhalt angezeigt, der eingefügt, geändert oder gelöscht wurde. <br> **Hinweis**: Wenn Sie **Grundlinie verwenden** und eine Grundlinie für die Veröffentlichung auswählen, wird der Vergleich zwischen den beiden ausgewählten Grundversionen durchgeführt. Wenn Sie beispielsweise die Grundlinie Version 1.3 unter **Grundlinie verwenden** und Version 1.1 unter **Grundlinie der vorherigen Version**, wird der Vergleich zwischen Version 1.1 der Grundlinie und Version 1.3 durchgeführt. <br><li> **Hinzugefügten Text anzeigen** Wählen Sie diese Option aus, um den eingefügten Text in grüner Farbe und unterstrichen anzuzeigen. Standardmäßig ist diese Option aktiviert. <br> <li> **Gelöschten Text anzeigen** Wählen Sie diese Option, um den gelöschten Text in roter Farbe anzuzeigen und mit einer Durchstreichung zu markieren. Standardmäßig ist diese Option aktiviert. <br>**Hinweis** Sie können die Formatierung der Änderungsleiste, des eingefügten Inhalts oder des gelöschten Inhalts auch mithilfe des Stylesheets anpassen.<br></ul> |
@@ -84,19 +84,36 @@ Verwenden Sie , um grundlegende Ausgabeeinstellungen anzugeben, z. B. Ausgabepfa
 
 Metadaten sind die Beschreibung oder Definition Ihres Inhalts. Metadaten helfen beim Content Management und beim Durchsuchen von Dateien im Internet.
 
-Legen Sie auf der Registerkarte &quot;Metadaten&quot;Titel, Autor, Betreff und Suchbegriffe für die PDF-Ausgabe fest. Diese Metadaten werden den Metadaten auf der Registerkarte &quot;Beschreibung&quot;in den Dokumenteigenschaften Ihrer Ausgabe-PDF zugeordnet.
+Legen Sie auf der Registerkarte Metadaten die Metadatenfelder wie den Namen des Autors, den Dokumenttitel, Schlüsselwörter, Copyright-Informationen und andere Datenfelder für die PDF-Ausgabe fest. Sie können auch benutzerdefinierte Metadaten für Ihre PDF-Ausgabe hinzufügen.
+
+Diese Metadaten werden den Metadaten auf der Registerkarte &quot;Beschreibung&quot;in den Dokumenteigenschaften Ihrer Ausgabe-PDF zugeordnet.
 
 **Hinweis**: Diese Metadaten setzen die auf Buchebene definierten Metadaten außer Kraft.
 
 <img src="assets/pdf-metadata.png" alt="Metadaten-Registerkarte" width="600">
 
+In den Ausgabevorgaben: **PDF auswählen** > **Metadaten** , um Metadatenoptionen hinzuzufügen und anzupassen.
+* **XMP bereitstellen**
 
-| Einstellung | Beschreibung |
-|---|---|
-| **Titel** | Geben Sie einen kurzen und klaren Titel an, um das Dokument zu definieren. |
-| **Autor** | Geben Sie die Namen der Autoren an, die das Dokument erstellt haben. |
-| **Betreff** | Definieren Sie den Betreff oder die Sammlung, mit dem/der das Dokument in Beziehung steht. |
-| **Schlüsselwörter** | Verwenden Sie relevante Suchbegriffe, um Ihre Suchmaschinenoptimierung (SEO) zu verbessern und den Benutzern bei der Suche nach Ihren zugehörigen Inhalten zu helfen. |
+   Metadatenfelder können durch Importieren direkt ausgefüllt werden [XMP](https://www.adobe.com/products/xmp.html) (Extensible Metadata Platform). Hier können Sie eine XMP herunterladen.
+
+[Herunterladen](assets/SampleXMP.xmp)
+
+   Alternativ können Sie eine XMP mit Adobe Acrobat generieren.
+   1. Klicken **Datei** > **Eigenschaften** in Acrobat.
+   1. under **Beschreibung** klicken **Zusätzliche Metadaten**.
+   1. Wählen Sie im linken Bereich die Option **Erweitert**.
+   1. Klicken Sie auf **Speichern**.
+
+   XMP Datei wird auf dem Gerät gespeichert.
+
+* **Bereitstellen von Metadatennamen und -werten**
+
+   1. Fügen Sie einen Namen hinzu, indem Sie aus der Dropdown-Liste auswählen, oder fügen Sie benutzerdefinierte Metadaten hinzu, indem Sie direkt in das Namensfeld eingeben.
+   1. Geben Sie den Wert für die Metadaten ein und klicken Sie auf das Symbol &quot;+&quot;.
+Die Metadaten werden der Metadatenliste für die PDF hinzugefügt.
+
+
 
 **Layout**
 
@@ -143,14 +160,14 @@ Nachdem Sie die Ausgabevorgabe konfiguriert haben, können Sie die Ausgabe im Be
 1. Unter dem **Autor** auswählen, wählen Sie die **Repository** Ansicht.\
    Dadurch wird das Repository-Bedienfeld geöffnet.
 
-2. Öffnen Sie im Bereich &quot;Repository&quot;die DITA-Map-Datei in **Kartenansicht**.
+1. Öffnen Sie im Bereich &quot;Repository&quot;die DITA-Map-Datei in **Kartenansicht**.
 
-3. Im **Ausgabe** Registerkarte, klicken Sie auf **Vorgaben** , um das Bedienfeld &quot;Voreingestellt&quot;anzuzeigen.
+1. Im **Ausgabe** Registerkarte, klicken Sie auf **Vorgaben** , um das Bedienfeld &quot;Voreingestellt&quot;anzuzeigen.
 Informationen zum Erstellen oder Konfigurieren einer Ausgabevorgabe finden Sie unter [Erstellen einer PDF-Ausgabevorgabe](#create-output-preset).
-4. Um Ihre Einstellungen zu speichern, klicken Sie auf das **Alle speichern** ![Alle speichern](assets/SaveFloppy_icon.svg) in der oberen linken Ecke der Standardsymbolleiste in der Ausgabeansicht.
-5. Klicken Sie auf **Vorgabe generieren** ![Vorgabe generieren](assets/generate-output.svg) in der oberen Leiste angezeigt.
+1. Um Ihre Einstellungen zu speichern, klicken Sie auf das **Alle speichern** ![Alle speichern](assets/SaveFloppy_icon.svg) in der oberen linken Ecke der Standardsymbolleiste in der Ausgabeansicht.
+1. Klicken Sie auf **Vorgabe generieren** ![Vorgabe generieren](assets/generate-output.svg) in der oberen Leiste angezeigt.
 Sie können eine Fortschrittsleiste neben der ausgewählten Ausgabevorgabe im Bedienfeld Ausgabevorgaben anzeigen.
-6. Sobald die Generierung der Ausgabe abgeschlossen ist, klicken Sie auf  **Ausgabe anzeigen** ![Anzeige der Ausgabe](assets/view-output.svg) in der oberen Leiste, um die Ausgabe anzuzeigen.\
+1. Sobald die Generierung der Ausgabe abgeschlossen ist, klicken Sie auf  **Ausgabe anzeigen** ![Anzeige der Ausgabe](assets/view-output.svg) in der oberen Leiste, um die Ausgabe anzuzeigen.\
    A **Erfolg** wird in der rechten unteren Ecke des Bildschirms angezeigt.
 Wenn eine Ausgabe nicht erfolgreich ist, wird die folgende Fehlermeldung angezeigt.
 <img src="assets/error-log.png" alt="Fehlerprotokoll" width="250">

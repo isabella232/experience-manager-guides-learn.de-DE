@@ -1,9 +1,11 @@
 ---
 title: Sauerstoff-Plug-in für Adobe Experience Manager-Handbücher
 description: Erfahren Sie, wie Sie mit dem Oxygen-Plug-in für Adobe Experience Manager-Handbücher Inhalte erstellen und verwalten können.
-source-git-commit: c3d50c3fc9f12d98942b6cb68512e01559b47d93
+hide: true
+hidefromtoc: true
+source-git-commit: 96347fed96979eb735dc55c32fcda90cc70ddcb4
 workflow-type: tm+mt
-source-wordcount: '5792'
+source-wordcount: '5762'
 ht-degree: 1%
 
 ---
@@ -111,11 +113,9 @@ Als AEM Administrator führen Sie die folgenden Schritte aus, um das Paket zu in
 1. Rufen Sie die ZIP-Datei des Pakets von Ihrem IT-Team ab.
 1. Melden Sie sich bei Ihrer AEM-Instanz an *\(als Administrator\)* und navigieren Sie zum CRX Package Manager. Die Standard-URL für den Zugriff auf den Paketmanager lautet
 
-   ```
-   http://<server name>:<port>/crx/packmgr/index.jsp
-   ```
+   `http://<server name>:<port>/crx/packmgr/index.jsp`
 
-   Der Package Manager verwaltet die Pakete auf der lokalen AEM-Installation. Weitere Informationen zum Arbeiten mit Package Manager finden Sie unter [Arbeiten mit Paketen](https://docs.adobe.com/docs/en/aem/6-3/administer/content/package-manager.html) in AEM Dokumentation.
+   Der Package Manager verwaltet die Pakete in Ihrer lokalen AEM-Installation. Weitere Informationen zum Arbeiten mit Package Manager finden Sie unter [Arbeiten mit Paketen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=en) in AEM Dokumentation.
 
    ![](images/package-manager.png)
 
@@ -161,13 +161,25 @@ Aktualisieren Sie die angegebenen Dateien, um die Web-Authentifizierungseinstell
 
 Fügen Sie die folgenden Zeilen in env.sh hinzu:
 
-```
---illegal-access=permit\--add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED\--add-exports=javafx.controls/com.sun.javafx.scene.control=ALL-UNNAMED\--add-exports=javafx.graphics/com.sun.javafx.stage=ALL-UNNAMED\--add-exports=javafx.graphics/com.sun.javafx.scene=ALL-UNNAMED\--add-exports=javafx.graphics/com.sun.javafx.scene.traversal=ALL-UNNAMED\--add-exports=javafx.graphics/com.sun.javafx.tk=ALL-UNNAMED\--add-exports=javafx.graphics/com.sun.glass.ui=ALL-UNNAMED\--add-opens=javafx.graphics/com.sun.glass.ui=ALL-UNNAMED\--add-opens=javafx.graphics/javafx.stage=ALL-UNNAMED\--add-opens=javafx.graphics/com.sun.javafx.tk.quantum=ALL-UNNAMED\--add-exports=java.desktop/sun.awt=ALL-UNNAMED\--add-opens javafx.swing/javafx.embed.swing=ALL-UNNAMED
+```java
+--illegal-access=permit\
+--add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED\
+--add-exports=javafx.controls/com.sun.javafx.scene.control=ALL-UNNAMED\
+--add-exports=javafx.graphics/com.sun.javafx.stage=ALL-UNNAMED\
+--add-exports=javafx.graphics/com.sun.javafx.scene=ALL-UNNAMED\
+--add-exports=javafx.graphics/com.sun.javafx.scene.traversal=ALL-UNNAMED\
+--add-exports=javafx.graphics/com.sun.javafx.tk=ALL-UNNAMED\
+--add-exports=javafx.graphics/com.sun.glass.ui=ALL-UNNAMED\
+--add-opens=javafx.graphics/com.sun.glass.ui=ALL-UNNAMED\
+--add-opens=javafx.graphics/javafx.stage=ALL-UNNAMED\
+--add-opens=javafx.graphics/com.sun.javafx.tk.quantum=ALL-UNNAMED\
+--add-exports=java.desktop/sun.awt=ALL-UNNAMED\
+--add-opens javafx.swing/javafx.embed.swing=ALL-UNNAMED
 ```
 
 Fügen Sie die folgenden Zeilen in die Datei SauerstoffAuthor.sh ein.
 
-```
+```java
 -Djdk.module.illegalAccess=permit\-Djava.ipc.external=true\
 ```
 
@@ -175,13 +187,13 @@ Fügen Sie die folgenden Zeilen in die Datei SauerstoffAuthor.sh ein.
 
 Fügen Sie die folgenden Zeilen in env.bat hinzu
 
-```
+```java
 --illegal-access=permit --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED --add-exports=javafx.controls/com.sun.javafx.scene.control=ALL-UNNAMED --add-exports=javafx.graphics/com.sun.javafx.stage=ALL-UNNAMED --add-exports=javafx.graphics/com.sun.javafx.scene=ALL-UNNAMED --add-exports=javafx.graphics/com.sun.javafx.scene.traversal=ALL-UNNAMED --add-exports=javafx.graphics/com.sun.javafx.tk=ALL-UNNAMED --add-exports=javafx.graphics/com.sun.glass.ui=ALL-UNNAMED --add-opens=javafx.graphics/com.sun.glass.ui=ALL-UNNAMED --add-opens=javafx.graphics/javafx.stage=ALL-UNNAMED --add-opens=javafx.graphics/com.sun.javafx.tk.quantum=ALL-UNNAMED --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-opens javafx.swing/javafx.embed.swing=ALL-UNNAMED
 ```
 
 Fügen Sie die folgenden Zeilen in die Datei SauerstoffAuthor.bat ein
 
-```
+```java
 -Djdk.module.illegalAccess=permit -Djava.ipc.external=true
 ```
 
@@ -200,7 +212,7 @@ Führen Sie die folgenden Schritte aus, um die Verbindungseinstellungen im Sauer
 1. Geben Sie die folgenden Details an:
    - **Server-URL**: URL des AEM-Servers, z. B.:
 
-      ```
+      ```http
       http[s]://<host>:<port>
       ```
 
@@ -349,11 +361,11 @@ Wenn Sie die in AEM Handbüchern verfügbaren Editoren verwenden möchten, wähl
 
 1. Auswählen **Öffnen in** Wählen Sie im Kontextmenü eine der folgenden Optionen aus:
 
-- **Web-Themen-Editor**: Wenn es sich bei der zu öffnenden Datei um eine .xml - oder .dita -Datei handelt, können Sie sie zur Bearbeitung im Web-Editor öffnen. Wählen Sie die **Web-Themen-Editor** -Option, um die ausgewählte Datei zur Bearbeitung im Web-Editor zu öffnen.
+   - **Web-Themen-Editor**: Wenn es sich bei der zu öffnenden Datei um eine .xml - oder .dita -Datei handelt, können Sie sie zur Bearbeitung im Web-Editor öffnen. Wählen Sie die **Web-Themen-Editor** -Option, um die ausgewählte Datei zur Bearbeitung im Web-Editor zu öffnen.
 
-- **Zuordnungs-Dashboard**: Sie können eine .ditamap-Datei im Dashboard der Karte bearbeiten, in der Sie verschiedene Vorgänge für die Zuordnungsdatei ausführen können. Diese Vorgänge hängen von der Rolle/Gruppe ab, zu der Sie gehören.
+   - **Zuordnungs-Dashboard**: Sie können eine .ditamap-Datei im Dashboard der Karte bearbeiten, in der Sie verschiedene Vorgänge für die Zuordnungsdatei ausführen können. Diese Vorgänge hängen von der Rolle/Gruppe ab, zu der Sie gehören.
 
-- **Web DITA Map Editor**: Wenn Sie die .ditamap-Datei zur Bearbeitung im Map Editor öffnen möchten, wählen Sie diese Option. Mit der Option &quot;DITA Map Editor&quot;können Sie Themen hinzufügen oder entfernen, Beziehungstabellen hinzufügen und andere Vorgänge auf Ihrer Zuordnung durchführen.
+   - **Web DITA Map Editor**: Wenn Sie die .ditamap-Datei zur Bearbeitung im Map Editor öffnen möchten, wählen Sie diese Option. Mit der Option &quot;DITA Map Editor&quot;können Sie Themen hinzufügen oder entfernen, Beziehungstabellen hinzufügen und andere Vorgänge auf Ihrer Zuordnung durchführen.
 
 
 ### Auschecken von Dateien {#id195HC020TS4}
@@ -391,15 +403,15 @@ Wenn Sie eine Datei einchecken, wird die lokale Kopie von Ihrem System im AEM-Re
    - **Einchecken**: Checkt die ausgewählte Datei aus Ihrem lokalen System in AEM Repository ein.
    - **Einchecken mit abhängigen Personen:** Wenn Sie eine Datei zusammen mit den abhängigen Elementen ausgecheckt haben, verwenden Sie diese Option, um alle abhängigen Dateien in einem Vorgang einzuchecken. Bei Auswahl dieser Option wird das Dialogfeld &quot;Einchecken&quot;mit allen abhängigen Dateien angezeigt. Klicken Sie auf OK , um alle Dateien gleichzeitig einzuchecken.
 
-      Wenn Sie die abhängigen Dateien nicht ausgecheckt haben und diese Option wählen, werden nur die abhängigen Dateien eingecheckt, die \(separat\) ausgecheckt haben. Ihnen wird eine Liste der Dateien angezeigt, die nicht eingecheckt werden konnten:
+   Wenn Sie die abhängigen Dateien nicht ausgecheckt haben und diese Option wählen, werden nur die abhängigen Dateien eingecheckt, die \(separat\) ausgecheckt haben. Ihnen wird eine Liste der Dateien angezeigt, die nicht eingecheckt werden konnten:
 
-      ![](images/check-in-error.png)
+   ![](images/check-in-error.png)
 
-      Es wird dringend empfohlen, keine ausgecheckte Datei zu verschieben. Wenn jedoch eine ausgecheckte Datei an einen anderen Speicherort verschoben wird, müssen Sie den Checkout für diese Datei abbrechen. Wenn Sie Aktualisierungen an dieser Datei vornehmen möchten, checken Sie die Datei erneut aus, nehmen Sie Änderungen vor und checken Sie sie dann wieder ein. Wenn Sie versuchen, eine Datei einzuchecken, die von ihrem ursprünglichen Speicherort verschoben wurde, wird ein Fehler ausgegeben.
+   Es wird dringend empfohlen, keine ausgecheckte Datei zu verschieben. Wenn jedoch eine ausgecheckte Datei an einen anderen Speicherort verschoben wird, müssen Sie den Checkout für diese Datei abbrechen. Wenn Sie Aktualisierungen an dieser Datei vornehmen möchten, checken Sie die Datei erneut aus, nehmen Sie Änderungen vor und checken Sie sie dann wieder ein. Wenn Sie versuchen, eine Datei einzuchecken, die von ihrem ursprünglichen Speicherort verschoben wurde, wird ein Fehler ausgegeben.
 
-      Wenn eine abhängige Datei in AEM ausgecheckt ist, wird die abhängige Datei beim Einchecken nicht im Dialogfeld &quot;Einchecken&quot;angezeigt. Um eine Liste der abhängigen Dateien zu erhalten, die in AEM ausgecheckt wurden, müssen Sie einen Ordner aktualisieren.
+   Wenn eine abhängige Datei in AEM ausgecheckt ist, wird die abhängige Datei beim Einchecken nicht im Dialogfeld &quot;Einchecken&quot;angezeigt. Um eine Liste der abhängigen Dateien zu erhalten, die in AEM ausgecheckt wurden, müssen Sie einen Ordner aktualisieren.
 
-      Wenn Sie über AEM eine abhängige Datei eingecheckt haben, wird die Dateiliste in der Sauerstoff-Autoreninstanz erst aktualisiert, wenn Sie den Ordner &quot;Aktualisierte und ausgecheckte Dateien aktualisieren&quot;erstellt haben. Wenn Sie ein Check-in mit abhängigen Personen durchführen und einige Dateien über AEM einchecken, erhalten Sie eine Fehlerliste mit den Dateien, die nicht eingecheckt werden konnten.
+   Wenn Sie über AEM eine abhängige Datei eingecheckt haben, wird die Dateiliste in der Sauerstoff-Autoreninstanz erst aktualisiert, wenn Sie den Ordner &quot;Aktualisierte und ausgecheckte Dateien aktualisieren&quot;erstellt haben. Wenn Sie ein Check-in mit abhängigen Personen durchführen und einige Dateien über AEM einchecken, erhalten Sie eine Fehlerliste mit den Dateien, die nicht eingecheckt werden konnten.
 
 1. \(Optional\) Fügen Sie im Dialogfeld &quot;Einchecken&quot;einen Kommentar hinzu unter **Versionskommentare** Textfeld.
 
@@ -600,45 +612,47 @@ In diesem Thema werden einige der häufigsten Probleme behandelt, die bei der Ar
 
 ### Bedienfeld AEM Guides fehlt {#id192BH200ZAX}
 
-Problem : Wenn das Bedienfeld &quot;AEM Guides&quot;in der XML-Autoreninstanz nicht angezeigt wird, versuchen Sie die folgenden Lösungen:
+**Problem** - Wenn das Bedienfeld &quot;AEM Guides&quot;in der XML-Autoreninstanz nicht angezeigt wird, versuchen Sie die folgenden Lösungen:
 
-Lösung 1: : 1.  Aktivieren Sie in der XML-Autoreninstanz Oxygen das Plug-in.
+Lösung 1:
 
-    Klicken Sie auf **Options* \> **Preferences* \> **Plugins** und wählen Sie **Oxygen Plugin for Adobe Experience Manager Guides.**
+1. Aktivieren Sie in der XML-Autoreninstanz Oxygen das Plug-in.
+
+   Klicken **Optionen** \> **Voreinstellungen** \> **Plugins** und wählen Sie **Sauerstoff-Plug-in für Adobe Experience Manager-Handbücher.**
 
 1. Starten Sie die XML-Autoreninstanz von Oxygen neu.
 
 
-Lösung 2: : Wenn das Bedienfeld &quot;AEM Guides&quot;immer noch nicht angezeigt wird, aktivieren Sie das Fenster AEM Guides .
+Lösung 2:
 
-    Klicken Sie in der XML-Autoreninstanz von Adobe auf **Window* \> **Show View* \> **AEM Guides**.
+1. Wenn das Bedienfeld &quot;AEM Guides&quot;immer noch nicht angezeigt wird, aktivieren Sie das Fenster AEM Guides .
 
-Lösung 3: : Deinstallieren Sie das Oxygen-Plug-in für Adobe Experience Manager-Handbücher und installieren Sie es erneut.
+   Klicken Sie in Oxygen XML Author auf **Fenster** \> **Ansicht anzeigen** \> **AEM**.
 
-    - Deinstallieren Sie unter Windows das Plug-in aus der Liste **Programme hinzufügen oder entfernen**. Installieren Sie dann das Plug-in neu.
-    
-    - Rufen Sie in Mac den Ordner aem-connector-x.x im Ordner &quot;plugins&quot;von Oxygen XML Author auf und verschieben Sie ihn in den Ordner &quot;Papierkorb&quot;. Leeren Sie dann den Ordner **Papierkorb**.
+Lösung 3:
+
+1. Deinstallieren Sie das Oxygen-Plug-in für Adobe Experience Manager-Handbücher und installieren Sie es erneut.
+
+   - Deinstallieren Sie unter Windows das Plug-in von **Programme hinzufügen oder entfernen** Liste. Installieren Sie dann das Plug-in neu.
+
+   - Rufen Sie in Mac den Ordner aem-connector-x.x im Ordner &quot;plugins&quot;von Oxygen XML Author auf und verschieben Sie ihn in **Papierkorb**. Leeren Sie dann die **Papierkorb** Ordner.
 
 
 ### Anschluss für DITA-OT-Transformation konfigurieren
 
-Problem : Wenn Sie eine DITA-OT-Transformation für Dateien ausführen, die vom Plug-in verarbeitet werden, schlägt die Transformation mit dem folgenden Fehler fehl:
+**Problem** - Wenn Sie eine DITA-OT-Transformation für Dateien ausführen, die vom Plug-in verarbeitet werden, schlägt die Transformation mit dem folgenden Fehler fehl:
 
-    ![](images/proxy-server-path-error.png)
+![](images/proxy-server-path-error-new.png)
 
-Lösung : Dieses Problem wurde behoben, indem ein Proxy-Server zwischen DITA-OT und dem Plug-in hinzugefügt wurde. Dieser Proxyserver verarbeitet und gibt alle Dateien frei, die von DITA-OT für Umwandlungen angefordert werden. Der Standardanschluss, für den dieser Server konfiguriert wurde, ist: `5972`. Wenn Sie diesen Anschluss für einen anderen Server verwenden, können Sie einen anderen Anschluss für den Proxyserver angeben.
+**Lösung** - Dieses Problem wurde behoben, indem ein Proxy-Server zwischen DITA-OT und dem Plug-in hinzugefügt wurde. Dieser Proxyserver verarbeitet und gibt alle Dateien frei, die von DITA-OT für Umwandlungen angefordert werden. Der Standardanschluss, für den dieser Server konfiguriert wurde, ist: `5972`. Wenn Sie diesen Anschluss für einen anderen Server verwenden, können Sie einen anderen Anschluss für den Proxyserver angeben.
 
-    Führen Sie die folgenden Schritte aus, um den Standardanschluss des Proxyservers zu ändern:
-    
-    1.  Navigieren Sie zum Basisverzeichnis Ihres Benutzers.
-    
-    2.  Erstellen Sie eine Datei mit dem Namen aem\_connector\_proxy.
-    
-    3.  Öffnen Sie die Datei in einem beliebigen Texteditor und fügen Sie in der ersten Zeile der Datei eine verfügbare Anschlussnummer hinzu.
-    
-     4.  Speichern und schließen Sie die Datei.
-    
-     5.  Starten Sie die XL-XML-Autoreninstanz neu und führen Sie die DITA-OT-Transformation aus.
+Führen Sie die folgenden Schritte aus, um den Standardanschluss des Proxyservers zu ändern:
+
+1. Navigieren Sie zum Basisverzeichnis Ihres Benutzers.
+1. Erstellen Sie eine Datei mit dem Namen aem\_connector\_proxy.
+1. Öffnen Sie die Datei in einem beliebigen Texteditor und fügen Sie in der ersten Zeile der Datei eine verfügbare Anschlussnummer hinzu.
+1. Speichern und schließen Sie die Datei.
+1. Starten Sie die XL-XML-Autoreninstanz neu und führen Sie die DITA-OT-Transformation aus.
 
 
 ### AEM Bedienfeld &quot;Guides&quot;navigiert nicht zum Speicherort der geöffneten Datei
@@ -653,38 +667,36 @@ Problem: Standardmäßig generiert das Oxygen-Plug-in für AEM Guides keine Prot
 
 Lösung: Führen Sie die folgenden Schritte aus, um die Protokollgenerierungsfunktion im Plug-in zu aktivieren:
 
-    1.  Navigieren Sie zum Installationsspeicherort der Oxygen XML-Autoreninstanz.
-    
-    1.  Öffnen Sie die Datei SauerstoffAuthor19.1.vmoptions in einem Texteditor.
-    
-    >[!NOTE]
-    >
-    >Die Versionsnummer der Datei kann je nach der Versionsnummer der auf Ihrem System installierten Anwendung unterschiedlich sein.
-    
-    1.  Hängen Sie die folgende Zeile in die Datei an:
-    
-    &quot;
-    -Djava.util.logging.config.file=./log.properties
-    &quot;
-    
-    1.  Speichern und schließen Sie die Datei.
-    
-    1.  Erstellen Sie am selben Speicherort eine Datei mit dem Namen log.properties mit folgendem Inhalt:
-    
-    &quot;
-    handlers=java.util.logging.FileHandler
-    java.util.logging.FileHandler.level = DEBUG
-    java.util.logging.FileHandler.limit = 1048576
-    java.util.logging.FileHandler.count = 5
-    java.util.logging.FileHandler.pattern = %h/aem-plugin%g.log
-    java.util.logging.FileHandler.formatter = java.util.logging.SimpleFormatter
-    java.util.logging.FileHandler.format=[%1$tF %1$tT] [%4$s] %5$s %n
-    &quot;
-    
-    1.  Speichern und schließen Sie die Datei.
-    
-    1.  Starten Sie die XML-Autoreninstanz von Oxygen.
-    
-    
-    Das Plug-in erstellt jetzt Protokolle im Basisverzeichnis des Benutzers mit dem Dateinamen aem-pluginX.log \(*wobei X die Rotationsnummer*\ angibt).
+1. Navigieren Sie zum Installationsspeicherort der Oxygen XML-Autoreninstanz.
 
+1. Öffnen Sie die Datei SauerstoffAuthor19.1.vmoptions in einem Texteditor.
+
+   >[!NOTE]
+   >
+   >Die Versionsnummer der Datei kann je nach der Versionsnummer der auf Ihrem System installierten Anwendung unterschiedlich sein.
+
+1. Hängen Sie die folgende Zeile in die Datei an:
+
+   ```java
+   -Djava.util.logging.config.file=./log.properties
+   ```
+
+1. Speichern und schließen Sie die Datei.
+
+1. Erstellen Sie am selben Speicherort eine Datei mit dem Namen log.properties mit folgendem Inhalt:
+
+   ```java
+   handlers=java.util.logging.FileHandler
+   java.util.logging.FileHandler.level = DEBUG
+   java.util.logging.FileHandler.limit = 1048576
+   java.util.logging.FileHandler.count = 5
+   java.util.logging.FileHandler.pattern = %h/aem-plugin%g.log
+   java.util.logging.FileHandler.formatter = java.util.logging.SimpleFormatter
+   java.util.logging.FileHandler.format=[%1$tF %1$tT] [%4$s] %5$s %n
+   ```
+
+1. Speichern und schließen Sie die Datei.
+1. Starten Sie die XML-Autoreninstanz von Oxygen.
+
+
+Das Plug-in erstellt nun Protokolle im Basisverzeichnis des Benutzers mit dem Dateinamen aem-pluginX.log \(*wobei X die Rotationsnummer angibt*\).

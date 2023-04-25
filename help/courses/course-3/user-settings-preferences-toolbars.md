@@ -2,7 +2,7 @@
 title: Benutzereinstellungen, Editor-Einstellungen und Editor-Symbolleisten
 description: Ändern von Benutzereinstellungen und Editor-Einstellungen in AEM Handbüchern
 exl-id: 8cb099e4-d985-4eeb-b1a5-0e372b04d218
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 2%
@@ -33,7 +33,7 @@ Tags sind visuelle Hinweise, die die Grenzen eines Elements angeben. Eine Elemen
 
    - Ziehen Sie Elemente per Drag-and-Drop in den Arbeitsbereich, indem Sie das Tag auswählen und das Element an einer gültigen Position ablegen.
 
-2. Klicken Sie auf [!UICONTROL **Anzeigen von Tags ein/aus**] erneut ein, um Tags auszublenden.
+1. Klicken Sie auf [!UICONTROL **Anzeigen von Tags ein/aus**] erneut ein, um Tags auszublenden.
 
 Tags werden nicht mehr angezeigt, sodass Sie sich auf den Text konzentrieren können.
 
@@ -47,7 +47,7 @@ Durch das Sperren (oder Auschecken) einer Datei erhält der Benutzer exklusiven 
 
    Die Datei wurde ausgecheckt und ein Sperrsymbol wird neben dem Dateinamen im Repository angezeigt.
 
-2. Klicken Sie auf [!UICONTROL **Entsperren**] Symbol.
+1. Klicken Sie auf [!UICONTROL **Entsperren**] Symbol.
 
    ![Anmelden](images/lesson-2/check-in-icon.png)
 
@@ -57,15 +57,15 @@ Das Repository wird aktualisiert und zeigt an, dass die Datei eingecheckt wurde.
 
 1. Klicken Sie auf [!UICONTROL **Sonderzeichen einfügen**] in der sekundären Symbolleiste.
 
-   ![Spezial](images/lesson-2/special-icon.png)
+   ![Sonderaktion](images/lesson-2/special-icon.png)
 
-2. Geben Sie im Dialogfeld &quot;Sonderzeichen einfügen&quot;den Namen des Zeichens in die Suchleiste ein.
+1. Geben Sie im Dialogfeld &quot;Sonderzeichen einfügen&quot;den Namen des Zeichens in die Suchleiste ein.
 
    Alternativ können Sie das Dropdown-Menü Kategorie auswählen verwenden, um alle Zeichen in einer bestimmten Kategorie anzuzeigen.
 
-3. Wählen Sie das gewünschte Zeichen aus.
+1. Wählen Sie das gewünschte Zeichen aus.
 
-4. Klicken [!UICONTROL **Einfügen**].
+1. Klicken [!UICONTROL **Einfügen**].
 
 Das Sonderzeichen wird in den Text eingefügt.
 
@@ -89,13 +89,13 @@ Sie können aus hellen oder dunklen Themen für den Editor wählen. Unter Verwen
 
    ![Benutzereinstellungen](images/reuse/user-prefs-icon.png)
 
-2. Klicken Sie im Dialogfeld &quot;Benutzereinstellungen&quot;auf das [!UICONTROL **Design**] Dropdown-Liste.
+1. Klicken Sie im Dialogfeld &quot;Benutzereinstellungen&quot;auf das [!UICONTROL **Design**] Dropdown-Liste.
 
-3. Wählen Sie aus den verfügbaren Optionen aus.
+1. Wählen Sie aus den verfügbaren Optionen aus.
 
    ![Designs](images/lesson-2/themes.png)
 
-4. Klicken Sie auf [!UICONTROL **Speichern**].
+1. Klicken Sie auf [!UICONTROL **Speichern**].
 
 Der Editor wird aktualisiert, um Ihr bevorzugtes Design anzuzeigen.
 
@@ -107,13 +107,13 @@ Sie können den Basispfad so aktualisieren, dass die Repository-Ansicht Ihnen de
 
    ![Benutzereinstellungen](images/reuse/user-prefs-icon.png)
 
-2. Klicken Sie im Dialogfeld &quot;Benutzereinstellungen&quot;auf das [!UICONTROL **Ordner**] neben dem Basispfad.
+1. Klicken Sie im Dialogfeld &quot;Benutzereinstellungen&quot;auf das [!UICONTROL **Ordner**] neben dem Basispfad.
 
    ![Basisordnerpfad](images/lesson-2/base-path-folder-icon.png)
 
-3. Klicken Sie im Dialogfeld Pfad auswählen auf das Kontrollkästchen neben einem bestimmten Ordner.
+1. Klicken Sie im Dialogfeld Pfad auswählen auf das Kontrollkästchen neben einem bestimmten Ordner.
 
-4. Klicken Sie auf [!UICONTROL **Auswählen**].
+1. Klicken [!UICONTROL **Auswählen**].
 
 Wenn Sie den Editor das nächste Mal starten, zeigt das Repository die Dateien an, die im Basispfad angegeben wurden.
 
@@ -125,13 +125,13 @@ Das globale Profil ist ein Systemstandard. Administratoren können zusätzliche 
 
    ![Benutzereinstellungen](images/reuse/user-prefs-icon.png)
 
-2. Klicken Sie im Dialogfeld &quot;Benutzereinstellungen&quot;auf das [!UICONTROL **Ordnerprofile**] Dropdown-Liste.
+1. Klicken Sie im Dialogfeld &quot;Benutzereinstellungen&quot;auf das [!UICONTROL **Ordnerprofile**] Dropdown-Liste.
 
    ![Profilliste](images/lesson-2/folder-profiles-dropdown.png)
 
-3. Wählen Sie aus den verfügbaren Optionen ein Profil aus.
+1. Wählen Sie aus den verfügbaren Optionen ein Profil aus.
 
-4. Klicken Sie auf [!UICONTROL **Speichern**].
+1. Klicken Sie auf [!UICONTROL **Speichern**].
 
 Das neue Ordnerprofil wird nun zugewiesen. Die Symbolleistenoptionen, Ansichtsmodi sowie Bedingungen und Snippets im linken Bereich wurden geändert. Sie kann auch das Erscheinungsbild von Inhalten im Editor ändern.
 
@@ -143,11 +143,11 @@ Die Editor-Einstellungen stehen Administratoren zur Verfügung. Mit diesen Vorei
 
    ![Editor-Einstellungen](images/lesson-2/editor-settings-icon.png)
 
-2. Klicken Sie im Dialogfeld &quot;Editor Settings&quot;auf das [!UICONTROL **Allgemein**] Registerkarte.
+1. Klicken Sie im Dialogfeld &quot;Editor Settings&quot;auf das [!UICONTROL **Allgemein**] Registerkarte.
 
-3. Wählen Sie das Wörterbuch aus, mit dem Sie arbeiten möchten.
+1. Wählen Sie das Wörterbuch aus, mit dem Sie arbeiten möchten.
 
-4. Klicken Sie auf [!UICONTROL **Speichern**].
+1. Klicken Sie auf [!UICONTROL **Speichern**].
 
 Das Wörterbuch wird aktualisiert. Beachten Sie, dass Sie beim Wechsel zu AEM Rechtschreibprüfung eine benutzerdefinierte Wortliste verwenden können.
 
@@ -159,13 +159,13 @@ Eine der Funktionen, die Sie mit den Editor-Einstellungen anpassen können, sind
 
    ![Editor-Einstellungen](images/lesson-2/editor-settings-icon.png)
 
-2. Klicken Sie im Dialogfeld &quot;Editor Settings&quot;auf das [!UICONTROL **Bedienfelder**] Registerkarte.
+1. Klicken Sie im Dialogfeld &quot;Editor Settings&quot;auf das [!UICONTROL **Bedienfelder**] Registerkarte.
 
-3. Schalten Sie die verfügbaren Bedienfelder ein/aus, um sie nach Bedarf ein- oder auszublenden.
+1. Schalten Sie die verfügbaren Bedienfelder ein/aus, um sie nach Bedarf ein- oder auszublenden.
 
    ![Bedienfeld ein/aus](images/lesson-2/toggle-panels.png)
 
-4. Klicken Sie auf [!UICONTROL **Speichern**].
+1. Klicken Sie auf [!UICONTROL **Speichern**].
 
 Das linke Bedienfeld ist jetzt so konfiguriert, dass nur die Bedienfelder angezeigt werden, die zu &quot;Anzeigen&quot;umgeschaltet wurden.
 
@@ -177,15 +177,15 @@ Mit der Elementliste können Sie ein bestimmtes Element benennen und es mit eine
 
    ![Editor-Einstellungen](images/lesson-2/editor-settings-icon.png)
 
-2. Klicken Sie im Dialogfeld &quot;Editor Settings&quot;auf das [!UICONTROL **Elementliste**] Registerkarte.
+1. Klicken Sie im Dialogfeld &quot;Editor Settings&quot;auf das [!UICONTROL **Elementliste**] Registerkarte.
 
-3. Geben Sie eine **Elementname** und **Titel** in den entsprechenden Feldern.
+1. Geben Sie eine **Elementname** und **Titel** in den entsprechenden Feldern.
 
-4. Klicken Sie auf [!UICONTROL **Plus**] , um der Liste weitere Elemente hinzuzufügen.
+1. Klicken Sie auf [!UICONTROL **Plus**] , um der Liste weitere Elemente hinzuzufügen.
 
    ![Elementliste](images/lesson-2/elements-list.png)
 
-5. Klicken Sie auf [!UICONTROL **Speichern**].
+1. Klicken Sie auf [!UICONTROL **Speichern**].
 
 Sie können die Änderung an der Elementliste sofort in den vorhandenen Tags im Editor sehen. Sie können sie auch in den verfügbaren Optionen sehen, wenn Sie ein neues Element hinzufügen.
 
@@ -197,11 +197,11 @@ Die Attributliste funktioniert ähnlich wie die Elementliste. In den Editor-Eins
 
    ![Editor-Einstellungen](images/lesson-2/editor-settings-icon.png)
 
-2. Klicken Sie im Dialogfeld &quot;Editor Settings&quot;auf das [!UICONTROL **Attributliste**] Registerkarte.
+1. Klicken Sie im Dialogfeld &quot;Editor Settings&quot;auf das [!UICONTROL **Attributliste**] Registerkarte.
 
-3. Geben Sie eine **Attributname** und **Titel** in den entsprechenden Feldern.
+1. Geben Sie eine **Attributname** und **Titel** in den entsprechenden Feldern.
 
-4. Klicken Sie auf [!UICONTROL **Plus**] , um der Liste weitere Attribute hinzuzufügen.
+1. Klicken Sie auf [!UICONTROL **Plus**] , um der Liste weitere Attribute hinzuzufügen.
 
 ## Konfigurieren von Bedingungen in den Editor-Einstellungen
 
@@ -211,13 +211,13 @@ Auf der Registerkarte &quot;Bedingung&quot;können Sie verschiedene Eigenschafte
 
    ![Editor-Einstellungen](images/lesson-2/editor-settings-icon.png)
 
-2. Klicken Sie im Dialogfeld &quot;Editor Settings&quot;auf das [!UICONTROL **Bedingung**] Registerkarte.
+1. Klicken Sie im Dialogfeld &quot;Editor Settings&quot;auf das [!UICONTROL **Bedingung**] Registerkarte.
 
-3. Aktivieren Sie die Kontrollkästchen der Bedingungen, die Sie anwenden möchten.
+1. Aktivieren Sie die Kontrollkästchen der Bedingungen, die Sie anwenden möchten.
 
    ![Registerkarte &quot;Bedingung&quot;](images/lesson-2/condition.png)
 
-4. Klicken Sie auf [!UICONTROL **Speichern**].
+1. Klicken Sie auf [!UICONTROL **Speichern**].
 
 ## Erstellen eines Veröffentlichungsprofils in den Editor-Einstellungen
 
@@ -227,12 +227,12 @@ Veröffentlichungsprofile können zur Veröffentlichung der Wissensdatenbank ver
 
    ![Editor-Einstellungen](images/lesson-2/editor-settings-icon.png)
 
-2. Klicken Sie im Dialogfeld &quot;Editor Settings&quot;auf das [!UICONTROL **Profile**] Registerkarte.
+1. Klicken Sie im Dialogfeld &quot;Editor Settings&quot;auf das [!UICONTROL **Profile**] Registerkarte.
 
-3. Klicken Sie auf [!UICONTROL **Plus**] neben Profile.
+1. Klicken Sie auf [!UICONTROL **Plus**] neben Profile.
 
-4. Füllen Sie die Felder nach Bedarf aus.
+1. Füllen Sie die Felder nach Bedarf aus.
 
-5. Klicken Sie auf [!UICONTROL **Speichern**].
+1. Klicken Sie auf [!UICONTROL **Speichern**].
 
 Ein Veröffentlichungsprofil wurde erstellt.

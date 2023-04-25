@@ -2,7 +2,7 @@
 title: Versionshinweise für [!DNL AEM Guides], Version März 2022
 description: März-Version [!DNL Adobe Experience Manager Guides] as a Cloud Service
 exl-id: 885edbb5-dfe4-4bdc-bb66-0df64addb094
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 2%
@@ -15,8 +15,8 @@ ht-degree: 2%
 
 Aktuelles Upgrade durchführen [!DNL Adobe Experience Manager Guides] as a Cloud Service (später genannt) *[!DNL AEM Guides]as a Cloud Service*) einrichten, indem Sie die folgenden Schritte ausführen:
 1. Sehen Sie sich den Git-Code des Cloud Services an und wechseln Sie zu der Verzweigung, die in der Cloud Services-Pipeline entsprechend der Umgebung konfiguriert ist, die Sie aktualisieren möchten.
-2. Aktualisieren `<dox.version>` -Eigenschaft in `/dox/dox.installer/pom.xml` -Datei Ihres Cloud Services-Git-Codes auf 2022.3.123.
-3. Übertragen Sie die Änderungen und führen Sie die Cloud Services-Pipeline aus, um auf die März-Version von zu aktualisieren. [!DNL AEM Guides] as a Cloud Service.
+1. Aktualisieren `<dox.version>` -Eigenschaft in `/dox/dox.installer/pom.xml` -Datei Ihres Cloud Services-Git-Codes auf 2022.3.123.
+1. Übertragen Sie die Änderungen und führen Sie die Cloud Services-Pipeline aus, um auf die März-Version von zu aktualisieren. [!DNL AEM Guides] as a Cloud Service.
 
 ## Kompatibilitätsmatrix
 
@@ -34,7 +34,7 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die von [!DNL AEM Guide
 
 | [!DNL AEM Guides] Cloud-Version | Sauerstoff Connector Windows | Sauerstoff Connector Mac |
 | --- | --- | --- |
-| 2022.3.0 | 2,4,0 | 2,4,0 |
+| 2022.3.0 | 2.4.0 | 2.4.0 |
 |  |  |  |
 
 *Die in AEM erstellten Grundlinien und Bedingungen werden in FMPS-Versionen ab 2020.2 unterstützt.

@@ -2,7 +2,7 @@
 title: Veröffentlichung mit Bedingungen
 description: Veröffentlichen mit Bedingungen in Adobe Experience Manager-Handbüchern
 exl-id: ea94824a-884b-447f-9562-e6c629b8133b
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 4%
@@ -25,19 +25,19 @@ Hier können Sie Beispieldateien für die Übung herunterladen.
 
 1. Öffnen Sie das zu ändernde Thema.
 
-2. Geben Sie den Text ein, der an Bedingungen geknüpft werden soll. Beispielsweise einen oder mehrere Absätze, eine gesamte Tabelle, eine Abbildung oder andere Inhalte.
+1. Geben Sie den Text ein, der an Bedingungen geknüpft werden soll. Beispielsweise einen oder mehrere Absätze, eine gesamte Tabelle, eine Abbildung oder andere Inhalte.
 
    ![Presenting-Information](images/presenting-info.png)
 
-3. Wählen Sie den spezifischen Inhalt aus, dem ein bedingtes Attribut zugewiesen werden soll. Beispielsweise einen einzelnen Absatz innerhalb der Quelle.
+1. Wählen Sie den spezifischen Inhalt aus, dem ein bedingtes Attribut zugewiesen werden soll. Beispielsweise einen einzelnen Absatz innerhalb der Quelle.
 
    ![Template-Choice](images/template-choice.png)
 
-4. Stellen Sie in der rechten Leiste sicher, dass die Eigenschaften angezeigt werden.
+1. Stellen Sie in der rechten Leiste sicher, dass die Eigenschaften angezeigt werden.
 
-5. Fügen Sie ein Attribut für Zielgruppe, Produkt oder Plattform hinzu.
+1. Fügen Sie ein Attribut für Zielgruppe, Produkt oder Plattform hinzu.
 
-6. Weisen Sie dem Attribut einen Wert zu. Die Inhaltsanzeige wurde aktualisiert, um bedingte Markierungen anzuzeigen.
+1. Weisen Sie dem Attribut einen Wert zu. Die Inhaltsanzeige wurde aktualisiert, um bedingte Markierungen anzuzeigen.
 
    ![Vorlage festlegen](images/specify-template.png)
 
@@ -45,9 +45,9 @@ Hier können Sie Beispieldateien für die Übung herunterladen.
 
 1. Klicken Sie auf **Vorschau**. 
 
-2. under **Filter**, wählen Sie die ein- oder auszublendenden Bedingungen aus oder heben Sie die Auswahl auf.
+1. under **Filter**, wählen Sie die ein- oder auszublendenden Bedingungen aus oder heben Sie die Auswahl auf.
 
-3. Auswählen oder Aufheben der Auswahl **Text für Bedingungen hervorheben**.
+1. Auswählen oder Aufheben der Auswahl **Text für Bedingungen hervorheben**.
 
    ![Vorschau-Conditional-Content](images/preview-conditional-content.png)
 
@@ -57,19 +57,19 @@ Eine Bedingungsvorgabe ist eine Sammlung von Eigenschaften, die definieren, was 
 
 1. Wählen Sie im Map Dashboard die **Bedingungsvorgaben** Registerkarte.
 
-2. Klicken Sie auf **Erstellen**.
+1. Klicken Sie auf **Erstellen**.
 
-3. Auswählen **Hinzufügen** (oder **Alle hinzufügen**).
+1. Auswählen **Hinzufügen** (oder **Alle hinzufügen**).
 
-4. Benennen Sie die Bedingung.
+1. Benennen Sie die Bedingung.
 
-5. Wählen Sie eine Kombination aus Attribut, Titel und Aktion aus.
+1. Wählen Sie eine Kombination aus Attribut, Titel und Aktion aus.
 
    ![Create-Condition-Preset](images/create-condition-preset.png)
 
-6. Wiederholen Sie dies nach Bedarf.
+1. Wiederholen Sie dies nach Bedarf.
 
-7. Klicken Sie auf **Speichern**.
+1. Klicken Sie auf **Speichern**.
 
 ## Bedingte Ausgabe generieren
 
@@ -79,17 +79,17 @@ Sobald Bedingungen auf Inhalte angewendet wurden, können sie als Ausgabe generi
 
 1. Wählen Sie die **Ausgabevorgaben** Registerkarte.
 
-2. Wählen Sie eine Ausgabevorgabe aus.
+1. Wählen Sie eine Ausgabevorgabe aus.
 
-3. Klicken Sie auf **Bearbeiten**.
+1. Klicken Sie auf **Bearbeiten**.
 
-4. under **Anwenden einer Bedingung mithilfe von** Wählen Sie eine Bedingungsvorgabe aus.
+1. under **Anwenden einer Bedingung mithilfe von** Wählen Sie eine Bedingungsvorgabe aus.
 
    ![Generate-Conditional-Output](images/generate-conditional-output.png)
 
-5. Klicken Sie auf **Fertig**.
+1. Klicken Sie auf **Fertig**.
 
-6. Generieren Sie die Ausgabevorgabe und überprüfen Sie den Inhalt.
+1. Generieren Sie die Ausgabevorgabe und überprüfen Sie den Inhalt.
 
 ## Generieren einer bedingten Ausgabe mit einer DITAval-Datei
 
@@ -97,14 +97,14 @@ Die DITAval-Datei kann verwendet werden, um bedingte Inhalte zu veröffentlichen
 
 1. Wählen Sie die **Ausgabevorgaben** Registerkarte.
 
-2. Wählen Sie eine Ausgabevorgabe aus.
+1. Wählen Sie eine Ausgabevorgabe aus.
 
-3. Klicken Sie auf **Bearbeiten**.
+1. Klicken Sie auf **Bearbeiten**.
 
-4. Wählen Sie unter &quot;Bedingungen anwenden mit&quot;eine DITAval-Datei aus.
+1. Wählen Sie unter &quot;Bedingungen anwenden mit&quot;eine DITAval-Datei aus.
 
    ![generate-using-DITAval](images/generate-using-ditaval.png)
 
-5. Klicken Sie auf **Fertig**.
+1. Klicken Sie auf **Fertig**.
 
-6. Generieren Sie die Ausgabevorgabe und überprüfen Sie den Inhalt.
+1. Generieren Sie die Ausgabevorgabe und überprüfen Sie den Inhalt.

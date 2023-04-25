@@ -2,7 +2,7 @@
 title: Fehlerbehebung bei Veröffentlichungsfehlern
 description: Fehlerbehebung für Veröffentlichungsfehler in [!DNL Adobe Experience Manager Guides]
 exl-id: b37ea3e7-59cf-4fc5-8fae-e1fadd26f8d8
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -53,7 +53,7 @@ Die erstellte Protokolldatei kann zur Überprüfung geöffnet werden.
 
    ![error-log](images/error-log.png)
 
-2. Scrollen Sie durch das Fehlerprotokoll.
+1. Scrollen Sie durch das Fehlerprotokoll.
 
 ## Ein- und Ausblenden von Fehlertypen
 
@@ -63,7 +63,7 @@ Das Fehlerprotokoll zeigt jeden Fehlertyp in einer eindeutigen Farbe an.
 
 1. **Auswählen** oder **Auswahl aufheben** alle Fehlertypen, um die Hervorhebung ein- oder auszublenden.
 
-2. Navigieren Sie mithilfe der **next** oder **previous** Schaltflächen (Pfeile).
+1. Navigieren Sie mithilfe der **next** oder **previous** Schaltflächen (Pfeile).
 
 ## Beheben von Fehlern
 

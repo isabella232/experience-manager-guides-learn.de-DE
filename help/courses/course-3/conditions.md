@@ -2,7 +2,7 @@
 title: Bedingungen
 description: Arbeiten mit Bedingungen in AEM Guids
 exl-id: 2cb670d9-1a22-47c6-8409-52d1d526010a
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 3%
@@ -21,15 +21,15 @@ Beispieldateien, die Sie für diese Lektion verwenden können, finden Sie in der
 
 1. Wählen Sie die **Ordnerprofile** Kachel.
 
-2. Klicken [!UICONTROL **Bedingte Attribute**].
+1. Klicken [!UICONTROL **Bedingte Attribute**].
 
-3. Klicken [!UICONTROL **Bearbeiten**] in der oberen linken Ecke des Profils.
+1. Klicken [!UICONTROL **Bearbeiten**] in der oberen linken Ecke des Profils.
 
-4. Klicken Sie auf [!UICONTROL **Hinzufügen**].
+1. Klicken Sie auf [!UICONTROL **Hinzufügen**].
 
    ![Bedingungen in Ordnerprofilen](images/lesson-13/add-name.png)
 
-5. Füllen Sie die erforderlichen Felder aus.
+1. Füllen Sie die erforderlichen Felder aus.
 
    - Der Name sollte einem Attribut entsprechen, das für die Profilerstellung verwendet wird.
 
@@ -37,7 +37,7 @@ Beispieldateien, die Sie für diese Lektion verwenden können, finden Sie in der
 
    - Die Bezeichnung ist das Wort, das der Benutzer sehen wird, der Attribute eingibt.
 
-6. Klicken Sie auf [!UICONTROL **Speichern**].
+1. Klicken Sie auf [!UICONTROL **Speichern**].
 
 >[!NOTE]
 >
@@ -49,11 +49,11 @@ Wenn einem Konzept kein benutzerdefiniertes Ordnerprofil zugewiesen wurde, könn
 
 1. Aus dem **Repository-Ansicht** klicken Sie auf das Element, mit dem Sie arbeiten möchten, um es auszuwählen.
 
-2. Im **Inhaltseigenschaften** auf das [!UICONTROL **Attribut**] Dropdown-Liste.
+1. Im **Inhaltseigenschaften** auf das [!UICONTROL **Attribut**] Dropdown-Liste.
 
-3. Wählen Sie das Attribut aus, das Sie zuweisen möchten.
+1. Wählen Sie das Attribut aus, das Sie zuweisen möchten.
 
-4. Hinzufügen einer **Wert**.
+1. Hinzufügen einer **Wert**.
 
 Die Zuordnung von Attribut und Wert wird nun dem ausgewählten Element zugewiesen.
 
@@ -73,9 +73,9 @@ Das Bedienfeld &quot;Bedingungen&quot;ermöglicht die kontrollierte Zuweisung vo
 
    c. Klicken Sie auf [!UICONTROL **Speichern**].
 
-2. Erweitern Sie im Bedienfeld Bedingungen die Dropdown-Listen für Zielgruppe und Plattform . Beachten Sie, dass die verfügbaren Bedingungen ordnerprofilspezifisch sind.
+1. Erweitern Sie im Bedienfeld Bedingungen die Dropdown-Listen für Zielgruppe und Plattform . Beachten Sie, dass die verfügbaren Bedingungen ordnerprofilspezifisch sind.
 
-3. Ziehen Sie eine Bedingung auf das gewünschte Element, um sie zuzuweisen.
+1. Ziehen Sie eine Bedingung auf das gewünschte Element, um sie zuzuweisen.
 
 ## Zuweisen eines Betreffschemas
 
@@ -83,11 +83,11 @@ Themenschema-Karten sind eine spezielle Form der Ditamap und werden durch eine K
 
 1. Navigieren Sie zum **Repository-Ansicht**.
 
-2. Wählen Sie eine Karte aus, die auf die Ditamap zum Themenschema verweist. In diesem Beispiel wird die Zuordnung mit dem Namen _Design und Layout_.
+1. Wählen Sie eine Karte aus, die auf die Ditamap zum Themenschema verweist. In diesem Beispiel wird die Zuordnung mit dem Namen _Design und Layout_.
 
    ![Benutzereinstellungen](images/lesson-13/subject-scheme-map.png)
 
-3. Benutzereinstellungen konfigurieren.
+1. Benutzereinstellungen konfigurieren.
 
    a. Klicken Sie auf [!UICONTROL **Benutzereinstellungen**] Symbol.
 
@@ -119,6 +119,6 @@ Das Themenschema wurde nun zugewiesen.
 
 1. Navigieren Sie zu **Editor-Einstellungen**.
 
-2. Wählen Sie die **Bedingungen** Registerkarte.
+1. Wählen Sie die **Bedingungen** Registerkarte.
 
-3. Aktivieren Sie das Kontrollkästchen **Schema des Betreffs im Bedienfeld &quot;Bedingungen&quot;anzeigen**
+1. Aktivieren Sie das Kontrollkästchen **Schema des Betreffs im Bedienfeld &quot;Bedingungen&quot;anzeigen**

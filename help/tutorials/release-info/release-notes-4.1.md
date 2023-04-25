@@ -2,7 +2,7 @@
 title: Versionshinweise | Adobe Experience Manager-Handbücher Version 4.1
 description: Aktuelle Version der Adobe Experience Manager-Handbücher
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
-source-git-commit: c7b147777a59d422e93d63118e84d806adaaad24
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '3532'
 ht-degree: 3%
@@ -52,10 +52,10 @@ Weitere Informationen finden Sie im Abschnitt Technische Anforderungen im Handbu
 
 ### Sauerstoffanschluss
 
-| Version | Sauerstoff Connector Windows | Sauerstoff Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
+| Release | Sauerstoff Connector Windows | Sauerstoff Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
 | --- | --- | --- |--- |--- |
-| 4.1.3 (Nicht-UUID) | 2,0 | 2,0 | 1,6 | 1,6 |
-| 4.1.3 (UUID) | 2.7 | 2,7 | 2.3 | 2,3 |
+| 4.1.3 (Nicht-UUID) | 2.0 | 2.0 | 1.6 | 1.6 |
+| 4.1.3 (UUID) | 2.7 | 2.7 | 2.3 | 2.3 |
 |  |  |  |
 
 
@@ -85,7 +85,7 @@ Weitere Informationen finden Sie im Abschnitt Technische Anforderungen im Handbu
 
 ### FrameMaker und FrameMaker Publishing Server
 
-| Version | FMPS 2020 | FMPS 2019 | FM 2020 | FM 2019 |
+| Release | FMPS 2020 | FMPS 2019 | FM 2020 | FM 2019 |
 | --- | --- | --- | --- | --- |
 | 4.1.2 (Nicht-UUID) | 2020.2 oder höher* | 2019 | 2020.3 oder höher | 2019.8 (neueste Aktualisierung) |
 | 4.1.2 (UUID) | 2020.2 oder höher* | Nicht kompatibel | 2020.4 oder höher | Nicht kompatibel |
@@ -95,10 +95,10 @@ Weitere Informationen finden Sie im Abschnitt Technische Anforderungen im Handbu
 
 ### Sauerstoffanschluss
 
-| Version | Sauerstoff Connector Windows | Sauerstoff Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
+| Release | Sauerstoff Connector Windows | Sauerstoff Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
 | --- | --- | --- |--- |--- |
-| 4.1.2 (Nicht-UUID) | 2,0 | 2,0 | 1,6 | 1,6 |
-| 4.1.2 (UUID) | 2,7 | 2,7 | 2,3 | 2,3 |
+| 4.1.2 (Nicht-UUID) | 2.0 | 2.0 | 1.6 | 1.6 |
+| 4.1.2 (UUID) | 2.7 | 2.7 | 2.3 | 2.3 |
 |  |  |  |
 
 
@@ -142,7 +142,7 @@ Weitere Informationen finden Sie im Abschnitt Technische Anforderungen im Handbu
 
 ### FrameMaker und FrameMaker Publishing Server
 
-| Version | FMPS 2020 | FMPS 2019 | FM 2020 | FM 2019 |
+| Release | FMPS 2020 | FMPS 2019 | FM 2020 | FM 2019 |
 | --- | --- | --- | --- | --- |
 | 4.1 (Nicht-UUID) | 2020.2 oder höher* | 2019 | 2020.3 oder höher | 2019.8 (neueste Aktualisierung) |
 | 4.1 (UUID) | 2020.2 oder höher* | Nicht kompatibel | 2020.4 oder höher | Nicht kompatibel |
@@ -152,10 +152,10 @@ Weitere Informationen finden Sie im Abschnitt Technische Anforderungen im Handbu
 
 ### Sauerstoffanschluss
 
-| Version | Sauerstoff Connector Windows | Sauerstoff Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
+| Release | Sauerstoff Connector Windows | Sauerstoff Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
 | --- | --- | --- |--- |--- |
-| 4.1 (Nicht-UUID) | 2,0 | 2,0 | 1,6 | 1,6 |
-| 4.1 (UUID) | 2,7 | 2,7 | 2,3 | 2,3 |
+| 4.1 (Nicht-UUID) | 2.0 | 2.0 | 1.6 | 1.6 |
+| 4.1 (UUID) | 2.7 | 2.7 | 2.3 | 2.3 |
 |  |  |  |
 
 
@@ -186,8 +186,8 @@ Ein DITA-Inhaltsschlüsselverweis fügt einen Teil des Inhalts von einem Thema i
 Jetzt werden die Schlüsselverweise auf der Grundlage der in der folgenden Prioritätsreihenfolge festgelegten Stammzuordnung aufgelöst:
 
 1. Benutzereinstellungen
-2. Bedienfeld &quot;Landkartenansicht&quot;
-3. Ordnerprofil
+1. Bedienfeld &quot;Landkartenansicht&quot;
+1. Ordnerprofil
 
 Weitere Informationen finden Sie unter *Schlüsselverweise auflösen* im Handbuch Verwenden von Adobe Experience Manager-Handbüchern.
 

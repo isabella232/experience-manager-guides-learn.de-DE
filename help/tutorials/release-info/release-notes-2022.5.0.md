@@ -2,7 +2,7 @@
 title: Versionshinweise | Adobe Experience Manager-Handbücher as a Cloud Service, Version Mai 2022
 description: Adobe Experience Manager-Handbücher as a Cloud Service im Mai
 exl-id: 7928a300-5ec9-492c-b9be-02b6f87638c6
-source-git-commit: 0f5c1cabdbda9fa2606f67faedbf9a38ca1ec0aa
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '1874'
 ht-degree: 4%
@@ -15,8 +15,8 @@ ht-degree: 4%
 
 Aktualisieren Sie Ihre aktuellen Adobe Experience Manager-Handbücher as a Cloud Service (später als *AEM as a Cloud Service Handbücher*) einrichten, indem Sie die folgenden Schritte ausführen:
 1. Sehen Sie sich den Git-Code des Cloud Services an und wechseln Sie zu der Verzweigung, die in der Cloud Services-Pipeline entsprechend der Umgebung konfiguriert ist, die Sie aktualisieren möchten.
-2. Aktualisieren `<dox.version>` -Eigenschaft in `/dox/dox.installer/pom.xml` -Datei Ihres Cloud Services-Git-Codes auf 2022.5.144.
-3. Übertragen Sie die Änderungen und führen Sie die Cloud Services-Pipeline aus, um auf die as a Cloud Service Version der AEM im Mai zu aktualisieren.
+1. Aktualisieren `<dox.version>` -Eigenschaft in `/dox/dox.installer/pom.xml` -Datei Ihres Cloud Services-Git-Codes auf 2022.5.144.
+1. Übertragen Sie die Änderungen und führen Sie die Cloud Services-Pipeline aus, um auf die as a Cloud Service Version der AEM im Mai zu aktualisieren.
 
 ## Kompatibilitätsmatrix
 
@@ -35,7 +35,7 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen
 
 | AEM zu Handbüchern as a Cloud - Version | Sauerstoff Connector Windows | Sauerstoff Connector Mac |
 | --- | --- | --- |
-| 2022.5.0 | 2,6,9 | 2,6,9 |
+| 2022.5.0 | 2.6.9 | 2.6.9 |
 |  |  |  |
 
 
@@ -131,7 +131,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Beschriftungen für bedingte Attribute (nicht die Werte) werden beim Hinzufügen aller Bedingungen über die Option &quot;Alle Eigenschaften hinzufügen&quot;im Quellmodus angezeigt. (9501)
 * Dateien werden beim Zurücksetzen auf eine beliebige Version automatisch ausgecheckt. (9482)
 * Beim Zurücksetzen einer Dateiversion werden in der Assets-Benutzeroberfläche falsche Unterschiede beim Zeitstempel angezeigt. (9480)
-* Beim Einfügen von Elementen in das topicref -Element der DITA Map werden mehrere Elemente aus Suchergebnissen hinzugefügt. (9474)
+* Beim Einfügen von Elementen in das topicref -Element der DITA-Zuordnung werden mehrere Elemente aus Suchergebnissen hinzugefügt. (9474)
 * Wenn die Einstellung **Neue Version für hochgeladene Datei erstellen** auf EIN gesetzt ist, wird eine neue Version erstellt, wenn auf einem beliebigen eingefrorenen Knoten der Modus zurückgesetzt und gespeichert wird. (9473)
 * Der Anzeigetext der Schlüsselreferenz und der Inhaltsschlüsselreferenz wird beim Ändern der Link-URL nicht beibehalten, wenn beim Definieren der Schlüsselreferenz kein Anzeigetext hinzugefügt wird. (9458)
 * Im Versionsverlauf werden Versionsnummer und Titel für die aktuelle Version nicht angezeigt. (9446)

@@ -2,7 +2,7 @@
 title: Ordnerprofile
 description: Erstellung und Verwendung von Ordnerprofilen für AEM Handbücher
 exl-id: 5a0daa68-51ae-42d0-8320-6e8bdb1fe545
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 1%
@@ -25,13 +25,13 @@ Konfigurationen werden über das Symbol Ordnerprofile verwaltet.
 
    ![Werkzeugsymbol](images/reuse/tools-icon.png)
 
-2. Auswählen **Handbücher** im linken Bereich.
+1. Auswählen **Handbücher** im linken Bereich.
 
-3. Klicken Sie auf [!UICONTROL **Ordnerprofile**] Kachel.
+1. Klicken Sie auf [!UICONTROL **Ordnerprofile**] Kachel.
 
    ![Ordnerprofile](images/reuse/folder-profiles-tile.png)
 
-4. Wählen Sie das gewünschte Profil aus. Wählen Sie beispielsweise **Globales Profil**, das Standardprofil.
+1. Wählen Sie das gewünschte Profil aus. Wählen Sie beispielsweise **Globales Profil**, das Standardprofil.
 
    ![Globales Profil](images/lesson-3/global-profile-tile.png)
 
@@ -41,17 +41,17 @@ Nachdem Sie auf das globale Profil zugegriffen haben, können Sie dessen Konfigu
 
 1. Wählen Sie im globalen Profil die **Bedingte Attribute** Registerkarte.
 
-2. Klicken [!UICONTROL **Bearbeiten**] in der oberen linken Ecke des Bildschirms.
+1. Klicken [!UICONTROL **Bearbeiten**] in der oberen linken Ecke des Bildschirms.
 
    ![Bedingte Attribute](images/lesson-3/edit-conditional-attributes.png)
 
-3. Klicken Sie auf [!UICONTROL **Hinzufügen**].
+1. Klicken Sie auf [!UICONTROL **Hinzufügen**].
 
-4. Füllen Sie die **Name**, **Wert** und **Titel** -Felder für die neue Bedingung.
+1. Füllen Sie die **Name**, **Wert** und **Titel** -Felder für die neue Bedingung.
 
    ![neue Bedingung](images/lesson-3/new-condition.png)
 
-5. Klicken [!UICONTROL **Speichern**] oben links im Bildschirm.
+1. Klicken [!UICONTROL **Speichern**] oben links im Bildschirm.
 Die neue Bedingung ist jetzt für alle Benutzer verfügbar. Sie können sie im Bereich Inhaltseigenschaften auswählen und sie nach Bedarf auf Inhalte anwenden.
 
 ## Neues Ordnerprofil erstellen
@@ -62,15 +62,15 @@ Zusätzlich zum standardmäßigen globalen Profil können Sie auch eigene benutz
 
    ![Werkzeugsymbol](images/reuse/tools-icon.png)
 
-2. Auswählen **Handbücher** im linken Bereich.
+1. Auswählen **Handbücher** im linken Bereich.
 
-3. Klicken Sie auf [!UICONTROL **Ordnerprofile**] Kachel.
+1. Klicken Sie auf [!UICONTROL **Ordnerprofile**] Kachel.
 
    ![Ordnerprofile](images/reuse/folder-profiles-tile.png)
 
-4. Klicken Sie auf [!UICONTROL **Erstellen**].
+1. Klicken Sie auf [!UICONTROL **Erstellen**].
 
-5. Im Dialogfeld Ordnerprofil erstellen .
+1. Im Dialogfeld Ordnerprofil erstellen .
 
    a. Benennen Sie das Profil.
 
@@ -90,19 +90,19 @@ Administrative Benutzer sind berechtigt, die bedingten Attribute, die Bearbeitun
 
    ![Ordnerprofil bearbeiten](images/lesson-3/edit-folder-profile.png)
 
-2. Wählen Sie die **Allgemein** Registerkarte.
+1. Wählen Sie die **Allgemein** Registerkarte.
 
-3. Klicken [!UICONTROL **Bearbeiten**] oben links im Bildschirm.
+1. Klicken [!UICONTROL **Bearbeiten**] oben links im Bildschirm.
 
-4. Wählen Sie unter &quot;Admin Users&quot;einen Benutzer aus der Dropdown-Liste aus oder geben Sie den Namen eines Benutzers ein.
+1. Wählen Sie unter &quot;Admin Users&quot;einen Benutzer aus der Dropdown-Liste aus oder geben Sie den Namen eines Benutzers ein.
 
-5. Klicken Sie auf [!UICONTROL **Hinzufügen**].
+1. Klicken Sie auf [!UICONTROL **Hinzufügen**].
 
    Sie können bei Bedarf mehrere Admin-Benutzer hinzufügen.
 
    ![Admin hinzufügen](images/lesson-3/add-admin.png)
 
-6. Klicken [!UICONTROL **Speichern**] in der oberen rechten Ecke des Bildschirms, wenn alle Benutzer hinzugefügt wurden.
+1. Klicken [!UICONTROL **Speichern**] in der oberen rechten Ecke des Bildschirms, wenn alle Benutzer hinzugefügt wurden.
 
 Diesem Profil werden jetzt Benutzer mit Administratorrechten zugewiesen.
 
@@ -112,19 +112,19 @@ Nachdem Sie auf das globale Profil zugegriffen haben, können Sie dessen Konfigu
 
 1. Wählen Sie im gewünschten Ordnerprofil die **Bedingte Attribute** Registerkarte.
 
-2. Klicken [!UICONTROL **Bearbeiten**] in der oberen linken Ecke des Bildschirms.
+1. Klicken [!UICONTROL **Bearbeiten**] in der oberen linken Ecke des Bildschirms.
 
    ![Bedingte Attribute bearbeiten 2](images/lesson-3/edit-conditional-attributes-2.png)
 
-3. Klicken Sie auf [!UICONTROL **Hinzufügen**].
+1. Klicken Sie auf [!UICONTROL **Hinzufügen**].
 
-4. Füllen Sie die **Name**, **Wert** und **Titel** -Felder für die neue Bedingung.
+1. Füllen Sie die **Name**, **Wert** und **Titel** -Felder für die neue Bedingung.
 
    Klicken Sie auf [!UICONTROL **Plus**] Mit sign können Sie zusätzliche Wert- und Titelpaare für das benannte Attribut hinzufügen.
 
    ![Bedingungen hinzufügen](images/lesson-3/add-conditions.png)
 
-5. Klicken [!UICONTROL **Speichern**] oben links im Bildschirm.
+1. Klicken [!UICONTROL **Speichern**] oben links im Bildschirm.
 
 Dieses Profil wurde um die neuen bedingten Attribute erweitert.
 
@@ -134,9 +134,9 @@ AEM Guides enthalten vordefinierte Authoring-Vorlagen und -Maps. Sie können sie
 
 1. Wählen Sie im gewünschten Ordnerprofil die Registerkarte Authoring-Vorlagen aus.
 
-2. Klicken Sie in der oberen linken Ecke des Bildschirms auf Bearbeiten .
+1. Klicken Sie in der oberen linken Ecke des Bildschirms auf Bearbeiten .
 
-3. Fügen Sie eine Zuordnungsvorlage hinzu.
+1. Fügen Sie eine Zuordnungsvorlage hinzu.
 
    a. Aus dem **Zuordnungsvorlagen** eine Option aus den verfügbaren Karten.
 
@@ -144,17 +144,17 @@ AEM Guides enthalten vordefinierte Authoring-Vorlagen und -Maps. Sie können sie
 
    ![Zuordnungsvorlagen](images/lesson-3/map-templates.png)
 
-4. Fügen Sie eine Themenvorlage hinzu.
+1. Fügen Sie eine Themenvorlage hinzu.
 
    a. Aus dem **Themenvorlagen** eine Option aus den verfügbaren Vorlagen aus.
 
    ![Themenvorlagen](images/lesson-3/topic-templates.png)
 
-5. Klicken Sie auf [!UICONTROL **Hinzufügen**].
+1. Klicken Sie auf [!UICONTROL **Hinzufügen**].
 
-6. Fügen Sie nach Bedarf weitere Themenvorlagen hinzu.
+1. Fügen Sie nach Bedarf weitere Themenvorlagen hinzu.
 
-7. Klicken Sie abschließend auf [!UICONTROL **Speichern**] oben links im Bildschirm.
+1. Klicken Sie abschließend auf [!UICONTROL **Speichern**] oben links im Bildschirm.
 
 Diesem Profil wurden die neuen Authoring-Vorlagen hinzugefügt.
 
@@ -164,13 +164,13 @@ Sie können jede Ausgabevorgabe basierend auf dem Ordnerprofil konfigurieren. Au
 
 1. Wählen Sie im gewünschten Ordnerprofil die **Ausgabevorgaben** Registerkarte.
 
-2. Aktivieren Sie im linken Bereich die Kontrollkästchen aller nicht erforderlichen Vorgaben.
+1. Aktivieren Sie im linken Bereich die Kontrollkästchen aller nicht erforderlichen Vorgaben.
 
    ![Vorgaben löschen](images/lesson-3/delete-presets.png)
 
-3. Klicken [!UICONTROL **Vorgabe löschen**] in der oberen linken Ecke des Bildschirms.
+1. Klicken [!UICONTROL **Vorgabe löschen**] in der oberen linken Ecke des Bildschirms.
 
-4. Klicken Sie im Dialogfeld &quot;Vorgabe löschen&quot;auf [!UICONTROL **Löschen**].
+1. Klicken Sie im Dialogfeld &quot;Vorgabe löschen&quot;auf [!UICONTROL **Löschen**].
 
    ![Löschen](images/lesson-3/delete.png)
 
@@ -180,15 +180,15 @@ Jetzt werden nur noch die Ausgabevorgaben angezeigt, die verwendet werden.
 
 1. Wählen Sie im gewünschten Ordnerprofil die **Konfiguration des XML-Editors** Registerkarte.
 
-2. Klicken Sie unter &quot;XML Editor Snippets&quot;auf [!UICONTROL **Hochladen**].
+1. Klicken Sie unter &quot;XML Editor Snippets&quot;auf [!UICONTROL **Hochladen**].
 
    ![Snippet hochladen](images/lesson-3/upload-snippet.png)
 
-3. Navigieren Sie zu einem zuvor erstellten Snippet.
+1. Navigieren Sie zu einem zuvor erstellten Snippet.
 
-4. Klicken [!UICONTROL **Öffnen**].
+1. Klicken [!UICONTROL **Öffnen**].
 
-5. Klicken [!UICONTROL **Speichern**] oben links im Bildschirm.
+1. Klicken [!UICONTROL **Speichern**] oben links im Bildschirm.
 
 Sie haben die Editor-Konfiguration erfolgreich geändert, um Snippets einzuschließen.
 
@@ -198,16 +198,16 @@ Im Editor können Sie die Ergebnisse der Änderungen sehen, die Sie an den Ordne
 
 1. Navigieren Sie zu **Repository-Ansicht**.
 
-2. Klicken Sie auf den Ordner für den Inhalt, mit dem Sie arbeiten möchten.
+1. Klicken Sie auf den Ordner für den Inhalt, mit dem Sie arbeiten möchten.
 
-3. Klicken Sie auf [!UICONTROL **Benutzereinstellungen**] in der oberen Symbolleiste.
+1. Klicken Sie auf [!UICONTROL **Benutzereinstellungen**] in der oberen Symbolleiste.
 
    ![Benutzereinstellungen](images/lesson-3/hr-user-prefs.png)
 
-4. Wählen Sie im Dialogfeld Benutzereinstellungen das gewünschte Ordnerprofil aus der Dropdown-Liste aus.
+1. Wählen Sie im Dialogfeld Benutzereinstellungen das gewünschte Ordnerprofil aus der Dropdown-Liste aus.
 
    ![Benutzereinstellungen auswählen](images/lesson-3/select-user-pref.png)
 
-5. Klicken Sie auf [!UICONTROL **Speichern**].
+1. Klicken Sie auf [!UICONTROL **Speichern**].
 
 Sie haben das Ordnerprofil auf Ihren Inhalt angewendet. Wenn Sie jetzt ein neues DITA-Thema erstellen, wird eine eingeschränkte Liste von Thementypen angezeigt, die auf dem Ordnerprofil basieren. Die Zielgruppenbedingung enthält die globalen Einstellungen sowie die spezifischen Einstellungen für das Ordnerprofil. Die hochgeladene Snippets-Datei hat einen Satz von standardmäßigen Snippets erstellt, aus denen Sie auswählen können. Das Map Dashboard zeigt die eingeschränkten Ausgabevorgaben an.

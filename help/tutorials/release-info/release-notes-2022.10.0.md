@@ -2,7 +2,7 @@
 title: Versionshinweise | Adobe Experience Manager-Handbücher as a Cloud Service, Version Oktober 2022
 description: Oktober-Version der Adobe Experience Manager-Handbücher as a Cloud Service
 exl-id: 38638080-625c-49c3-9e54-56cc23831546
-source-git-commit: 4183162142f5f6291fdb6e832e10b46a3c0da73a
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 4%
@@ -15,8 +15,8 @@ ht-degree: 4%
 
 Aktualisieren Sie Ihre aktuellen Adobe Experience Manager-Handbücher as a Cloud Service (später als *AEM as a Cloud Service Handbücher*) einrichten, indem Sie die folgenden Schritte ausführen:
 1. Sehen Sie sich den Git-Code des Cloud Services an und wechseln Sie zu der Verzweigung, die in der Cloud Services-Pipeline entsprechend der Umgebung konfiguriert ist, die Sie aktualisieren möchten.
-2. Aktualisieren `<dox.version>` -Eigenschaft in `/dox/dox.installer/pom.xml` -Datei Ihres Cloud Services-Git-Codes auf 2022.10.183.
-3. Übertragen Sie die Änderungen und führen Sie die Cloud Services-Pipeline aus, um auf die Oktober-Version der AEM Guides as a Cloud Service zu aktualisieren.
+1. Aktualisieren `<dox.version>` -Eigenschaft in `/dox/dox.installer/pom.xml` -Datei Ihres Cloud Services-Git-Codes auf 2022.10.183.
+1. Übertragen Sie die Änderungen und führen Sie die Cloud Services-Pipeline aus, um auf die Oktober-Version der AEM Guides as a Cloud Service zu aktualisieren.
 
 ## Kompatibilitätsmatrix
 
@@ -35,7 +35,7 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen
 
 | AEM zu Handbüchern as a Cloud - Version | Sauerstoff Connector Windows | Sauerstoff Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
 | --- | --- | --- | --- | --- |
-| 2022.10.0 | 2,7,13 | 2,7,13 | 2.3 | 2,3 |
+| 2022.10.0 | 2.7.13 | 2.7.13 | 2.3 | 2.3 |
 |  |  |  |  |
 
 

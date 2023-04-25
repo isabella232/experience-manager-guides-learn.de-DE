@@ -2,7 +2,7 @@
 title: Bedienfelder
 description: Verwenden von Bedienfeldern in AEM Guides
 exl-id: 24ecfc93-3540-4efa-ae85-afb346454b7f
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '1446'
 ht-degree: 1%
@@ -21,7 +21,7 @@ Persistente Bedienfelder wie das linke Bedienfeld sind in der Größe einstellba
 
 1. Setzen Sie den Cursor auf den Rand des Bedienfelds.
 
-2. Wenn der Doppelpfeil angezeigt wird, klicken Sie auf und ziehen Sie nach Bedarf nach innen oder außen.
+1. Wenn der Doppelpfeil angezeigt wird, klicken Sie auf und ziehen Sie nach Bedarf nach innen oder außen.
 
 ## Erweitern oder Reduzieren der linken Fensterseitenleiste
 
@@ -31,7 +31,7 @@ In der erweiterten Ansicht werden die Namen und Symbole angezeigt, die in der au
 
    ![Seitenleiste erweitern](images/lesson-5/expand-sidebar.png)
 
-2. Klicken Sie auf [!UICONTROL **Seitenleiste**] erneut ein, um das Bedienfeld zu reduzieren.
+1. Klicken Sie auf [!UICONTROL **Seitenleiste**] erneut ein, um das Bedienfeld zu reduzieren.
 
    ![Seitenleiste reduzieren](images/lesson-5/collapse-sidebar.png)
 
@@ -41,15 +41,15 @@ Im linken Bereich können Sie mit &quot;Favoriten&quot;eine Liste spezifischer D
 
 1. Auswählen **Favoriten** im linken Bereich.
 
-2. Klicken Sie auf [!UICONTROL **Plus**] Symbol.
+1. Klicken Sie auf [!UICONTROL **Plus**] Symbol.
 
    ![Favoriten Plus](images/lesson-5/favorites-plus.png)
 
-3. Geben Sie im Dialogfeld &quot;Neue Sammlung&quot;eine **Titel** und **Beschreibung**.
+1. Geben Sie im Dialogfeld &quot;Neue Sammlung&quot;eine **Titel** und **Beschreibung**.
 
    Beachten Sie, dass die Auswahl von Öffentlich bedeutet, dass andere Benutzer diesen Favoriten sehen können.
 
-4. Klicken Sie auf [!UICONTROL **Erstellen**].
+1. Klicken Sie auf [!UICONTROL **Erstellen**].
 
 Sie haben jetzt eine Favoritensammlung erstellt.
 
@@ -59,19 +59,19 @@ Nachdem Sie eine Sammlung erstellt haben, können Sie damit beginnen, ihr Favori
 
 1. Auswählen **Repository-Ansicht** im linken Bereich.
 
-2. Klicken Sie auf [!UICONTROL **Ellipse**] neben einem Thema, um auf kontextbezogene Optionen zuzugreifen.
+1. Klicken Sie auf [!UICONTROL **Ellipse**] neben einem Thema, um auf kontextbezogene Optionen zuzugreifen.
 
-3. Auswählen **Hinzufügen zu** > **Favoriten**.
+1. Auswählen **Hinzufügen zu** > **Favoriten**.
 
-4. Wählen Sie im Dialogfeld Zu Favoriten hinzufügen die Option **Neue Sammlung** oder **Vorhandene Sammlung**.
+1. Wählen Sie im Dialogfeld Zu Favoriten hinzufügen die Option **Neue Sammlung** oder **Vorhandene Sammlung**.
 
    In unserem Beispiel möchten wir einer vorhandenen Sammlung hinzufügen.
 
    ![Dialogfeld &quot;Favoriten&quot;](images/lesson-5/add-to-favorites-dialog.png)
 
-5. Wählen Sie bei Bedarf eine Sammlung aus der Dropdown-Liste aus.
+1. Wählen Sie bei Bedarf eine Sammlung aus der Dropdown-Liste aus.
 
-6. Klicken Sie auf [!UICONTROL **Hinzufügen**].
+1. Klicken Sie auf [!UICONTROL **Hinzufügen**].
 
 Das Thema wird der von Ihnen ausgewählten Favoritensammlung hinzugefügt. Sie können sie im Menü Favoriten anzeigen.
 
@@ -81,23 +81,23 @@ Eine weitere Möglichkeit, ein Thema zu Ihren Favoriten hinzuzufügen, ist ein g
 
 1. Navigieren Sie zum **Repository-Ansicht**.
 
-2. Doppelklicken Sie auf ein Thema, um es zu öffnen.
+1. Doppelklicken Sie auf ein Thema, um es zu öffnen.
 
-3. Klicken Sie mit der rechten Maustaste auf die **Registerkarte &quot;Titel&quot;** im Editor , um auf kontextbezogene Optionen zuzugreifen.
+1. Klicken Sie mit der rechten Maustaste auf die **Registerkarte &quot;Titel&quot;** im Editor , um auf kontextbezogene Optionen zuzugreifen.
 
-4. Auswählen **Hinzufügen zu** > **Favoriten**.
+1. Auswählen **Hinzufügen zu** > **Favoriten**.
 
    ![Zu Favoriten hinzufügen](images/lesson-5/addto-favorites.png)
 
-5. Wählen Sie im Dialogfeld Zu Favoriten hinzufügen die Option **Neue Sammlung** oder **Vorhandene Sammlung**.
+1. Wählen Sie im Dialogfeld Zu Favoriten hinzufügen die Option **Neue Sammlung** oder **Vorhandene Sammlung**.
 
    Hier wählen wir die Hinzufügung zu einer neuen Sammlung.
 
-6. Geben Sie im Dialogfeld &quot;Neue Sammlung&quot;eine **Titel** und **Beschreibung**.
+1. Geben Sie im Dialogfeld &quot;Neue Sammlung&quot;eine **Titel** und **Beschreibung**.
 
    Beachten Sie Folgendes: **Öffentlich** bedeutet, dass andere Benutzer diesen Favoriten sehen können.
 
-7. Klicken Sie auf [!UICONTROL **Erstellen**].
+1. Klicken Sie auf [!UICONTROL **Erstellen**].
 
 Der neue Favorit wurde erstellt und gruppiert. Sie können sie im Menü Favoriten anzeigen.
 
@@ -107,11 +107,11 @@ Es ist einfach anzuzeigen, welche Themen Sie bereits zu Ihren Favoriten-Sammlung
 
 1. Auswählen [!UICONTROL **Favoriten**] im linken Bereich.
 
-2. Klicken Sie unter &quot;Favoriten&quot;auf die [!UICONTROL **Pfeil**] neben einer Sammlung klicken, um deren Inhalt anzuzeigen.
+1. Klicken Sie unter &quot;Favoriten&quot;auf die [!UICONTROL **Pfeil**] neben einer Sammlung klicken, um deren Inhalt anzuzeigen.
 
    ![Favoriten anzeigen](images/lesson-5/view-favorites.png)
 
-3. Klicken Sie auf [!UICONTROL **Ellipse**] neben einem Thema, um kontextbezogene Optionen aufzurufen, einschließlich der Option, sie aus der Favoritenliste zu löschen.
+1. Klicken Sie auf [!UICONTROL **Ellipse**] neben einem Thema, um kontextbezogene Optionen aufzurufen, einschließlich der Option, sie aus der Favoritenliste zu löschen.
 
 ## Filtern einer Suche in der Repository-Ansicht
 
@@ -119,15 +119,15 @@ Der erweiterte Filter im Repository ermöglicht die Suche nach Text mit einer Vi
 
 1. Navigieren Sie zu **Repository-Ansicht**.
 
-2. Klicken Sie auf [!UICONTROL **Suche filtern**] Symbol.
+1. Klicken Sie auf [!UICONTROL **Suche filtern**] Symbol.
 
    ![Symbol &quot;Repository-Filter&quot;](images/lesson-5/repository-filter-icon.png)
 
-3. Geben Sie Text in den ausgewählten Pfad ein oder wählen Sie bei Bedarf einen neuen Pfad aus.
+1. Geben Sie Text in den ausgewählten Pfad ein oder wählen Sie bei Bedarf einen neuen Pfad aus.
 
    Die Liste der Dateien wird aktualisiert, wenn Sie Text in den Filter eingeben.
 
-4. Klicken Sie auf das Pfeilsymbol neben einer Suchkategorie, um die Suche bei Bedarf weiter einzuschränken.
+1. Klicken Sie auf das Pfeilsymbol neben einer Suchkategorie, um die Suche bei Bedarf weiter einzuschränken.
 
    ![Filterkriterien](images/lesson-5/filter-criteria.png)
 
@@ -169,21 +169,21 @@ Snippets sind kleine Inhaltsfragmente, die als Ausgangspunkt für Inhalte oder S
 
 1. Öffnen Sie ein Thema im Editor.
 
-2. Wählen Sie ein Element im Thema aus.
+1. Wählen Sie ein Element im Thema aus.
 
-3. Klicken Sie auf die sekundäre Maustaste innerhalb des Elements.
+1. Klicken Sie auf die sekundäre Maustaste innerhalb des Elements.
 
-4. Wählen Sie im daraufhin angezeigten Menü Erstellen aus. [!UICONTROL **Snippet**].
+1. Wählen Sie im daraufhin angezeigten Menü Erstellen aus. [!UICONTROL **Snippet**].
 
    ![Snippet erstellen](images/lesson-5/create-snippet.png)
 
-5. Fügen Sie im Dialogfeld Neues Snippet einen **Titel** und **Beschreibung**.
+1. Fügen Sie im Dialogfeld Neues Snippet einen **Titel** und **Beschreibung**.
 
-6. Bearbeiten Sie den Snippet nach Bedarf.
+1. Bearbeiten Sie den Snippet nach Bedarf.
 
    Beachten Sie, dass eine Kontextuelle Prüfung Sie visuell benachrichtigt, wenn Sie einen Fehler in den Inhalt einfügen.
 
-7. Klicken Sie auf [!UICONTROL **Erstellen**].
+1. Klicken Sie auf [!UICONTROL **Erstellen**].
 
 Das Snippet wird zur Liste der verfügbaren Snippets hinzugefügt. Sie können sie per Drag-and-Drop an eine gültige Position im Thema ziehen.
 
@@ -205,11 +205,11 @@ Inhaltseigenschaften im rechten Bereich enthalten spezifische Informationen zum 
 
 1. Öffnen Sie ein Thema in **XML-Editor**.
 
-2. Wählen Sie eine **element**.
+1. Wählen Sie eine **element**.
 
    Inhaltseigenschaften zeigen den aktuellen Typ und die aktuellen Attribute des Elements an.
 
-3. Geben Sie einen neuen **Wert** für das Element.
+1. Geben Sie einen neuen **Wert** für das Element.
 
    ![Neuer Wert](images/lesson-5/new-value.png)
 
@@ -221,31 +221,31 @@ Dateieigenschaften zeigen zusätzliche Informationen zum gesamten geöffneten Th
 
 1. Öffnen Sie ein Thema im Editor.
 
-2. Klicken Sie auf [!UICONTROL  **Dateieigenschaften**] im rechten Bereich.
+1. Klicken Sie auf [!UICONTROL  **Dateieigenschaften**] im rechten Bereich.
 
    ![Symbol &quot;Dateieigenschaften&quot;](images/lesson-5/file-properties-icon.png)
 
-3. Legen Sie die **Dokumentstatus** nach **Bearbeiten**. Beachten Sie, dass die Liste &quot;Verweise&quot;derzeit leer ist.
+1. Legen Sie die **Dokumentstatus** nach **Bearbeiten**. Beachten Sie, dass die Liste &quot;Verweise&quot;derzeit leer ist.
 
    ![Keine Verweise](images/lesson-5/no-references.png)
 
-4. Schließen Sie das Thema.
+1. Schließen Sie das Thema.
 
-5. Auswählen [!UICONTROL **Repository-Ansicht**] im linken Bereich.
+1. Auswählen [!UICONTROL **Repository-Ansicht**] im linken Bereich.
 
-6. Öffnen Sie eine Karte.
+1. Öffnen Sie eine Karte.
 
    Die Ansicht ändert sich in &quot;Kartenansicht&quot;.
 
-7. Klicken Sie auf das Symbol [!UICONTROL **Bearbeiten**].
+1. Klicken Sie auf das Symbol [!UICONTROL **Bearbeiten**].
 
    ![Symbol &quot;Karte bearbeiten&quot;](images/lesson-5/edit-map-icon.png)
 
-8. Sobald die Karte zur Bearbeitung geöffnet ist, wechseln Sie zurück zu **Repository-Ansicht**.
+1. Sobald die Karte zur Bearbeitung geöffnet ist, wechseln Sie zurück zu **Repository-Ansicht**.
 
-9. Ziehen Sie das Thema, mit dem Sie arbeiten, in die Karte.
+1. Ziehen Sie das Thema, mit dem Sie arbeiten, in die Karte.
 
-10. Klicken Sie auf [!UICONTROL **Speichern**] in der oberen Symbolleiste.
+1. Klicken Sie auf [!UICONTROL **Speichern**] in der oberen Symbolleiste.
 
 Das Thema wird der Karte hinzugefügt. Wenn Sie jetzt das Thema öffnen und die Dateieigenschaften überprüfen, sehen Sie, dass die Verweise aktualisiert werden, um zu zeigen, dass das Thema in der angegebenen Zuordnung verwendet wird.
 
@@ -257,13 +257,13 @@ Das rechte Bedienfeld enthält eine Verknüpfung zum Starten eines Prüfungs-Wor
 
    ![Überprüfungssymbol](images/lesson-5/review-icon.png)
 
-2. Klicken [!UICONTROL **Prüfung erstellen**].
+1. Klicken [!UICONTROL **Prüfung erstellen**].
 
    ![Prüfung erstellen](images/lesson-5/create-review.png)
 
-3. Füllen Sie die Felder im Dialogfeld Prüfungsaufgabe erstellen nach Bedarf aus.
+1. Füllen Sie die Felder im Dialogfeld Prüfungsaufgabe erstellen nach Bedarf aus.
 
-4. Klicken Sie auf [!UICONTROL **Weiter**].
+1. Klicken Sie auf [!UICONTROL **Weiter**].
 
 Die Überprüfungsaufgabe wird erstellt.
 

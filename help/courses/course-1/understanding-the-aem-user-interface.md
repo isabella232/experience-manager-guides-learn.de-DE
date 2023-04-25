@@ -2,7 +2,7 @@
 title: Grundlegendes zur AEM-Benutzeroberfläche in [!DNL AEM Guides]
 description: Grundlegendes zur AEM-Benutzeroberfläche in [!DNL Adobe Experience Manager Guides]
 exl-id: 955a05ed-92d3-480e-9c6b-a0ff362cc464
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 2%
@@ -18,7 +18,7 @@ Erfahren Sie mehr über das Verwalten von Assets, Dateien und Ordnern im XML-Edi
 ## Zugriff auf den XML-Editor
 
 1. Geben Sie auf dem Anmeldebildschirm Ihren Benutzernamen und Ihr Kennwort ein und wählen Sie **[!UICONTROL Anmelden]**.
-2. Auswählen **[!UICONTROL XML-Editor]** von der AEM Navigationsseite aus.
+1. Auswählen **[!UICONTROL XML-Editor]** von der AEM Navigationsseite aus.
 
 ## Ansichten des XML-Editors
 
@@ -81,7 +81,7 @@ Sie können von jeder Ansicht der Assets-Benutzeroberfläche zum XML-Editor zur�
 
 1. Wählen Sie in der Liste das Thema aus, das Sie bearbeiten möchten.
 Das Thema wird in der Assets-Benutzeroberfläche angezeigt.
-2. Auswählen **Bearbeiten** aus der oberen Symbolleiste.
+1. Auswählen **Bearbeiten** aus der oberen Symbolleiste.
 Sie werden an den XML-Editor zurückgegeben.
 
 ### Aus der Kartenansicht zurückgeben

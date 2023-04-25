@@ -2,7 +2,7 @@
 title: Ausgabevorgaben
 description: Eine Ausgabevorgabe ist eine Sammlung von Veröffentlichungseigenschaften, die einer Zuordnung zugewiesen wurden
 exl-id: b0c64737-48a0-4337-8a7f-35d1deb03366
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 3%
@@ -29,13 +29,13 @@ Eine Ausgabevorgabe wird angezeigt, wenn eine Zuordnung im XML-Editor im Map Das
 
 1. Wählen Sie eine Grundlinien-Ausgabevorgabe aus. Beispielsweise können AEM oder PDF ausgewählt werden, wenn die neue zu erstellende Vorgabe für eine Site oder Adobe PDF-Inhalte bestimmt ist.
 
-2. Klicken Sie auf **Erstellen**.
+1. Klicken Sie auf **Erstellen**.
 
-3. Wählen Sie bei Bedarf einen Ausgabetyp aus.
+1. Wählen Sie bei Bedarf einen Ausgabetyp aus.
 
-4. Konfigurieren Sie die Optionen je nach Ausgabetyp weiter.
+1. Konfigurieren Sie die Optionen je nach Ausgabetyp weiter.
 
-5. Klicken Sie auf **Fertig**.
+1. Klicken Sie auf **Fertig**.
 
 ## Eine Ausgabevorgabe bearbeiten
 
@@ -43,14 +43,14 @@ Ausgabevorgaben sind vordefiniert, können aber nach Bedarf angepasst werden.
 
 1. Öffnen Sie das Map Dashboard.
 
-2. Wählen Sie die **Ausgabevorgaben** Registerkarte.
+1. Wählen Sie die **Ausgabevorgaben** Registerkarte.
 
-3. Wählen Sie eine Ausgabevorgabe aus.
+1. Wählen Sie eine Ausgabevorgabe aus.
 
-4. Klicken Sie auf **Bearbeiten**.
+1. Klicken Sie auf **Bearbeiten**.
 
-5. Ändern Sie die Einstellungen nach Bedarf.
+1. Ändern Sie die Einstellungen nach Bedarf.
 
    ![Edit-Output-Preset](images/edit-output-preset.png)
 
-6. Klicken Sie auf **Fertig**.
+1. Klicken Sie auf **Fertig**.

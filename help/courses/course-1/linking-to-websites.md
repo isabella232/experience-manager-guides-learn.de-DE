@@ -2,7 +2,7 @@
 title: Verknüpfen mit Websites in [!DNL AEM Guides]
 description: Verknüpfen mit Websites in [!DNL Adobe Experience Manager Guides]
 exl-id: 6b89f52e-ac15-4604-8bac-ab0bb5b5a978
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 1%
@@ -18,18 +18,18 @@ ht-degree: 1%
 ## Link einfügen
 
 1. Wählen Sie Ihr Konzept aus dem Repository aus und öffnen Sie es im Editor.
-2. Fügen Sie Ihrem Konzept eine Textzeichenfolge hinzu und markieren Sie es oder markieren Sie vorhandenen Text Ihrer Wahl.
+1. Fügen Sie Ihrem Konzept eine Textzeichenfolge hinzu und markieren Sie es oder markieren Sie vorhandenen Text Ihrer Wahl.
 
    In diesem hervorgehobenen Text wird der Link eingefügt.
-3. Wählen Sie die **Querverweis einfügen** in der Symbolleiste.
+1. Wählen Sie die **Querverweis einfügen** in der Symbolleiste.
 
    ![Symbol &quot;Querverweis einfügen&quot;](images/lesson-5/insert-crossref-icon.png)
 
    Das Dialogfeld &quot;Referenz&quot;wird angezeigt.
 
 
-4. Auswählen **Weblink** über das Menü links.
-5. Fügen Sie die gewünschte URL ein und klicken Sie auf **Auswählen**.
+1. Auswählen **Weblink** über das Menü links.
+1. Fügen Sie die gewünschte URL ein und klicken Sie auf **Auswählen**.
 
    Der Link ist funktionsfähig und öffnet eine Webseite in einem neuen Browser-Tab, wenn darauf geklickt wird.
 

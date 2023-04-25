@@ -2,7 +2,7 @@
 title: Schlüssel
 description: Mit Schlüsseln können Sie bei der Arbeit mit DITA in AEM Handbüchern Variableninformationen einschließen.
 exl-id: cb64e094-fe6d-4a5e-8f0e-25ae58aaa2c6
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Beispieldateien, die Sie für diese Lektion verwenden können, finden Sie in der
 
    h. Auswählen [!UICONTROL **Extract**] oben rechts auf dem Bildschirm.
 
-2. Wenn die Extraktion abgeschlossen ist, klicken Sie auf [!UICONTROL **Navigieren Sie zum Zielordner**].
+1. Wenn die Extraktion abgeschlossen ist, klicken Sie auf [!UICONTROL **Navigieren Sie zum Zielordner**].
 
    ![Bestätigung](images/lesson-9/go-to-target.png)
 
@@ -69,9 +69,9 @@ Um Schlüssel richtig zu verwenden, müssen Benutzereinstellungen auf eine besti
 
    g. **Speichern** die Benutzereinstellungen.
 
-2. Navigieren Sie zum **Kartenansicht**.
+1. Navigieren Sie zum **Kartenansicht**.
 
-3. Öffnen Sie die angegebene Karte.
+1. Öffnen Sie die angegebene Karte.
 
 Die Schlüssel werden aufgelöst.
 
@@ -79,11 +79,11 @@ Die Schlüssel werden aufgelöst.
 
 1. Öffnen Sie eine Karte mit einer angegebenen Stammzuordnung.
 
-2. Wählen Sie einen Schlüssel aus.
+1. Wählen Sie einen Schlüssel aus.
 
    ![Dropdown-Liste für Schlüssel](images/lesson-9/hybrid-key.png)
 
-3. Fügen Sie ein neues Keydef ein.
+1. Fügen Sie ein neues Keydef ein.
 
    a. Klicken Sie an einer gültigen Stelle in der Karte auf .
 
@@ -95,7 +95,7 @@ Die Schlüssel werden aufgelöst.
 
    d. Klicken [!UICONTROL **Einfügen**].
 
-4. Fügen Sie topicmeta innerhalb der keydef hinzu.
+1. Fügen Sie topicmeta innerhalb der keydef hinzu.
 
    a. Klicken Sie auf [!UICONTROL **Element einfügen**] in der oberen Symbolleiste.
 
@@ -103,7 +103,7 @@ Die Schlüssel werden aufgelöst.
 
    b. Suchen Sie im Dialogfeld Element einfügen nach &quot;topicmeta&quot;.
 
-5. Fügen Sie Suchbegriffe innerhalb des topicmeta hinzu.
+1. Fügen Sie Suchbegriffe innerhalb des topicmeta hinzu.
 
    a. Klicken Sie auf [!UICONTROL **Element einfügen**] in der oberen Symbolleiste.
 
@@ -111,7 +111,7 @@ Die Schlüssel werden aufgelöst.
 
    b. Suchen Sie im Dialogfeld Element einfügen nach &quot;Keywords&quot;.
 
-6. Fügen Sie einen Suchbegriff in der topicmeta hinzu.
+1. Fügen Sie einen Suchbegriff in der topicmeta hinzu.
 
    a. Klicken Sie auf [!UICONTROL **Element einfügen**] in der oberen Symbolleiste.
 
@@ -119,7 +119,7 @@ Die Schlüssel werden aufgelöst.
 
    b. Im **Element einfügen** Dialog, suchen und wählen Sie &quot;Keyword&quot;
 
-7. Geben Sie den Wert für den keydef in den Suchbegriff ein.
+1. Geben Sie den Wert für den keydef in den Suchbegriff ein.
 
 In der Karte sollte Ihr Keydef jetzt etwa wie folgt aussehen:
 
@@ -131,16 +131,16 @@ Snippets sind kleine Inhaltsfragmente, die über verschiedene Themen in Ihrem Do
 
 1. Wählen Sie ein keydef-Element in der Zuordnung aus.
 
-2. Klicken Sie im Kontextmenü auf [!UICONTROL **Snippet erstellen**].
+1. Klicken Sie im Kontextmenü auf [!UICONTROL **Snippet erstellen**].
 
-3. Fügen Sie im Dialogfeld Neues Snippet einen Titel und eine Beschreibung hinzu.
+1. Fügen Sie im Dialogfeld Neues Snippet einen Titel und eine Beschreibung hinzu.
 Sie können auch vorhandene Schlüssel- oder Suchbegriffdefinitionen aus dem Inhalt entfernen.
 
-4. Klicken Sie auf [!UICONTROL **Erstellen**].
+1. Klicken Sie auf [!UICONTROL **Erstellen**].
 
-5. Wählen Sie im linken Bereich die Option **Snippets**.
+1. Wählen Sie im linken Bereich die Option **Snippets**.
 
-6. Ziehen Sie das soeben erstellte Snippet aus dem Bedienfeld &quot;Snippets&quot;in die Karte.
+1. Ziehen Sie das soeben erstellte Snippet aus dem Bedienfeld &quot;Snippets&quot;in die Karte.
 
-7. Aktualisieren Sie die keydef nach Bedarf mithilfe der Inhaltseigenschaften.
+1. Aktualisieren Sie die keydef nach Bedarf mithilfe der Inhaltseigenschaften.
 Nach dem Speichern und Aktualisieren ist dieser Satz von Schlüssel für jeden Benutzer verfügbar, der eine Zuordnung definiert hat, die dieselbe Stammzuordnung enthält.

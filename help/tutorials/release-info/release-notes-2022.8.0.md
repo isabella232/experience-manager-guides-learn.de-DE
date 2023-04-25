@@ -1,7 +1,8 @@
 ---
 title: Versionshinweise | Adobe Experience Manager-Handbücher as a Cloud Service, Version August 2022
 description: August-Version der Adobe Experience Manager-Handbücher as a Cloud Service
-source-git-commit: d49ccb3f654dede0c0447849d89ecbab333a1055
+exl-id: a01bfe8a-4715-438c-bb94-aa1d31f6662d
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '1156'
 ht-degree: 2%
@@ -14,8 +15,8 @@ ht-degree: 2%
 
 Aktualisieren Sie Ihre aktuellen Adobe Experience Manager-Handbücher as a Cloud Service (später als *AEM as a Cloud Service Handbücher*) einrichten, indem Sie die folgenden Schritte ausführen:
 1. Sehen Sie sich den Git-Code des Cloud Services an und wechseln Sie zu der Verzweigung, die in der Cloud Services-Pipeline entsprechend der Umgebung konfiguriert ist, die Sie aktualisieren möchten.
-2. Aktualisieren `<dox.version>` -Eigenschaft in `/dox/dox.installer/pom.xml` -Datei Ihres Cloud Services-Git-Codes auf 2022.8.167.
-3. Übertragen Sie die Änderungen und führen Sie die Cloud Services-Pipeline aus, um auf die August-Version der as a Cloud Service AEM Guides zu aktualisieren.
+1. Aktualisieren `<dox.version>` -Eigenschaft in `/dox/dox.installer/pom.xml` -Datei Ihres Cloud Services-Git-Codes auf 2022.8.167.
+1. Übertragen Sie die Änderungen und führen Sie die Cloud Services-Pipeline aus, um auf die August-Version der as a Cloud Service AEM Guides zu aktualisieren.
 
 ## Kompatibilitätsmatrix
 
@@ -34,7 +35,7 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen
 
 | AEM zu Handbüchern as a Cloud - Version | Sauerstoff Connector Windows | Sauerstoff Connector Mac |
 | --- | --- | --- |
-| 2022.8.0 | 2,7,5 | 2,7,5 |
+| 2022.8.0 | 2.7.5 | 2.7.5 |
 |  |  |  |
 
 

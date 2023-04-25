@@ -2,7 +2,7 @@
 title: Erstellen einer Zuordnung in [!DNL AEM Guides]
 description: Erfahren Sie, wie Sie eine Zuordnung erstellen in [!DNL Adobe Experience Manager Guides]
 exl-id: e38a7fd5-2a29-4248-8e8f-e6a87e1eae9c
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 1%
@@ -41,7 +41,7 @@ Bei Bedarf können Sie lokale Beispieldateien in AEM hochladen, um eine vollstä
    Die [!UICONTROL Neue Karte erstellen] angezeigt.
 
 1. Im [!UICONTROL Vorlage] Feld, wählen Sie **[!UICONTROL Lesezeichen]** aus dem Dropdown-Menü und geben Sie Ihrer Karte einen Titel.
-1. Wählen Sie **[!UICONTROL Erstellen]**.
+1. Wählen Sie **[!UICONTROL Erstellen]** aus.
 
    Ihre Zuordnung wird erstellt und die linke Leiste ändert sich automatisch von der Ansicht &quot;Repository&quot;in die Ansicht &quot;Map&quot;.
 
@@ -82,7 +82,7 @@ Ihr Inhalt wird geöffnet in [!UICONTROL Vorschau].
 Sie können die Hierarchie der Themen in der Zuordnung bearbeiten.
 
 1. Klicken Sie auf das Symbol eines Themas, um es auszuwählen.
-2. Verwenden Sie die Pfeile, um Elemente zu demotieren bzw. zu bewerben.
+1. Verwenden Sie die Pfeile, um Elemente zu demotieren bzw. zu bewerben.
 
    ![Repository-Symbol](images/lesson-8/left-right.png)
 

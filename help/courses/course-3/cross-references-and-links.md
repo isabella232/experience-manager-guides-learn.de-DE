@@ -2,7 +2,7 @@
 title: Querverweise und Links
 description: Erstellen von Querverweisen und Links in AEM Guides
 exl-id: bee7d50f-cbdd-4ac8-b15b-101febc4ae80
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Es ist möglich, einen externen Querverweis zu erstellen, indem Sie ein Thema au
 
 1. Öffnen Sie eine Datei, in die Sie einen externen Querverweis einfügen möchten.
 
-2. Weisen Sie dem Element, auf das verwiesen werden soll, eine ID zu.
+1. Weisen Sie dem Element, auf das verwiesen werden soll, eine ID zu.
 
    a. Klicken Sie in das Element.
 
@@ -34,15 +34,15 @@ Es ist möglich, einen externen Querverweis zu erstellen, indem Sie ein Thema au
 
    d. Element und Wert anzeigen in **Gliederungsansicht** falls gewünscht.
 
-3. **Speichern** das Thema, um sicherzustellen, dass das Repository über die aktualisierte ID verfügt.
+1. **Speichern** das Thema, um sicherzustellen, dass das Repository über die aktualisierte ID verfügt.
 
-4. Klicken Sie auf [!UICONTROL **Referenz**] in der oberen Symbolleiste.
+1. Klicken Sie auf [!UICONTROL **Referenz**] in der oberen Symbolleiste.
 
    ![Symbolleiste](images/lesson-7/references-icon.png)
 
-5. Aus dem **Inhaltsreferenz** wählen Sie die ID und die Elementpaarung aus, die Sie als Querverweis einfügen möchten.
+1. Aus dem **Inhaltsreferenz** wählen Sie die ID und die Elementpaarung aus, die Sie als Querverweis einfügen möchten.
 
-6. Klicken Sie auf [!UICONTROL **Auswählen**].
+1. Klicken [!UICONTROL **Auswählen**].
 
 Der Querverweis wurde zum Thema hinzugefügt.
 
@@ -57,9 +57,9 @@ Einige Änderungen können zu fehlerhaften Querverweisen führen. Dazu gehören 
 
 1. Navigieren Sie zum **Gliederungsansicht** im linken Bereich.
 
-2. Klicken Sie auf [!UICONTROL **Filter**] Symbol.
+1. Klicken Sie auf [!UICONTROL **Filter**] Symbol.
 
-3. Auswählen **Fehlerhafte Links**.
+1. Auswählen **Fehlerhafte Links**.
 
    ![Filter-Dropdown](images/lesson-7/broken-links.png)
 

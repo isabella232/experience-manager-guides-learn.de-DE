@@ -2,7 +2,7 @@
 title: Erstellen und Veröffentlichen mit Grundlinien
 description: Erstellen und Veröffentlichen mit Grundlinien in [!DNL Adobe Experience Manager Guides]
 exl-id: 3c229c30-f2e0-4fb0-b60c-7bae60ef1a5b
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 2%
@@ -24,7 +24,7 @@ Sie können auf Ihre Grundlinien im Map Dashboard zugreifen.
    ![ellipsis-map-dashboard.png](images/ellipsis-map-dashboard.png)
 Das Zuordnungs-Dashboard wird in einer anderen Registerkarte geöffnet.
 
-2. Auswählen **Grundlinien**.
+1. Auswählen **Grundlinien**.
 
    ![baseline-tab.png](images/baseline-tab.png)
 
@@ -38,18 +38,18 @@ Die Registerkarte Grundlinien wird angezeigt.
 
    Die Informationen der neuen Grundlinie werden angezeigt. Der Standardname basiert auf dem Erstellungsdatum.
 
-2. Benennen Sie bei Bedarf Ihre Grundlinie neu.
+1. Benennen Sie bei Bedarf Ihre Grundlinie neu.
 
-3. Wählen Sie unter der Überschrift &quot;Version basierend auf festlegen&quot;den Kreis für Beschriftung aus.
+1. Wählen Sie unter der Überschrift &quot;Version basierend auf festlegen&quot;den Kreis für Beschriftung aus.
    ![set-the-version.png](images/set-the-version.png)
 
    >[!NOTE]
    >
    >HINWEIS: Die *Verwenden Sie die neueste Version, wenn die Beschriftung nicht vorhanden ist.* ist standardmäßig aktiviert. Wenn diese Option nicht ausgewählt ist und Themen oder Mediendateien ohne die ausgewählte Beschriftung in Ihrer Zuordnung vorhanden sind, schlägt der Prozess zur Erstellung der Grundlinie fehl.
 
-4. Geben Sie den Titel ein, den Sie verwenden möchten.
+1. Geben Sie den Titel ein, den Sie verwenden möchten.
 
-5. Wählen Sie **Speichern** aus.
+1. Wählen Sie **Speichern** aus.
 
 Ihre Grundlinie wird erstellt. Eine Tabelle aller Themen und der zugehörigen Informationen wird angezeigt.
 
@@ -67,17 +67,17 @@ Sie können auch Grundlinien erstellen, die Momentaufnahmen sind.
 
    ![create-baseline.png](images/create-baseline.png)
 
-2. Wählen Sie unter der Überschrift &quot;Version basierend auf festlegen&quot;den Kreis für &quot;Version ein&quot;.
+1. Wählen Sie unter der Überschrift &quot;Version basierend auf festlegen&quot;den Kreis für &quot;Version ein&quot;.
 
    ![version-on.png](images/version-on.png)
 
-3. Wählen Sie das Kalendersymbol aus und geben Sie das gewünschte Datum und die gewünschte Uhrzeit an.
+1. Wählen Sie das Kalendersymbol aus und geben Sie das gewünschte Datum und die gewünschte Uhrzeit an.
 
    ![calendar.png](images/calendar.png)
 
-4. Benennen Sie bei Bedarf Ihre Grundlinie neu.
+1. Benennen Sie bei Bedarf Ihre Grundlinie neu.
 
-5. Wählen Sie **Speichern** aus.
+1. Wählen Sie **Speichern** aus.
 
 Ihre Grundlinie wird erstellt. Eine Tabelle aller Themen und der zugehörigen Informationen wird angezeigt.
 
@@ -87,13 +87,13 @@ Möglicherweise möchten Sie allen Inhalt Ihrer Zuordnung eine neue Bezeichnung 
 
 1. Wählen Sie die Grundlinie aus, für die Sie Beschriftungen hinzufügen möchten.
 
-2. Auswählen **Hinzufügen von Bezeichnungen**.
+1. Auswählen **Hinzufügen von Bezeichnungen**.
 
    ![add-label.png](images/add-labels.png)
 
    Das Dialogfeld Titel hinzufügen wird angezeigt.
 
-3. Geben Sie den Titel ein, den Sie zuweisen möchten, und wählen Sie **Hinzufügen**.
+1. Geben Sie den Titel ein, den Sie zuweisen möchten, und wählen Sie **Hinzufügen**.
 
 Der Titel wurde allen Themen hinzugefügt.
 
@@ -101,25 +101,25 @@ Der Titel wurde allen Themen hinzugefügt.
 
 1. Navigieren Sie im Map Dashboard zur Registerkarte Ausgabevorgaben .
 
-2. Aktivieren Sie das Kontrollkästchen AEM Site .
+1. Aktivieren Sie das Kontrollkästchen AEM Site .
 
    ![aem-site-checkbox.png](images/aem-site-checkbox.png)
 
-3. Wählen Sie **Bearbeiten** aus.
+1. Wählen Sie **Bearbeiten** aus.
 
    ![edit-aem.png](images/edit-aem.png)
 
    Eine neue Seite wird angezeigt.
 
-4. Aktivieren Sie das Kontrollkästchen Grundlinie verwenden und wählen Sie die gewünschte Grundlinie aus der Dropdown-Liste aus.
+1. Aktivieren Sie das Kontrollkästchen Grundlinie verwenden und wählen Sie die gewünschte Grundlinie aus der Dropdown-Liste aus.
 
    ![baseline.png](images/baseline.png)
 
-5. Klicken Sie auf **Fertig**.
+1. Klicken Sie auf **Fertig**.
 
    ![done.png](images/done.png)
 
-6. Auswählen **Erzeugen**.
+1. Auswählen **Erzeugen**.
 
    ![generate.png](images/generate.png)
 
@@ -129,20 +129,20 @@ Der Titel wurde allen Themen hinzugefügt.
 
 1. Navigieren Sie im Map Dashboard zur Registerkarte Ausgaben .
 
-2. Wählen Sie den Text in der Spalte Generierungseinstellung aus, um die Ausgabe zu öffnen.
+1. Wählen Sie den Text in der Spalte Generierungseinstellung aus, um die Ausgabe zu öffnen.
    ![aem-site-link.png](images/aem-site-link.png)
 
 ## Entfernen einer Grundlinie
 
 1. Wählen Sie im Tab Grundlinien die Grundlinie aus, die Sie entfernen möchten.
 
-2. Auswählen **Entfernen**.
+1. Auswählen **Entfernen**.
 
    ![remove-baseline.png](images/remove-baseline.png)
 
    Das Dialogfeld &quot;Grundlinie entfernen&quot;wird angezeigt.
 
-3. Auswählen **Entfernen**.
+1. Auswählen **Entfernen**.
 
 Die Grundlinie wird entfernt.
 
@@ -150,11 +150,11 @@ Die Grundlinie wird entfernt.
 
 1. Wählen Sie im Tab Grundlinien die Grundlinie aus, die Sie duplizieren möchten.
 
-2. Auswählen **Duplizieren**.
+1. Auswählen **Duplizieren**.
 
    ![duplicate.png](images/duplicate.png)
 
-3. Wählen Sie **Speichern** aus.
+1. Wählen Sie **Speichern** aus.
 
    ![save.png](images/save.png)
 
@@ -165,21 +165,21 @@ Die doppelte Grundlinie wird erstellt.
 Sie können direkt die Version eines Themas angeben, das in einer Grundlinie verwendet wird.
 
 1. Wählen Sie im Tab Grundlinien die Grundlinie aus, die Sie ändern möchten.
-2. Wählen Sie **Bearbeiten** aus.
+1. Wählen Sie **Bearbeiten** aus.
 
    ![edit-aem.png](images/edit-aem.png)
 
-3. Auswählen **Alle Themen durchsuchen**.
+1. Auswählen **Alle Themen durchsuchen**.
 
    ![browse-all-topics.png](images/browse-all-topics.png)
 
    Eine Tabelle mit Themen und den zugehörigen Informationen wird angezeigt.
 
-4. Wählen Sie für die Themen, die Sie ändern möchten, die gewünschte Version aus dem Dropdown-Menü unter der Spalte Version aus.
+1. Wählen Sie für die Themen, die Sie ändern möchten, die gewünschte Version aus dem Dropdown-Menü unter der Spalte Version aus.
 
    ![version-dropdown.png](images/version-dropdown.png)
 
-5. Wählen Sie **Speichern** aus.
+1. Wählen Sie **Speichern** aus.
 
 Ihre Änderungen wurden gespeichert. Ihre Grundlinie verwendet nun die Versionen des von Ihnen angegebenen Themas.
 
@@ -191,17 +191,17 @@ In diesem Fall erstellen wir eine Ausgabevorgabe basierend auf einer Grundlinie.
 
 1. Navigieren Sie im Map Dashboard zur Registerkarte Ausgabevorgaben .
 
-2. Wählen Sie **Erstellen** aus.
+1. Wählen Sie **Erstellen** aus.
 
    ![create-output-preset.png](images/create-output-preset.png)
 
    Es wird eine neue Seite mit der Ausgabevorgabe namens &quot;Neue Ausgabe&quot;angezeigt.
-3. Geben Sie im Feld &quot;Einstellungsname&quot;einen benutzerfreundlichen Namen ein.
+1. Geben Sie im Feld &quot;Einstellungsname&quot;einen benutzerfreundlichen Namen ein.
 
-4. Aktivieren Sie das Kontrollkästchen Grundlinie verwenden und wählen Sie die gewünschte Grundlinie aus dem Dropdown-Menü aus.
+1. Aktivieren Sie das Kontrollkästchen Grundlinie verwenden und wählen Sie die gewünschte Grundlinie aus dem Dropdown-Menü aus.
 
    ![baseline.png](images/baseline.png)
 
-5. Klicken Sie auf **Fertig**.
+1. Klicken Sie auf **Fertig**.
 
 Ihre neue Ausgabevorgabe wurde erstellt und wird auf der Seite &quot;Ausgabevorgaben&quot;angezeigt.

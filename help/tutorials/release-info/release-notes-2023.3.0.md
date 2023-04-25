@@ -1,7 +1,7 @@
 ---
 title: Versionshinweise | Adobe Experience Manager-Handbücher as a Cloud Service, Version März 2023
-description: Neueste Version der Adobe Experience Manager-Handbücher as a Cloud Service
-source-git-commit: 07709048f560a77b923436d990c831a5f8b907e3
+description: Version der Adobe Experience Manager-Handbücher as a Cloud Service im März
+source-git-commit: d762cccc4a8f89eb91a1a8eb2c1410a7e0358b85
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 2%
@@ -10,12 +10,12 @@ ht-degree: 2%
 
 # Version der Adobe Experience Manager-Handbücher as a Cloud Service im März
 
-## Aktualisierung auf die neueste Version
+## Aktualisierung auf die Version vom März
 
 Aktualisieren Sie Ihre aktuellen Adobe Experience Manager-Handbücher as a Cloud Service (später als *AEM as a Cloud Service Handbücher*) einrichten, indem Sie die folgenden Schritte ausführen:
 1. Sehen Sie sich den Git-Code des Cloud Services an und wechseln Sie zu der Verzweigung, die in der Cloud Services-Pipeline entsprechend der Umgebung konfiguriert ist, die Sie aktualisieren möchten.
 2. Aktualisieren `<dox.version>` -Eigenschaft in `/dox/dox.installer/pom.xml` -Datei Ihres Cloud Services-Git-Codes auf 2023.3.242.
-3. Übertragen Sie die Änderungen und führen Sie die Cloud Services-Pipeline aus, um auf die neueste Version der as a Cloud Service AEM Guides zu aktualisieren.
+3. Übertragen Sie die Änderungen und führen Sie die Cloud Services-Pipeline aus, um auf die März-Version von AEM Guides as a Cloud Service zu aktualisieren.
 
 ## Schritte zum Indexieren des vorhandenen Inhalts (nur, wenn Sie eine Version vor der September-Version von AEM Guides as a Cloud Service verwenden)
 
@@ -52,7 +52,7 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen
 
 ## Neue Funktionen und Erweiterungen
 
-AEM Guides as a Cloud Service bietet Verbesserungen und neue Funktionen der neuesten Version:
+AEM Guides as a Cloud Service bietet Verbesserungen und neue Funktionen in der Version vom März 2023:
 
 ### Öffnen und Abspielen von Video- oder Audiodateien im Web Editor
 

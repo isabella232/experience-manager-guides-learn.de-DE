@@ -2,7 +2,7 @@
 title: Veröffentlichen der Standardausgabe in AEM Handbüchern
 description: Veröffentlichen der Standardausgabe in [!DNL Adobe Experience Manager Guides]
 exl-id: 97a259dd-4266-4a7b-8677-3fa261714687
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -25,13 +25,13 @@ Es gibt eine Reihe von Ausgabevorgaben, aus denen Sie wählen können. Dieses Ha
 
    Das Zuordnungs-Dashboard wird in einer anderen Registerkarte geöffnet.
 
-2. Wählen Sie auf der Registerkarte Ausgabevorgaben die Option AEM Site und PDF aus.
+1. Wählen Sie auf der Registerkarte Ausgabevorgaben die Option AEM Site und PDF aus.
 
    ![Ausgabevorgaben](images/lesson-9/pdf-aem.png)
 
-3. Auswählen **Generieren.**
+1. Auswählen **Generieren.**
 
-4. Navigieren Sie zur Seite Ausgaben , um den Status Ihrer generierten Ausgaben anzuzeigen.
+1. Navigieren Sie zur Seite Ausgaben , um den Status Ihrer generierten Ausgaben anzuzeigen.
 
    Ein grüner Kreis zeigt an, dass die Erzeugung abgeschlossen ist.
 
