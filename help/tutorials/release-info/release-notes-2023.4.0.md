@@ -1,7 +1,8 @@
 ---
 title: Versionshinweise | Adobe Experience Manager-Handbücher as a Cloud Service, Version April 2023
 description: Neueste Version der Adobe Experience Manager-Handbücher as a Cloud Service
-source-git-commit: 77b118655ad8e37e00b0371497e4a2578ddd276e
+exl-id: 3b09f0b3-cfa4-422d-91b7-733ab1c1896c
+source-git-commit: cf612da41f79b0bf9da4c4d7454a0e3c86af7a4c
 workflow-type: tm+mt
 source-wordcount: '852'
 ht-degree: 2%
@@ -66,7 +67,7 @@ Sie können eine XMP-Datei importieren und AEM Guides können die Informationen 
 
 ### Verbessertes Bedienfeld für die Gliederungsansicht
 
-AEM Handbücher bietet einen unkomplizierten Bereich für die Gliederungsansicht, in dem Sie die hierarchische Ansicht der im Dokument verwendeten Elemente erhalten.
+AEM Handbücher bietet ein verbessertes Bedienfeld für die Gliederungsansicht, in dem Sie die hierarchische Ansicht der im Dokument verwendeten Elemente erhalten.
 
 <img src="assets/select-element-content-outline-view_cs.png" alt=" native PDF-Metadaten">
 
@@ -104,4 +105,3 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 Adobe hat das folgende bekannte Problem für AEM Guides as a Cloud Service Version April 2023 identifiziert.
 
 * Native PDF | Die alten Metadaten werden erst gefüllt, wenn die Ausgabevorgabe explizit geöffnet wurde.
-
