@@ -1,13 +1,13 @@
 ---
 title: Erstellen einer Karte
 description: Erfahren Sie, wie Sie eine Karte erstellen
-source-git-commit: 66915827a0b169069cc482763f0f50b9e9b6aa64
+exl-id: d35ee09f-f951-4866-a2b1-e4b19f76e7a1
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
 
 ---
-
 
 # Erstellen einer Karte {#id176FEN0D05Z}
 
@@ -25,7 +25,7 @@ Führen Sie die folgenden Schritte aus, um eine Zuordnungsdatei zu erstellen:
    >
    > Wie die Themen in einer Map-Datei referenziert werden, hängt von der Zuordnungsvorlage ab. Wenn Sie beispielsweise die Zuordnungsvorlage auswählen, verweist das Thema auf \(`topicref`\) werden verwendet, um auf Themen zu verweisen. Im Fall einer Bookmap werden Themenverweise mithilfe der Variablen `chapter` -Element in DITA.
 
-   ![](images/map-template.png)
+   ![](images/map-template.png){width="650" align="left"}
 
 1. Geben Sie auf der Seite Eigenschaften die Zuordnung an **Titel**.
 
@@ -41,7 +41,7 @@ Führen Sie die folgenden Schritte aus, um eine Zuordnungsdatei zu erstellen:
 
    Jede neue Zuordnungsdatei, die Sie über die Assets-Benutzeroberfläche erstellen **Erstellen** \> **DITA Map** oder dem Web-Editor eine eindeutige Zuordnungs-ID zugewiesen wird. Außerdem wird die neue Karte als neueste Arbeitskopie in DAM gespeichert. Bis Sie eine Revision einer neu erstellten Zuordnung speichern, wird keine Versionsnummer im Versionsverlauf angezeigt. Wenn Sie die Karte zur Bearbeitung öffnen, werden die Versionsinformationen in der rechten oberen Ecke der Registerkarte der Zuordnungsdatei angezeigt:
 
-   ![](images/first-version-map-none.png)
+   ![](images/first-version-map-none.png){width="650" align="left"}
 
    Die Versionsinformationen für eine neu erstellte Zuordnung werden als *Keine*. Wenn Sie eine neue Version speichern, wird ihr die Versionsnummer 1.0 zugewiesen. Weitere Informationen zum Speichern einer neuen Version finden Sie unter [Als neue Version speichern](web-editor-features.md#save-as-new-version-id209ME400GXA).
 
@@ -53,4 +53,3 @@ Führen Sie die folgenden Schritte aus, um eine Zuordnungsdatei zu erstellen:
 
 
 **Übergeordnetes Thema:**[ Arbeiten mit dem Map Editor](map-editor.md)
-

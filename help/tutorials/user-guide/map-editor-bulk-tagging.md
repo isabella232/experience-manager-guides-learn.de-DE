@@ -1,13 +1,13 @@
 ---
 title: Massen-Tagging von DITA-Inhalten
 description: Erfahren Sie, wie Sie das Massen-Tagging von DITA-Inhalten durchführen.
-source-git-commit: 528dd5d33f38c29809e7e7dafd77d860daaba8db
+exl-id: 0e855575-e62f-4dc7-869c-7fd3ec61ffdb
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 0%
 
 ---
-
 
 # Massen-Tagging von DITA-Inhalten {#id179SG0TN05Z}
 
@@ -31,7 +31,7 @@ Verwenden Sie die Massen-Tagging-Funktion, um mehrere Tags gleichzeitig anzuwend
 
 1. Wählen Sie die Themen oder Unterkarten aus, auf die Sie Tags anwenden möchten.
 
-   ![](images/apply-tags-uuid.png)
+   ![](images/apply-tags-uuid.png){width="650" align="left"}
 
 
    >[!NOTE]
@@ -106,4 +106,3 @@ Führen Sie die folgenden Schritte aus, um alle Tags aus einem oder mehreren The
 Wenn Sie eine lange Liste von Tags auf Ihre Themen angewendet haben, ist die Navigation möglicherweise etwas schwerfällig. Sie können Tags in der Ansicht der DITA-Map-Konsole einfach ausblenden, indem Sie auf das Symbol Tags ausblenden klicken. Wenn die Tags nicht sichtbar sind, werden durch Klicken auf &quot;Tags anzeigen&quot;alle Tags angezeigt.
 
 **Übergeordnetes Thema:**[ Verwalten von Metadaten](manage-metadata.md)
-

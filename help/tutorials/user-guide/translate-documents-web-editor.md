@@ -1,13 +1,13 @@
 ---
 title: Übersetzen von Dokumenten aus dem Web Editor
 description: Erfahren Sie, wie Sie Dokumente aus dem Web Editor übersetzen können.
-source-git-commit: 331871308035441f047b1ed588215b586daf3d28
+exl-id: 02fc2b51-5b9a-4ad6-9e2e-726ab7602514
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '1517'
 ht-degree: 1%
 
 ---
-
 
 # Übersetzen von Dokumenten aus dem Web Editor {#id21BKF0Z0YZF}
 
@@ -46,7 +46,7 @@ Stellen Sie vor dem Ausführen der Schritte in diesem Verfahren sicher, dass Sie
    >
    > Die Sprache zeigt nur die Sprachen an, für die parallel zur Ausgangssprache ein Sprachordner erstellt wird. Ein auf einer anderen Ebene erstellter Sprachordner, z. B. eine Ebene weiter ab dem Ordner für die Ausgangssprache, wird ebenfalls nicht angezeigt. Stellen Sie sicher, dass Sie alle Zielsprachordner auf derselben Ebene wie Ihren Ausgangssprachordner erstellen.
 
-   ![](images/translation-languages.png)
+   ![](images/translation-languages.png){width="350" align="left"}
 
 1. Sie können auch die folgenden Optionen verwenden:
 
@@ -72,11 +72,11 @@ Stellen Sie vor dem Ausführen der Schritte in diesem Verfahren sicher, dass Sie
    - **Zielbezeichnung**: Titel der ausgewählten Version der Zieldatei
 1. Klicken **Zu übersetzen** oben rechts.
 
-   ![](images/translation-send.png)
+   ![](images/translation-send.png){width="800" align="left"}
 
 1. Wählen Sie aus der Dropdown-Liste **Neues Übersetzungsprojekt erstellen**.
 
-   ![](images/translation-project-types.png)
+   ![](images/translation-project-types.png){width="350" align="left"}
 
    Neben einem neuen Übersetzungsprojekt können Sie auch aus den folgenden Optionen auswählen:
 
@@ -107,7 +107,7 @@ Um die Bezeichnung der Quellversion zur Zielkopie hinzuzufügen, muss Ihr System
 
 Wenn Sie beispielsweise Quelldateien mit der Versionsbezeichnung haben `Release 1.0` auf sie angewendet werden, können Sie dann auch die Quellbezeichnung \(`Release 1.0`\) in die übersetzte Datei.
 
-![](images/translation-pass-source-label.png)
+![](images/translation-pass-source-label.png){width="650" align="left"}
 
 >[!NOTE]
 >
@@ -117,7 +117,7 @@ Wenn Sie beispielsweise Quelldateien mit der Versionsbezeichnung haben `Release 
 
 AEM Handbücher bieten die Möglichkeit, die Unterschiede zwischen der ausgewählten Version und der zuletzt übersetzten Quellversion der Themen zu überprüfen. Sie können wählen, ob Sie die **Nicht synchronisiert** -Dateien basierend auf den vorgenommenen Änderungen.
 
-![](images/translation-version-diff.png)
+![](images/translation-version-diff.png){width="800" align="left"}
 
 Wählen Sie die **Unterschied anzeigen** icon \(![](images/show-difference-icon.svg)\) für ein Thema, um die Unterschiede zwischen der zuletzt übersetzten Version und der aktuellen Version der ausgewählten Datei anzuzeigen.
 
@@ -127,7 +127,7 @@ Wählen Sie die **Unterschied anzeigen** icon \(![](images/show-difference-icon.
 
 Die **Versionsunterschiede** angezeigt. Sie zeigt die **Zuletzt übersetzte Version** und **Ausgewählte Version** auf der linken Seite. Im Vorschaufenster werden die Unterschiede zwischen der zuletzt übersetzten Version und der ausgewählten Version des Themas angezeigt.
 
-![](images/version-diff.png)
+![](images/version-diff.png){width="650" align="left"}
 
 ## Nicht synchronisierte Assets schließen
 
@@ -138,7 +138,7 @@ So schließen Sie den Status Nicht synchronisiert :
 1. Wählen Sie die nicht synchronisierten Assets aus, für die Sie den Status ändern möchten.
 1. Wählen Sie die **Synchronisieren markieren** button \(![](images/translation-mark-in-sync-icon.svg)\) oben. Die **Synchronisieren markieren** angezeigt.
 
-   ![](images/translation-mark-in-sync.png)
+   ![](images/translation-mark-in-sync.png){width="550" align="left"}
 
 1. Klicken **Force Sync**. Für die ausgewählten nicht synchronisierten Assets wird der Status auf Synchronisiert gesetzt.
 
@@ -156,7 +156,6 @@ Einige Verweise auf Ihr Übersetzungs-Dashboard befinden sich möglicherweise im
 
 Klicken Sie im Dialogfeld auf den Namen der Referenz, um sie im Vorschaumodus zu öffnen. Sie können auch auf das Übersetzungsprojekt klicken, um die Übersetzung zu starten.
 
-![](images/translation-in-progress.png)
+![](images/translation-in-progress.png){width="550" align="left"}
 
 **Übergeordnetes Thema:**[ Arbeiten mit dem Web-Editor](web-editor.md)
-

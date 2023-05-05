@@ -1,13 +1,13 @@
 ---
 title: Arbeiten mit dem Basic Map Editor
 description: Erfahren Sie, wie Sie mit dem Basic Map Editor arbeiten.
-source-git-commit: af5c64312a608affe95fd552b3dd1b2e05ea2b8e
+exl-id: 85194806-db3f-442b-a551-540d148d26ec
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '1394'
 ht-degree: 0%
 
 ---
-
 
 # Arbeiten mit dem Basic Map Editor {#id1942CM005Y4}
 
@@ -37,7 +37,7 @@ Führen Sie die folgenden Schritte aus, um Ihre Zuordnungsdatei zu erstellen:
 
    Die Zuordnungsdatei wird zur Bearbeitung im Map Editor geöffnet. Mit dem Map Editor erstellen Sie eine Zuordnung mithilfe der derzeit verfügbaren Themen, die in der Leiste &quot;Verweise&quot;angezeigt werden.
 
-   ![](images/dita-map-01.png)
+   ![](images/dita-map-01.png){width="800" align="left"}
 
 1. Verwenden der **Verweise** navigieren Sie zu dem Ordner, der die Themen oder Unterkarten enthält, die Sie hinzufügen möchten.
 
@@ -66,13 +66,13 @@ Führen Sie die folgenden Schritte aus, um Ihre Zuordnungsdatei zu erstellen:
 
 Über die Hauptsymbolleiste im Editor für einfache Zuordnungen können Sie die folgenden Aufgaben ausführen:
 
-![](images/ditamap-toolbar-actions.png)
+![](images/ditamap-toolbar-actions.png){width="800" align="left"}
 
 **A: Suche**
 
 Sie können die erforderlichen Themen aus DAM suchen und darin einbeziehen. Wenn Sie auf dieses Symbol klicken, wird das Dialogfeld Suchen angezeigt:
 
-![](images/search-dita-map.png)
+![](images/search-dita-map.png){width="800" align="left"}
 
 Geben Sie die Suchbegriffe ein, nach denen Sie suchen möchten. Diese Suchbegriffe werden in Dateinamen, Inhalt und sogar Attributwerten des Themas abgeglichen. Sobald die Suchergebnisse verfügbar sind, wählen Sie das gewünschte Thema aus und klicken Sie auf die Schaltfläche Überprüfen , um die ausgewählten Dateien am Ende Ihrer Zuordnungsstruktur hinzuzufügen. Sie können Ihre Suchergebnisse filtern, indem Sie die Parameter Datum ändern angeben.
 
@@ -100,19 +100,19 @@ Im **Standardmodus**, wenn Sie auf einen Themenlink klicken, wird die Vorschau d
 **Hinweis:** Im Standardmodus können Sie die Tastaturbefehle verwenden, um \(`Ctrl+z`\) oder wiederholen Sie \(`Ctrl+y`\) die letzte Aktion.
 
 
-![](images/dita-map-invalid-source.png)
+![](images/dita-map-invalid-source.png){width="650" align="left"}
 
 **G: Zuordnungseigenschaften**
 
 Zeigen Sie das Dialogfeld Zuordnungseigenschaften an, in dem Sie die Attribute und Metadateninformationen für die Zuordnung festlegen können. Um ein Attribut hinzuzufügen, klicken Sie auf die **Hinzufügen** Schaltfläche unten links im Dialogfeld, um die **Attribut** Dropdown-Liste. Wählen Sie in der Liste das Attribut aus, das Sie hinzufügen möchten. Wenn das ausgewählte Attribut vordefinierte Werte enthält, die in der DTD angegeben sind, werden diese Werte in einer neuen Dropdown-Liste angezeigt. Sie können den gewünschten Wert aus der Dropdownliste auswählen. Wenn kein vordefinierter Wert vorhanden ist, wird Ihnen ein Textfeld angezeigt, in das Sie einen Wert für das ausgewählte Attribut eingeben können.
 
-![](images/map-properties.png)
+![](images/map-properties.png){width="300" align="left"}
 
 ## Auf Themenebene verfügbare Funktionen im Basic Map Editor
 
 Wenn Sie den Mauszeiger im Basic Map Editor über ein Thema oder eine Unterzuordnungsdatei bewegen, können Sie die folgenden Aufgaben ausführen:
 
-![](images/ditamap-actions.png)
+![](images/ditamap-actions.png){width="650" align="left"}
 
 **A: Nach links oder Nach rechts verschieben**
 
@@ -123,7 +123,7 @@ Klicken Sie auf die Pfeilsymbole links oder rechts, um das Thema nach links oder
 Klicken Sie auf das Symbol Eigenschaften , um das Dialogfeld Eigenschaften von Topicref zu öffnen. Mithilfe dieses Dialogfelds können Sie die Themenattribute und Metadateninformationen festlegen. Weitere Informationen zu den standardmäßigen Themenattributen und Metadaten finden Sie in der [topicref](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) Dokumentation in OASIS DITA Language Specification.
 
 
-![](images/map-properties-metadata.png)
+![](images/map-properties-metadata.png){width="350" align="left"}
 
 **C: Neue Referenz hinzufügen**
 
@@ -155,7 +155,7 @@ Führen Sie die folgenden Schritte aus, um mit Beziehungstabellen im Basic Map E
 
 1. Auswählen **Reltable** aus der Symbolleiste.
 
-   ![](images/reltable.png)
+   ![](images/reltable.png){width="650" align="left"}
 
 1. Ziehen Sie Themen per Drag-and-Drop aus der Themenliste in den Editor &quot;Reltable&quot;.
 
@@ -163,13 +163,13 @@ Führen Sie die folgenden Schritte aus, um mit Beziehungstabellen im Basic Map E
    >
    > Sie können Themen aus einem beliebigen Ordner in der Leiste &quot;Verweise&quot;hinzufügen.
 
-   ![](images/create-reltable.png)
+   ![](images/create-reltable.png){width="550" align="left"}
 
 1. Um Ihrer Beziehungstabelle eine Kopfzeile hinzuzufügen, klicken Sie auf **Relheader hinzufügen**.
 
 1. Um Ihrer Beziehungstabelle eine Spalte hinzuzufügen, klicken Sie auf **Spalte hinzufügen**.
 
-   ![](images/complete-reltable.png)
+   ![](images/complete-reltable.png){width="550" align="left"}
 
 1. Klicken Sie auf **Speichern**.
 
@@ -189,4 +189,3 @@ Wenn Sie ein Thema aus Ihrer Tabelle löschen möchten, klicken Sie auf das Kreu
 Wenn Sie die Beziehungstabelle löschen möchten, klicken Sie auf eine beliebige Stelle außerhalb der Beziehungstabelle und klicken Sie auf &quot;Löschen&quot;.
 
 **Übergeordnetes Thema:**[ Arbeiten mit dem Map Editor](map-editor.md)
-

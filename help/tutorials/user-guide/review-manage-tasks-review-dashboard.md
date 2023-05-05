@@ -1,13 +1,13 @@
 ---
 title: Verwalten von Prüfungsaufgaben mithilfe des Überprüfungs-Dashboards
 description: Erfahren Sie, wie Sie Prüfungsaufgaben mithilfe des Überprüfungs-Dashboards verwalten.
-source-git-commit: f3d747082103c73a365ee400cbd4dcdabd36eabf
+exl-id: 617017fe-59b6-4b38-b375-a126fa9dddf5
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '1282'
 ht-degree: 0%
 
 ---
-
 
 # Verwalten von Prüfungsaufgaben mithilfe des Überprüfungs-Dashboards {#id2056B0Y70X4}
 
@@ -23,13 +23,13 @@ Führen Sie die folgenden Schritte aus, um auf das Überprüfungs-Dashboard zuzu
 
    Ein Projektbereich mit Aufgabenkacheln wird angezeigt.
 
-   ![](images/review-management.png)
+   ![](images/review-management.png){width="800" align="left"}
 
 1. Klicken Sie auf die drei Punkte im **Überprüfungen** Kachel.
 
    Das Überprüfungs-Dashboard wird angezeigt. Im Dashboard werden alle von Ihnen erstellten Prüfungsaufgaben aufgelistet.
 
-   ![](images/review-dashboard.png)
+   ![](images/review-dashboard.png){width="800" align="left"}
 
    Im Dashboard &quot;Überprüfen&quot;werden die Details zur Prüfungsaufgabe angezeigt, z. B. der Aufgabenname, der Benutzer, der die Überprüfung gestartet hat, das Datum, an dem die Überprüfung gestartet wurde, das Fälligkeitsdatum, der Status, die Anzahl neuer Kommentare, die vom Autor nicht akzeptiert oder abgelehnt wurden, und der Name der Überprüfer. Die Aufgaben werden in der Reihenfolge der neu erstellten Aufgaben zu älteren Aufgaben aufgelistet.
 
@@ -48,7 +48,7 @@ Führen Sie die folgenden Schritte aus, um auf das Überprüfungs-Dashboard zuzu
 
 ## Registerkarte &quot;Aufgabe&quot;
 
-![](images/review-task-page.png)
+![](images/review-task-page.png){width="800" align="left"}
 
 Sie können die folgenden Aktionen im **Aufgabe** tab:
 
@@ -69,7 +69,7 @@ Sie können die folgenden Aktionen im **Aufgabe** tab:
 
 ## Registerkarte &quot;Inhalt&quot;
 
-![](images/review-content-page.png)
+![](images/review-content-page.png){width="800" align="left"}
 
 Sie können die folgenden Aktionen im **Inhalt** tab:
 
@@ -88,7 +88,7 @@ Sie können die folgenden Aktionen im **Inhalt** tab:
 
 ## Registerkarte &quot;Validierer&quot; {#reviewer-tab-id199RF0N0MUI}
 
-![](images/reviewers-tab.png)
+![](images/reviewers-tab.png){width="800" align="left"}
 
 Sie können die folgenden Aktionen im **Überprüfer** tab:
 
@@ -109,7 +109,7 @@ Sie können die folgenden Aktionen im **Überprüfer** tab:
 
 Wählen Sie auf der Hauptseite des Überprüfungs-Dashboards eine Prüfungsaufgabe aus und klicken Sie auf **Status**, wird der Statusbericht der Prüfungsaufgabe angezeigt:
 
-![](images/review-status-report.png)
+![](images/review-status-report.png){width="800" align="left"}
 
 Der Statusbericht für die Prüfungsaufgabe enthält die folgenden Details:
 
@@ -123,4 +123,3 @@ Der Statusbericht für die Prüfungsaufgabe enthält die folgenden Details:
 - Das Datum, an dem der Validierer zuletzt auf ein Thema zugegriffen hat.
 
 **Übergeordnetes Thema:**[ Themen oder Karten überprüfen](review.md)
-

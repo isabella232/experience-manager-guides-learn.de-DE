@@ -1,13 +1,13 @@
 ---
 title: Arbeiten mit dem erweiterten Map Editor
 description: Erfahren Sie, wie Sie mit dem erweiterten Map-Editor arbeiten.
-source-git-commit: cb0f21b0e22c58da478a4b1a6d6aa99ad42f0f3d
+exl-id: 4f48d489-d13e-4285-8870-373f0324f5f6
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '3675'
 ht-degree: 0%
 
 ---
-
 
 # Arbeiten mit dem erweiterten Map Editor {#id1942D0S0IHS}
 
@@ -33,21 +33,21 @@ Führen Sie die folgenden Schritte aus, um Ihre Zuordnungsdatei mit dem erweiter
 
 1. Klicken Sie bei ausgewählter Zuordnungsdatei auf **Themen bearbeiten**.
 
-   ![](images/edit-map-main-menu.png)
+   ![](images/edit-map-main-menu.png){width="800" align="left"}
 
    Sie können auch die **Themen bearbeiten** Option im Aktionsmenü der Zuordnungsdatei:
 
-   ![](images/edit-map-action-menu.png)
+   ![](images/edit-map-action-menu.png){width="800" align="left"}
 
    Die Zuordnungsdatei wird im Web Editor zur Bearbeitung geöffnet.
 
 1. Klicken Sie auf das Symbol **Bearbeiten**.
 
-   ![](images/edit-map-icon.png)
+   ![](images/edit-map-icon.png){width="550" align="left"}
 
    Die Karte wird in der Benutzeroberfläche des erweiterten Map-Editors geöffnet. Wenn Sie eine neue Zuordnungsdatei geöffnet haben, wird nur der Titel der Zuordnung im Editor angezeigt.
 
-   ![](images/new-map-file-in-editor.png)
+   ![](images/new-map-file-in-editor.png){width="800" align="left"}
 
    - **A** - \(*Hauptsymbolleiste*\): Dies ähnelt der Hauptsymbolleiste des Web-Editors. Siehe [Hauptsymbolleiste](web-editor-features.md#id2051EA0G05Z) im Web Editor für weitere Informationen.
 
@@ -69,7 +69,7 @@ Führen Sie die folgenden Schritte aus, um Ihre Zuordnungsdatei mit dem erweiter
 
    Das Thema wird der Karte hinzugefügt.
 
-   ![](images/map-editor-add-topic.png)
+   ![](images/map-editor-add-topic.png){width="800" align="left"}
 
 1. Um nachfolgende Themen oder eine Unterzuordnung hinzuzufügen, ziehen Sie das Thema oder die Unterzuordnung per Drag-and-Drop an die gewünschte Position in der Zuordnung.
 
@@ -77,15 +77,15 @@ Führen Sie die folgenden Schritte aus, um Ihre Zuordnungsdatei mit dem erweiter
 
    - Die Datei wird an einer Stelle hinzugefügt, an der die horizontale Leiste im Kartenbearbeitungsbereich angezeigt wird. Im folgenden Screenshot wird die *Übersicht* Das Thema wird zwischen den *Allgemeine Beschreibung* und *Launch- und Landingpage* Themen.
 
-      ![](images/horizontal-line-in-adv-map-editor.png)
+      ![](images/horizontal-line-in-adv-map-editor.png){width="350" align="left"}
 
    - Um ein Thema zu ersetzen, platzieren Sie das Thema oben, links oder rechts neben dem Thema, das Sie ersetzen möchten. Eine vertikale Leiste links oder rechts neben einem Thema zeigt an, dass es durch das Thema ersetzt wird, das darauf abgelegt wird.
 
-      ![](images/vertical-bar-left-right.png)
+      ![](images/vertical-bar-left-right.png){width="550" align="left"}
 
       Bevor Sie ein Thema ersetzen, erhalten Sie jedoch eine Bestätigungsaufforderung. Das Thema wird erst nach der Bestätigung ersetzt.
 
-      ![](images/replace-topic-confirm.png)
+      ![](images/replace-topic-confirm.png){width="300" align="left"}
 
    - Wenn Sie Ihrer DITA-Zuordnung eine Unterzuordnung hinzufügen, wird die Unterzuordnung als Link in der DITA-Zuordnung angezeigt. Um alle Themen der Unterzuordnung anzuzeigen, klicken Sie bei gedrückter Strg-Taste auf den Unterzuordnungslink. Der Inhalt der Unterkarte wird in einem neuen Tab angezeigt. Um ein Thema aus der DITA-Zuordnung zu öffnen, klicken Sie bei gedrückter Strg-Taste auf den Themenlink und öffnen Sie es auf der neuen Registerkarte.
 
@@ -93,7 +93,7 @@ Führen Sie die folgenden Schritte aus, um Ihre Zuordnungsdatei mit dem erweiter
 
    - Um die Position eines Themas zu ändern, wählen Sie das Thema \(durch Klicken auf das Themensymbol\) aus und ziehen Sie es per Drag-and-Drop an die gewünschte Position in der Map-Datei. Stellen Sie sicher, dass die horizontale Leiste an der Stelle sichtbar ist, an der Sie das Thema platzieren möchten. Im folgenden Screenshot wird das Thema *Launch- und Landingpage* wird nach dem *Übersicht* Thema.
 
-      ![](images/move-topic-adv-map-editor.png)
+      ![](images/move-topic-adv-map-editor.png){width="350" align="left"}
 
    - Um die Eigenschaften Ihrer Zuordnungsdatei zu überprüfen, klicken Sie mit der rechten Maustaste auf eine beliebige Stelle im Zuordnungsbearbeitungsbereich und wählen Sie **Eigenschaften** aus dem Kontextmenü aus. Basierend auf Ihrer AEM können Sie Eigenschaften wie Metadaten, Aktivierung planen \(de\), Verweise, Dokumentstatus und mehr sehen.
 
@@ -119,7 +119,7 @@ Sie können die folgenden Aufgaben in der Ansicht &quot;Layout&quot;ausführen:
 **Themenreferenz einfügen** - ![](images/insert-topic-reference.png)
 
 Zeigt das Dialogfeld &quot;Themensuche&quot;an. Navigieren Sie zur Themen-/Zuordnungsdatei, die Sie einfügen möchten, und klicken Sie auf Auswählen , um sie der Zuordnung hinzuzufügen.
-![](images/insert-topic-reference-dialog.png)
+![](images/insert-topic-reference-dialog.png){width="800" align="left"}
 
 
 **Themengruppe einfügen** - ![](images/insert-topic-group.png)
@@ -130,7 +130,7 @@ Fügen Sie die `topicgroup` -Element. Weitere Informationen zu Gruppierungstheme
 
 Zeigt das Dialogfeld &quot;Keydef einfügen&quot;an. Verwenden Sie dieses Dialogfeld, um eine beliebige Schlüsseldefinition zu definieren, die Sie in der Zuordnung verwenden möchten.
 
-![](images/insert-key-definition-dialog.png)
+![](images/insert-key-definition-dialog.png){width="300" align="left"}
 
 **Einfügen vor/Einfügen nach** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
@@ -199,7 +199,7 @@ Zeigt den Dateinamen der Titel der Themen an.
 
 Neben der Organisation von Themen in der Map-Datei können Sie auch die folgenden Aktionen über das Menü Optionen durchführen, das für ein Element in der Layout-Ansicht verfügbar ist:
 
-![](images/map-editor-options-menu.png)
+![](images/map-editor-options-menu.png){width="650" align="left"}
 
 - **Hinzufügen**: Sie können im Map Editor ein neues Thema oder einen leeren Verweis hinzufügen:
    - **Leere Referenz**: Mit dieser Option können Sie in Ihrer DITA-Zuordnung einen leeren Verweis hinzufügen. Sie können später auf den eingefügten leeren Verweis doppelklicken und die Themendetails hinzufügen. Weitere Informationen finden Sie unter [Thema erstellen](web-editor-features.md#id228ICI0105U) im Web Editor.
@@ -231,7 +231,7 @@ Der Bereich &quot;Inhaltseigenschaften&quot;enthält Informationen zum Typ des a
 
 - **Andere Attribute** Wenn Ihr Administrator ein Profil für Attribute erstellt hat, erhalten Sie diese Attribute zusammen mit den konfigurierten Werten. Im Bereich &quot;Inhaltseigenschaften&quot;können Sie diese Attribute auswählen und sie relevanten Inhalten in Ihrem Thema zuweisen. Sie können auch Attribute zuweisen, die von Ihrem Administrator unter der **Anzeigenattribute** in den Editor-Einstellungen. Die für ein Element definierten Attribute werden im Layout und in der Gliederung angezeigt. Auf diese Weise können Sie sich alle Themen in einer Zuordnung, für die ein bestimmtes Attribut definiert ist, kurz ansehen. Beispielsweise alle Themen, für die das Plattformattribut als &quot;Android&quot;definiert ist.
 
-   ![](images/layout-inline-attributes.png)
+   ![](images/layout-inline-attributes.png){width="650" align="left"}
 
 
    Weitere Informationen finden Sie unter *Anzeigenattribute* innerhalb der *Editor-Einstellungen* Funktionsbeschreibung in [Linke Leiste](web-editor-features.md#id2051EA0M0HS) Abschnitt.
@@ -310,7 +310,7 @@ Um Themen über eine DITA-Zuordnung zu bearbeiten, führen Sie die folgenden Sch
    >
    > Sie können auch die DITA-Map-Datei in der Assets-Benutzeroberfläche auswählen und auf **Themen bearbeiten** in der Hauptsymbolleiste, um den Web Editor zu starten.
 
-   ![](images/web-editor-map-view_cs.png)
+   ![](images/web-editor-map-view_cs.png){width="350" align="left"}
 
 1. \(*Optional*\) Sie können auch ein Thema aus der Zuordnung auswählen und die Datei vor der Bearbeitung auschecken. Um die Datei auszuchecken, wählen Sie mindestens eine Datei aus dem linken Bereich aus und klicken Sie auf **Checkout**. Sie können die Sperre auch für jede Datei freigeben, indem Sie die ausgecheckte Datei auswählen und auf **Auschecken und Entsperren abbrechen** in der Kartenansicht.
 
@@ -320,13 +320,13 @@ Um Themen über eine DITA-Zuordnung zu bearbeiten, führen Sie die folgenden Sch
 
    Im folgenden Screenshot werden die Symbole für Auschecken und Sperren \(A\), Auschecken abbrechen und Entsperren \(B\), Als neue Version speichern und Entsperren \(C\), Bearbeiten \(D\), Vorschau \(E\), verschiedene Symbole mit verschiedenen DITA-Dateitypen \(F\) und Dateien, die ausgecheckt werden \(G\), hervorgehoben.
 
-   ![](images/file-checkout-map-editor.png)
+   ![](images/file-checkout-map-editor.png){width="550" align="left"}
 
 1. Klicken Sie auf einen beliebigen Themenlink, um ihn im Webeditor zur Bearbeitung zu öffnen.
 
    Sie können mehrere Themen im Editor öffnen und jedes Thema wird in einer neuen Registerkarte im Editor geöffnet. Selbst wenn Ihre DITA-Map Unterkarten enthält, werden Themen aus den Unterkarten auch in einer neuen Registerkarte zur Bearbeitung geöffnet. Wenn Sie die Themen unter einer Unterkarte anzeigen möchten, können Sie auf klicken und die Unterkarte erweitern.
 
-   ![](images/web-editor-multiple-topics.png)
+   ![](images/web-editor-multiple-topics.png){width="800" align="left"}
 
    Wenn Sie auf eine Zuordnungsdatei klicken, wird die Zuordnung in einer neuen Registerkarte des Webbrowsers geöffnet.
 
@@ -334,14 +334,14 @@ Um Themen über eine DITA-Zuordnung zu bearbeiten, führen Sie die folgenden Sch
 
    - Sie können sie einzeln speichern. Wenn Sie auf **Ohne Speichern schließen** In den Themen wird ein Dialogfeld angezeigt, in dem Sie aufgefordert werden, die nicht gespeicherten Themen zu speichern:
 
-      ![](images/save-multiple-topics.PNG)
+      ![](images/save-multiple-topics.PNG){width="550" align="left"}
 
       Sie können festlegen, dass alle ausgewählten Themen gespeichert werden, oder Sie können die Themen, die Sie nicht speichern möchten, deaktivieren.
 
    - Sie können das Thema mit dem **Als neue Version speichern und entsperren** Schaltfläche. Wenn Sie eine Revision des Themas speichern, wird eine neue Revision erstellt und die Sperre wird ebenfalls veröffentlicht.
    - Wenn Ihr Administrator die Option zum Einchecken von Dateien beim Schließen aktiviert hat, wird Ihnen eine Eingabeaufforderung zum Speichern von Dateien angezeigt, sobald die ausgecheckten Dateien geschlossen werden. Wenn diese Option aktiviert ist, wird Ihnen beim Schließen des Editors mit geänderten Dateien die Liste der ausgecheckten Dateien angezeigt, die gespeichert werden müssen. Die ausgecheckten Dateien werden mit einem Sperrsymbol angezeigt:
 
-      ![](images/save-on-close.PNG)
+      ![](images/save-on-close.PNG){width="550" align="left"}
 
       - Klicken auf **Ohne Speichern schließen** -Schaltfläche schließt die Dateien, ohne die Änderungen zu speichern.
 
@@ -364,7 +364,7 @@ Sie können auf die Vorschau einer Karte wie folgt zugreifen:
 
 - **Erweiterter Map-Editor**: Klicken Sie im erweiterten Map Editor auf das Symbol Vorschau , um die Vorschau der aktuellen Karte anzuzeigen.
 
-   ![](images/map-preview-icon.png)
+   ![](images/map-preview-icon.png){width="350" align="left"}
 
    Sie können die folgenden zusätzlichen Aufgaben im Vorschaumodus ausführen:
 
@@ -380,4 +380,3 @@ Sie können auf die Vorschau einer Karte wie folgt zugreifen:
 
 
 **Übergeordnetes Thema:**[ Arbeiten mit dem Map Editor](map-editor.md)
-

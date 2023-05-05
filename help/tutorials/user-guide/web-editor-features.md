@@ -1,13 +1,13 @@
 ---
 title: Funktionen des Web Editors kennen
 description: Erfahren Sie, wie Sie die Funktionen des Web Editors kennen
-source-git-commit: cc0fbca257d82cc82db5b5da8d263309fd71de55
+exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
+source-git-commit: f7eea65f58927527dbd90138a653f75ee181d141
 workflow-type: tm+mt
 source-wordcount: '14387'
 ht-degree: 0%
 
 ---
-
 
 # Funktionen des Web Editors kennen {#id176NC500V5Z}
 
@@ -1066,7 +1066,7 @@ Verwenden Sie eine der folgenden Methoden, um Inhalte aus dem Bereich Wiederverw
    >
    > Hinweis: Die **Vorschau** ist auch im Kontextmenü verfügbar, das Ihnen eine schnelle Vorschau des Elements vor dem Einfügen bietet.
 
-- Ziehen Sie das wiederverwendbare Inhaltselement per Drag-and-Drop aus dem Bereich an die gewünschte Position in Ihrem Dokument.
+- Ziehen Sie das wiederverwendbare Inhaltselement per Drag-and-Drop aus dem Bedienfeld an die gewünschte Position in Ihrem Dokument.
 
 
 **Glossar** -  ![](images/glossary.svg)
@@ -1277,7 +1277,7 @@ Um eine Vorlage zu erstellen, klicken Sie auf das Symbol + neben Vorlagen und w�
 
 ![](images/create-new-topic-template.PNG){width="400" align="left"}
 
-Wählen Sie den Vorlagentyp aus, den Sie erstellen möchten, aus dem **Vorlage** Dropdown-Liste. Stellen Sie die **Titel**, der im Bereich &quot;Vorlagen&quot;angezeigt wird. Die **Name** der Vorlage wird automatisch auf Grundlage des Titels vorgeschlagen. Sie können jedoch einen anderen Dateinamen angeben.
+Wählen Sie den Vorlagentyp aus, den Sie erstellen möchten, aus dem **Vorlage** Dropdown-Liste. Stellen Sie die **Titel**, der im Bereich &quot;Vorlagen&quot;angezeigt wird. Die **Name** der Vorlage automatisch auf Grundlage des Titels vorgeschlagen wird, Sie können jedoch einen anderen Dateinamen angeben.
 
 >[!NOTE]
 >

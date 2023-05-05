@@ -1,13 +1,13 @@
 ---
 title: Smart-Tagging
 description: Erfahren Sie, wie Sie Smart-Tagging
-source-git-commit: 528dd5d33f38c29809e7e7dafd77d860daaba8db
+exl-id: 73d8d012-6bf0-416b-8180-0c90844e50cb
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
 
 ---
-
 
 # Smart-Tagging {#id216KH0ID0Y8}
 
@@ -23,12 +23,12 @@ Führen Sie die folgenden Schritte aus, um Smart-Tags zu erstellen:
 1. Öffnen Sie das Thema im Vorschaumodus und wählen Sie **Assets erneut verarbeiten** in der Hauptsymbolleiste.
 1. Wählen Sie XML-Suchbegriffextraktion aus, um relevante Suchbegriffe zu extrahieren.
 
-   ![](images/smart-tag-reprocess-asset.png)
+   ![](images/smart-tag-reprocess-asset.png){width="300" align="left"}
 
 1. Wählen Sie die Option Nachbearbeitungsprozess ausführen aus. Bei erfolgreichem Toolstart wird eine Meldung angezeigt.
 1. Die Tags werden automatisch extrahiert und können auf der Seite Eigenschaften des ausgewählten Themas eingesehen werden.
 
-   ![](images/properties-smart-tags.png)
+   ![](images/properties-smart-tags.png){width="800" align="left"}
 
    >[!NOTE]
    >
@@ -38,4 +38,3 @@ Führen Sie die folgenden Schritte aus, um Smart-Tags zu erstellen:
 *Wenden Sie sich an Ihr Customer Success Team, um diese Funktion in der Umgebung aktivieren zu lassen. Dies ist im Rahmen der nativen Unterstützung nicht aktiviert.*
 
 **Übergeordnetes Thema:**[ Verwalten von Metadaten](manage-metadata.md)
-

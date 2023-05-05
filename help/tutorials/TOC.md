@@ -2,7 +2,7 @@
 user-guide-title: Tutorials für AEM Guides
 user-guide-description: Lesen Sie unsere Sammlung an Tutorials für Adobe Experience Manager Guides.
 breadcrumb-title: Tutorials für AEM Guides
-source-git-commit: 01c84074bc31898d2a1481d0ed5ddda0a8dba2c0
+source-git-commit: 0cc1e12382fb90784ea78cb500bf0a24d6ec50df
 workflow-type: tm+mt
 source-wordcount: '737'
 ht-degree: 8%
@@ -86,7 +86,7 @@ ht-degree: 8%
                + [Arbeiten mit dem Basic Map Editor](./user-guide/map-editor-basic-map-editor.md)
                + [Weitere Funktionen im Map-Editor](./user-guide/map-editor-other-features.md)
             + DITAVAL Editor {#ditaval-editor}
-               + [Arbeiten mit dem DITAVAL-Editor](./user-guide/id17C5E0U0OQE.md)
+               + [Arbeiten mit dem DITAVAL-Editor](./user-guide/ditaval-editor.md)
          + Desktop-Tools für die Inhaltserstellung {#author-using-desktop-tools}
             + [Verfassen von Inhalten mit Desktop-Tools](./user-guide/author-desktop-tools.md)
             + [Arbeiten mit FrameMaker](./user-guide/author-desktop-framemaker.md)
@@ -106,7 +106,7 @@ ht-degree: 8%
       + [Arbeiten mit Metadaten in AEM](./user-guide/metadata-dita.md)
       + [Smart-Tagging](./user-guide/web-editor-smart-tagging.md)
       + [Massen-Tagging von DITA-Inhalten](./user-guide/map-editor-bulk-tagging.md)
-   + Übersetzung von Inhalten {#translate-content}
+   + Inhaltsübersetzung {#translate-content}
       + [Inhalte übersetzen](./user-guide/translation.md)
       + [Best Practices für die Übersetzung von Inhalten](./user-guide/translation-first-time.md)
       + [Anzeigen des Übersetzungsstatus](./user-guide/translation-view-trans-state-6234.md)

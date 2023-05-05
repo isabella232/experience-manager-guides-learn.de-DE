@@ -1,13 +1,13 @@
 ---
 title: Verwenden des Bedienfelds "Schnellgenerierung"
 description: Erfahren Sie, wie Sie das Bedienfeld "Quick Generate"verwenden
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: d48803d9-470c-4679-8def-72b45a85917b
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 0%
 
 ---
-
 
 # Verwenden Sie den Bereich &quot;Schnellgenerierung&quot;, um die Ausgabe zu generieren und anzuzeigen {#id22AKE050F5L}
 
@@ -17,7 +17,7 @@ AEM Guides bieten eine **Schnellgenerierung** im Web Editor integriert. In diese
 >
 > Die **Schnellgenerierung** für die DITA-Karte angezeigt, die im Bereich &quot;Map View&quot;geöffnet ist.
 
-![](images/quick-generate-map-view.png)
+![](images/quick-generate-map-view.png){width="800" align="left"}
 
 Führen Sie die folgenden Schritte aus, um die Ausgabe aus dem **Schnellgenerierung** Bereich:
 
@@ -28,4 +28,3 @@ Führen Sie die folgenden Schritte aus, um die Ausgabe aus dem **Schnellgenerier
 1. Klicken **Ausgabe anzeigen** \( ![](images/view-output-icon.svg)\) Symbol einer bestimmten Vorgabe, um die für die Vorgabe generierte Ausgabe anzuzeigen.
 
 **Übergeordnetes Thema:**[ Arbeiten mit dem Web-Editor](web-editor.md)
-

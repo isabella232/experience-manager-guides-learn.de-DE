@@ -1,13 +1,13 @@
 ---
 title: Verfassen von Inhalten mithilfe AEM Handbüchern
 description: Erfahren Sie, wie Sie Inhalte mithilfe von AEM erstellen.
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 6a6354ce-29cc-4bd7-8235-579fe3647682
+source-git-commit: 3c3aef9f6beefad69c1bf13f55643a79992ac6f7
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 0%
 
 ---
-
 
 # Verfassen von Inhalten mithilfe AEM Handbüchern {#id221EB0P0E20}
 
@@ -21,8 +21,7 @@ AEM Guides sind mit den drei nativen Editoren ausgestattet. Sie können sie verw
 
 - **[Arbeiten mit dem Map Editor](map-editor.md)**
 
-- **[DITAVAL-Editor](id17C5E0U0OQE.md#)**
+- **[DITAVAL-Editor](ditaval-editor.md)**
 
 
 **Übergeordnetes Thema:**[ Autoreninhalt](authoring-content.md)
-

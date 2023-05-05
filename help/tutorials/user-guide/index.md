@@ -1,5 +1,5 @@
 ---
-source-git-commit: 09a77f4acac6902935c587af9a0568cd8761810f
+source-git-commit: 834e67fa1f015b86082b42c4213976ee24a403d5
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 4%
@@ -43,7 +43,7 @@ ht-degree: 4%
          - [Arbeiten mit dem erweiterten Map Editor](map-editor-advanced-map-editor.md)
          - [Arbeiten mit dem Basic Map Editor](map-editor-basic-map-editor.md)
          - [Weitere Funktionen im Map-Editor](map-editor-other-features.md)
-      - [DITAVAL-Editor](id17C5E0U0OQE.md#id17C5E0U0OQE)
+      - [DITAVAL-Editor](ditaval-editor.md#ditaval-editor)
    - [Verfassen von Inhalten mit Desktop-Tools](author-desktop-tools.md)
       - [Arbeiten mit FrameMaker](author-desktop-framemaker.md)
       - [Arbeiten mit Oxygen](author-desktop-oxygen.md)

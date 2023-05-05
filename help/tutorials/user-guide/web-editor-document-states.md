@@ -1,13 +1,13 @@
 ---
 title: Dokumentstatus
 description: Erfahren Sie, wie Sie den Dokumentstatus anzeigen
-source-git-commit: 13106cd1c7f6d38fecb67dd93eef66263eb29bae
+exl-id: 6ab85a63-02d2-4802-a6b8-99e6551a567b
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 0%
 
 ---
-
 
 # Dokumentstatus {#id1821HC00URO}
 
@@ -69,11 +69,11 @@ Führen Sie die folgenden Schritte aus, um die Dokumentvalidierungsfunktion zu v
 
 1. Wenn Ihr Dokument sich im Status befindet, der als genehmigt markiert werden soll, wird das folgende Dialogfeld angezeigt:
 
-   ![](images/mark-approved-correct-state.png){width="550" align="left"}
+   ![](images/mark-approved-correct-state.png){width="300" align="left"}
 
    Wenn Ihr Dokument nicht als genehmigt markiert werden kann, wird die folgende Meldung angezeigt:
 
-   ![](images/mark-approved-incorrect-state.png){width="550" align="left"}
+   ![](images/mark-approved-incorrect-state.png){width="300" align="left"}
 
 1. Wenn Ihr Dokument bereit ist, als genehmigt markiert zu werden, wählen Sie eine Beschriftung aus der Dropdownliste aus und klicken Sie auf **Genehmigen**.
 
@@ -102,4 +102,3 @@ Nachdem ein Dokument als genehmigt markiert wurde, steht es nicht mehr zur Bearb
 
 
 **Übergeordnetes Thema:**[ Arbeiten mit dem Web-Editor](web-editor.md)
-

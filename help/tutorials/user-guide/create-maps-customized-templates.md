@@ -1,13 +1,13 @@
 ---
 title: Erstellen von Karten basierend auf benutzerdefinierten Vorlagen
 description: Erfahren Sie, wie Sie Karten basierend auf benutzerdefinierten Vorlagen erstellen
-source-git-commit: 66915827a0b169069cc482763f0f50b9e9b6aa64
+exl-id: 02513148-3876-4549-962a-9984f619030f
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
 
 ---
-
 
 # Erstellen von Karten basierend auf benutzerdefinierten Vorlagen {#id225VF0808MP}
 
@@ -33,7 +33,7 @@ Führen Sie die folgenden Schritte aus, um eine Themenvorlage zu erstellen:
 
 1. Im **Assets-Benutzeroberfläche**, navigieren Sie zum Ordner dita-templates .
 
-   ![](images/dita-templates.png)
+   ![](images/dita-templates.png){width="800" align="left"}
 
 1. Klicken **topics** Ordner, um ihn zu öffnen. Klicken Sie auf **Erstellen von \> DITA-Vorlage**.
 1. Wählen Sie auf der Blueprint-Seite **Thema** und klicken Sie anschließend auf **Weiter.**
@@ -55,7 +55,7 @@ Führen Sie die folgenden Schritte aus, um eine Zuordnungsvorlage zu erstellen:
 1. Klicken **maps** Ordner, um ihn zu öffnen.
 1. Klicken **Erstellen Sie \> DITA-Vorlage.**
 
-   ![](images/create-dita-template.png)
+   ![](images/create-dita-template.png){width="300" align="left"}
 
 1. Wählen Sie auf der Blueprint-Seite **Zuordnung** und klicken Sie auf **Nächste**.
 1. Geben Sie auf der Seite Eigenschaften die Zuordnungsvorlage an **Titel**.
@@ -104,7 +104,11 @@ Wenn Sie keine geschweiften Klammern um den Titel verwenden, wird die resultiere
 Beispiel
 
 ```XML
-<title>	<sub>		<b>{title}</b>	</sub></title>
+<title>    
+    <sub>        
+        <b>{title}</b>    
+    </sub>
+</title>
 ```
 
 ## Verwenden Sie die Zuordnungsvorlage, um neue Zuordnungen zu erstellen
@@ -144,4 +148,3 @@ Die Zuordnung generiert alle Assets, auf die im Vorlagenordner verwiesen wird. E
 - Wenn eine andere Zuordnung oder ein anderes Thema auf derselben Ebene im Ordner erstellt wird, werden die Namen der neu erstellten Assets mit 0,1,2 usw. angehängt. Sie können wählen, ob Sie die Karte zur Bearbeitung öffnen oder die Zuordnungsdatei im Repository speichern möchten.
 
 **Übergeordnetes Thema:**[ Arbeiten mit dem Map Editor](map-editor.md)
-

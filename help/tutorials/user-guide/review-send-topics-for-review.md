@@ -1,13 +1,13 @@
 ---
 title: Senden von Themen zur Überprüfung
 description: Erfahren Sie, wie Sie Themen zur Überprüfung senden
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 7a9b36ad-44d4-4952-9906-d95feb95d0c6
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '2733'
 ht-degree: 0%
 
 ---
-
 
 # Senden von Themen zur Überprüfung {#id199RD0S035Z}
 
@@ -43,7 +43,7 @@ So erstellen Sie eine Prüfungsaufgabe und senden Themen zur Überprüfung:
 
 1. Klicken Sie in der Schnellaktion auf das Symbol Auswählen und wählen Sie die Themen aus, die Sie zur Überprüfung senden möchten.
 
-   ![](images/select-asset-62.png)
+   ![](images/select-asset-62.png){width="300" align="left"}
 
 1. Klicken Sie in der Symbolleiste auf **Prüfungsaufgabe erstellen**. Die Seite zur Erstellung von Prüfungsaufgaben wird angezeigt.
 
@@ -51,7 +51,7 @@ So erstellen Sie eine Prüfungsaufgabe und senden Themen zur Überprüfung:
    >
    > Sie können eine Prüfungsaufgabe nur für die Themen erstellen, die überarbeitet wurden. Wenn das ausgewählte Thema keine Revision aufweist, wird eine Eingabeaufforderung angezeigt.
 
-   ![](images/create-review-task-023.png)
+   ![](images/create-review-task-023.png){width="650" align="left"}
 
 1. Geben Sie einen **Titel** für die Aufgabe und wählen Sie eine DITA aus. **Projekt** aus der Dropdown-Liste aus.
 
@@ -91,7 +91,7 @@ So erstellen Sie eine Prüfungsaufgabe und senden Themen zur Überprüfung:
 
    Die Inhaltsseite wird angezeigt.
 
-   ![](images/content_page_review.png)
+   ![](images/content_page_review.png){width="800" align="left"}
 
 1. Wählen Sie auf der Seite Inhalt eine Version des Themas aus, das Sie zur Überprüfung freigeben möchten.
 
@@ -112,7 +112,7 @@ So erstellen Sie eine Prüfungsaufgabe und senden Themen zur Überprüfung:
 
    Die Seite &quot;Überprüfer&quot;wird angezeigt, auf der Sie Überprüfer hinzufügen oder entfernen können. Standardmäßig werden die im Feld Zuweisen zu hinzugefügten Validierungsverantwortlichen automatisch zu jedem Thema hinzugefügt, das für die Überprüfung ausgewählt wurde.
 
-   ![](images/add-reviewers-topics.png)
+   ![](images/add-reviewers-topics.png){width="650" align="left"}
 
 1. Auf der Seite &quot;Überprüfer&quot;können Sie Überprüfer hinzufügen oder entfernen. Die folgenden Vorgänge sind auf der Seite &quot;Validierungsverantwortliche&quot;verfügbar:
 
@@ -208,7 +208,7 @@ Um ein oder mehrere Themen zusammen mit der Map-Datei zur Überprüfung zu sende
 
    Die Inhaltsseite wird mit allen Themen angezeigt, auf die in der Zuordnungsdatei verwiesen wird. Wenn Ihre DITA-Map verschachtelte Karten enthält, werden hier auch Themen aus den verschachtelten Maps aufgelistet.
 
-   ![](images/content-page-map-review.png)
+   ![](images/content-page-map-review.png){width="800" align="left"}
 
 1. Wählen Sie auf der Seite Inhalt eine Version des Themas aus, das Sie zur Überprüfung freigeben möchten.
 
@@ -265,4 +265,3 @@ Um ein oder mehrere Themen zusammen mit der Map-Datei zur Überprüfung zu sende
 Allen Validierungsverantwortlichen wird eine E-Mail gesendet, in der sie darauf hingewiesen werden, dass ihnen Themen zur Überprüfung zugewiesen wurden. Die E-Mail enthält einen direkten Link, auf den sie klicken und in einem Browserfenster auf das Thema zugreifen können. Die Themen werden zusammen mit der DITA-Zuordnung im Überprüfungsmodus geöffnet.
 
 **Übergeordnetes Thema:**[ Themen oder Karten überprüfen](review.md)
-

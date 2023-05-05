@@ -1,13 +1,13 @@
 ---
 title: Verwenden von Bezeichnungen
 description: Erfahren Sie, wie Sie Beschriftungen verwenden
-source-git-commit: 331871308035441f047b1ed588215b586daf3d28
+exl-id: 3ea56d06-537f-4bfd-922d-df1f23e61a20
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
 
 ---
-
 
 # Verwenden von Bezeichnungen {#id164JBG0M0T1}
 
@@ -33,8 +33,7 @@ Führen Sie die folgenden Schritte aus, um Ihrem Thema eine Bezeichnung hinzuzuf
 
    Die Titel werden im Versionsverlauf des ausgewählten Themas angezeigt. Der folgende Screenshot zeigt die Beschriftungen *x.x-Version* und *Benutzerhandbuch* zur hervorgehobenen Version des Themas hinzugefügt.
 
-
-![](images/labels.png)
+   ![](images/labels.png){width="300" align="left"}
 
 >[!NOTE]
 >
@@ -49,12 +48,11 @@ Führen Sie die folgenden Schritte aus, um eine Bezeichnung zu löschen:
 
    Im Versionsverlauf werden alle Versionen eines Themas und die damit verbundenen Bezeichnungen angezeigt. Die folgende Abbildung zeigt ein Beispiel für verschiedene Versionen eines Themas und einer Version wurden Titel hinzugefügt.
 
-   ![](images/labels.png)
+   ![](images/labels.png){width="300" align="left"}
 
 1. Klicken Sie auf die Löschschaltfläche \(**X**\), um den Titel zu löschen.
 
-   ![](images/delete-labels.png)
+   ![](images/delete-labels.png){width="300" align="left"}
 
 
 **Übergeordnetes Thema:**[ Arbeiten mit dem Web-Editor](web-editor.md)
-

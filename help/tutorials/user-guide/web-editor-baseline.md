@@ -1,13 +1,13 @@
 ---
 title: Erstellen und Verwalten von Grundlinien im Web-Editor
 description: Erfahren Sie, wie Sie Grundlinien im Web Editor erstellen und verwalten
-source-git-commit: 873111892d5b479f80a40c0b18cda9b538f5a1de
+exl-id: 9e390489-16f5-4f9a-a821-5150a66c2ed4
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '1190'
 ht-degree: 0%
 
 ---
-
 
 # Erstellen und Verwalten von Grundlinien im Web-Editor {#id223MB0ZF043}
 
@@ -24,7 +24,7 @@ Sie können eine Grundlinie im Web Editor erstellen, indem Sie die folgenden Sch
 1. Öffnen Sie im Bereich &quot;Repository&quot;die DITA-Map-Datei in der Kartenansicht.
 1. Klicken Sie auf **Verwalten** Registerkarte. Die **Grundlinie** zeigt die Grundlinien der DITA-Zuordnung an.
 
-   ![](images/baseline-manage.png)
+   ![](images/baseline-manage.png){width="800" align="left"}
 
 1. Im **Grundlinie** klicken Sie oben rechts auf das Symbol + . Sie können eine Grundlinie mit einer bestimmten Version der Themen und referenzierten Inhalten erstellen, die an einem bestimmten Datum und zu einer bestimmten Uhrzeit verfügbar sind, oder mit einer für eine Version der Themen definierten Bezeichnung.
 1. Geben Sie einen Namen für die Grundlinie in **Baseline Name**.
@@ -52,7 +52,7 @@ Sie können eine Grundlinie im Web Editor erstellen, indem Sie die folgenden Sch
 
    Grundlinien, die auf Bezeichnungen basieren, werden dynamisch aktualisiert. Wenn Sie eine Grundlinie erstellen, eine Grundlinie herunterladen oder ein Übersetzungsprojekt mit einer Grundlinie erstellen, werden die Dateien dynamisch anhand der aktualisierten Beschriftungen ausgewählt. Wenn Sie beispielsweise Version 1.2 eines Themas mit Label Release 1.0 für die Grundlinie und später aktualisierte Version 1.5 mit Label Release 1.0 verwendet haben, wird die Grundlinie dynamisch aktualisiert und Version 1.5 wird verwendet.
 
-   ![](images/dynamic-baseline.png)
+   ![](images/dynamic-baseline.png){width="550" align="left"}
 
    - **Beschriftungen auswählen**: Wenn für die Themen Beschriftungen angegeben sind, werden die Beschriftungen im **Beschriftungen auswählen** Dropdown-Liste. Sie können die Titel\(s\) aus der Liste auswählen. Die zuerst ausgewählten Titel erhalten höhere Priorität als die späteren.
 1. **Indirekte Verweise**: Für indirekte Verweise innerhalb der DITA-Zuordnung erhalten Sie die folgenden Optionen:
@@ -74,7 +74,7 @@ Sie können Ihre vorhandenen Grundlinien mithilfe der verschiedenen Funktionen i
 - Sie können den Inhalt einer vorhandenen Grundlinie anzeigen oder bearbeiten, indem Sie im Bedienfeld Grundlinie auf die Grundlinie doppelklicken. Das Grundlinien-Bearbeitungsfenster in der Mitte zeigt die DITA-Map-Datei, den Inhalt oder die Themen der Zuordnung und den referenzierten Inhalt an.
 
 
-![](images/baseline-options.png)
+![](images/baseline-options.png){width="550" align="left"}
 
 Sie können auch die folgenden Vorgänge auf der Grundlinie im Menü Optionen ausführen:
 
@@ -92,7 +92,7 @@ Sie können auch die folgenden Vorgänge auf der Grundlinie im Menü Optionen au
 
 Verwenden des Symbols Filter im **Standardfilter** -Bedienfeld können Sie Filter auf die Grundlinie anwenden, die im Fenster der Grundlinienbearbeitung geöffnet wurde:
 
-![](images/baseline-filter.png)
+![](images/baseline-filter.png){width="350" align="left"}
 
 - Filtern Sie die Dateien nach Dateinamen oder Dateispeicherort.
 - Filtern Sie die Dateien anhand der Werte für verschiedene Spalten wie Dateityp, Referenztyp usw.
@@ -107,4 +107,3 @@ Verwenden des Symbols Filter im **Standardfilter** -Bedienfeld können Sie Filte
 Nachdem Sie die Grundlinie bearbeitet haben, können Sie auf die **Speichern** oben auf die Schaltfläche klicken, um die Änderungen an der Grundlinie zu speichern. Sie können auf die **Zurücksetzen** , wenn Sie die Änderung nicht speichern und die Grundlinie zurücksetzen möchten. Wenn Sie auf die **Zurücksetzen** -Schaltfläche ein Warnhinweis angezeigt, dass nicht gespeicherte Änderungen verloren gehen.
 
 **Übergeordnetes Thema:**[ Arbeiten mit dem Web-Editor](web-editor.md)
-

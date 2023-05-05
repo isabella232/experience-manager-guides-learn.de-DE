@@ -1,13 +1,13 @@
 ---
 title: Prüfungsaufgabe erneut zuweisen mithilfe von Benachrichtigungen
 description: Erfahren Sie, wie Sie eine Prüfungsaufgabe mithilfe einer Benachrichtigung erneut zuweisen
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: d20865a8-2c30-4bd7-8594-64e0ccdb665a
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 0%
 
 ---
-
 
 # Prüfungsaufgabe erneut zuweisen mithilfe von Benachrichtigungen {#id21BNH03M0KS}
 
@@ -28,7 +28,7 @@ Führen Sie die folgenden Schritte aus, um eine Prüfungsaufgabe aus der Postein
    >
    > Der Überprüfer muss über die Berechtigungen zum Neuzuweisen verfügen und Teil der Gruppe &quot;Benutzer-Administrator&quot;sein.
 
-   ![](images/reassign-user-inbox.png)
+   ![](images/reassign-user-inbox.png){width="800" align="left"}
 
 1. Auswählen **Neu zuweisen**.
 
@@ -37,4 +37,3 @@ Nachdem die Prüfungsaufgabe neu zugewiesen wurde, zeigt die Spalte Bevollmächt
 Der zugewiesene Überprüfer erhält im Posteingang eine Benachrichtigung über die neu zugewiesene Überprüfungsaufgabe.
 
 **Übergeordnetes Thema:**[ Themen oder Karten überprüfen](review.md)
-

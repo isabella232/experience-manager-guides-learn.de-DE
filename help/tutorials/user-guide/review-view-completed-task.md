@@ -1,13 +1,13 @@
 ---
 title: Abgeschlossene Prüfungsaufgabe anzeigen
 description: Erfahren Sie, wie Sie eine abgeschlossene Prüfungsaufgabe anzeigen.
-source-git-commit: 176aee433300ce8d4d9cfbab2edb007acae4de87
+exl-id: 37f10fc3-e4ca-4e73-a887-65c7e9496f5e
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
-
 
 # Abgeschlossene Prüfungsaufgabe anzeigen
 
@@ -19,8 +19,7 @@ Als Überprüfer können Sie im Fenster &quot;Kommentare&quot;eine Anzeige sehen
 
 Sie können jedoch alle Kommentare durchsuchen oder filtern. Sie können auch Bedingungen ein- oder ausblenden und konditionierten Inhalt entsprechend anzeigen. Sie können alle Anlagen herunterladen, aber keine Anlagen für die Kommentare hochladen oder löschen.
 
-<img src="images/complete-task-reviewer.png" alt="Prüfer für abgeschlossene Prüfungsaufgaben" width="800">
-
+![](images/complete-task-reviewer.png){width="800" align="left"}
 
 
 ## Autor
@@ -29,7 +28,6 @@ Als Autor können Sie den Status im Prüfungsbereich als geschlossen anzeigen. S
 
 Sie können jedoch alle Kommentare durchsuchen oder filtern. Sie können alle Anlagen herunterladen, aber keine Anlagen für die Kommentare hochladen oder löschen.
 
-<img src="images/completed-task-author.png" alt=" Autor der abgeschlossenen Prüfungsaufgabe" width="800">
+![](images/completed-task-author.png){width="800" align="left"}
 
 Sowohl als Prüfer als auch als Autor können Sie den überprüften Inhalt zusammen mit den Kommentaren anzeigen, aber keine Änderungen an einer abgeschlossenen Prüfungsaufgabe vornehmen.
-
