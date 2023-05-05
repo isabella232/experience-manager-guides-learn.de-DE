@@ -1,13 +1,13 @@
 ---
 title: Versionsverlauf wiederhergestellter Dateien - Bericht
 description: Erfahren Sie, wie Sie den Versionsverlaufbericht für zurückgegebene Dateien
-source-git-commit: bb7a8d49e5425b7fc856277c054558c75394fcb2
+exl-id: fa90b373-742a-4102-b00f-07e4113fef98
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 0%
 
 ---
-
 
 # Versionsverlauf wiederhergestellter Dateien - Bericht {#id205BBC00PRK}
 
@@ -19,7 +19,7 @@ Der Zugriff auf diesen Bericht ist an folgenden Stellen möglich:
 
 - **Assets-Benutzeroberfläche**: durch Auswahl einer Datei und Öffnen der **Versionsverlauf** über die linke Leiste. Die **Versionsverlauf** Ansicht enthält **Versionsprotokolle wiederherstellen** -Link am unteren Rand des Bedienfelds. Wenn Sie auf diesen Link klicken, wird der Verlauf der ausgewählten Datei mit den wiederhergestellten Versionen angezeigt.
 
-   ![](images/revert-log-from-assets-ui.png)
+   ![](images/revert-log-from-assets-ui.png){width="300" align="left"}
 
 - **Themenvorschau**: Wenn Sie ein Thema in der Vorschau anzeigen, können Sie auch die **Versionsverlauf** aus der linken Leiste. Sie erhalten ein Bedienfeld ähnlich der Assets-Benutzeroberfläche, von dem aus Sie auf die **Versionsprotokolle wiederherstellen** -Link, um auf den Verlauf der wiederhergestellten Version des aktiven Dokuments zuzugreifen.
 
@@ -38,7 +38,7 @@ Führen Sie die folgenden Schritte aus, um auf den Bericht Verlauf zurücksetzen
 
 1. Klicken **Protokolle anzeigen** , um den Bericht für die ausgewählte Datei oder den ausgewählten Ordner zu generieren.
 
-   ![](images/revert-version-history-report.png)
+   ![](images/revert-version-history-report.png){width="800" align="left"}
 
    Der Bericht enthält folgende Details:
 
@@ -56,4 +56,3 @@ Führen Sie die folgenden Schritte aus, um auf den Bericht Verlauf zurücksetzen
 
 
 **Übergeordnetes Thema:**[ Berichte](reports-intro.md)
-

@@ -1,13 +1,13 @@
 ---
 title: Bedingte Attributprofilierung
 description: Erfahren Sie, wie Sie die Profilierung von bedingten Attributen durchführen.
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 31b0ffe6-44e7-459d-a8df-a64ec868768c
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 1%
 
 ---
-
 
 # Bedingte Attributprofilierung {#id1843I0HN0Y4}
 
@@ -43,7 +43,7 @@ Um bedingte Attribute zu definieren, führen Sie die folgenden Schritte aus:
 
    Der folgende Screenshot zeigt die Definition der `platform` Attribut mit dem Wert von `unix` und einen Titel `Red Hat Linux`.
 
-   ![](images/add-profile.png)
+   ![](images/add-profile.png){width="800" align="left"}
 
 1. Wenn Sie weitere Werte für dasselbe Attribut hinzufügen möchten, klicken Sie auf die **+** und geben Sie zusätzlichen Wert und Titel ein.
 
@@ -54,7 +54,6 @@ Um bedingte Attribute zu definieren, führen Sie die folgenden Schritte aus:
 
 Die `platform` -Attribut im System gespeichert wird. Wann immer ein Autor beschließt, die `platform` -Attribut in einem DITA-Thema in einem Ordner angezeigt werden, sehen sie die Werte auf der Registerkarte Eigenschaften im Web Editor.
 
-![](images/properties-tab.png)
+![](images/properties-tab.png){width="350" align="left"}
 
 **Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)
-

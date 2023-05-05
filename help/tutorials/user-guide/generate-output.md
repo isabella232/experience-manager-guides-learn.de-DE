@@ -1,13 +1,13 @@
 ---
 title: Ausgabegenerierung
 description: Erfahren Sie, wie Sie die Ausgabe generieren
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 32fc32f8-16b1-4c3c-a6e2-abfb8fba9e66
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
-
 
 # Ausgabegenerierung {#id1645H8040HD}
 
@@ -43,29 +43,4 @@ Die Informationen in den folgenden Abschnitten richten sich an Herausgeber, die 
 >[!IMPORTANT]
 >
 > Die in diesem Thema beschriebenen Funktionen stehen nur Benutzern mit Herausgebern oder Administratorrechten zur Verfügung.
-
-- **[Grundlegendes zu den Ausgabevorgaben](generate-output-understand-presets.md)**
-
-- **[Verwenden Sie Variablen zum Festlegen der Optionen &quot;Zielpfad&quot;, &quot;Site-Name&quot;oder &quot;Dateiname&quot;](generate-output-use-variables.md)**
-
-- **[Ausgabevorgabe erstellen, bearbeiten, duplizieren oder entfernen](generate-output-create-edit-preset.md)**
-
-- **[Übergeben der Metadaten an die Ausgabe mithilfe von DITA-OT](pass-metadata-dita-ot.md)**
-
-- **[Bedingte Attributprofilierung](generate-output-conditional-attribute-profiling.md)**
-
-- **[Verwenden von Bedingungsvorgaben](generate-output-use-condition-presets.md)**
-
-- **[Arbeiten mit Grundlinien](generate-output-use-baseline-for-publishing.md)**
-
-- **[Generieren der Ausgabe für eine DITA-Zuordnung über die Zuordnungskonsole](generate-output-for-a-dita-map.md)**
-
-- **[Verwenden der Kartensammlung für die Ausgabegenerierung](generate-output-use-map-collection-output-generation.md)**
-
-- **[Verwalten von Veröffentlichungsaufgaben mit dem Veröffentlichungs-Dashboard](generate-output-publish-dashboard.md)**
-
-- **[Grundlegende Fehlerbehebung](generate-output-basic-troubleshooting.md)**
-
-- **[Massenaktivierung veröffentlichter Inhalte](conf-bulk-activation.md)**
-
 

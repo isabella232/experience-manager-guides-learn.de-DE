@@ -1,13 +1,13 @@
 ---
 title: Erstellen einer Massen-Aktivierungszuordnung
 description: Erfahren Sie, wie Sie eine Massen-Aktivierungszuordnung erstellen
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 7d17fb37-9486-4a3b-a421-08e279c95b6c
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 0%
 
 ---
-
 
 # Erstellen einer Massen-Aktivierungszuordnung {#id214GG0E90EV}
 
@@ -43,7 +43,7 @@ Führen Sie die folgenden Schritte aus, um eine Massen-Aktivierungszuordnung zu 
 
    Die DITA-Zuordnungsdateien werden Ihrer Massen-Aktivierungszuordnungssammlung hinzugefügt.
 
-   ![](images/bulk-activation-collection-created.png)
+   ![](images/bulk-activation-collection-created.png){width="800" align="left"}
 
 
 Auf der Registerkarte Karten und Vorgaben werden Informationen in den folgenden Spalten angezeigt:
@@ -70,4 +70,3 @@ Die folgenden Filteroptionen sind im linken Bereich verfügbar:
 - **Karten und Vorgaben** table: Die Tabelle Karten und Vorgaben enthält die folgenden Spalten:
 
 **Übergeordnetes Thema:**[ Massenaktivierung veröffentlichter Inhalte](conf-bulk-activation.md)
-

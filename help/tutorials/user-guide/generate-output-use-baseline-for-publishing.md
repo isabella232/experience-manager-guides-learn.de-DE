@@ -1,13 +1,13 @@
 ---
 title: Arbeiten mit Grundlinien
 description: Erfahren Sie, wie Sie mit Grundlinie arbeiten
-source-git-commit: 8b6294425c6e60d1c5b37d98e99114014a104ee6
+exl-id: dcafab53-c388-48c3-9455-e4251cdda17d
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '1917'
 ht-degree: 0%
 
 ---
-
 
 # Arbeiten mit Grundlinien {#id1825FI0J0PF}
 
@@ -46,8 +46,7 @@ Führen Sie die folgenden Schritte aus, um eine Grundlinie zu erstellen:
 1. In **Version basierend auf festlegen** wählen Sie eine der folgenden Optionen aus:
 
    - **Titel**: Wählen Sie diese Option aus, um die Themen entsprechend dem Titel auszuwählen, der auf sie angewendet wird. Geben Sie einen Titel ein, um die Liste nach der eingegebenen Zeichenfolge zu filtern. Aus der gefilterten Liste können Sie eine Bezeichnung auswählen, um Themen und andere Assets mit der angegebenen Bezeichnung auszuwählen.
-
-      Wenn Sie **Titel** erhalten Sie außerdem eine zusätzliche Option, um die neueste Version der Themen zu verwenden, auf die die angegebene Bezeichnung nicht angewendet wurde. Wenn Sie diese Option nicht auswählen und eine Themen- oder Mediendatei nicht mit der angegebenen Beschriftung versehen ist, schlägt der Prozess der Grundlinienerstellung fehl. Weitere Informationen zum Hinzufügen von Bezeichnungen finden Sie unter [Verwenden von Bezeichnungen](web-editor-use-label.md#).
+   Wenn Sie **Titel** erhalten Sie außerdem eine zusätzliche Option, um die neueste Version der Themen zu verwenden, auf die die angegebene Bezeichnung nicht angewendet wurde. Wenn Sie diese Option nicht auswählen und eine Themen- oder Mediendatei nicht mit der angegebenen Beschriftung versehen ist, schlägt der Prozess der Grundlinienerstellung fehl. Weitere Informationen zum Hinzufügen von Bezeichnungen finden Sie unter [Verwenden von Bezeichnungen](web-editor-use-label.md#).
 
    - **Version auf** &lt;*Zeitstempel*\>: Wählt die Version des Themas als Datum und Uhrzeit aus. Beachten Sie, dass die hier angegebene Uhrzeit der Zeitzone Ihres AEM-Servers entspricht. Wenn sich Ihr Server in einer anderen Zeitzone befindet, werden die Themen gemäß der Zeitzone Ihres Servers und nicht Ihrer lokalen Zeitzone abgerufen.
 
@@ -55,7 +54,7 @@ Führen Sie die folgenden Schritte aus, um eine Grundlinie zu erstellen:
 
 1. Wenn Sie eine andere Version für ein oder mehrere Themen verwenden möchten, können Sie dies tun, indem Sie diese Themen manuell auswählen. Klicken **Thema durchsuchen**, wählen Sie das Thema aus, für das Sie eine andere Version verwenden möchten. Wählen Sie aus der Dropdownliste Version für das ausgewählte Thema auswählen eine Version des Themas aus, das Sie in der Grundlinie verwenden möchten, und klicken Sie auf **OK**.
 
-   ![](images/baseline-select-version-drop-down.png)
+   ![](images/baseline-select-version-drop-down.png){width="800" align="left"}
 
    Die Informationen zum Thema und zur ausgewählten Version werden im Backend gespeichert. Sie können diesen Schritt wiederholen, um die ausgewählte Version für mehrere Themen zu ändern.
 
@@ -133,7 +132,7 @@ Führen Sie die folgenden Schritte aus, um eine Bezeichnung zu mehreren Themen u
 
 1. Klicken **Hinzufügen von Bezeichnungen**.
 
-   ![](images/add-label-baseline-uuid.png)
+   ![](images/add-label-baseline-uuid.png){width="800" align="left"}
 
 1. Im **Titel hinzufügen** angeben, geben Sie eine eindeutige Beschriftung an, die dieser Grundlinie zugeordnet werden soll.
 
@@ -144,7 +143,7 @@ Führen Sie die folgenden Schritte aus, um eine Bezeichnung zu mehreren Themen u
    - Klicken Sie auf **Hinzufügen**.
 Die angegebene Bezeichnung wird der DITA-Zuordnung sowie den referenzierten Themen und Inhalten hinzugefügt.
 
-      ![](images/label-added-baseline-uuid.png)
+      ![](images/label-added-baseline-uuid.png){width="650" align="left"}
 
 
 ## Exportieren der übersetzten Grundlinie {#id196SE600GHS}
@@ -163,7 +162,7 @@ Führen Sie die folgenden Schritte aus, um eine übersetzte Grundlinie zu export
 
 1. Im **Übersetzung** Registerkarte, erweitern Sie die **Grundlinie** in der linken Leiste verfügbar.
 
-   ![](images/export-baseline.png)
+   ![](images/export-baseline.png){width="800" align="left"}
 
 1. Wählen Sie die **Grundlinie verwenden** und wählen Sie die Grundlinie aus, die Sie exportieren möchten.
 
@@ -177,4 +176,3 @@ Führen Sie die folgenden Schritte aus, um eine übersetzte Grundlinie zu export
 
 
 **Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)
-

@@ -1,13 +1,13 @@
 ---
 title: Bericht zur Inhaltswiederverwendung
 description: Erfahren Sie, wie Sie den Bericht zur Inhaltswiederverwendung wiederverwenden
-source-git-commit: bb7a8d49e5425b7fc856277c054558c75394fcb2
+exl-id: 658ae0fd-9032-4480-b9e4-fe4fec261e72
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 0%
 
 ---
-
 
 # Bericht zur Inhaltswiederverwendung {#id205BB900OQD}
 
@@ -31,7 +31,7 @@ Führen Sie die folgenden Schritte aus, um den Bericht zur Wiederverwendung von 
 
 1. Klicken **Bericht erstellen** , um den Bericht zur Inhaltswiederverwendung zu erhalten.
 
-   ![](images/content-reuse-uuid.png)
+   ![](images/content-reuse-uuid.png){width="800" align="left"}
 
    Die Berichtsseite ist in zwei Teile unterteilt:
 
@@ -61,4 +61,3 @@ Führen Sie die folgenden Schritte aus, um den Bericht zur Wiederverwendung von 
 > Sie können den Bericht zur Inhaltswiederverwendung auch im CSV-Format exportieren. Klicken Sie dazu oben links im Bildschirm auf den Link In CSV exportieren und wählen Sie einen Speicherort für die CSV-Datei aus. Sie können diese CSV-Datei dann in einem beliebigen CSV-Editor öffnen.
 
 **Übergeordnetes Thema:**[ Berichte](reports-intro.md)
-

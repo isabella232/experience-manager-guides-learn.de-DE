@@ -1,13 +1,13 @@
 ---
 title: Übergeben der Metadaten an die Ausgabe mithilfe von DITA-OT
 description: Erfahren Sie, wie Sie die Metadaten mithilfe von DITA-OT an die Ausgabe übergeben.
-source-git-commit: 8b6294425c6e60d1c5b37d98e99114014a104ee6
+exl-id: 637895e5-aece-4827-a32e-f2ae3e3704ef
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
 
 ---
-
 
 # Übergeben der Metadaten an die Ausgabe mithilfe von DITA-OT {#id21BJ00QD0XA}
 
@@ -19,7 +19,7 @@ Führen Sie die folgenden Schritte aus, um die Metadaten mithilfe der DITA-OT-Ve
 1. Wählen Sie eine Ausgabevorgabe aus und bearbeiten Sie sie, an die Sie die Metadatenfelder übergeben möchten. Wählen Sie beispielsweise eine PDF-Ausgabevorgabe aus.
 1. Auswählen **DITA-OT** unter Generieren &lt;output> Verwenden der Option in der ausgewählten Ausgabevorgabe.
 
-   ![](images/custom-meta-data-output-preset.png)
+   ![](images/custom-meta-data-output-preset.png){width="800" align="left"}
 
 1. Wählen Sie in der Dropdown-Liste Eigenschaften die Metadaten aus, die Sie an die DITA-OT-Veröffentlichung übergeben möchten.
 
@@ -35,7 +35,7 @@ Führen Sie die folgenden Schritte aus, um die Metadaten mithilfe der DITA-OT-Ve
 
 1. Aus dem **Eigenschaften** Dropdown-Liste die gewünschten benutzerdefinierten und standardmäßigen Eigenschaften aus. Wählen Sie beispielsweise `author`, `dc:title`und `dc:description`. Dies sind die Standardwerte `metadata/properties` wird erstellt, sobald wir eine Datei erstellen. Die ausgewählten Eigenschaften werden unter dem Dropbox-Menü aufgeführt.
 
-   ![](images/selected-metadata-properties.png)
+   ![](images/selected-metadata-properties.png){width="300" align="left"}
 
 1. Klicken **Fertig** oben links, um die Änderungen zu speichern.
 1. Generieren Sie die Ausgabe.
@@ -43,4 +43,3 @@ Führen Sie die folgenden Schritte aus, um die Metadaten mithilfe der DITA-OT-Ve
 Die ausgewählten Metadateneigenschaften werden an die mit DITA-OT generierte Ausgabe übergeben.
 
 **Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)
-

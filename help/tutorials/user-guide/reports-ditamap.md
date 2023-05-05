@@ -1,13 +1,13 @@
 ---
 title: DITA-Mapping-Bericht aus dem Mapping-Dashboard
 description: Erfahren Sie, wie Sie den DITA-Mapping-Bericht über das Mapping-Dashboard erstellen
-source-git-commit: 8a104cfe17778a71915e3700f49fc6892493ccd0
+exl-id: 8ba1dc83-fa96-4ae0-bfa8-89b5a8949f08
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 0%
 
 ---
-
 
 # DITA-Mapping-Bericht aus dem Mapping-Dashboard {#id205BB800EEN}
 
@@ -23,7 +23,7 @@ Führen Sie die folgenden Schritte aus, um den DITA Map-Bericht anzuzeigen:
 
 1. Klicken **Berichte**.
 
-   ![](images/reports-page-uuid.png)
+   ![](images/reports-page-uuid.png){width="800" align="left"}
 
    Die Seite Berichte ist in zwei Teile unterteilt:
 
@@ -35,7 +35,7 @@ Führen Sie die folgenden Schritte aus, um den DITA Map-Bericht anzuzeigen:
 
       Wenn Sie auf ein Thema klicken, wird ein detaillierter Bericht des ausgewählten Themas angezeigt.
 
-      ![](images/detailed-report-uuid.png)
+      ![](images/detailed-report-uuid.png){width="800" align="left"}
 
       Elemente hervorgehoben unter **A**, **B**, **C** und **D** werden nachfolgend beschrieben:
 
@@ -79,20 +79,19 @@ Führen Sie die folgenden Schritte aus, um die CSV-Datei eines DITA-Map-Berichts
 
 1. Klicken **Bericht erstellen** oben links, um den DITA-Map-Bericht zu generieren.
 
-   ![](images/generate-DITA-map-report.png)
+   ![](images/generate-DITA-map-report.png){width="800" align="left"}
 
 1. Sie erhalten eine Benachrichtigung, sobald der Bericht heruntergeladen werden kann. Klicken **Download** , um die CSV-Datei des erstellten Berichts herunterzuladen.
 
-   ![](images/download-report-dialog.png)
+   ![](images/download-report-dialog.png){width="550" align="left"}
 
 
    Sie können die CSV-Datei des erstellten Berichts auch später aus dem AEM Benachrichtigungs-Posteingang herunterladen.
 
    Klicken Sie im Posteingang auf den erstellten Bericht, um den Bericht herunterzuladen.
 
-   ![](images/report-inbox--notification.png)
+   ![](images/report-inbox--notification.png){width="300" align="left"}
 
 Nachdem der Bericht im Posteingang heruntergeladen wurde, können Sie auch den Bericht auswählen und oben das Symbol Öffnen verwenden, um den ausgewählten Bericht zu öffnen.
 
 **Übergeordnetes Thema:**[ Berichte](reports-intro.md)
-

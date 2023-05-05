@@ -1,13 +1,13 @@
 ---
 title: DITA-Zuordnungsbericht aus dem Web-Editor
 description: Erfahren Sie, wie Sie im Web Editor einen DITA-Zuordnungsbericht erstellen
-source-git-commit: 895d9bd3587c871d5223df5b71403d10bdc3d762
+exl-id: b1011cec-6374-4026-bf1c-54a1981c760e
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '1608'
 ht-degree: 0%
 
 ---
-
 
 # DITA-Zuordnungsbericht aus dem Web-Editor {#id231HF0Z0NXA}
 
@@ -25,9 +25,10 @@ Sie können einen Bericht zu den Themen erstellen, indem Sie die folgenden Schri
 1. Klicken Sie auf **Verwalten** Registerkarte.
 1. Doppelklicken **Themenliste** auf der linken Seite. Die Liste der in der DITA-Map vorhandenen Themen wird angezeigt.
 
-   ![](images/web-editor-topiclist-panel.png)
+   ![](images/web-editor-topiclist-panel.png){width="800" align="left"}
 
 1. Aus dem **Filter** Bedienfeld Sie können Ihre Themen nach **Referenztyp** \(direkt oder indirekt\), **Dokumentstatus** \(der aktuelle Status Ihrer Themen. Wenn sich Ihre Themen beispielsweise im Status &quot;Bearbeiten&quot;, &quot;In Überprüfung&quot;oder &quot;Überprüfen&quot;befinden, werden sie aufgelistet\) oder die **Autor** des Themas.
+
 1. Sie können auch die folgenden Themenfilteroptionen verwenden, um die folgenden Spalten in der Liste anzuzeigen:
 
    - **Thema** Der Titel des Themas wird in der DITA-Zuordnung angegeben. Sie können auf das Thema klicken, um es zu bearbeiten.
@@ -57,7 +58,7 @@ Führen Sie die folgenden Schritte aus, um die Metadaten Ihrer Referenzen in der
 1. Klicken Sie auf **Verwalten** Registerkarte.
 1. Doppelklicken **Metadaten** auf der linken Seite. Die Metadatenliste aller Verweise in der DITA-Zuordnung wird angezeigt. Dazu gehören auch die Medienreferenzen.
 
-   ![](images/web-editor-metadata-panel.png)
+   ![](images/web-editor-metadata-panel.png){width="800" align="left"}
 
 1. Aus dem **Filter** Bereich können Sie Ihre Themen nach **Dokumentstatus** \(der aktuelle Status Ihrer Themen. Wenn sich Ihre Themen beispielsweise im Status &quot;Bearbeiten&quot;, &quot;In Überprüfung&quot;oder &quot;Überprüfen&quot;befinden, werden sie aufgelistet\), **Verweise** \(direkt oder indirekt\), **Dateityp** \(Zuordnung, Thema und Bild\) der Referenz.
 1. Sie können auch festlegen, dass nur die **Dateien ohne Tags** oder wählen Sie bestimmte Tags aus der **Tags** filtern, um die mit ihnen verknüpften Dateien anzuzeigen.
@@ -92,7 +93,7 @@ Führen Sie die folgenden Schritte aus, um die Metadaten Ihrer Referenzen in der
 
 1. Auswählen **Verwalten** von oben aus.
 
-   ![](images/web-editor-manage-metadata.png)
+   ![](images/web-editor-manage-metadata.png){width="350" align="left"}
 
 1. Wenn Sie neue Tags hinzufügen möchten, wählen Sie neue Tags aus der Dropdown-Liste aus, um sie auf alle ausgewählten Themen anzuwenden. Sie können auch ein beliebiges Tag löschen, indem Sie auf das Kreuzsymbol neben dem Tag klicken.
 
@@ -114,11 +115,11 @@ Die **Multimedia** enthält detaillierte Informationen zu den in Ihrer Zuordnung
 
    - Wenn Sie nach **Multimedia**, wird der Name des Multimediums in der ersten Spalte angezeigt und dann werden die Namen aller Verweise, in denen es verwendet wurde, in einer anderen Spalte in derselben Zeile angezeigt. Der folgende Screenshot zeigt beispielsweise die Multimedia-Datei WarmCoolForC.gif in der ersten Spalte und drei Referenzen, in denen sie verwendet wird, werden in der dritten Spalte in derselben Zeile angezeigt.
 
-      ![](images/multimedia-report-file-order.png)
+      ![](images/multimedia-report-file-order.png){width="650" align="left"}
 
    - Wenn Sie nach **Verwendet in** -Spalte, sehen Sie die verschobene Ansicht, in der die Namen der Verweise, in denen Multimedia verwendet wurde, in der ersten Spalte aufgeführt sind, während die Multimedia-Namen in einer anderen Spalte in separaten Zeilen aufgeführt sind. Der folgende Screenshot zeigt beispielsweise die Namen der drei Verweise \(Sitztemperatur anpassen, Sitztemperatur ändern und Besatzfläche ändern\) in der ersten Spalte und das Multimedia WarmCoolForC.gif wird in der dritten Spalte in drei separaten Zeilen angezeigt.
 
-      ![](images/multimedia-report-used-in-order.png)
+      ![](images/multimedia-report-used-in-order.png){width="650" align="left"}
 
 1. Sie können Ihre Multimedia-Daten nach **Multimedia-Typ** und **Referenztyp**. Die Liste der Multimedia-Dateien wird je nach Auswahl in der Dropdown-Liste angezeigt. Sie können beispielsweise festlegen, dass nur die Audioverweise in Ihrer DITA-Zuordnung angezeigt werden und eine Datei nur die darin verwendeten Audioverweise anzeigt.
 
@@ -138,10 +139,11 @@ Die **Multimedia** enthält detaillierte Informationen zu den in Ihrer Zuordnung
    >[!NOTE]
    >
    > Klicken **Aktualisieren** um eine neue Liste von Multimedia zu erhalten und alle Änderungen in Ihrer Map-Datei zu sehen oder ob Multimedia in Ihrer DITA-Karte aktualisiert wird.
+
 1. Sie können auch im Web Editor auf eine Audio- oder Videodatei klicken und diese wiedergeben. Sie können die Lautstärke oder die Ansicht des Videos ändern. Im Kontextmenü haben Sie auch die Möglichkeit, Bilder herunterzuladen, die Wiedergabegeschwindigkeit zu ändern oder Bilder im Bild anzuzeigen.
-   ![](images/video-web-editor.png)
+
+   ![](images/video-web-editor.png){width="800" align="left"}
 
 1. Klicken **CSV herunterladen** um den aktuellen Schnappschuss des Multimedia-Programms in die DITA-Karte herunterzuladen. Die CSV-Datei enthält die ausgewählten Spalten und die Multimedia-Datei, die im **Multimedia** anzeigen. Sie können diese Multimedia-CSV-Datei dann in einem beliebigen CSV-Editor öffnen.
 
 **Übergeordnetes Thema:**[ Berichte](reports-intro.md)
-

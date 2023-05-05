@@ -1,13 +1,13 @@
 ---
 title: AEM Site
 description: Erfahren Sie, wie Sie Site AEM
-source-git-commit: 23d6c87b525f0763990166e46f4bd4ac2d6e7cd5
+exl-id: 8523ec55-d7f3-439d-96e8-163c7632f73c
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '2545'
 ht-degree: 0%
 
 ---
-
 
 # AEM Site {#id205BE3008SW}
 
@@ -86,7 +86,7 @@ Um die Veröffentlichung komplexer Karten und Themen zu vereinfachen, die mit an
 
 Im Veröffentlichungskontext können Sie festlegen, welches Thema für die Veröffentlichung einer bestimmten Ausgabe verwendet werden soll. Nehmen wir an, Sie haben vier Ordner: Probe a, Probe b, Probe c und Probe d. Jeder Ordner enthält eine DITA-Zuordnung - DITA-Zuordnung A, DITA-Zuordnung B, DITA-Zuordnung C und DITA-Zuordnung D. Eine Querzuordnungsverknüpfung erfolgt, wenn ein Thema in DITA Map A auf ein Thema in DITA Map B, C oder D verweist. Im folgenden Screenshot enthält ein Beispielkonzept Verknüpfungen \(oder Verweise\) zu Dateien, die Teil anderer DITA-Maps sind.
 
-![](images/sample-concept-link-to-other.png){width="450" align="left"}
+![](images/sample-concept-link-to-other.png){width="350" align="left"}
 
 Wenn Sie jetzt die Veröffentlichungseinstellungen der AEM Site für die Zuordnungsdatei konfigurieren, die dieses Thema enthält, können Sie auswählen, welcher Veröffentlichungskontext für den verknüpften Inhalt beim Veröffentlichen verwendet wird. Ein Veröffentlichungskontext ist eine Kombination aus DITA Map und der zugehörigen Ausgabevorgabe. Die Ausgabevorgabe wiederum enthält eine bestimmte Version des Inhalts und bedingte Vorgaben. Diese gesamte Kombination aus DITA-Zuordnung, Ausgabevorgabe, \(Dateien\) Version und Bedingungen definiert den Veröffentlichungskontext für eine verknüpfte Zuordnung.
 
@@ -143,8 +143,7 @@ Wenn Sie `conref` in Ihrem Inhalt veröffentlicht wird, wird er als normaler ode
 
 Sie können in der Ausgabe der AEM Site nach einer Zeichenfolge suchen. Standardmäßig können Sie nur in den Titeln nach der Zeichenfolge suchen. Wenden Sie sich an Ihren Systemadministrator, um die Eigenschaft flattening.enabled zu aktivieren, um im Inhalt oder im Hauptteil der AEM-Site nach der Zeichenfolge zu suchen.
 
-
-<img src="images/aem-output-search.png" alt="AEM Site-Ausgabe durchsuchen" width="800">
+![AEM Site-Ausgabe durchsuchen](images/aem-output-search.png){width="650" align="left"}
 
 Weitere Informationen finden Sie unter *Reduzieren AEM Site-Knotenstruktur konfigurieren* im Handbuch &quot;Installieren und Konfigurieren von Adobe Experience Manager-Handbüchern&quot;.
 

@@ -1,13 +1,13 @@
 ---
 title: Ausgabe von .book- oder .fm-Dateien generieren
 description: Erfahren Sie, wie Sie Ausgabe von .book- oder .fm-Dateien generieren.
-source-git-commit: 55319e6e0ca9b77c3ad9b1e6d8aafddd306f4ed5
+exl-id: 578cff9f-cb27-4df3-8571-277f81b930d7
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 0%
 
 ---
-
 
 # Ausgabe von .book- oder .fm-Dateien generieren {#generating_output_fm_docs}
 
@@ -17,7 +17,7 @@ Führen Sie die folgenden Schritte aus, um die Ausgabe für FrameMaker-Dokumente
 
    Die DITA-Zuordnungskonsole wird mit der Liste der zum Generieren der Ausgabe verfügbaren Ausgabevorgaben angezeigt.
 
-   ![](images/publish-fm-doc.png)
+   ![](images/publish-fm-doc.png){width="800" align="left"}
 
 1. Wählen Sie eine oder mehrere Ausgabevorgaben aus, die Sie zum Generieren der Ausgabe verwenden möchten.
 
@@ -29,4 +29,3 @@ Führen Sie die folgenden Schritte aus, um die Ausgabe für FrameMaker-Dokumente
 > Sie können den aktuellen Status der Ausgabegenerierungsanforderung anzeigen, indem Sie auf &quot;Ausgaben&quot;klicken. Weitere Informationen finden Sie unter [Status der Ausgabegenerierungsaufgabe anzeigen](fm-output-view-status.md).
 
 **Übergeordnetes Thema:**[ Ausgabe von FrameMaker-Dokumenten generieren](fm-output-generatation.md)
-

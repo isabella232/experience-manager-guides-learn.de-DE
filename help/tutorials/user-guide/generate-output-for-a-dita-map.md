@@ -1,13 +1,13 @@
 ---
 title: Generieren der Ausgabe für eine DITA-Zuordnung über die Zuordnungskonsole
 description: Erfahren Sie, wie Sie in der Zuordnungskonsole eine Ausgabe für eine DITA-Zuordnung generieren
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 98afbdd2-56d7-44b0-ad2a-25e9143c88f3
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '1399'
 ht-degree: 0%
 
 ---
-
 
 # Generieren der Ausgabe für eine DITA-Zuordnung über die Zuordnungskonsole {#id1825FG00UHT}
 
@@ -19,7 +19,7 @@ Führen Sie die folgenden Schritte aus, um die Ausgabe für eine DITA-Zuordnung 
 
 1. Wählen Sie eine oder mehrere Ausgabevorgaben aus, die Sie zum Generieren der Ausgabe verwenden möchten.
 
-   ![](images/generate-multiple-outputs-uuid.png)
+   ![](images/generate-multiple-outputs-uuid.png){width="800" align="left"}
 
    >[!NOTE]
    >
@@ -68,7 +68,7 @@ Führen Sie die folgenden Schritte aus, um die Ausgabe für ein bestimmtes Thema
    >
    > Wenn Sie der DITA-Map neue Themen hinzugefügt haben, können Sie diese neuen Themen von hier aus nicht generieren. Sie müssen zuerst die neu hinzugefügten Themen veröffentlichen, indem Sie die DITA-Map-Veröffentlichungsfunktion verwenden.
 
-   ![](images/regenerate-topics.png)
+   ![](images/regenerate-topics.png){width="800" align="left"}
 
 1. Klicken **Regenerieren**.
 
@@ -95,7 +95,7 @@ Führen Sie die folgenden Schritte aus, um die Ausgabegenerierungswarteschlange 
 
 1. Klicken **Ausgaben**.
 
-   ![](images/output-queued.png)
+   ![](images/output-queued.png){width="800" align="left"}
 
    Die Seite &quot;Ausgaben&quot;ist in zwei Teile unterteilt:
 
@@ -132,17 +132,17 @@ Führen Sie die folgenden Schritte aus, um eine Ausgabegenerierungsaufgabe über
 
 1. Klicken Sie auf *Vorgang abbrechen* Symbol.
 
-   ![](images/cancel-publish-task-map-console.png)
+   ![](images/cancel-publish-task-map-console.png){width="800" align="left"}
 
 1. Klicken **Ja** auf der Meldung Abbruch bestätigen angezeigt.
 
-   ![](images/confirm-cancel-output-map-condole.png)
+   ![](images/confirm-cancel-output-map-condole.png){width="800" align="left"}
 
    Wenn die Aufgabe noch nicht gestartet wurde, wird der Befehl &quot;Abbrechen&quot;für die Aufgabe ausgeführt. Für eine Aufgabe, die abgebrochen wird, ist der Status auf &quot;Abbrechen&quot;eingestellt.
 
    Nachdem die Aufgabe erfolgreich abgebrochen wurde, wird sie in den **Generierte Ausgaben** Liste mit **Abgebrochen** Status. Wenn Sie den Mauszeiger über die abgebrochene Aufgabe bewegen, wird der Name des Benutzers angezeigt, der die Aufgabe abgebrochen hat. Im folgenden Screenshot wird die *HTML5* Aufgabe wird abgebrochen.
 
-   ![](images/cancelled-output-task.png)
+   ![](images/cancelled-output-task.png){width="800" align="left"}
 
 
 ## Ausgabeaufgabe aus DITA-Map-Konsole löschen
@@ -159,7 +159,7 @@ Führen Sie die folgenden Schritte aus, um eine Ausgabeaufgabe aus der Liste &qu
 
 1. Klicken Sie auf das Löschsymbol.
 
-   ![](images/delete-output-task.png)
+   ![](images/delete-output-task.png){width="800" align="left"}
 
 1. Klicken **Ja** auf der Meldung Löschung bestätigen .
 
@@ -167,4 +167,3 @@ Führen Sie die folgenden Schritte aus, um eine Ausgabeaufgabe aus der Liste &qu
 
 
 **Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)
-

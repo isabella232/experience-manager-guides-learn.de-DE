@@ -1,13 +1,13 @@
 ---
 title: Best Practices für die Übersetzung von Inhalten
 description: Erfahren Sie, wie Sie Best Practices für die Übersetzung von Inhalten anwenden
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 4eff0f27-b3d1-4c6e-af88-bcb3f6d96990
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '1237'
 ht-degree: 2%
 
 ---
-
 
 # Best Practices für die Übersetzung von Inhalten {#id1678G0S702F}
 
@@ -29,7 +29,7 @@ Beachten Sie beim Übersetzen von Inhalten den folgenden Punkt:
 
 Die folgende Abbildung zeigt ein Beispiel für eine Ordnerstruktur in AEM, wenn Sie global verwendeten Inhalt und drei Sprachkopien haben.
 
-![](images/aem-directory_structure.png)
+![](images/aem-directory_structure.png){width="800" align="left"}
 
 ## Übersetzungsdienst konfigurieren
 
@@ -129,4 +129,3 @@ Nach Abschluss der Übersetzung ändert sich der Status des Übersetzungsauftrag
 > Wenn Sie die Übersetzung für ein oder mehrere Themen in einem Übersetzungsauftrag ablehnen, wird die **In Bearbeitung** Der Übersetzungsstatus aller abgelehnten Themen wird auf ihren ursprünglichen Status zurückgesetzt. Der Status der referenzierten Themen wird überprüft und entsprechend dem aktuellen Übersetzungsstatus zurückgesetzt. Außerdem werden die im Zielprojekt erstellten Übersetzungsdateien nicht gelöscht, selbst wenn die Übersetzung für sie abgelehnt wurde.
 
 **Übergeordnetes Thema:**[ Inhalt übersetzen](translation.md)
-

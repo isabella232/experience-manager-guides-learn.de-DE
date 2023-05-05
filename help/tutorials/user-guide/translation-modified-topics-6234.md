@@ -1,13 +1,13 @@
 ---
 title: Geänderte Themen übersetzen
 description: Erfahren Sie, wie Sie geänderte Themen übersetzen
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 48b868c3-27ec-4641-b40d-17a641be7497
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 0%
 
 ---
-
 
 # Geänderte Themen übersetzen {#id16A5A0B6072}
 
@@ -29,7 +29,7 @@ Führen Sie die folgenden Schritte aus, um ein geändertes Thema zur erneuten Ü
 
    Wenn Sie auf den Pfeil klicken, werden weitere Details angezeigt. Sie können die bestimmte Sprachkopie sehen, die veraltet ist.
 
-   ![](images/out-of-sync-uuid.png)
+   ![](images/out-of-sync-uuid.png){width="800" align="left"}
 
 1. Aktivieren Sie das Kontrollkästchen, um die Themen auszuwählen, die Sie zur erneuten Übersetzung senden möchten.
 
@@ -51,7 +51,7 @@ Führen Sie die folgenden Schritte aus, um ein geändertes Thema zur erneuten Ü
 
 1. Navigieren Sie in der Projektekonsole zum Übersetzungsprojekt. Eine neue Übersetzungsauftragskarte wird im Ordner erstellt. Klicken Sie auf die Auslassungszeichen, um die Assets des Ordners anzuzeigen.
 
-   ![](images/incremental-job.PNG)
+   ![](images/incremental-job.PNG){width="300" align="left"}
 
 1. Um die Übersetzung zu starten, klicken Sie auf den Pfeil auf der Karte für den Übersetzungsauftrag und wählen Sie **Starten** aus der Liste. Eine Meldung informiert Sie darüber, dass der Auftrag gestartet wurde.
 
@@ -76,4 +76,3 @@ Führen Sie die folgenden Schritte aus, um ein geändertes Thema zur erneuten Ü
 
 
 **Übergeordnetes Thema:**[ Inhalt übersetzen](translation.md)
-

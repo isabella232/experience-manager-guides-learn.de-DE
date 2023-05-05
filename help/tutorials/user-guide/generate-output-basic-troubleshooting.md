@@ -1,13 +1,13 @@
 ---
 title: Grundlegende Fehlerbehebung
 description: Erfahren Sie, wie Sie die grundlegende Fehlerbehebung durchführen.
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: b5ab2618-6f11-4aaa-8471-09521f8bb512
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 0%
 
 ---
-
 
 # Grundlegende Fehlerbehebung {#id1821I0Y0G0A}
 
@@ -21,7 +21,7 @@ Führen Sie die folgenden Schritte aus, um die Protokolldatei zur Ausgabegenerie
 
    Die **Allgemein** Spalte **Generierte Ausgaben** zeigt die Symbole an, um einen visuellen Hinweis zum Erfolg oder Misserfolg der Ausgabegenerierung zu geben.
 
-   ![](images/output-general-settings.png)
+   ![](images/output-general-settings.png){width="300" align="left"}
 
    Im obigen Screenshot zeigen die ersten und dritten Symbole eine fehlgeschlagene Ausgabegenerierung an. Das zweite Symbol zeigt eine erfolgreiche Ausgabegenerierung, jedoch mit Nachrichten. Die letzte ist eine erfolgreiche Ausgabegenerierung ohne Nachricht.
 
@@ -29,7 +29,7 @@ Führen Sie die folgenden Schritte aus, um die Protokolldatei zur Ausgabegenerie
 
    Die Protokolldatei wird in einer neuen Registerkarte geöffnet.
 
-   ![](images/log-file.png)
+   ![](images/log-file.png){width="800" align="left"}
 
 1. Wenden Sie die folgenden Filter an, um den Text in der Protokolldatei hervorzuheben:
    - Tödlich: Zeigt die schwerwiegenden Fehler in der Protokolldatei mit rosa Farbe an.
@@ -61,15 +61,15 @@ Führen Sie die folgenden Schritte aus, um die Protokolldatei zur Ausgabegenerie
 
    - *Fehler im Zusammenhang mit DITA-Map-Dateien*: Wenn in der DITA-Map-Datei oder einer anderen in der DITA-Zuordnung enthaltenen Datei ein Fehler gefunden wird, enthält die Protokolldatei die Zeichenfolge &quot;BUILD FEHLGESCHLAGEN&quot;. Sie können die in der Protokolldatei angegebenen Informationen überprüfen, um die fehlerhafte Datei zu finden und das Problem zu beheben.
 
-      Im folgenden Beispielprotokolldateiausschnitt sehen Sie die `BUILD FAILED` zusammen mit dem Grund für den Fehler.
+   Im folgenden Beispielprotokolldateiausschnitt sehen Sie die `BUILD FAILED` zusammen mit dem Grund für den Fehler.
 
-      ![](images/dita-error-in-log-file.png)
+   ![](images/dita-error-in-log-file.png){width="650" align="left"}
 
-      - *Fehler AEM Guides-bezogen*: Der andere Fehlertyp, den Sie in der Protokolldatei identifizieren können, bezieht sich auf AEM Guides-Prozess selbst. In diesem Fall wird die DITA-Map-Datei erfolgreich analysiert, aber der Prozess zur Generierung der Ausgabe schlägt aufgrund eines internen Fehlers in AEM Guides fehl. Für solche Fehler müssen Sie sich beim technischen Support-Team um Hilfe bemühen.
+   - *Fehler AEM Guides-bezogen*: Der andere Fehlertyp, den Sie in der Protokolldatei identifizieren können, bezieht sich auf AEM Guides-Prozess selbst. In diesem Fall wird die DITA-Map-Datei erfolgreich analysiert, aber der Prozess zur Generierung der Ausgabe schlägt aufgrund eines internen Fehlers in AEM Guides fehl. Für solche Fehler müssen Sie sich beim technischen Support-Team um Hilfe bemühen.
 
-         Im folgenden Beispielprotokolldateiausschnitt sehen Sie die `BUILD SUCCESSFUL` Nachricht gefolgt von einem anderen technischen Fehler.
+   Im folgenden Beispielprotokolldateiausschnitt sehen Sie die `BUILD SUCCESSFUL` Nachricht gefolgt von einem anderen technischen Fehler.
 
-         ![](images/process-error-in-log-file.png)
+   ![](images/process-error-in-log-file.png){width="650" align="left"}
 
 
 ## JSP-Kompilierungsfehler beheben
@@ -90,4 +90,3 @@ Führen Sie die folgenden Schritte aus, um dieses Problem zu beheben:
 
 
 **Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)
-

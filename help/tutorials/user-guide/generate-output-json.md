@@ -1,13 +1,13 @@
 ---
 title: JSON
 description: Erfahren Sie, wie Sie JSON verwenden
-source-git-commit: 8b6294425c6e60d1c5b37d98e99114014a104ee6
+exl-id: 0a938cc2-1a6f-4ee4-ad7e-f94ad2a0cf94
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '660'
 ht-degree: 1%
 
 ---
-
 
 # JSON {#id231KK0180T4}
 
@@ -38,7 +38,7 @@ Die folgenden Optionen sind für die JSON-Vorgabe verfügbar:
 >
 > Sie können die JSON-Datei auch im Web Editor bearbeiten.
 
-| JSON-Ausgabeoptionen | Beschreibung |
+| JSON-Optionen | Beschreibung |
 | --- | --- |
 | Ausgabepfad | Der Pfad in Ihrem AEM-Repository, in dem die JSON-Ausgabe gespeichert wird. |
 | Indexdatei | Sie können einen Namen für die Indexdatei angeben, die Sie für die JSON-Ausgabe erstellen. Standardmäßig wird der Dateiname der DITA-Map ausgewählt und ein Suffix hinzugefügt (wie `map_filename_index.json`).<br><br>Sie können auch Variablen beim Festlegen der Indexdatei verwenden. Weitere Informationen zur Verwendung von Variablen finden Sie unter [Verwenden Sie Variablen zum Festlegen der Optionen &quot;Zielpfad&quot;, &quot;Site-Name&quot;oder &quot;Dateiname&quot;](generate-output-use-variables.md#id18BUG70K05Z). |
@@ -48,4 +48,3 @@ Die folgenden Optionen sind für die JSON-Vorgabe verfügbar:
 | Arbeitsablauf nach der Erstellung | Wenn Sie diese Option wählen, wird eine neue Dropdownliste mit dem Workflow nach der Generierung angezeigt, die alle in AEM konfigurierten Workflows enthält. Sie müssen einen Workflow auswählen, der nach Abschluss des Workflows zur Generierung der Ausgabe ausgeführt werden soll.<br><br>**Hinweis**: Weitere Informationen zum Erstellen eines benutzerdefinierten Workflows für die Generierung nach der Ausgabe finden Sie unter _Arbeitsablauf für die Generierung nach der Ausgabe anpassen_ im as a Cloud Service Handbuch zum Installieren und Konfigurieren von Adobe Experience Manager-Handbüchern. |
 
 **Übergeordnetes Thema:**[ Grundlegendes zu den Ausgabevorgaben](generate-output-understand-presets.md)
-

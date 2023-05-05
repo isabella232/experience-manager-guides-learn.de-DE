@@ -1,13 +1,13 @@
 ---
 title: Konversionsstatusbericht
 description: Erfahren Sie, wie Sie den Konversionsstatusbericht
-source-git-commit: bb7a8d49e5425b7fc856277c054558c75394fcb2
+exl-id: 41887af2-404f-41d7-b54c-ec49797200f0
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 0%
 
 ---
-
 
 # Konversionsstatusbericht {#id205BBA00WZZ}
 
@@ -23,7 +23,7 @@ Führen Sie die folgenden Schritte aus, um den Konversionsstatusbericht anzuzeig
 
    Der Konversionsstatusbericht wird für alle Konversionsaufgaben angezeigt, die auf dem System ausgeführt werden.
 
-   ![](images/conversion-status-report.png)
+   ![](images/conversion-status-report.png){width="800" align="left"}
 
 1. Die Berichtsseite ist in zwei Teile unterteilt:
 
@@ -33,7 +33,7 @@ Führen Sie die folgenden Schritte aus, um den Konversionsstatusbericht anzuzeig
 
       Im folgenden Screenshot werden die Berichtsdaten für Konversionsaufgaben angezeigt, die den Status &quot;Fehlgeschlagen&quot;, &quot;Aktiv&quot;und &quot;In Warteschlange&quot;aufweisen.
 
-      ![](images/conversion-report-failed-active-queued.png)
+      ![](images/conversion-report-failed-active-queued.png){width="800" align="left"}
 
    - **Berichtsdaten:**
 
@@ -55,4 +55,3 @@ Führen Sie die folgenden Schritte aus, um den Konversionsstatusbericht anzuzeig
 
 
 **Übergeordnetes Thema:**[ Berichte](reports-intro.md)
-

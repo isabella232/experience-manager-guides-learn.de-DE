@@ -1,13 +1,13 @@
 ---
 title: Massenaktivierungszuordnung bearbeiten
 description: Erfahren Sie, wie Sie eine Massen-Aktivierungszuordnung bearbeiten
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 110eba52-c886-4148-aff9-9c4e1d3d85bd
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 3%
 
 ---
-
 
 # Massenaktivierungszuordnung bearbeiten {#id214GI40B0XA}
 
@@ -33,7 +33,7 @@ Sie können eine Massen-Aktivierungszuordnungssammlung bearbeiten, indem Sie ein
 
 1. Klicken Sie auf **Löschen**.
 
-   ![](images/bulk-activation-delete-map.png)
+   ![](images/bulk-activation-delete-map.png){width="800" align="left"}
 
    Die ausgewählte Zuordnung wird aus der Massen-Aktivierungszuordnung entfernt.
 
@@ -41,4 +41,3 @@ Sie können eine Massen-Aktivierungszuordnungssammlung bearbeiten, indem Sie ein
 
 
 **Übergeordnetes Thema:**[ Massenaktivierung veröffentlichter Inhalte](conf-bulk-activation.md)
-
