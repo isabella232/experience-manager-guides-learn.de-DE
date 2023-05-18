@@ -1,9 +1,9 @@
 ---
 title: Einrichtung von Inhalten und Vorlagen
 description: Erfahren Sie, was Sie beim Einrichten von Inhalten und Vorlagen in AEM Handbüchern beachten sollten.
-source-git-commit: a2f656c4f547e215a8bbb927f20f8e97d29ef29d
+source-git-commit: 87c92776f417aba49096b447baf81916dea5d57f
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '289'
 ht-degree: 1%
 
 ---
@@ -64,8 +64,8 @@ In dieser Sitzung haben Sie Folgendes erfahren:
 
 ## Nächste Sachverständigensitzung
 
-- **Thema** - TBD
-- **Geplant am** - 25. Mai 2023
+- **Thema** - Native PDF-Veröffentlichung - Lernen anhand von Beispielen (Teil 1)
+- **Geplant am** - 1. Juni 2023
 
 
 ## Kontakt
