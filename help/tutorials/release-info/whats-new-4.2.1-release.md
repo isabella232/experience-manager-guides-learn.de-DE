@@ -1,9 +1,9 @@
 ---
 title: Versionshinweise | Neue Funktionen in Version 4.2.1 der Adobe Experience Manager-Handbücher
 description: Erfahren Sie mehr über die neuen und verbesserten Funktionen in Version 4.2.1 der Adobe Experience Manager-Handbücher.
-source-git-commit: 66b83f940457c64dadc5b319e1274960ac0f6da8
+source-git-commit: 8ea7b6d80b94d24910ac00bf1fb1d40d6992a166
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '701'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Jetzt können Sie einfach vom Web-Editor zur AEM Navigationsseite navigieren.
 
 * Klicken Sie auf **Handbücher** Symbol (![](assets/aem-guides-icon.png) ), um zur AEM Navigationsseite zurückzukehren.
 
+
+Weitere Informationen finden Sie unter [AEM](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ)
 
 ## Erweiterte Metadatenunterstützung beim PDF-Publishing
 
@@ -45,7 +47,7 @@ Die Gliederung bietet die folgenden Verbesserungen:
 
 * Mithilfe der Suchfunktion können Sie nach einem Element anhand seines Namens, seiner ID, seines Textes oder seines Attributwerts suchen.
 
-Weitere Informationen finden Sie in der Beschreibung der Funktion für die Gliederungsansicht im [Linke Leiste](../user-guide/web-editor-features.md) Abschnitt.
+Weitere Informationen finden Sie in der Beschreibung der Funktion für die Gliederungsansicht im [Linke Leiste](../user-guide/web-editor-features.md#id2051EA0M0HS) Abschnitt.
 
 ## Multimedia-Bericht aus dem Web-Editor generieren
 
@@ -80,4 +82,4 @@ AEM Handbücher bietet jetzt die Funktion zum Öffnen und Abspielen der Audio- o
 
 <img src="assets/video-web-editor.png" alt="Abspielvideo" width="600">
 
-Weitere Informationen finden Sie in der Beschreibung der Funktion &quot;Repository-Ansicht&quot;im [Linke Leiste](../user-guide/web-editor-features.md) Abschnitt.
+Weitere Informationen finden Sie in der Beschreibung der Funktion &quot;Repository-Ansicht&quot;im [Linke Leiste](../user-guide/web-editor-features.md#id2051EA0M0HS) Abschnitt.
