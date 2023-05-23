@@ -2,9 +2,9 @@
 title: Anzeigen des Übersetzungsstatus
 description: Erfahren Sie, wie Sie den Übersetzungsstatus anzeigen.
 exl-id: 2662d86e-5ebd-4f41-a1e9-5bf4c96ffce2
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: d87a2e054310e3421dcbf347232a420638823b93
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '129'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,5 @@ Führen Sie die folgenden Schritte aus, um den Übersetzungsstatus einer DITA-Zu
    >[!NOTE]
    >
    > Sie können den Inhalt weiter nach ihrem Übersetzungsstatus filtern \(als nicht synchronisierte fehlende Kopie, In Bearbeitung oder Synchronisierung\), Quelltyp \(als Alle, DITA, DITA-Zuordnung oder Ressource\), Änderungsdatum. Sie können auch Keywords eingeben, um nach bestimmten Themen zu suchen.
-
-   ![](images/status-translation-uuid.png){width="800" align="left"}
-
-
-Die Registerkarte Übersetzung enthält die folgenden Abschnitte:
-
-- **Zusammenfassung**: Zeigt die Anzahl der referenzierten Themen und die Quellsprache zusammen mit ihrem Code an.
-- **Details**: Zeigt den Titel des Themas, den Typ des Themas, den Sprachcode des Themas, die Quellsprache, die Version des Quellthemas, die zum Thema hinzugefügte Bezeichnung und den Übersetzungsstatus an.
 
 **Übergeordnetes Thema:**[ Inhalt übersetzen](translation.md)

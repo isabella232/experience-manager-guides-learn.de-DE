@@ -2,10 +2,10 @@
 user-guide-title: Tutorials für AEM Guides
 user-guide-description: Lesen Sie unsere Sammlung an Tutorials für Adobe Experience Manager Guides.
 breadcrumb-title: Tutorials für AEM Guides
-source-git-commit: 0cc1e12382fb90784ea78cb500bf0a24d6ec50df
+source-git-commit: 6982737881d7dcf314d28a69060db7031e156c76
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 8%
+source-wordcount: '1012'
+ht-degree: 7%
 
 ---
 
@@ -33,7 +33,13 @@ ht-degree: 8%
             + [Februar - Versionshinweise](./release-info/release-notes-2022.2.0.md)
             + [Januar - Versionshinweise](./release-info/release-notes-2022.1.0.md)
       + On-Premise/Managed Services {#on-prem-release-notes}
-         + [4.2 Versionshinweise](./release-info/release-notes-4.2.md)
+         + Version 4.2 {#42-release}
+            + Neuerungen {#42-whats-new}
+               + [4.2.1 Neue Funktionen](./release-info/whats-new-4.2.1-release.md)
+               + [4.2 Neue Funktionen](./release-info/whats-new-4.2-release.md)
+            + Versionshinweise {#42-release-notes}
+               + [4.2.1 - Versionshinweise](./release-info/release-notes-4.2.1.md)
+               + [4.2 Versionshinweise](./release-info/release-notes-4.2.md)
          + [4.1.x - Versionshinweise](./release-info/release-notes-4.1.md)
          + [4.0.x - Versionshinweise](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
          + [3.8.x - Versionshinweise](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
@@ -156,6 +162,64 @@ ht-degree: 8%
       + [Bericht zur Inhaltswiederverwendung](./user-guide/reports-content-reuse.md)
       + [Konversionsstatusbericht](./user-guide/reports-convertion-status.md)
       + [Versionsverlauf wiederhergestellter Dateien - Bericht](./user-guide/reports-reverted-file-version-history.md)
++ Handbuch zur Installation und Konfiguration {#install-guide}
+   + On-Premise {#on-prem-ig}
+      + [Haftungsausschluss](./install-guide/rebranding-disclaimer.md)
+      + [Informationen zu diesem Handbuch](./install-guide/introduction.md)
+      + Herunterladen und installieren {#download-install-aemg}
+         + [Übersicht](./install-guide/download-install.md)
+         + [Technische Anforderungen](./install-guide/download-install-technical-requirements.md)
+         + [Installieren von Adobe Experience Manager](./install-guide/download-install-aem.md)
+         + [erstmaliges Herunterladen und Installieren AEM Handbücher](./install-guide/download-install-aemg-first-time.md)
+         + [Konfiguration des Dispatchers](./install-guide/download-install-configure-dispatcher.md)
+         + [Installation AEM Guides überprüfen](./install-guide/download-install-verify-aemg-installation.md)
+         + [Adobe Experience Manager-Handbücher aktualisieren](./install-guide/upgrade-xml-documentation.md)
+         + [AEM deinstallieren](./install-guide/download-install-unistall-aemg.md)
+         + [Recommendations zur Leistungsoptimierung](./install-guide/download-install-recommend-perf-optimiz.md)
+      + [Migration von Nicht-UUID-zu-UUID-Inhalten](./install-guide/migrate-uuid-non-uuid.md)
+      + [Benutzerverwaltung und Sicherheit](./install-guide/user-admin-sec.md)
+      + [Verwenden einer benutzerdefinierten DITA-OT- und DITA-Spezialisierung](./install-guide/dita-ot-specialization.md)
+      + [Dokumentstatus konfigurieren](./install-guide/customize-doc-state.md)
+      + Inhaltsmigration {#content-migration}
+         + [Migrieren vorhandener Inhalte](./install-guide/migrate-content.md)
+         + [Vorhandenen DITA-Inhalt hochladen](./install-guide/migrate-content-upload-existing-dita-content.md)
+         + [Nicht-DITA-Inhalt migrieren](./install-guide/migrate-content-non-dita.md)
+      + UUID- und Nicht-UUID-basierte Dateinamen konfigurieren {#conf-non-uuid-filename}
+         + [Dateinamen konfigurieren](./install-guide/conf-file-names.md)
+         + [Automatische Dateinamen basierend auf UUID konfigurieren](./install-guide/conf-auto-uuid-filenames.md)
+         + [Konfigurieren von Regx für gültige Dateinamenzeichen](./install-guide/conf-file-names-valid-regx.md)
+         + [Gültige Dateinamen für AEM Site-Ausgabe konfigurieren](./install-guide/conf-file-names-valid-regx-aem-site-output.md)
+      + Arbeiten mit Themen- und Zuordnungsvorlagen {#topic-map-template}
+         + [Konfigurieren von Themen- und Zuordnungsvorlagen](./install-guide/conf-template-tags.md)
+         + [Benutzerdefinierte DITA-Themenvorlage konfigurieren](./install-guide/conf-template-tags-custom-dita-topic-template.md)
+         + [Benutzerdefinierte DITA-Zuordnungsvorlage konfigurieren](./install-guide/conf-template-tags-custom-dita-map-templates.md)
+      + Arbeiten mit den Konfigurationen des Web-Editors {#web-editor-configs}
+      + [Anpassen des Web-Editors](./install-guide/conf-web-editor.md)
+      + [Symbolleiste anpassen](./install-guide/conf-web-editor-customize-toolbar.md)
+      + [Standardwert für die Tag-Ansicht konfigurieren](./install-guide/configure-default-value-tags-view.md)
+      + [Anzeige von UUID-basierten Links konfigurieren](./install-guide/conf-uuid-based-links.md)
+      + [DITA-Themen- oder Zuordnungsdateien auf derselben Registerkarte öffnen](./install-guide/open-dita-files-same-tab.md)
+      + [Benutzerdefiniertes Bedienfeld im linken Bereich konfigurieren](./install-guide/configure-custom-panel.md)
+      + [Automatische Speicherung von Dateien im Web Editor konfigurieren](./install-guide/auto-save-in-editor.md)
+      + [Filter für Dialogfeld &quot;Dateisuche&quot;konfigurieren](./install-guide/conf-custom-file-filters.md)
+      + [Eingabeaufforderung zum Speichern als neue Version beim Schließen konfigurieren](./install-guide/conf-save-as-new-version-close.md)
+      + [Eingabeaufforderung zum Einchecken einer Datei beim Schließen konfigurieren](./install-guide/conf-checkin-file-close.md)
+      + [Zulässige Sonderzeichen konfigurieren](./install-guide/conf-special-chars.md)
+      + [Element-IDs automatisch generieren](./install-guide/auto-generate-ids.md)
+      + [AEM Standardwörterbuch anpassen](./install-guide/customize-aem-custom-dictionary.md)
+      + [Textfilter konfigurieren](./install-guide/config-text-filters.md)
+      + [Konfigurieren der Anzahl der LimitReads für eine Abfrage](./install-guide/conf-query-limitreads.md)
+      + [Pakete für die artikelbasierte Veröffentlichung installieren](./install-guide/configure-article-based-publishing.md)
+      + [Festlegen des Erweiterten Map-Editors als Standard](./install-guide/conf-map-editor.md)
+      + [Standardmäßig Attribut @navtitle einschließen](./install-guide/auto-add-navtitle.md)
+      + [Konfigurieren globaler Profile oder Profile auf Ordnerebene](./install-guide/conf-folder-level.md)
+      + [Versionsverwaltung](./install-guide/version-management.md)
+      + [Integrieren von Desktop-basierten XML-Editoren](./install-guide/integrate-desktop-editors.md)
+      + [Ausgabegenerierungseinstellungen konfigurieren](./install-guide/conf-output-generation.md)
+      + [Workflows konfigurieren und anpassen](./install-guide/customize-workflows.md)
+      + [Inhalte übersetzen](./install-guide/translation.md)
+      + [Konfigurieren der Suche in der AEM Assets-Benutzeroberfläche](./install-guide/conf-dita-search.md)
+      + [Anhang](./install-guide/appendix.md)
 + Inhaltsarchitektur und Anwendungsfälle {#content-arch}
    + [Arbeiten mit bedingter Ausgabe](./content-architecture/create-and-use-conditions.md)
    + [Globale Schlüssel erstellen](./content-architecture/create-global-keys.md)

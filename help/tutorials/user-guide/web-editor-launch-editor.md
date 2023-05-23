@@ -1,13 +1,13 @@
 ---
 title: Web Editor starten
 description: Erfahren Sie, wie Sie den Web Editor starten
-source-git-commit: cc0fbca257d82cc82db5b5da8d263309fd71de55
+exl-id: f02f9612-7aaa-42ea-bad3-c44d23b5d034
+source-git-commit: dce7b1c97f8f7f79b313b08ca0489e8e50b633ec
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
-
 
 # Web Editor starten {#id2056B0140HS}
 
@@ -23,13 +23,34 @@ Die folgenden Abschnitte beschreiben, wie Sie den Web Editor von verschiedenen S
 
 Wenn Sie sich bei AEM anmelden, wird Ihnen die Navigationsseite angezeigt:
 
-![](images/web-editor-from-navigation-page_cs.png){width="800" align="left"}
+![](images/web-editor-from-navigation-page.png){width="800" align="left"}
 
-Klicken Sie auf die **XML-Editor** -Link führt Sie direkt zum Web-Editor.
+Klicken Sie auf **Handbücher** -Link führt Sie direkt zum Web-Editor.
 
 ![](images/web-editor-launch-page.png){width="800" align="left"}
 
 Da Sie den Web Editor gestartet haben, ohne eine Datei auszuwählen, wird ein leerer Web-Editor-Bildschirm angezeigt. Sie können eine Datei zur Bearbeitung aus AEM Repository oder Ihrer Favoriten-Sammlung öffnen.
+
+- Klicken Sie auf **Handbücher** Symbol (![](images/aem-guides-icon.png) ), um zur AEM Navigationsseite zurückzukehren.
+
+- Die **Schließen** -Schaltfläche führt Sie je nach Setup zu einem Ziel:
+
+
+
+   <details>
+
+   <summary> Cloud Services </summary>
+
+   Wenn Sie Cloud Services verwenden, klicken Sie auf die **Schließen** -Schaltfläche, um zur AEM Navigationsseite zurückzukehren.
+   </details>
+
+   <details>
+
+   <summary> On-Premise-Software</summary>
+
+   Wenn Sie AEM On-Premise-Software-Handbücher (4.2.1 und höher) verwenden, klicken Sie auf die Schaltfläche **Schließen** rechts klicken, um zu Ihrem aktuellen Dateipfad in der Assets-Benutzeroberfläche zurückzukehren.
+
+   </details>
 
 ## AEM Assets-Benutzeroberfläche {#id2056BG0307U}
 
@@ -102,4 +123,3 @@ Gehen Sie wie folgt vor, um den Web Editor über die DITA Map-Konsole zu öffnen
 
 
 **Übergeordnetes Thema:**[ Arbeiten mit dem Web-Editor](web-editor.md)
-

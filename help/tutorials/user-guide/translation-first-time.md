@@ -2,9 +2,9 @@
 title: Best Practices für die Übersetzung von Inhalten
 description: Erfahren Sie, wie Sie Best Practices für die Übersetzung von Inhalten anwenden
 exl-id: 4eff0f27-b3d1-4c6e-af88-bcb3f6d96990
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: d87a2e054310e3421dcbf347232a420638823b93
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1285'
 ht-degree: 2%
 
 ---
@@ -103,6 +103,16 @@ Führen Sie die folgenden Schritte aus, um ein Übersetzungsprojekt zu erstellen
 1. Klicken **Starten** , um ein neues Übersetzungsprojekt zu erstellen.
 
    Ein neues Übersetzungsprojekt wird mit der ausgewählten Version der Themen erstellt. Zu diesem Zeitpunkt wird eine Popup-Meldung angezeigt, die bestätigt, dass das Übersetzungsprojekt erstellt wurde. Sobald alle Zielsprachkopien im Übersetzungsprojekt verfügbar sind, erhalten Sie eine Benachrichtigung im Posteingang. Sobald der Bereich der Zielsprachkopien im Übersetzungsprojekt verfügbar ist, können Sie den Übersetzungsauftrag starten.
+
+   ![](images/status-translation-uuid.png){width="800" align="left"}
+
+
+Die Registerkarte Übersetzung enthält die folgenden Abschnitte:
+
+- **Zusammenfassung**: Zeigt die Anzahl der referenzierten Themen und die Quellsprache zusammen mit ihrem Code an.
+- **Details**: Zeigt den Titel des Themas, den Typ des Themas, den Sprachcode des Themas, die Quellsprache, die Version des Quellthemas, die zum Thema hinzugefügte Bezeichnung und den Übersetzungsstatus an.
+
+
 
 
 ## Übersetzungsauftrag starten {#id225IK030OE8}
