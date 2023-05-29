@@ -2,9 +2,9 @@
 user-guide-title: Tutorials für AEM Guides
 user-guide-description: Lesen Sie unsere Sammlung an Tutorials für Adobe Experience Manager Guides.
 breadcrumb-title: Tutorials für AEM Guides
-source-git-commit: 6982737881d7dcf314d28a69060db7031e156c76
+source-git-commit: c8feab55ed3b8e7b36ec46b21f63155766627e40
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1009'
 ht-degree: 7%
 
 ---
@@ -220,9 +220,6 @@ ht-degree: 7%
       + [Inhalte übersetzen](./install-guide/translation.md)
       + [Konfigurieren der Suche in der AEM Assets-Benutzeroberfläche](./install-guide/conf-dita-search.md)
       + [Anhang](./install-guide/appendix.md)
-+ Inhaltsarchitektur und Anwendungsfälle {#content-arch}
-   + [Arbeiten mit bedingter Ausgabe](./content-architecture/create-and-use-conditions.md)
-   + [Globale Schlüssel erstellen](./content-architecture/create-global-keys.md)
 + Konfiguration {#configuring}
    + Native PDF-Veröffentlichung {#config-native-pdf-publish}
       + [PDF-Vorlage](./native-pdf/pdf-template.md)
@@ -235,9 +232,6 @@ ht-degree: 7%
          + [Hinzufügen eines benutzerdefinierten Lesezeichens in der PDF-Ausgabe](./native-pdf/add-custom-bookmark.md)
          + [Verwenden von JavaScript zum Arbeiten mit Inhalt oder Stil](./native-pdf/use-javascript-content-style.md)
          + [Verwenden benutzerdefinierter Stile in Fußnoten](./native-pdf/footnote-number-style.md)
-   + [Einrichten eines benutzerdefinierten DITA-OT](./configuring/setup-a-custom-dita-ot.md)
-+ Übersetzung {#translation}
-   + [Absätze von der Übersetzung ausschließen](./translation/exclude-paragraphs-from-translation.md)
 + Versionierung {#versioning}
 + Wissensdatenbank {#knowledge-base}
    + Expertensitzung {#expert-session}
@@ -261,5 +255,11 @@ ht-degree: 7%
          + [FMPS und Handbücher](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          + [Microservice-Architektur und -Leistung](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          + [Konfigurieren der Veröffentlichung auf Microservice-Basis](./knowledge-base/publishing/configure-microservices.md)
+         + [Einrichten eines benutzerdefinierten DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
       + Workflows {#workflows}
          + [Arbeitsablauf nach der Erstellung](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
+      + Übersetzung {#translation}
+         + [Absätze von der Übersetzung ausschließen](./knowledge-base/kb-articles/translation/exclude-paragraphs-from-translation.md)
+      + Anwendungsfälle {#use-cases}
+         + [Arbeiten mit bedingten Inhalten](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
+         + [Arbeiten mit Schlüsseln](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
