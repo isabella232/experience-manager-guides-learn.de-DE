@@ -1,7 +1,7 @@
 ---
 title: Adobe Experience Manager-Handbücher aktualisieren
 description: Erfahren Sie, wie Sie Adobe Experience Manager-Handbücher aktualisieren
-source-git-commit: 629a3714e7b75af609238a506688da2674bf31cc
+source-git-commit: 414ee8ae3b12bb40054ddbe9e1a008ebc6058f89
 workflow-type: tm+mt
 source-wordcount: '2750'
 ht-degree: 1%
@@ -68,16 +68,22 @@ Führen Sie vor der Installation von Version 4.0 die folgenden Schritte aus:
 
 Diese API dient dazu, den aktuellen Systemstatus zu bewerten und darüber zu berichten, ob eine Aktualisierung möglich ist oder nicht. Um dieses Skript auszuführen, geben Sie den folgenden angegebenen Endpunkt ein:
 
-|Endpunkt|/bin/dxml/upgrade/3xto4x/report| |Anfragetyp|**GET** Sie können einen Webbrowser verwenden, in dem Sie als Administrator bei der AEM-Instanz angemeldet sind.| |Erwartete Antwort|- Falls alle erforderlichen Knoten verschoben werden können, erhalten Sie eine übergebene Prüfung. <br>- Wenn sich ein Knoten am Zielspeicherort befindet, wird ein relevanter Fehler ausgegeben. Bereinigen Sie das Repository \(Löschen-Knoten /var/dxml\), installieren Sie das Aktualisierungspaket neu und führen Sie dann erneut einen Trigger für diesen Endpunkt durch. <br>**Hinweis:** Dies ist kein häufiger Fehler, da der Zielort von 3.x-AEM-Handbüchern nicht früher verwendet wird. <br> - Wenn dieses Skript nicht erfolgreich ist, fahren Sie nicht fort und melden Sie es Ihrem Kundenerfolgsteam.|
+| Endpunkt | /bin/dxml/upgrade/3xto4x/report |
+| --- | --- |
+| Anfragetyp | **GET** Sie können einen Webbrowser verwenden, in dem Sie als Administrator bei der AEM-Instanz angemeldet sind. |
+| Erwartete Antwort | - Falls alle erforderlichen Knoten verschoben werden können, erhalten Sie eine übergebene Prüfung. <br>- Wenn sich ein Knoten am Zielspeicherort befindet, wird ein relevanter Fehler ausgegeben. Bereinigen Sie das Repository \(Löschen-Knoten /var/dxml\), installieren Sie das Aktualisierungspaket neu und führen Sie dann erneut einen Trigger für diesen Endpunkt durch. <br>**Hinweis:** Dies ist kein häufiger Fehler, da der Zielort von 3.x-AEM-Handbüchern nicht früher verwendet wird. <br> - Wenn dieses Skript nicht erfolgreich ist, fahren Sie nicht fort und melden Sie es Ihrem Kundenerfolgsteam. |
 
 **Systemdatenmigration-API**
 
-Diese API dient der Migration der Systemdaten, wie im Abschnitt [Migrationszuordnung](#id2244LE040XA) Abschnitt.
+Diese API dient der Migration der Systemdaten, wie im Abschnitt **Migrationszuordnung** Abschnitt.
 
 1. Führen Sie dieses Skript nicht aus, wenn die API zur Prüfung der Upgrade-Kompatibilität fehlschlägt \(fahren Sie nicht fort\).
 1. Sobald die API zur Prüfung der Upgrade-Kompatibilität erfolgreich ist, können Sie das Aktualisierungsskript ausführen.
 
-|Endpunkt|/bin/dxml/upgrade/3xto4x| |Anfragetyp|**POST** Dieses Skript ist eine POST-Anfrage und sollte daher über Agenten wie Postman ausgeführt werden.| |Erwartete Antwort|- Sobald die Migration erfolgreich war, können Sie die XML Documentation-Lösungsversion 4.0 installieren.<br>- Wenn Fehler auftreten, stellen Sie den letzten Checkpoint wieder her und geben Sie die Fehlerprotokolle zusammen mit der API-Ausgabe für Ihr Customer Success Team frei.|
+| Endpunkt | /bin/dxml/upgrade/3xto4x |
+| --- | --- |
+| Anfragetyp | **POST** Dieses Skript ist eine POST-Anfrage und sollte daher über Agenten wie Postman ausgeführt werden. |
+| Erwartete Antwort | - Nach erfolgreicher Migration können Sie die XML Documentation-Lösungsversion 4.0 installieren.<br>- Wenn Fehler auftreten, stellen Sie den letzten Checkpoint wieder her und geben Sie die Fehlerprotokolle zusammen mit der API-Ausgabe für Ihr Customer Success Team frei. |
 
 **Migrationszuordnung**: Die obige API migriert alle Daten unter dem Quellspeicherort zum Zielspeicherort.
 

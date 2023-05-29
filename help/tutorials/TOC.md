@@ -2,7 +2,7 @@
 user-guide-title: Tutorials für AEM Guides
 user-guide-description: Lesen Sie unsere Sammlung an Tutorials für Adobe Experience Manager Guides.
 breadcrumb-title: Tutorials für AEM Guides
-source-git-commit: c8feab55ed3b8e7b36ec46b21f63155766627e40
+source-git-commit: 414ee8ae3b12bb40054ddbe9e1a008ebc6058f89
 workflow-type: tm+mt
 source-wordcount: '1009'
 ht-degree: 7%
@@ -184,7 +184,7 @@ ht-degree: 7%
          + [Migrieren vorhandener Inhalte](./install-guide/migrate-content.md)
          + [Vorhandenen DITA-Inhalt hochladen](./install-guide/migrate-content-upload-existing-dita-content.md)
          + [Nicht-DITA-Inhalt migrieren](./install-guide/migrate-content-non-dita.md)
-      + UUID- und Nicht-UUID-basierte Dateinamen konfigurieren {#conf-non-uuid-filename}
+      + Konfigurieren von UUID- und Nicht-UUID-basierten Dateinamen {#conf-non-uuid-filename}
          + [Dateinamen konfigurieren](./install-guide/conf-file-names.md)
          + [Automatische Dateinamen basierend auf UUID konfigurieren](./install-guide/conf-auto-uuid-filenames.md)
          + [Konfigurieren von Regx für gültige Dateinamenzeichen](./install-guide/conf-file-names-valid-regx.md)
