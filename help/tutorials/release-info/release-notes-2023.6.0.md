@@ -1,7 +1,7 @@
 ---
 title: Versionshinweise | Upgrade-Anweisungen und behobene Probleme in Adobe Experience Manager-Handbüchern, Version Juni 2023
 description: Erfahren Sie mehr über die Fehlerbehebungen und das Upgrade auf die Adobe Experience Manager Guides-Version vom Juni 2023 as a Cloud Service.
-source-git-commit: 5e1d1cef82c409a6404934d5c28a94c5b9230233
+source-git-commit: 03d90157f7169373a287f24ab666bfea634e0ca4
 workflow-type: tm+mt
 source-wordcount: '1126'
 ht-degree: 3%
@@ -103,7 +103,7 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen
 
 | AEM zu Handbüchern as a Cloud - Version | FMPS | FrameMaker |
 | --- | --- | --- |
-| 2023.05.0 | Nicht kompatibel | 2022 oder höher |
+| 2023.06.0 | Nicht kompatibel | 2022 oder höher |
 |  |  |  |
 
 
@@ -111,7 +111,7 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen
 
 | AEM zu Handbüchern as a Cloud - Version | Sauerstoff Connector Windows | Sauerstoff Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
 | --- | --- | --- | --- | --- |
-| 2023.05.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
+| 2023.06.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
 |  |  |  |  |
 
 
