@@ -2,10 +2,10 @@
 title: Übersetzen von Dokumenten aus dem Web Editor
 description: Erfahren Sie, wie Sie Dokumente aus dem Web Editor übersetzen können.
 exl-id: 02fc2b51-5b9a-4ad6-9e2e-726ab7602514
-source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
+source-git-commit: 4d37242019ac2db734f7054324b074c0e8bc60bd
 workflow-type: tm+mt
-source-wordcount: '1517'
-ht-degree: 1%
+source-wordcount: '1859'
+ht-degree: 0%
 
 ---
 
@@ -81,6 +81,14 @@ Stellen Sie vor dem Ausführen der Schritte in diesem Verfahren sicher, dass Sie
    Neben einem neuen Übersetzungsprojekt können Sie auch aus den folgenden Optionen auswählen:
 
    - Sie können zwischen **Erstellen einer Struktur** nur für das Übersetzungsprojekt.
+   - Sie können zwischen **Erstellen eines neuen XLIFF-Übersetzungsprojekts** , um den XML-Inhalt in das XML Localization Interchange File Format (XLIFF) zu konvertieren. XLIFF ist ein offenes XML-basiertes Format, das verwendet wird, um die Datenübertragung zwischen verschiedenen Tools zu standardisieren, die im Prozess der Inhaltsübersetzung verwendet werden.
+In einem XLIFF-Projekt wird der Inhalt in das XLIFF-Format des Branchenstandards exportiert, das Übersetzungsagenturen zur Verfügung gestellt werden kann. Das XLIFF-Format ermöglicht die potenzielle Wiederverwendung von Segmenten, die Sie bereits während der Übersetzungsphase übersetzt haben.\
+      Nachdem der XLIFF-Inhalt übersetzt wurde, kann er in AEM Guides importiert werden, um eine übersetzte Version des ursprünglichen DITA-Projekts zu erstellen.
+
+      >[!NOTE]
+      >
+      > Der XLIFF-Export funktioniert nur mit der Konfiguration menschlicher Übersetzungen.
+
    - Sie können **Neues mehrsprachiges Übersetzungsprojekt erstellen** enthält Übersetzungsaufträge für alle Sprachen, die Sie für die Übersetzung ausgewählt haben. Wenn Sie beispielsweise Französisch, Deutsch und Spanisch ausgewählt haben, wird ein Projekt erstellt, das Übersetzungsaufträge für alle drei Sprachen enthält.
    - Wenn Sie bereits über ein Übersetzungsprojekt verfügen, können Sie diesem Projekt Themen hinzufügen. Wählen Sie Hinzufügen zu **Vorhandenes Übersetzungsprojekt** in der Liste &quot;Projekt&quot;aus und wählen Sie ein Projekt aus der Liste &quot;Vorhandenes Übersetzungsprojekt&quot;aus. Sie können diese Projekte nach der neuesten, aufsteigenden oder absteigenden Reihenfolge sortieren.
 
@@ -98,6 +106,28 @@ Stellen Sie vor dem Ausführen der Schritte in diesem Verfahren sicher, dass Sie
    >
    > Wenn Sie die Übersetzung für ein oder mehrere Themen in einem Übersetzungsauftrag ablehnen, wird die **In Bearbeitung** Der Übersetzungsstatus aller abgelehnten Themen wird auf ihren ursprünglichen Status zurückgesetzt. Der Status der referenzierten Themen wird überprüft und entsprechend dem aktuellen Übersetzungsstatus zurückgesetzt. Außerdem werden die im Zielprojekt erstellten Übersetzungsdateien nicht gelöscht, selbst wenn die Übersetzung für sie abgelehnt wurde.
 
+## Übersetzungsregeln hinzufügen
+
+Mit AEM Guides können Ihre Administratoren die Übersetzungsregeln konfigurieren. Das SRX-Format (Segmentation Rules eXchange) ist ein Standard für den Austausch von Segmentierungsregeln zwischen verschiedenen Benutzern und verschiedenen Übersetzungsumgebungen. Sie können einen Ordner erstellen und Ihre benutzerdefinierten SRX-Dateien hinzufügen.
+
+SRX-Dateien sollten als `<language-code>.srx`. Beispiel: en-US oder ar-AE.
+
+>[Hinweis]
+>Bei diesem Titel wird nicht zwischen Groß- und Kleinschreibung unterschieden, sodass Sie &quot;en-US&quot;, &quot;en-us&quot;oder &quot;EN-us&quot;haben können. Außerdem können AEM Hilfslinien &#39;-&#39; (Bindestrich) oder &#39;_&#39; (Unterstrich) auflösen. Sie können also &quot;en-US&quot;oder &quot;en_US&quot;haben.
+
+Sie können diese Dateien auch in einen beliebigen Ordner unter AEM Asset-Stamm einfügen, der `./content/dam`.
+
+
+
+Nachdem Sie den Ordner erstellt haben, der die SRX-Dateien enthält, können Sie den Ordnerpfad in der Konfiguration des SRX-Speicherorts für Übersetzungen in Ihrem Ordnerprofil hinzufügen.
+
+Es wird empfohlen, für eine bessere Leistung nur SRX-Dateien im Ordner zu belassen, der im Ordnerprofil konfiguriert ist.
+
+
+AEM Guides wählt die SRX-Regeln entsprechend der Ausgangssprache des Übersetzungsprojekts aus. Es sucht nach einer benutzerdefinierten SRX-Datei für eine Sprache. Wenn Sie keine benutzerdefinierte SRX-Datei definieren, werden die Regeln gemäß den vordefinierten Übersetzungsregeln ausgewählt.
+
+
+Weitere Informationen zum Einrichten von globalen Profilen und Profilen auf Ordnerebene finden Sie unter *Bearbeitungsvorlagen konfigurieren* unter Adobe Experience Manager-Handbücher installieren und konfigurieren as a Cloud Service.
 
 ## Übergeben der Versionsbezeichnung an die Zielversion
 

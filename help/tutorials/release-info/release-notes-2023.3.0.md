@@ -1,21 +1,26 @@
 ---
 title: Versionshinweise | Adobe Experience Manager-Handbücher as a Cloud Service, Version März 2023
 description: Version der Adobe Experience Manager-Handbücher as a Cloud Service im März
-source-git-commit: d762cccc4a8f89eb91a1a8eb2c1410a7e0358b85
+source-git-commit: 99ca14a816630f5f0ec1dc72ba77994ffa71dff6
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 2%
+source-wordcount: '378'
+ht-degree: 1%
 
 ---
 
-# Version der Adobe Experience Manager-Handbücher as a Cloud Service im März
 
-## Aktualisierung auf die Version vom März
+# Version der Adobe Experience Manager-Handbücher as a Cloud Service im März 2023
 
-Aktualisieren Sie Ihre aktuellen Adobe Experience Manager-Handbücher as a Cloud Service (später als *AEM as a Cloud Service Handbücher*) einrichten, indem Sie die folgenden Schritte ausführen:
+In diesem Versionshinweis werden die Upgrade-Anweisungen, die Kompatibilitätsmatrix und die in Version März 2023 der Adobe Experience Manager-Handbücher behobenen Probleme (später auch als *AEM as a Cloud Service Handbücher*).
+
+Weitere Informationen zu den neuen Funktionen und Verbesserungen finden Sie unter [Neue Funktionen in der Version AEM Guides as a Cloud Service im März 2023](whats-new-2023.3.0.md).
+
+## Aktualisierung auf Version März 2023
+
+Führen Sie die folgenden Schritte aus, um die aktuelle as a Cloud Service Einrichtung der AEM Guides zu aktualisieren:
 1. Sehen Sie sich den Git-Code des Cloud Services an und wechseln Sie zu der Verzweigung, die in der Cloud Services-Pipeline entsprechend der Umgebung konfiguriert ist, die Sie aktualisieren möchten.
 2. Aktualisieren `<dox.version>` -Eigenschaft in `/dox/dox.installer/pom.xml` -Datei Ihres Cloud Services-Git-Codes auf 2023.3.242.
-3. Übertragen Sie die Änderungen und führen Sie die Cloud Services-Pipeline aus, um auf die März-Version von AEM Guides as a Cloud Service zu aktualisieren.
+3. Übertragen Sie die Änderungen und führen Sie die Cloud Services-Pipeline aus, um auf die Version AEM Guides im März 2023 as a Cloud Service zu aktualisieren.
 
 ## Schritte zum Indexieren des vorhandenen Inhalts (nur, wenn Sie eine Version vor der September-Version von AEM Guides as a Cloud Service verwenden)
 
@@ -49,36 +54,4 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen
 | 2023.03.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
 |  |  |  |  |
 
-
-## Neue Funktionen und Erweiterungen
-
-AEM Guides as a Cloud Service bietet Verbesserungen und neue Funktionen in der Version vom März 2023:
-
-### Öffnen und Abspielen von Video- oder Audiodateien im Web Editor
-
-AEM Handbücher bietet jetzt die Funktion zum Öffnen und Abspielen der Audio- oder Videodateien im Web Editor. Sie können die Lautstärke oder die Ansicht des Videos ändern. Im Kontextmenü haben Sie auch die Möglichkeit, **Download**, ändern **Rückspielgeschwindigkeit** oder Ansicht **Bild im Bild**.
-
-<img src="assets/video-web-editor.png" alt="Abspielvideo" width="600">
-
-
-## Behobene Probleme
-
-Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
-
-* Der Download-PDF-Prozess funktioniert im Web Editor nicht ordnungsgemäß. (11496)
-* JSON-Ausgabe | Zuordnen von Metadaten mit Eigenschaftswert als `"value in spaces and double quotes"` führt zu einem Veröffentlichungsfehler. (11438)
-* Das Einfügen von Audio- und Video-Multimediadateien schlägt im YouTube-Format unter dem **Multimedia einfügen** Symbol. (11320)
-* Der Validierungsfehler tritt auf, wenn eine Zuordnung mithilfe der Vorlage erstellt wird, die über ein spezielles Titelelement verfügt. (11212)
-* Native PDF | Die Fußnote in der Tabellenüberschrift führt zu fett und zentriert ausgerichtetem Text in der entsprechenden Fußzeile der PDF-Ausgabe. (10610)
->[!NOTE]
->
->Um die Änderung der nativen PDF widerzuspiegeln, löschen Sie den Ordner PDF unter /content/dam/dita-templates und aktualisieren Sie dann auf den neuesten Build. (10610)
-
-### Bekanntes Problem mit Problemumgehung
-
-Adobe hat das folgende bekannte Problem für AEM Guides as a Cloud Service Version März 2023 identifiziert.
-
-* Benutzer können keine Version eines duplizierten Assets speichern oder erstellen.
-
-**Problemumgehung**: Bevor Sie Änderungen am doppelten Asset vornehmen, verarbeiten Sie es über die Assets-Benutzeroberfläche erneut.
 

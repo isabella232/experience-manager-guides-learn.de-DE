@@ -2,9 +2,9 @@
 title: Funktionen des Web Editors kennen
 description: Erfahren Sie, wie Sie die Funktionen des Web Editors kennen
 exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: f7eea65f58927527dbd90138a653f75ee181d141
+source-git-commit: e7a34908b0e61d33469ef83683507f16ab12f0bd
 workflow-type: tm+mt
-source-wordcount: '14387'
+source-wordcount: '14919'
 ht-degree: 0%
 
 ---
@@ -161,6 +161,7 @@ Die Benutzereinstellungen stehen allen Autoren zur Verfügung. Mithilfe der Vore
 
 ![](images/user_preference_editor.PNG){width="550" align="left"}
 
+- **Gerätedesign verwenden**: Aktivieren Sie dieses Kontrollkästchen, damit AEM Guides je nach Thema Ihres Geräts automatisch zwischen hellen und dunklen Themen wechseln können.
 - **Design**: Sie können aus den Themen Licht, Licht, Dunkel oder Dunkelste für den Editor wählen. Im Falle eines Lightest-Designs verwenden die Symbolleisten und Bedienfelder einen helleren grauen Farbhintergrund. Im Falle des Lichtdesigns verwenden die Symbolleisten und Bedienfelder einen hellgrauen Farbhintergrund. Im Falle eines dunkelsten Designs verwenden die Symbolleisten und Bedienfelder einen dunkleren schwarzen Farbhintergrund. Im Falle eines dunklen Designs verwenden die Symbolleisten und Bedienfelder einen schwarzen Farbhintergrund. In allen Designs wird der Inhaltsbearbeitungsbereich in weißem Farbhintergrund angezeigt.
 
 - **Ordnerprofile**: Das Ordnerprofil steuert verschiedene Konfigurationen im Zusammenhang mit bedingten Attributen, Bearbeitungsvorlagen, Ausgabevorgaben und Web-Editor-Konfigurationen. Das globale Profil wird standardmäßig angezeigt. Wenn Ihr Administrator außerdem Ordnerprofile im System konfiguriert hat, werden diese ebenfalls in der Liste Ordnerprofile angezeigt.
@@ -671,9 +672,20 @@ Verwenden Sie eine der folgenden Methoden, um Ihrer Lieblingssammlung eine Datei
    ![](images/favorite-add-from-file-context-menu_cs.png){width="400" align="left"}
 
 
+** Menü &quot;Optionen&quot;für die Launches-Sammlung**\
+Sie können auch viele Aktionen über das Menü Optionen ausführen, das für eine Favoriten-Sammlung verfügbar ist:
+
+![](images/favorites-options.png){width="400" align="left"}
+- **Umbenennen**: Benennen Sie die ausgewählte Sammlung um.
+- **Löschen**: Löschen Sie die ausgewählte Datei.
+- **Aktualisieren**: Rufen Sie eine neue Liste von Dateien und Ordnern aus dem Repository ab.
+- **Anzeigen in der Assets-Benutzeroberfläche**: Zeigen Sie die Datei- oder Ordnerinhalte in der Assets-Benutzeroberfläche an.
+
+
 >[!NOTE]
 >
-> Um ein Element aus der Favoritenliste zu entfernen, klicken Sie in der Favoritenliste auf das Symbol Optionen neben der Datei oder dem Ordner und wählen Sie **Aus Favoriten entfernen**.
+> Sie können die Liste auch über das Aktualisierungssymbol oben aktualisieren.
+
 
 **Repository-Ansicht** - ![](images/Repository_icon.svg)
 
@@ -761,6 +773,8 @@ Je nachdem, ob Sie eine Mediendatei oder eine DITA-Datei auswählen, werden im M
 - Duplizieren
 - Auschecken/Einchecken
 - Vorschau
+- Verschieben nach
+- Umbenennen
 - Löschen
 - Kopieren
 - Alle reduzieren
@@ -784,6 +798,41 @@ Die verschiedenen Optionen im Menü Optionen werden nachfolgend beschrieben:
 - **Vorschau**: Sichern Sie sich eine schnelle Vorschau der Datei \(.dita/.xml\), ohne sie zu öffnen.
 
    ![](images/quick-preview_cs.png){width="800" align="left"}
+
+- **Umbenennen**: Verwenden Sie diese Option, um die ausgewählte Datei umzubenennen. Geben Sie den Namen der neuen Datei im **Asset umbenennen** angezeigt.
+   - Sie können eine Datei beliebigen Typs umbenennen.
+   - Sie können die Erweiterung einer Datei nicht ändern.
+   - Zwei Dateien dürfen nicht denselben Namen haben. Sie können also eine Datei nicht in einen bereits vorhandenen Namen umbenennen. Es wird ein Fehler angezeigt.
+
+- **Verschieben nach**: Verwenden Sie diese Option, um die ausgewählte Datei in einen anderen Ordner zu verschieben.
+   - Sie können entweder den Namen des Zielordners eingeben oder **Pfad auswählen** , um den Zielordner auszuwählen.
+   - Sie können eine Datei beliebigen Typs in ein beliebiges Ziel im Ordner Inhalt verschieben.
+   - Zwei Dateien dürfen nicht denselben Namen haben. Sie können also keine Datei in einen Ordner verschieben, in dem bereits eine Datei mit demselben Namen vorhanden ist.
+
+   Wenn Sie versuchen, eine Datei in einen Ordner zu verschieben, in dem eine Datei mit demselben Namen, aber einem anderen Titel vorhanden ist, wird das Dialogfeld &quot;Datei umbenennen und verschieben&quot;angezeigt. Benennen Sie die Datei um, bevor Sie sie verschieben. Die verschobene Datei im Zielordner hat den neuen Dateinamen.
+
+   ![](images/rename-move-asset.png){width="550" align="left"}
+
+   >[!NOTE]
+   > Sie können eine Datei auch per Drag-and-Drop in einen anderen Zielordner ziehen.
+
+   **Ausschlussszenarien**
+
+   In AEM Guides können Sie eine Datei in folgenden Szenarien nicht umbenennen oder verschieben:
+
+   - Sie können eine Datei nicht verschieben oder umbenennen, wenn sie Teil einer Überprüfung oder eines Übersetzungs-Workflows ist.
+
+   - Wenn ein anderer Benutzer die Datei auscheckt, können Sie sie nicht umbenennen oder verschieben, wird die Option Umbenennen oder Verschieben nach für die Datei nicht angezeigt.
+   >[!NOTE]
+   > Wenn Ihnen Ihr Administrator die Berechtigungen für einen Ordner erteilt hat, wird die **Umbenennen** oder **Verschieben nach** -Optionen angezeigt.
+
+   <details>
+    <summary> Cloud Services </summary>
+
+   Beim Umbenennen oder Verschieben einer Datei werden vorhandene Verweise von oder in die Datei nicht beschädigt, da jede Datei über eine eindeutige UID verfügt.
+   </details>
+
+
 
 - **Löschen**: Verwenden Sie diese Option, um die ausgewählte Datei zu löschen. Vor dem Löschen der Datei wird eine Bestätigungsaufforderung angezeigt.
 
@@ -1202,32 +1251,86 @@ Das folgende Beispiel zeigt die Verwendung des Betreffschemas in AEM Guides.
 
    ![](images/subject-scheme-apply.png){width="650" align="left"}
 
+   **Umgang mit hierarchischen Definitionen von Betreffdefinitionen und Auflistungen**
 
-**Dropdown-Liste &quot;Attribute&quot;**
+   Neben der Verarbeitung der Auflistungen und der in derselben Zuordnung vorhandenen Betreffdefinitionen bieten AEM Guides auch die Möglichkeit, Auflistungen und Themendefinitionen in zwei separaten Maps zu definieren. Sie können die Definition des Betreffs in einer Zuordnung und die Auflistungsdefinitionen in einer anderen Zuordnung definieren und dann die Referenz zur Zuordnung hinzufügen. Beispielsweise erstellt der folgende XML-Code in zwei separaten Maps Themendefinitionen und Auflistungsdefinitionen.
 
-Sie können den Wert des Betreffschemas auch über das Dropdown-Menü Attribut im Bereich Inhaltseigenschaften in der Autorenansicht ändern. Um den Wert zu ändern, wählen Sie einen Wert aus der Dropdown-Liste Attribut aus.
+   Die Definitionen der Betreffs werden in `subject_scheme_map_1.ditamap`
 
-![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
 
-Sie können auch Werte für ein Attribut anwenden, indem Sie mehrere Werte aus der Dropdown-Liste auswählen.
+   ```XML
+   <?xml version="1.0" encoding="UTF-8"?> 
+   <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
+   <subjectScheme id="subject-scheme.ditamap_f0bfda58-377b-446f-bf49-e31bc87792b3"> 
+   <title>subject_scheme_map_1</title> 
+   <subjectdef keys="os" navtitle="Operating system"> 
+   <subjectdef keys="linux" navtitle="Linux"> 
+   <subjectdef keys="redhat" navtitle="RedHat Linux"/> 
+   <subjectdef keys="suse" navtitle="SuSE Linux"/> 
+   </subjectdef> 
+   <subjectdef keys="windows" navtitle="Windows"/> 
+   <subjectdef keys="zos" navtitle="z/OS"/> 
+   </subjectdef> 
+   </subjectScheme>  
+   ```
 
-**Quellansicht**
+   Die Auflistungsdefinition ist in subject_scheme_map_2.ditamap vorhanden
 
-Sie können die Werte auch aus der Dropdown-Liste des Attributs in der Quellansicht ändern. Die Quellansicht verhindert auch, dass Sie einen falschen Wert hinzufügen.
+   ```XML
+   <?xml version="1.0" encoding="UTF-8"?> 
+   <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
+   <subjectScheme id="subject-scheme.ditamap_17c433d9-0558-44d4-826e-3a3373a4c5ae"> 
+   <title>subject_scheme_map_2</title> 
+   <mapref format="ditamap" href="subject_scheme_map_1.ditamap" type="subjectScheme"> 
+   </mapref> 
+   <enumerationdef> 
+   <attributedef name="platform"> 
+   </attributedef> 
+   <subjectdef keyref="os"> 
+   </subjectdef> 
+   </enumerationdef> 
+   </subjectScheme>  
+   ```
 
-![](images/subject-scheme-code-error.png){width="550" align="left"}
+   Im Folgenden werden Themendefinitionen definiert in `subject_scheme_map_1.ditamap`  während die Auflistungsdef in vorhanden ist `subject_scheme_map_2.ditamap`. Der Verweis auf `subject_scheme_map_1.ditamap` wird auch hinzugefügt in `subject_scheme_map_2.ditamap`.
 
-**Betreffschema über das Bedienfeld &quot;Bedingungen&quot;anzeigen und anwenden**
+   >[!NOTE]
+   >
+   > Als `subject_scheme_map_1.ditamap` und `subject_scheme_map_2.ditamap` miteinander referenziert werden, sodass die Betreffschemas aufgelöst werden.
 
-Sie können das Themenschema auch im Bedienfeld Bedingungen anzeigen und anwenden.
+   Die Verweise auf die Betreffauflistung werden in der folgenden Prioritätsreihenfolge aufgelöst:
 
-Um das Betreffschema im Bedienfeld &quot;Bedingungen&quot;anzuzeigen, muss Ihr Systemadministrator die Option auswählen **Schema des Betreffs im Bedienfeld &quot;Bedingungen&quot;anzeigen** unter der Registerkarte &quot;Bedingung&quot;in den Editor-Einstellungen. Weitere Informationen finden Sie unter [Registerkarte &quot;Bedingung&quot;](#id21BMNE0602V).
+   1. Gleiche Karte
+   1. Referenzierte Zuordnung
 
-Im Bedienfeld Bedingungen wird die flache vertikale Struktur der Themendefinitionen innerhalb des Betreffschemas angezeigt.
+   Die Verweise werden nicht aufgelöst, wenn die Auflistung nicht in derselben Zuordnung und der referenzierten Zuordnung gefunden wird.
 
-![](images/subject-scheme-condtions-panel.png){width="300" align="left"}
 
-Sie können Bedingungen zu Ihrem Inhalt hinzufügen, indem Sie die gewünschte Bedingung auf Ihren Inhalt ziehen und dort ablegen. Der bedingte Inhalt wird in der für die Bedingung definierten Farbe hervorgehoben.
+   **Dropdown-Liste &quot;Attribute&quot;**
+
+   Sie können den Wert des Betreffschemas auch über das Dropdown-Menü Attribut im Bereich Inhaltseigenschaften in der Autorenansicht ändern. Um den Wert zu ändern, wählen Sie einen Wert aus der Dropdown-Liste Attribut aus.
+
+   ![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
+
+   Sie können auch Werte für ein Attribut anwenden, indem Sie mehrere Werte aus der Dropdown-Liste auswählen.
+
+   **Quellansicht**
+
+   Sie können die Werte auch aus der Dropdown-Liste des Attributs in der Quellansicht ändern. Die Quellansicht verhindert auch, dass Sie einen falschen Wert hinzufügen.
+
+   ![](images/subject-scheme-code-error.png){width="550" align="left"}
+
+   **Betreffschema über das Bedienfeld &quot;Bedingungen&quot;anzeigen und anwenden**
+
+   Sie können das Themenschema auch im Bedienfeld Bedingungen anzeigen und anwenden.
+
+   Um das Betreffschema im Bedienfeld &quot;Bedingungen&quot;anzuzeigen, muss Ihr Systemadministrator die Option auswählen **Schema des Betreffs im Bedienfeld &quot;Bedingungen&quot;anzeigen** unter der Registerkarte &quot;Bedingung&quot;in den Editor-Einstellungen. Weitere Informationen finden Sie unter [Registerkarte &quot;Bedingung&quot;](#id21BMNE0602V).
+
+   Im Bedienfeld Bedingungen wird die flache vertikale Struktur der Themendefinitionen innerhalb des Betreffschemas angezeigt.
+
+   ![](images/subject-scheme-condtions-panel.png){width="300" align="left"}
+
+   Sie können Bedingungen zu Ihrem Inhalt hinzufügen, indem Sie die gewünschte Bedingung auf Ihren Inhalt ziehen und dort ablegen. Der bedingte Inhalt wird in der für die Bedingung definierten Farbe hervorgehoben.
 
 **Snippets** -  ![](images/insert-snippet-icon.svg)
 

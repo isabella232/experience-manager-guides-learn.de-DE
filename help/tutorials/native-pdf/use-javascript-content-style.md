@@ -1,13 +1,13 @@
 ---
 title: Native PDF-Veröffentlichungsfunktion | Verwenden von JavaScript zum Arbeiten mit Inhalt oder Stil
 description: Erfahren Sie, wie Sie Stile für Ihren Inhalt erstellen und Stile erstellen.
-source-git-commit: 09918abbdade934468dea1c55d0ca2cd60622b35
+exl-id: 2f301f6a-0d1c-4194-84c2-0fddaef8d3ec
+source-git-commit: 99ca14a816630f5f0ec1dc72ba77994ffa71dff6
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 1%
+source-wordcount: '519'
+ht-degree: 0%
 
 ---
-
 
 # Verwenden von JavaScript zum Arbeiten mit Inhalt oder Stil
 
@@ -24,7 +24,7 @@ Um die Ausführung von JavaScript zu unterstützen, bietet Ihnen die Funktion Na
 
 Je nach Art der Inhalts- oder Stiländerung, die Sie durchführen möchten, können Sie auswählen, welche Callback-Funktion verwendet werden soll. Wenn Sie beispielsweise Inhalte hinzufügen möchten, wird empfohlen, dies vor der Erstellung des Inhaltsverzeichnisses durchzuführen. Wenn Sie Stilaktualisierungen vornehmen möchten, können diese entweder vor oder nach der Paginierung durchgeführt werden.
 
-Im folgenden Beispiel wird die Position der Titel der Abbildung von über den Bildern in unterhalb der Bilder geändert. Dazu müssen Sie die JavaScript-Ausführungsoption in der Vorgabe aktivieren. Führen Sie hierfür die folgenden Schritte aus:
+Im folgenden Beispiel wird die Position der Titel der Abbildung von über den Bildern in unterhalb der Bilder geändert. Dazu müssen Sie die JavaScript-Ausführungsoption in der Vorgabe aktivieren. Führen Sie dazu die folgenden Schritte aus:
 
 1. Öffnen Sie die Vorgabe zur Bearbeitung.
 1. Navigieren Sie zu **Erweitert** Registerkarte.
@@ -69,3 +69,35 @@ Als Nächstes muss dieses Skript aus einer Vorlagendatei aufgerufen werden, die 
 Die mithilfe dieses Codes generierte Ausgabe und die Vorlage zeigt den Titel der Abbildung unter dem Bild an:
 
 <img src="./assets/fig-title-below-image.png" width="500">
+
+## Hinzufügen eines Wasserzeichens zur PDF-Ausgabe für Entwürfe von Dokumenten {#watermark-draft-document}
+
+Sie können auch JavaScript verwenden, um bedingte Wasserzeichen hinzuzufügen. Diese Wasserzeichen werden Ihrem Dokument hinzugefügt, wenn die definierte Bedingung erfüllt ist.\
+Sie können beispielsweise eine JavaScript-Datei mit folgendem Code erstellen, um ein Wasserzeichen für die PDF-Ausgabe des Dokuments zu erstellen, das noch nicht genehmigt wurde. Dieses Wasserzeichen wird nicht angezeigt, wenn Sie die PDF für das Dokument im Dokumentstatus &quot;Genehmigt&quot;generieren.
+
+```css
+...
+/*
+* This file can be used to add a watermark to the PDF output
+* */
+
+window.addEventListener('DOMContentLoaded', function () {
+    var watermark = 'Draft'
+    var metaTag = document.getElementsByTagName('meta')
+    css = "@page {\n  @left-middle {\n    content: \"".concat(watermark, "\";\n    z-index: 100;\n    font-family: sans-serif;\n    font-size: 80pt;\n    font-weight: bold;\n    color: gray(0, 0.3);\n    text-align: center;\n    transform: rotate(-54.7deg);\n    position: absolute;\n    left: 0;\n    top: 0;\n    width: 100%;\n    height: 100%;\n  }\n}")
+    head = document.head || document.getElementsByTagName('head')[0], style = document.createElement('style');
+    style.appendChild(document.createTextNode(css));
+    window.pdfLayout.onBeforePagination(function () {
+        for (let i = 0; i < metaTag.length; i++) {
+            if (metaTag[i].getAttribute('name') === 'docstate' && metaTag[i].getAttribute('value') !== 'Approved') {
+                head.appendChild(style);
+            }
+        }
+    })
+});
+...
+```
+
+Die mit diesem Code generierte PDF-Ausgabe zeigt ein Wasserzeichen an *Entwurf* auf der Titelseite Ihres Dokuments:
+
+<img src="./assets/draft-watermark.png" width="500">

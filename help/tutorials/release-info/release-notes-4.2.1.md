@@ -1,7 +1,8 @@
 ---
 title: Versionshinweise | Aktualisierungsanweisungen und behobene Probleme in der Version 4.2.1 der Adobe Experience Manager-Handbücher
 description: Erfahren Sie mehr über die Fehlerbehebungen und das Upgrade auf Version 4.2.1 der Adobe Experience Manager-Handbücher.
-source-git-commit: 7fdbf99a1224124d63acaebc626e3b09475f3096
+exl-id: 19b23164-4a07-4748-a8c4-1760bfdb2ca6
+source-git-commit: 6d7b17709e7a17c30b544a7f3f3707328431aac0
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 5%
@@ -10,7 +11,7 @@ ht-degree: 5%
 
 # Version 4.2.1 von Adobe Experience Manager-Handbüchern (Mai 2023)
 
-In diesem Versionshinweis werden die Upgrade-Anweisungen, die Kompatibilitätsmatrix und die behobenen Probleme in Version 4.2.1 der Adobe Experience Manager-Handbücher (später auch als *AEM*).
+In diesem Versionshinweis werden die Upgrade-Anweisungen, die Kompatibilitätsmatrix und die in Version 4.2.1 der Adobe Experience Manager-Handbücher behobenen Probleme (später auch als *AEM*).
 
 Weitere Informationen zu den neuen Funktionen und Verbesserungen finden Sie unter [Neue Funktionen in Version 4.2.1 von Adobe Experience Manager-Handbüchern](whats-new-4.2.1-release.md).
 
@@ -110,5 +111,3 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 ### Überprüfung
 
 * Die abgeschlossene Überprüfung wird nicht im schreibgeschützten Modus geöffnet. (11387)
-
-

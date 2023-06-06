@@ -1,13 +1,13 @@
 ---
 title: Migration von Nicht-UUID-zu-UUID-Inhalten
-description: Erfahren Sie, wie Sie die Migration von Nicht-UUID-zu-UUID-Inhalten durchführen.
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+description: Erfahren Sie, wie Sie Nicht-UUID-Inhalte in UUID-Inhalte migrieren.
+exl-id: 093b380e-9a8b-4e60-aeaa-3458e8c257f2
+source-git-commit: 21edbb2f8a49213ea95fac8a957056711219e7e4
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 2%
 
 ---
-
 
 # Migration von Nicht-UUID-zu-UUID-Inhalten {#id226TI0U20XA}
 
@@ -57,6 +57,7 @@ Führen Sie die folgenden Schritte aus, um Ihre Nicht-UUID-Inhalte zu migrieren:
     - &quot;doBaselines&quot;: true/false \(Wenn Grundlinien aktualisiert werden müssen oder nicht. Der Standardwert ist &quot;true&quot;.\)
     - &quot;processLevel&quot;: -1\(fehlgeschlagen ohne Wiederherstellung\), 0\(fehlgeschlagen mit Wiederherstellung\), 1\(fehlgeschlagen mit Fehlern\), 2\(erfolgreich aktualisiert\) \(Wenn das Skript nach einem Fehler erneut versucht wird, werden nur Dateien mit &quot;fmUpgradeStatus&quot; &lt;= processLevel erneut verarbeitet, andernfalls wird es ignoriert. Der Standardwert ist 1.\)
     - &quot;ignoreImageVersions&quot;: true/false \(ignoriert die Verarbeitung von Bildversionen. Der Standardwert lautet „false“. \)
+    
     >[!NOTE]
     >
     > Wir können die Inhaltsmigration auf Ordnerebene oder auf den vollständigen Inhalt/DAM oder auf demselben Ordner ausführen \(Migration erneut ausführen\).
@@ -69,4 +70,3 @@ Führen Sie die folgenden Schritte aus, um Ihre Nicht-UUID-Inhalte zu migrieren:
 >[!NOTE]
 >
 > Wenn einige Dateien nicht verarbeitet werden oder vor der Migration beschädigt sind, bleiben sie auch nach der Migration beschädigt.
-

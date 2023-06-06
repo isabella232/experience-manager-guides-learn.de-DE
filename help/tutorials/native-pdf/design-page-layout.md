@@ -2,9 +2,9 @@
 title: Native PDF-Veröffentlichungsfunktion | Erstellen eines Seitenlayouts
 description: Erfahren Sie, wie Sie Ihr Seitenlayout für die Präsentation von Informationen in verschiedenen Bereichen Ihrer PDF-Ausgabe entwerfen.
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
-source-git-commit: a1367a6915e760e533bb984705f4be37596b5477
+source-git-commit: 6182455850fb14cc24ce6229f6e4cb2b547901b7
 workflow-type: tm+mt
-source-wordcount: '4649'
+source-wordcount: '4712'
 ht-degree: 0%
 
 ---
@@ -351,7 +351,7 @@ Es gibt die folgenden Kategorien für Felder, die Sie in Ihr Seitenlayout einfü
 * Zeit
 * Thementitel
 * Projekttitel
-* Page Number
+* Seitenzahl
 * Gesamtseite
 * Kapiteltitel
 * Kapitelnummer
@@ -359,7 +359,16 @@ Es gibt die folgenden Kategorien für Felder, die Sie in Ihr Seitenlayout einfü
 
 Jede dieser Feldkategorien enthält verschiedene Varianten, in die die Feldinformationen eingefügt werden können. Ein Datumsfeld kann beispielsweise unterschiedliche Varianten aufweisen, z. B. `YYYY-MM-DD`, `MM/DD/YY`, `MM/DD/YYYY` und so weiter. Auf ähnliche Weise kann die Seitenzahl Variationen in Form von roman-, decimal- oder sogar gebietsschemaspezifischen Formaten wie _Arabisch_, _Devanagari_, _Hebräisch_ und mehr.
 
-Zusätzlich zu den vordefinierten Feldern können Sie auch Metadateninformationen als Variablen oder Felder in Ihrem Seitenlayout hinzufügen. Diese Metadaten werden in Ihrem Quell-DITA-Map-Inhalt gespeichert und können einfach in Ihr Seitenlayout eingefügt werden. <!--For more information, see [Add fields and metadata](design-page-layout.md#add-fields-and-metadata).-->
+Zusätzlich zu den vordefinierten Feldern können Sie auch Metadateninformationen als Variablen oder Felder in Ihrem Seitenlayout hinzufügen. Diese Metadaten werden in Ihrem Quell-DITA-Map-Inhalt gespeichert und können einfach in Ihr Seitenlayout eingefügt werden.
+
+Sie können auch die Metadateneigenschaften aus Ihren Assets auswählen und zum Seitenlayout hinzufügen. Die Asset-Metadaten werden dann für Ihre PDF-Ausgabe veröffentlicht. Diese Metadateneigenschaften der Assets werden über die **Eigenschaften** Seite der DITA-Map- oder Bookmap-Datei.
+
+>[!NOTE]
+>
+> Die Metadatenfelder werden entsprechend Ihrer Auswahl an Assets oder Zuordnungen im **Von** Dropdown-Liste.
+
+
+<!--For more information, see [Add fields and metadata](design-page-layout.md#add-fields-and-metadata).-->
 
 Im folgenden Beispiel werden wir eine Seitenzahl und einen Kapiteltitel in den Fußzeilenbereich eines Seitenlayouts einfügen.
 
@@ -405,7 +414,7 @@ Im folgenden Beispiel werden wir eine Seitenzahl und einen Kapiteltitel in den F
 
    1. Klicken Sie auf das Element Feld im Breadcrumb, um das Feld Kapiteltitel auszuwählen.
 
-   1. Klicken Sie im rechten Bereich auf die **Inhaltseigenschaften** (<img src="./assets/content-properties-icon.png" width="25">) icon.
+   1. Klicken Sie im rechten Bereich auf die **Inhaltseigenschaften** (<img src="./assets/content-properties-icon.png" width="25">) Symbol.
 
    1. Erweitern Sie die **Layout** Eigenschaftenabschnitt und legen Sie die **Float** Eigenschaftswert auf **right**.
       <img src="./assets/float-prop-html-content.png" width="400">
@@ -457,7 +466,7 @@ Im folgenden Beispiel wird ein Kapitel-TOC in das erste Seitenlayout eines Kapit
 
 1. Platzieren Sie den Cursor im Inhaltsbereich des Seitenlayouts.
 
-1. Klicken Sie auf das Kapitel-Inhaltsverzeichnis (<img src="./assets/chapter-toc-icon.svg">).
+1. Klicken Sie auf das Kapitel-Inhaltsverzeichnis (<img src="./assets/chapter-toc-icon.svg">) Symbol.
 
    Das standardmäßige Kapitel-Inhaltsverzeichnis wird in den Inhaltsbereich eingefügt.
 

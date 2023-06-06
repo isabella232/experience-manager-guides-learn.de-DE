@@ -2,7 +2,7 @@
 title: Versionshinweise | Adobe Experience Manager-Handbücher Version 4.2
 description: Erfahren Sie mehr über die Fehlerbehebungen und das Upgrade auf Version 4.2 der Adobe Experience Manager-Handbücher.
 exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
-source-git-commit: a54ada55dad4ff8da8eee3dccb5ad9028b4cdc9e
+source-git-commit: b7a6cb6086e94e2c0cbed8e35ca8d194a4fa36d4
 workflow-type: tm+mt
 source-wordcount: '1338'
 ht-degree: 6%
@@ -11,7 +11,7 @@ ht-degree: 6%
 
 # Version 4.2 von Adobe Experience Manager-Handbüchern (Februar 2023)
 
-In diesem Versionshinweis werden die Upgrade-Anweisungen, die Kompatibilitätsmatrix und die behobenen Probleme in Version 4.2 der Adobe Experience Manager-Handbücher (später auch als *AEM*).
+In diesem Versionshinweis werden die Upgrade-Anweisungen, die Kompatibilitätsmatrix und die in Version 4.2 der Adobe Experience Manager-Handbücher behobenen Probleme (später auch als *AEM*).
 
 Weitere Informationen zu den neuen Funktionen und Verbesserungen finden Sie unter [Neue Funktionen in Version 4.2 von Adobe Experience Manager-Handbüchern](whats-new-4.2-release.md).
 

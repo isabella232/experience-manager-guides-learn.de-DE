@@ -1,23 +1,27 @@
 ---
 title: Versionshinweise | Adobe Experience Manager-Handbücher as a Cloud Service, Version April 2023
-description: Neueste Version der Adobe Experience Manager-Handbücher as a Cloud Service
+description: Version der Adobe Experience Manager-Handbücher as a Cloud Service vom April 2023
 exl-id: 3b09f0b3-cfa4-422d-91b7-733ab1c1896c
-source-git-commit: cf612da41f79b0bf9da4c4d7454a0e3c86af7a4c
+source-git-commit: 99ca14a816630f5f0ec1dc72ba77994ffa71dff6
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '579'
 ht-degree: 2%
 
 ---
 
-# April-Version der Adobe Experience Manager-Handbücher as a Cloud Service
+# Version der Adobe Experience Manager-Handbücher as a Cloud Service vom April 2023
 
-## Aktualisierung auf die neueste Version
+In diesem Versionshinweis werden die Upgrade-Anweisungen, die Kompatibilitätsmatrix und die in Version April 2023 der Adobe Experience Manager-Handbücher behobenen Probleme (später auch als *AEM as a Cloud Service Handbücher*).
 
-Aktualisieren Sie Ihre aktuellen Adobe Experience Manager-Handbücher as a Cloud Service (später als *AEM as a Cloud Service Handbücher*) einrichten, indem Sie die folgenden Schritte ausführen:
+Weitere Informationen zu den neuen Funktionen und Verbesserungen finden Sie unter [Neue Funktionen in der Version von AEM Guides as a Cloud Service im April 2023](whats-new-2023.4.0.md).
+
+## Aktualisierung auf die Version vom April 2023
+
+Führen Sie die folgenden Schritte aus, um die aktuelle as a Cloud Service Einrichtung der AEM Guides zu aktualisieren:
 
 1. Sehen Sie sich den Git-Code des Cloud Services an und wechseln Sie zu der Verzweigung, die in der Cloud Services-Pipeline entsprechend der Umgebung konfiguriert ist, die Sie aktualisieren möchten.
 2. Aktualisieren `<dox.version>` -Eigenschaft in `/dox/dox.installer/pom.xml` -Datei Ihres Cloud Services-Git-Codes auf 2023.4.249.
-3. Übertragen Sie die Änderungen und führen Sie die Cloud Services-Pipeline aus, um auf die neueste Version der as a Cloud Service AEM Guides zu aktualisieren.
+3. Nehmen Sie die Änderungen vor und führen Sie die Cloud Services-Pipeline aus, um auf die as a Cloud Service Version der AEM Guides vom April 2023 zu aktualisieren.
 
 ## Schritte zum Indexieren des vorhandenen Inhalts (nur, wenn Sie eine Version vor der September-Version von AEM Guides as a Cloud Service verwenden)
 
@@ -51,39 +55,6 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen
 | 2023.04.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
 |  |  |  |  |
 
-
-## Neue Funktionen und Erweiterungen
-
-AEM Guides as a Cloud Service bietet Verbesserungen und neue Funktionen der neuesten Version:
-
-### Erweiterte Metadatenunterstützung beim PDF-Publishing
-
-AEM Guides bieten jetzt erweiterte Unterstützung für die Metadaten, die den Metadaten in Ihrer PDF-Ausgabe zugeordnet sind. Die Metadatenoptionen enthalten Informationen über das Dokument und seinen Inhalt, wie den Namen des Autors, den Dokumenttitel, Schlüsselwörter, Copyright-Informationen und andere Datenfelder.
-
-<img src="assets/pdf-metadata.png" alt=" native PDF-Metadaten">
-
-Sie können eine XMP-Datei importieren und AEM Guides können die Informationen aus der Datei auswählen. Sie können die Metadatennamen und -werte auch über das Dropdown-Menü angeben. Sie können auch benutzerdefinierte Metadaten hinzufügen, indem Sie direkt in das Namensfeld eingeben.
-
-
-### Verbessertes Bedienfeld für die Gliederungsansicht
-
-AEM Handbücher bietet ein verbessertes Bedienfeld für die Gliederungsansicht, in dem Sie die hierarchische Ansicht der im Dokument verwendeten Elemente erhalten.
-
-<img src="assets/select-element-content-outline-view_cs.png" alt=" native PDF-Metadaten">
-
-Die Gliederung bietet die folgenden Verbesserungen:
-
-* Das Dropdown-Menü &quot;Anzeigeoptionen&quot;wird über dem Bedienfeld &quot;Konturansicht&quot;angezeigt. Wenn ein Element über eine ID, ein Attribut und Text verfügt, können Sie diese aus der Dropdown-Liste auswählen, um sie zusammen mit dem Element anzuzeigen. Die Attribute, die im Bedienfeld &quot;Gliederung&quot;angezeigt werden können, werden durch die Einstellungen für die Anzeigenattribute bestimmt, die von Ihrem Administrator im **Editor-Einstellungen**.
-
-* Mithilfe der Suchfunktion können Sie nach einem Element anhand seines Namens, seiner ID, seines Textes oder seines Attributwerts suchen.
-
-
-### Microservice-basierte Veröffentlichung für AEM Handbücher as a Cloud Service
-
-AEM Guides as a Cloud Service bietet die Möglichkeit, große Veröffentlichungsarbeitslasten gleichzeitig mit mikrodienstbasierter Veröffentlichung auszuführen und die branchenführende Server-lose Adobe I/O Runtime-Plattform zu nutzen.
-
-Ab der April-Version können Sie mehrere Veröffentlichungsanforderungen gleichzeitig ausführen und mithilfe des Microservice-basierten nativen PDF-Publishing sehr effizient Bulk-PDF-Ausgaben generieren.
-Weitere Informationen finden Sie unter [Neue mikrodienstbasierte Veröffentlichung für AEM Guides as a Cloud Service konfigurieren](../knowledge-base/publishing/configure-microservices.md).
 
 
 ## Behobene Probleme
