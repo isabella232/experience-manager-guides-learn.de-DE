@@ -2,7 +2,7 @@
 user-guide-title: Tutorials für AEM Guides
 user-guide-description: Lesen Sie unsere Sammlung an Tutorials für Adobe Experience Manager Guides.
 breadcrumb-title: Tutorials für AEM Guides
-source-git-commit: 3b8d37483295ff9ebfb0f09b66080fe99237fdb6
+source-git-commit: ce65f05c61b81115d9032e429419265e4b4574fd
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 8%
@@ -154,7 +154,7 @@ ht-degree: 8%
          + [Ausgabe aktivieren](./user-guide/conf-bulk-activation-publish-map-collection.md)
          + [Massenaktivierungszuordnung bearbeiten](./user-guide/conf-bulk-activation-edit-map-collection.md)
          + [Massenaktivierungszuordnung löschen](./user-guide/conf-bulk-activation-delete-map-collection.md)
-   + Generierung von FrameMaker-Dokumenten {#generate-fm-output}
+   + Generierung der Ausgabe von FrameMaker-Dokumenten {#generate-fm-output}
       + [Ausgabe von FrameMaker-Dokumenten generieren](./user-guide/fm-output-generatation.md)
       + Unterstützte Vorgaben {#fm-docs-generating-presets}
          + [Vorgaben zum Generieren von FrameMaker-Dokumenten](./user-guide/fm-output-understand-presets.md)
@@ -272,7 +272,7 @@ ht-degree: 8%
          + [FMPS und Handbücher](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          + [Microservice-Architektur und -Leistung](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          + [Konfigurieren der Veröffentlichung auf Microservice-Basis](./knowledge-base/publishing/configure-microservices.md)
-         + [Veröffentlichen von Leistungsnummern in der Cloud](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
+         + [Veröffentlichen von Benchmarks in AEM Cloud](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
          + [Einrichten eines benutzerdefinierten DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
       + Workflows {#workflows}
          + [Arbeitsablauf nach der Erstellung](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
