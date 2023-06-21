@@ -1,13 +1,13 @@
 ---
 title: Benutzerdefinierte DITA-Zuordnungsvorlage konfigurieren
-description: Erfahren Sie, wie Sie benutzerdefinierte DITA-Zuordnungsvorlagen konfigurieren
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+description: Erfahren Sie, wie Sie eine benutzerdefinierte DITA-Zuordnungsvorlage konfigurieren
+exl-id: 2ad0fc50-97fd-437e-94cc-db5f51f3bc3f
+source-git-commit: 0dea2f1d17e7d9b12d07b459a10a00c1dd7460a5
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '331'
 ht-degree: 1%
 
 ---
-
 
 # Benutzerdefinierte DITA-Zuordnungsvorlage konfigurieren {#id1774F04F05Z}
 
@@ -50,7 +50,6 @@ Wenn Sie das nächste Mal eine neue Zuordnung erstellen, wird Ihre Vorlage auf d
 
 >[!TIP]
 >
-> Siehe [Anhang.md\#](appendix.md#)die *Benutzerdefinierte Vorlagen* im Handbuch Best Practices für Best Practices zur Verwendung benutzerdefinierter Zuordnungsvorlagen.
+> Siehe *Benutzerdefinierte Vorlagen* im Handbuch Best Practices für Best Practices zur Verwendung benutzerdefinierter Zuordnungsvorlagen.
 
-**Übergeordnetes Thema:**[ Konfigurieren von Themen- und Zuordnungsvorlagen](conf-template-tags.md)
-
+**Übergeordnetes Thema:** [Konfigurieren von Themen- und Zuordnungsvorlagen](conf-template-tags.md)
