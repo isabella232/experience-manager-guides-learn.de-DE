@@ -2,9 +2,9 @@
 user-guide-title: Tutorials für AEM Guides
 user-guide-description: Lesen Sie unsere Sammlung an Tutorials für Adobe Experience Manager Guides.
 breadcrumb-title: Tutorials für AEM Guides
-source-git-commit: ce65f05c61b81115d9032e429419265e4b4574fd
+source-git-commit: fb746eb58a53cf175f7af9a7aabd495f2e017d9b
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1079'
 ht-degree: 8%
 
 ---
@@ -261,6 +261,8 @@ ht-degree: 8%
       + [Veröffentlichen nativer PDF - Teil 1](./knowledge-base/expert-sessions/native-pdf-publishing-eamples-part1-june2023.md)
    + Artikel {#kb-articles}
       + Authoring {#authoring}
+         + Berichte {#reports}
+            + [Verwalten von Metadaten für Ihren DITA-Inhalt](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
          + Webeditor {#webeditor}
             + Anpassen {#customizing}
                + [Hinzufügen benutzerdefinierter Schaltflächen zur Symbolleiste](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
