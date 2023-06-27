@@ -1,13 +1,13 @@
 ---
 title: Unterstützung für Schematron-Dateien
 description: Erfahren Sie, wie Sie Ihre Themen mit Scehmatron validieren
-source-git-commit: 5ad78d32cbfa1c913866fae5dafe97dc8f01139c
+exl-id: e5912fa1-af26-42f4-b5e5-a6d2afd45bc8
+source-git-commit: f6794078e760565f5934faf63a7cbfb919acce90
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 0%
 
 ---
-
 
 # Unterstützung für Schematron-Dateien
 
@@ -55,7 +55,7 @@ Wenn Sie ein Thema im Web Editor öffnen, wird rechts ein Bedienfeld zur Schemav
 
 Die Schemaunterstützung im Web Editor hilft Ihnen dabei, die Dateien anhand eines Regelsatzes zu validieren und Konsistenz und Korrektheit über die Themen hinweg zu gewährleisten.
 
-## Verwenden Sie Asset- und Berichtanweisungen, um nach Regeln zu suchen.{#schematron-assert-report}
+## Verwenden Sie Assets und Berichtanweisungen, um nach Regeln zu suchen.{#schematron-assert-report}
 
 AEM Guides unterstützen auch die Assert- und Berichtanweisungen in Schematron. Diese Anweisungen helfen Ihnen bei der Validierung Ihrer DITA-Themen.
 
@@ -146,10 +146,3 @@ You have <sch:value-of select="$words"/> letters. This should be greater than <s
 
 </sch:pattern> 
 ```
-
-
-
-
-
-
-

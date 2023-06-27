@@ -1,16 +1,17 @@
 ---
-title: Versionshinweise | Neue Funktionen in der Adobe Experience Manager-Anleitung, Version Juni 2023
+title: Versionshinweise | Neue Funktionen in Adobe Experience Manager-Handbüchern, Version Juni 2023
 description: Erfahren Sie mehr über die neuen und verbesserten Funktionen in der Version von Adobe Experience Manager Guides as a Cloud Service im Juni 2023.
-source-git-commit: 5670b4a8f34916c7ff415680c5ddcfab6e9618e6
+exl-id: ff6ac4a4-76a3-4b41-9da7-6a888de0eca5
+source-git-commit: f6794078e760565f5934faf63a7cbfb919acce90
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---
 
 # Neue Funktionen in der Version von Adobe Experience Manager Guides as a Cloud Service im Juni 2023
 
-Dieser Artikel behandelt die neuen und verbesserten Funktionen in der Version vom Juni 2023 der Adobe Experience Manager-Handbücher (später als *AEM as a Cloud Service Handbücher*).
+Dieser Artikel behandelt die neuen und verbesserten Funktionen in Version Juni 2023 der Adobe Experience Manager-Handbücher (später auch als *AEM as a Cloud Service Handbücher*).
 
 Weitere Informationen zu den Upgrade-Anweisungen, der Kompatibilitätsmatrix und den in dieser Version behobenen Problemen finden Sie in der [Versionshinweise](release-notes-2023.6.0.md) Artikel.
 
@@ -41,7 +42,13 @@ Weitere Informationen finden Sie unter [Hinzufügen eines Wasserzeichens zur PDF
 
 ### Unterstützung für Sprachvariablen in DITA-Elementen
 
-AEM Guides unterstützen die Sprachvariablen. Diese Variablen sind sehr nützlich, um lokalisierte Zeichenfolgen für Elemente wie Hinweis, Tipp, Warnung, Vorsicht zu generieren. Beispielsweise können Sie Ihre NOTE auf folgende Weise in der PDF-Ausgabe präsentieren: Deutsch: Notiz Spanisch: Hinweis
+AEM Guides unterstützen die Sprachvariablen. Diese Variablen sind sehr nützlich, um lokalisierte Zeichenfolgen für Elemente wie Hinweis, Tipp, Warnung, Vorsicht zu generieren.
+Beispielsweise können Sie Ihre NOTE auf folgende Weise in der PDF-Ausgabe präsentieren:
+
+Deutsch: Notiz
+
+Spanisch: Hinweis
+
 
 ### Unterstützung für Sprachvariablen in der Fußzeile der Seite
 
@@ -51,10 +58,13 @@ Sie können sie auch verwenden, um die Zahlen in verschiedenen Sprachen anzuzeig
 ### Lokalisierte Präfixe für Ihr Inhaltsverzeichnis
 
 Sie haben auch die Funktion, lokalisierte Begriffe anzuzeigen, die zum Präfix in Ihren Überschriften verwendet werden sollen.
-Sie können beispielsweise das Präfix &quot;Kapitel&quot;auf folgende Weise in der PDF-Ausgabe präsentieren: Deutsch: Kapitel Spanisch: Capítulo
+Sie können beispielsweise das Präfix &quot;Kapitel&quot;auf folgende Weise in der PDF-Ausgabe präsentieren:
+
+Deutsch: Kapitel
+
+Spanisch: Capítulo
 
 ### Möglichkeit zur Verwendung AEM Metadaten in PDF-Layouts
-
 
 Metadaten sind die Beschreibung oder Definition Ihres Inhalts. Diese Metadaten werden in Ihrem Quell-DITA-Map-Inhalt gespeichert.
 
@@ -76,7 +86,7 @@ Weitere Informationen finden Sie unter [Felder und Metadaten hinzufügen](../nat
 
 AEM Guides unterstützen jetzt auch die Berichtanweisungen mit dem Schema. Eine Berichtanweisung generiert eine Meldung, wenn eine Testanweisung als &quot;true&quot;ausgewertet wird. Wenn Sie beispielsweise eine Kurzbeschreibung von 150 Zeichen oder weniger wünschen, können Sie eine Berichtanweisung definieren, um die Themen zu überprüfen, bei denen die Kurzbeschreibung mehr als 150 Zeichen umfasst.
 
-Weitere Informationen finden Sie unter [Verwenden Sie Asset- und Berichtanweisungen, um nach Regeln zu suchen.](../user-guide/support-schematron-file.md#schematron-assert-report).
+Weitere Informationen finden Sie unter [Verwenden Sie Assets und Berichtanweisungen, um nach Regeln zu suchen.](../user-guide/support-schematron-file.md#schematron-assert-report).
 
 ### Verwenden von Regex-Ausdrücken
 

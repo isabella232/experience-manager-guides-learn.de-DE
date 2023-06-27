@@ -2,9 +2,9 @@
 title: Native PDF | PDF-Ausgabegenerierung
 description: Generieren einer PDF-Ausgabe in Adobe Experience Manager Guides as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: b9cf70ac957bfacbf9a6bf4c3b32d4f73c2b1287
+source-git-commit: 65a35f1c7530ed479e3bc584852fabc30ceecabb
 workflow-type: tm+mt
-source-wordcount: '2755'
+source-wordcount: '2904'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Weitere Informationen zum Generieren einer PDF mithilfe der DITA-OT-Methode find
 
 * **FrameMaker Publishing Server (FMPS)**
 
-Verwenden Sie diese Methode, um eine PDF-Ausgabe nicht nur aus dem DITA-Inhalt, sondern auch aus FrameMaker-Dokumenten (.book und .fm) zu generieren, die in Ihrem AEM-Repository verfügbar sind. Die PDF kann durch Konfigurieren einer Ausgabevorgabe erstellt und mit FrameMaker Publishing Server (FMPS) veröffentlicht werden. Sie können das Erscheinungsbild Ihrer Ausgabe für PDF und andere Formate entwerfen und konfigurieren und diese in einer Einstellungsdatei (.sts) speichern. Diese Einstellungsdatei wird dann von FMPS verwendet, um eine Ausgabe für eine DITA-Map- oder .book-Datei zu generieren. Informationen zum Erstellen oder Bearbeiten einer Ausgabevorgabe finden Sie im Abschnitt  *Grundlegendes zu den Ausgabevorgaben* im Abschnitt [as a Cloud Service Benutzerhandbuch für AEM](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-apr-22/XML-Documentation-for-Adobe-Experience-Manager_CS_User-Guide_EN.pdf).
+Verwenden Sie diese Methode, um eine PDF-Ausgabe nicht nur aus dem DITA-Inhalt, sondern auch aus FrameMaker-Dokumenten (.book und .fm) zu generieren, die in Ihrem AEM-Repository verfügbar sind. Die PDF kann durch Konfigurieren einer Ausgabevorgabe erstellt und mithilfe von FrameMaker Publishing Server (FMPS) veröffentlicht werden. Sie können das Erscheinungsbild Ihrer Ausgabe für PDF und andere Formate entwerfen und konfigurieren und diese in einer Einstellungsdatei (.sts) speichern. Diese Einstellungsdatei wird dann von FMPS verwendet, um eine Ausgabe für eine DITA-Map- oder .book-Datei zu generieren. Informationen zum Erstellen oder Bearbeiten einer Ausgabevorgabe finden Sie im Abschnitt  *Grundlegendes zu den Ausgabevorgaben* im Abschnitt [as a Cloud Service Benutzerhandbuch für AEM](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-apr-22/XML-Documentation-for-Adobe-Experience-Manager_CS_User-Guide_EN.pdf).
 
 Weitere Informationen zum Konfigurieren von FMPS finden Sie unter [Ausgabe aus FrameMaker-Dokumenten generieren](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ffm-output-generatation.html).
 
@@ -56,7 +56,6 @@ So erstellen oder konfigurieren Sie eine PDF-Ausgabevorgabe:
 
 1. Klicken Sie auf der Registerkarte Ausgabe auf **Vorgaben** in der linken Seitenleiste.
 Das Fenster &quot;Voreingestellt&quot;wird geöffnet. <br>
-
 <img src="assets/preset-panel.png" alt="Vorgabenbedienfeld" width="600">
 
 1. In der Ausgabe **Vorgaben** einen der folgenden Schritte ausführen:
@@ -95,17 +94,17 @@ Diese Metadaten werden den Metadaten auf der Registerkarte &quot;Beschreibung&qu
 In den Ausgabevorgaben: **PDF auswählen** > **Metadaten** , um Metadatenoptionen hinzuzufügen und anzupassen.
 * **XMP bereitstellen**
 
-   Metadatenfelder können durch Importieren direkt ausgefüllt werden [XMP](https://www.adobe.com/products/xmp.html) (Extensible Metadata Platform). Hier können Sie eine XMP herunterladen.
+  Metadatenfelder können durch Importieren direkt ausgefüllt werden [XMP](https://www.adobe.com/products/xmp.html) (Extensible Metadata Platform). Hier können Sie eine XMP herunterladen.
 
 [Herunterladen](assets/SampleXMP.xmp)
 
-   Alternativ können Sie eine XMP mit Adobe Acrobat generieren.
+  Alternativ können Sie eine XMP mit Adobe Acrobat generieren.
    1. Klicken **Datei** > **Eigenschaften** in Acrobat.
    1. under **Beschreibung** klicken **Zusätzliche Metadaten**.
    1. Wählen Sie im linken Bereich die Option **Erweitert**.
    1. Klicken Sie auf **Speichern**.
 
-   XMP Datei wird auf dem Gerät gespeichert.
+  XMP Datei wird auf dem Gerät gespeichert.
 
 * **Bereitstellen von Metadatennamen und -werten**
 
@@ -152,6 +151,7 @@ Verwenden Sie die folgenden Optionen, um erweiterte Einstellungen zum Zusammenf�
 | **Wasserzeichen anzeigen** | Wählen Sie diese Option, um die in Ihrem Inhalt vorhandenen MathML-Gleichungen zu rendern. Andernfalls werden die Gleichungen ignoriert. |
 | **Aktivieren von MathML-Gleichungen** | Wählen Sie diese Option, um die in Ihrem Inhalt vorhandenen MathML-Gleichungen zu rendern. Die Gleichungen werden standardmäßig ignoriert. |
 | **PDF-Konformität** | Dies ist der Standard, den Sie speichern möchten, um sicherzustellen, dass Ihre PDF konform ist. Wählen Sie aus der Dropdown-Liste aus, um aus der Liste der verfügbaren PDF-Standards auszuwählen. Weitere Informationen zu den unterstützten Standards finden Sie unter [Über PDF-Standards](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
+| **Herunterladen temporärer Dateien** | Wählen Sie diese Option aus, wenn Sie die Zwischendatei-HTML herunterladen möchten, die beim Generieren der nativen PDF-Ausgabe erstellt wurde. Sie können die temporären Dateien später herunterladen, nachdem Sie die Ausgabe generiert haben. |
 
 ## Generieren einer PDF-Ausgabe {#generate-pdf-output}
 
@@ -173,3 +173,12 @@ Wenn eine Ausgabe nicht erfolgreich ist, wird die folgende Fehlermeldung angezei
 <img src="assets/error-log.png" alt="Fehlerprotokoll" width="250">
 
 Um das Fehlerprotokoll anzuzeigen, klicken Sie auf **Verwerfen**, bewegen Sie den Mauszeiger über die ausgewählte Vorgabe-Registerkarte und klicken Sie auf ![options](assets/options.svg) **Optionen** > **Protokoll anzeigen**.
+
+### Laden Sie temporäre Dateien nach der Generierung der nativen PDF-Ausgabe herunter
+
+Wenn Sie die **Herunterladen temporärer Dateien** in den erweiterten Einstellungen können Sie auch die Zwischendatei-HTML herunterladen, die beim Generieren der nativen PDF-Ausgabe erstellt wurde. Nachdem Sie die Ausgabe generiert haben, können Sie die temporären Dateien mit der **Herunterladen temporärer Dateien** ![Temporäre Dateien herunterladen](assets/native-pdf-download-temporary-files-icon.svg)in der oberen Leiste angezeigt. Diese Funktion hilft Ihnen beim Anzeigen Ihrer vorläufigen HTML-Stile und Layouts und hilft Ihnen, Ihre CSS-Stile gemäß Ihren Anforderungen zu korrigieren oder zu ändern.
+
+
+>HINWEIS
+>
+> Die **Herunterladen temporärer Dateien**  ![Temporäre Dateien herunterladen](assets/native-pdf-download-temporary-files-icon.svg) Das Symbol erscheint nur, wenn Sie die letzte PDF-Ausgabe mithilfe der Vorgabe generiert haben, wobei Sie die Option im **Erweitert** Registerkarte.

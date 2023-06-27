@@ -3,13 +3,13 @@ title: Sauerstoff-Plug-in für Adobe Experience Manager-Handbücher
 description: Erfahren Sie, wie Sie mit dem Oxygen-Plug-in für Adobe Experience Manager-Handbücher Inhalte erstellen und verwalten können.
 hide: true
 hidefromtoc: true
-source-git-commit: 96347fed96979eb735dc55c32fcda90cc70ddcb4
+exl-id: 2db9a34e-2efa-47ad-ba6b-02afc5197669
+source-git-commit: ee4722ed92d1b1a59e8baea583517a4470f558c9
 workflow-type: tm+mt
-source-wordcount: '5762'
+source-wordcount: '5885'
 ht-degree: 1%
 
 ---
-
 
 # Sauerstoff-Plug-in für Adobe Experience Manager-Handbücher {#id1645H6010Q5}
 
@@ -212,19 +212,19 @@ Führen Sie die folgenden Schritte aus, um die Verbindungseinstellungen im Sauer
 1. Geben Sie die folgenden Details an:
    - **Server-URL**: URL des AEM-Servers, z. B.:
 
-      ```http
-      http[s]://<host>:<port>
-      ```
+     ```http
+     http[s]://<host>:<port>
+     ```
 
-      Geben Sie in der obigen URL den Hostnamen und Port des Servers an, auf dem AEM Server bereitgestellt wird.
+     Geben Sie in der obigen URL den Hostnamen und Port des Servers an, auf dem AEM Server bereitgestellt wird.
 
-      >[!IMPORTANT]
-      >
-      >Wenn Ihr AEM-Server an Port 80 oder 443 bereitgestellt wird, müssen Sie ihn nicht in der URL angeben.
+     >[!IMPORTANT]
+     >
+     >Wenn Ihr AEM-Server an Port 80 oder 443 bereitgestellt wird, müssen Sie ihn nicht in der URL angeben.
 
    - **Authentifizierung:** Wählen Sie aus **Einfach \(Benutzername/Kennwort\)** oder **Webauthentifizierung**. Wenn Sie **Allgemein** Authentifizierung müssen Sie die **Benutzername** und **Passwort** im Dialogfeld &quot;Voreinstellungen&quot;.
 
-      Wenn Sie Webauthentifizierung auswählen, wird der Bildschirm AEM Anmeldung angezeigt. Geben Sie Ihre Anmeldedaten ein und klicken Sie auf **Anmelden** Schaltfläche. Bei erfolgreicher Anmeldung wird der Bildschirm AEM Anmeldung geschlossen und im Bedienfeld AEM Handbücher wird die Dateiliste vom AEM-Server angezeigt.
+     Wenn Sie Webauthentifizierung auswählen, wird der Bildschirm AEM Anmeldung angezeigt. Geben Sie Ihre Anmeldedaten ein und klicken Sie auf **Anmelden** Schaltfläche. Bei erfolgreicher Anmeldung wird der Bildschirm AEM Anmeldung geschlossen und im Bedienfeld AEM Handbücher wird die Dateiliste vom AEM-Server angezeigt.
 
    - **Verbindungs-Timeout**: Geben Sie die Zeit in Sekunden an, die der Client auf eine Antwort vom AEM-Server wartet. Wenn innerhalb der angegebenen Zeit keine Antwort vom Server empfangen wird, wird die Anfrage beendet. Der Standardwert ist 20 Sekunden.
 
@@ -256,7 +256,7 @@ Führen Sie die folgenden Schritte aus, um Profilattribute zu konfigurieren:
 - Klicken **Auswählen** neben dem **Autor des benutzerdefinierten Attributwert-Editors** under **Individuelle Erweiterungen** und wählen Sie CustomValueEditor - com.adobe.o2.framework.extn im **Klasse** Liste. Klicken Sie auf **OK**.
 Der folgende Screenshot zeigt die konfigurierte **Erweiterung** Registerkarte für DITA-Themen:
 
-   ![](images/dita-topic-extension-tab.png)
+  ![](images/dita-topic-extension-tab.png)
 
 1. Klicken **OK** in allen Dialogfeldern, um Ihre Änderungen zu speichern.
 
@@ -275,11 +275,11 @@ Führen Sie die folgenden Schritte aus, um die DITA Map-Erweiterung zu konfiguri
 - Klicken **Auswählen** neben dem **Autor des benutzerdefinierten Attributwert-Editors** under **Individuelle Erweiterungen** und wählen Sie CustomValueEditor - com.adobe.o2.framework.extn im **Klasse** Liste. Klicken Sie auf **OK**.
 - *\(Optional\)* Wenn Sie beim Öffnen einer Zuordnungsdatei keine Verweise auflösen möchten, müssen Sie die folgende zusätzliche Konfiguration durchführen:
 
-   Klicken **Auswählen** neben dem **Referenzen-Resolver** under **Individuelle Erweiterungen** und wählen Sie CustomDITAMapReferenceResolver - com.adobe.o2.framework.extn im **Klasse** Liste. Klicken Sie auf **OK**.
+  Klicken **Auswählen** neben dem **Referenzen-Resolver** under **Individuelle Erweiterungen** und wählen Sie CustomDITAMapReferenceResolver - com.adobe.o2.framework.extn im **Klasse** Liste. Klicken Sie auf **OK**.
 
-   Der folgende Screenshot zeigt die konfigurierte **Erweiterung** tab:
+  Der folgende Screenshot zeigt die konfigurierte **Erweiterung** tab:
 
-   ![](images/dita-map-extension-tab.png)
+  ![](images/dita-map-extension-tab.png)
 
 1. Klicken **OK** in allen Dialogfeldern, um Ihre Änderungen zu speichern.
 
@@ -302,9 +302,9 @@ Der folgende Bildschirm zeigt das Bedienfeld AEM Guides .
 - **Verbinden**: Wählen Sie diese Option, um eine Verbindung zum AEM-Server herzustellen. Die Option ist deaktiviert, wenn die XML-Autoreninstanz mit dem AEM Server verbunden ist.
 - **Aktualisieren**: Wählen Sie diese Option aus, um den aktuellen Status der Dateien und Ordner aus dem AEM Repository abzurufen.
 
-   >[!NOTE]
-   >
-   >Achten Sie darauf, die Dateien zu speichern, bevor Sie sie aktualisieren. Wenn Sie **Aktualisieren** -Option, erhalten Sie eine Warnung, um Ihre Dateien zu speichern, bevor Sie sie aktualisieren. Wenn Sie Ihre Dateien nicht gespeichert haben, können Sie auf **Abbrechen** und speichern Sie sie.
+  >[!NOTE]
+  >
+  >Achten Sie darauf, die Dateien zu speichern, bevor Sie sie aktualisieren. Wenn Sie **Aktualisieren** -Option, erhalten Sie eine Warnung, um Ihre Dateien zu speichern, bevor Sie sie aktualisieren. Wenn Sie Ihre Dateien nicht gespeichert haben, können Sie auf **Abbrechen** und speichern Sie sie.
 
 - **Einstellungen**: Sie können diese Option verwenden, um das Dialogfeld &quot;Allgemeine Voreinstellungen&quot;des Plug-ins zu öffnen.
 - **Abmelden**: Wählen Sie diese Option, um die AEM Serververbindung zu schließen. Diese Option ist nur verfügbar, wenn Sie den Webauthentifizierungsmodus verwenden.
@@ -418,6 +418,16 @@ Wenn Sie eine Datei einchecken, wird die lokale Kopie von Ihrem System im AEM-Re
    >[!NOTE]
    >
    >Dieser Kommentar wird im AEM Versionsverlauf der Datei angezeigt.
+1. Fügen Sie Titel im **Titel** Textfeld. Geben Sie einen Titel ein und drücken Sie die Eingabetaste. Beispiel: *Version 2307*.
+Wenn Ihr Administrator eine vordefinierte Liste von Bezeichnungen verwendet und diese in die `label.json` -Datei, werden diese Beschriftungen als Dropdown-Liste angezeigt. Sie können eine oder mehrere Beschriftungen aus der Dropdown-Liste auswählen.
+   ![](images/checkin-dropdown-labels.png){width="300" align="left"}
+Sie können derselben Version eines Themas mehrere Bezeichnungen (durch Kommas getrennt) hinzufügen.  Beispiel: *Adobe*, *AEM*,*Handbücher*
+Sie können jedoch nicht dieselbe Bezeichnung zu den verschiedenen Versionen eines Themas hinzufügen. Wenn Sie eine Bezeichnung hinzufügen, die Sie bereits zu einer früheren Version hinzugefügt haben, wird diese der neuesten Version hinzugefügt und aus der früheren Version entfernt.
+
+   >[!NOTE]
+   > 
+   > Diese Beschriftungen werden im AEM Versionsverlauf der Datei angezeigt.
+
 
 1. Klicken Sie auf **OK**.
 

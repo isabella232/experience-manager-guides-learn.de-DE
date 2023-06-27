@@ -1,24 +1,21 @@
 ---
 source-git-commit: e3b2fc8c96ce535bb91e7bce935720aa389a917a
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '230'
 ht-degree: 2%
 
 ---
-# Installieren und Konfigurieren von Adobe Experience Manager Guides 4.2
+# Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service
 
 - [Haftungsausschluss](rebranding-disclaimer.md)
 - [Informationen zu diesem Handbuch](introduction.md)
 - [Herunterladen und installieren](download-install.md)
-   - [Technische Anforderungen](download-install-technical-requirements.md)
-   - [Installieren von Adobe Experience Manager](download-install-AEM.md)
-   - [erstmaliges Herunterladen und Installieren AEM Handbücher](download-install-aemg-first-time.md)
+   - [Modul AEM Handbücher bereitstellen](download-install-dxml-first-time.md)
    - [Konfiguration des Dispatchers](download-install-configure-dispatcher.md)
-   - [Installation AEM Guides überprüfen](download-install-verify-aemg-installation.md)
-   - [Adobe Experience Manager-Handbücher aktualisieren](upgrade-xml-documentation.md)
-   - [AEM deinstallieren](download-install-unistall-aemg.md)
+   - [Installation AEM Guides überprüfen](download-install-verify-dxml-installation.md)
+   - [AEM](download-install-upgrade-dxml.md)
+   - [Konfigurationsüberschreibungen](download-install-additional-config-override.md)
    - [Recommendations zur Leistungsoptimierung](download-install-recommend-perf-optimiz.md)
-- [Migration von Nicht-UUID-zu-UUID-Inhalten](migrate-uuid-non-uuid.md)
 - [Benutzerverwaltung und Sicherheit](user-admin-sec.md)
 - [Verwenden einer benutzerdefinierten DITA-OT- und DITA-Spezialisierung](dita-ot-specialization.md)
 - [Dokumentstatus konfigurieren](customize-doc-state.md)
@@ -45,13 +42,14 @@ ht-degree: 2%
    - [Element-IDs automatisch generieren](auto-generate-ids.md)
    - [AEM Standardwörterbuch anpassen](customize-aem-custom-dictionary.md)
    - [Textfilter konfigurieren](config-text-filters.md)
-   - [Konfigurieren der Anzahl der LimitReads für eine Abfrage](conf-query-limitreads.md)
+   - [Filter für Dialogfeld &quot;Dateisuche&quot;konfigurieren](conf-custom-file-filters.md)
    - [Pakete für die artikelbasierte Veröffentlichung installieren](configure-article-based-publishing.md)
-- [Festlegen des Erweiterten Map-Editors als Standard](conf-map-editor.md)
-- [Standardmäßig Attribut @navtitle einschließen](auto-add-navtitle.md)
+   - [PDF-Generierung für einzelne Themen konfigurieren](conf-pdf-generation-dita-ot.md)
+   - [Übersetzungsfunktion im Web-Editor konfigurieren](conf-translation-web-editor.md)
+   - [Festlegen des Erweiterten Map-Editors als Standard](conf-map-editor.md)
+   - [Standardmäßig Attribut @navtitle einschließen](auto-add-navtitle.md)
 - [Konfigurieren globaler Profile oder Profile auf Ordnerebene](conf-folder-level.md)
 - [Versionsverwaltung](version-management.md)
-- [Integrieren von Desktop-basierten XML-Editoren](integrate-desktop-editors.md)
 - [Ausgabegenerierungseinstellungen konfigurieren](conf-output-generation.md)
 - [Workflows konfigurieren und anpassen](customize-workflows.md)
 - [Inhalte übersetzen](translation.md)

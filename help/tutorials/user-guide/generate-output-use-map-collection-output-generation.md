@@ -2,9 +2,9 @@
 title: Verwenden der Kartensammlung für die Ausgabegenerierung
 description: Erfahren Sie, wie Sie die Map Collection für die Ausgabegenerierung verwenden.
 exl-id: 32e3af6c-9670-42cc-8dbe-9f99fbc60adf
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 22f88ae4097a6067ed65a963ad6765f6f8c24f36
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '898'
 ht-degree: 1%
 
 ---
@@ -66,15 +66,26 @@ Die folgenden Filteroptionen und Zuordnungsdetails werden auf der Sammlungsseite
 
 Um die Ausgabe mithilfe einer Map Collection zu konfigurieren und zu generieren, führen Sie die folgenden Schritte aus:
 
-1. Öffnen Sie die Kartensammlung.
+1. Öffnen Sie die Kartensammlung. Sie können die verschiedenen Ausgabevorgaben wie die AEM Site, PDF (einschließlich nativer PDF), HTML5, EPUB und benutzerdefinierte Vorgaben anzeigen. Sie können auch die von Ihrem Administrator erstellten globalen und Ordnerprofilvorgaben anzeigen.
+
+   Die ![](images/global-preset-icon.svg) -Symbol zeigt eine Vorgabe auf Ordnerprofilebene an.
 1. \(Optional\) Führen Sie je nach Anforderung einen der folgenden Schritte aus:
    - Wenden Sie Filter aus der linken Leiste an, um die geänderten Zuordnungen, Ausgabevorgaben oder Sprachen zu filtern.
    - Klicken Sie bei Bedarf auf **Bearbeiten** und ändern Sie die gewünschte Ausgabe, indem Sie die gleitende Schaltfläche ein- oder ausschalten.
+
+
+
+     >[!NOTE]
+     >  
+     > Standardmäßig ist jede neue Vorgabe deaktiviert.
+
+   - Sie können **Alle Ordnerprofilvorgaben aktivieren/deaktivieren** für eine DITA-Zuordnung, um alle Ordnerprofile für sie in einem Schritt auszuwählen.
+
+
 1. Führen Sie einen der folgenden Schritte aus:
 
    - Um die Ausgabe der ausgewählten Karten zu generieren, wählen Sie die Zuordnungsdateien aus und klicken Sie auf **Ausgewählte generieren**.
    - Um die Ausgabe aller DITA-Maps mit den konfigurierten Vorgaben zu generieren, klicken Sie auf **Alle generieren**.
-
    >[!IMPORTANT]
    >
    > Wenn sich ein Ausgabeerstellungsprozess für eine Vorgabe oder DITA-Zuordnung entweder in der Warteschlange befindet oder in Bearbeitung ist, können Sie keine weitere Ausgabegenerierungsaufgabe für dieselbe Vorgabe oder Zuordnung starten.
@@ -85,7 +96,7 @@ Um die Ausgabe mithilfe einer Map Collection zu konfigurieren und zu generieren,
 - Um eine Zuordnungssammlung zu löschen, wählen Sie eine Sammlung auf der Seite &quot;Zuordnungssammlung&quot;aus und klicken Sie auf **Löschen**.
 - Um eine DITA-Map aus einer Map-Sammlung zu löschen, öffnen Sie die Map-Sammlung im Bearbeitungsmodus, wählen Sie die DITA-Map-Datei aus und klicken Sie auf **Aus Sammlung löschen**.
 
-   Dadurch werden auch alle mit der DITA-Map verknüpften Vorgaben oder Gebietsschemata aus der Map-Sammlung entfernt.
+  Dadurch werden auch alle mit der DITA-Map verknüpften Vorgaben oder Gebietsschemata aus der Map-Sammlung entfernt.
 
 
 ## Abbrechen einer Ausgabenerstellungsaufgabe aus einer Map Collection

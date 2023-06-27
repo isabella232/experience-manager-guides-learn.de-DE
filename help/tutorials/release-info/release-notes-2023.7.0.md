@@ -1,29 +1,30 @@
 ---
 title: Versionshinweise | Upgrade-Anweisungen und behobene Probleme in Adobe Experience Manager-Handbüchern, Version Juni 2023
-description: Erfahren Sie mehr über die Fehlerbehebungen und das Upgrade auf die Adobe Experience Manager Guides-Version vom Juni 2023 as a Cloud Service.
-exl-id: ea0ff27a-9c3a-49d7-b94a-d1b9d9e85dcf
-source-git-commit: f6794078e760565f5934faf63a7cbfb919acce90
+description: Erfahren Sie mehr über die Fehlerbehebungen und das Upgrade auf die Adobe Experience Manager Guides-Version vom Juli 2023 as a Cloud Service.
+source-git-commit: 4ba47a803eec7bcbb106c34a1ad6a7fbed9934be
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 3%
+source-wordcount: '903'
+ht-degree: 2%
 
 ---
 
 # Version der Adobe Experience Manager-Handbücher as a Cloud Service im Juni 2023
 
-In diesem Versionshinweis werden die Upgrade-Anweisungen, die Kompatibilitätsmatrix und die in Version Juni 2023 der Adobe Experience Manager-Handbücher behobenen Probleme (später auch als *AEM as a Cloud Service Handbücher*).
+In diesem Versionshinweis werden die Aktualisierungsanweisungen, die Kompatibilitätsmatrix und die in Version Juli 2023 der Adobe Experience Manager-Handbücher behobenen Probleme (später auch als *AEM as a Cloud Service Handbücher*).
 
-Weitere Informationen zu den neuen Funktionen und Verbesserungen finden Sie unter [Neue Funktionen in der Version von AEM Guides as a Cloud Service im Juni 2023](whats-new-2023.6.0.md).
+Weitere Informationen zu den neuen Funktionen und Verbesserungen finden Sie unter [Neue Funktionen in der Version von AEM Guides as a Cloud Service im Juli 2023](whats-new-2023.7.0.md).
 
-## Aktualisierung auf Version Juni 2023
+## Aktualisierung auf Version Juli 2023
 
 Führen Sie die folgenden Schritte aus, um die aktuelle as a Cloud Service Einrichtung der AEM Guides zu aktualisieren:
 
 1. Sehen Sie sich den Git-Code des Cloud Services an und wechseln Sie zu der Verzweigung, die in der Cloud Services-Pipeline entsprechend der Umgebung konfiguriert ist, die Sie aktualisieren möchten.
-2. Aktualisieren `<dox.version>` -Eigenschaft in `/dox/dox.installer/pom.xml` -Datei Ihres Cloud Services-Git-Codes auf 2023.6.297.
-3. Übertragen Sie die Änderungen und führen Sie die Cloud Services-Pipeline aus, um auf die Version AEM Guides vom Juni 2023 as a Cloud Service zu aktualisieren.
+2. Aktualisieren `<dox.version>` -Eigenschaft in `/dox/dox.installer/pom.xml` -Datei Ihres Cloud Services-Git-Codes auf 2023.7.0.314.
+3. Nehmen Sie die Änderungen vor und führen Sie die Cloud Services-Pipeline aus, um auf die Version der as a Cloud Service AEM Guides vom Juli 2023 zu aktualisieren.
 
 ## Schritte zum Aktivieren des Triggers eines Skripts über ein Servlet
+
+(Nur wenn Sie eine Version vor der Version von AEM Guides im Juni 2023 as a Cloud Service haben)
 
 Nachdem Sie die Installation abgeschlossen haben, können Sie den Trigger drücken, um den Übersetzungsauftrag zu starten:
 
@@ -82,7 +83,7 @@ Führen Sie die folgenden Schritte aus, um den vorhandenen Inhalt nachzubearbeit
 
 ## Schritte zum Indexieren des vorhandenen Inhalts zur Verwendung der neuen Suchen- und Ersetzen- und Themenliste auf der Registerkarte Berichte :
 
-(Nur wenn Sie eine Version vor der Version von AEM Guides im September 2022 as a Cloud Service haben)
+(Nur wenn Sie eine Version vor der Version von AEM Guides im Juni 2023 as a Cloud Service haben)
 
 Führen Sie die folgenden Schritte aus, um den vorhandenen Inhalt zu indizieren und den neuen Text auf Zuordnungs- und Themenliste auf der Registerkarte Berichte zu finden und zu ersetzen:
 
@@ -97,13 +98,13 @@ Führen Sie die folgenden Schritte aus, um den vorhandenen Inhalt zu indizieren 
 
 ## Kompatibilitätsmatrix
 
-In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen aufgelistet, die von AEM Guides as a Cloud Service im Juni 2023 unterstützt werden.
+In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen aufgelistet, die von AEM Guides as a Cloud Service vom Juli 2023 unterstützt werden.
 
 ### FrameMaker und FrameMaker Publishing Server
 
 | AEM zu Handbüchern as a Cloud - Version | FMPS | FrameMaker |
 | --- | --- | --- |
-| 2023.06.0 | Nicht kompatibel | 2022 oder höher |
+| 2023.07.0 | Nicht kompatibel | 2022 oder höher |
 | | | |
 
 
@@ -111,7 +112,7 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen
 
 | AEM zu Handbüchern as a Cloud - Version | Sauerstoff Connector Windows | Sauerstoff Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
 | --- | --- | --- | --- | --- |
-| 2023.06.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
+| 2023.07.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
 |  |  |  |  |
 
 
@@ -121,45 +122,16 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
 ### Authoring
 
-- Navtitle wird beim Wechsel von der Layoutansicht zur Autoren- oder Quellansicht aus dem content33 entfernt. (12174)
-- Manchmal tritt beim Klicken auf eine DITA Map ein Anwendungsfehler auf. (11842)
-- Web Editor | Beim Bearbeiten eines Themas wird im XML-Editor geschütztes Leerzeichen hinzugefügt. (11786)
-- Asset-Benutzeroberfläche | In der Listenansicht sind die überlagerten verfügbaren Spalten nicht zusammenführbar. (11528)
-- Keyref ist in der Kartenansicht nicht aufgelöst. (11490)
-- Das obere Menü wird nicht angezeigt, wenn Sie durch den XML-Editor navigieren. (10868)
-- `conref` im ph-Tag | Das angezeigte Dialogfeld zum Durchsuchen ist falsch. (9481)
-- Lokale Links zu anderen Elementen werden im Web Editor nicht aufgelöst. (8790)
-- Die Funktion Matches() funktioniert in der Schematron-Funktion nicht. (11224)
-
-
-### Verwaltung
-
-- Auf der Registerkarte Berichte in der Web Editor-Benutzeroberfläche wird nicht die Themenliste der alten DITA-Maps angezeigt, die vor der Aktualisierung 4.2 erstellt wurden. (11708)
-
-- Die Schaltfläche &quot;Dateien hochladen&quot;in der Assets-Benutzeroberfläche ist in Version 4.2 nicht mehr verfügbar. (11633)
+- Inline-/Display-Attribute werden nicht in der Layout-Ansicht des Web-Editors angezeigt. (12498)
+- Hochladen von Dateien im Oxygen Plugin für AEM Guides funktioniert nicht in Cloud-Services, wenn Sie haben ! im Dateinamen. (12207)
+- Die DITA-Map-Veröffentlichung ist mit bearbeitbaren Vorlagen sehr langsam. (12075)
+- Die Konfiguration der globalen Profil-Benutzeroberfläche stimmt nicht mit dem Ordnerprofil überein. (11970)
+- Inhaltsreferenzen sind beim Kopieren und Einfügen von DITA-Dateien fehlerhaft. (11959)
+- Inhaltsfragment kann nicht in der Spaltenansicht bearbeitet werden, wenn AEM Guides installiert sind. (7342)
+- Der Inhalt geht verloren, wenn sich eine entpackte xref unter einem untergeordneten Element-Tag befindet. (12532)
 
 ### Veröffentlichung
 
-- Das Veröffentlichen auf AEM Site schlägt fehl, wenn temporäre Dateien aus Pod gelesen werden, die möglicherweise aktualisiert oder neu gestartet wurden. (12113)
-- Native PDF | Das Veröffentlichen von Inhalten mit einer Ausgabeklasse mit Klammern() führt zum Einfrieren der Veröffentlichung. (11936)
-- JSON-Ausgabe | Zuordnen von Metadaten mit Eigenschaftswert als `"value in spaces and double quotes"` führt zu einem Veröffentlichungsfehler. (11933)
-- Web Editor | Ausgabepfad und Vorlage können nicht in der AEM-Vorgabe ausgewählt werden. (11530)
-- Native PDF | Benutzerdefinierte Attribute werden nicht an temporäre HTML- oder PDF-Engine übertragen. (DXML-12005)
-- Native PDF | Java OutOfMemoryError tritt beim Veröffentlichen großer Inhalte auf. (11789)
-- JSON-Ausgabe | Die `fmUuid` -Eigenschaft im Knoten jcr:content von JSON unterscheidet sich von der &quot;id&quot;innerhalb der JSON. (11564)
-- JSON-Ausgabe | Wenn die Zuordnung und das Thema mit demselben Dateinamen vorhanden sind, wird JSON für die Zuordnung entfernt. (11524)
-- Native PDF | Xref druckt den Inhalt des href-Thementitels anstelle der Xref-Beschriftung. (11322)
-- Native PDF | Die PDF-Vorlageneinstellungen können nicht gespeichert werden. (10751)
-- Native PDF | Der Text geht über die Spaltenbreite hinaus und schließt mehrere xrefs ein. (10876)
-- Native PDF | `<note>``</note>` -Element generiert keinen zusätzlichen span-Titel seines Typs. (10549)
-- Native PDF | Die Sprachmetadaten können im generierten PDF nicht so festgelegt werden, dass sie WCAG 2.0 entsprechen. (12407)
+- Der Genehmigungs-Workflow funktioniert nicht, wenn in den Dateieigenschaften des rechten Bedienfelds document in &quot;end state&quot;geändert wird. (11026)
 
 
-
-### Übersetzung
-
-- Nach der Cloud-Version vom Februar (2302) werden alle Übersetzungsinhalte als &quot;Nicht synchronisiert&quot;oder &quot;Fehlende Kopie&quot;angezeigt. (11834)
-
-### Überprüfung
-
-- Neue Überprüfungsbenutzeroberfläche | Die Bedingungen markieren und zeigen Verstecken funktioniert anders als im Web-Editor. (11628)
