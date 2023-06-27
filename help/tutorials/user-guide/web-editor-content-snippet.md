@@ -1,7 +1,7 @@
 ---
 title: Inhaltsfragment aus Ihrer Datenquelle einfügen
 description: Erfahren Sie, wie Sie einen Inhaltsausschnitt aus Ihrer Datenquelle einfügen
-source-git-commit: 3571b8acfa51dc91f9ed0366715357af7b2f1ecb
+source-git-commit: 84dbcd80d8b41ae52ec7389dd0d0a750ea8d6c65
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Beispiel:
 
    1. Die Quellansicht zeigt die Daten in der DITA-Quellansicht an.
       ![](images/add-content-snippet-generator.png){width="800" align="left"}
-   1. Um die Ergebnisse der Abfrage zu speichern, geben Sie den Namen des Generators ein und klicken Sie auf **HINZUFÜGEN**.   Der Liste wird ein neuer Inhaltsfragment-Generator hinzugefügt.
+1. Um die Ergebnisse der Abfrage zu speichern, geben Sie den Namen des Generators ein und klicken Sie auf **HINZUFÜGEN**.   Der Liste wird ein neuer Inhaltsfragment-Generator hinzugefügt.
 
    >[!NOTE]
    >

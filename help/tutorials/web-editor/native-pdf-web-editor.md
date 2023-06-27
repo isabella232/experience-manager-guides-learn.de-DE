@@ -2,9 +2,9 @@
 title: Native PDF | PDF-Ausgabegenerierung
 description: Generieren einer PDF-Ausgabe in Adobe Experience Manager Guides as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: 65a35f1c7530ed479e3bc584852fabc30ceecabb
+source-git-commit: d8bc9e2673ce08fe5f71154e9d009d1847b0274d
 workflow-type: tm+mt
-source-wordcount: '2904'
+source-wordcount: '2903'
 ht-degree: 1%
 
 ---
@@ -179,6 +179,6 @@ Um das Fehlerprotokoll anzuzeigen, klicken Sie auf **Verwerfen**, bewegen Sie de
 Wenn Sie die **Herunterladen temporärer Dateien** in den erweiterten Einstellungen können Sie auch die Zwischendatei-HTML herunterladen, die beim Generieren der nativen PDF-Ausgabe erstellt wurde. Nachdem Sie die Ausgabe generiert haben, können Sie die temporären Dateien mit der **Herunterladen temporärer Dateien** ![Temporäre Dateien herunterladen](assets/native-pdf-download-temporary-files-icon.svg)in der oberen Leiste angezeigt. Diese Funktion hilft Ihnen beim Anzeigen Ihrer vorläufigen HTML-Stile und Layouts und hilft Ihnen, Ihre CSS-Stile gemäß Ihren Anforderungen zu korrigieren oder zu ändern.
 
 
->HINWEIS
+>[!NOTE]
 >
 > Die **Herunterladen temporärer Dateien**  ![Temporäre Dateien herunterladen](assets/native-pdf-download-temporary-files-icon.svg) Das Symbol erscheint nur, wenn Sie die letzte PDF-Ausgabe mithilfe der Vorgabe generiert haben, wobei Sie die Option im **Erweitert** Registerkarte.
