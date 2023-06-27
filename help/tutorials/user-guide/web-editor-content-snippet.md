@@ -1,7 +1,7 @@
 ---
 title: Inhaltsfragment aus Ihrer Datenquelle einfügen
 description: Erfahren Sie, wie Sie einen Inhaltsausschnitt aus Ihrer Datenquelle einfügen
-source-git-commit: 84dbcd80d8b41ae52ec7389dd0d0a750ea8d6c65
+source-git-commit: e4fcf6c7b7e69d83edb91e25081dae6e7cf1ae89
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -31,6 +31,7 @@ Die nativen Vorlagen für die ausgewählte Datenquelle werden in der Dropdown-Li
    >[!NOTE]
    >  
    > Wenn Ihr Administrator benutzerdefinierte Vorlagen konfiguriert hat, werden diese Vorlagen auch in der Dropdown-Liste angezeigt (basierend auf den von Ihrem Administrator durchgeführten Vorlagenpfadkonfigurationen).
+
 1. Klicken **Abrufen** , um die Daten aus der Datenquelle abzurufen und die Vorlage auf die Daten anzuwenden, die aus der SQL-Abfrage resultieren.
 1. Sie können die Daten in der Vorschau oder in der DITA-Quellansicht anzeigen.
 
