@@ -1,21 +1,22 @@
 ---
 title: Anleitungen zur Veröffentlichung von Benchmarks auf AEMaaCS
 description: Machen Sie sich mit den Systembeschränkungen bei der Veröffentlichung in AEM Cloud vertraut.
-source-git-commit: e64430bb968b18090c3981cc2d21ebe6593ba933
+exl-id: cc6e38b9-6276-4147-beda-93f66368e15d
+source-git-commit: 06a55ef933f9e7941cef2337212a830413a478af
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 7%
+source-wordcount: '233'
+ht-degree: 8%
 
 ---
-
 
 # AEM Anleitungen zur Veröffentlichung von Benchmarks auf AEMaaCS
 
 Derzeit AEM Guides-Cloud-Service hat einige Einschränkungen bei der Größe von Veröffentlichungskarten, die das Guides-Team aktiv lösen möchte.
 
-Das Guides-Team hat bereits eine skalierbare [Publishing-Microservice](publish-microservice-architecture-and-performance.md) zur Unterstützung von großen Karten und mehreren gleichzeitigen Veröffentlichungen. Derzeit unterstützt dieser Microservice eine Untergruppe von Ausgabetypen und die Unterstützung für andere Typen befindet sich in der aktiven Entwicklung.
+Das Guides-Team hat einen skalierbaren Publishing-Microservice eingeführt, um große Karten und mehrere gleichzeitige Veröffentlichungen zu unterstützen. Weitere Informationen zum neuen Veröffentlichungs-Microservice finden Sie unter [Architektur von Publishing-Microservices](publish-microservice-architecture-and-performance.md)
 
 Informationen zum Konfigurieren des neuen Veröffentlichungsdienstes für AEM Cloud-Umgebung finden Sie unter [Neue mikrodienstbasierte Veröffentlichung konfigurieren](configure-microservices.md)
+
 
 ## Ausführungsumgebung
 

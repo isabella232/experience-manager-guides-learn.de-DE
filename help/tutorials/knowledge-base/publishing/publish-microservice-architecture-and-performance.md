@@ -1,13 +1,13 @@
 ---
 title: Architektur und Leistung von Cloud Publishing Microservice
 description: Erfahren Sie, wie der neue Microservice eine skalierbare Veröffentlichung auf AEMaaCS ermöglicht.
-source-git-commit: 2e45f132ced5ac29118a7301f104bedc03c93253
+exl-id: 963d8912-be10-4d79-8ddd-12481c0ae682
+source-git-commit: 862f086c4682e3efed06d142ddd099fecc9ca00e
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
-
 
 # Architektur und Leistungsanalyse von Cloud Publishing Microservice
 
@@ -15,7 +15,7 @@ Dieser Artikel gibt einen Überblick über die Architektur und Leistungszahlen d
 
 >[!NOTE]
 >
-> Derzeit unterstützt das auf Microservice basierende Publishing in AEM Guides nur die PDF-Ausgabe mithilfe des nativen PDF-Publishing oder über DITA-OT. AEM Guides werden in zukünftigen Versionen Unterstützung für mikrodienstbasierte Veröffentlichung für weitere Ausgabetypen hinzufügen.
+> Die mikrodienstbasierte Veröffentlichung in AEM Guides unterstützt die Ausgabevorgabentypen PDF (nativ und DITA-OT-basiert), HTML5 und CUSTOM.
 
 ## Probleme mit vorhandenen Veröffentlichungs-Workflows in Cloud
 
@@ -50,29 +50,29 @@ Wenn Sie eine große Karte in On-Premise veröffentlichen, müssen Sie mögliche
 
 * Cloud
 
-   Wenn Sie mit dem neuen Dienst eine einzelne Veröffentlichung in Cloud ausführen, kann die Veröffentlichung im Vergleich zur einmaligen On-Premise-Veröffentlichung etwas länger dauern. Diese leichte Zeiterhöhung ist auf die verteilte Natur der neuen Cloud-Architektur zurückzuführen.
+  Wenn Sie mit dem neuen Dienst eine einzelne Veröffentlichung in Cloud ausführen, kann die Veröffentlichung im Vergleich zur einmaligen On-Premise-Veröffentlichung etwas länger dauern. Diese leichte Zeiterhöhung ist auf die verteilte Natur der neuen Cloud-Architektur zurückzuführen.
 
-   <img src="assets/cloud_single_publish.png" alt="Projekt-Tab" width="600">
+  <img src="assets/cloud_single_publish.png" alt="Projekt-Tab" width="600">
 
 * On-Premise
 
-   Die Ergebnisse der Veröffentlichung mit einer einzigen Veröffentlichung sind in der alten Cloud-Architektur oder On-Premise besser, da die vollständige Veröffentlichung auf demselben Pod/Computer erfolgt, auf dem AEM ausgeführt wird.
+  Die Ergebnisse der Veröffentlichung mit einer einzigen Veröffentlichung sind in der alten Cloud-Architektur oder On-Premise besser, da die vollständige Veröffentlichung auf demselben Pod/Computer erfolgt, auf dem AEM ausgeführt wird.
 
-   <img src="assets/onprem_single_publish.png" alt="Projekt-Tab" width="600">
+  <img src="assets/onprem_single_publish.png" alt="Projekt-Tab" width="600">
 
 ### Ausführen mehrerer Veröffentlichungen in Cloud im Vergleich zu On-Premise
 
 * Cloud
 
-   Der neue Publishing-Microservice scheint in diesem Szenario. Wie Sie aus dem folgenden Bild sehen können, kann die Cloud mit der Zunahme mehrerer Aufträge zur gleichzeitigen Veröffentlichung diese veröffentlichen, ohne dass die Veröffentlichungszeit erheblich verlängert wird.
+  Der neue Publishing-Microservice scheint in diesem Szenario. Wie Sie aus dem folgenden Bild sehen können, kann die Cloud mit der Zunahme mehrerer Aufträge zur gleichzeitigen Veröffentlichung diese veröffentlichen, ohne dass die Veröffentlichungszeit erheblich verlängert wird.
 
-   <img src="assets/cloud_bulk_publish.png" alt="Projekt-Tab" width="600">
+  <img src="assets/cloud_bulk_publish.png" alt="Projekt-Tab" width="600">
 
 * On-Premise
 
-   Die gleichzeitige Veröffentlichung auf einem On-Premise-Server führt zu einer erheblichen Leistungsbeeinträchtigung. Dieser Leistungsabfall ist schlimmer, wenn Herausgeber noch mehr Karten gleichzeitig veröffentlichen.
+  Die gleichzeitige Veröffentlichung auf einem On-Premise-Server führt zu einer erheblichen Leistungsbeeinträchtigung. Dieser Leistungsabfall ist schlimmer, wenn Herausgeber noch mehr Karten gleichzeitig veröffentlichen.
 
-   <img src="assets/onprem_bulk_publish.png" alt="Projekt-Tab" width="600">
+  <img src="assets/onprem_bulk_publish.png" alt="Projekt-Tab" width="600">
 
 ## Zusätzliche Vorteile
 
