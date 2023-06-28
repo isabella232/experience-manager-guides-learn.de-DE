@@ -1,13 +1,13 @@
 ---
 title: Adobe Experience Manager-Handbücher aktualisieren
 description: Erfahren Sie, wie Sie Adobe Experience Manager-Handbücher aktualisieren
-source-git-commit: 414ee8ae3b12bb40054ddbe9e1a008ebc6058f89
+exl-id: fdc395cf-a54f-4eca-b69f-52ef08d84a6e
+source-git-commit: a00484a6e0a900a568ae1f651e96dca31add1bd8
 workflow-type: tm+mt
 source-wordcount: '2750'
 ht-degree: 1%
 
 ---
-
 
 # Adobe Experience Manager-Handbücher aktualisieren {#id224MBE0M0XA}
 
@@ -214,11 +214,10 @@ Nach der Installation AEM Guides können Sie die verschiedenen Konfigurationen, 
 
    - &#39;excludeList&#39; sollte `"event-user-data:changedByWorkflowProcess"`.
    - Starter für &quot;*Knoten geändert*&quot; **DAM-Update-Asset-Workflow -** für Bedingung &quot;`jcr:content/jcr:mimeType!=video`&quot;,
-   - 
-      - Der Wert &quot;Globbing&quot;sollte lauten:
+   - Der Wert &quot;Globbing&quot;sollte lauten:
 
    ```json
-   `"/content/dam(/((?!/subassets|/translation_output).)*/)renditions/original"`
+   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - &#39;excludeList&#39; sollte `"event-user-data:changedByWorkflowProcess"`.
@@ -388,11 +387,10 @@ Nach der Installation AEM Guides können Sie die verschiedenen Konfigurationen, 
    - Starter für &quot;*Knoten geändert*&quot; **DAM-Update-Asset-Workflow -** für Bedingung &quot;`jcr:content/jcr:mimeType!=video`&quot;, sollte der Wert &quot;Globbing&quot;wie folgt lauten:
 
    ```json
-   `"/content/dam(/((?!/subassets|/translation_output).)*/)renditions/original"`
+   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - `excludeList` sollte `"event-user-data:changedByWorkflowProcess"`.
-
 
 1. Nachdem das Upgrade abgeschlossen ist, stellen Sie sicher, dass alle Anpassungen/Überlagerungen validiert und aktualisiert wurden, um dem neuen Anwendungscode zu entsprechen. Nachfolgend finden Sie einige Beispiele:
    - Alle aus /libs/fmditaor/libsüberlagerten Komponenten sollten mit dem neuen Produktcode verglichen werden und Aktualisierungen sollten in überlagerten Dateien unter/apps vorgenommen werden.
@@ -408,7 +406,7 @@ Nach der Installation AEM Guides können Sie die verschiedenen Konfigurationen, 
 Führen Sie die folgenden Schritte für die Indizierung des vorhandenen Inhalts aus und verwenden Sie den neuen Suchen- und Ersetzen-Text auf Zuordnungsebene:
 
 - Stellen Sie sicher, dass `damAssetLucene` Die Indizierung wurde abgeschlossen. Je nach der auf dem Server vorhandenen Datenmenge kann es bis zu einigen Stunden dauern. Sie können bestätigen, dass die Neuindizierung abgeschlossen ist, indem Sie überprüfen, ob das Neuindizierungsfeld in
-   `http://<server:port>/oak:index/damAssetLucene`.  Wenn Sie darüber hinaus Anpassungen in `damAssetLucene`, müssen Sie sie möglicherweise erneut anwenden.
+  `http://<server:port>/oak:index/damAssetLucene`.  Wenn Sie darüber hinaus Anpassungen in `damAssetLucene`, müssen Sie sie möglicherweise erneut anwenden.
 
 - Führen Sie eine POST-Anfrage an den Server aus \(mit korrekter Authentifizierung\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Optional: Sie können bestimmte Pfade der Maps übergeben, um sie zu indizieren. Standardmäßig werden alle Maps indiziert \|\| Beispiel : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
@@ -420,4 +418,3 @@ Führen Sie die folgenden Schritte für die Indizierung des vorhandenen Inhalts 
 - Nach Abschluss des Auftrags antwortet die obige GET-Anfrage mit Erfolg und gibt an, ob Zuordnungen fehlgeschlagen sind. Die erfolgreich indizierten Maps können über die Serverprotokolle bestätigt werden.
 
 **Übergeordnetes Thema:**[ Herunterladen und installieren](download-install.md)
-
