@@ -1,14 +1,14 @@
 ---
-title: Versionshinweise | Upgrade-Anweisungen und behobene Probleme in Adobe Experience Manager-Handbüchern, Version Juni 2023
+title: Versionshinweise | Upgrade-Anweisungen und behobene Probleme in Adobe Experience Manager-Handbüchern, Version Juli 2023
 description: Erfahren Sie mehr über die Fehlerbehebungen und das Upgrade auf die Adobe Experience Manager Guides-Version vom Juli 2023 as a Cloud Service.
-source-git-commit: 4ba47a803eec7bcbb106c34a1ad6a7fbed9934be
+source-git-commit: 6061d35b86790e24c6f55e4ccac5dbb40c43aae8
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 2%
 
 ---
 
-# Version der Adobe Experience Manager-Handbücher as a Cloud Service im Juni 2023
+# Version der Adobe Experience Manager-Handbücher as a Cloud Service im Juli 2023
 
 In diesem Versionshinweis werden die Aktualisierungsanweisungen, die Kompatibilitätsmatrix und die in Version Juli 2023 der Adobe Experience Manager-Handbücher behobenen Probleme (später auch als *AEM as a Cloud Service Handbücher*).
 

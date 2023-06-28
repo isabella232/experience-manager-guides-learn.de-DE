@@ -1,7 +1,7 @@
 ---
 title: Inhaltsfragment aus Ihrer Datenquelle einfügen
 description: Erfahren Sie, wie Sie einen Inhaltsausschnitt aus Ihrer Datenquelle einfügen
-source-git-commit: f01903fe9ae3d60a8b818e881fd3b1d626fcd2bc
+source-git-commit: 6061d35b86790e24c6f55e4ccac5dbb40c43aae8
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -16,6 +16,7 @@ AEM Handbücher bieten die Möglichkeit, eine Verbindung mit Ihrer Datenquelle h
 Führen Sie die folgenden Schritte aus, um ein Inhaltsfragment mit dem Inhaltsfragment-Generator zu erstellen und es in Ihr Thema einzufügen:
 
 1. Auswählen **Data Sources** ![](images/data-source-icon.svg)   im linken Bereich, um die verbundenen Datenquellen anzuzeigen. Das Bedienfeld &quot;Data Sources&quot;wird geöffnet und zeigt alle verbundenen Datenquellen an. Weitere Informationen finden Sie unter [Konfigurieren eines Datenquellen-Connectors](../cs-install-guide/conf-data-source-connector.md).
+
    >[!NOTE]
    >
    > Daraufhin werden die Datenquellen angezeigt, für die Ihr Administrator den Connector konfiguriert hat.
@@ -31,7 +32,9 @@ Die nativen Vorlagen für die ausgewählte Datenquelle werden in der Dropdown-Li
    >[!NOTE]
    >  
    > Wenn Ihr Administrator benutzerdefinierte Vorlagen konfiguriert hat, werden diese Vorlagen auch in der Dropdown-Liste angezeigt (basierend auf den von Ihrem Administrator durchgeführten Vorlagenpfadkonfigurationen).
+
 1. Klicken **Abrufen** , um die Daten aus der Datenquelle abzurufen und die Vorlage auf die Daten anzuwenden, die aus der SQL-Abfrage resultieren.
+
 1. Sie können die Daten in der Vorschau oder in der DITA-Quellansicht anzeigen.
 
    1. Die Vorschau zeigt, wie die Daten beim Einfügen in den Inhalt angezeigt werden. Die Vorschau zeigt einen kleinen Teil der Daten im Format der ausgewählten Vorlage an.
