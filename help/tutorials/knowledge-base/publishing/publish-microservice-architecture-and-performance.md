@@ -2,9 +2,9 @@
 title: Architektur und Leistung von Cloud Publishing Microservice
 description: Erfahren Sie, wie der neue Microservice eine skalierbare Veröffentlichung auf AEMaaCS ermöglicht.
 exl-id: 963d8912-be10-4d79-8ddd-12481c0ae682
-source-git-commit: 862f086c4682e3efed06d142ddd099fecc9ca00e
+source-git-commit: 4185c31ae45c7b6fd0d394a15fbca0753d5e0463
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ Dieser Artikel gibt einen Überblick über die Architektur und Leistungszahlen d
 
 >[!NOTE]
 >
-> Die mikrodienstbasierte Veröffentlichung in AEM Guides unterstützt die Ausgabevorgabentypen PDF (nativ und DITA-OT-basiert), HTML5 und CUSTOM.
+> Die mikrodienstbasierte Veröffentlichung in AEM Guides unterstützt die Typen von Ausgabevorgaben vom Typ PDF (nativ und DITA-OT-basiert), HTML5 und CUSTOM.
 
 ## Probleme mit vorhandenen Veröffentlichungs-Workflows in Cloud
 
