@@ -2,9 +2,9 @@
 title: Adobe Experience Manager-Handbücher aktualisieren
 description: Erfahren Sie, wie Sie Adobe Experience Manager-Handbücher aktualisieren
 exl-id: fdc395cf-a54f-4eca-b69f-52ef08d84a6e
-source-git-commit: a00484a6e0a900a568ae1f651e96dca31add1bd8
+source-git-commit: 4c31580a7deb3e13931831c1888bbf0fd1bf9e14
 workflow-type: tm+mt
-source-wordcount: '2750'
+source-wordcount: '2896'
 ht-degree: 1%
 
 ---
@@ -236,9 +236,51 @@ Führen Sie die folgenden Schritte für die Indizierung des vorhandenen Inhalts 
 
 - Führen Sie eine POST-Anfrage an den Server aus \(mit korrekter Authentifizierung\) - `http://<server:port\>/bin/guides/map-find/indexing`. \(Optional: Sie können bestimmte Pfade der Maps übergeben, um sie zu indizieren. Standardmäßig werden alle Maps indiziert \|\| Beispiel : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`\)
 
-- Die API gibt eine jobId zurück. Um den Status des Auftrags zu überprüfen, können Sie eine GET-Anfrage mit Auftrags-ID an denselben Endpunkt senden - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(Beispiel: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+- Die API gibt eine jobId zurück. Um den Status des Auftrags zu überprüfen, können Sie eine GET-Anfrage mit Auftrags-ID an denselben Endpunkt senden -
+
+`http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(Beispiel: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
 - Nach Abschluss des Auftrags antwortet die obige GET-Anfrage mit Erfolg und gibt an, ob Zuordnungen fehlgeschlagen sind. Die erfolgreich indizierten Maps können über die Serverprotokolle bestätigt werden.
+
+Wenn der Aktualisierungsauftrag fehlschlägt und das Fehlerprotokoll den folgenden Fehler anzeigt:
+
+&quot;Die *Abfrage* mehr als *100000 Knoten*. Um andere Aufgaben nicht zu beeinträchtigen, wurde die Verarbeitung angehalten.&quot;
+
+Dies kann vorkommen, da der Index für die bei der Aktualisierung verwendete Abfrage nicht ordnungsgemäß eingerichtet ist. Sie können die folgende Problemumgehung ausprobieren:
+
+1. Fügen Sie im oak-Index damAssetLucene die boolesche Eigenschaft hinzu `indexNodeName` as `true` im Knoten.
+   `/oak:index/damAssetLucene/indexRules/dam:Asset`
+1. Fügen Sie einen neuen Knoten mit dem Namensausschnitt unter dem Knoten hinzu.
+
+   `/oak:index/damAssetLucene/indexRules/dam:Asset/properties`
+und legen Sie die folgenden Eigenschaften im Knoten fest:
+
+   ```
+   name - rep:excerpt
+   propertyIndex - {Boolean}true
+   notNullCheckEnabled - {Boolean}true
+   ```
+
+   Die Struktur von `damAssetLucene` sollte ungefähr so aussehen:
+
+   ```
+   <damAssetLucene compatVersion="{Long}2" async="async, nrt" jcr:primaryType="oak:QueryIndexDefinition" evaluatePathRestrictions="{Boolean}true" type="lucene">
+   <indexRules jcr:primaryType="nt:unstructured">
+     <dam:Asset indexNodeName="{Boolean}true" jcr:primaryType="nt:unstructured">
+       <properties jcr:primaryType="nt:unstructured">
+         <excerpt name="rep:excerpt" propertyIndex="{Boolean}true" jcr:primaryType="nt:unstructured" notNullCheckEnabled="{Boolean}true"/>
+       </properties>
+       </dam:Asset>
+     </indexRules>
+   </damAssetLucene>    
+   ```
+
+
+   (zusammen mit anderen vorhandenen Knoten und Eigenschaften)
+
+1. Neuindizieren Sie die `damAssetLucene` index (durch Festlegen der reindex-Markierung als `true` und warten Sie, bis es `false` erneut (dies zeigt an, dass die Neuindizierung abgeschlossen ist). Beachten Sie, dass es je nach Größe des Index einige Stunden dauern kann.
+1. Führen Sie das Indizierungsskript erneut aus, indem Sie die vorherigen Schritte ausführen.
+
 
 ## Upgrade auf Version 4.2.1 {#upgrade-version-4-2-1}
 

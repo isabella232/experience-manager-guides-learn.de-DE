@@ -2,9 +2,9 @@
 title: Native PDF-Veröffentlichungsfunktion | Komponenten einer PDF-Vorlage
 description: Erfahren Sie mehr über die verschiedenen Komponenten einer PDF-Vorlage und wie Sie diese anpassen und konfigurieren.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: f693ebb6a96ed9898050a754e10a74db235299fe
+source-git-commit: 360bba8b5e6ab61314486497e9cc41348ff903c1
 workflow-type: tm+mt
-source-wordcount: '2516'
+source-wordcount: '2938'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Eine PDF-Vorlage besteht aus vier Komponenten: Seitenlayouts, Stylesheets, Resso
 
 ## Seitenlayouts erstellen und anpassen {#create-customize-page-layout}
 
-Mit den Einstellungen in der Komponente Seitenlayouts können Sie die Struktur einer Seite entwerfen, indem Sie die Kopf- und Fußzeile sowie den Inhaltsbereich auf einer Seite definieren. Mit dem WYSIWYG-Seitenlayouteditor können Sie ein Seitenlayout für verschiedene Bereiche in einer PDF erstellen, z. B. für die Titelseiten vor und zurück, Kapitel, Inhaltsverzeichnis (Inhaltsverzeichnis), Index, leere Seite, Bildliste (LOF), Tabellenliste (LOT), Glossar oder ein Layout für eine benutzerdefinierte Seite. In den PDF-Vorlageneinstellungen können Sie ein Seitenlayout mit verschiedenen Abschnitten innerhalb einer PDF zuweisen, die dann zum Generieren der PDF-Ausgabe verwendet werden.
+Mit den Einstellungen in der Komponente Seitenlayouts können Sie die Struktur einer Seite entwerfen, indem Sie die Kopf- und Fußzeile sowie den Inhaltsbereich auf einer Seite definieren. Mit dem WYSIWYG-Seiten-Layout-Editor können Sie ein Seitenlayout für verschiedene Bereiche in einer PDF erstellen, z. B. die Seiten für die Vorder- und Rückseite, Kapitel, Inhaltsverzeichnis, Index, leere Seite, Seiten für die Vorderseite, Seiten für die Rückseite, Bildliste (LOF), Tabellenliste (LOT) oder ein Glossar. Sie können auch ein Layout für eine benutzerdefinierte Seite erstellen. In den PDF-Vorlageneinstellungen können Sie ein Seitenlayout mit verschiedenen Abschnitten innerhalb einer PDF zuweisen, die dann zum Generieren der PDF-Ausgabe verwendet werden.
 
 ### Neues Seitenlayout erstellen {#create-page-layout}
 
@@ -34,9 +34,9 @@ Mit den Einstellungen in der Komponente Seitenlayouts können Sie die Struktur e
    * Bewegen **Seitenlayouts** und klicken Sie auf (*Optionen* Symbol) **...** und wählen Sie **Neues Seitenlayout**.
    * Im **Vorlagen** auf **+** Symbol neben **Vorlagen** und wählen Sie **Seitenlayout** aus dem Kontextmenü aus.
 
-      Dadurch wird das Dialogfeld Layout hinzufügen geöffnet.
+     Dadurch wird das Dialogfeld Layout hinzufügen geöffnet.
 
-      <img src="assets/add-layout-2.png" alt="Dialogfeld "Layout hinzufügen"" width="250">
+     <img src="assets/add-layout-2.png" alt="Dialogfeld &quot;Layout hinzufügen&quot;" width="250">
 1. Geben Sie einen Namen für das neue Seitenlayout an.
    >[!NOTE]
    >
@@ -47,7 +47,7 @@ Mit den Einstellungen in der Komponente Seitenlayouts können Sie die Struktur e
 
 ### Duplizieren eines Seitenlayouts {#duplicate-page-layout}
 
-1. Im **Vorlagen** Bereich der Vorlage, die Sie duplizieren möchten, doppelklicken Sie auf **Seitenlayouts** oder klicken Sie auf **>** Symbol vor **Seitenlayouts**.
+1. Im **Vorlagen** Bereich der Vorlage, die Sie duplizieren möchten, Doppelklicken Sie auf  **Seitenlayouts** oder klicken Sie auf **>** Symbol vor **Seitenlayouts**.
 
    Dadurch wird die Liste der Seitenlayouts in der Vorlage angezeigt.
 
@@ -60,7 +60,7 @@ Eine Kopie des ausgewählten Seitenlayouts wird erstellt und unter Seitenlayouts
 
 ### Seitenlayout anpassen {#customize-page-layout}
 
-1. Im **Vorlagen** in der Vorlage, die Sie bearbeiten möchten, doppelklicken Sie auf **Seitenlayouts** oder klicken Sie auf **>** Symbol vor **Seitenlayouts**.
+1. Im **Vorlagen** in der Vorlage, die Sie bearbeiten möchten, doppelklicken Sie **Seitenlayouts** oder klicken Sie auf **>** Symbol vor **Seitenlayouts**.
 
    Dadurch wird die Liste der Seitenlayouts in der Vorlage angezeigt.
 1. Führen Sie einen der folgenden Schritte aus, um das Seitenlayout anzupassen:
@@ -123,7 +123,7 @@ Gehen Sie wie folgt vor, um einen neuen Stil zu erstellen:
 Nachdem Sie eine neue CSS-Datei mit Standardstilen erstellt haben oder die Stile in einer vorhandenen CSS-Datei anpassen möchten, können Sie dazu den Stileditor verwenden.
 
 Gehen Sie wie folgt vor, um einen Stil anzupassen:
-1. Doppelklicken Sie auf **Stylesheets** oder klicken Sie auf **>** Symbol vor **Stylesheets**.
+1. Doppelklicken **Stylesheets** oder klicken Sie auf **>** Symbol vor **Stylesheets**.
 
    Dadurch werden die standardmäßigen (Inhalt und Layout) und benutzerdefinierten CSS-Dateien angezeigt.
 1. Öffnen Sie ein Stylesheet zur Bearbeitung.
@@ -138,7 +138,7 @@ Gehen Sie wie folgt vor, um einen Stil anzupassen:
 
 1. Um einen Stil anzupassen, doppelklicken Sie auf einen Stil oder klicken Sie auf das Symbol > vor einem Stil, um ihn mithilfe des Stileditors anzuzeigen und anzupassen.
 
-Weitere Informationen zum Arbeiten mit den gängigsten Stilen finden Sie unter [Arbeiten mit allgemeinen Inhaltsstilen](stylesheet.md)
+Weitere Informationen zum Arbeiten mit den gängigsten Stilen finden Sie unter [Arbeiten mit allgemeinen Inhaltsstilen](stylesheet.md).
 
 ## Arbeiten mit Ressourcen {#work-with-resources}
 
@@ -171,7 +171,7 @@ Klicken Sie zum Konfigurieren auf **Einstellungen** im **Vorlagen** -Bereich, um
 
 Legen Sie die grundlegenden Konfigurationseinstellungen für das Starten eines Kapitels von einer ungeraden oder geraden Seite, die TOC-Struktur fest und definieren Sie das Füllzeichenzeilenformat für die TOC-Einträge. Sie können die folgende Einstellung definieren:
 
-* **Kapitel immer starten von**: Damit können Sie festlegen, wie die einzelnen Kapitel im endgültigen PDF veröffentlicht werden. Sie können aus einer **Neue Seite**, **Ungerade Seite** oder **Gerade Seite** Optionen. Wenn Sie ein neues Kapitel von einer ungeraden Seite aus beginnen möchten, wird nach einem Kapitel, das auf einer ungeraden Seite endet, eine leere Seite eingefügt. Wenn Ihr Kapitel beispielsweise auf Seite 15 endet, fügt der Veröffentlichungsprozess eine leere 16 ein<sup>th</sup> -Seite, damit das neue Kapitel mit der 17 beginnen kann.<sup>th</sup> Seite.
+* **Starten Sie ein neues Kapitel aus**: Damit können Sie festlegen, wie die einzelnen Kapitel im endgültigen PDF veröffentlicht werden. Sie können aus einer **Neue Seite**, **Ungerade Seite**, **Gerade Seite** oder **Aktuelle Seite**  Optionen. Wenn Sie ein neues Kapitel von einer ungeraden Seite aus beginnen möchten, wird nach einem Kapitel, das auf einer ungeraden Seite endet, eine leere Seite eingefügt. Wenn Ihr Kapitel beispielsweise auf Seite 15 endet, fügt der Veröffentlichungsprozess eine leere 16 ein<sup>th</sup> -Seite, damit das neue Kapitel mit der 17 beginnen kann.<sup>th</sup> Seite.  Wenn Sie die **Aktuelle Seite** -Option, werden alle Kapitel als Fortsetzung ohne Seitenumbrüche veröffentlicht. Wenn ein Kapitel beispielsweise in der Mitte von Seite 15 endet, wird das nächste Kapitel auch von der 15. Seite selbst aus gestartet.
 
 * **Jedes Thema von einer neuen Seite aus starten**: Wenn jedes Thema in Ihrem Kapitel von einer neuen Seite aus beginnen soll, wählen Sie **Jedes Thema von einer neuen Seite aus starten** -Option. Wenn Sie Ihre Themen ohne Seitenlücken fortsetzen möchten, deaktivieren Sie diese Option.
 
@@ -180,27 +180,30 @@ Legen Sie die grundlegenden Konfigurationseinstellungen für das Starten eines K
    * **Überschriften bis zur Ebene verwenden**: Damit können Sie die Anzahl der Überschriftenebenen anpassen, die in der TOC-Struktur Ihrer PDF angezeigt werden.
    * **Zeigt keine Seitenzahl für die erste Ebene im Inhaltsverzeichnis an**: Wählen Sie diese Option, um die entsprechenden Seitenzahlen für alle Kapitel auszublenden, die verschachtelte oder untergeordnete Themen enthalten. Betrachten Sie das folgende Beispiel, in dem eine Ausgabe erstellt wird, ohne diese Option auszuwählen.
 
-   <img src="assets/page-number-in-toc.png" alt="Hochladen von Assets" width="250">
+  <img src="assets/page-number-in-toc.png" alt="Hochladen von Assets" width="250">
 
-   Im obigen Beispiel sind Erweiterte PDF-Einstellungen, Anhang und rechtliche Themen die ersten Themenüberschriften oder Kapiteltitel. Allen diesen Überschriften wird eine Seitenzahl zugewiesen.
+  Im obigen Beispiel sind Erweiterte PDF-Einstellungen, Anhang und rechtliche Themen die ersten Themenüberschriften oder Kapiteltitel. Allen diesen Überschriften wird eine Seitenzahl zugewiesen.
 
-   Wenn Sie jetzt diese Option auswählen und die Ausgabe generieren, erhalten Sie das folgende Inhaltsverzeichnis:
+  Wenn Sie jetzt diese Option auswählen und die Ausgabe generieren, erhalten Sie das folgende Inhaltsverzeichnis:
 
-   <img src="assets/page-number-missing-in-toc.png" alt="Hochladen von Assets" width="250">
+  <img src="assets/page-number-missing-in-toc.png" alt="Hochladen von Assets" width="250">
 
-   Hier können Sie bemerken, dass die erweiterten PDF-Einstellungen des ersten Kapitels keine Seitenzahl erhalten, da sie verschachtelte oder untergeordnete Themen haben. Eine Seitenzahl hingegen, wenn sie Anhang und Legal zugewiesen wird, da es sich um eigenständige Themen ohne untergeordnetes Thema handelt.
+  Hier können Sie bemerken, dass die erweiterten PDF-Einstellungen des ersten Kapitels keine Seitenzahl erhalten, da sie verschachtelte oder untergeordnete Themen haben. Eine Seitenzahl hingegen, wenn sie Anhang und Legal zugewiesen wird, da es sich um eigenständige Themen ohne untergeordnetes Thema handelt.
 
 * **Füllzeichenformat**: Verwenden Sie die Dropdown-Liste, um die Füllzeichenlinien &quot;Gepunktet&quot;, &quot;Durchgehend&quot;oder &quot;Leerzeichen&quot;auszuwählen, um die Überschriftenebenen mit den entsprechenden Seitenzahlen zu verbinden.
 Informationen zum Anwenden der TOC-Struktur und der Styling-Überschriftenebenen finden Sie unter [Kapitel-Inhaltsverzeichnis hinzufügen](design-page-layout.md#add-chapter-toc).
 
-   >[!NOTE]
-   >
-   >Wenn Sie CSS-Entwickler sind, können Sie das Füllzeichenformat auch direkt in der CSS-Datei definieren.
+  >[!NOTE]
+  >
+  >Wenn Sie CSS-Entwickler sind, können Sie das Füllzeichenformat auch direkt in der CSS-Datei definieren.
+
 * **Verwenden der Tabellenfortsetzungsmarkierung**: Wählen Sie diese Option aus, um Markierungen für lange Tabellen zu definieren, die über mehrere Seiten verteilt sind. <!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 **Seitenlayouts**
 
 Mit den Einstellungen für Seitenlayouts können Sie vollständig festlegen, welches Seitenlayout für einen bestimmten Abschnitt Ihres Dokuments verwendet werden soll. Um beispielsweise ein Layout für das Inhaltsverzeichnis auszuwählen, klicken Sie auf das Dropdown-Menü unter dem Feld Inhaltsverzeichnis und wählen Sie das Layout aus, das Sie zum Generieren des Inhaltsverzeichnisses entwickelt haben.
+
+Beachten Sie, dass die Einstellungen für die Lesekarte Vorrang vor den Einstellungen für das Seitenlayout haben.
 
 Die folgenden Einstellungen sind im Abschnitt Seitenlayout verfügbar:
 
@@ -209,30 +212,57 @@ Die folgenden Einstellungen sind im Abschnitt Seitenlayout verfügbar:
 
 **Standardseitenlayout**: Wählen Sie ein Seitenlayout, das als Standardlayout für alle Seiten in Ihrer PDF dient. Dies ist das grundlegende Seitenlayout, das auf die Abschnitte oder Themen angewendet wird, in denen Sie kein dediziertes Seitenlayout erstellt haben.
 
-**Seitenlayout für verschiedene Abschnitte**: Sie können ein Seitenlayout den folgenden Abschnitten Ihrer PDF-Ausgabe zuordnen:
+**Seitenlayout für verschiedene Abschnitte**: Sie können ein Seitenlayout den folgenden Abschnitten Ihrer PDF-Ausgabe zuordnen. Wenn Sie ein Seitenlayout für den zugehörigen Abschnitt entworfen haben, wählen Sie es aus der Dropdownliste aus. Wenn für bestimmte Abschnitte keine Seitenlayouts erstellt wurden, wird das standardmäßige Seitenlayout angewendet.
+
+* **Kapitel und Themen**: Sie können das Seitenlayout für die Kapitel und Themen festlegen. Das ausgewählte Layout wird auf alle Kapitel und Themen angewendet.
+
+* **TOC**: Wenn Sie das Seitenlayout für das Inhaltsverzeichnis entworfen haben, wählen Sie **TOC** in der Dropdown-Liste und alle TOC-Seiten in Ihrem Dokument haben das Layout der Inhaltsverzeichnis-Seite.
+
+* **Liste der Abbildungen und Tabellen**: Sie können auch das Seitenlayout für Zahlen und Tabellen festlegen. Das ausgewählte Layout wird auf alle Abbildungen und Tabellen angewendet.
+
+* **Index und Glossar**: Wenn Sie ein Indexseitenlayout entworfen haben, ordnen Sie es der Option Index zu. Wenn Sie ein Glossar-Seitenlayout haben, ordnen Sie es der Glossaroption zu.
+
+* **Seiten mit VorMaterie und Seiten mit Rücken**: Diese Seitenlayouts definieren die Formatierung für Seiten mit Vorder- oder Rückseite Ihres Buches. Wenn Sie das Layout der Vorderteile entworfen haben, ordnen Sie es dem **Seiten mit Vordergrund** -Option. Wenn Sie das Layout der Vorderseite aus dem Dropdown-Menü auswählen, wird das Layout der Vorderseite auf alle in der Vorderseite vorhandenen Themen angewendet.
+
+  Wenn Sie das Layout für die Hintergrundmatte entworfen haben, ordnen Sie es dem **Zurück Matter Pages** -Option. Wenn Sie das Layout für die Hintergrundmatte aus der Dropdown-Liste auswählen, wird das Layout für die Hintergrundmatte auf alle Themen angewendet, die in der Rückkomponente vorhanden sind.
+
+  **Seiten mit Vordergrund** wird auch als Fallback-Layout für die **TOC**, **Liste der Abbildungen** und Liste der Tabellen.  Ebenso **Zurück Matter Pages** wird auch als Fallback-Layout für die **Index** und **Glossar** Layouts. Wenn Sie das Layout für diese Seiten nicht ausgewählt haben, wird das ausgewählte Seiten-Layout &quot;Vorder-&quot;und &quot;RückMatter-Seiten&quot;angewendet.  Wenn Sie das Layout Seiten mit Vorder- oder RückMaterie nicht ausgewählt haben, wird das standardmäßige Seitenlayout auf sie angewendet.
+
+* **Seitenlayout für leere Seiten**: Sie können auch das Seitenlayout für leere Seiten festlegen. Das ausgewählte Layout wird auf alle leeren Seiten angewendet. Wenn Sie beispielsweise ein leeres Seitenlayout für alle leeren Seiten entworfen haben, wählen Sie **Leer** in der Dropdown-Liste und alle leeren Seiten in Ihrem Dokument haben das Layout &quot;Leere Seite&quot;.
+
+* **Titelseite und Rückseite**: Wenn Sie ein Deckblatt-Layout entworfen haben, ordnen Sie es dem **Titelseite** -Option. Wenn Sie ein Layout für die Rückseite haben, ordnen Sie es dem **Zurück-Seite** -Option. Wenn keine Deckblatt- oder Rückseite-Layouts erstellt wurden, wird das standardmäßige Seitenlayout angewendet.
+
+
+
+Weitere Informationen zu Seitenlayouts finden Sie unter [Erstellen eines Seitenlayouts](design-page-layout.md).
+
+**Seitenreihenfolge**
+
+Sie können die folgenden Abschnitte in Ihrer PDF aktivieren bzw. deaktivieren und auch die Reihenfolge anordnen, in der sie in Ihrer endgültigen PDF-Ausgabe angezeigt werden sollen:
+
+<img src="assets/page-order-advance-settings.png" alt="Seitenlayouts" width="550">
+
 * IHV
+* Kapitel und Themen
 * Liste der Abbildungen
 * Tabellenliste
-* Kapitel und Themen
 * Index
 * Glossar
 
 Wenn Sie in Ihrer PDF-Ausgabe keinen bestimmten Bereich anzeigen möchten, können Sie dies deaktivieren, indem Sie den Umschalter deaktivieren.
 
-**Kapitel und Themen** Layout ist immer aktiviert und **Glossar** Das Layout ist standardmäßig immer deaktiviert. Sie können sie nicht umschalten.
-
-Sie können auch die Reihenfolge festlegen, in der diese unterschiedlichen Bereiche in Ihrer PDF generiert werden. Wenn Sie die Standardreihenfolge dieser Seiten ändern möchten, halten Sie den Mauszeiger auf der linken Seite eines Seitenlayouts und klicken Sie auf das gepunktete Balkensymbol, um das Seitenlayout an die gewünschte Position zu ziehen.
-Ihre PDF enthält die aktivierten Seitenlayouts in der Reihenfolge, in der Sie sie hier organisiert haben.
-
-**Seitenlayout für leere Seiten**: Sie können auch das Seitenlayout für leere Seiten festlegen. Das ausgewählte Layout wird auf alle leeren Seiten angewendet. Wenn Sie beispielsweise ein leeres Seitenlayout für alle leeren Seiten entworfen haben, wählen Sie **Leer** in der Dropdown-Liste und alle leeren Seiten in Ihrem Dokument haben das Layout &quot;Leere Seite&quot;.
-
-**Titelseite und Rückseite**: Wenn Sie ein Deckblatt-Layout entworfen haben, ordnen Sie es dem **Titelseite** -Option. Wenn Sie ein Layout für die Rückseite haben, ordnen Sie es dem **Zurück-Seite** -Option. Wenn keine Deckblatt- oder Rückseite-Layouts erstellt wurden, wird das standardmäßige Seitenlayout angewendet.
+Sie können auch die Reihenfolge festlegen, in der diese unterschiedlichen Bereiche in Ihrer PDF generiert werden. Um die Standardreihenfolge dieser Seiten zu ändern, wählen Sie die gepunkteten Balken aus, um das Seitenlayout an die gewünschte Position zu ziehen.
 
 >[!NOTE]
 >
->Die Einstellungen für die Lesekarte haben Vorrang vor den Einstellungen für das Seitenlayout.
+> Diese Einstellungen für Reihenfolge und Einbindung gelten nur für eine DITA-Zuordnung. Bei einer Lesekarte sind diese Einstellungen nicht anwendbar. Die Seiten in einer Lesekarte werden gemäß der Reihenfolge der Abschnitte in der Lesekarte angezeigt.
 
-Weitere Informationen zu Seitenlayouts finden Sie unter [Erstellen eines Seitenlayouts](design-page-layout.md).
+
+Ihre PDF enthält die aktivierten Seitenlayouts in der Reihenfolge, in der Sie sie hier organisiert haben.
+**Kapitel und Themen** Layout ist immer aktiviert und **Glossar** Das Layout ist standardmäßig immer deaktiviert. Sie können sie nicht umschalten.
+
+
+
 
 **Druck**
 
@@ -244,16 +274,16 @@ Konfigurieren Sie die Druckproduktionseinstellungen, um Druckermarkierungen zuzu
    * **Registrierungszeichen**: Wählen Sie diese Option, um eine Markierung außerhalb des Zuschnittbereichs zu platzieren, damit die verschiedenen Trennlinien in einem Farbdokument ausgerichtet werden.
    * **Farbbalken**: Wählen Sie diese Option, um einen Farbstreifen außerhalb des Schnittbereichs hinzuzufügen, um die Farbkonsistenz zu gewährleisten und die Farbdichte beim Drucken anzupassen.
 
-   Legen Sie Dimensionen für die ausgewählten Druckermarkierungen mithilfe der **Linienbreite**, **Linienfarbe** und **Breite des Anschnittrahmens** Optionen.
+  Legen Sie Dimensionen für die ausgewählten Druckermarkierungen mithilfe der **Linienbreite**, **Linienfarbe** und **Breite des Anschnittrahmens** Optionen.
 
 * **Größe des Medienfelds**: Dies ist die Gesamtseitengröße einschließlich des erweiterten Bereichs, der von Druckermarkierungen belegt wird. Verwenden Sie die Dropdown-Option, um die Seitengröße für Ihre PDF-Ausgabe auszuwählen oder eine eigene benutzerdefinierte Größe zu erstellen.
 
 * **Farbraum**: Sie haben die Möglichkeit, aus RGB- oder CMYK-Farbräumen auszuwählen, um Ihr PDF-Dokument zu drucken. Wählen Sie RGB aus, um die generierte PDF digital und CMYK für den physischen Druck anzuzeigen. Im Dokument definierte Farben werden in den ausgewählten Farbraum konvertiert.
-   >[!NOTE]
-   >
-   >Für die Erstellung von PDF/A ist bei Verwendung des CMYK-Farbraums ein ICC-Farbprofil erforderlich.
+  >[!NOTE]
+  >
+  >Für die Erstellung von PDF/A ist bei Verwendung des CMYK-Farbraums ein ICC-Farbprofil erforderlich.
 
-   <!--For more information on applying these print settings, see *Printing preferences*.-->
+  <!--For more information on applying these print settings, see *Printing preferences*.-->
 
 **Querverweise**
 

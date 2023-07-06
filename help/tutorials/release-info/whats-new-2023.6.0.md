@@ -2,9 +2,9 @@
 title: Versionshinweise | Neue Funktionen in Adobe Experience Manager-Handbüchern, Version Juni 2023
 description: Erfahren Sie mehr über die neuen und verbesserten Funktionen in der Version von Adobe Experience Manager Guides as a Cloud Service im Juni 2023.
 exl-id: ff6ac4a4-76a3-4b41-9da7-6a888de0eca5
-source-git-commit: f6794078e760565f5934faf63a7cbfb919acce90
+source-git-commit: f1292c94d77b724467d9eede59687bf0041cbce5
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1205'
 ht-degree: 0%
 
 ---
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 Dieser Artikel behandelt die neuen und verbesserten Funktionen in Version Juni 2023 der Adobe Experience Manager-Handbücher (später auch als *AEM as a Cloud Service Handbücher*).
 
-Weitere Informationen zu den Upgrade-Anweisungen, der Kompatibilitätsmatrix und den in dieser Version behobenen Problemen finden Sie in der [Versionshinweise](release-notes-2023.6.0.md) Artikel.
+Weitere Informationen zu den Upgrade-Anweisungen, der Kompatibilitätsmatrix und den in dieser Version behobenen Problemen finden Sie unter [Versionshinweise](release-notes-2023.6.0.md).
 
 ## Bericht &quot;Fehlerhafte Links&quot;im Web-Editor
 
-Mit AEM Guides können Sie die Gesamtvollständigkeit Ihrer technischen Dokumente überprüfen und Berichte aus dem Web-Editor erstellen. Ab der Version Juni 2023 bieten Ihnen AEM Handbücher die Möglichkeit, fehlerhafte Links anzuzeigen und zu reparieren. Dies ist ein sehr nützlicher Bericht, der Ihnen bei der Verwaltung Ihrer fehlerhaften Links hilft. Sie können die fehlerhaften Links in Ihrer DITA-Zuordnung einfach anzeigen und sie auch beheben.
+Mit AEM Guides können Sie die Gesamtvollständigkeit Ihrer technischen Dokumente überprüfen und Berichte aus dem Web-Editor erstellen. Ab der Version Juni 2023 bieten Ihnen AEM Handbücher die Möglichkeit, fehlerhafte Links anzuzeigen und zu reparieren. Dies ist ein nützlicher Bericht, der Ihnen bei der Verwaltung Ihrer fehlerhaften Links hilft. Sie können die fehlerhaften Links in Ihrer DITA-Zuordnung einfach anzeigen und sie auch beheben.
 ![](assets/broken-link-report.png){width="800" align="left"}
 
 Wenn Sie einen Link korrigieren, wird er nicht mehr unter der Liste der fehlerhaften Links angezeigt.
@@ -26,7 +26,7 @@ Weitere Informationen finden Sie unter [Fehlerbehebung bei fehlerhaften Links](.
 
 ## Umbenennen und Verschieben von Dateien in der Repository-Ansicht
 
-Jetzt können Sie eine Datei auch umbenennen oder aus dem Repository-Bereich verschieben. Diese Funktion ist sehr praktisch und erleichtert die Verwaltung Ihrer Dateien über das Repository-Bedienfeld. Sie können eine Datei auswählen und sie umbenennen oder verschieben mithilfe der **Optionen** für die ausgewählte Datei. AEM Handbücher zeigt eine Erfolgsmeldung an, wenn Sie eine Datei verschieben oder umbenennen.
+Jetzt können Sie eine Datei auch umbenennen oder aus dem Repository-Bereich verschieben. Diese Funktion ist praktisch und erleichtert die Verwaltung Ihrer Dateien über das Repository-Bedienfeld. Sie können eine Datei auswählen und sie umbenennen oder verschieben mithilfe der **Optionen** für die ausgewählte Datei. AEM Handbücher zeigt eine Erfolgsmeldung an, wenn Sie eine Datei verschieben oder umbenennen.
 
 ![](assets/rename-move-assets.png){width="650" align="left"}
 
@@ -40,29 +40,26 @@ Jetzt können Sie ein Wasserzeichen zur PDF-Ausgabe des Dokuments hinzufügen, d
 
 Weitere Informationen finden Sie unter [Hinzufügen eines Wasserzeichens zur PDF-Ausgabe für Entwürfe von Dokumenten](../native-pdf/use-javascript-content-style.md#watermark-draft-document).
 
-### Unterstützung für Sprachvariablen in DITA-Elementen
+### Unterstützung für Sprachvariablen
 
-AEM Guides unterstützen die Sprachvariablen. Diese Variablen sind sehr nützlich, um lokalisierte Zeichenfolgen für Elemente wie Hinweis, Tipp, Warnung, Vorsicht zu generieren.
-Beispielsweise können Sie Ihre NOTE auf folgende Weise in der PDF-Ausgabe präsentieren:
+AEM Guides unterstützen Sprachvariablen. Sie können Sprachvariablen verwenden, um eine lokalisierte Version der vordefinierten Beschriftungen wie Hinweis, Vorsicht und Warnung oder statischen Text in der PDF-Ausgabe zu definieren.
+Sie können die Sprachvariablen oder die lokalisierte Version der Titel den entsprechenden Abschnitten in Ihrer PDF-Ausgabe und in den Ausgabevorlagen hinzufügen.
 
-Deutsch: Notiz
+#### Sprachvariablen in der PDF-Ausgabe
 
-Spanisch: Hinweis
+Sie können die Sprachvariablen verwenden, um lokalisierte Beschriftungen für Elemente wie Hinweis, Vorsicht und Warnung zu definieren. Sie können den Wert für diese Variablen in einer oder mehreren Sprachen aktualisieren und dann wird der lokalisierte Wert automatisch in der PDF-Ausgabe ausgewählt.
+Beispielsweise können Sie die Beschriftung Notiz in Ihrer PDF-Ausgabe wie folgt darstellen:
 
+* Englisch: Hinweis
+* Französisch: Remarque
+* Deutsch: Verweis
 
-### Unterstützung für Sprachvariablen in der Fußzeile der Seite
+#### Sprachvariablen in den Ausgabevorlagen
 
-Sie können einer laufenden Kopf- oder Fußzeile auf der Übergeordneten Seite eines Dokuments eine Sprachvariable hinzufügen. Die -Variable wird auf allen Textseiten des Dokuments angezeigt, auf die diese Übergeordnete Seite angewendet wird. Beispiel: 1 von 1 Seite.
-Sie können sie auch verwenden, um die Zahlen in verschiedenen Sprachen anzuzeigen.
+Wenn Sie die PDF-Ausgabe in verschiedenen Sprachen erstellen wollten, mussten Sie für jede Sprache verschiedene PDF-Vorlagen mit lokalisiertem Text erstellen. Mit der Sprachvariablen-Funktion müssen Sie die Vorlage nur einmal erstellen. Anschließend können Sie für jeden statischen Text, den Sie lokalisieren müssen, entsprechende Sprachvariablen erstellen und in Ihrer Vorlage verwenden.
+Sie können Sprachvariablen für längeren Text erstellen, z. B. einen ganzen Satz oder sogar einen Absatz. Sie können auch Stile anwenden und HTML Markup verwenden, um diese Sprachvariablen zu formatieren.
 
-### Lokalisierte Präfixe für Ihr Inhaltsverzeichnis
-
-Sie haben auch die Funktion, lokalisierte Begriffe anzuzeigen, die zum Präfix in Ihren Überschriften verwendet werden sollen.
-Sie können beispielsweise das Präfix &quot;Kapitel&quot;auf folgende Weise in der PDF-Ausgabe präsentieren:
-
-Deutsch: Kapitel
-
-Spanisch: Capítulo
+Weitere Informationen finden Sie unter [Unterstützung für Sprachvariablen](../native-pdf/native-pdf-language-variables.md).
 
 ### Möglichkeit zur Verwendung AEM Metadaten in PDF-Layouts
 

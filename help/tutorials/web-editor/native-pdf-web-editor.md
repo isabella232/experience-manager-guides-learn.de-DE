@@ -2,9 +2,9 @@
 title: Native PDF | PDF-Ausgabegenerierung
 description: Generieren einer PDF-Ausgabe in Adobe Experience Manager Guides as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: d8bc9e2673ce08fe5f71154e9d009d1847b0274d
+source-git-commit: 3ae7a2a5954b68da29d4268012be47cd2ac8df3e
 workflow-type: tm+mt
-source-wordcount: '2903'
+source-wordcount: '2951'
 ht-degree: 1%
 
 ---
@@ -182,3 +182,10 @@ Wenn Sie die **Herunterladen temporärer Dateien** in den erweiterten Einstellun
 >[!NOTE]
 >
 > Die **Herunterladen temporärer Dateien**  ![Temporäre Dateien herunterladen](assets/native-pdf-download-temporary-files-icon.svg) Das Symbol erscheint nur, wenn Sie die letzte PDF-Ausgabe mithilfe der Vorgabe generiert haben, wobei Sie die Option im **Erweitert** Registerkarte.
+
+
+
+### Sprachvariablen verwenden
+
+AEM Guides unterstützen auch Sprachvariablen. Auswählen **Sprachvariablen** <img src="./assets/language-variables.svg" width="25">  im linken Bereich eine lokalisierte Version der vordefinierten Beschriftungen wie Hinweis, Vorsicht und Warnung oder statischer Text in der PDF-Ausgabe definieren. Weitere Informationen finden Sie unter [Unterstützung für Sprachvariablen](../native-pdf/native-pdf-language-variables.md).
+
