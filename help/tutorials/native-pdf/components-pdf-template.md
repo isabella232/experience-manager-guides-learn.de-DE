@@ -2,7 +2,7 @@
 title: Native PDF-Veröffentlichungsfunktion | Komponenten einer PDF-Vorlage
 description: Erfahren Sie mehr über die verschiedenen Komponenten einer PDF-Vorlage und wie Sie diese anpassen und konfigurieren.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 360bba8b5e6ab61314486497e9cc41348ff903c1
+source-git-commit: abeef67c07189d54e4adfb634c6094f3dc70e3eb
 workflow-type: tm+mt
 source-wordcount: '2938'
 ht-degree: 0%
@@ -27,23 +27,32 @@ Mit den Einstellungen in der Komponente Seitenlayouts können Sie die Struktur e
 1. Navigieren Sie im Web-Editor zum **Ausgabe** Registerkarte.
 1. Erweitern Sie die linke Seitenleiste und klicken Sie auf **Vorlagen**.
 1. Öffnen Sie die Vorlage, mit der Sie arbeiten möchten.
+
    >[!NOTE]
    >
    >Sie können eine Vorlage öffnen, indem Sie auf ihren Namen doppelklicken oder auf das Symbol > neben ihrem Namen klicken.
+
 1. Führen Sie einen der folgenden Schritte aus, um ein neues Seitenlayout zu erstellen:
+
    * Bewegen **Seitenlayouts** und klicken Sie auf (*Optionen* Symbol) **...** und wählen Sie **Neues Seitenlayout**.
+
+
    * Im **Vorlagen** auf **+** Symbol neben **Vorlagen** und wählen Sie **Seitenlayout** aus dem Kontextmenü aus.
 
-     Dadurch wird das Dialogfeld Layout hinzufügen geöffnet.
+
+     Dadurch wird die **Layout hinzufügen** angezeigt.
 
      <img src="assets/add-layout-2.png" alt="Dialogfeld &quot;Layout hinzufügen&quot;" width="250">
+
 1. Geben Sie einen Namen für das neue Seitenlayout an.
    >[!NOTE]
    >
    >Vermeiden Sie die Verwendung von Sonderzeichen bei der Benennung eines Seitenlayouts. Ein Leerzeichen im Namen wird durch einen Unterstrich &quot;_&quot;ersetzt.
+
 1. Klicken Sie auf **Fertig**.
 
    Das neue Layout wird unter Seitenlayouts erstellt und hinzugefügt.
+
 
 ### Duplizieren eines Seitenlayouts {#duplicate-page-layout}
 
