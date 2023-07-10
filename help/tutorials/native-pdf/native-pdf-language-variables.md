@@ -1,7 +1,7 @@
 ---
 title: Native PDF | Unterstützung für Sprachvariablen
 description: Verwenden Sie Sprachvariablen in der PDF-Ausgabe- und Ausgabevorlage.
-source-git-commit: 7c7381d2d5a218de9c4ca1fbc0363eacd43947cd
+source-git-commit: 3e922ef7ed9af200aa8fcfb0cbe4489cf059e335
 workflow-type: tm+mt
 source-wordcount: '1221'
 ht-degree: 0%
@@ -105,18 +105,18 @@ So fügen Sie eine Sprachvariable wie Ihre `copyright-label` Führen Sie im Kopf
 
 1. Öffnen Sie das gewünschte Seitenlayout zur Bearbeitung.
 
->[!NOTE]
->
-> Ansicht [Seitenlayout anpassen](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout) zum Öffnen eines Seitenlayouts zur Anpassung oder Bearbeitung.:
+   >[!NOTE]
+   >
+   > Ansicht [Seitenlayout anpassen](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout) zum Öffnen eines Seitenlayouts zur Anpassung oder Bearbeitung.
 
 1. Wählen Sie die Kopfzeile aus, damit das Einfügen einer Variablen aktiviert wird.
 1. Auswählen **Variable einfügen**  <img src="./assets/insert-language-variable.svg" width="25"> in der Symbolleiste.
 1. Im **Variable einfügen** Popup, wählen Sie den Namen der einzufügenden Sprachvariablen aus und klicken Sie auf **Einfügen** , um sie in den Kopfzeilenbereich einzufügen.
 
->[!NOTE]
->
-> Sie können auch die Suchzeichenfolge in das Textfeld eingeben. Die Variablennamen, die die angegebene Zeichenfolge enthalten, werden gefiltert und in der Liste angezeigt.
-> Die ausgewählte Sprachvariable wird in den Kopfzeilenbereich eingefügt.
+   >[!NOTE]
+   >
+   > Sie können auch die Suchzeichenfolge in das Textfeld eingeben. Die Variablennamen, die die angegebene Zeichenfolge enthalten, werden gefiltert und in der Liste angezeigt.
+   > Die ausgewählte Sprachvariable wird in den Kopfzeilenbereich eingefügt.
 
 Der folgende Screenshot zeigt den Wert für die `copyright-label` im Kopfzeilenbereich hinzugefügt.
 
