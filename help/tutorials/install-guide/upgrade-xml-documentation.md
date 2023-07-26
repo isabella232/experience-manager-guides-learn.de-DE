@@ -2,9 +2,9 @@
 title: Adobe Experience Manager-Handbücher aktualisieren
 description: Erfahren Sie, wie Sie Adobe Experience Manager-Handbücher aktualisieren
 exl-id: fdc395cf-a54f-4eca-b69f-52ef08d84a6e
-source-git-commit: 4c31580a7deb3e13931831c1888bbf0fd1bf9e14
+source-git-commit: ec67a3b959f9ee5b90a53134c1fe9aff8760cb6f
 workflow-type: tm+mt
-source-wordcount: '2896'
+source-wordcount: '3216'
 ht-degree: 1%
 
 ---
@@ -15,11 +15,13 @@ ht-degree: 1%
 >
 > Befolgen Sie die Upgrade-Anweisungen für die lizenzierte Version Ihres Produkts.
 
-Sie können Ihre aktuelle Version von AEM Guides auf Version 4.2.1 aktualisieren.
-- Wenn Sie Version 4.1, 4.1.x oder 4.2 verwenden, können Sie direkt auf Version 4.2.1 aktualisieren.
-- Wenn Sie Version 4.0 verwenden, müssen Sie vor der Aktualisierung auf Version 4.2.1 auf Version 4.2 aktualisieren.
+Sie können Ihre aktuelle Version von AEM Guides auf Version 4.3.0 aktualisieren
+- Wenn Sie Version 4.2 oder 4.2.x verwenden, können Sie direkt auf Version 4.3.0 aktualisieren.
+- Wenn Sie Version 4.1, 4.1.x oder 4.2 verwenden, müssen Sie auf Version 4.2.1 aktualisieren, bevor Sie auf Version 4.3.0 aktualisieren.
+- Wenn Sie Version 4.0 verwenden, müssen Sie vor der Aktualisierung auf Version 4.3.0 auf Version 4.2 aktualisieren.
 - Wenn Sie Version 3.8.5 verwenden, müssen Sie auf Version 4.0 aktualisieren, bevor Sie auf Version 4.2 aktualisieren.
 - Wenn Sie eine Version vor 3.8.5 verwenden, finden Sie im Abschnitt AEM Upgrade-Handbuch im produktspezifischen Installationshandbuch weitere Informationen.
+
 
 >[!NOTE]
 >
@@ -30,6 +32,7 @@ Weitere Informationen finden Sie in den folgenden Verfahren:
 - [Upgrade von 3.8.5 auf Version 4.0](#id2256DK003E1)
 - [Upgrade auf Version 4.2](#id22A3F500SXA)
 - [Upgrade auf Version 4.2.1](#upgrade-version-4-2-1)
+- [Upgrade auf Version 4.3.0](#upgrade-version-4-3)
 
 
 >[!IMPORTANT]
@@ -44,7 +47,7 @@ Bevor Sie den Prozess ausführen, müssen Sie bestimmte Aufgaben ausführen. In 
 
 >[!NOTE]
 >
-> Dieser Upgrade-Prozess gilt nur von Version 3.8.5 auf Version 4.0. Informationen zum Upgrade von Version 3.4 oder höher auf Version 3.8.5 finden Sie im Abschnitt *AEM* Abschnitt im produktspezifischen Installationshandbuch finden Sie im Abschnitt [Hilfe-Archivierungsseite](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+> Dieser Aktualisierungsprozess gilt nur von Version 3.8.5 auf Version 4.0. Informationen zum Upgrade von Version 3.4 oder höher auf Version 3.8.5 finden Sie im Abschnitt *Upgrade AEM Handbücher* Abschnitt im produktspezifischen Installationshandbuch finden Sie im Abschnitt [Hilfeseite](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 ****Voraussetzungen****
 
@@ -115,7 +118,7 @@ Laden Sie das Paket mithilfe von CRX Package Manager in die vorhandene AEM-Serve
 
 ## Upgrade auf Version 4.2 {#id22A3F500SXA}
 
-Die Aktualisierung auf Version 4.2 hängt von der aktuellen Version der AEM ab.
+Die Aktualisierung auf Version 4.2 hängt von der aktuellen Version AEM Handbücher ab.
 
 Wenn Sie Version 4.0, 4.1 oder 4.1.x verwenden, können Sie direkt auf Version 4.2 aktualisieren.
 
@@ -154,7 +157,7 @@ Bevor Sie mit dem Upgrade-Prozess für AEM Guides 4.2 beginnen, stellen Sie Folg
 
 >[!IMPORTANT]
 >
-> Die Hi-Tech-Vorlage wird auf dem aktualisierten Server nicht angezeigt. Um die High-Tech-Vorlage auf Ihrem Server einzubinden, können Sie sie kopieren: Quelle: /libs/fmdita/pdf/Hi-Tech Destination: /content/dam/dita-templates/pdf
+> Die Hi-Tech-Vorlage wird auf dem aktualisierten Server nicht angezeigt. Um die Hi-Tech-Vorlage auf Ihren Server einzufügen, können Sie sie kopieren: Quelle: /libs/fmdita/pdf/Hi-Tech Destination: /content/dam/dita-templates/pdf
 
 Nach der Installation AEM Guides können Sie die verschiedenen Konfigurationen, die von der neu installierten Version gelten, mit Ihrem Setup zusammenführen.
 
@@ -175,7 +178,7 @@ Nach der Installation AEM Guides können Sie die verschiedenen Konfigurationen, 
 1. Wenn die Variable **DXML-Nachbearbeitungs-Initiator** -Komponente vorhanden ist, stellen Sie sicher, dass die Anpassungen synchronisiert werden.
 1. Wenn die Variable **DXML-Nachbearbeitungs-Initiator** -Komponente fehlt, führen Sie die folgenden Schritte aus, um sie einzufügen:
 
-1. Klicken **Komponente einfügen** \(Verantwortlich für die Nachbearbeitung AEM Guides als letzten Schritt im Prozess\).
+1. Klicks **Komponente einfügen** \(Verantwortlich für die Nachbearbeitung AEM Guides als letzten Schritt im Prozess\).
 1. Konfigurieren Sie die **Prozessschritt** mit folgenden Details:
 
    **Registerkarte &quot;Allgemein&quot;**
@@ -186,13 +189,13 @@ Nach der Installation AEM Guides können Sie die verschiedenen Konfigurationen, 
 
    **Tab Prozess**
 
-   - Auswählen **DXML-Nachbearbeitungs-Initiator** von **Prozess** Dropdown
+   - Auswählen **DXML-Nachbearbeitungs-Initiator** aus dem **Prozess** Dropdown
 
    - Auswählen **Handler-Modus**
 
    - Klicken Sie auf **Fertig**
 
-1. Klicken **Synchronisieren** oben rechts nach Abschluss der Änderungen. Sie erhalten eine Erfolgsbenachrichtigung.
+1. Klicks **Synchronisieren** oben rechts nach Abschluss der Änderungen. Sie erhalten eine Erfolgsbenachrichtigung.
 
    >[!NOTE]
    >
@@ -214,7 +217,7 @@ Nach der Installation AEM Guides können Sie die verschiedenen Konfigurationen, 
 
    - &#39;excludeList&#39; sollte `"event-user-data:changedByWorkflowProcess"`.
    - Starter für &quot;*Knoten geändert*&quot; **DAM-Update-Asset-Workflow -** für Bedingung &quot;`jcr:content/jcr:mimeType!=video`&quot;,
-   - Der Wert &quot;Globbing&quot;sollte lauten:
+   - Der Wert &quot;Globbing&quot;sollte wie folgt lauten:
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
@@ -228,7 +231,7 @@ Nach der Installation AEM Guides können Sie die verschiedenen Konfigurationen, 
    - ui\_config.json\(möglicherweise in Ordnerprofilen festgelegt\)
    - geändert `com.adobe.fmdita.config.ConfigManager`
    - Überprüfen Sie, ob der benutzerspezifische Code alte Pfade verwendet hat \(wie im Abschnitt [Migrationszuordnung](#id2244LE040XA) -Abschnitt\) - sollten auf die neuen Pfade aktualisiert werden, damit die Anpassungen auch erwartungsgemäß funktionieren.
-1. Über alle neuen Konfigurationen in der aktuellen Version lesen \(überprüfen Sie [Versionshinweise](../release-info/release-notes-4.2.md)\) und überprüfen Sie, ob irgendwelche Funktionen betroffen sind, und ergreifen Sie geeignete Maßnahmen. Ein Beispiel könnte die Verwendung der in Version 4.0 eingeführten &quot;verbesserten Handhabung von Dateien und Versionen&quot; sein, für die Sie eine Konfiguration aktivieren müssen.
+1. Über alle neuen Konfigurationen in der aktuellen Version lesen \(überprüfen Sie [Versionshinweise](../release-info/release-notes-4.3.md)\) und überprüfen Sie, ob irgendwelche Funktionen betroffen sind, und ergreifen Sie geeignete Maßnahmen. Ein Beispiel könnte die Verwendung der in Version 4.0 eingeführten &quot;verbesserten Handhabung von Dateien und Versionen&quot; sein, für die Sie eine Konfiguration aktivieren müssen.
 
 ## Schritte zum Indexieren des vorhandenen Inhalts, um das neue Suchen und Ersetzen zu verwenden:
 
@@ -278,7 +281,7 @@ und legen Sie die folgenden Eigenschaften im Knoten fest:
 
    (zusammen mit anderen vorhandenen Knoten und Eigenschaften)
 
-1. Neuindizieren Sie die `damAssetLucene` index (durch Festlegen der reindex-Markierung als `true` und warten Sie, bis es `false` erneut (dies zeigt an, dass die Neuindizierung abgeschlossen ist). Beachten Sie, dass es je nach Größe des Index einige Stunden dauern kann.
+1. Neuindizieren Sie die `damAssetLucene` index (durch Festlegen der reindex-Markierung als `true` unter und warten Sie, bis es `false` erneut (dies zeigt an, dass die Neuindizierung abgeschlossen ist). Beachten Sie, dass es je nach Größe des Index einige Stunden dauern kann.
 1. Führen Sie das Indizierungsskript erneut aus, indem Sie die vorherigen Schritte ausführen.
 
 
@@ -346,7 +349,7 @@ Antwort:
 
 In der obigen Antwort-JSON wird der Schlüssel `lockNodePath` enthält den Pfad zum Knoten, der im Repository erstellt wurde und auf den gesendeten Auftrag verweist. Er wird automatisch gelöscht, sobald der Auftrag abgeschlossen ist. Bis dahin können Sie den aktuellen Status des Auftrags in diesem Knoten nachlesen.
 
-Beispielprotokoll: Im Folgenden finden Sie ein Beispiel von Protokollen, die in der Protokolldatei angezeigt werden, nachdem Sie das Skript Trigger haben.
+Beispielprotokoll: Im Folgenden finden Sie ein Beispiel von Protokollen, die in der Protokolldatei nach dem Trigger des Skripts angezeigt werden.
 
 ```
 04.05.2023 14:17:12.876 *INFO* [[0:0:0:0:0:0:0:1] [1683190032736] POST /bin/guides/script/start HTTP/1.1] com.adobe.dxml.common.executor.RunnableSynchronizedOTS Acquiring lock for job : translation-map-upgrade
@@ -367,7 +370,7 @@ Suchen nach `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript Co
 
 >[!IMPORTANT]
 >
-> Die Hi-Tech-Vorlage wird auf dem aktualisierten Server nicht angezeigt. Um die High-Tech-Vorlage auf Ihrem Server einzubinden, können Sie sie kopieren: Quelle: /libs/fmdita/pdf/Hi-Tech Destination: /content/dam/dita-templates/pdf
+> Die Hi-Tech-Vorlage wird auf dem aktualisierten Server nicht angezeigt. Um die Hi-Tech-Vorlage auf Ihren Server einzufügen, können Sie sie kopieren: Quelle: /libs/fmdita/pdf/Hi-Tech Destination: /content/dam/dita-templates/pdf
 
 Nach der Installation AEM Guides können Sie die verschiedenen Konfigurationen, die von der neu installierten Version gelten, mit Ihrem Setup zusammenführen.
 
@@ -388,7 +391,7 @@ Nach der Installation AEM Guides können Sie die verschiedenen Konfigurationen, 
 1. Wenn die Variable **DXML-Nachbearbeitungs-Initiator** -Komponente vorhanden ist, stellen Sie sicher, dass die Anpassungen synchronisiert werden.
 1. Wenn die Variable **DXML-Nachbearbeitungs-Initiator** -Komponente fehlt, führen Sie die folgenden Schritte aus, um sie einzufügen:
 
-1. Klicken **Komponente einfügen** \(Verantwortlich für die Nachbearbeitung AEM Guides als letzten Schritt im Prozess\).
+1. Klicks **Komponente einfügen** \(Verantwortlich für die Nachbearbeitung AEM Guides als letzten Schritt im Prozess\).
 1. Konfigurieren Sie die **Prozessschritt** mit folgenden Details:
 
    **Registerkarte &quot;Allgemein&quot;**
@@ -399,13 +402,13 @@ Nach der Installation AEM Guides können Sie die verschiedenen Konfigurationen, 
 
    **Tab Prozess**
 
-   - Auswählen **DXML-Nachbearbeitungs-Initiator** von **Prozess** Dropdown
+   - Auswählen **DXML-Nachbearbeitungs-Initiator** aus dem **Prozess** Dropdown
 
    - Auswählen **Handler-Modus**
 
    - Klicken Sie auf **Fertig**
 
-1. Klicken **Synchronisieren** oben rechts nach Abschluss der Änderungen. Sie erhalten eine Erfolgsbenachrichtigung.
+1. Klicks **Synchronisieren** oben rechts nach Abschluss der Änderungen. Sie erhalten eine Erfolgsbenachrichtigung.
 
    >[!NOTE]
    >
@@ -459,4 +462,55 @@ Führen Sie die folgenden Schritte für die Indizierung des vorhandenen Inhalts 
 
 - Nach Abschluss des Auftrags antwortet die obige GET-Anfrage mit Erfolg und gibt an, ob Zuordnungen fehlgeschlagen sind. Die erfolgreich indizierten Maps können über die Serverprotokolle bestätigt werden.
 
+
+## Upgrade auf Version 4.3.0 {#upgrade-version-4-3}
+
+Die Aktualisierung auf Version 4.3.0 hängt von der aktuellen Version der AEM-Handbücher ab. Wenn Sie Version 4.2 oder 4.2.x verwenden, können Sie direkt auf Version 4.3.0 aktualisieren.
+
+>[!NOTE]
+>
+>Die Nachbearbeitung und Indizierung kann einige Stunden dauern. Es wird empfohlen, den Aktualisierungsprozess außerhalb der Spitzenzeiten zu starten.
+
+****Voraussetzungen****
+
+Stellen Sie vor dem Beginn des Aktualisierungsprozesses der AEM Guides 4.3.0 Folgendes sicher:
+
+1. Aktualisierung auf AEM Guides-Version 4.2 oder 4.2.x und Abschluss des jeweiligen Installationsschritts.
+1. Alle Übersetzungsaufgaben wurden geschlossen.
+
+
+
+## Installieren Sie Version 4.3.0
+
+1. Laden Sie das 4.3.0-Versionspaket herunter. [Adobe Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Installieren Sie das Paket Version 4.3.0 .
+1. Löschen Sie den Browser-Cache nach der Installation des Pakets.
+1. Aktualisieren Sie die `ui_config.json` aus der **Konfiguration des XML-Editors** im Ordner-Profil.
+
+
+## Nach der Installation von Version 4.3.0
+
+Nach der Installation AEM Guides können Sie die verschiedenen Konfigurationen, die von der neu installierten Version gelten, mit Ihrem Setup zusammenführen.
+
+## Schritte zum Nachbearbeiten des vorhandenen Inhalts zur Verwendung des Berichts über einen fehlerhaften Link
+
+
+Führen Sie die folgenden Schritte aus, um den vorhandenen Inhalt nachzubearbeiten und den neuen Bericht zu fehlerhaften Links zu verwenden:
+
+1. (Optional) Wenn mehr als 100.000 Datendateien im System vorhanden sind, aktualisieren Sie die `queryLimitReads` under `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` auf einen größeren Wert (ein Wert, der größer ist als die Anzahl der vorhandenen Assets, z. B. 200.000), und dann erneut bereitgestellt werden.
+
+   | PID | Eigenschaftenschlüssel | Eigenschaftswert |
+   |---|---|---|
+   | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitReads | Wert: 200000 <br> Standardwert: 100000 |
+
+1. Führen Sie eine POST-Anfrage an den Server aus (mit der richtigen Authentifizierung) - `http://<server:port>//bin/guides/reports/upgrade`.
+
+1. Die API gibt eine jobId zurück. Um den Status des Auftrags zu überprüfen, können Sie eine GET-Anfrage mit Auftrags-ID an denselben Endpunkt senden - `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
+(Beispiel: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+
+1. Sobald der Auftrag abgeschlossen ist, antwortet die vorherige GET-Anfrage erfolgreich. Wenn der Auftrag aus irgendeinem Grund fehlschlägt, kann in den Serverprotokollen ein Fehler angezeigt werden.
+
+1. Wiederherstellen des standardmäßigen oder vorherigen vorhandenen Werts von `queryLimitReads` wenn Sie es in Schritt 1 geändert haben.
+
 **Übergeordnetes Thema:**[ Herunterladen und installieren](download-install.md)
+

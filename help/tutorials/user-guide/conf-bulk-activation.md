@@ -1,13 +1,13 @@
 ---
 title: Massenaktivierung veröffentlichter Inhalte
 description: Erfahren Sie, wie Sie die Massenaktivierung veröffentlichter Inhalte durchführen.
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 66c454bb-f09e-442f-b863-60ee249a0e08
+source-git-commit: c4f383984501525527136773ce7ef556170e8ad3
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
-
 
 # Massenaktivierung veröffentlichter Inhalte {#id214GG080LE8}
 
@@ -21,7 +21,8 @@ Mit der Massenaktivierung von AEM Handbüchern können Sie Ihre Inhalte schnell 
 
 - Hinzufügen einer oder mehrerer Zuordnungen \(zu einer Zuordnungssammlung\) zu einer einzelnen Aktivierungsaufgabe
 
-- Wählen Sie eine von mehreren Ausgabevorgaben aus, die Sie veröffentlichen möchten
+- Wählen Sie eine oder mehrere Ausgabevorgaben aus, die Sie veröffentlichen möchten. Sie können AEM Site-, PDF-, nativen PDF-, HTML5-, benutzerdefinierten und JSON-Ausgabevorgaben hinzufügen.
+
 
 - Gebietsschemata definieren, in denen die Ausgabe aktiviert werden soll
 
@@ -38,4 +39,3 @@ Mit der Massenaktivierung von AEM Handbüchern können Sie Ihre Inhalte schnell 
 
 
 **Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)
-

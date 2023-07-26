@@ -2,16 +2,16 @@
 title: Prüfungsthemen
 description: Erfahren Sie, wie Sie Themen überprüfen
 exl-id: ca94ec2e-cd45-418d-9b35-73d587ba51ec
-source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
+source-git-commit: b9bf08ccbe2eb17ca8d4dac675155e0b4631f0a9
 workflow-type: tm+mt
-source-wordcount: '2271'
+source-wordcount: '2323'
 ht-degree: 0%
 
 ---
 
 # Prüfungsthemen {#id2056B0W0FBI}
 
-Wenn Sie Überprüfer sind, erhalten Sie eine E-Mail mit einer Überprüfungsanfrage mit dem Link zu den Prüfungsthemen. Wenn Sie auf den Link klicken, gelangen Sie zur Überprüfungsseite, auf der Sie Ihr Feedback zu den freigegebenen Themen hinzufügen können.
+Wenn Sie Überprüfer sind, erhalten Sie eine E-Mail mit einer Überprüfungsanfrage mit dem Link zu den Prüfungsthemen. Durch Klicken auf den Link gelangen Sie zur Überprüfungsseite, auf der Sie Ihr Feedback zu den freigegebenen Themen hinzufügen können.
 
 Führen Sie die folgenden Schritte aus, um ein Thema zu überprüfen:
 
@@ -34,7 +34,6 @@ Führen Sie die folgenden Schritte aus, um ein Thema zu überprüfen:
 
 
 
-
    Der folgende Bildschirm wird angezeigt, wenn eine DITA-Zuordnung zum Initiieren des Überprüfungs-Workflows verwendet wird:
 
    ![](images/multiple-topics-review.png){width="800" align="left"}
@@ -44,16 +43,21 @@ Führen Sie die folgenden Schritte aus, um ein Thema zu überprüfen:
    - **A**: Der Name der Prüfungsaufgabe.
    - **B**: Klicken Sie auf das Symbol &quot;Themenansicht&quot;, um den Themenbereich ein- oder auszublenden.
 
-   - **C**: Die durch ***F*** können gefiltert werden, indem Sie die gewünschte Filteroption von hier aus auswählen. Sie können Kommentare nach Typ, Status, Überprüfer oder Version filtern. Wenn Sie z. B. sehen möchten, wie viele Durchstreichen-Kommentare in jedem der unter &quot;Überprüfen&quot;-Themen abgegeben wurden, klicken Sie auf das Filtersymbol und wählen Sie dann **Überprüfungstyp** \> **Löschen**.
+   - **C**: Sie können nach dem erforderlichen Thema suchen, indem Sie einen Teil des Textes des Titels oder Dateipfads in die Suchleiste eingeben.
 
-      >[!NOTE]
-      >
-      > Beim Anwenden der Filter werden nur die Kommentare angezeigt, die mit den ausgewählten Filtern übereinstimmen. Die Anzahl der gefilterten Kommentare wird links im Themenbereich angezeigt.
+     Auswählen  ![](images/view-options.svg) in der Nähe der Suchleiste, um alle Themen oder Themen mit Kommentaren anzuzeigen. Standardmäßig können Sie alle in der Prüfungsaufgabe vorhandenen Themen anzeigen.
 
-   - **D**: Ein Thema, das dem aktuellen Prüfer zur Überprüfung zugewiesen wird, wird schwarz angezeigt und kann angeklickt werden. Wenn der Validierer auf einen Themenlink klickt, wird das Thema an den Anfang des Bildschirms gebracht.
-   - **E**: Ein Thema, das nicht zur Überprüfung verfügbar ist, ist ausgegraut. Das Thema wird im schreibgeschützten Modus angezeigt und Sie dürfen zu solchen Themen keine Überprüfungskommentare hinzufügen.
 
-   - **F**: Anzahl der zu einem Thema erhaltenen Kommentare. Diese Zahl ändert sich je nach angewendetem Filter.
+   - **D**: Die Zahlen, die durch ***F*** können gefiltert werden, indem Sie die gewünschte Filteroption von hier aus auswählen. Sie können Kommentare nach Typ, Status, Überprüfer oder Version filtern. Wenn Sie z. B. sehen möchten, wie viele Durchstreichen-Kommentare in jedem der unter &quot;Überprüfen&quot;-Themen abgegeben wurden, klicken Sie auf das Filtersymbol und wählen Sie dann **Überprüfungstyp** \> **Löschen**.
+
+     >[!NOTE]
+     >
+     > Beim Anwenden der Filter werden nur die Kommentare angezeigt, die mit den ausgewählten Filtern übereinstimmen. Die Anzahl der gefilterten Kommentare wird links im Themenbereich angezeigt.
+
+   - **E**: Ein Thema, das dem aktuellen Überprüfer zur Überprüfung zugewiesen ist, wird schwarz angezeigt und kann angeklickt werden. Wenn der Validierer auf einen Themenlink klickt, wird das Thema an den Anfang des Bildschirms gebracht.
+   - **F**: Ein Thema, das nicht zur Überprüfung verfügbar ist, ist ausgegraut. Das Thema wird im schreibgeschützten Modus angezeigt und Sie dürfen zu solchen Themen keine Überprüfungskommentare hinzufügen.
+
+   - **G**: Anzahl der Kommentare zu einem Thema. Diese Zahl ändert sich je nach angewendetem Filter.
 
    Alle Themen in der Karte werden als ein einziges zusammengesetztes Dokument angezeigt. Die Themen, die der Validierer überprüfen darf, werden normal angezeigt. Die Themen, die der Review nicht überprüfen darf, werden nicht angezeigt.
 
@@ -77,7 +81,7 @@ Führen Sie die folgenden Schritte aus, um ein Thema zu überprüfen:
    >
    > Im Bereich &quot;Kommentare&quot;werden nur die Kommentare zu den aktuellen Themen angezeigt. Wenn Sie den Fokus auf ein anderes Thema verschieben, werden die Kommentare zum anderen Thema angezeigt.
 
-1. Klicken **Schließen** nach Abschluss der Überprüfung des Themas. Beim Klicken auf **Schließen** auf, werden Sie zu der Seite weitergeleitet, von der Sie auf das Prüfungsthema zugegriffen haben.
+1. Klicks **Schließen** nach Abschluss der Überprüfung des Themas. Beim Klicken auf **Schließen** auf, werden Sie zu der Seite weitergeleitet, von der Sie auf das Prüfungsthema zugegriffen haben.
 
 ## Zusätzliche Funktionen auf dem Prüfungsbildschirm
 
@@ -93,20 +97,20 @@ Wenn Sie ein einzelnes Thema anzeigen, erhalten Sie eine zusätzliche Option, um
 
 - **Hervorheben** \(![](images/review-highlight-icon.svg)\): Um einen Hervorhebungskommentar hinzuzufügen, wählen Sie den Text aus und klicken Sie auf das Symbol Hervorheben . Oder klicken Sie auf das Symbol Hervorheben und wählen Sie den gewünschten Text aus:
 
-   ![](images/highlight-comment.png){width="650" align="left"}
+  ![](images/highlight-comment.png){width="650" align="left"}
 
-   Im Fenster &quot;Kommentare&quot;wird ein Popup angezeigt, in dem Sie Ihren Kommentar für den hervorgehobenen Inhalt hinzufügen können.
+  Im Fenster Kommentare wird ein Popup angezeigt, in dem Sie Ihren Kommentar für den hervorgehobenen Inhalt hinzufügen können.
 
 - **Durchstreichen** \(![](images/review-text-strike-through-icon.svg)\): Wenn Sie das Entfernen von Inhalten vorschlagen möchten, wählen Sie den Inhalt aus und klicken Sie auf das Symbol Durchstreichen . Wählen Sie alternativ den gewünschten Text aus und klicken Sie auf die Entf-Taste:
 
-   Im Fenster &quot;Kommentare&quot;wird ein Popup angezeigt, in dem Sie Ihren Kommentar für den gelöschten Inhalt hinzufügen können.
+  Im Fenster Kommentare wird ein Popup angezeigt, in dem Sie Ihren Kommentar für den gelöschten Inhalt hinzufügen können.
 
-- **Text einfügen** \(![](images/review-insert-text-icon.svg)\): Wenn Sie Text einfügen möchten, klicken Sie auf das Symbol Text einfügen und platzieren Sie den Cursor an die Stelle, an der Sie den Text einfügen und die Informationen eingeben möchten. Oder platzieren Sie den Cursor an die Stelle, an der Sie Text einfügen und mit der Eingabe beginnen möchten. Die hinzugefügten Informationen werden in grüner Schriftart angezeigt:
+- **Text einfügen** \(![](images/review-insert-text-icon.svg)\): Wenn Sie Text einfügen möchten, klicken Sie auf das Symbol Text einfügen und platzieren Sie den Cursor an die Stelle, an der Sie den Text einfügen möchten, und geben Sie ihn in die Informationen ein. Oder platzieren Sie den Cursor an die Stelle, an der Sie Text einfügen und mit der Eingabe beginnen möchten. Die hinzugefügten Informationen werden in grüner Schriftart angezeigt:
 
-- **Kommentar hinzufügen**\(![](images/review-comment-icon.svg)\): Wenn Sie einen Kommentartyp mit Kurznotiz hinzufügen möchten, klicken Sie auf das Symbol Kommentar hinzufügen und geben Sie den Kommentar in das Popup-Fenster ein.
+- **Kommentar hinzufügen**\(![](images/review-comment-icon.svg)\): Wenn Sie einen Kommentartyp mit Kurznotiz hinzufügen möchten, klicken Sie auf das Symbol Kommentar hinzufügen und geben Sie den Kommentar in das Popup ein.
 
 
-**Kontextsymbolleiste**
+**Kontextuelle Symbolleiste**
 
 Mit der dedizierten Symbolleiste können Sie Text auch schnell hervorheben oder durchsuchen. Führen Sie die folgenden Schritte aus, um Kommentare über die dedizierte Symbolleiste zu erstellen:
 
@@ -117,22 +121,22 @@ Mit der dedizierten Symbolleiste können Sie Text auch schnell hervorheben oder 
 1. Klicken Sie auf **Hervorheben** oder **Durchstreichen** Symbol.
 1. Sie können Kommentare zum Hervorheben oder Durchstreichen im Kommentarbereich hinzufügen.
 
-**Überprüfen mithilfe des Bedienfelds &quot;Kommentare&quot;** - Im Bereich &quot;Kommentare&quot;wird eine Liste mit Kommentaren zum aktuellen Thema angezeigt. In diesem Bedienfeld werden auch Kommentare von anderen Validierern aufgelistet, wenn das Thema an mehrere Validierer gesendet wird. Jeder Kommentar im Kommentarbereich ist mit dem entsprechenden Text im aktuellen Thema verknüpft. Sie können damit den kommentierten Text identifizieren. Jeder Kommentar zeigt den Namen des Validierers an, der den Kommentar hinzugefügt hat, sowie den Zeitstempel.
+**Überprüfen mithilfe des Bedienfelds &quot;Kommentare&quot;** - Im Bereich &quot;Kommentare&quot;wird eine Liste mit Kommentaren zum aktuellen Thema angezeigt. In diesem Bedienfeld werden auch Kommentare von anderen Validierern aufgelistet, wenn das Thema an mehrere Validierungsverantwortliche gesendet wird. Jeder Kommentar im Kommentarbereich ist mit dem entsprechenden Text im aktuellen Thema verknüpft. Sie können damit den kommentierten Text identifizieren. Jeder Kommentar zeigt den Namen des Validierers an, der den Kommentar hinzugefügt hat, sowie den Zeitstempel.
 
 Die Kommentare werden in der Reihenfolge des kommentierten Texts im Dokument angezeigt. Zum Beispiel gibt es einen Hervorhebungskommentar zum ersten Satz und einen Einfügetext-Kommentar zum zweiten Satz im ersten Absatz. Dann wird der Hervorhebungstext-Kommentar vor dem eingefügten Textkommentar angezeigt.
 
 Die Aufgaben, die Sie mit dem Bereich &quot;Kommentare&quot;ausführen können, werden unten beschrieben:
 
-- Durch Klicken auf einen Kommentar wird die Position des entsprechenden Kommentars im Dokument hervorgehoben und angezeigt.
+- Wenn Sie auf einen Kommentar klicken, wird der Speicherort des entsprechenden Kommentars im Dokument hervorgehoben und angezeigt.
 - Sie können Antworten zu Kommentaren hinzufügen.
-- Sie können Ihren eigenen Kommentar bearbeiten, indem Sie auf den Kommentar-Text im Fenster &quot;Kommentare&quot;klicken und dann **Bearbeiten** über das Menü Optionen .
-- Sie können Ihre eigenen Kommentare löschen, indem Sie auf den Kommentar im Fenster &quot;Kommentare&quot;klicken und dann die **Löschen** im Menü &quot;Optionen&quot;aus.
+- Sie können Ihren eigenen Kommentar bearbeiten, indem Sie auf den Kommentar-Text im Fenster &quot;Kommentare&quot;klicken und dann **Bearbeiten** über das Menü &quot;Optionen&quot;.
+- Sie können Ihre eigenen Kommentare löschen, indem Sie auf den Kommentar im Fenster &quot;Kommentare&quot;klicken und dann die **Löschen** im Menü &quot;Optionen&quot;.
 
-   ![](images/review-comment-options-menu.png){width="300" align="left"}
+  ![](images/review-comment-options-menu.png){width="300" align="left"}
 
-   >[!NOTE]
-   >
-   > Das Menü Optionen wird nur angezeigt, wenn Sie den Mauszeiger über Ihre eigenen Kommentare bewegen. Sie wird von anderen Validierern nicht für die Kommentare angezeigt.
+  >[!NOTE]
+  >
+  > Das Menü Optionen wird nur angezeigt, wenn Sie den Mauszeiger über Ihre eigenen Kommentare bewegen. Sie wird von anderen Validierern nicht für die Kommentare angezeigt.
 
 - Alle teilnehmenden Benutzer können auf Kommentare anderer Benutzer antworten. Klicken Sie in einem Kommentar auf **Antwort** und drücken Sie die Eingabetaste , um eine Antwort zu senden.
 
@@ -187,14 +191,14 @@ Die anderen Validierer oder Autoren erhalten nur die Option zum Herunterladen vo
 
 ![](images/other-reviewer-download.png){width="550" align="left"}
 
-- Sie können alle Anlagen, die mit einem Kommentar verknüpft sind, aus der **Anlagen anzeigen** angezeigt. Wählen Sie die Anlagen aus und klicken Sie auf die **Download** auf der Kommentarebene.
+- Sie können alle Anlagen, die mit einem Kommentar verknüpft sind, aus der **Anlagen anzeigen** angezeigt. Wählen Sie die Anlagen aus und klicken Sie auf die **Herunterladen** auf der Kommentarebene.
 
 - Sie können die Anlagen, die mit einem Kommentar verknüpft sind, auch aus dem **Anlagen anzeigen** angezeigt. Wählen Sie die Anlagen aus und klicken Sie auf die **Löschen** Symbol.
 
 ![](images/attach-files-comments-panel.png){width="550" align="left"}
 
 
-**Bedingungsfeld** - Wenn Ihr Thema bedingte Inhalte enthält, wird Ihnen die **Bedingungen** \(![](images/conditions-icon.svg)\) rechts. Klicken auf **Bedingungen** -Symbol öffnet das Bedienfeld Bedingungen , in dem Sie den Inhalt gemäß den verfügbaren Bedingungen im Thema hervorheben können.
+**Bedingungsbedienfeld** - Wenn Ihr Thema bedingte Inhalte enthält, wird Ihnen die **Bedingungen** \(![](images/conditions-icon.svg)\) rechts. Klicken auf **Bedingungen** -Symbol öffnet das Bedienfeld Bedingungen , in dem Sie den Inhalt gemäß den verfügbaren Bedingungen im Thema hervorheben können.
 
 : Standardmäßig **Alle Bedingungen hervorheben** aktiviert ist, werden alle Bedingungen ausgewählt, der gesamte Inhalt angezeigt und der konditionierte Inhalt wird sowohl im Vorschau- als auch im Vorschaumodus hervorgehoben dargestellt.
 
@@ -202,7 +206,7 @@ Die anderen Validierer oder Autoren erhalten nur die Option zum Herunterladen vo
 
 ![](images/review-conditions-panel.png){width="350" align="left"}
 
-Sie können festlegen, ob eine bestimmte Bedingung ein- oder ausgeblendet werden soll.
+Sie können eine bestimmte Bedingung ein- oder ausblenden.
 
 - Wenn Sie eine Bedingung ausblenden, wird der Inhalt mit dieser Bedingung im Überprüfungsmodus nicht hervorgehoben.
 - Wenn Sie eine Bedingung anzeigen, wird der konditionierte Inhalt im Überprüfungsmodus hervorgehoben. Im folgenden Screenshot verwendet nur der Inhalt zwei Bedingungen: `win` und `mac` hervorgehoben ist.
@@ -220,13 +224,13 @@ Im Vorschaumodus werden der nicht konditionalisierte Inhalt und der konditionali
 
 - Klicken Sie auf das Symbol Veralteter Kommentar \(![](images/outdated-comment-icon.svg)\) zeigt die Unterschiede zwischen der neuesten und der kommentierten Version des Dokuments an. Die Versionsnummern \(der verglichenen Versionen\) werden oben in den Dokumenten angezeigt.
 
-   ![](images/comments-page-review-mode.png){width="800" align="left"}
+  ![](images/comments-page-review-mode.png){width="800" align="left"}
 
-   >[!NOTE]
-   >
-   > Wenn Sie den Mauszeiger über das Symbol Veralteter Kommentar bewegen, wird die Versionsnummer des Themas angezeigt, zu dem der Kommentar hinzugefügt wurde. Wenn beispielsweise ein Kommentar zu Version 1.0 abgegeben wurde, wird derselbe Kommentar angezeigt.
+  >[!NOTE]
+  >
+  > Wenn Sie den Mauszeiger über das Symbol Veralteter Kommentar bewegen, wird die Versionsnummer des Themas angezeigt, zu dem der Kommentar hinzugefügt wurde. Wenn beispielsweise ein Kommentar zu Version 1.0 abgegeben wurde, wird derselbe Kommentar angezeigt.
 
-- Wenn Sie auf einen veralteten Kommentar klicken, wird die Version dieses Kommentars im linken Bereich geöffnet. Die vorherige Version wird im linken Bereich angezeigt und die aktuelle Version wird im rechten Bereich angezeigt. Alle Kommentare zur veralteten Version werden auf der linken Seite importiert. Sie können die vorherige Version mit der aktuellen Version vergleichen.
+- Wenn Sie auf einen veralteten Kommentar klicken, wird die Version dieses Kommentars im linken Bereich geöffnet. Die vorherige Version wird im linken Bereich angezeigt und die aktuelle Version wird im rechten Bereich angezeigt. Alle Kommentare zur veralteten Version werden links importiert. Sie können die vorherige Version mit der aktuellen Version vergleichen.
 
 **Kommentare filtern** - Sie können Kommentare in einem Dokument filtern, um bestimmte Kommentare nach Bedarf anzuzeigen. Um Kommentare zu filtern, klicken Sie auf die **Filter** icon \(![](images/filter-search-icon.svg)\), das im Menü rechts neben dem Textfeld &quot;Suchkommentare&quot;im Bereich &quot;Kommentare&quot;angezeigt wird.
 
@@ -238,9 +242,9 @@ Wählen Sie eine oder mehrere der folgenden Filteroptionen aus dem **Filtertyp**
 
 - **Versionen** - Filtern Sie nach den Kommentaren, die zu einer bestimmten Version des Themas eingegangen sind.
 
-   Bei Verwendung der Filter werden die Kommentare im rechten Bereich entsprechend der Auswahl gefiltert und die Anzahl der Kommentare im linken Bereich entsprechend aktualisiert.
+  Bei Verwendung der Filter werden die Kommentare im rechten Bereich entsprechend der Auswahl gefiltert und die Anzahl der Kommentare im linken Bereich entsprechend aktualisiert.
 
 
 Um den Filter zu entfernen und alle Kommentare anzuzeigen, deaktivieren Sie alle Filter aus dem **Filtertyp** Dialogfeld und klicken Sie auf **Anwenden**.
 
-**Übergeordnetes Thema:**[ Themen oder Karten überprüfen](review.md)
+**Übergeordnetes Thema:**[ Themen oder Zuordnungen überprüfen](review.md)

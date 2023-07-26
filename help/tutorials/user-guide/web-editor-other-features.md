@@ -1,13 +1,13 @@
 ---
 title: Weitere Funktionen im Web Editor
 description: Erfahren Sie, wie Sie andere Funktionen im Web-Editor verwenden.
-source-git-commit: cc0fbca257d82cc82db5b5da8d263309fd71de55
+exl-id: dea19372-8a15-4b5d-aea4-47dc914d779e
+source-git-commit: dd744a8e5b7d60a0e5b4d0ad8f9201950e3ae1ce
 workflow-type: tm+mt
 source-wordcount: '2131'
 ht-degree: 0%
 
 ---
-
 
 # Weitere Funktionen im Web Editor {#id2056B0B0YPF}
 
@@ -46,7 +46,7 @@ Die verschiedenen Optionen im Kontextmenü werden nachfolgend beschrieben:
 
 ***Als neue Version speichern***
 
-Um eine neue Version der Datei zu erstellen, wählen Sie **Als neue Version speichern**. Weitere Informationen finden Sie unter **Speichern** und **Als neue Version speichern**, siehe [Funktionen des Web Editors kennen](web-editor-features.md#).
+Um eine neue Version der Datei zu erstellen, wählen Sie **Als neue Version speichern**. Weitere Informationen **Speichern** und **Als neue Version speichern**, siehe [Funktionen des Web Editors kennen](web-editor-features.md#).
 
 ***Kopieren***: Sie können aus den folgenden Optionen auswählen:
 
@@ -56,7 +56,7 @@ Um eine neue Version der Datei zu erstellen, wählen Sie **Als neue Version spei
 
 ***Suchen in***: Sie können aus den folgenden Optionen auswählen:
 
-- **Zuordnung**: Wenn Sie eine große DITA-Karte geöffnet haben und den genauen Speicherort einer Datei in der Karte suchen möchten, wählen Sie **Suchen Sie in \> Map .**. Wenn Sie die Option In Zuordnung lokalisieren auswählen, wird die Datei \(von der aus die Option aufgerufen wird\) in der Zuordnungshierarchie angezeigt und hervorgehoben. Um diese Funktion verwenden zu können, müssen Sie die Zuordnungsdatei im Web-Editor öffnen. Wenn die Kartenansicht ausgeblendet ist, wird beim Aufrufen dieser Funktion die Kartenansicht angezeigt und die Datei in der Zuordnungshierarchie hervorgehoben.
+- **Zuordnung**: Wenn Sie eine große DITA-Zuordnung geöffnet haben und den genauen Speicherort einer Datei in der Zuordnung finden möchten, wählen Sie **Suchen Sie in \> Map .**. Wenn Sie die Option In Zuordnung lokalisieren auswählen, wird die Datei \(von der aus die Option aufgerufen wird\) in der Zuordnungshierarchie angezeigt und hervorgehoben. Um diese Funktion verwenden zu können, müssen Sie die Zuordnungsdatei im Web-Editor öffnen. Wenn die Kartenansicht ausgeblendet ist, wird beim Aufrufen dieser Funktion die Kartenansicht angezeigt und die Datei in der Zuordnungshierarchie hervorgehoben.
 
 - **Repository**: Ähnlich wie &quot;In Map suchen&quot;, wird die **Suchen Sie in \> Repository** zeigt den Speicherort der Datei im Repository \(oder DAM\) an. Die Repository-Ansicht wird geöffnet und die ausgewählte Datei wird im Repository hervorgehoben. Wenn sich die Datei in einem Ordner befindet, wird dieser Ordner erweitert, um den Speicherort der ausgewählten Datei im Repository anzuzeigen.
 
@@ -74,7 +74,7 @@ Um eine neue Version der Datei zu erstellen, wählen Sie **Als neue Version spei
 
 ***Eigenschaften***
 
-Um die Seite AEM Eigenschaften der ausgewählten Datei anzuzeigen, wählen Sie **Eigenschaften**.
+Um die Seite mit den AEM Eigenschaften der ausgewählten Datei anzuzeigen, wählen Sie **Eigenschaften**.
 
 ***Aufspaltung***: Sie können aus den folgenden Optionen auswählen:
 
@@ -92,7 +92,7 @@ Generieren Sie die Ausgabe für die ausgewählte Datei. Die Ausgabe kann nur fü
 
 **Schließen**, **Andere schließen** oder **Alle schließen**
 
-Wenn Sie die Datei schließen möchten, über die Sie das Kontextmenü aufgerufen haben, wählen Sie **Schließen \> Schließen**. Verwendung **Schließen \> Andere schließen** , um alle anderen geöffneten Dateien mit Ausnahme der derzeit aktiven Datei zu schließen. Um alle geöffneten Dateien zu schließen, wählen Sie die **Schließen \> Alle schließen** im Kontextmenü oder Sie können auch den Web Editor schließen. Wenn Ihre Sitzung nicht gespeicherte Dateien enthält, werden Sie aufgefordert, diese Dateien zu speichern.
+Wenn Sie die Datei schließen möchten, über die Sie das Kontextmenü aufgerufen haben, wählen Sie **Schließen \> Schließen**. Verwendung **Schließen \> Andere schließen** , um alle anderen geöffneten Dateien mit Ausnahme der derzeit aktiven Datei zu schließen. Um alle geöffneten Dateien zu schließen, wählen Sie die **Schließen \> Alle schließen** -Option im Kontextmenü oder Sie können auch den Web-Editor schließen. Wenn Ihre Sitzung nicht gespeicherte Dateien enthält, werden Sie aufgefordert, diese Dateien zu speichern.
 
 **Szenarien zum Schließen und Speichern von Dateien**
 
@@ -113,21 +113,21 @@ Je nachdem, ob die Datei gesperrt/entsperrt ist und gespeicherte oder nicht gesp
 
 - **Entsperren und schließen**: Die Sperre in der Datei wird aufgehoben und die Datei wird geschlossen.
 
-   ![](images/file-close-unlock-file.png){width="400" align="left"}
+  ![](images/file-close-unlock-file.png){width="400" align="left"}
 
 - **Als neue Version speichern**: Dadurch werden die Änderungen gespeichert, die Sie an Ihrem Inhalt vorgenommen haben, und eine neue Version Ihrer Datei erstellt. Sie können auch Beschriftungen und Kommentare für die neu gespeicherte Version hinzufügen. Weitere Informationen zum Speichern einer neuen Version finden Sie unter [Als neue Version speichern](web-editor-features.md#save-as-new-version-id209ME400GXA).
 
 - **Datei entsperren**: Wenn Sie eine Datei entsperren, wird die Sperre in Ihrer Datei aufgehoben und die Änderungen werden in der aktuellen Version der Datei gespeichert.
 
->[!NOTE]
->
-> Wenn Sie die Option zum Entsperren der Datei deaktivieren, erhalten Sie auch eine Option, die Datei zu schließen, ohne die Änderungen zu speichern.
+  >[!NOTE]
+  >
+  > Wenn Sie die Option zum Entsperren der Datei deaktivieren, erhalten Sie auch eine Option, die Datei zu schließen, ohne die Änderungen zu speichern.
 
-Beispielsweise wird eine der Eingabeaufforderungen im folgenden Screenshot angezeigt:
+  Beispielsweise wird eine der Eingabeaufforderungen im folgenden Screenshot angezeigt:
 
-![](images/file-close-save-changes-unlock.png){width="400" align="left"}
+  ![](images/file-close-save-changes-unlock.png){width="400" align="left"}
 
-**Visuelle Hinweise für fehlerhafte Verweise**
+**Visuelle Hinweise für unterbrochene Verweise**
 
 - Wenn Ihr Thema fehlerhafte Querverweise oder Inhaltsverweise enthält, werden diese in rotem Text angezeigt.
 
@@ -151,13 +151,13 @@ Beispielsweise wird eine der Eingabeaufforderungen im folgenden Screenshot angez
 
 - Mit dem Web Editor können Sie Markdown-Dokumente \(.md\) zusammen mit Ihren DITA-Dokumenten verwenden. Sie können ein Markdown-Dokument einfach im Web-Editor erstellen und in der Vorschau anzeigen und es auch über den DITA-Map-Editor in Ihre Map-Datei einfügen. Weitere Informationen finden Sie unter [Erstellen von Markdown-Dokumenten aus dem Web Editor](web-editor-markdown-topic.md#).
 
-**Unterstützung für DITA-Glossarbegriff-Thema**
+**Unterstützung für DITA-Glossarbegriff**
 
 - Der Web Editor unterstützt DITA-Glossarbegriffe, die Sie einfügen können, indem Sie `term` oder `abbreviated-form` -Elemente.
 
 **MathML-Gleichungen einfügen**
 
-- AEM Guides bieten Ihnen eine native Unterstützung für das Einfügen von MathML-Gleichungen durch Integration mit [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro) Anwendung. Um eine MathML-Gleichung einzufügen, klicken Sie auf die **Element einfügen** und geben Sie mathml ein. Wenn Sie mathml-Element aus der Liste auswählen, wird das Dialogfeld MathML einfügen angezeigt:
+- AEM Guides bieten Ihnen eine native Unterstützung für das Einfügen von MathML-Gleichungen durch Integration mit [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro) Anwendung. Um eine MathML-Gleichung einzufügen, klicken Sie auf die **Element einfügen** und geben Sie mathml ein. Wenn Sie mathml-Element aus der Liste auswählen, wird das Dialogfeld &quot;MathML einfügen&quot;angezeigt:
 
 ![](images/insert-mathml-equation.png){width="550" align="left"}
 
@@ -206,10 +206,9 @@ Führen Sie die folgenden Schritte aus, um automatisch eine ID für ein oder meh
 
 1. Öffnen Sie das Thema im Web-Editor.
 1. Wählen Sie den Inhalt aus, dem Sie IDs zuweisen möchten.
-1. Klicken Sie mit der rechten Maustaste und wählen Sie **Generieren Sie IDs über das Kontextmenü.**
+1. Rechtsklicken Sie auf und wählen Sie **Generieren Sie IDs über das Kontextmenü.**
 
-   Alternativ können Sie mit der rechten Maustaste auf den Breadcrumb klicken und **IDs generieren**.
+   Alternativ können Sie mit der rechten Maustaste auf den Breadcrumb klicken und **Generieren von IDs**.
 
 
 **Übergeordnetes Thema:**[ Arbeiten mit dem Web-Editor](web-editor.md)
-

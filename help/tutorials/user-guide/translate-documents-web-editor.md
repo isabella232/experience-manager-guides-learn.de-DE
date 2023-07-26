@@ -2,9 +2,9 @@
 title: Übersetzen von Dokumenten aus dem Web Editor
 description: Erfahren Sie, wie Sie Dokumente aus dem Web Editor übersetzen können.
 exl-id: 02fc2b51-5b9a-4ad6-9e2e-726ab7602514
-source-git-commit: 4d37242019ac2db734f7054324b074c0e8bc60bd
+source-git-commit: 7df3024578ad289d9c6e0ab8b93f9fc6b9ff0bfe
 workflow-type: tm+mt
-source-wordcount: '1859'
+source-wordcount: '1864'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Stellen Sie vor dem Ausführen der Schritte in diesem Verfahren sicher, dass Sie
 
    **Grundlinie verwenden:** Sie können eine Grundlinie auswählen, um Ihr Projekt zu übersetzen. Klicken Sie auf Grundlinie verwenden und wählen Sie eine auf der Karte erstellte Grundlinie aus. Alle Dateien, die Teil der ausgewählten Grundlinie sind, werden auf der Seite Übersetzung angezeigt. Sobald Ihr Inhalt übersetzt wurde, können Sie die übersetzte Grundlinie exportieren. Weitere Informationen zum Exportieren der übersetzten Grundlinie finden Sie unter [Exportieren der übersetzten Grundlinie](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
 
-   **Verwenden Sie die neueste Version wie unter**: Wählen Sie aus, die Version der Themen nach Erstellungsdatum und -zeit zu filtern. Wenn Sie ein Datum und eine Uhrzeit auswählen, wird nur die neueste Version der Dateien angezeigt, die am oder vor dem ausgewählten Datum und der ausgewählten Uhrzeit erstellt wurden.
+   **Verwenden Sie die neueste Version wie unter**: Wählen Sie diese Option, um die Version der Themen nach Erstellungsdatum und -zeit zu filtern. Wenn Sie ein Datum und eine Uhrzeit auswählen, wird nur die neueste Version der Dateien angezeigt, die am oder vor dem ausgewählten Datum und der ausgewählten Uhrzeit erstellt wurden.
 
 1. Klicken Sie auf **Übernehmen**. Eine Liste mit Details zu Themen und zugehörigen Assets wird angezeigt.
 1. Wählen Sie die Themen aus, die Sie zur Übersetzung senden möchten.
@@ -68,9 +68,9 @@ Stellen Sie vor dem Ausführen der Schritte in diesem Verfahren sicher, dass Sie
    - **Zielversion**: Versionsnummer der Zieldatei
    - **Dokumentstatus**: Status der Quelldatei. Die verfügbaren Optionen sind &quot;Entwurf&quot;, &quot;In-Review&quot;und &quot;Überprüfen&quot;.
    - **Zielsprache**: Die Sprache, in die Sie die Quelldatei übersetzen möchten
-   - **Übersetzungsstatus**: Die verfügbaren Optionen sind: Nicht synchronisiert, fehlende Kopie, läuft und synchron.
-   - **Zielbezeichnung**: Titel der ausgewählten Version der Zieldatei
-1. Klicken **Zu übersetzen** oben rechts.
+   - **Übersetzungsstatus**: Die verfügbaren Optionen sind: &quot;Nicht synchronisiert&quot;, &quot;Kopie fehlt&quot;, &quot;Wird ausgeführt&quot;und &quot;Synchronisiert&quot;.
+   - **Zielbezeichnung**: Beschriftung für die ausgewählte Version der Zieldatei
+1. Klicks **Zu übersetzen** oben rechts.
 
    ![](images/translation-send.png){width="800" align="left"}
 
@@ -81,24 +81,23 @@ Stellen Sie vor dem Ausführen der Schritte in diesem Verfahren sicher, dass Sie
    Neben einem neuen Übersetzungsprojekt können Sie auch aus den folgenden Optionen auswählen:
 
    - Sie können zwischen **Erstellen einer Struktur** nur für das Übersetzungsprojekt.
-   - Sie können zwischen **Erstellen eines neuen XLIFF-Übersetzungsprojekts** , um den XML-Inhalt in das XML Localization Interchange File Format (XLIFF) zu konvertieren. XLIFF ist ein offenes XML-basiertes Format, das verwendet wird, um die Datenübertragung zwischen verschiedenen Tools zu standardisieren, die im Prozess der Inhaltsübersetzung verwendet werden.
-In einem XLIFF-Projekt wird der Inhalt in das XLIFF-Format des Branchenstandards exportiert, das Übersetzungsagenturen zur Verfügung gestellt werden kann. Das XLIFF-Format ermöglicht die potenzielle Wiederverwendung von Segmenten, die Sie bereits während der Übersetzungsphase übersetzt haben.\
-      Nachdem der XLIFF-Inhalt übersetzt wurde, kann er in AEM Guides importiert werden, um eine übersetzte Version des ursprünglichen DITA-Projekts zu erstellen.
+   - Sie können zwischen **Erstellen eines neuen XLIFF-Übersetzungsprojekts** , um den XML-Inhalt in das XML Localization Interchange File Format (XLIFF) zu konvertieren. XLIFF ist ein offenes XML-basiertes Format, das verwendet wird, um die Datenübertragung zwischen verschiedenen Tools zu standardisieren, die im Prozess der Inhaltsübersetzung verwendet werden. AEM Guides unterstützen XLIFF-Version 1.2. In einem XLIFF-Projekt wird der Inhalt in das XLIFF-Format des Branchenstandards exportiert, das Übersetzungsagenturen zur Verfügung gestellt werden kann. Das XLIFF-Format ermöglicht die potenzielle Wiederverwendung von Segmenten, die Sie bereits während der Übersetzungsphase übersetzt haben.\
+     Nachdem der XLIFF-Inhalt übersetzt wurde, kann er in AEM Guides importiert werden, um eine übersetzte Version des ursprünglichen DITA-Projekts zu erstellen.
 
-      >[!NOTE]
-      >
-      > Der XLIFF-Export funktioniert nur mit der Konfiguration menschlicher Übersetzungen.
+     >[!NOTE]
+     >
+     > Der XLIFF-Export funktioniert nur mit der Konfiguration menschlicher Übersetzungen.
 
    - Sie können **Neues mehrsprachiges Übersetzungsprojekt erstellen** enthält Übersetzungsaufträge für alle Sprachen, die Sie für die Übersetzung ausgewählt haben. Wenn Sie beispielsweise Französisch, Deutsch und Spanisch ausgewählt haben, wird ein Projekt erstellt, das Übersetzungsaufträge für alle drei Sprachen enthält.
-   - Wenn Sie bereits über ein Übersetzungsprojekt verfügen, können Sie diesem Projekt Themen hinzufügen. Wählen Sie Hinzufügen zu **Vorhandenes Übersetzungsprojekt** in der Liste &quot;Projekt&quot;aus und wählen Sie ein Projekt aus der Liste &quot;Vorhandenes Übersetzungsprojekt&quot;aus. Sie können diese Projekte nach der neuesten, aufsteigenden oder absteigenden Reihenfolge sortieren.
+   - Wenn Sie bereits über ein Übersetzungsprojekt verfügen, können Sie diesem Projekt Themen hinzufügen. Wählen Sie Hinzufügen zu aus **Vorhandenes Übersetzungsprojekt** in der Liste &quot;Projekt&quot;aus und wählen Sie ein Projekt aus der Liste Vorhandenes Übersetzungsprojekt aus. Sie können diese Projekte nach der neuesten, aufsteigenden oder absteigenden Reihenfolge sortieren.
 
-      >[!NOTE]
-      >
-      > Wenn es sich bei Ihrem vorhandenen Projekt um ein Scoping-Projekt handelt, ist in seinem Namen &quot;\(Scoping\)&quot;angehängt.
+     >[!NOTE]
+     >
+     > Wenn es sich bei Ihrem vorhandenen Projekt um ein Scoping-Projekt handelt, ist in seinem Namen &quot;\(Scoping\)&quot;angehängt.
 
    - Wenn Sie den Bereich für die Übersetzung eines Projekts erstellen müssen, können Sie **Neues Scoping-Übersetzungsprojekt erstellen**. Dadurch werden die Kopien nicht zur Übersetzung gesendet und der ursprüngliche Übersetzungsstatus der Dateien wird beibehalten. Die Zielsprachkopie der referenzierten Themen, die zum Scoping gesendet werden, hat keine Auswirkungen.
 1. Geben Sie im Feld **Projekttitel** einen Namen für das Projekt ein.
-1. Klicken **Erstellen** , um ein neues Übersetzungsprojekt zu erstellen.
+1. Klicks **Erstellen** , um ein neues Übersetzungsprojekt zu erstellen.
 
    Ein neues Übersetzungsprojekt wird mit der ausgewählten Version der Themen erstellt. Zu diesem Zeitpunkt wird eine Popup-Meldung angezeigt, die bestätigt, dass das Übersetzungsprojekt erstellt wurde. Sobald alle Zielsprachkopien im Übersetzungsprojekt verfügbar sind, erhalten Sie eine Benachrichtigung im Posteingang. Sobald die Zielsprachkopien im Übersetzungsprojekt verfügbar sind, können Sie den Übersetzungsauftrag starten. Weitere Informationen finden Sie unter [Übersetzungsauftrag starten](translation-first-time.md#id225IK030OE8).
 
@@ -127,7 +126,7 @@ Es wird empfohlen, für eine bessere Leistung nur SRX-Dateien im Ordner zu belas
 AEM Guides wählt die SRX-Regeln entsprechend der Ausgangssprache des Übersetzungsprojekts aus. Es sucht nach einer benutzerdefinierten SRX-Datei für eine Sprache. Wenn Sie keine benutzerdefinierte SRX-Datei definieren, werden die Regeln gemäß den vordefinierten Übersetzungsregeln ausgewählt.
 
 
-Weitere Informationen zum Einrichten von globalen Profilen und Profilen auf Ordnerebene finden Sie unter *Bearbeitungsvorlagen konfigurieren* unter Adobe Experience Manager-Handbücher installieren und konfigurieren as a Cloud Service.
+Weitere Informationen zum Einrichten von globalen Profilen und Profilen auf Ordnerebene finden Sie unter *Authoring-Vorlagen konfigurieren* unter Adobe Experience Manager-Handbücher installieren und konfigurieren as a Cloud Service.
 
 ## Übergeben der Versionsbezeichnung an die Zielversion
 
@@ -145,7 +144,7 @@ Wenn Sie beispielsweise Quelldateien mit der Versionsbezeichnung haben `Release 
 
 ## Versionsunterschied für nicht synchronisierte Dateien anzeigen 
 
-AEM Handbücher bieten die Möglichkeit, die Unterschiede zwischen der ausgewählten Version und der zuletzt übersetzten Quellversion der Themen zu überprüfen. Sie können wählen, ob Sie die **Nicht synchronisiert** -Dateien basierend auf den vorgenommenen Änderungen.
+AEM Handbücher bieten die Möglichkeit, die Unterschiede zwischen der ausgewählten Version und der zuletzt übersetzten Quellversion der Themen zu überprüfen. Sie können die **Nicht synchronisiert** -Dateien basierend auf den vorgenommenen Änderungen.
 
 ![](images/translation-version-diff.png){width="800" align="left"}
 
@@ -170,7 +169,7 @@ So schließen Sie den Status Nicht synchronisiert :
 
    ![](images/translation-mark-in-sync.png){width="550" align="left"}
 
-1. Klicken **Force Sync**. Für die ausgewählten nicht synchronisierten Assets wird der Status auf Synchronisiert gesetzt.
+1. Klicks **Force Sync**. Für die ausgewählten nicht synchronisierten Assets wird der Status auf Synchronisiert gesetzt.
 
 >[!NOTE]
 >
@@ -178,11 +177,11 @@ So schließen Sie den Status Nicht synchronisiert :
 
 ## In Bearbeitung befindliche Übersetzungsprojekte für eine Zuordnung oder ein Thema anzeigen
 
-Einige Verweise auf Ihr Übersetzungs-Dashboard befinden sich möglicherweise im Status &quot;Gestartet&quot;. Diese Verweise haben **In Bearbeitung** Link unter **Übersetzungsstatus** Spalte. Wenn Sie auf den Link klicken, wird die **Laufende Projekte** wird geöffnet. Im Dialogfeld sehen Sie die Liste aller laufenden Übersetzungsprojekte \(zusammen mit der Zielsprache\), die die ausgewählte Referenz enthalten.
+Einige Verweise auf Ihr Übersetzungs-Dashboard befinden sich möglicherweise in Bearbeitung. Diese Verweise haben **In Bearbeitung** Link unter **Übersetzungsstatus** Spalte. Wenn Sie auf den Link klicken, wird die **Laufende Projekte** wird geöffnet. Im Dialogfeld sehen Sie die Liste aller laufenden Übersetzungsprojekte \(zusammen mit der Zielsprache\), die die ausgewählte Referenz enthalten.
 
 >[!NOTE]
 >
-> Sie können den Link In Bearbeitung für die übersetzten Projekte sehen, die in AEM Guide as a Cloud Service Version Februar 2023 oder höher erstellt wurden.
+> Sie können den Link In Bearbeitung für die übersetzten Projekte sehen, die in AEM Guides as a Cloud Service Version Februar 2023 oder höher erstellt wurden.
 
 Klicken Sie im Dialogfeld auf den Namen der Referenz, um sie im Vorschaumodus zu öffnen. Sie können auch auf das Übersetzungsprojekt klicken, um die Übersetzung zu starten.
 

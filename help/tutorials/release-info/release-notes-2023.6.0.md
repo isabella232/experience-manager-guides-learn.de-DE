@@ -2,7 +2,7 @@
 title: Versionshinweise | Upgrade-Anweisungen und behobene Probleme in Adobe Experience Manager-Handbüchern, Version Juni 2023
 description: Erfahren Sie mehr über die Fehlerbehebungen und das Upgrade auf die Adobe Experience Manager Guides-Version vom Juni 2023 as a Cloud Service.
 exl-id: ea0ff27a-9c3a-49d7-b94a-d1b9d9e85dcf
-source-git-commit: f6794078e760565f5934faf63a7cbfb919acce90
+source-git-commit: 4359d857f3662ae29a55420c0fafc4a244258389
 workflow-type: tm+mt
 source-wordcount: '1143'
 ht-degree: 3%
@@ -11,7 +11,7 @@ ht-degree: 3%
 
 # Version der Adobe Experience Manager-Handbücher as a Cloud Service im Juni 2023
 
-In diesem Versionshinweis werden die Upgrade-Anweisungen, die Kompatibilitätsmatrix und die in Version Juni 2023 der Adobe Experience Manager-Handbücher behobenen Probleme (später auch als *AEM as a Cloud Service Handbücher*).
+In diesem Versionshinweis werden die Upgrade-Anweisungen, die Kompatibilitätsmatrix und die in Version Juni 2023 der Adobe Experience Manager-Handbücher behobenen Probleme (später auch als *AEM as a Cloud Service Guides*).
 
 Weitere Informationen zu den neuen Funktionen und Verbesserungen finden Sie unter [Neue Funktionen in der Version von AEM Guides as a Cloud Service im Juni 2023](whats-new-2023.6.0.md).
 
@@ -97,11 +97,11 @@ Führen Sie die folgenden Schritte aus, um den vorhandenen Inhalt zu indizieren 
 
 ## Kompatibilitätsmatrix
 
-In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen aufgelistet, die von AEM Guides as a Cloud Service im Juni 2023 unterstützt werden.
+In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen aufgelistet, die von AEM Guides as a Cloud Service vom Juni 2023 unterstützt werden.
 
 ### FrameMaker und FrameMaker Publishing Server
 
-| AEM zu Handbüchern as a Cloud - Version | FMPS | FrameMaker |
+| AEM-Handbücher für Cloud | FMPS | FrameMaker |
 | --- | --- | --- |
 | 2023.06.0 | Nicht kompatibel | 2022 oder höher |
 | | | |
@@ -109,7 +109,7 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen
 
 ### Sauerstoffanschluss
 
-| AEM zu Handbüchern as a Cloud - Version | Sauerstoff Connector Windows | Sauerstoff Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
+| AEM-Handbücher für Cloud | Sauerstoff Connector Windows | Sauerstoff Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
 | --- | --- | --- | --- | --- |
 | 2023.06.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
 |  |  |  |  |
@@ -123,7 +123,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
 - Navtitle wird beim Wechsel von der Layoutansicht zur Autoren- oder Quellansicht aus dem content33 entfernt. (12174)
 - Manchmal tritt beim Klicken auf eine DITA Map ein Anwendungsfehler auf. (11842)
-- Web Editor | Beim Bearbeiten eines Themas wird im XML-Editor geschütztes Leerzeichen hinzugefügt. (11786)
+- Web-Editor | Beim Bearbeiten eines Themas wird im XML-Editor geschütztes Leerzeichen hinzugefügt. (11786)
 - Asset-Benutzeroberfläche | In der Listenansicht sind die überlagerten verfügbaren Spalten nicht zusammenführbar. (11528)
 - Keyref ist in der Kartenansicht nicht aufgelöst. (11490)
 - Das obere Menü wird nicht angezeigt, wenn Sie durch den XML-Editor navigieren. (10868)
@@ -143,7 +143,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 - Das Veröffentlichen auf AEM Site schlägt fehl, wenn temporäre Dateien aus Pod gelesen werden, die möglicherweise aktualisiert oder neu gestartet wurden. (12113)
 - Native PDF | Das Veröffentlichen von Inhalten mit einer Ausgabeklasse mit Klammern() führt zum Einfrieren der Veröffentlichung. (11936)
 - JSON-Ausgabe | Zuordnen von Metadaten mit Eigenschaftswert als `"value in spaces and double quotes"` führt zu einem Veröffentlichungsfehler. (11933)
-- Web Editor | Ausgabepfad und Vorlage können nicht in der AEM-Vorgabe ausgewählt werden. (11530)
+- Web-Editor | Ausgabepfad und Vorlage können nicht in der AEM-Vorgabe ausgewählt werden. (11530)
 - Native PDF | Benutzerdefinierte Attribute werden nicht an temporäre HTML- oder PDF-Engine übertragen. (DXML-12005)
 - Native PDF | Java OutOfMemoryError tritt beim Veröffentlichen großer Inhalte auf. (11789)
 - JSON-Ausgabe | Die `fmUuid` -Eigenschaft im Knoten jcr:content von JSON unterscheidet sich von der &quot;id&quot;innerhalb der JSON. (11564)
@@ -152,7 +152,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 - Native PDF | Die PDF-Vorlageneinstellungen können nicht gespeichert werden. (10751)
 - Native PDF | Der Text geht über die Spaltenbreite hinaus und schließt mehrere xrefs ein. (10876)
 - Native PDF | `<note>``</note>` -Element generiert keinen zusätzlichen span-Titel seines Typs. (10549)
-- Native PDF | Die Sprachmetadaten können im generierten PDF nicht so festgelegt werden, dass sie WCAG 2.0 entsprechen. (12407)
+- Native PDF | Die Sprachmetadaten können im generierten PDF nicht so festgelegt werden, dass sie WCAG 2.0 entsprechen. (12296)
 
 
 

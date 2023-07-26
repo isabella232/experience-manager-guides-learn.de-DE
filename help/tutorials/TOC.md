@@ -2,10 +2,10 @@
 user-guide-title: Tutorials für AEM Guides
 user-guide-description: Lesen Sie unsere Sammlung an Tutorials für Adobe Experience Manager Guides.
 breadcrumb-title: Tutorials für AEM Guides
-source-git-commit: 6adc8544c7ad64bc264465a56944d49949605414
+source-git-commit: 33c4a7b452049ab130f7bcdf9e8a90ecead32170
 workflow-type: tm+mt
-source-wordcount: '1392'
-ht-degree: 7%
+source-wordcount: '1429'
+ht-degree: 6%
 
 ---
 
@@ -46,6 +46,11 @@ ht-degree: 7%
             + [Februar - Versionshinweise](./release-info/release-notes-2022.2.0.md)
             + [Januar - Versionshinweise](./release-info/release-notes-2022.1.0.md)
       + On-Premise/Managed Services {#on-prem-release-notes}
+         + Version 4.3.0 {#43-release}
+            + Neuerungen {#43-whats-new}
+               + [4.3.0 Neue Funktionen](./release-info/whats-new-4.3-release.md)
+            + Versionshinweise {#43-release-notes}
+               + [4.3.0 - Versionshinweise](./release-info/release-notes-4.3.md)
          + Version 4.2 {#42-release}
             + Neuerungen {#42-whats-new}
                + [4.2.1 Neue Funktionen](./release-info/whats-new-4.2.1-release.md)
@@ -65,7 +70,7 @@ ht-degree: 7%
    + Inhalt verwalten {#manage-content}
       + [Schlüsselkonzepte, Rollen und Berechtigungen und Voraussetzungen](./user-guide/authoring.md)
       + [Hochladen von Dateien](./user-guide/authoring-upload-existing-files.md)
-      + [Verwalten von Dateien und Ordnern](./user-guide/authoring-file-management.md)
+      + [Dateien und Ordner verwalten](./user-guide/authoring-file-management.md)
       + [Dateien herunterladen](./user-guide/authoring-download-assets.md)
    + Authoring von Inhalten {#author-content}
       + [Übersicht](./user-guide/authoring-content.md)
@@ -75,17 +80,18 @@ ht-degree: 7%
          + [Vorschau eines Themas](./user-guide/web-editor-preview-topics.md)
          + Autoreninhalt {#author-content-aem-guides}
             + [Inhaltserstellung mithilfe AEM Handbüchern](./user-guide/authoring-content-xml-doc.md)
-            + Web Editor {#work-with-web-editor}
+            + Web-Editor {#work-with-web-editor}
                + [Arbeiten mit dem Web-Editor](./user-guide/web-editor.md)
-               + [Web Editor starten](./user-guide/web-editor-launch-editor.md)
-               + [Bearbeiten von Themen im Web Editor](./user-guide/web-editor-edit-topics.md)
+               + [Starten des Web Editors](./user-guide/web-editor-launch-editor.md)
+               + [Bearbeiten von Themen im Web-Editor](./user-guide/web-editor-edit-topics.md)
                + [Funktionen des Web Editors kennen](./user-guide/web-editor-features.md)
                + [Tastaturbefehle im Web-Editor](./user-guide/web-editor-keyboard-shortcuts.md)
                + [Weitere Funktionen im Web Editor](./user-guide/web-editor-other-features.md)
                + [Web-Editor-Ansichten](./user-guide/web-editor-views.md)
                + [Unterstützung für Schematron-Dateien](./user-guide/support-schematron-file.md)
                + [Erstellen von Markdown-Dokumenten aus dem Web Editor](./user-guide/web-editor-markdown-topic.md)
-               + [Inhaltsfragment aus Ihrer Datenquelle einfügen](./user-guide/web-editor-content-snippet.md)
+               + [Hinzufügen von Zitaten zu Ihrem Inhalt](./user-guide/web-editor-apply-citations.md)
+               + [Daten aus Datenquellen verwenden](./user-guide/web-editor-content-snippet.md)
                + [Ausgabevorgaben für Global- und Ordnerprofile verwalten](./user-guide/web-editor-manage-output-presets.md)
                + Artikelbasierte Veröffentlichung {#article-based-pub}
                   + [Artikelbasierte Veröffentlichung im Web Editor](./user-guide/web-editor-article-publishing.md)
@@ -100,7 +106,7 @@ ht-degree: 7%
                + [Arbeiten mit dem Map Editor](./user-guide/map-editor.md)
                + [Erstellen einer Karte](./user-guide/map-editor-create-map.md)
                + [Erstellen von Karten basierend auf benutzerdefinierten Vorlagen](./user-guide/create-maps-customized-templates.md)
-               + [Arbeiten mit dem erweiterten Map Editor](./user-guide/map-editor-advanced-map-editor.md)
+               + [Arbeiten mit dem erweiterten Map-Editor](./user-guide/map-editor-advanced-map-editor.md)
                + [Arbeiten mit dem Basic Map Editor](./user-guide/map-editor-basic-map-editor.md)
                + [Weitere Funktionen im Map-Editor](./user-guide/map-editor-other-features.md)
             + DITAVAL Editor {#ditaval-editor}
@@ -110,7 +116,7 @@ ht-degree: 7%
             + [Arbeiten mit FrameMaker](./user-guide/author-desktop-framemaker.md)
             + [Arbeiten mit Oxygen](./user-guide/author-desktop-oxygen.md)
    + Inhalt überprüfen {#review-topic-maps}
-      + [Themen oder Karten überprüfen](./user-guide/review.md)
+      + [Themen oder Zuordnungen überprüfen](./user-guide/review.md)
       + [Erstellen eines DITA-Projekts](./user-guide/authoring-create-dita-project.md)
       + [Senden von Themen zur Überprüfung](./user-guide/review-send-topics-for-review.md)
       + [Prüfungsaufgabe erneut zuweisen mithilfe von Benachrichtigungen](./user-guide/reassign-review-using-notification.md)
@@ -184,11 +190,11 @@ ht-degree: 7%
          + [erstmaliges Herunterladen und Installieren AEM Handbücher](./install-guide/download-install-aemg-first-time.md)
          + [Konfiguration des Dispatchers](./install-guide/download-install-configure-dispatcher.md)
          + [Installation AEM Guides überprüfen](./install-guide/download-install-verify-aemg-installation.md)
-         + [AEM](./install-guide/upgrade-xml-documentation.md)
+         + [Upgrade AEM Handbücher](./install-guide/upgrade-xml-documentation.md)
          + [AEM deinstallieren](./install-guide/download-install-unistall-aemg.md)
          + [Recommendations zur Leistungsoptimierung](./install-guide/download-install-recommend-perf-optimiz.md)
       + Arbeiten mit Benutzergruppen und Sicherheit {#user-group-sec}
-         + [Benutzerverwaltung und Sicherheit](./install-guide/user-admin-sec.md)
+         + [Benutzerverwaltung und -sicherheit](./install-guide/user-admin-sec.md)
       + Inhaltsmigration {#content-migration}
          + [Migration von Nicht-UUID-zu-UUID-Inhalten](./install-guide/migrate-uuid-non-uuid.md)
          + [Migrieren vorhandener Inhalte](./install-guide/migrate-content.md)
@@ -207,10 +213,11 @@ ht-degree: 7%
          + [Benutzerdefinierte DITA-Zuordnungsvorlage konfigurieren](./install-guide/conf-template-tags-custom-dita-map-templates.md)
       + Arbeiten mit Dokumentstatus {#doc-state}
          + [Dokumentstatus konfigurieren](./install-guide/customize-doc-state.md)
-      + Arbeiten mit den Konfigurationen des Web-Editors {#web-editor-configs}
+      + Arbeiten mit Web Editor-Konfigurationen {#web-editor-configs}
          + [Anpassen des Web-Editors](./install-guide/conf-web-editor.md)
          + [Symbolleiste anpassen](./install-guide/conf-web-editor-customize-toolbar.md)
          + [Standardwert für die Tag-Ansicht konfigurieren](./install-guide/configure-default-value-tags-view.md)
+         + [Konfigurieren des Titels für die Symbole &quot;Ein- und Auschecken&quot;](./install-guide/conf-checkin-checkout-title.md)
          + [Anzeige von UUID-basierten Links konfigurieren](./install-guide/conf-uuid-based-links.md)
          + [DITA-Themen- oder Zuordnungsdateien auf derselben Registerkarte öffnen](./install-guide/open-dita-files-same-tab.md)
          + [Benutzerdefiniertes Bedienfeld im linken Bereich konfigurieren](./install-guide/configure-custom-panel.md)
@@ -224,6 +231,7 @@ ht-degree: 7%
          + [Textfilter konfigurieren](./install-guide/config-text-filters.md)
          + [Konfigurieren der Anzahl der LimitReads für eine Abfrage](./install-guide/conf-query-limitreads.md)
          + [Pakete für die artikelbasierte Veröffentlichung installieren](./install-guide/configure-article-based-publishing.md)
+         + [Konfigurieren eines Datenquellen-Connectors](./install-guide/conf-data-source-connector.md)
          + [Festlegen des Erweiterten Map-Editors als Standard](./install-guide/conf-map-editor.md)
          + [Standardmäßig Attribut @navtitle einschließen](./install-guide/auto-add-navtitle.md)
       + Arbeiten mit globalen Profilen und Profilen auf Ordnerebene {#global-folder-profiles}
@@ -237,7 +245,7 @@ ht-degree: 7%
          + Native PDF-Veröffentlichung {#config-native-pdf-publish}
             + [PDF-Vorlage](./native-pdf/pdf-template.md)
             + [Komponenten einer PDF-Vorlage](./native-pdf/components-pdf-template.md)
-            + [Erstellen eines Seitenlayouts](./native-pdf/design-page-layout.md)
+            + [Seitenlayout erstellen](./native-pdf/design-page-layout.md)
             + [Unterstützung für Sprachvariablen](./native-pdf/native-pdf-language-variables.md)
             + Allgemeine Inhaltsstile {#content-styles}
                + [Arbeiten mit allgemeinen Inhaltsstilen](./native-pdf/stylesheet.md)
@@ -246,6 +254,7 @@ ht-degree: 7%
                + [Hinzufügen eines benutzerdefinierten Lesezeichens in der PDF-Ausgabe](./native-pdf/add-custom-bookmark.md)
                + [Verwenden von JavaScript zum Arbeiten mit Inhalt oder Stil](./native-pdf/use-javascript-content-style.md)
                + [Verwenden benutzerdefinierter Stile in Fußnoten](./native-pdf/footnote-number-style.md)
+            + [JVM-Flags für native PDF-Veröffentlichung konfigurieren](./native-pdf/configure-jvm-flags.md)
       + Arbeiten mit benutzerdefinierten Workflows {#custom-workflow}
          + [Workflows konfigurieren und anpassen](./install-guide/customize-workflows.md)
       + Arbeiten mit Übersetzungskonfigurationen {#translate-config}
@@ -260,11 +269,11 @@ ht-degree: 7%
          + [Modul AEM Handbücher bereitstellen](./cs-install-guide/download-install-dxml-first-time.md)
          + [Konfiguration des Dispatchers](./cs-install-guide/download-install-configure-dispatcher.md)
          + [Installation AEM Guides überprüfen](./cs-install-guide/download-install-verify-dxml-installation.md)
-         + [AEM](./cs-install-guide/download-install-upgrade-dxml.md)
+         + [Upgrade AEM Handbücher](./cs-install-guide/download-install-upgrade-dxml.md)
          + [Konfigurationsüberschreibungen](./cs-install-guide/download-install-additional-config-override.md)
          + [Recommendations zur Leistungsoptimierung](./cs-install-guide/download-install-recommend-perf-optimiz.md)
       + Arbeiten mit Benutzergruppen und Sicherheit {#user-group-sec-cs}
-         + [Benutzerverwaltung und Sicherheit](./cs-install-guide/user-admin-sec.md)
+         + [Benutzerverwaltung und -sicherheit](./cs-install-guide/user-admin-sec.md)
       + Inhaltsmigration {#migrate-con-cs}
          + [Migrieren vorhandener Inhalte](./cs-install-guide/migrate-content.md)
          + [Vorhandenen DITA-Inhalt hochladen](./cs-install-guide/migrate-content-upload-existing-dita-content.md)
@@ -282,7 +291,7 @@ ht-degree: 7%
          + [Benutzerdefinierte DITA-Zuordnungsvorlage konfigurieren](./cs-install-guide/conf-template-tags-custom-dita-map-templates.md)
       + Arbeiten mit Dokumentstatus {#doc-state-cs}
          + [Dokumentstatus konfigurieren](./cs-install-guide/customize-doc-state.md)
-      + Arbeiten mit den Konfigurationen des Web-Editors {#web-editor-configs-cs}
+      + Arbeiten mit Web Editor-Konfigurationen {#web-editor-configs-cs}
          + [Anpassen des Web-Editors](./cs-install-guide/conf-web-editor.md)
          + [Symbolleiste anpassen](./cs-install-guide/conf-web-editor-customize-toolbar.md)
          + [Standardwert für die Tag-Ansicht konfigurieren](./cs-install-guide/configure-default-value-tags-view.md)
@@ -309,6 +318,7 @@ ht-degree: 7%
          + [Versionsverwaltung](./cs-install-guide/version-management.md)
       + Arbeiten mit Ausgabegenerierungseinstellungen {#output-gen-config-cs}
          + [Ausgabegenerierungseinstellungen konfigurieren](./cs-install-guide/conf-output-generation.md)
+         + [Native PDF-Veröffentlichung](./cs-install-guide/native-pdf-publishing.md)
       + Arbeiten mit benutzerdefinierten Workflows {#custom-workflow-cs}
          + [Workflows konfigurieren und anpassen](./cs-install-guide/customize-workflows.md)
       + Arbeiten mit Übersetzungskonfigurationen {#translate-config-cs}
@@ -330,7 +340,7 @@ ht-degree: 7%
       + Authoring {#authoring}
          + Berichte {#reports}
             + [Verwalten von Metadaten für Ihren DITA-Inhalt](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
-         + Web Editor {#webeditor}
+         + Web-Editor {#webeditor}
             + Anpassen {#customizing}
                + [Hinzufügen benutzerdefinierter Schaltflächen zur Symbolleiste](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
                + [Hinzufügen benutzerdefinierter Stile zum Web-Editor](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
@@ -351,3 +361,4 @@ ht-degree: 7%
          + [Arbeiten mit bedingten Inhalten](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
          + [Arbeiten mit Schlüsseln](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
    + [Verwenden des Sauerstoffanschlusses](./oxygen-connector/use-aem-connector.md)
+

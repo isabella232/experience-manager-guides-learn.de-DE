@@ -2,9 +2,9 @@
 title: Native PDF | PDF-Ausgabegenerierung
 description: Generieren einer PDF-Ausgabe in Adobe Experience Manager Guides as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: 3ae7a2a5954b68da29d4268012be47cd2ac8df3e
+source-git-commit: c11a9d2153dd2971a133ecd40325266b1d6e236c
 workflow-type: tm+mt
-source-wordcount: '2951'
+source-wordcount: '3071'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,7 @@ Beim Bearbeiten von Inhalten muss sichergestellt werden, dass der Inhalt für An
 
 Mit der nativen PDF-Veröffentlichung können Sie vordefinierte Vorlagen verwenden, um das Inhaltslayout und die Inhaltsstruktur konsistent zu gestalten, Stylesheets anwenden, um das Erscheinungsbild Ihrer Ausgabe zu ändern, PDF zu optimieren, Druckermarkierungen festzulegen, Unterstützung für Bildschirmlesehilfen zuzulassen, PDF-Konformität festzulegen, Schriftarten einzubetten und vieles mehr.
 
-Die Erstellung einer PDF mit nativer PDF-Veröffentlichung hat zwei Aspekte:
+Die Erstellung einer PDF mithilfe der nativen PDF-Veröffentlichung hat zwei Aspekte:
 
 * Verwenden Sie Vorlagen, um Stile auf Inhalte anzuwenden, Seitenlayouts festzulegen und verschiedene Einstellungen zur Feinabstimmung Ihres PDF vorzunehmen. Autoren können die bereitgestellten Beispielvorlagen verwenden/ändern oder benutzerdefinierte Vorlagen erstellen und erweiterte Konfigurationsoptionen festlegen, die von Herausgebern und Entwicklern verwendet werden.
 
@@ -64,7 +64,7 @@ Das Fenster &quot;Voreingestellt&quot;wird geöffnet. <br>
 
 1. So konfigurieren Sie die Einstellungen einer vorhandenen PDF-Vorgabe:
    * Klicken Sie auf  **Optionen** ![options](assets/options.svg) Symbol neben der gewünschten Ausgabevorgabe und wählen Sie **Bearbeiten**.
-Sie können die folgenden Einstellungen in der **Allgemein**, **Metadaten**, **Layout**, **Sicherheit** und **Erweitert** Registerkarten zum Konfigurieren einer PDF-Ausgabevorgabe:
+Sie können die folgenden Einstellungen in der **Allgemein**, **Metadaten**, **Layout**, **Sicherheit**, und **Erweitert** Registerkarten zum Konfigurieren einer PDF-Ausgabevorgabe:
 
 **Allgemein**
 
@@ -72,11 +72,11 @@ Verwenden Sie , um grundlegende Ausgabeeinstellungen anzugeben, z. B. Ausgabepfa
 
 | Einstellung | Beschreibung |
 | --- | --- |
-| **Ausgabepfad** | Der Pfad im AEM-Repository, in dem die PDF-Ausgabe gespeichert wird. Stellen Sie sicher, dass sich der Ausgabepfad nicht im Projektordner befindet. Wenn Sie das Feld leer lassen, wird die Ausgabe am standardmäßigen Speicherort der DITA-Zuordnung generiert.<br>Sie können auch die folgenden nativen Variablen verwenden, um den Ausgabepfad zu definieren. Sie können eine einzelne oder eine Kombination von Variablen verwenden, um diese Option zu definieren. <br> `${map_filename}`: Verwendet den Namen der DITA-Map-Dateien, um den Zielpfad zu erstellen. <br> `${map_title}`: Verwendet den DITA-Map-Titel, um den Zielpfad zu erstellen. <br>`${preset_name}`: Verwendet den Namen der Ausgabevorgabe, um den Zielpfad zu erstellen. <br> `${language_code}`: Verwendet den Sprachcode, in dem sich die Map-Datei befindet, um den Zielpfad zu erstellen. <br> `${map_parentpath}`: Verwendet den vollständigen Pfad der Map-Datei, um den Zielpfad zu erstellen.  <br>`${path_after_langfolder}`: Verwendet den Pfad der Map-Datei nach dem Sprachordner, um den Zielpfad zu erstellen. |
-| **PDF-Datei** | Geben Sie einen Dateinamen an, um die PDF zu speichern. Standardmäßig fügt der PDF-Dateiname den DITA-Map-Namen zusammen mit dem Vorgabennamen hinzu. Beispielsweise ist ditamap &#39;TestMap&#39; und der Name der Vorgabe &#39;preset1&#39;. Dann lautet der Standardname des PDF-Dokuments &#39;TestMap_preset1.pdf&#39;. <br>Sie können auch die folgenden nativen Variablen verwenden, um die PDF-Datei zu definieren. Sie können eine einzelne oder eine Kombination von Variablen verwenden, um diese Option zu definieren. <br>`${map_filename}`<br>`${map_title}`<br>`${preset_name}` <br> `${language_code}`. |
+| **Ausgabepfad** | Der Pfad im AEM-Repository, in dem die PDF-Ausgabe gespeichert wird. Stellen Sie sicher, dass sich der Ausgabepfad nicht im Projektordner befindet. Wenn Sie das Feld leer lassen, wird die Ausgabe am standardmäßigen Speicherort der DITA-Map-Ausgabe generiert.<br>Sie können auch die folgenden nativen Variablen verwenden, um den Ausgabepfad zu definieren. Sie können eine einzelne oder eine Kombination von Variablen verwenden, um diese Option zu definieren. <br> `${map_filename}`: Verwendet den Namen der DITA-Map-Dateien, um den Zielpfad zu erstellen. <br> `${map_title}`: Verwendet den DITA-Map-Titel, um den Zielpfad zu erstellen. <br>`${preset_name}`: Verwendet den Namen der Ausgabevorgabe, um den Zielpfad zu erstellen. <br> `${language_code}`: Verwendet den Sprachcode, in dem sich die Zuordnungsdatei befindet, um den Zielpfad zu erstellen. <br> `${map_parentpath}`: Verwendet den vollständigen Pfad der Zuordnungsdatei, um den Zielpfad zu erstellen.  <br>`${path_after_langfolder}`: Verwendet den Pfad der Map-Datei nach dem Sprachordner, um den Zielpfad zu erstellen. |
+| **PDF-Datei** | Geben Sie einen Dateinamen zum Speichern der PDF an. Standardmäßig fügt der PDF-Dateiname den DITA-Map-Namen zusammen mit dem Vorgabennamen hinzu. Beispielsweise ist ditamap &#39;TestMap&#39; und der Name der Vorgabe &#39;preset1&#39;. Dann lautet der Standardname des PDF-Dokuments &#39;TestMap_preset1.pdf&#39;. <br>Sie können auch die folgenden nativen Variablen verwenden, um die PDF-Datei zu definieren. Sie können eine einzelne oder eine Kombination von Variablen verwenden, um diese Option zu definieren. <br>`${map_filename}`<br>`${map_title}`<br>`${preset_name}` <br> `${language_code}`. |
 | **Bedingungen anwenden mithilfe von** | Wählen Sie für konditionalisierten Inhalt aus den folgenden Optionen, um eine PDF-Ausgabe zu generieren, die auf diesen Bedingungen basiert: <br><ul> <li> **Keine angewendet** Wählen Sie diese Option aus, wenn Sie keine Bedingung auf die Zuordnung und den Quellinhalt anwenden möchten. <br><li> **Ditaval-Datei** Wählen Sie eine DITAVAL-Datei aus, um bedingte Inhalte zu generieren. Klicken Sie zur Auswahl auf unter &quot;Bedingungsvorgabe&quot;und suchen Sie die Datei. <br> <li> **Bedingungsvorgabe** Wählen Sie eine Bedingungsvorgabe aus der Dropdown-Liste aus, um beim Veröffentlichen der Ausgabe eine Bedingung anzuwenden. Diese Option ist sichtbar, wenn Sie eine Bedingung für die DITA-Map-Datei hinzugefügt haben. Die bedingten Einstellungen sind auf der Registerkarte Bedingungsvorgaben der DITA-Zuordnungskonsole verfügbar. Weitere Informationen zur Bedingungsvorgabe finden Sie unter [Verwenden von Bedingungsvorgaben](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html). <br> </ul> |
 | **Grundlinie verwenden** | Wenn Sie eine Grundlinie für die ausgewählte DITA-Zuordnung erstellt haben, wählen Sie diese Option, um die Version anzugeben, die Sie veröffentlichen möchten. Siehe [Arbeiten mit Grundlinien](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html) für weitere Details. |
-| **PDF mit Änderungsleiste zwischen veröffentlichten Versionen erstellen** | Verwenden Sie die folgenden Optionen, um mithilfe von Änderungsleisten eine PDF zu erstellen, die die Inhaltsunterschiede zwischen zwei Versionen zeigt:   <br><ul><li> **Grundlinie der vorherigen Version** Wählen Sie die Grundlinienversion aus, die Sie mit der aktuellen Version oder einer anderen Grundlinie vergleichen möchten. Auf der PDF wird eine Änderungsleiste angezeigt, die den geänderten Inhalt angibt. Eine Änderungsleiste ist eine vertikale Linie, die neue oder überarbeitete Inhalte visuell identifiziert. Die Änderungsleiste wird links neben dem Inhalt angezeigt, der eingefügt, geändert oder gelöscht wurde. <br> **Hinweis**: Wenn Sie **Grundlinie verwenden** und eine Grundlinie für die Veröffentlichung auswählen, wird der Vergleich zwischen den beiden ausgewählten Grundversionen durchgeführt. Wenn Sie beispielsweise die Grundlinie Version 1.3 unter **Grundlinie verwenden** und Version 1.1 unter **Grundlinie der vorherigen Version**, wird der Vergleich zwischen Version 1.1 der Grundlinie und Version 1.3 durchgeführt. <br><li> **Hinzugefügten Text anzeigen** Wählen Sie diese Option aus, um den eingefügten Text in grüner Farbe und unterstrichen anzuzeigen. Standardmäßig ist diese Option aktiviert. <br> <li> **Gelöschten Text anzeigen** Wählen Sie diese Option, um den gelöschten Text in roter Farbe anzuzeigen und mit einer Durchstreichung zu markieren. Standardmäßig ist diese Option aktiviert. <br>**Hinweis** Sie können die Formatierung der Änderungsleiste, des eingefügten Inhalts oder des gelöschten Inhalts auch mithilfe des Stylesheets anpassen.<br></ul> |
+| **PDF mit Änderungsleiste zwischen veröffentlichten Versionen erstellen** | Verwenden Sie die folgenden Optionen, um mithilfe von Änderungsleisten eine PDF zu erstellen, die die Inhaltsunterschiede zwischen zwei Versionen zeigt:   <br><ul><li> **Grundlinie der vorherigen Version** Wählen Sie die Grundlinienversion aus, die Sie mit der aktuellen Version oder einer anderen Grundlinie vergleichen möchten. Auf der PDF wird eine Änderungsleiste angezeigt, die den geänderten Inhalt angibt. Ein Änderungsbalken ist eine vertikale Linie, die neue oder überarbeitete Inhalte visuell identifiziert. Die Änderungsleiste wird links neben dem Inhalt angezeigt, der eingefügt, geändert oder gelöscht wurde. <br> **Hinweis**: Wenn Sie **Grundlinie verwenden** und eine Grundlinie für die Veröffentlichung auswählen, wird der Vergleich zwischen den beiden ausgewählten Grundversionen durchgeführt. Wenn Sie beispielsweise die Grundlinie Version 1.3 unter **Grundlinie verwenden** und Version 1.1 unter **Grundlinie der vorherigen Version**, wird der Vergleich zwischen Version 1.1 der Grundlinie und Version 1.3 durchgeführt. <br><li> **Hinzugefügten Text anzeigen** Wählen Sie diese Option aus, um den eingefügten Text in grüner Farbe und unterstrichen anzuzeigen. Standardmäßig ist diese Option aktiviert. <br> <li> **Gelöschten Text anzeigen** Wählen Sie diese Option aus, um den gelöschten Text in roter Farbe anzuzeigen und mit einer Durchstreichung zu markieren. Standardmäßig ist diese Option aktiviert. <br>**Hinweis** Sie können die Formatierung der Änderungsleiste, des eingefügten Inhalts oder des gelöschten Inhalts auch mithilfe des Stylesheets anpassen.<br></ul> |
 | **Arbeitsablauf nach der Erstellung** | Wählen Sie diese Option, um eine Dropdownliste mit allen in AEM konfigurierten Workflows anzuzeigen. Sie können den Workflow auswählen, der nach Abschluss des Workflows zur PDF-Generierung ausgeführt werden soll. |
 
 **Metadaten**
@@ -99,7 +99,7 @@ In den Ausgabevorgaben: **PDF auswählen** > **Metadaten** , um Metadatenoptione
 [Herunterladen](assets/SampleXMP.xmp)
 
   Alternativ können Sie eine XMP mit Adobe Acrobat generieren.
-   1. Klicken **Datei** > **Eigenschaften** in Acrobat.
+   1. Klicks **Datei** > **Eigenschaften** in Acrobat.
    1. under **Beschreibung** klicken **Zusätzliche Metadaten**.
    1. Wählen Sie im linken Bereich die Option **Erweitert**.
    1. Klicken Sie auf **Speichern**.
@@ -112,6 +112,17 @@ In den Ausgabevorgaben: **PDF auswählen** > **Metadaten** , um Metadatenoptione
    1. Geben Sie den Wert für die Metadaten ein und klicken Sie auf das Symbol &quot;+&quot;.
 Die Metadaten werden der Metadatenliste für die PDF hinzugefügt.
 
+Sie können auch Variablen verwenden, um die Metadatenwerte zu definieren.  Sie können die für die DITA-Map- oder Bookmap-Datei definierten Metadaten als Variablen verwenden. Die Metadaten finden Sie unter der `/jcr:content/metadata` -Knoten der DITA-Map- oder Bookmap-Datei.
+Wenn Sie eine Variable verwenden, wird ihr Wert aus den Metadateneigenschaften ausgewählt.
+
+Um eine Variable zu verwenden, müssen Sie sie im `${<variable>}` Format.
+
+Beispielsweise eine der Metadateneigenschaften, die in / definiert sind`jcr:content/metadata` node is
+`dc:title`. Sie können `${dc:title}`, und der Titelwert wird in der endgültigen Ausgabe verwendet.
+
+Sie können eine einzelne oder eine Kombination von Variablen verwenden, um die Metadaten zu definieren. Beispiel: `${dc:title} ${dc:docstate}`.
+
+Sie können auch die Kombination aus einer Variablen und einer Zeichenfolge verwenden.  Beispiel: `View ${dc:title} in ${dc:language}`.
 
 
 **Layout**
@@ -122,7 +133,7 @@ Verwenden Sie , um Seitenlayouts festzulegen und Seitenansichtsoptionen für die
 | --- | --- |
 | **PDF-Vorlage** | PDF-Vorlagen bieten eine klare Struktur für die Definition von Seitenlayouts, Inhaltsstilen und die Anwendung verschiedener Einstellungen auf Ihre PDF-Ausgabe. Wählen Sie aus der Dropdown-Liste PDF-Vorlage die gewünschte Vorlage aus. |
 | **Seitenanzeige** | Verwenden Sie die Seitenanzeige für die Seitenansicht, die anzeigt, wie die PDF beim Öffnen angezeigt wird. Wählen Sie aus den Dropdown-Optionen Seitenanzeige aus, um eine bevorzugte Ansicht auszuwählen. <br><ul><li> **Standard**  Wird gemäß der Standardeinstellung des PDF-Viewers auf dem Computer des Benutzers angezeigt.  <br> <li> **Einzelseitenansicht** Zeigt jeweils eine Seite an.   <br> <li> **Einzelseiten-Scrollen** Zeigt eine einzelne Seite in einer vertikalen Spalte mit fortlaufenden Werten an.  <br> <li> **Zwei Seitenansichten** Zeigt zwei Seiten gleichzeitig nebeneinander an. .<br> <li> **Scrollen auf zwei Seiten** Zeigt einen zweiseitigen, parallelen Scrollbereich mit kontinuierlichem Scrollen an. </ul> |
-| **Zoom** | Wählen Sie diese Option aus, um die Seitenansicht zu ändern, die anzeigt, wie das PDF beim Öffnen angezeigt wird.  <br><ul><li> **Standard** Zeigt gemäß der Standardeinstellung des PDF-Viewers auf dem Computer eines Benutzers an    <br> <li> **100 %** Zeigt die tatsächliche Seitengröße an.     <br> <li> **Seite anpassen** Passt die Seitenbreite und -höhe in den Dokumentbereich ein. .<br> <li> **Seitenbreite anpassen** Legt die Breite der Seite so fest, dass sie die Breite des Dokumentbereichs ausfüllt.  <br> <li> **Seitenhöhe anpassen** Legt die Höhe der Seite als Füllhöhe für den Dokumentbereich fest. </ul> |
+| **Zoom** | Wählen Sie diese Option aus, um die Seitenansicht zu ändern, die anzeigt, wie das PDF beim Öffnen angezeigt wird.  <br><ul><li> **Standard** Zeigt gemäß der Standardeinstellung des PDF-Viewers auf dem Computer eines Benutzers an    <br> <li> **100 %** Legt fest, dass die Seite in ihrer tatsächlichen Größe angezeigt wird.     <br> <li> **Seite anpassen** Passt die Seitenbreite und -höhe in den Dokumentbereich ein. .<br> <li> **Seitenbreite anpassen** Legt die Breite der Seite so fest, dass sie die Breite des Dokumentbereichs ausfüllt.  <br> <li> **Seitenhöhe anpassen** Legt die Höhe der Seite als Füllhöhe für den Dokumentbereich fest. </ul> |
 
 **Sicherheit**
 
@@ -131,7 +142,7 @@ Protect Sie Ihre PDF, indem Sie Einschränkungen zum Öffnen und Lesen der Datei
 | Einstellung | Beschreibung |
 | --- | --- |
 | **Kennwort zum Öffnen des Dokuments festlegen** | Klicken Sie auf , um ein sicheres Kennwort hinzuzufügen, um Ihre PDF-Datei anzuzeigen. Geben Sie ein Kennwort im **Benutzerkennwort** -Feld. Die PDF kann nur durch Eingabe des in diesem Feld angegebenen Kennworts geöffnet werden. |
-| **Dokumenteinschränkungen festlegen** | Wählen Sie diese Option aus, um die Interaktion der Benutzer mit Ihrer PDF zu beschränken. Geben Sie ein Kennwort im **Passwort des Eigentümers** für die folgenden Einschränkungseinstellungen verwenden.  <br><ul><li> **Drucken** Wählen Sie diese Option aus, damit ein Benutzer die PDF drucken kann. <br> <li> **EntwurfDrucken von Qualitätsdruckverfahren** Wählen Sie diese Option aus, damit ein Benutzer die PDF in einer niedrigeren Auflösung drucken kann.  <br> <li> **Inhaltskopie** Aktivieren Sie diese Option, damit Benutzer Inhalte von der PDF kopieren können.   <br> <li> **Anmerkungen** Wählen Sie diese Option aus, damit Benutzer Notizen oder Kommentare zum PDF hinzufügen können.  <br> <li> **Inhaltsänderungen** Wählen Sie diese Option aus, damit Benutzer den Inhalt im PDF ändern können.  <br> <li> **Inhaltskopierung für Barrierefreiheit** Wählen Sie diese Option aus, damit Bildschirmlesehilfen Inhalte im PDF lesen und navigieren können.  <br>  **Dokumentzusammenstellung** Wählen Sie diese Option aus, damit Benutzer Seiten in die PDF einfügen können.  <br> **Hinweis**: Die Benutzer müssen das Passwort des Eigentümers eingeben, um die Einschränkungen unter Datei > Eigenschaften in Adobe Acrobat zu ändern. |
+| **Dokumenteinschränkungen festlegen** | Wählen Sie diese Option aus, um die Interaktion der Benutzer mit Ihrer PDF zu beschränken. Geben Sie ein Kennwort im **Passwort des Inhabers** für die folgenden Einschränkungseinstellungen verwenden.  <br><ul><li> **Drucken** Wählen Sie diese Option aus, damit ein Benutzer die PDF drucken kann. <br> <li> **EntwurfDrucken von Qualitätsdruckverfahren** Wählen Sie diese Option aus, damit ein Benutzer die PDF in einer niedrigeren Auflösung drucken kann.  <br> <li> **Inhaltskopie** Aktivieren Sie diese Option, damit Benutzer Inhalte von der PDF kopieren können.   <br> <li> **Anmerkungen** Wählen Sie diese Option aus, damit Benutzer Notizen oder Kommentare zum PDF hinzufügen können.  <br> <li> **Inhaltsänderungen** Wählen Sie diese Option aus, damit Benutzer den Inhalt im PDF ändern können.  <br> <li> **Inhaltskopierung für Barrierefreiheit** Wählen Sie diese Option aus, damit Bildschirmlesehilfen Inhalte im PDF lesen und navigieren können.  <br>  **Dokumentzusammenstellung** Wählen Sie diese Option aus, damit Benutzer Seiten in die PDF einfügen können.  <br> **Hinweis**: Die Benutzer müssen das Passwort des Eigentümers eingeben, um die Einschränkungen unter Datei > Eigenschaften in Adobe Acrobat zu ändern. |
 
 **Erweitert**
 
@@ -141,13 +152,13 @@ Verwenden Sie die folgenden Optionen, um erweiterte Einstellungen zum Zusammenf�
 | --- | --- |
 | **Zugreifbare (getaggte) PDF erstellen** | Wählen Sie diese Option aus, um eine PDF mit Tags zu generieren. Eine getaggte PDF erleichtert Sprachausgaben das Lesen und Navigieren von Inhalten, Hyperlinks, Lesezeichen usw. Wenn beispielsweise eine Tabelle mit Tags versehen ist, weiß die Bildschirmlesehilfe, dass sie die Tabelle liest und nicht nur Zeilen und Text. |
 | **Im Inhaltsverzeichnis enthaltene PDF zusammenführen** | Wählen Sie diese Option, um vorhandene PDF in Ihrer Ausgabe zusammenzuführen, indem Sie sie Ihrer DITA-Map als Ressourcendatei hinzufügen. Die PDF werden an der Stelle eingefügt, die in der Karte dargestellt wird, und die Seiten werden entsprechend inkrementiert. |
-| **Einbetten verwendeter Schriftarten** | Aktivieren Sie diese Option bei der Verwendung von Schriftarten, die möglicherweise nicht auf dem Computer des Endbenutzers installiert sind. Wenn diese Option aktiviert ist, werden die verwendeten Schriftarten in die PDF eingebettet, sodass der Benutzer die PDF wie gewünscht sehen kann, selbst wenn die Schriftarten nicht auf seinem Computer installiert sind. <br> **Hinweis**: Eine Schrift kann nur eingebettet werden, wenn sie eine Einstellung des Schriftartenherstellers enthält, die die Einbettung ermöglicht. Stellen Sie sicher, dass Sie über die erforderliche Einstellung oder Lizenz verfügen, bevor Sie eine Schriftart einbetten. |
+| **Einbetten verwendeter Schriftarten** | Aktivieren Sie diese Option bei der Verwendung von Schriftarten, die möglicherweise nicht auf dem Computer des Endbenutzers installiert sind. Wenn diese Option aktiviert ist, werden die verwendeten Schriftarten in die PDF eingebettet, sodass der Benutzer die PDF wie gewünscht sehen kann, selbst wenn die Schriftarten nicht auf seinem Computer installiert sind. <br> **Hinweis**: Eine Schrift kann nur eingebettet werden, wenn sie eine Einstellung des Schriftartenherstellers enthält, die die Einbettung dieser Schrift ermöglicht. Stellen Sie sicher, dass Sie über die erforderliche Einstellung oder Lizenz verfügen, bevor Sie eine Schriftart einbetten. |
 | **Automatische Silbentrennung verwenden** | Wenn die automatische Silbentrennung aktiviert ist, werden die Wörter am Zeilenende mit einem Bindestrich an grammatisch korrekten Stellen umbrochen. |
 | **JavaScript aktivieren** | Aktivieren Sie diese Option, wenn Sie über einen JavaScript-Code verfügen, den Sie verwenden möchten, um Ihren Inhalt dynamisch umzuwandeln, bevor Sie eine PDF generieren. |
 | **Multimedia-Dateien einbetten** | Wählen Sie diese Option aus, um Audio, Video und interaktive Inhalte in die PDF aufzunehmen. |
 | **Verwenden Sie die vollständige Komprimierung, um die PDF-Größe zu optimieren.** | Wählen Sie diese Option aus, wenn Sie die Größe einer großen PDF komprimieren/verringern möchten. Beachten Sie, dass das Komprimieren des PDF die Dateiqualität beeinträchtigen kann. |
-| **Verwenden Sie die Bildkomprimierung, um die PDF-Größe zu optimieren.** | Wählen Sie diese Option aus, wenn Sie die Größe der verwendeten Bilder in Ihrer PDF komprimieren/reduzieren möchten. Beachten Sie, dass das Komprimieren eines Bildes die Bildqualität beeinträchtigen kann. |
-| **Verwenden Sie die benutzerdefinierte Auflösung (Pixel pro Zoll).** | Dies ist die Seitenanzeigeauflösung in Pixel pro Zoll. Geben Sie einen bevorzugten Wert in das Feld ein, das bei Auswahl dieser Option angezeigt wird. Der Standardwert ist 96 Pixel pro Zoll. Legen Sie einen höheren Wert fest, um mehr Inhalt in Zoll einzupassen, und umgekehrt, wenn Sie einen niedrigeren Wert festlegen. |
+| **Verwenden Sie die Bildkomprimierung zur Optimierung der PDF-Größe.** | Wählen Sie diese Option aus, wenn Sie die Größe der verwendeten Bilder in Ihrer PDF komprimieren/reduzieren möchten. Beachten Sie, dass das Komprimieren eines Bildes die Bildqualität beeinträchtigen kann. |
+| **Benutzerdefinierte Auflösung verwenden (Pixel pro Zoll)** | Dies ist die Seitenanzeigeauflösung in Pixel pro Zoll. Geben Sie einen bevorzugten Wert in das Feld ein, das bei Auswahl dieser Option angezeigt wird. Der Standardwert ist 96 Pixel pro Zoll. Legen Sie einen höheren Wert fest, um mehr Inhalt in Zoll einzupassen, und umgekehrt, wenn Sie einen niedrigeren Wert festlegen. |
 | **Wasserzeichen anzeigen** | Wählen Sie diese Option, um die in Ihrem Inhalt vorhandenen MathML-Gleichungen zu rendern. Andernfalls werden die Gleichungen ignoriert. |
 | **Aktivieren von MathML-Gleichungen** | Wählen Sie diese Option, um die in Ihrem Inhalt vorhandenen MathML-Gleichungen zu rendern. Die Gleichungen werden standardmäßig ignoriert. |
 | **PDF-Konformität** | Dies ist der Standard, den Sie speichern möchten, um sicherzustellen, dass Ihre PDF konform ist. Wählen Sie aus der Dropdown-Liste aus, um aus der Liste der verfügbaren PDF-Standards auszuwählen. Weitere Informationen zu den unterstützten Standards finden Sie unter [Über PDF-Standards](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
@@ -155,14 +166,14 @@ Verwenden Sie die folgenden Optionen, um erweiterte Einstellungen zum Zusammenf�
 
 ## Generieren einer PDF-Ausgabe {#generate-pdf-output}
 
-Nachdem Sie die Ausgabevorgabe konfiguriert haben, können Sie die Ausgabe im Bereich &quot;Vorgaben&quot;mithilfe der **Vorgabe generieren** Funktion.
+Nachdem Sie die Ausgabevorgabe konfiguriert haben, können Sie die Ausgabe über das Bedienfeld &quot;Vorgaben&quot;generieren. **Vorgabe generieren** Funktion.
 
 1. Unter dem **Autor** auswählen, wählen Sie die **Repository** Ansicht.\
    Dadurch wird das Repository-Bedienfeld geöffnet.
 
 1. Öffnen Sie im Bereich &quot;Repository&quot;die DITA-Map-Datei in **Kartenansicht**.
 
-1. Im **Ausgabe** Registerkarte, klicken Sie auf **Vorgaben** , um das Bedienfeld &quot;Voreingestellt&quot;anzuzeigen.
+1. Im **Ausgabe** Registerkarte, klicken **Vorgaben** , um das Bedienfeld &quot;Voreingestellt&quot;anzuzeigen.
 Informationen zum Erstellen oder Konfigurieren einer Ausgabevorgabe finden Sie unter [Erstellen einer PDF-Ausgabevorgabe](#create-output-preset).
 1. Um Ihre Einstellungen zu speichern, klicken Sie auf das **Alle speichern** ![Alle speichern](assets/SaveFloppy_icon.svg) in der oberen linken Ecke der Standardsymbolleiste in der Ausgabeansicht.
 1. Klicken Sie auf **Vorgabe generieren** ![Vorgabe generieren](assets/generate-output.svg) in der oberen Leiste angezeigt.
@@ -174,7 +185,7 @@ Wenn eine Ausgabe nicht erfolgreich ist, wird die folgende Fehlermeldung angezei
 
 Um das Fehlerprotokoll anzuzeigen, klicken Sie auf **Verwerfen**, bewegen Sie den Mauszeiger über die ausgewählte Vorgabe-Registerkarte und klicken Sie auf ![options](assets/options.svg) **Optionen** > **Protokoll anzeigen**.
 
-### Laden Sie temporäre Dateien nach der Generierung der nativen PDF-Ausgabe herunter
+### Herunterladen temporärer Dateien nach der Generierung der nativen PDF-Ausgabe
 
 Wenn Sie die **Herunterladen temporärer Dateien** in den erweiterten Einstellungen können Sie auch die Zwischendatei-HTML herunterladen, die beim Generieren der nativen PDF-Ausgabe erstellt wurde. Nachdem Sie die Ausgabe generiert haben, können Sie die temporären Dateien mit der **Herunterladen temporärer Dateien** ![Temporäre Dateien herunterladen](assets/native-pdf-download-temporary-files-icon.svg)in der oberen Leiste angezeigt. Diese Funktion hilft Ihnen beim Anzeigen Ihrer vorläufigen HTML-Stile und Layouts und hilft Ihnen, Ihre CSS-Stile gemäß Ihren Anforderungen zu korrigieren oder zu ändern.
 

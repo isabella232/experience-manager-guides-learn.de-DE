@@ -1,7 +1,7 @@
 ---
 title: Konfigurieren globaler Profile oder Profile auf Ordnerebene
 description: Erfahren Sie, wie Sie globale Profile oder Profile auf Ordnerebene konfigurieren
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 6f4ab3baf0c0dd333035c3a7d131bd151b17de45
 workflow-type: tm+mt
 source-wordcount: '3962'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Konfigurieren globaler Profile oder Profile auf Ordnerebene {#id181AH2003PF}
 
-In einem Unternehmen können verschiedene Gruppen oder Produkte verschiedene Authoring-Vorlagen, Ausgabevorlagen, bedingte Attributprofile \(oder Betreffschemata\) und Web-Editor-Konfigurationen verwenden. Die Konfiguration dieser Vorlagen nur auf Unternehmensebene (oder globaler Ebene) kann die Arbeit von Autoren erschweren, da ihnen Vorlagen oder Profile angezeigt werden, die für sie nicht relevant sind.
+In einem Unternehmen können verschiedene Gruppen oder Produkte verschiedene Authoring-Vorlagen, Ausgabevorlagen, bedingte Attributprofile \(oder Betreffschemata\) und Web-Editor-Konfigurationen verwenden. Die Konfiguration dieser Vorlagen nur auf Unternehmensebene (oder global\) kann Autoren das Erlebnis erschweren, da sie Vorlagen oder Profile sehen, die für sie nicht relevant sind.
 
 AEM Guides ermöglichen die Konfiguration von Authoring- \(Thema- oder Zuordnungsvorlagen), Ausgabevorlagen, bedingten Attributen und Web-Editor-Konfigurationen auf Unternehmensebene \(global\) sowie auf Ordnerebene. Auf diese Weise können Sie die Konfigurationen für verschiedene Abteilungen oder Produkte in Ihrem Unternehmen trennen.
 
@@ -19,13 +19,13 @@ Außerdem können Sie die ordnerspezifischen Konfigurationen an eine Abteilung o
 
 Über die Kachel Ordnerprofile in den Einstellungen für Guides können Sie Einstellungen auf den folgenden Registerkarten konfigurieren:
 
-![](assets/folder-profile-tabs.png)
+![](assets/folder-profile-tabs.png){width="800" align="left"}
 
 - **Allgemein**: Die Registerkarte &quot;Allgemein&quot;ist nur verfügbar, wenn Sie Einstellungen auf Ordnerebene \(oder Projekt-/Produkteinstellungen\) konfigurieren. Sie können Einstellungen wie die Ordnerpfade konfigurieren, für die die Einstellungen gelten sollen, und Benutzer, die über Administratorrechte zum Erstellen oder Aktualisieren von Konfigurationen verfügen.
 
 - **Bedingte Attribute**: Verwenden Sie diese Registerkarte, um bedingte Attribute auf globaler oder Ordnerebene zu konfigurieren. Ein bedingtes Attribut ist eine Kombination aus Attributname und -wert und Sie können auch eine Bezeichnung dafür definieren. Sie können die standardmäßigen DITA-Attribute oder Ihre eigenen benutzerdefinierten Attribute verwenden. Die von Ihnen auf globaler Ebene definierten bedingten Attribute werden allen Benutzern projektübergreifend zur Verfügung gestellt. Wenn Sie bedingte Attribute auf Ordnerebene definiert haben, werden sie mit den global definierten bedingten Attributen zusammengeführt.
 
-- **Authoring-Vorlage**: Verwenden Sie diese Registerkarte, um die Vorlagen zu konfigurieren, die Ihre Autoren zum Erstellen von DITA-Inhalten verwenden werden. Die folgenden Themenvorlagen sind standardmäßig verfügbar:
+- **Authoring-Vorlage**: Auf dieser Registerkarte können Sie die Vorlagen konfigurieren, die Ihre Autoren zum Erstellen von DITA-Inhalten verwenden werden. Die folgenden Themenvorlagen sind standardmäßig verfügbar:
 
    - Glossar
 
@@ -93,17 +93,17 @@ Führen Sie die folgenden Schritte aus, um das globale Profil zu konfigurieren:
 
    Zum ersten Mal wird die Seite Ordnerprofile nur mit der Kachel Globales Profil angezeigt.
 
-   ![](assets/folder-profile-global.png)
+   ![](assets/folder-profile-global.png){width="800" align="left"}
 
 1. Klicken Sie auf **Globales Profil** Kachel.
 
 1. So konfigurieren Sie **Bedingte Attribute**, siehe [Bedingte Attribute für globale Profile oder Profile auf Ordnerebene konfigurieren](#id1889D0I305Z).
 
-1. So konfigurieren Sie **Authoring-Vorlage**, siehe [Bearbeitungsvorlagen konfigurieren](#id1889D0IL0Y4).
+1. So konfigurieren Sie **Authoring-Vorlage**, siehe [Authoring-Vorlagen konfigurieren](#id1889D0IL0Y4).
 
 1. So konfigurieren Sie **Ausgabevorgaben**, siehe [Konfigurieren von Ausgabevorgaben](#id18AGD0IH0Y4).
 
-1. Informationen zum Konfigurieren der XML-Editor-Konfiguration finden Sie unter [Konfigurieren und Anpassen des XML-Web-Editors](#id2065G300O5Z).
+1. Informationen zum Konfigurieren der Konfiguration des XML-Editors finden Sie unter [Konfigurieren und Anpassen des XML Web Editor](#id2065G300O5Z).
 
 1. Nachdem Sie alle erforderlichen Aktualisierungen vorgenommen haben, speichern und schließen Sie die **Globales Profil**.
 
@@ -122,7 +122,7 @@ Führen Sie die folgenden Schritte aus, um ein Profil auf Ordnerebene zu konfigu
 
 1. Klicken Sie auf **Erstellen**.
 
-   ![](assets/create-folder-profile.png)
+   ![](assets/create-folder-profile.png){width="300" align="left"}
 
 1. Geben Sie die folgenden Details in die **Ordnerprofil erstellen** dialog:
    - Name des Ordnerprofils.
@@ -130,7 +130,7 @@ Führen Sie die folgenden Schritte aus, um ein Profil auf Ordnerebene zu konfigu
 
      >[!NOTE]
      >
-     > Sie können nicht mehrere Ordnerprofile auf einen Ordner anwenden. Stellen Sie sicher, dass auf den Ordner, den Sie hier auswählen, kein anderes Profil angewendet wird. Im Fall von über- und untergeordneten Ordnern mit eigenen spezifischen Profilen verwendet der untergeordnete Ordner die Konfigurationen aus seinem eigenen Profil. Die Konfigurationen aus dem übergeordneten Ordner überschreiben nicht die Konfigurationen eines untergeordneten Ordners.
+     > Sie können nicht mehrere Ordnerprofile auf einen Ordner anwenden. Stellen Sie sicher, dass auf den Ordner, den Sie hier auswählen, kein anderes Profil angewendet wird. Wenn ein übergeordneter Ordner über ein bestimmtes Profil verfügt, verwendet der untergeordnete Ordner die Konfigurationen aus seinem eigenen Profil. Die Konfigurationen aus dem übergeordneten Ordner überschreiben nicht die Konfigurationen eines untergeordneten Ordners.
 
 1. Klicken Sie auf **Erstellen**.
 
@@ -140,7 +140,7 @@ Führen Sie die folgenden Schritte aus, um ein Profil auf Ordnerebene zu konfigu
 
    Es wird eine Registerkarte Allgemein mit dem Namen des Ordnerprofils und den konfigurierten Ordnerinformationen angezeigt.
 
-1. Klicken **Bearbeiten** , um mehrere Ordner und Benutzer hinzuzufügen, die Administratorzugriff haben, um das Ordnerprofil zu ändern.
+1. Klicks **Bearbeiten** , um mehrere Ordner und Benutzer hinzuzufügen, die Administratorzugriff haben, um das Ordnerprofil zu ändern.
 
    >[!NOTE]
    >
@@ -152,13 +152,13 @@ Führen Sie die folgenden Schritte aus, um ein Profil auf Ordnerebene zu konfigu
    >
    > Stellen Sie sicher, dass dem Ordner, den Sie hier auswählen, kein anderes Profil auf Ordnerebene zugeordnet ist.
 
-1. Um einen Benutzer hinzuzufügen, wählen Sie einen Benutzer aus der **Admin-Benutzer** Dropdown-Liste und klicken Sie auf **Hinzufügen**.
+1. Um einen Benutzer hinzuzufügen, wählen Sie einen Benutzer aus der **Admin-Benutzer** und klicken Sie auf **Hinzufügen**.
 
    >[!NOTE]
    >
    > Sie können dem Ordnerprofil aus der Dropdownliste mehrere Benutzer hinzufügen. Sie können auch einen vorhandenen Administrator aus der Liste entfernen, indem Sie auf das Löschsymbol neben der Benutzer-ID klicken.
 
-1. Nachdem Sie alle erforderlichen Ordner und Benutzer zum Ordnerprofil hinzugefügt haben, klicken Sie auf **Speichern**.
+1. Klicken Sie nach dem Hinzufügen aller erforderlichen Ordner und Benutzer zum Ordnerprofil auf **Speichern**.
 
 
 Jetzt können Sie die bedingten Attribute, Bearbeitungsvorlagen, Ausgabevorgaben und den XML-Editor konfigurieren.
@@ -189,11 +189,11 @@ Führen Sie die folgenden Schritte aus, um standardmäßige DITA-unterstützte b
 
 1. Klicken Sie auf **Hinzufügen**.
 
-1. Geben Sie die **Name**, **Wert** und **Titel** für das bedingte Attribut.
+1. Geben Sie die **Name**, **Wert** und ein **Titel** für das bedingte Attribut.
 
    Sie können ein Profil mit nur dem Attributnamen speichern. Ein Attribut kann jedoch nur verwendet werden, wenn dafür ein Wert angegeben ist. Wenn Sie für ein Attribut - Wert und Titel angeben, zeigt der Web Editor die Bezeichnung des bedingten Attributs an. Außerdem wird der Titel dem Publishing-Administrator zum Zeitpunkt der Erstellung einer bedingten Vorgabe angezeigt.
 
-   Der folgende Screenshot zeigt die Definition der `platform` -Attribut mit möglichen Werten und Bezeichnungen.
+   Der folgende Screenshot zeigt die Definition für die `platform` -Attribut mit möglichen Werten und Bezeichnungen.
 
    ![](assets/add_profile.png)
 
@@ -208,7 +208,7 @@ Wenn Sie ein benutzerdefiniertes Attribut verwenden, muss es sich um ein gültig
 
 1. Fügen Sie das benutzerdefinierte Attribut zur DTD-Datei hinzu. Wenn Ihre DTD-Datei beispielsweise &quot;commonElements.mod&quot;ist, müssen Sie diese Datei im DTD-Ordner suchen. Der Standardpfad der System-DTD-Datei lautet:
 
-   /libs/fmdita/dita\_resources/DITA-1.3/dtd/base/dtd/commonElements.mod
+   _resources/DITA-1.3/dtd/base/dtd/commonElements.mod
 
    >[!IMPORTANT]
    >
@@ -225,7 +225,7 @@ Wenn Sie ein benutzerdefiniertes Attribut verwenden, muss es sich um ein gültig
 1. Fügen Sie benutzerdefinierte Attribute zum Profil auf globaler Ebene oder auf Ordnerebene hinzu.
 
 
-## Bearbeitungsvorlagen konfigurieren {#id1889D0IL0Y4}
+## Authoring-Vorlagen konfigurieren {#id1889D0IL0Y4}
 
 AEM Guides sind mit 7 nativen Bearbeitungsvorlagen und 2 DITA-Zuordnungsvorlagen ausgestattet. Sie können festlegen, dass nur einige Vorlagen für Ihre Autoren verfügbar sind. Wenn Sie eine benutzerdefinierte Vorlage verwenden, kann diese konfiguriert und für das Authoring bereitgestellt werden. Auf der Registerkarte &quot;Authoring-Vorlage&quot;in der Konfiguration von Ordnerprofilen können Sie Themen- oder Zuordnungsvorlagen aus globalen Profilen oder Profilen auf Ordnerebene hinzufügen oder entfernen.
 
@@ -264,7 +264,7 @@ Führen Sie die folgenden Schritte aus, um das Thema oder die Zuordnungsvorlagen
 
      ![](assets/default-template-list.png)
 
-   - Klicken **Durchsuchen** und wählen Sie eine Vorlage aus DAM aus.
+   - Klicks **Durchsuchen** und wählen Sie eine Vorlage aus DAM aus.
 
 1. Klicken Sie auf **Hinzufügen**.
 
@@ -301,7 +301,7 @@ Führen Sie die folgenden Schritte aus, um eine benutzerdefinierte Authoring-Vor
    >
    > Informationen zum Konfigurieren eines benutzerdefinierten Speicherorts zum Speichern von Themen oder Zuordnungsvorlagen finden Sie unter [Benutzerdefinierten DITA-Vorlagenordnerpfad konfigurieren](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z)
 
-1. Klicken **Erstellen** \> **DITA-Vorlage**.
+1. Klicks **Erstellen** \> **DITA-Vorlage**.
 
 1. Wählen Sie auf der Blueprint-Seite den Typ der DITA-Themenvorlage aus, die Sie erstellen möchten.
 
@@ -311,7 +311,7 @@ Führen Sie die folgenden Schritte aus, um eine benutzerdefinierte Authoring-Vor
 
 1. Klicken Sie auf **Weiter**.
 
-1. Geben Sie auf der Seite mit den neuen Vorlageneigenschaften eine **Titel**, **Name** und **Beschreibung** für die Vorlage.
+1. Geben Sie auf der Seite mit den neuen Vorlageneigenschaften eine **Titel**, **Name**, und **Beschreibung** für die Vorlage.
 
    >[!NOTE]
    >
@@ -332,7 +332,7 @@ In einer typischen Unternehmensumgebung können für verschiedene Produkte oder 
 
 Mit AEM Guides kann der Administrator Ausgabevorgaben mit bestimmten Einstellungen erstellen, die dann von allen oder einem bestimmten Satz von Herausgebern zum Generieren der Ausgabe verwendet werden können. Beispielsweise kann der Administrator eine Ausgabevorgabe erstellen, um ein Benutzerhandbuch zu generieren, das für alle Herausgeber gleich ist. Und eine andere, um die Programmier-Benutzer-Handbücher zu erstellen, die für eine Reihe von Herausgebern spezifisch sind. Beide Vorgaben können für die Verwendung verschiedener Ausgabevorlagen konfiguriert werden. In diesem Beispiel kann die allgemeine Veröffentlichungsvorgabe für die Generierung des Benutzerhandbuchs auf globaler Ebene konfiguriert werden. Außerdem kann die Ausgabevorgabe zum Generieren des Programmierhandbuchs auf Ordnerebene konfiguriert werden.
 
-Nachdem die standardmäßigen Ausgabevorgaben im System erstellt wurden, verwenden alle DITA-Maps, die danach erstellt wurden, die Standardvorgaben, um die Ausgabe zu generieren. Alle vorhandenen DITA-Maps verwenden jedoch weiterhin die Ausgabevorgaben, die zuvor mit ihnen konfiguriert wurden. Wenn Sie die neue Ausgabevorgabe auf alle vorhandenen DITA-Maps anwenden möchten, müssen Sie den Workflow Vorgabenänderungen anwenden ausführen.
+Nachdem die standardmäßigen Ausgabevorgaben im System erstellt wurden, verwenden alle DITA-Maps, die danach erstellt wurden, die Standardvorgaben zum Generieren der Ausgabe. Alle vorhandenen DITA-Maps verwenden jedoch weiterhin die Ausgabevorgaben, die zuvor mit ihnen konfiguriert wurden. Wenn Sie die neue Ausgabevorgabe auf alle vorhandenen DITA-Maps anwenden möchten, müssen Sie den Workflow Vorgabenänderungen anwenden ausführen.
 
 Zusätzlich zu den auf globaler oder Unternehmensebene konfigurierten Vorgaben hätte ein Herausgeber weiterhin die Berechtigung, mehr Ausgabevorgaben zu erstellen. Diese Vorgaben sind jedoch an die DITA-Map gebunden, für die sie erstellt werden. Weitere Informationen zum Erstellen regulärer Ausgabevorgaben für eine DITA-Zuordnung finden Sie unter *Ausgabevorgabe erstellen, bearbeiten, duplizieren oder entfernen* im as a Cloud Service Handbuch Verwenden von Adobe Experience Manager-Handbüchern.
 
@@ -356,14 +356,14 @@ Führen Sie die folgenden Schritte aus, um globale oder ordnerspezifische Ausgab
 
 1. Führen Sie einen der folgenden Schritte aus, um eine Ausgabevorgabe zu erstellen oder zu bearbeiten:
 
-   - Klicken **Erstellen** , um eine neue Ausgabevorgabe von Grund auf neu zu erstellen.
+   - Klicks **Erstellen** , um eine neue Ausgabevorgabe von Grund auf neu zu erstellen.
    - Klicken Sie auf Duplizieren , um eine Kopie der ausgewählten Ausgabevorgabe zu erstellen. Sie können Änderungen an der duplizierten Vorgabe vornehmen und sie speichern.
 
-   - Klicken **Bearbeiten** , um die Konfiguration der ausgewählten Vorgabe zur Bearbeitung zu öffnen.
+   - Klicks **Bearbeiten** , um die Konfiguration der ausgewählten Vorgabe zur Bearbeitung zu öffnen.
 
      Weitere Informationen zu den Ausgabevorgabeneinstellungen finden Sie unter *Grundlegendes zu den Ausgabevorgaben* im as a Cloud Service Handbuch Verwenden von Adobe Experience Manager-Handbüchern.
 
-1. Klicken **Speichern** , um die voreingestellten Einstellungen zu speichern.
+1. Klicks **Speichern** , um die Voreinstellungen zu speichern.
 
 
 Alle DITA-Maps, die danach erstellt oder hochgeladen wurden, verfügen über die neue oder aktualisierte Ausgabevorgabe.
@@ -392,7 +392,7 @@ Wenn Sie eine vorhandene Ausgabevorgabe aktualisiert haben oder eine neue Ausgab
 
 1. Wählen Sie die Ausgabevorgabe aus, die Sie auf vorhandene DITA-Maps anwenden möchten.
 
-1. Klicken **Vorgabenänderungen anwenden** in der Hauptsymbolleiste.
+1. Klicks **Anwenden von Vorgabenänderungen** in der Hauptsymbolleiste.
 
 1. Im Dialogfeld Vorgabenänderungen anwenden können Sie aus folgenden Optionen auswählen:
 
@@ -400,16 +400,16 @@ Wenn Sie eine vorhandene Ausgabevorgabe aktualisiert haben oder eine neue Ausgab
 
    - **Nicht auswählen Option &quot;Vorhandene Vorgabe überschreiben&quot;**: Wenn Sie diese Option nicht auswählen, wirken sich die Aktualisierungen, die Sie in den vorhandenen Ausgabevorgaben vorgenommen haben, nicht auf die vorhandenen DITA-Maps aus. Nur die neu hinzugefügten Vorgaben werden zu den vorhandenen DITA-Maps hinzugefügt. Beachten Sie, dass die neu erstellte DITA-Zuordnung sowohl die aktualisierten Ausgabevorgaben als auch die neu hinzugefügten Vorgaben erhält.
 
-1. Klicken **OK** , um Änderungen aus den ausgewählten Ausgabevorgaben auf alle vorhandenen DITA-Maps anzuwenden.
+1. Klicks **OK** , um Änderungen aus den ausgewählten Ausgabevorgaben auf alle vorhandenen DITA-Maps anzuwenden.
 
 
-## Konfigurieren und Anpassen des XML-Web-Editors {#id2065G300O5Z}
+## Konfigurieren und Anpassen des XML Web Editor {#id2065G300O5Z}
 
 Standardmäßig enthält der XML-Web-Editor eine Vielzahl von Funktionen, die Ihren Autoren beim Erstellen von DITA-Dokumenten helfen. Wenn Sie in einer restriktiven Umgebung arbeiten, können Sie auswählen, welche Funktionen Ihren Autoren zur Verfügung stehen. Auf der Registerkarte &quot;Konfiguration des XML-Editors&quot;können Sie die Funktionen einfach steuern und auch das Erscheinungsbild Ihres Web-Editors ändern. Als Administrator können Sie die folgenden Komponenten des Web-Editors anpassen:
 
 **Konfiguration der Benutzeroberfläche des XML-Editors**
 
-Diese Einstellung steuert die Symbolleiste und die anderen Elemente der Benutzeroberfläche des Web Editors. Klicken Sie auf das Symbol Herunterladen , um die Datei ui\_config.json auf Ihr lokales System herunterzuladen. Anschließend können Sie Änderungen an der Datei vornehmen und die Datei hochladen. Je nachdem, wo Sie die Datei hochladen, werden die Änderungen entsprechend angewendet. Weitere Informationen zum Anpassen des XML-Editors mithilfe der Datei ui\_config.json finden Sie unter [Symbolleiste anpassen](conf-web-editor-customize-toolbar.md#).
+Diese Einstellung steuert die Symbolleiste und die anderen Elemente der Benutzeroberfläche des Web-Editors. Klicken Sie auf das Symbol Herunterladen , um die Datei ui\_config.json auf Ihr lokales System herunterzuladen. Anschließend können Sie Änderungen an der Datei vornehmen und die Datei hochladen. Je nachdem, wo Sie die Datei hochladen, werden die Änderungen entsprechend angewendet. Weitere Informationen zum Anpassen des XML-Editors mithilfe der Datei ui\_config.json finden Sie unter [Symbolleiste anpassen](conf-web-editor-customize-toolbar.md#).
 
 **CSS-Vorlagenlayout**
 
@@ -437,13 +437,13 @@ Mithilfe der Konfigurationsdatei in diesem Abschnitt können Sie einige standard
 
 Die folgenden Details sind zum Erstellen eines Snippets erforderlich:
 
-snippetID : Eine eindeutige ID für das Snippet. Es kann einen alphanumerischen Wert annehmen.
+snippetID : Eine eindeutige ID für den Ausschnitt. Es kann einen alphanumerischen Wert annehmen.
 
-name : Ein beschreibender Name zur Identifizierung des Codeausschnitts. Dieser Name wird im Bedienfeld &quot;Snippets&quot;angezeigt.
+name : Ein beschreibender Name, der das Snippet kennzeichnet. Dieser Name wird im Bedienfeld &quot;Snippets&quot;angezeigt.
 
-description : Fügen Sie eine beschreibende Information für das Snippet hinzu.
+description : Fügen Sie eine beschreibende Information für den Ausschnitt hinzu.
 
-value : Geben Sie den XML-Code des Snippets an.
+value : Geben Sie den XML-Code des Ausschnitts an.
 
 >[!NOTE]
 >

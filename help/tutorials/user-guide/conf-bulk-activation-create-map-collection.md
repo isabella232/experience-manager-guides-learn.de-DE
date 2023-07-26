@@ -2,9 +2,9 @@
 title: Erstellen einer Massen-Aktivierungszuordnung
 description: Erfahren Sie, wie Sie eine Massen-Aktivierungszuordnung erstellen
 exl-id: 7d17fb37-9486-4a3b-a421-08e279c95b6c
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: c13d5146f478ed9b9122986a01eaa8a790bc8212
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,9 @@ Führen Sie die folgenden Schritte aus, um eine Massen-Aktivierungszuordnung zu 
 
    Bei der Erstellung der Massen-Aktivierungszuordnung wird eine Erfolgsmeldung angezeigt.
 
-1. Klicken **Öffnen** in der Erfolgsmeldung angezeigt.
+1. Klicks **Öffnen** in der Erfolgsmeldung angezeigt.
 
-1. Klicken **Bearbeiten** und klicken Sie anschließend auf **Zuordnen hinzufügen**.
+1. Klicks **Bearbeiten** und klicken Sie anschließend auf **Zuordnen hinzufügen**.
 
 1. Suchen Sie die DITA-Maps, die Sie zur Massen-Aktivierungszuordnungssammlung hinzufügen möchten, und fügen Sie sie hinzu.
 
@@ -54,9 +54,13 @@ Auf der Registerkarte Karten und Vorgaben werden Informationen in den folgenden 
 - **UUID**: Zeigt die eindeutige Kennung an, die mit der Datei verknüpft ist.
 
 - **Sprache**: Zeigt den Sprachcode der DITA-Zuordnung an.
-- **Vorgabe**: Zeigt den Typ der in der Zuordnungsdatei konfigurierten Ausgabevorgabe an.
+- **Vorgabe**: Zeigt den Titel der in der Zuordnungsdatei konfigurierten Ausgabevorgabe an. Außerdem wird das Symbol je nach Typ der Ausgabevorgabe angezeigt.
+
+  >[!NOTE]
+  >
+  > Der kleine ![](images/global-preset-icon.svg) -Symbol zeigt eine Vorgabe auf Ordnerprofilebene an.
 - **Geändert**: Gibt an, ob die DITA-Zuordnung nach der letzten Veröffentlichung aktualisiert wird. Anhand dieser Informationen können Sie entscheiden, ob Sie die Ausgabe für diese DITA-Zuordnung aktivieren möchten oder nicht.
-- **Generiert**: Zeigt das Datum und die Uhrzeit der letzten generierten Ausgabe an.
+- **Generiert**: Zeigt Datum und Uhrzeit der letzten generierten Ausgabe an.
 - **Veröffentlicht**: Zeigt das Datum und die Uhrzeit der letzten veröffentlichten \(oder aktivierten\) Ausgabe an. Wenn Sie auf den Link klicken, wird die Seite Aktivierungsergebnisse mit Informationen zum Stammpfad angezeigt, in dem der Inhalt aktiviert ist.
 
 
@@ -64,9 +68,9 @@ Die folgenden Filteroptionen sind im linken Bereich verfügbar:
 
 - **Geändert**: Sie können &quot;Ja&quot;oder &quot;Nein&quot;auswählen. Wenn Sie &quot;Ja&quot;auswählen, werden nur die modifizierten DITA-Maps angezeigt. Eine geänderte Karte ist eine Karte, die seit der letzten Veröffentlichung erstellt wurde.
 - **Vorgabe**: Wählen Sie eine Vorgabe aus, nach der Sie die Zuordnungsdateien herausfiltern möchten. Wenn Sie beispielsweise *AEM Site* voreingestellt ist, werden nur die Karten angezeigt, die die *AEM Site* Ausgabevorgabe, die für sie konfiguriert ist.
-- **Sprache**: Sie können einen der verfügbaren Sprachcodes auswählen und auf der Registerkarte Karten und Vorgaben nur die ausgewählte Sprache anzeigen.
+- **Sprache**: Sie können einen der verfügbaren Sprachcodes auswählen und auf der Registerkarte &quot;Karten und Vorgaben&quot;nur die ausgewählte Sprache anzeigen.
 
 - **Filter:** Die aktuelle Leiste zeigt die folgenden Filter an:
-- **Karten und Vorgaben** table: Die Tabelle Karten und Vorgaben enthält die folgenden Spalten:
+- **Maps und Vorgaben** -Tabelle: Die Tabelle &quot;Karten und Vorgaben&quot;enthält die folgenden Spalten:
 
 **Übergeordnetes Thema:**[ Massenaktivierung veröffentlichter Inhalte](conf-bulk-activation.md)

@@ -2,9 +2,9 @@
 title: Funktionen des Web Editors kennen
 description: Erfahren Sie, wie Sie die Funktionen des Web Editors kennen
 exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: b55b4aa572a680181388e24827daa7d045f1e406
+source-git-commit: 270b94f0c1e29237c4bdad891c41446de897fddb
 workflow-type: tm+mt
-source-wordcount: '15310'
+source-wordcount: '15461'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Dieser Abschnitt erläutert Ihnen die verschiedenen Funktionen, die im Web Editor verfügbar sind. Wir können den Web-Editor in die folgenden Abschnitte oder Bereiche unterteilen:
 
-- [Hauptsymbolleiste](#id2051EA0G05Z)
+- [Hauptleiste](#id2051EA0G05Z)
 - [Sekundäre Symbolleiste](#id2051EA0J0Y4)
 - [Linke Leiste](#id2051EA0M0HS)
 - [Inhaltsbearbeitungsbereich](#id2051EB000UI)
@@ -21,13 +21,13 @@ Dieser Abschnitt erläutert Ihnen die verschiedenen Funktionen, die im Web Edito
 
 Der folgende Unterabschnitt behandelt die verschiedenen Abschnitte des Web-Editors im Detail.
 
-## Hauptsymbolleiste {#id2051EA0G05Z}
+## Hauptleiste {#id2051EA0G05Z}
 
 Die Hauptsymbolleiste befindet sich oben auf der Benutzeroberfläche des Web-Editors und bietet Funktionen auf Dateiebene sowie verschiedene Bearbeitungsmodi, die im Web Editor verfügbar sind. Die in der oberen Symbolleiste verfügbaren Funktionen werden wie folgt beschrieben:
 
 **Alle speichern** - ![](images/SaveFloppy_icon.svg)
 
-Speichert die Änderungen, die Sie in allen geöffneten Themen vorgenommen haben. Wenn Sie mehrere Themen im Web Editor geöffnet haben, klicken Sie auf **Alle speichern** oder mithilfe der **StrgL**+**S** Die Tastaturbefehle speichern alle Dokumente mit einem Klick. Sie müssen nicht jedes Dokument einzeln speichern.
+Speichert die Änderungen, die Sie in allen geöffneten Themen vorgenommen haben. Wenn Sie mehrere Themen im Web Editor geöffnet haben, klicken Sie auf **Alle speichern** oder unter Verwendung der **StrgL**+**S** Die Tastaturbefehle speichern alle Dokumente mit einem Klick. Sie müssen nicht jedes Dokument einzeln speichern.
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ Speichert die Änderungen, die Sie in allen geöffneten Themen vorgenommen haben
 
 **Als neue Version speichern** - ![](images/save-revision-icon.png)
 
-Speichert die Änderungen, die Sie an Ihrem Thema vorgenommen haben, und erstellt auch eine neue Version Ihres Themas. Wenn Sie an einem neu erstellten Thema arbeiten, werden die Versionsinformationen wie folgt angezeigt: **Keine**.
+Speichert die Änderungen, die Sie an Ihrem Thema vorgenommen haben, und erstellt auch eine neue Version Ihres Themas. Wenn Sie an einem neu erstellten Thema arbeiten, werden die Versionsinformationen wie **Keine**.
 
 ![](images/save-all-first-version-none_cs.png){width="800" align="left"}
 
@@ -55,7 +55,7 @@ Wenn Ihr Administrator über vorkonfigurierte Versionsbezeichnungen verfügt, we
 
 Zum Zeitpunkt der Speicherung eines Themas können Sie einen Kommentar hinzufügen, in dem Sie die Änderungen angeben, die Sie am Thema vorgenommen haben. Dieser Kommentar wird im Versionsverlauf des Themas angezeigt.
 
-Wenn Ihr Thema überprüft wird, erhalten Ihre Prüfer eine Benachrichtigung, dass eine neuere Version des Themas verfügbar ist. Sie können einfach auf die neueste Version Ihres Dokuments zugreifen und mit der Überprüfung der neuesten Version Ihres Themas fortfahren.
+Wenn Ihr Thema überprüft wird, erhalten Ihre Prüfer eine Benachrichtigung, dass eine neuere Version des Themas verfügbar ist. Sie können einfach auf die neueste Version Ihres Dokuments zugreifen und die aktuelle Version Ihres Themas überprüfen.
 
 Wenn Sie den Mauszeiger über den Titel eines Themas bewegen, werden Ihnen der Dateipfad und die Versionsnummer angezeigt.
 
@@ -79,7 +79,7 @@ Die Funktion Suchen und Ersetzen ist in den Ansichtsmodi Autor und Quelle verfü
 
 ![](images/find-replace-bar.png){width="800" align="left"}
 
-Verwenden des Einstellungssymbols \(![](images/settings-find-replace-icon.svg)\) können Sie die **Groß-/Kleinschreibung ignorieren** und **Nur ganzes Wort** Suchoptionen. Um die Suche ohne Unterscheidung zwischen Groß- und Kleinschreibung durchzuführen, aktivieren Sie die Option \(oder wählen Sie\). **Groß-/Kleinschreibung ignorieren** -Option. Wenn Sie andernfalls die Suche unter Berücksichtigung der Groß-/Kleinschreibung durchführen möchten, deaktivieren Sie \(oder deaktivieren Sie\) die Option **Groß-/Kleinschreibung ignorieren** -Option. Sie können auch ein ganzes Wort suchen.
+Verwenden des Einstellungssymbols \(![](images/settings-find-replace-icon.svg)\) können Sie die **Groß-/Kleinschreibung ignorieren** und **Nur ganzes Wort** Suchoptionen. Um die Suche ohne Unterscheidung zwischen Groß- und Kleinschreibung durchzuführen, aktivieren Sie die Option \(oder wählen Sie\) **Groß-/Kleinschreibung ignorieren** -Option. Wenn Sie andernfalls die Suche unter Berücksichtigung der Groß-/Kleinschreibung durchführen möchten, deaktivieren Sie \(oder deaktivieren Sie\) die Option **Groß-/Kleinschreibung ignorieren** -Option. Sie können auch ein ganzes Wort suchen.
 
 Die Suche erfolgt sofort, d. h. während Sie den Suchbegriff oder das Wort in die **Suchen** eingeben, wird der Begriff sofort durchsucht und im Thema ausgewählt. Um einen Text in Ihrem Thema zu ersetzen, geben Sie den Suchbegriff und dessen Ersetzung in die entsprechenden Felder ein und klicken Sie auf **Ersetzen** oder **Alle ersetzen** Schaltfläche.
 
@@ -93,11 +93,11 @@ Die Editor-Einstellungen stehen nur Admin-Benutzern zur Verfügung. Mithilfe der
 >
 > Wenn Sie Standardeinstellungen aktualisieren, sollten Sie Dokumente erneut öffnen, damit die Änderungen wirksam werden.
 
-- **Allgemein**: Mit den Einstellungen Allgemein können Sie das Wörterbuch für die Verwendung mit dem Web Editor konfigurieren. Dieser Tab enthält drei Abschnitte: **Rechtschreibprüfung**, **Bedingung** und **Authoring**.
+- **Allgemein**: Mit den allgemeinen Einstellungen können Sie das Wörterbuch für die Verwendung mit dem Web Editor konfigurieren. Dieser Tab enthält drei Abschnitte: **Rechtschreibprüfung**, **Bedingung**, und **Authoring**.
 
   ![](images/editor-setting-general.png){width="650" align="left"}
 
-   - **Rechtschreibprüfung**: Es gibt zwei Möglichkeiten — **Rechtschreibprüfung AEM** und **BrowserRechtschreibprüfung**. Standardmäßig verwendet der Editor die Funktion &quot;Rechtschreibprüfung des Browsers&quot;, bei der die Rechtschreibprüfung mithilfe des integrierten Wörterbuchs des Browsers durchgeführt wird. Sie können zur Rechtschreibprüfung wechseln, um AEM Wörterbuch zu verwenden, das auch angepasst werden kann, um Ihre benutzerdefinierte Wortliste hinzuzufügen. Weitere Informationen zum Anpassen AEM Wörterbuchs finden Sie unter *AEM Standardwörterbuch anpassen* im as a Cloud Service Installieren und Konfigurieren von Adobe Experience Manager-Handbüchern.
+   - **Rechtschreibprüfung**: Es gibt zwei Optionen — **Rechtschreibprüfung AEM** und **BrowserRechtschreibprüfung**. Standardmäßig verwendet der Editor die Funktion &quot;Rechtschreibprüfung des Browsers&quot;, bei der die Rechtschreibprüfung mithilfe des integrierten Wörterbuchs des Browsers durchgeführt wird. Sie können zur Rechtschreibprüfung wechseln, um AEM Wörterbuch zu verwenden, das auch angepasst werden kann, um Ihre benutzerdefinierte Wortliste hinzuzufügen. Weitere Informationen zum Anpassen AEM Wörterbuchs finden Sie unter *AEM Standardwörterbuch anpassen* im as a Cloud Service Installieren und Konfigurieren von Adobe Experience Manager-Handbüchern.
 
 
    - **Bedingung**
@@ -106,7 +106,7 @@ Die Editor-Einstellungen stehen nur Admin-Benutzern zur Verfügung. Mithilfe der
 
       - **Validieren mit Bedingungsattributen**: Wählen Sie diese Option aus, um die Überprüfung der für die Attribute definierten Werte zu ermöglichen. Dadurch wird verhindert, dass Sie einen falschen Wert hinzufügen.
 
-      - **Anzeigen des Schlüssels mit dem Titel im Bedienfeld &quot;Betreff-Schema&quot;**: Wählen Sie diese Option aus, um die Schlüssel zusammen mit den Titeln im Betreffschema anzuzeigen. Wenn Sie diese Option nicht auswählen, werden nur die Titel angezeigt. Hier werden beispielsweise die Schlüssel &quot;os&quot;, &quot;audience&quot;und &quot;other&quot;zusammen mit den Titeln angezeigt.
+      - **Schlüssel mit Titel im Bedienfeld &quot;Betreff-Schema&quot;anzeigen**: Wählen Sie diese Option aus, um die Schlüssel zusammen mit den Titeln im Betreffschema anzuzeigen. Wenn Sie diese Option nicht auswählen, werden nur die Titel angezeigt. Hier werden beispielsweise die Schlüssel &quot;os&quot;, &quot;audience&quot;und &quot;other&quot;zusammen mit den Titeln angezeigt.
 
         ![](images/subject-scheme-title.png){width="550" align="left"}
 
@@ -115,6 +115,11 @@ Die Editor-Einstellungen stehen nur Admin-Benutzern zur Verfügung. Mithilfe der
    - **Authoring**
 
       - **Alle ersetzen**: Wählen Sie dies aus, um das Symbol Alle ersetzen im Bereich Suchen und Ersetzen anzuzeigen.
+
+
+   - **Zitate**
+Ändern Sie den Stil der Zitate. Wählen Sie aus der Dropdown-Liste den Zitierungsstil aus, den Sie in Ihrem Projekt verwenden möchten. Weitere Informationen finden Sie unter [Bearbeitungsstile ändern](./web-editor-apply-citations.md#change-citation-style).
+
 
 **Bedienfelder**: Diese Einstellung steuert die Bedienfelder, die im linken Bereich des Editors angezeigt werden. Sie können den Schalter umschalten, um das gewünschte Bedienfeld ein- oder auszublenden.
 
@@ -134,7 +139,7 @@ Im folgenden Screenshot werden im aktuellen Kontext nur 3 von 4 konfigurierten E
 
 ![](images/editor-setting-insert-element-list.PNG){width="300" align="left"}
 
-- **Attributliste**: Ähnlich wie bei der Elementliste können Sie die Liste der Attribute und deren Anzeigenamen steuern, die in der Attributliste eines Elements angezeigt werden sollen. Im folgenden Screenshot wurden nur drei Attribute so konfiguriert, dass sie in der Attributliste eines Elements angezeigt werden:
+- **Attributliste**: Wie bei der Elementliste können Sie die Liste der Attribute und deren Anzeigenamen steuern, die in der Attributliste eines Elements angezeigt werden sollen. Im folgenden Screenshot wurden nur drei Attribute so konfiguriert, dass sie in der Attributliste eines Elements angezeigt werden:
 
 ![](images/editor-setting-attributes-list.png){width="650" align="left"}
 
@@ -142,15 +147,15 @@ Wenn Sie mit dieser Einstellung versuchen, einem Element ein Attribut hinzuzufü
 
 ![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
 
-- **Anzeigenattribute**: Wie die Attributliste können Sie die Liste der Attribute steuern, die in der Attributliste eines Elements angezeigt werden sollen. Standardmäßig sind vier **Anzeigenattribute** - Zielgruppe, Plattform, Produkt und Eigenschaften so konfiguriert wurden, dass sie in der Attributliste eines Elements angezeigt werden. Sie können auch ein Anzeigenattribut hinzufügen, indem Sie die **Hinzufügen** Symbol oben. Sie können auch jedes beliebige Anzeigenattribut löschen, indem Sie die **Löschen** Symbol.
+- **Anzeigenattribute**: Wie die Attributliste können Sie die Liste der Attribute steuern, die in der Attributliste eines Elements angezeigt werden sollen. Standardmäßig sind vier **Anzeigenattribute** - Zielgruppe, Plattform, Produkt und Eigenschaften so konfiguriert wurden, dass sie in der Attributliste eines Elements angezeigt werden. Sie können auch ein Anzeigenattribut mit der **Hinzufügen** Symbol oben. Sie können auch jedes beliebige Anzeigenattribut mit der **Löschen** Symbol.
 
-Die für ein Element definierten Attribute werden im Layout und in der Gliederung angezeigt.
+Die für ein Element definierten Attribute werden im Layout und in der Gliederungsansicht angezeigt.
 
 ![](images/editor-settings-display-attributes.png){width="550" align="left"}
 
 - **Übersetzung**: Dieser Tab enthält die Option, die Quellbeschriftungen auf die Zielversion zu übertragen.
 
-   - **Quellversionsbeschriftungen an die Zielversion weiterleiten**: Wählen Sie diese Option aus, um den Titel der Quelldateiversion an die übersetzte Datei zu übergeben. Standardmäßig ist dies deaktiviert.
+   - **Quellversionsbeschriftungen an die Zielversion weiterleiten**: Wählen Sie diese Option, um den Titel der Quelldateiversion an die übersetzte Datei zu übergeben. Standardmäßig ist dies deaktiviert.
 
   ![](images/editor-setting-translation.png){width="550" align="left"}
 
@@ -161,12 +166,12 @@ Die Benutzereinstellungen stehen allen Autoren zur Verfügung. Mithilfe der Vore
 
 ![](images/user_preference_editor.PNG){width="550" align="left"}
 
-- **Gerätedesign verwenden**: Aktivieren Sie dieses Kontrollkästchen, damit AEM Guides je nach Thema Ihres Geräts automatisch zwischen hellen und dunklen Themen wechseln können.
-- **Design**: Sie können aus den Themen Licht, Licht, Dunkel oder Dunkelste für den Editor wählen. Im Falle eines Lightest-Designs verwenden die Symbolleisten und Bedienfelder einen helleren grauen Farbhintergrund. Im Falle des Lichtdesigns verwenden die Symbolleisten und Bedienfelder einen hellgrauen Farbhintergrund. Im Falle eines dunkelsten Designs verwenden die Symbolleisten und Bedienfelder einen dunkleren schwarzen Farbhintergrund. Im Falle eines dunklen Designs verwenden die Symbolleisten und Bedienfelder einen schwarzen Farbhintergrund. In allen Designs wird der Inhaltsbearbeitungsbereich in weißem Farbhintergrund angezeigt.
+- **Gerätedesign verwenden**: Aktivieren Sie dieses Kontrollkästchen, damit AEM Guides je nach Thema Ihres Geräts automatisch zwischen hellen und dunklen Designs wechseln können.
+- **Design**: Sie können aus den Designs Hell, Lightest, Dark oder Dunkelste für den Editor wählen. Im Falle eines Lightest-Designs verwenden die Symbolleisten und Bedienfelder einen helleren grauen Farbhintergrund. Im Falle des Lichtdesigns verwenden die Symbolleisten und Bedienfelder einen hellgrauen Farbhintergrund. Im Falle eines dunkelsten Designs verwenden die Symbolleisten und Bedienfelder einen dunkleren schwarzen Farbhintergrund. Im Falle eines dunklen Designs verwenden die Symbolleisten und Bedienfelder einen schwarzen Farbhintergrund. In allen Designs wird der Inhaltsbearbeitungsbereich in weißem Farbhintergrund angezeigt.
 
 - **Ordnerprofile**: Das Ordnerprofil steuert verschiedene Konfigurationen im Zusammenhang mit bedingten Attributen, Bearbeitungsvorlagen, Ausgabevorgaben und Web-Editor-Konfigurationen. Das globale Profil wird standardmäßig angezeigt. Wenn Ihr Administrator außerdem Ordnerprofile im System konfiguriert hat, werden diese ebenfalls in der Liste Ordnerprofile angezeigt.
 
-  Zu den Konfigurationen des Web-Editors, die ein Administrator im Ordnerprofil definieren kann, gehören: Anpassung der Benutzeroberfläche, einschließlich der Symbole der Symbolleiste, des Layouts des Web-Editors, der Snippets und der Stammzuordnung. Weitere Informationen finden Sie unter *Konfigurieren globaler Profile oder Profile auf Ordnerebene* im as a Cloud Service Adobe Experience Manager-Handbücher installieren und konfigurieren .
+  Zu den Konfigurationen des Web-Editors, die ein Administrator im Ordnerprofil definieren kann, gehören: Anpassung der Benutzeroberfläche einschließlich der Symbolleistensymbole, Layout des Web-Editors, Snippets und Root Map. Weitere Informationen finden Sie unter *Konfigurieren globaler Profile oder Profile auf Ordnerebene* im as a Cloud Service Adobe Experience Manager-Handbücher installieren und konfigurieren .
 
   >[!NOTE]
   >
@@ -179,7 +184,7 @@ Die Benutzereinstellungen stehen allen Autoren zur Verfügung. Mithilfe der Vore
 
 >[!NOTE]
 >
-> Wenn Sie keine Stammzuordnung verwenden möchten, stellen Sie sicher, dass die **Root Map auswählen** -Feld leer ist.
+> Wenn Sie keine Stammzuordnung verwenden möchten, stellen Sie sicher, dass die **Root Map auswählen** leer ist.
 
 **Autoren-, Quell- und Vorschaumodi**
 
@@ -243,10 +248,10 @@ Im Kontextmenü der Tabelle haben Sie folgende Möglichkeiten:
 
 - Erstellen eines Snippets aus der Tabelle
 
-- IDs generieren
+- Generieren von IDs
 
 
-Sie können Attribute auch für mehrere Zellen, ganze Zeilen oder Spalten einer Tabelle definieren. Um beispielsweise die Tabellenzelle auszurichten, ziehen Sie die gewünschte Zelle und wählen Sie sie aus. Im Bereich &quot;Inhaltseigenschaften&quot;\(rechts\) wird die Eigenschaft **Typ** Änderungen an **Mehrere Einträge**. Wählen Sie im Abschnitt Andere Attribute die `@valign` -Attribut aus der Dropdown-Liste &quot;Attribut&quot;aus. Wählen Sie aus der Dropdown-Liste Wert die gewünschte Textausrichtung aus, die Sie auf die ausgewählten Tabellenzellen anwenden möchten.
+Sie können Attribute auch für mehrere Zellen, ganze Zeilen oder Spalten einer Tabelle definieren. Um beispielsweise die Tabellenzelle auszurichten, ziehen Sie die gewünschte Zelle und wählen Sie sie aus. Im Bereich &quot;Inhaltseigenschaften&quot;\(rechts\) wird die Eigenschaft **Typ** Änderungen an **Mehrere Einstiege**. Wählen Sie im Abschnitt Andere Attribute die `@valign` -Attribut aus der Dropdown-Liste &quot;Attribut&quot;aus. Wählen Sie in der Wert-Dropdown-Liste die gewünschte Textausrichtung aus, die Sie auf die ausgewählten Tabellenzellen anwenden möchten.
 
 ![](images/align-table-cell_cs.png){width="800" align="left"}
 
@@ -269,9 +274,9 @@ Nachdem Sie ein Bild eingefügt haben, können Sie die Höhe, Breite, Platzierun
 
 ![](images/image-properties.png){width="800" align="left"}
 
-Im Feld Quelle wird die UUID der eingefügten Bilddatei angezeigt. Sie können den vollständigen Pfad der eingefügten Bilddatei finden, indem Sie den Mauszeiger über das Feld Quelle bewegen. Der Pfad wird in der QuickInfo angezeigt.
+Im Feld Quelle wird die UUID der eingefügten Bilddatei angezeigt. Sie können den vollständigen Pfad der eingefügten Bilddatei finden, indem Sie mit dem Mauszeiger über das Feld Quelle fahren. Der Pfad wird in der QuickInfo angezeigt.
 
-Sie können die Größe eines Bildes ändern, indem Sie für die Bilddatei den Wert Höhe oder Breite angeben. Das Seitenverhältnis des Bildes wird automatisch beibehalten. Sie können das Seitenverhältnis der Bilddatei auch beibehalten, indem Sie auf das Sperrsymbol \(Seitenverhältnis beibehalten\) klicken und die Werte für Höhe und Breite angeben.
+Sie können die Größe eines Bildes ändern, indem Sie für die Bilddatei den Wert Höhe oder Breite angeben. Das Seitenverhältnis des Bildes wird automatisch beibehalten. Bei Bedarf können Sie auch das Seitenverhältnis der Bilddatei beibehalten, indem Sie auf das Sperrsymbol \(Seitenverhältnis beibehalten\) klicken und die Werte für Höhe und Breite angeben.
 
 Sie können auch die Platzierungseinstellung für das Bild als Inline- oder Umbruch festlegen. Wenn Sie die Platzierungsoption &quot;Platzierung umbrechen&quot;verwenden, können Sie festlegen, wo das Bild ausgerichtet werden soll (links, zentriert oder rechts\).
 
@@ -322,7 +327,7 @@ Im Dokument wird eine Verknüpfung der ausgewählten Referenz hinzugefügt. Im K
 - **UUID kopieren**: Kopiert die UUID des eingefügten Verweises.
 - **Pfad kopieren**: Kopiert den vollständigen Pfad der eingefügten Referenz.
 - **Snippet erstellen**: Erstellt ein wiederverwendbares Snippet aus der eingefügten Referenz.
-- **IDs generieren**: Generiert eine eindeutige ID für den eingefügten Verweis.
+- **Generieren von IDs**: Generiert eine eindeutige ID für die eingefügte Referenz.
 
 Sie können auch mit der UUID der Datei suchen, die Sie referenzieren möchten. Geben Sie für Links &quot;Inhalt&quot;und &quot;Schlüsselreferenz&quot;die UUID der Datei ein, mit der Sie eine Verknüpfung herstellen möchten. Die Datei wird dann automatisch durchsucht und im Bereich &quot;Vorschau&quot;angezeigt. Wenn Sie die UUID der Datei angeben, müssen Sie die Dateierweiterung für .xml-Dateien nicht explizit angeben. Die .xml-Erweiterung wird automatisch an die UUID angehängt.
 
@@ -356,7 +361,7 @@ Sie können im ausgewählten Pfad nach Nicht-DITA-Dateien wie Bilddateien, Multi
 >
 > Ihr Systemadministrator kann auch die Textfilter konfigurieren und andere Filter ein- oder ausblenden. Weitere Informationen finden Sie unter Konfigurieren von Textfiltern im as a Cloud Service Abschnitt Installieren und Konfigurieren von Adobe Experience Manager-Handbüchern .
 
-Die Liste der gefilterten Dateien, die den gesuchten Text enthalten, wird angezeigt. Im obigen Screenshot werden beispielsweise die Dateien mit dem Text &#39;general&#39; aufgelistet. Sie können auch eine Vorschau des Dateiinhalts anzeigen.
+Die Liste der gefilterten Dateien mit dem gesuchten Text wird angezeigt. Im obigen Screenshot werden beispielsweise die Dateien mit dem Text &#39;general&#39; aufgelistet. Sie können auch eine Vorschau des Dateiinhalts anzeigen.
 
 **Wiederverwendbaren Inhalt einfügen** - ![](images/content-reuse-icon.svg)
 
@@ -386,7 +391,7 @@ Fügt Sonderzeichen in Ihr Thema ein. Klicken Sie auf das Symbol Sonderzeichen e
 
 ![](images/insert-special-char.png){width="550" align="left"}
 
-Im Dialogfeld &quot;Sonderzeichen einfügen&quot;können Sie mithilfe des Namens nach einem Sonderzeichen suchen. Alle Sonderzeichen werden unter verschiedenen Kategorien gespeichert. Verwenden Sie die Dropdownliste Kategorie auswählen und wählen Sie eine Kategorie aus. Die in der ausgewählten Kategorie verfügbaren Sonderzeichen werden angezeigt. Mithilfe der Pfeiltasten können Sie durch die Liste der Sonderzeichen navigieren oder auf das gewünschte Zeichen klicken, das Sie einfügen möchten. Der Name und der Hex-Code des ausgewählten Sonderzeichens werden unter der Liste angezeigt. Klicken Sie auf Einfügen , um das ausgewählte Zeichen in das Dokument einzufügen.
+Im Dialogfeld &quot;Sonderzeichen einfügen&quot;können Sie mithilfe des Namens nach einem Sonderzeichen suchen. Alle Sonderzeichen werden unter verschiedenen Kategorien gespeichert. Wählen Sie in der Dropdownliste Kategorie auswählen eine Kategorie aus. Die in der ausgewählten Kategorie verfügbaren Sonderzeichen werden angezeigt. Mithilfe der Pfeiltasten können Sie durch die Liste der Sonderzeichen navigieren oder auf das gewünschte Zeichen klicken, das Sie einfügen möchten. Der Name und der Hex-Code des ausgewählten Sonderzeichens werden unter der Liste angezeigt. Klicken Sie auf Einfügen , um das ausgewählte Zeichen in das Dokument einzufügen.
 
 **Suchbegriff einfügen** - ![](images/Keyword_icon.svg)
 
@@ -406,7 +411,7 @@ Sie können die Attribute des Suchbegriffs ändern oder dem Suchbegriff ein neue
 
 Fügen Sie ein Snippet an der aktuellen oder nächsten gültigen Position ein. Damit diese Funktion funktioniert, müssen in Ihrem System Snippets definiert sein. Weitere Informationen zum Hinzufügen eines Snippets finden Sie unter **Snippet** Funktionsbeschreibung in [Linke Leiste](web-editor-features.md#id2051EA0M0HS) Abschnitt.
 
-Wenn Sie auf das Symbol &quot;Snippet einfügen&quot;klicken, wird der Katalog &quot;Snippet einfügen&quot;angezeigt. Der Katalog ist kontextsensitiv, was bedeutet, dass die Snippets nur angezeigt werden, wenn sie am aktuellen Speicherort zulässig sind.
+Wenn Sie auf das Symbol &quot;Snippet einfügen&quot;klicken, wird der Katalog &quot;Snippet einfügen&quot;angezeigt. Der Katalog ist kontextsensitiv, was bedeutet, dass die Snippets nur angezeigt werden, wenn sie an der aktuellen Position zulässig sind.
 
 Das folgende Beispiel zeigt zwei vorkonfigurierte Snippets - Warnung und Fehler , die an der aktuellen Position im Dokument eingefügt werden können.
 
@@ -430,11 +435,20 @@ Auswahl des bevorzugten Formrechtecks ![](images/imagemap-rectangle-toolbar.png)
 
 Wenn sich Bereiche überschneiden, können Sie die Form vorwärts bringen oder rückwärts senden, indem Sie auf das entsprechende Symbol in der Symbolleiste klicken. Sie können einen Bereich auch entfernen, indem Sie ihn auswählen und auf das Symbol Löschen klicken. Durch Doppelklicken auf einen Bereich wird das Dialogfeld Verweis geöffnet, in dem Sie den Ziel-Link ändern können. Nachdem Sie die erforderlichen Bereiche auf Ihrem Bild markiert haben, speichern Sie die Änderungen, indem Sie auf Fertig klicken.
 
-**Sperren/Entsperren** - ![](images/LockClosed_icon.svg)/ ![](images/LockOpen_icon.svg)
+**Auschecken/Einchecken** - ![](images/LockClosed_icon.svg)/ ![](images/LockOpen_icon.svg)
 
-Sperrt oder entsperrt die aktuelle Datei. Durch das Sperren (oder Auschecken) einer Datei erhält der Benutzer exklusiven Schreibzugriff auf die Datei. Wenn die Datei entsperrt \(oder eingecheckt\) ist, werden die Änderungen in der aktuellen Version der Datei gespeichert.
+Checkt die aktuelle Datei aus oder checkt sie ein. Durch das Auschecken einer Datei erhält der Benutzer exklusiven Schreibzugriff auf die Datei. Wenn die Datei eingecheckt ist, werden die Änderungen in der aktuellen Version der Datei gespeichert.
 
-Wenn Sie sich in der Kartenansicht befinden und die übergeordnete Zuordnung erweitern, können Sie alle Dateien in der Zuordnung mit einem einzigen Klick sperren. Erweitern Sie einfach die übergeordnete Zuordnungsdatei und wählen Sie die übergeordnete Datei aus, was zur Auswahl aller Dateien innerhalb der Zuordnung führt. Dann können Sie auf das Sperrsymbol klicken, um die Sperre für alle Dateien in der Zuordnung zu erhalten.
+Wenn Sie sich in der Kartenansicht befinden und die übergeordnete Zuordnung erweitern, können Sie alle Dateien in der Zuordnung mit einem Klick auschecken. Erweitern Sie einfach die übergeordnete Zuordnungsdatei und wählen Sie die übergeordnete Datei aus, was zur Auswahl aller Dateien innerhalb der Zuordnung führt. Anschließend können Sie **Checkout**  ![](images/LockClosed_icon.svg) , um die Sperre für alle Dateien in der Zuordnung zu erhalten.
+
+>[!NOTE]
+>
+> Beim Einchecken einer Datei mit nicht gespeicherten Änderungen werden Sie aufgefordert, die Änderungen zu speichern. Wenn Sie Ihre Änderungen nicht speichern, werden sie nur in der Datei eincheckt.
+
+Die QuickInfo für &quot;Ein-/Auschecken&quot;wird durch die Eigenschaft &quot;title&quot;im `ui_config.json` -Datei.
+
+Weitere Informationen finden Sie unter [Konfigurieren des Titels für die Symbole &quot;Ein- und Auschecken&quot;](../install-guide/conf-checkin-checkout-title.md) im On-Premise-Installations- und Konfigurationshandbuch.
+
 
 **Anzeigen von Tags ein/aus** - ![](images/Label_icon.svg)
 
@@ -448,7 +462,7 @@ Die folgenden Vorgänge können in einem Dokument mit der Tag-Ansicht auf ausgef
 
 - **Element auswählen**: Klicken Sie auf das öffnende oder schließende -Tag eines Elements, um dessen Inhalt auszuwählen.
 
-- **Erweitern oder Reduzieren von Tags**: Klicken Sie auf das Symbol + oder -, um ein Tag zu erweitern oder zu reduzieren.
+- **Erweitern oder Reduzieren von Tags**: Klicken Sie auf das Pluszeichen (+) oder -, um ein Tag zu erweitern oder zu reduzieren.
 
 - **Kontextmenü verwenden**: Das Kontextmenü bietet Optionen zum Ausschneiden, Kopieren oder Einfügen des ausgewählten Elements. Sie können auch ein Element vor oder nach dem ausgewählten Element einfügen. Mit den anderen Optionen können Sie ID generieren oder den Bereich Eigenschaften für das ausgewählte Element öffnen.
 
@@ -469,7 +483,7 @@ Im folgenden Screenshot wird der gelöschte und eingefügte Inhalt zusammen mit 
 
 Ein typisches Anwendungsbeispiel für die Verfolgung von Änderungen in einem Dokument kann die Durchführung einer Peer Review sein. Sie können Änderungen verfolgen und Ihr Dokument zur Überprüfung freigeben. Der Validierer nimmt dann Änderungen mit Verfolgungsänderungen AN vor. Wenn Sie das Dokument erhalten, sollten Sie über einen Mechanismus verfügen, mit dem Sie die vorgeschlagenen Aktualisierungen anzeigen können, und über eine praktische Möglichkeit, Änderungen zu akzeptieren oder abzulehnen.
 
-AEM Handbücher bietet die Funktion &quot;Getrackte Änderungen&quot;, die Informationen zu den im Dokument vorgenommenen Aktualisierungen enthält. Die Funktion &quot;Getrackte Änderungen&quot;bietet Informationen darüber, welche Aktualisierungen vorgenommen wurden, wer sie vorgenommen hat und wann. Mithilfe der Funktion &quot;Getrackte Änderungen&quot;können Sie die vorgeschlagenen Aktualisierungen im Dokument auch einfach akzeptieren oder ablehnen.
+AEM Handbücher bietet die Funktion &quot;Getrackte Änderungen&quot;, die Informationen zu den im Dokument vorgenommenen Aktualisierungen enthält. Die Funktion &quot;Getrackte Änderungen&quot;bietet Informationen darüber, welche Aktualisierungen vorgenommen wurden, wer sie vorgenommen hat und zu welchem Zeitpunkt. Mithilfe der Funktion &quot;Getrackte Änderungen&quot;können Sie die vorgeschlagenen Aktualisierungen im Dokument auch einfach akzeptieren oder ablehnen.
 
 Um auf die Funktion zuzugreifen, klicken Sie im rechten Bereich auf das Symbol Getrackte Änderungen .
 
@@ -493,7 +507,7 @@ Um Änderungen an einem Thema zusammenzuführen, führen Sie die folgenden Schri
 
 1. Öffnen Sie ein Thema im Web-Editor.
 
-1. Klicken **Zusammenführen**.
+1. Klicks **Zusammenführen**.
 
    Das Dialogfeld Zusammenführen wird angezeigt.
 
@@ -522,7 +536,7 @@ Führen Sie die folgenden Schritte aus, um Änderungen in einer Map-Datei zusamm
 
 1. Öffnen Sie eine Karte im Web-Editor.
 
-1. Klicken **Zusammenführen**.
+1. Klicks **Zusammenführen**.
 
    Das Dialogfeld Zusammenführen wird angezeigt.
 
@@ -555,7 +569,7 @@ Um auf den Versionsverlauf zuzugreifen und zu einer bestimmten Version Ihres The
 
 1. Öffnen Sie ein Thema im Web-Editor.
 
-1. Klicken **Versionsverlauf**.
+1. Klicks **Versionsverlauf**.
 
    Das Dialogfeld Versionsverlauf wird angezeigt.
 
@@ -571,7 +585,7 @@ Um auf den Versionsverlauf zuzugreifen und zu einer bestimmten Version Ihres The
 
    ![](images/version-history-revert-diff-dialog-web-editor.png){width="550" align="left"}
 
-1. Klicken **Auf ausgewählte Version zurücksetzen** , um Ihre Arbeitskopie mit der ausgewählten Version des Themas wiederherzustellen.
+1. Klicks **Auf ausgewählte Version zurücksetzen** , um Ihre Arbeitskopie mit der ausgewählten Version des Themas wiederherzustellen.
 
    Das Dialogfeld Version wiederherstellen wird angezeigt.
 
@@ -592,7 +606,7 @@ Wenn Sie zu einer früheren Version zurückkehren, wird ein visueller Hinweis an
 
 Mit Beschriftungen können Sie die Phase identifizieren, in der sich ein bestimmtes Thema im DDLC befindet \(Document Development Life Cycle\). Wenn Sie beispielsweise an einem Thema arbeiten, können Sie die Bezeichnung als &quot;Genehmigt&quot;festlegen. Sobald ein Thema veröffentlicht und Kunden zur Verfügung gestellt wurde, können Sie diesem Thema die Bezeichnung &quot;Veröffentlicht&quot;zuweisen.
 
-Mit AEM Guides können Sie Beschriftungen in einem freien Textformat angeben oder vordefinierte Beschriftungen verwenden. Mit der benutzerdefinierten Beschriftung kann jeder Autor im System eine Beschriftung entsprechend seiner Wahl angeben. Dies gibt Flexibilität. Sie führt jedoch inkonsistente Beschriftungen im System ein. Um dieses Problem zu beheben, können Administratoren eine Reihe vordefinierter Bezeichnungen konfigurieren. Weitere Informationen zum Konfigurieren vordefinierter Beschriftungen finden Sie unter *Konfigurieren und Anpassen des XML-Web-Editors* im as a Cloud Service Adobe Experience Manager-Handbücher installieren und konfigurieren .
+Mit AEM Guides können Sie Beschriftungen in einem freien Textformat angeben oder vordefinierte Beschriftungen verwenden. Mit der benutzerdefinierten Beschriftung kann jeder Autor im System eine Beschriftung entsprechend seiner Wahl angeben. Dies gibt Flexibilität, führt jedoch zu inkonsistenten Beschriftungen im System. Um dieses Problem zu beheben, können Administratoren eine Reihe vordefinierter Bezeichnungen konfigurieren. Weitere Informationen zum Konfigurieren vordefinierter Beschriftungen finden Sie unter *Konfigurieren und Anpassen des XML Web Editor* im as a Cloud Service Adobe Experience Manager-Handbücher installieren und konfigurieren .
 
 Diese Beschriftungen werden Autoren in Form einer Dropdown-Liste angezeigt, wo sie eine Beschriftung angeben müssen. Dadurch wird sichergestellt, dass im System nur vordefinierte, konsistente Beschriftungen verwendet werden.
 
@@ -602,7 +616,7 @@ So fügen Sie Ihrem Thema im Web Editor Beschriftungen hinzu:
 
 1. Öffnen Sie ein Thema im Web-Editor.
 
-1. Klicken **Versionsbezeichnung**.
+1. Klicks **Versionsbezeichnung**.
 
    Das Dialogfeld Versionsbeschriftungsverwaltung wird angezeigt.
 
@@ -626,7 +640,7 @@ So fügen Sie Ihrem Thema im Web Editor Beschriftungen hinzu:
    >
    > Dieselbe Bezeichnung kann nicht auf mehrere Versionen eines Themas angewendet werden. Wenn Sie versuchen, eine vorhandene Bezeichnung zuzuordnen, erhalten Sie eine Option, diese aus der vorhandenen Version zu entfernen und sie auf die ausgewählte Version des Themas anzuwenden.
 
-1. Klicken **Titel hinzufügen**.
+1. Klicks **Titel hinzufügen**.
 
 1. Wählen Sie in der Bestätigungsnachricht Titel anwenden die Option **Beschriftung verschieben** Option zum Verschieben von Bezeichnungen von einer vorhandenen Version auf die ausgewählte Version. Wenn Sie diese Option nicht auswählen und es Beschriftungen gibt, die einer anderen Version des Themas zugewiesen sind, werden sie nicht in die Version des ausgewählten Themas verschoben. Solche Bezeichnungen werden im Bezeichnungsanwendungsprozess ignoriert.
 
@@ -639,7 +653,7 @@ Sie können eine Prüfungsaufgabe des aktuellen Themas oder der Zuordnungsdatei 
 >
 > Sie können eine Prüfungsaufgabe auch über das Überprüfungsbedienfeld erstellen \(rechts\).
 
-Befolgen Sie die Anweisungen im Abschnitt [Themen oder Karten überprüfen](review.md#) für weitere Details.
+Befolgen Sie die Anweisungen im Abschnitt [Themen oder Zuordnungen überprüfen](review.md#) für weitere Details.
 
 ## Linke Leiste {#id2051EA0M0HS}
 
@@ -673,13 +687,13 @@ Verwenden Sie eine der folgenden Methoden, um Ihrer Lieblingssammlung eine Datei
 
 
 ** Menü &quot;Optionen&quot;für die Launches-Sammlung**\
-Sie können auch viele Aktionen über das Menü Optionen ausführen, das für eine Favoriten-Sammlung verfügbar ist:
+Sie können auch viele Aktionen über das Menü &quot;Optionen&quot;ausführen, das für eine Favoriten-Sammlung verfügbar ist:
 
 ![](images/favorites-options.png){width="400" align="left"}
 - **Umbenennen**: Benennen Sie die ausgewählte Sammlung um.
-- **Löschen**: Löschen Sie die ausgewählte Datei.
+- **Löschen**: Löscht die ausgewählte Datei.
 - **Aktualisieren**: Rufen Sie eine neue Liste von Dateien und Ordnern aus dem Repository ab.
-- **Anzeigen in der Assets-Benutzeroberfläche**: Zeigen Sie die Datei- oder Ordnerinhalte in der Assets-Benutzeroberfläche an.
+- **Anzeigen in der Assets-Benutzeroberfläche**: Zeigt den Datei- oder Ordnerinhalt in der Assets-Benutzeroberfläche an.
 
 
 >[!NOTE]
@@ -709,26 +723,26 @@ Der Web Editor bietet erweiterte Filter für die Suche nach Text. Klicken Sie au
 
 Sie haben auch die folgenden Optionen, um die Dateien zu filtern und Ihre Suche im AEM Repository einzugrenzen:
 
-- **DITA-Dateien**: Sie können nach allen **DITA-Themen** und **DITA-Maps** im ausgewählten Pfad vorhanden sein.
-- **Nicht-DITA-Dateien**: Sie können nach **Bilddateien**, **Multimedia** und **Dokumente** im ausgewählten Pfad.
+- **DITA-Dateien**: Sie können alle **DITA-Themen** und **DITA-Maps** im ausgewählten Pfad vorhanden sein.
+- **Nicht-DITA-Dateien**: Sie können nach **Bilddateien**, **Multimedia**, und **Dokumente** im ausgewählten Pfad.
 - **DITA-Elemente**: Sie können auch nach bestimmten Werten in den Attributen der angegebenen DITA-Elemente suchen.
 - **Ausgecheckt von**: Sie können nach Dateien suchen, die vom angegebenen Benutzer ausgecheckt wurden.
-- **Zuletzt geändert**: Sie können nach Dateien suchen, die nach einem ausgewählten Datum, aber vor einem ausgewählten Datum zuletzt geändert wurden. Sie können auch nach Dateien suchen, die in den letzten 2 Stunden, in der letzten Woche, im letzten Monat oder im letzten Jahr zuletzt geändert wurden.
+- **Zuletzt geändert**: Sie können nach Dateien suchen, die nach einem ausgewählten Datum, aber vor einem ausgewählten Datum, zuletzt geändert wurden. Sie können auch nach Dateien suchen, die in den letzten 2 Stunden, in der letzten Woche, im letzten Monat oder im letzten Jahr zuletzt geändert wurden.
 - **Tags**: Sie können nach Dateien suchen, auf die bestimmte Tags angewendet wurden. Sie können das Tag entweder eingeben oder aus der Dropdown-Liste auswählen.
 
 **Hinweis:** Ihr Systemadministrator kann auch die Textfilter konfigurieren und andere Filter ein- oder ausblenden. Weitere Informationen finden Sie unter *Textfilter konfigurieren* im as a Cloud Service Installieren und Konfigurieren von Adobe Experience Manager-Handbüchern.
 
-Die Liste der gefilterten Dateien, die den gesuchten Text enthalten, wird angezeigt. Im obigen Screenshot werden beispielsweise die Dateien mit dem Text &quot;Allgemeiner Zweck&quot;aufgelistet. Sie können mehrere Dateien aus der gefilterten Liste auswählen, um sie per Drag-and-Drop in eine zur Bearbeitung geöffnete Karte zu ziehen.
+Die Liste der gefilterten Dateien mit dem gesuchten Text wird angezeigt. Im obigen Screenshot werden beispielsweise die Dateien mit dem Text &quot;Allgemeiner Zweck&quot;aufgelistet. Sie können mehrere Dateien aus der gefilterten Liste auswählen, um sie per Drag-and-Drop in eine zur Bearbeitung geöffnete Karte zu ziehen.
 
 **Optionen, Menü**
 
 Zusätzlich zum Öffnen von Dateien über das linke Bedienfeld können Sie auch viele Aktionen mit dem
 
-Menü &quot;Optionen&quot;in der Repository-Ansicht verfügbar. Je nachdem, ob Sie einen Ordner, eine Themendatei oder eine Mediendatei auswählen, werden Ihnen unterschiedliche Optionen angezeigt.
+Menü &quot;Optionen&quot;in der Repository-Ansicht. Je nachdem, ob Sie einen Ordner, eine Themendatei oder eine Mediendatei auswählen, werden Ihnen unterschiedliche Optionen angezeigt.
 
 **Optionen für Ordner**
 
-Sie können die folgenden Aktionen über das Menü &quot;Optionen&quot;ausführen, das für eine *Ordner* in der Repository-Ansicht:
+Sie können die folgenden Aktionen über das Menü Optionen ausführen, das für eine *Ordner* in der Repository-Ansicht:
 
 ![](images/options-menu-folder_cs.PNG){width="550" align="left"}
 
@@ -768,7 +782,7 @@ Sie können die folgenden Aktionen über das Menü &quot;Optionen&quot;ausführe
 
 **Dateioptionen**
 
-Je nachdem, ob Sie eine Mediendatei oder eine DITA-Datei auswählen, werden im Menü Optionen verschiedene Optionen angezeigt. Einige häufig verfügbare Optionen für Medien- und DITA-Dateien sind:
+Im Menü Optionen werden je nachdem, ob Sie eine Mediendatei oder eine DITA-Datei auswählen, unterschiedliche Optionen angezeigt. Einige häufig verfügbare Optionen für Medien- und DITA-Dateien sind:
 
 - Duplizieren
 - Auschecken/Einchecken
@@ -788,18 +802,19 @@ Die verschiedenen Optionen im Menü Optionen werden nachfolgend beschrieben:
 
 - **Bearbeiten**: Öffnen Sie die Datei zur Bearbeitung. Bei einer .ditamap/.bookmap -Datei wird sie im [Erweiterter Map-Editor](map-editor-advanced-map-editor.md#) zur Bearbeitung.
 
-- **Duplizieren**: Verwenden Sie diese Option, um ein Duplikat oder eine Kopie der ausgewählten Datei zu erstellen. Sie können die duplizierte Datei auch in der Eingabeaufforderung &quot;Asset duplizieren&quot;umbenennen. Standardmäßig wird die Datei mit dem Suffix \(z. B. filename\_1.extension\) erstellt. Der Titel der Datei bleibt mit der Quelldatei identisch und die neue Datei beginnt mit Version 1.0. Alle Verweise, Tags und Metadaten werden kopiert, während die Grundlinien nicht in die duplizierte Datei kopiert werden.
-- **Auschecken**: Sperren Sie die ausgewählte Datei zur Bearbeitung. Bei gesperrten Dateien ändert sich diese Option in **Check In**.
+- **Duplizieren**: Verwenden Sie diese Option, um ein Duplikat oder eine Kopie der ausgewählten Datei zu erstellen. Sie können die duplizierte Datei auch in der Eingabeaufforderung &quot;Asset duplizieren&quot;umbenennen. Standardmäßig wird die Datei mit dem Suffix \(z. B. filename\_1.extension\) erstellt. Der Titel der Datei bleibt mit der der Quelldatei identisch und die neue Datei beginnt mit Version 1.0. Alle Verweise, Tags und Metadaten werden kopiert, während die Grundlinien nicht in die duplizierte Datei kopiert werden.
+- **Auschecken**: Sperrt die ausgewählte Datei zur Bearbeitung. Bei gesperrten Dateien ändert sich diese Option in **Check In**.
 
   >[!NOTE]
   >
-  > Wenn eine Datei von einem Benutzer gesperrt oder ausgecheckt wurde, wird beim Bewegen des Mauszeigers über das Sperrsymbol der Benutzer angezeigt, der die Datei gesperrt hat.
+  > - Wenn eine Datei von einem Benutzer gesperrt oder ausgecheckt wurde, wird beim Bewegen des Mauszeigers über das Sperrsymbol der Benutzer angezeigt, der die Datei gesperrt hat.
+  > - Beim Einchecken einer Datei mit nicht gespeicherten Änderungen werden Sie aufgefordert, die Änderungen zu speichern. Wenn Sie Ihre Änderungen nicht speichern, werden sie nur in der Datei eincheckt.
 
-- **Vorschau**: Sichern Sie sich eine schnelle Vorschau der Datei \(.dita/.xml\), ohne sie zu öffnen.
+- **Vorschau**: Verschaffen Sie sich eine schnelle Vorschau der Datei \(.dita/.xml\), ohne sie zu öffnen.
 
   ![](images/quick-preview_cs.png){width="800" align="left"}
 
-- **Umbenennen**: Verwenden Sie diese Option, um die ausgewählte Datei umzubenennen. Geben Sie den Namen der neuen Datei im **Asset umbenennen** angezeigt.
+- **Umbenennen**: Mit dieser Option können Sie die ausgewählte Datei umbenennen. Geben Sie den Namen der neuen Datei im **Asset umbenennen** angezeigt.
    - Sie können eine Datei beliebigen Typs umbenennen.
    - Sie können die Erweiterung einer Datei nicht ändern.
    - Zwei Dateien dürfen nicht denselben Namen haben. Sie können also eine Datei nicht in einen bereits vorhandenen Namen umbenennen. Es wird ein Fehler angezeigt.
@@ -835,7 +850,7 @@ Die verschiedenen Optionen im Menü Optionen werden nachfolgend beschrieben:
 
 
 
-- **Löschen**: Verwenden Sie diese Option, um die ausgewählte Datei zu löschen. Vor dem Löschen der Datei wird eine Bestätigungsaufforderung angezeigt.
+- **Löschen**: Mit dieser Option können Sie die ausgewählte Datei löschen. Vor dem Löschen der Datei wird eine Bestätigungsaufforderung angezeigt.
 
    - Vor dem Löschen der Datei wird eine Bestätigungsaufforderung angezeigt.
    - Wenn keine andere Datei auf die Datei verweist, wird sie gelöscht und es wird eine Erfolgsmeldung angezeigt.
@@ -872,9 +887,9 @@ Die verschiedenen Optionen im Menü Optionen werden nachfolgend beschrieben:
 
    - **Wiederverwendbare Inhalte**: Fügt die ausgewählte Datei zur Liste Wiederverwendbare Inhalte im linken Bereich hinzu.
 
-- **Eigenschaften**: Öffnen Sie damit die Eigenschaftenseite der ausgewählten Datei. Auf diese Eigenschaftenseite kann auch über die Assets-Benutzeroberfläche zugegriffen werden, indem Sie eine Datei auswählen und in der Symbolleiste auf das Symbol Eigenschaften klicken.
+- **Eigenschaften**: Hiermit können Sie die Eigenschaftenseite der ausgewählten Datei öffnen. Auf diese Eigenschaftenseite kann auch über die Assets-Benutzeroberfläche zugegriffen werden, indem Sie eine Datei auswählen und in der Symbolleiste auf das Symbol Eigenschaften klicken.
 
-- **Map-Dashboard öffnen**: Wenn es sich bei der ausgewählten Datei um eine DITA-Zuordnung handelt, wird mit dieser Option das Zuordnungs-Dashboard geöffnet.
+- **Map-Dashboard öffnen**: Wenn es sich bei der ausgewählten Datei um eine DITA-Zuordnung handelt, öffnet diese Option das Landkarten-Dashboard.
 
 - **Anzeigen in der Assets-Benutzeroberfläche**: Verwenden Sie diese Option, um eine Vorschau einer .dita/.xml -Datei in der Assets-Benutzeroberfläche anzuzeigen. Bei einer .ditamap/.bookmap -Datei werden alle Themendateien in der Zuordnung in einer einheitlichen Seitenansicht angezeigt.
 
@@ -931,7 +946,7 @@ Wenn Sie auf **Erstellen**, wird die Zuordnung in dem Ordner erstellt und hinzug
 
 ***Erstellen eines Ordners***
 
-Wenn Sie auswählen, *Erstellen eines neuen Ordners*, erhalten Sie die **Neuen Ordner erstellen** dialog:
+Wenn Sie auswählen, *Erstellen neuer Ordner*, erhalten Sie die **Neuen Ordner erstellen** dialog:
 
 ![](images/new-folder-dialog_cs.png){width="300" align="left"}
 
@@ -951,11 +966,11 @@ Sie können die folgenden Aktionen über das Menü Optionen der Zuordnungsdatei 
 
 - **Auswahl löschen**: Heben Sie die Auswahl der ausgewählten Dateien in der Zuordnung auf.
 
-- **Auschecken und Sperren**: Checken Sie die ausgewählten Dateien aus und lassen Sie sie sperren.
+- **Auschecken und Sperren**: Checkout und Sperre für die ausgewählten Dateien in der Zuordnung.
 
 - **Auschecken und Entsperren abbrechen**: Entsperrt die Zuordnungsdatei und stellt sie zur Bearbeitung bereit. Die Änderungen werden nicht auf eine frühere Version zurückgesetzt.
 
-- **Als neue Version speichern und entsperren**: Erstellen Sie eine neuere Version und lassen Sie die Sperre für die ausgewählten Dateien in der Zuordnung frei.
+- **Als neue Version speichern und entsperren**: Erstellen Sie eine neuere Version und lassen Sie die Sperre für die ausgewählten Dateien in der Zuordnung los.
 
 - **Vorschau**: Öffnen Sie eine Vorschau der Map-Datei. In dieser Ansicht werden alle Themendateien in der Zuordnung in einer einzigen einheitlichen Seitenansicht angezeigt.
 
@@ -970,7 +985,7 @@ Sie können die folgenden Aktionen über das Menü Optionen der Zuordnungsdatei 
 
    - **Wiederverwendbare Inhalte**: Fügt die Zuordnungsdatei zur Liste Wiederverwendbarer Inhalte im linken Bereich hinzu.
 
-- **Eigenschaften**: Verwenden Sie dies, um die Eigenschaftenseite der Zuordnungsdatei zu öffnen. Auf diese Eigenschaftenseite kann auch über die Assets-Benutzeroberfläche zugegriffen werden, indem Sie eine Datei auswählen und in der Symbolleiste auf das Symbol Eigenschaften klicken.
+- **Eigenschaften**: Öffnen Sie damit die Eigenschaftenseite der Zuordnungsdatei. Auf diese Eigenschaftenseite kann auch über die Assets-Benutzeroberfläche zugegriffen werden, indem Sie eine Datei auswählen und in der Symbolleiste auf das Symbol Eigenschaften klicken.
 
 - **Map-Dashboard öffnen**: Öffnen Sie das Landkarten-Dashboard.
 
@@ -989,14 +1004,18 @@ Sie können die folgenden Aktionen über das Menü Optionen ausführen:
 
 - **Auschecken**: Sehen Sie sich die ausgewählte Datei an. Bei ausgecheckten Dateien ändert sich diese Option in **Check In**.
 
+
+
   >[!NOTE]
   >
-  > Wenn eine Datei von einem Benutzer gesperrt oder ausgecheckt wurde, wird beim Bewegen des Mauszeigers über das Sperrsymbol der Benutzer angezeigt, der die Datei gesperrt hat.
+  > - Wenn eine Datei von einem Benutzer gesperrt oder ausgecheckt wurde, wird beim Bewegen des Mauszeigers über das Sperrsymbol der Benutzer angezeigt, der die Datei gesperrt hat.
+  > - Beim Einchecken einer Datei werden Sie aufgefordert, die Änderungen zu speichern. Wenn Sie Ihre Änderungen nicht speichern, werden sie nur in der Datei eincheckt.
 
-- **Vorschau**: Sichern Sie sich eine schnelle Vorschau der Datei \(.dita/.xml\), ohne sie zu öffnen.
+- **Vorschau**: Verschaffen Sie sich eine schnelle Vorschau der Datei \(.dita/.xml\), ohne sie zu öffnen.
 - **Kopieren**: Sie können aus den folgenden Optionen auswählen:
    - **UUID kopieren**: Kopieren Sie die UUID der ausgewählten Datei in die Zwischenablage.
    - **Pfad kopieren**: Kopieren Sie den vollständigen Pfad der ausgewählten Datei in die Zwischenablage.
+
 
 - **Im Repository suchen**: Zeigt den Speicherort der ausgewählten Datei im Repository \(oder DAM\) an.
 - **Alle erweitern**: Erweitern Sie alle Themen in den Zuordnungsdateien.
@@ -1008,7 +1027,7 @@ Sie können die folgenden Aktionen über das Menü Optionen ausführen:
 
    - **Wiederverwendbare Inhalte**: Fügt die ausgewählte Datei zur Liste Wiederverwendbare Inhalte im linken Bereich hinzu.
 
-- **Eigenschaften**: Öffnen Sie damit die Eigenschaftenseite der ausgewählten Datei. Auf diese Eigenschaftenseite kann auch über die Assets-Benutzeroberfläche zugegriffen werden, indem Sie eine Datei auswählen und in der Symbolleiste auf das Symbol Eigenschaften klicken.
+- **Eigenschaften**: Hiermit können Sie die Eigenschaftenseite der ausgewählten Datei öffnen. Auf diese Eigenschaftenseite kann auch über die Assets-Benutzeroberfläche zugegriffen werden, indem Sie eine Datei auswählen und in der Symbolleiste auf das Symbol Eigenschaften klicken.
 
 - **Anzeigen in der Assets-Benutzeroberfläche**: Verwenden Sie diese Option, um eine Vorschau einer .dita/.xml -Datei in der Assets-Benutzeroberfläche anzuzeigen. Bei einer .ditamap/.bookmap -Datei werden alle Themendateien in der Zuordnung in einer einheitlichen Seitenansicht angezeigt.
 
@@ -1042,7 +1061,7 @@ Die Gliederung bietet die folgenden Funktionen:
 
   ![](images/replace-element-outline-view_cs.png){width="300" align="left"}
 
-  Wenn Sie ein Element per Drag-and-Drop einfügen, zeigt ein gestricheltes Rechteck an, dass das Element an der aktuellen Position platziert werden kann. Wenn das Drag &amp; Drop-Verfahren ungültig ist, wird eine Fehlermeldung angezeigt, die angibt, dass der Vorgang nicht zulässig ist.
+  Wenn Sie ein Element per Drag-and-Drop einfügen, zeigt ein gestricheltes Rechteck an, dass das Element an der aktuellen Position platziert werden kann. Wenn das Drag-and-Drop-Verfahren ungültig ist, wird eine Fehlermeldung angezeigt, die angibt, dass der Vorgang nicht zulässig ist.
 
   ![](images/drop-element-outline-view_cs.png){width="300" align="left"}
 
@@ -1064,7 +1083,7 @@ Wenn ein Block-Element einen eigenen Text hat, wird es zusammen mit diesem Block
 
 ![](images/outline-view-block-element.png){width="550" align="left"}
 
-Wenn Ihr Administrator ein Profil für Attribute erstellt hat, erhalten Sie diese Attribute zusammen mit den konfigurierten Werten. Sie können auch Anzeigenattribute zuweisen, die von Ihrem Administrator unter der **Anzeigenattribute** in den Editor-Einstellungen. Die für ein Element definierten Attribute werden im Layout und in der Gliederung angezeigt.
+Wenn Ihr Administrator ein Profil für Attribute erstellt hat, erhalten Sie diese Attribute zusammen mit den konfigurierten Werten. Sie können auch Anzeigenattribute zuweisen, die von Ihrem Administrator unter der **Anzeigenattribute** in den Editor-Einstellungen. Die für ein Element definierten Attribute werden im Layout und in der Gliederungsansicht angezeigt.
 
 
 Weitere Informationen finden Sie unter *Anzeigenattribute* innerhalb der *Editor-Einstellungen* Funktionsbeschreibung in [Linke Leiste](web-editor-features.md#id2051EA0M0HS) Abschnitt.
@@ -1086,7 +1105,7 @@ Sie können wiederverwendbaren Inhalt einfach per Drag-and-Drop aus dem Bedienfe
 
 Verwenden Sie eine der folgenden Methoden, um eine DITA-Datei zum Bereich Wiederverwendbare Inhalte hinzuzufügen:
 
-- Klicken Sie auf das Symbol + neben Wiederverwendbare Inhalte , um das Dialogfeld Datei durchsuchen zu öffnen. Wählen Sie die Datei aus, die Sie hinzufügen möchten, und klicken Sie auf **Hinzufügen** , um den Prozess abzuschließen.
+- Klicken Sie auf das Symbol + neben Wiederverwendbare Inhalte , um das Dialogfeld Datei durchsuchen zu öffnen. Wählen Sie die hinzuzufügende Datei aus und klicken Sie auf **Hinzufügen** , um den Prozess abzuschließen.
 
   ![](images/reuse-content-add-dita-file_cs.png){width="650" align="left"}
 
@@ -1105,7 +1124,7 @@ Wenn Sie eine Datei zur Liste Wiederverwendbarer Inhalte hinzufügen, wird anste
 >
 > Sie können der Liste der wiederverwendbaren Inhalte mehrere Dateien hinzufügen. Anschließend können Sie den gewünschten Inhalt aus dem Bereich Wiederverwendbare Inhalte in Ihr Dokument einfügen.
 
-**Aktualisieren**: Sucht nach allen wiederverwendbaren Inhalten und zeigt eine neue Liste wiederverwendbarer Inhalte an.
+**Aktualisieren**: Prüft alle wiederverwendbaren Inhalte erneut und zeigt eine neue Liste wiederverwendbarer Inhalte an.
 
 Verwenden Sie eine der folgenden Methoden, um Inhalte aus dem Bereich Wiederverwendbare Inhalte einzufügen:
 
@@ -1142,22 +1161,22 @@ Sie können die folgenden Einstellungen des Hotspot-Tools konfigurieren:
 
 - **Glossarschlüssel**: Wählen Sie die Glossarschlüssel aus der DITA-Zuordnung aus, die Sie für die Suche im ausgewählten Thema verwenden möchten. Die ausgewählten Schlüssel werden unten angezeigt. Sie können einen ausgewählten Schlüssel entfernen, indem Sie auf das **Entfernen** Symbol.
 
-- **Themen**: Wählen Sie entweder **Aktuelles Thema** im Web Editor geöffnet, alle **Geöffnete Themen** in der aktuellen Zuordnung oder **Aktuelle Karte** im Map Editor bearbeitet werden, um die Begriffe zu suchen.
+- **Themen**: Wählen Sie entweder die **Aktuelles Thema** im Web Editor geöffnet, alle **Geöffnete Themen** in der aktuellen Zuordnung oder der **Aktuelle Karte** im Map Editor bearbeitet werden, um die Begriffe zu durchsuchen.
 - **Themen nach Status filtern**: Sie können die Suche auf Themen mit dem ausgewählten Dokumentstatus beschränken. Die Themen können sich im Status &quot;Entwurf&quot;, &quot;Bearbeiten&quot;, &quot;In-Review&quot;, &quot;Genehmigt&quot;, &quot;Überprüfen&quot;, &quot;Fertig&quot;oder in einem beliebigen Status befinden, der von der Organisation konfiguriert wurde.
 - **Aktion**: Sie können entweder die Glossarschlüssel durchsuchen **Manuell für jedes Thema** oder **Automatisch für alle Themen**. Wenn Sie **Manuell für jedes Thema**, werden Sie aufgefordert, eine Bestätigung zu erhalten, bevor Sie jeden Begriff in jedem Thema konvertieren. Wenn Sie **Automatisch für alle Themen**, werden alle Begriffe in allen Themen automatisch konvertiert.
 - **Konvertieren**: Sie können entweder eine gesuchte **Text in Glossarbegriffe** oder **Glossarbegriff in Text.**
 - **Optionen**: Sie können aus den folgenden Optionen auswählen:
-   - **Groß-/Kleinschreibung berücksichtigen**: Sucht nach einem Begriff, um die Übereinstimmung zu finden, die dieselbe Groß-/Kleinschreibung aufweist. Beispielsweise stimmt &quot;USB&quot;nicht mit &quot;usb&quot;überein.
+   - **Groß-/Kleinschreibung berücksichtigen**: Sucht nach einem Begriff, um die Übereinstimmung zu finden, die dieselbe Groß-/Kleinschreibung aufweist. Beispielsweise entspricht &quot;USB&quot;nicht &quot;usb&quot;.
    - **Nur die erste Instanz konvertieren**: Wenn in einem Thema mehrere Instanzen des gesuchten Begriffs vorhanden sind, wird nur die erste Instanz konvertiert.
-   - **Datei vor der Konvertierung auschecken**: Die gesuchte Datei wird vor der Konvertierung ausgecheckt.
-   - **Erstellen einer neuen Version nach der Konvertierung**: Eine neue Version des Themas wird erstellt, nachdem die Konvertierung der Begriffe abgeschlossen wurde.
-- **Nächste** wird angezeigt, wenn Sie **Manuell für jedes Thema** -Option. Klicken **Nächste** , um die Begriffe für jedes Thema basierend auf den ausgewählten Einstellungen zu konvertieren. Es wird zur Konvertierung der Begriffe in den einzelnen Themen aufgefordert und zur nächsten Datei übergegangen. Sie können einen Begriff konvertieren oder überspringen und zum nächsten Begriff wechseln.
+   - **Datei vor der Konvertierung auschecken**: Die durchsuchte Datei wird ausgecheckt, bevor die Begriffe konvertiert werden.
+   - **Erstellen einer neuen Version nach der Konvertierung**: Eine neue Version des Themas wird erstellt, nachdem die Konvertierung der Begriffe abgeschlossen ist.
+- **Nächste** wird angezeigt, wenn Sie **Manuell für jedes Thema** -Option. Klicks **Nächste** , um die Begriffe für jedes Thema basierend auf den ausgewählten Einstellungen zu konvertieren. Es wird zur Konvertierung der Begriffe in den einzelnen Themen aufgefordert und zur nächsten Datei übergegangen. Sie können einen Begriff konvertieren oder überspringen und zum nächsten Begriff wechseln.
 
   ![](images/manual-convert-skip.png){width="300" align="left"}
 
 - **Konvertieren** wird angezeigt, wenn Sie **Automatisch für alle Themen** -Option. Auswählen **Konvertieren** um alle im Dokument enthaltenen Begriffe in verknüpfte Glossarabkürzungen umzuwandeln.
 
-Eine Liste der **Themen aktualisiert** mit den konvertierten Begriffen und **Themen mit Fehler** angezeigt. Bewegen Sie den Mauszeiger über das \( ![](images/info-icon.svg)\) neben Themen mit Fehler angezeigt, um die Details des Fehlers anzuzeigen.
+Eine Liste der **Themen aktualisiert** mit den konvertierten Begriffen und **Themen mit Fehler** angezeigt. Bewegen Sie den Mauszeiger über das \( ![](images/info-icon.svg)\) neben Themen mit Fehler angezeigt, um Details zum Fehler anzuzeigen.
 
 ![](images/glossary-converted-terms-error.png){width="300" align="left"}
 
@@ -1187,7 +1206,7 @@ Um eine Bedingung hinzuzufügen oder zu definieren, klicken Sie auf das Symbol +
 
 Wählen Sie in der Liste Attribut das bedingte Attribut aus, das Sie definieren möchten, geben Sie einen Wert für die Bedingung ein und geben Sie dann die Bezeichnung an, die im Bedienfeld Bedingungen angezeigt werden soll. Sie können auch eine Farbe für die Bedingung definieren. Diese Farbe wird als Hintergrundfarbe des Inhalts festgelegt, auf den die Bedingung angewendet wird
 
-Um eine Bedingung zu bearbeiten, wählen Sie **Bearbeiten** über das Menü Optionen . Das Dialogfeld Bedingung bearbeiten wird angezeigt:
+Um eine Bedingung zu bearbeiten, wählen Sie **Bearbeiten** über das Menü &quot;Optionen&quot;. Das Dialogfeld Bedingung bearbeiten wird angezeigt:
 
 ![](images/conditional-panel-edit-cond.png){width="400" align="left"}
 
@@ -1309,7 +1328,7 @@ Das folgende Beispiel zeigt die Verwendung des Betreffschemas in AEM Guides.
    Die Verweise werden nicht aufgelöst, wenn die Auflistung nicht in derselben Zuordnung und der referenzierten Zuordnung gefunden wird.
 
 
-   **Dropdown-Liste &quot;Attribute&quot;**
+   **Dropdown-Liste Attribute**
 
    Sie können den Wert des Betreffschemas auch über das Dropdown-Menü Attribut im Bereich Inhaltseigenschaften in der Autorenansicht ändern. Um den Wert zu ändern, wählen Sie einen Wert aus der Dropdown-Liste Attribut aus.
 
@@ -1337,7 +1356,7 @@ Das folgende Beispiel zeigt die Verwendung des Betreffschemas in AEM Guides.
 
 **Snippets** -  ![](images/insert-snippet-icon.svg)
 
-Snippets sind kleine Inhaltsfragmente, die über verschiedene Themen in Ihrem Dokumentationsprojekt hinweg wiederverwendet werden können. Im Bedienfeld &quot;Snippets&quot;wird eine Sammlung von Inhaltsfragmenten angezeigt, die Sie erstellt haben. Um einen Snippet einzufügen, ziehen Sie den Snippet per Drag-and-Drop aus dem Bedienfeld an die gewünschte Position im Thema. Im Bedienfeld &quot;Snippets&quot;können Sie einen Snippet hinzufügen, bearbeiten, löschen, in der Vorschau anzeigen und einfügen.
+Snippets sind kleine Inhaltsfragmente, die in verschiedenen Themen Ihres Dokumentationsprojekts wiederverwendet werden können. Im Bedienfeld &quot;Snippets&quot;wird eine Sammlung von Inhaltsfragmenten angezeigt, die Sie erstellt haben. Um einen Snippet einzufügen, ziehen Sie den Snippet per Drag-and-Drop aus dem Bedienfeld an die gewünschte Position im Thema. Im Bedienfeld &quot;Snippets&quot;können Sie einen Snippet hinzufügen, bearbeiten, löschen, in der Vorschau anzeigen und einfügen.
 
 >[!IMPORTANT]
 >
@@ -1351,11 +1370,11 @@ Verwenden Sie zum Hinzufügen eines Snippets eine der folgenden Methoden:
 
   ![](images/snippet-new-dialog.png){width="550" align="left"}
 
-  Geben Sie im Dialogfeld &quot;Neues Snippet&quot;einen Titel ein, der im Bedienfeld &quot;Snippets&quot;angezeigt wird, eine Beschreibung und den XML-Code des zu erstellenden Snippet-Inhalts. Klicken **Erstellen** , um das Snippet zu speichern und zu erstellen.
+  Geben Sie im Dialogfeld &quot;Neues Snippet&quot;einen Titel ein, der im Bedienfeld &quot;Snippets&quot;angezeigt wird, eine Beschreibung und den XML-Code des zu erstellenden Snippet-Inhalts. Klicks **Erstellen** , um das Snippet zu speichern und zu erstellen.
 
 - Klicken Sie im Inhaltsbearbeitungsbereich mit der rechten Maustaste auf den Breadcrumb des Elements, das Sie als Snippet verwenden möchten, und wählen Sie **Snippet erstellen** aus dem Kontextmenü aus. Das Dialogfeld &quot;Neues Snippet&quot;wird mit dem XML-Code des ausgewählten Elements angezeigt, das im **Inhalt** -Feld. Geben Sie die **Titel** und **Beschreibung** für das Snippet ein und klicken Sie auf **Erstellen** , um das Snippet zu speichern.
 
-- Klicken Sie im Inhaltsbearbeitungsbereich mit der rechten Maustaste auf eine beliebige Stelle des Inhalts, den Sie als Snippet verwenden möchten, und wählen Sie **Snippet erstellen** aus dem Kontextmenü aus. Das Dialogfeld &quot;Neues Snippet&quot;wird mit dem XML-Code des ausgewählten Elements angezeigt, das im **Inhalt** -Feld. Geben Sie die **Titel** und **Beschreibung** für das Snippet ein und klicken Sie auf **Erstellen** , um das Snippet zu speichern.
+- Klicken Sie im Inhaltsbearbeitungsbereich mit der rechten Maustaste auf einen beliebigen Inhalt, den Sie als Snippet verwenden möchten, und wählen Sie **Snippet erstellen** aus dem Kontextmenü aus. Das Dialogfeld &quot;Neues Snippet&quot;wird mit dem XML-Code des ausgewählten Elements angezeigt, das im **Inhalt** -Feld. Geben Sie die **Titel** und **Beschreibung** für das Snippet ein und klicken Sie auf **Erstellen** , um das Snippet zu speichern.
 
   Im folgenden Screenshot werden der Breadcrumb und der Inhaltsbereich hervorgehoben, aus dem Sie das Kontextmenü aufrufen können.
 
@@ -1364,7 +1383,7 @@ Verwenden Sie zum Hinzufügen eines Snippets eine der folgenden Methoden:
 
 Verwenden Sie zum Einfügen eines Snippets eine der folgenden Methoden:
 
-- Wählen Sie ein Snippet aus dem Bedienfeld &quot;Snippets&quot;aus und ziehen Sie es per Drag-and-Drop an die gewünschte Position in Ihrem Thema.
+- Wählen Sie ein Snippet aus dem Bedienfeld &quot;Snippets&quot;aus und ziehen Sie es per Drag-and-Drop an die gewünschte Position im Thema.
 
 - Platzieren Sie die Einfügemarke an der Stelle, an der Sie das Snippet einfügen möchten, und wählen Sie im Menü Optionen des gewünschten Snippets die Option Snippet einfügen aus.
 
@@ -1379,11 +1398,11 @@ Der Bereich &quot;Vorlagen&quot;steht nur Administratoren zur Verfügung. Mithil
 
 ![](images/templates-panel_cs.png){width="550" align="left"}
 
-Um eine Vorlage zu erstellen, klicken Sie auf das Symbol + neben Vorlagen und wählen Sie eine Vorlage aus, die Sie erstellen möchten. Wenn Sie **Themenvorlage** wird das Dialogfeld Neue Themenvorlage erstellen angezeigt:
+Um eine Vorlage zu erstellen, klicken Sie auf das Symbol + neben Vorlagen und wählen Sie eine Vorlage aus, die Sie erstellen möchten. Wenn Sie **Themenvorlage** wird das Dialogfeld &quot;Neue Themenvorlage erstellen&quot;angezeigt:
 
 ![](images/create-new-topic-template.PNG){width="400" align="left"}
 
-Wählen Sie den Vorlagentyp aus, den Sie erstellen möchten, aus dem **Vorlage** Dropdown-Liste. Stellen Sie die **Titel**, der im Bereich &quot;Vorlagen&quot;angezeigt wird. Die **Name** der Vorlage wird automatisch auf Grundlage des Titels vorgeschlagen. Sie können jedoch einen anderen Dateinamen angeben.
+Wählen Sie den Vorlagentyp aus, den Sie erstellen möchten, aus dem **Vorlage** Dropdown-Liste. Stellen Sie die **Titel**, der im Bereich &quot;Vorlagen&quot;angezeigt wird. Die **Name** der Vorlage automatisch auf Grundlage des Titels vorgeschlagen wird, Sie können jedoch einen anderen Dateinamen angeben.
 
 >[!NOTE]
 >
@@ -1395,7 +1414,7 @@ Im Menü Optionen einer vorhandenen Vorlage können Sie zwischen **Bearbeiten** 
 
 **Überprüfung** -  ![](images/active-review-tasklist-icon.svg)
 
-AEM Handbücher bieten die Möglichkeit, alle Prüfungsaufgaben in Ihren Projekten anzuzeigen. Sie können alle Überprüfungsprojekte und die aktiven Prüfungsaufgaben innerhalb der Überprüfungsprojekte anzeigen, zu denen Sie gehören, aus dem **Überprüfen** Bereich.  Anschließend können Sie die Prüfungsaufgaben öffnen, um die Kommentare der einzelnen Prüfer anzuzeigen.
+AEM Handbücher bieten die Möglichkeit, alle Prüfungsaufgaben in Ihren Projekten anzuzeigen. Sie können alle Überprüfungsprojekte und die aktiven Prüfungsaufgaben innerhalb der Überprüfungsprojekte anzeigen, zu denen Sie gehören, aus dem **Überprüfen** Bedienfeld.  Anschließend können Sie die Prüfungsaufgaben öffnen, um die Kommentare der einzelnen Prüfer anzuzeigen.
 Im Prüfungsbereich werden die Prüfungsaufgaben angezeigt. Als Autor können Sie die Kommentare in einem Thema mit dem Web Editor adressieren.
 
 
@@ -1409,7 +1428,7 @@ Um die Überprüfungskommentare in den aktiven Prüfungsaufgaben anzuzeigen, die
 
    - Geben Sie den Suchbegriff oder Text ein, den Sie im Titel des Projekts finden möchten. Drücken Sie dann die Eingabetaste , um die Suche durchzuführen. Sie können beispielsweise alle Projekte mit dem Begriff &quot;Leerzeichen&quot;im Titel durchsuchen.
 
-   - Auswählen ![](images/filter-search-icon.svg)  , um **Filter** angezeigt. Sie können alle oder nur bestimmte Projekte auswählen. Die ausgewählten Projekte werden im **Überprüfen** Bereich.
+   - Auswählen ![](images/filter-search-icon.svg)  , um die **Filter** angezeigt. Sie können alle oder nur bestimmte Projekte auswählen. Die ausgewählten Projekte werden im **Überprüfen** Bedienfeld.
      ![](images/active-review-select-project.png){width="300" align="left"}
 
      Die **Von mir initiierte Aufgaben** ist standardmäßig aktiviert. Damit können Sie nur die Aufgaben anzeigen, die Sie initiiert haben.
@@ -1417,35 +1436,35 @@ Um die Überprüfungskommentare in den aktiven Prüfungsaufgaben anzuzeigen, die
 1. Standardmäßig wird in Ihrem Überprüfungsprojekt eine flache Liste von Themen angezeigt, denen Kommentare zugeordnet sind. Wenden Sie die erforderlichen Filter aus der linken Leiste an, um die Themen anhand der darin vorhandenen Überprüfungskommentare zu filtern:
 
    - **Alle Themen anzeigen**: Listet alle in den Projekten vorhandenen Themen auf.
-   - **Themen mit Kommentaren anzeigen**: Auflisten nur der Themen, die Überprüfungskommentare enthalten.
+   - **Themen mit Kommentaren anzeigen**: Zeigt nur die Themen an, die Überprüfungskommentare enthalten.
 1. Sie können auch den Suchbegriff oder Text eingeben, den Sie im Titel oder Dateipfad des Themas finden möchten. Die Themen, die den Begriff im Titel oder im Dateipfad enthalten, werden aufgelistet.
-1. Doppelklicken Sie auf ein beliebiges Thema, um es in der Autorenansicht zu öffnen. Sie können die Kommentare im **Kommentare** Bereich.
+1. Doppelklicken Sie auf ein beliebiges Thema, um es in der Autorenansicht zu öffnen. Sie können die Kommentare im **Kommentare** Bedienfeld.
    ![](images/active-review-task-comments.png){width="800" align="left"}
 
 
    >[!NOTE]
    > 
    > Die **Überprüfen** und **Kommentare** -Bedienfeld sind immer synchronisiert. Im Bereich &quot;Kommentare&quot;werden die Kommentare basierend auf der Überprüfungsaufgabe geladen, die im Überprüfungsbereich geladen wird.
-   > Weitere Informationen dazu, wie Sie die Kommentare bearbeiten, finden Sie unter [Kommentare zur Adressüberprüfung](review-address-review-comments.md#).
+   > Weitere Informationen dazu, wie Sie die Kommentare bearbeiten können, finden Sie unter [Kommentare zur Adressüberprüfung](review-address-review-comments.md#).
 
 **Suchen und Ersetzen** -  ![](images/FindAndReplace_icon.svg)
 
-Das Symbol Suchen und Ersetzen befindet sich unten im linken Bereich. Im Bereich Suchen und Ersetzen können Sie nach Text für mehrere Dateien in einer Zuordnung oder einem Ordner in Ihrem Repository suchen und diesen ersetzen. Sie können in allen Themen einer Landkarte sowie Themen, die in den Unterkarten innerhalb der Landkarte vorhanden sind, suchen und ersetzen.
+Das Symbol Suchen und Ersetzen befindet sich unten im linken Bereich. Im Bereich Suchen und Ersetzen können Sie nach Text für Dateien in einer Zuordnung oder einem Ordner in Ihrem Repository suchen und diese ersetzen. Sie können in allen Themen einer Landkarte sowie Themen, die in den Unterkarten innerhalb der Landkarte vorhanden sind, suchen und ersetzen.
 
 ![](images/map-find-replace.png){width="800" align="left"}
 
 Führen Sie die folgenden Schritte aus, um die globale Suche durchzuführen und zu ersetzen:
 
-1. Globale **Suchen und Ersetzen** Bereich.
+1. Globale **Suchen und Ersetzen** Bedienfeld.
 1. Klicken Sie auf **Schau nach** Wählen Sie eine der folgenden Optionen aus, um die Suche durchzuführen.
-   - **Aktuelle Karte**: So suchen Sie in der aktuell geöffneten Karte
+   - **Aktuelle Karte**: Um in der aktuell geöffneten Karte zu suchen
 
      >[!NOTE]
      >
      > Diese Option wird angezeigt, wenn Sie bereits eine Karte zur Bearbeitung geöffnet haben.
 
    - **Pfad**: So suchen Sie nach dem ausgewählten Pfad
-   - **Karte auswählen**: So suchen Sie in der ausgewählten Zuordnung
+   - **Karte auswählen**: Um in der ausgewählten Zuordnung zu suchen
 
 1. Sie können auf die **Optionen** und wählen Sie aus den folgenden Optionen aus:
 
@@ -1461,17 +1480,17 @@ Führen Sie die folgenden Schritte aus, um die globale Suche durchzuführen und 
 1. Geben Sie den Text ein, durch den Sie den Suchbegriff ersetzen möchten.
 1. Drücken Sie die Eingabetaste oder wählen Sie **Suche** icon \( ![](images/search-icon.svg)\), um die Suche durchzuführen.
 1. Wählen Sie eine Datei aus der Suchergebnisliste aus. Die Datei wird im Inhaltsbearbeitungsbereich geöffnet, wobei der gesuchte Begriff im Inhalt hervorgehoben wird.
-1. Globale **Suchen und Ersetzen** Bereich.
+1. Globale **Suchen und Ersetzen** Bedienfeld.
 1. Klicken Sie auf **Schau nach** Wählen Sie eine der folgenden Optionen aus, um die Suche durchzuführen.
 
-   - **Aktuelle Karte**: So suchen Sie in der aktuell geöffneten Karte
+   - **Aktuelle Karte**: Um in der aktuell geöffneten Karte zu suchen
 
      >[!NOTE]
      >
      > Diese Option wird angezeigt, wenn Sie bereits eine Karte zur Bearbeitung geöffnet haben.
 
    - **Pfad**: So suchen Sie nach dem ausgewählten Pfad
-   - **Karte auswählen**: So suchen Sie in der ausgewählten Zuordnung
+   - **Karte auswählen**: Um in der ausgewählten Zuordnung zu suchen
 
 1. Sie können auf die **Optionen** und wählen Sie aus den folgenden Optionen aus:
 
@@ -1492,15 +1511,15 @@ Führen Sie die folgenden Schritte aus, um die globale Suche durchzuführen und 
 1. Drücken Sie die Eingabetaste oder wählen Sie **Suche** icon \( ![](images/search-icon.svg)\), um die Suche durchzuführen.
 1. Wählen Sie eine Datei aus der Suchergebnisliste aus. Die Datei wird im Inhaltsbearbeitungsbereich geöffnet, wobei der gesuchte Begriff im Inhalt hervorgehoben wird.
 
-1. Klicken **Einzelnes Vorkommen ersetzen** \( ![](images/replace-icon.svg)\), um den derzeit hervorgehobenen Suchbegriff im Thema zu ersetzen, oder klicken Sie auf &quot;Nächste Übereinstimmung&quot; ![](images/next-match-in-search.png) oder ![](images/previous-match-in-search.png) Vorherige Übereinstimmung , um zum nächsten oder vorherigen Vorkommen des Textes zu wechseln.
+1. Klicks **Einzelnes Vorkommen ersetzen** \( ![](images/replace-icon.svg)\), um den derzeit hervorgehobenen Suchbegriff im Thema zu ersetzen, oder klicken Sie auf &quot;Nächste Übereinstimmung&quot; ![](images/next-match-in-search.png) oder ![](images/previous-match-in-search.png) Vorherige Übereinstimmung , um zum nächsten oder vorherigen Vorkommen des Textes zu wechseln.
 
-1. Klicken **Alle in Datei ersetzen** \( ![](images/replace-all-in-file-icon.svg)\), um alle Vorkommen des gesuchten Begriffs in einer Datei durch den Ersetzungsbegriff in einem einzigen Klick zu ersetzen. Nachdem Sie alle Vorkommen in der ausgewählten Datei ersetzt haben, wird Ihnen eine Benachrichtigung angezeigt.
+1. Klicks **Alle in Datei ersetzen** \( ![](images/replace-all-in-file-icon.svg)\), um alle Vorkommen des gesuchten Begriffs in einer Datei durch den Ersetzungsbegriff in einem einzigen Klick zu ersetzen. Nachdem Sie alle Vorkommen in der ausgewählten Datei ersetzt haben, wird Ihnen eine Benachrichtigung angezeigt.
 
    >[!NOTE]
    >
    > Bewegen Sie den Mauszeiger über eine Datei aus der Suchergebnisliste, um das Symbol Alle in Datei ersetzen rechts davon zu sehen. Sie erhalten auch das Symbol Datei ignorieren , um die Datei aus dem Suchergebnis zu entfernen. Die Dateien, die Sie ignorieren, werden aus der Liste entfernt und der gesuchte Begriff wird darin nicht ersetzt.
 
-1. Klicken **Alle ersetzen** \( ![](images/replace-all-in-file-icon.svg)\) rechts oben in der Liste, um alle Vorkommen des gesuchten Begriffs in allen Dateien durch den Begriff &quot;Ersetzen&quot;in einem einzigen Klick zu ersetzen.
+1. Klicks **Alle ersetzen** \( ![](images/replace-all-in-file-icon.svg)\) rechts oben in der Liste, um alle Vorkommen des gesuchten Begriffs in allen Dateien durch den Begriff &quot;Ersetzen&quot;in einem einzigen Klick zu ersetzen.
 
    >[!NOTE]
    >
@@ -1511,7 +1530,7 @@ Es kann jeweils nur ein einziges Ersetzen des gesamten Vorgangs im gesamten Syst
 
 ![](images/replace-all-in-progress.png){width="400" align="left"}
 
-Sie können auch die **Suchen in Map** -Option **Optionen** -Menü einer Karte, um Text in einer Karte zu suchen und zu ersetzen. Diese Option wird für eine im Repository-Bereich oder in der Zuordnungsansicht geöffnete Zuordnung angezeigt.
+Sie können auch die **Suchen in Map** Option aus der **Optionen** -Menü einer Karte, um Text in einer Karte zu suchen und zu ersetzen. Diese Option wird für eine im Repository-Bereich oder in der Zuordnungsansicht geöffnete Zuordnung angezeigt.
 
 ![](images/map-options-menu.png){width="550" align="left"}
 
@@ -1569,14 +1588,14 @@ Im Abschnitt Verweise haben Sie Zugriff auf folgende Funktionen:
 
 ![](images/file-properties-references.png){width="300" align="left"}
 
-- **Verwendet in**: In den Referenzen Verwendet werden die Dokumente aufgelistet, auf die die aktuelle Datei verwiesen oder verwendet wird.
+- **Verwendet in**: In den Referenzen werden die Dokumente aufgelistet, auf die die aktuelle Datei verwiesen oder verwendet wird.
 - **Ausgehende Links:** Unter Ausgehende Links werden die Dokumente aufgelistet, auf die im aktuellen Dokument verwiesen wird.
 
 Bewegen Sie den Mauszeiger über den Verweis der Datei und rufen Sie den Dateipfad und die UUID der Datei in der QuickInfo ab.
 
 **Hinweis:** Alle in und ausgehenden Verweise werden mit den Dokumenten per Hyperlink verknüpft. Sie können die verknüpften Dokumente einfach öffnen und bearbeiten.
 
-Neben dem Öffnen von Dateien können Sie auch mithilfe der **Optionen** im Abschnitt &quot;Verweise&quot;. Zu den Aktionen, die Sie ausführen können, gehören Bearbeiten, Vorschau, UUID kopieren, Pfad kopieren, Zu Favoriten hinzufügen, Eigenschaften und Dashboard &quot;Map öffnen&quot;.
+Neben dem Öffnen von Dateien können Sie auch mithilfe der **Optionen** im Abschnitt &quot;Verweise&quot;angezeigt. Zu den Aktionen, die Sie ausführen können, gehören Bearbeiten, Vorschau, UUID kopieren, Pfad kopieren, Zu Favoriten hinzufügen, Eigenschaften und Dashboard Karte öffnen .
 
 **Überprüfung** -  ![](images/review-icon.svg)
 
