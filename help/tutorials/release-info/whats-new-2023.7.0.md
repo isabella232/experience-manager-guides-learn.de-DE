@@ -1,18 +1,18 @@
 ---
 title: Versionshinweise | Neue Funktionen in Adobe Experience Manager-Handbüchern, Version Juli 2023
 description: Erfahren Sie mehr über die neuen und verbesserten Funktionen in der Version von Adobe Experience Manager Guides as a Cloud Service im Juli 2023.
-source-git-commit: 06bff798d2e745fae1c666353045cb4c6b040207
+source-git-commit: 7581085859785c5b8b597ecfeb7dbe58c7c9e2bc
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
 
 # Neue Funktionen in der Version von Adobe Experience Manager Guides as a Cloud Service im Juli 2023
 
-Dieser Artikel behandelt die neuen und verbesserten Funktionen in Version Juli 2023 der Adobe Experience Manager-Handbücher (später auch als *AEM as a Cloud Service Handbücher*).
+Dieser Artikel behandelt die neuen und verbesserten Funktionen in Version Juli 2023 der Adobe Experience Manager-Handbücher (später auch als *AEM as a Cloud Service Guides*).
 
-Weitere Informationen zu den Upgrade-Anweisungen, der Kompatibilitätsmatrix und den in dieser Version behobenen Problemen finden Sie in der [Versionshinweise](release-notes-2023.7.0.md) Artikel.
+Weitere Informationen zu den Upgrade-Anweisungen, der Kompatibilitätsmatrix und den in dieser Version behobenen Problemen finden Sie unter [Versionshinweise](release-notes-2023.7.0.md).
 
 ## Herstellen einer Verbindung zu einer Datenquelle und Einfügen von Daten in Ihre Themen
 
@@ -32,7 +32,7 @@ Nachdem Sie einen Inhaltsfragment-Generator erstellt haben, können Sie ihn wied
 
 ## Überprüfungsfenster zur Präsentation von Überprüfungsprojekten und der aktiven Prüfungsaufgaben
 
-Jetzt AEM Guides machen Ihre Bewertungen nahtloser. Es stellt den Bereich &quot;Bewertungen&quot;im Web Editor bereit. Im Bedienfeld Bewertungen werden alle Überprüfungsprojekte und die aktiven Prüfungsaufgaben innerhalb der Überprüfungsprojekte angezeigt, zu denen Sie gehören.
+Jetzt AEM Guides machen Ihre Rezensionen nahtloser. Es stellt den Bereich &quot;Bewertungen&quot;im Web Editor bereit. Im Bedienfeld &quot;Überprüfungen&quot;werden alle Überprüfungsprojekte und die aktiven Prüfungsaufgaben innerhalb der Überprüfungsprojekte angezeigt, zu denen Sie gehören.
 
 Als Autor können Sie mit dieser Funktion die Prüfungsaufgaben einfach öffnen, die Kommentare anzeigen und die Kommentare schnell in einer zentralen Ansicht bearbeiten.
 ![](assets/active-review-task-comments.png){width="800" align="left"}

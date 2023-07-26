@@ -1,9 +1,9 @@
 ---
 title: Versionshinweise | Neue Funktionen in Version 4.3.0 der Adobe Experience Manager-Handbücher
 description: Erfahren Sie mehr über die neuen und verbesserten Funktionen in Version 4.3.0 der Adobe Experience Manager-Handbücher.
-source-git-commit: ec67a3b959f9ee5b90a53134c1fe9aff8760cb6f
+source-git-commit: 7581085859785c5b8b597ecfeb7dbe58c7c9e2bc
 workflow-type: tm+mt
-source-wordcount: '2638'
+source-wordcount: '2639'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 Dieser Artikel behandelt die neuen und verbesserten Funktionen in Version 4.3.0 der Adobe Experience Manager-Handbücher (später auch als *AEM*).
 
-Weitere Informationen zu den Upgrade-Anweisungen, der Kompatibilitätsmatrix und den in dieser Version behobenen Problemen finden Sie unter  [Versionshinweise](./release-notes-4.3.md).
+Weitere Informationen zu den Upgrade-Anweisungen, der Kompatibilitätsmatrix und den in dieser Version behobenen Problemen finden Sie unter [Versionshinweise](./release-notes-4.3.md).
 
 
 ## Herstellen einer Verbindung zu einer Datenquelle und Einfügen von Daten in Ihre Themen

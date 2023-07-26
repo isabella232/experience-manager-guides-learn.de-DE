@@ -1,9 +1,9 @@
 ---
 title: Versionshinweise | Aktualisierungsanweisungen und behobene Probleme in der Adobe Experience Manager-Version 4.3.0
 description: Erfahren Sie mehr über die Fehlerbehebungen und das Upgrade auf Version 4.3.0 der Adobe Experience Manager-Handbücher.
-source-git-commit: 756ba69360e1796e36f6cc1ef410443ef8cb4acb
+source-git-commit: 7581085859785c5b8b597ecfeb7dbe58c7c9e2bc
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '998'
 ht-degree: 5%
 
 ---
@@ -81,7 +81,6 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 - Suchergebnisse sind im Bereich Suchen und Ersetzen deaktiviert, nachdem eine durchsuchte Datei geöffnet wurde. (12142)
 - Die 8-Taste auf der Seitentastatur funktioniert nicht im AEM Guides-Editor. (12106)
 - Inline-/Display-Attribute werden nicht in der Layout-Ansicht des Web-Editors angezeigt. (12498)
-- Hochladen von Dateien im Oxygen Plugin für AEM Guides funktioniert nicht in Cloud-Services, wenn Sie haben ! im Dateinamen. (12207)
 - Die Konfiguration der globalen Profil-Benutzeroberfläche stimmt nicht mit dem Ordnerprofil überein. (11970)
 - Inhaltsreferenzen sind beim Kopieren und Einfügen von DITA-Dateien fehlerhaft. (11959)
 - Inhaltsfragment kann nicht in der Spaltenansicht bearbeitet werden, wenn AEM Guides installiert sind. (7342)
@@ -93,7 +92,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 - `conref` im ph-Tag | Das angezeigte Dialogfeld zum Durchsuchen ist falsch. (9481)
 - Lokale Links zu anderen Elementen werden im Web Editor nicht aufgelöst. (8790)
 - Die Funktion Matches() funktioniert in der Schematron-Funktion nicht. (11224)
-- Im Sauerstoffmodul-Plug-in für AEM Guides wird die alte Benutzeroberfläche angezeigt, wenn Sie eine DITA-Zuordnung im Web DITA Map Editor öffnen möchten. (12633)
+
 
 
 ### Verwaltung
