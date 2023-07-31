@@ -2,9 +2,9 @@
 title: Adobe Experience Manager-Handbücher aktualisieren
 description: Erfahren Sie, wie Sie Adobe Experience Manager-Handbücher aktualisieren
 exl-id: fdc395cf-a54f-4eca-b69f-52ef08d84a6e
-source-git-commit: ec67a3b959f9ee5b90a53134c1fe9aff8760cb6f
+source-git-commit: bb7e9ae6f02021354285aa4ca6b435bbea2e4cc0
 workflow-type: tm+mt
-source-wordcount: '3216'
+source-wordcount: '3270'
 ht-degree: 1%
 
 ---
@@ -16,8 +16,9 @@ ht-degree: 1%
 > Befolgen Sie die Upgrade-Anweisungen für die lizenzierte Version Ihres Produkts.
 
 Sie können Ihre aktuelle Version von AEM Guides auf Version 4.3.0 aktualisieren
+
 - Wenn Sie Version 4.2 oder 4.2.x verwenden, können Sie direkt auf Version 4.3.0 aktualisieren.
-- Wenn Sie Version 4.1, 4.1.x oder 4.2 verwenden, müssen Sie auf Version 4.2.1 aktualisieren, bevor Sie auf Version 4.3.0 aktualisieren.
+- Wenn Sie Version 4.1 oder 4.1.x verwenden, müssen Sie auf Version 4.2 oder 4.2.x aktualisieren, bevor Sie auf Version 4.3.0 aktualisieren.
 - Wenn Sie Version 4.0 verwenden, müssen Sie vor der Aktualisierung auf Version 4.3.0 auf Version 4.2 aktualisieren.
 - Wenn Sie Version 3.8.5 verwenden, müssen Sie auf Version 4.0 aktualisieren, bevor Sie auf Version 4.2 aktualisieren.
 - Wenn Sie eine Version vor 3.8.5 verwenden, finden Sie im Abschnitt AEM Upgrade-Handbuch im produktspezifischen Installationshandbuch weitere Informationen.
@@ -503,12 +504,19 @@ Führen Sie die folgenden Schritte aus, um den vorhandenen Inhalt nachzubearbeit
    |---|---|---|
    | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitReads | Wert: 200000 <br> Standardwert: 100000 |
 
-1. Führen Sie eine POST-Anfrage an den Server aus (mit der richtigen Authentifizierung) - `http://<server:port>//bin/guides/reports/upgrade`.
+1. Führen Sie die folgenden APIs aus, um die Nachbearbeitung für alle Dateien auszuführen:
 
-1. Die API gibt eine jobId zurück. Um den Status des Auftrags zu überprüfen, können Sie eine GET-Anfrage mit Auftrags-ID an denselben Endpunkt senden - `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
-(Beispiel: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+   | Endpunkt | /bin/guides/reports/upgrade |
+   |---|---|
+   | Anfragetyp | **POST**  Dieses Skript ist eine POST-Anfrage und sollte daher über Agenten wie Postman ausgeführt werden. |
+   | Erwartete Antwort | Die API gibt eine jobId zurück. Um den Auftragsstatus zu überprüfen, können Sie eine GET-Anfrage mit Auftrags-ID an denselben Endpunkt senden.<br> Beispiel-URL: `http://<server:port>/bin/guides/reports/upgrade` |
 
-1. Sobald der Auftrag abgeschlossen ist, antwortet die vorherige GET-Anfrage erfolgreich. Wenn der Auftrag aus irgendeinem Grund fehlschlägt, kann in den Serverprotokollen ein Fehler angezeigt werden.
+   | Endpunkt | /bin/guides/reports/upgrade |
+   |---|---|
+   | Anfragetyp | **GET** |
+   | Parameter | jobId: Übergeben Sie die jobId, die von der vorherigen POST-Anfrage empfangen wurde. |
+   | Erwartete Antwort | - Nach Abschluss des Auftrags antwortet die GET-Anfrage erfolgreich. <br> - Falls Fehler auftreten, teilen Sie die Fehlerprotokolle zusammen mit der API-Ausgabe mit Ihrem Kundenerfolgsteam.  <br>Beispiel-URL: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
+
 
 1. Wiederherstellen des standardmäßigen oder vorherigen vorhandenen Werts von `queryLimitReads` wenn Sie es in Schritt 1 geändert haben.
 
