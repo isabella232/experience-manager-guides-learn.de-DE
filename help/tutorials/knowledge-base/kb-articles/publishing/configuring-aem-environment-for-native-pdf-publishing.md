@@ -1,13 +1,13 @@
 ---
 title: AEM Umgebung für native PDF-Veröffentlichung konfigurieren
 description: AEM Umgebung für native PDF-Veröffentlichung konfigurieren
-source-git-commit: f26b8f94e1d7a3c9dd0aaab2eb196a77119e47ac
+exl-id: 40266ca0-0b0b-4418-b606-f70270addbaa
+source-git-commit: 45dfe6078039001327e91ae85ea2a5beeacb2d59
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '906'
 ht-degree: 1%
 
 ---
-
 
 # AEM Umgebung für native PDF-Veröffentlichung konfigurieren
 
@@ -37,31 +37,31 @@ Die native PDF-Publishing-Engine benötigt Oracle JDK, um die Knotenmodule im Or
 2. Klicken Sie in der Windows-Taskleiste mit der rechten Maustaste auf das Windows-Symbol und wählen Sie System.
 3. Klicken Sie im Fenster &quot;Einstellungen&quot;unter &quot;Verwandte Einstellungen&quot;auf Erweiterte Systemeinstellungen.
 4. Klicken Sie auf der Registerkarte Erweitert auf Umgebungsvariablen .
-5. Klicken Sie im Abschnitt &quot;Systemvariablen&quot;auf &quot;_Neu_&quot;, um eine neue Umgebungsvariable zu erstellen.
+5. Klicken Sie im Abschnitt Systemvariablen auf &quot;_Neu_&quot;, um eine neue Umgebungsvariable zu erstellen.
 6. Geben Sie als Variablennamen JAVA_HOME ein.
 7. Geben Sie im Wertefeld den Pfad zur Java-Installation an und klicken Sie auf OK.
 
    Beispiel:
 
-   JAVA 11:
+   JAVA 11
 
    C:\Program Files\JAVA\jdk-11.0.15.1
 
-   JAVA 8:
+   JAVA 8
 
    C:\Program Files\JAVA\ jdk1.8.0_144
 
 8. Fügen Sie Pfad aus Systemvariablen hinzu und klicken Sie auf Bearbeiten.
 
-9. Jetzt geben die Pfadvariablen den Wert des Serverpfads an und klicken auf &quot;OK&quot;.
+9. Jetzt geben die Pfadvariablen den Wert des Serverpfads an und klicken auf OK.
 
    Beispiel:
 
-   JAVA 11:
+   JAVA 11
 
    %JAVA_HOME%\bin\server\
 
-   JAVA 8:
+   JAVA 8
 
    %JAVA_HOME%\jre\bin\server\
 
@@ -72,26 +72,25 @@ Die native PDF-Publishing-Engine benötigt Oracle JDK, um die Knotenmodule im Or
 
 ## Konfigurationsschritte für Linux-Server (RHEL7/centOS 7)
 
-1. Stellen Sie sicher, dass AEM Server ausfällt.
+1. Stellen Sie sicher, dass der AEM Server ausfällt.
 2. Überprüfen Sie die Variable JAVA_HOME , indem Sie echo $JAVA_HOME ausführen.
 3. Wenn die Variable JAVA_HOME nicht festgelegt ist, führen Sie Schritt 4 aus. Wechseln Sie andernfalls direkt zu Schritt 5.
 4. Variable JAVA_HOME mithilfe der folgenden Befehle festlegen, die auf der installierten Java-Version basieren
 
    Beispiel:
 
-   JAVA 11:
+   JAVA 11
 
    1. export JAVA\_HOME=/usr/lib/jvm/java-11.0.15.1
    2. export PATH=$PATH: $JAVA\_HOME/bin
    3. export LD\_LIBRARY\_PATH=/usr/lib/jvm/jdk-11.0.15.1/lib/server:/usr/java/jdk-11.0.15.1/lib/server
 
-   JAVA 8:
+   JAVA 8
 
    1. export JAVA\_HOME=/usr/lib/jvm/java-11.0.15.1
    2. export PATH=$PATH: $JAVA\_HOME/bin
 
-
-5. AEM Server neu starten
+5. Starten Sie AEM Server neu und wechseln Sie zu Schritt 12, wenn Sie Guides der Version 4.2 und höher verwenden.
 6. Kopieren Sie &quot;_node_modules.zip_&quot; am Ende dieses Artikels an das Verzeichnis crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166/ angehängt.
 7. Öffnen Sie das Terminal im Verzeichnis crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166/.
 8. Löschen Sie den Ordner &quot;node_modules&quot;mithilfe des folgenden Befehls
@@ -102,7 +101,7 @@ Die native PDF-Publishing-Engine benötigt Oracle JDK, um die Knotenmodule im Or
 
    **unzip node_modules.zip**
 
-10. Wenn der Befehl &quot;Entpacken&quot;nicht installiert/erkannt wurde, kann er mithilfe des folgenden Befehls installiert werden
+10. Wenn der Befehl &quot;Entpacken&quot;nicht installiert/erkannt wurde, kann er mit folgendem Befehl installiert werden
 
    **yum install unzip**
 
@@ -110,9 +109,9 @@ Die native PDF-Publishing-Engine benötigt Oracle JDK, um die Knotenmodule im Or
 Befehl: yum install fontconfig
 12. Erstellen Sie nativen PDF aus Vorgaben im Web-Editor.
 
-**NOTE** : Das Paket node_modules.zip kann heruntergeladen werden [here](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3).
+**NOTE** : Das Paket node_modules.zip kann heruntergeladen werden. [here](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3).
 
-Der manuelle Import der heruntergeladenen Knotenmodule für das Linux-Betriebssystem ist eine Problemumgehung für Benutzer, die sich in Guides 4.1 oder früheren Versionen befinden.
+Der manuelle Import der heruntergeladenen Knotenmodule für das Linux-Betriebssystem ist eine Problemumgehung für Benutzer, die sich in Guides 4.1 oder früheren Versionen befinden (Schritt 6-12).
 
 ## Konfigurationsschritte für den Mac-Computer (JAVA 11/8)
 
@@ -127,7 +126,7 @@ Der manuelle Import der heruntergeladenen Knotenmodule für das Linux-Betriebssy
 
    Beispiel:
 
-   JAVA 11:
+   JAVA 11
 
    export JAVA\_HOME= /Library/Java/JavaVirtualMachines/jdk-11.0.15.1.jdk/Contents/Home
 
@@ -141,7 +140,7 @@ Der manuelle Import der heruntergeladenen Knotenmodule für das Linux-Betriebssy
 
    C:/{aem-installation-folder}/crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166
 
-   i) Suchen Sie . -type d -exec chmod 0755 {} \; ii) finden Sie . -type f -exec chmod 0755 {} \; iii) .node-darwin/lib/node_modules/npm/bin/npm-cli.js —prefix . install —unsafe-perm —scripts-prepend-node-path
+   i) Suchen Sie . -type d -exec chmod 0755 {} \; ii) finden Sie . -Typ f -exec chmod 0755 {} \; iii) .node-darwin/lib/node_modules/npm/bin/npm-cli.js —prefix . install —unsafe-perm —scripts-prepend-node-path
 
 8. Überprüfen Sie mithilfe des folgenden Befehls, ob Java installiert ist.
 
@@ -164,8 +163,22 @@ Im Folgenden finden Sie die häufigen Fehler, die während der PDF-Erstellung au
 
 ![Null-Zeiger-Ausnahme](../assets/publishing/null-pointer-exception.png)
 
+Wenn das Problem auch nach der Korrektur der Java-Umgebungseinstellungen weiter besteht, überprüfen Sie Folgendes erneut:
+
+1. Überprüfen Sie, ob die Ausgabevorgabe richtig definiert ist, oder erstellen Sie eine neue Ausgabevorgabe ohne Leerzeichen.
+
+2. Überprüfen Sie das Verzeichnis der Knotenressourcen unter /libs/fmdta/node_resources , um sicherzustellen, dass alle erforderlichen Bibliotheken während der Installation installiert sind.
+
 ### Fehlende Bibliotheken in RHEL 7 Linux OS
 
 ![fehlende Bibliotheken](../assets/publishing/missing-libraries.png)
+
+### Zeitüberschreitung beim Veröffentlichungsprozess. Der Prozess wurde nicht in der angegebenen Zeit von 0ms abgeschlossen.
+
+![Veröffentlichungs-Prozess-Timeout](../assets/publishing/publish-process-timeout.png)
+
+Überprüfen Sie den Wert der Zeitüberschreitungseigenschaft für den Knoten nodejs in /var/dxml/profiles/b1aad0a7-9079-e56c-1ed8-6fcababe8166/nodejs im CRX-Repository. Der Standardwert ist 300.
+
+
 
 Wenn bei der Durchführung eines der oben genannten Schritte Probleme auftreten, posten Sie Ihre Frage in der AEM Guides-Community. [Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) Hilfe.
