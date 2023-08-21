@@ -2,9 +2,9 @@
 title: Funktionen des Web Editors kennen
 description: Erfahren Sie, wie Sie die Funktionen des Web Editors kennen
 exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: 3ae28dc4266d418e5730e2036c8eee2a804dc847
+source-git-commit: d6e7046e8885191270620d634bda0a5284f76fa2
 workflow-type: tm+mt
-source-wordcount: '15745'
+source-wordcount: '15744'
 ht-degree: 0%
 
 ---
@@ -805,7 +805,7 @@ Im Menü Optionen werden je nachdem, ob Sie eine Mediendatei oder eine DITA-Date
 
 Die verschiedenen Optionen im Menü Optionen werden nachfolgend beschrieben:
 
-- **Bearbeiten**: Öffnen Sie die Datei zur Bearbeitung. Bei einer .ditamap/.bookmap -Datei wird sie im [Erweiterter Map-Editor](map-editor-advanced-map-editor.md#) zur Bearbeitung.
+- **Bearbeiten**: Öffnen Sie die Datei zur Bearbeitung. Bei einer .ditamap/.bookmap -Datei wird sie in [Erweiterter Map-Editor](map-editor-advanced-map-editor.md#) zur Bearbeitung.
 
 - **Duplizieren**: Verwenden Sie diese Option, um ein Duplikat oder eine Kopie der ausgewählten Datei zu erstellen. Sie können die duplizierte Datei auch in der Eingabeaufforderung &quot;Asset duplizieren&quot;umbenennen. Standardmäßig wird die Datei mit dem Suffix \(z. B. filename\_1.extension\) erstellt. Der Titel der Datei bleibt mit der der Quelldatei identisch und die neue Datei beginnt mit Version 1.0. Alle Verweise, Tags und Metadaten werden kopiert, während die Grundlinien nicht in die duplizierte Datei kopiert werden.
 - **Auschecken**: Sperrt die ausgewählte Datei zur Bearbeitung. Bei gesperrten Dateien ändert sich diese Option in **Check In**.
