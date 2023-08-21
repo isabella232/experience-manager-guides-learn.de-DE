@@ -2,9 +2,9 @@
 title: Funktionen des Web Editors kennen
 description: Erfahren Sie, wie Sie die Funktionen des Web Editors kennen
 exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: d6e7046e8885191270620d634bda0a5284f76fa2
+source-git-commit: 0a01752122d012cff9fb583ae527842714e8f154
 workflow-type: tm+mt
-source-wordcount: '15744'
+source-wordcount: '15461'
 ht-degree: 0%
 
 ---
@@ -681,25 +681,20 @@ Verwenden Sie eine der folgenden Methoden, um Ihrer Lieblingssammlung eine Datei
 
   ![](images/favorite-add-file-folder.png){width="300" align="left"}
 
-- Klicken Sie im Editor mit der rechten Maustaste auf die Registerkarte einer Datei, um das Kontextmenü zu öffnen. Auswählen **Hinzufügen zu** > **Favoriten** , um die Datei Ihrer Favoritenliste hinzuzufügen.
+- Klicken Sie im Editor mit der rechten Maustaste auf die Registerkarte einer Datei, um das Kontextmenü zu öffnen. Auswählen **Zu \> Favoriten hinzufügen** , um die Datei Ihrer Favoritenliste hinzuzufügen.
 
   ![](images/favorite-add-from-file-context-menu_cs.png){width="400" align="left"}
 
->[!NOTE]
->
-> - Um ein Element aus der Favoritenliste zu entfernen, wählen Sie das Symbol Optionen neben dem Element in einer Favoriten-Sammlung und dann **Aus Favoriten entfernen**.
-> - Um eine Vorschau der Datei anzuzeigen, ohne sie zu öffnen, wählen Sie eine Datei aus und klicken Sie auf **Vorschau** über das Menü &quot;Optionen&quot;.
 
-
-
-**Menü &quot;Optionen&quot;für die Launches-Sammlung**\
+** Menü &quot;Optionen&quot;für die Launches-Sammlung**\
 Sie können auch viele Aktionen über das Menü &quot;Optionen&quot;ausführen, das für eine Favoriten-Sammlung verfügbar ist:
 
 ![](images/favorites-options.png){width="400" align="left"}
 - **Umbenennen**: Benennen Sie die ausgewählte Sammlung um.
-- **Löschen**: Löscht die ausgewählte Sammlung.
+- **Löschen**: Löscht die ausgewählte Datei.
 - **Aktualisieren**: Rufen Sie eine neue Liste von Dateien und Ordnern aus dem Repository ab.
 - **Anzeigen in der Assets-Benutzeroberfläche**: Zeigt den Datei- oder Ordnerinhalt in der Assets-Benutzeroberfläche an.
+
 
 >[!NOTE]
 >
@@ -815,7 +810,7 @@ Die verschiedenen Optionen im Menü Optionen werden nachfolgend beschrieben:
   > - Wenn eine Datei von einem Benutzer gesperrt oder ausgecheckt wurde, wird beim Bewegen des Mauszeigers über das Sperrsymbol der Benutzer angezeigt, der die Datei gesperrt hat.
   > - Beim Einchecken einer Datei mit nicht gespeicherten Änderungen werden Sie aufgefordert, die Änderungen zu speichern. Wenn Sie Ihre Änderungen nicht speichern, werden sie nur in der Datei eincheckt.
 
-- **Vorschau**: Verschaffen Sie sich eine schnelle Vorschau der Datei (.dita, .xml, audio, video oder image), ohne sie zu öffnen. Sie können die Größe des Vorschaufensters ändern. Wenn der Inhalt einen `<xref>` oder `<conref>`können Sie sie auswählen, um sie in einer neuen Registerkarte zu öffnen. Der Titel der Datei wird im Fenster angezeigt. Wenn kein Titel vorhanden ist, wird der Dateiname angezeigt. So schließen Sie die **Vorschau** können Sie entweder das Symbol zum Schließen auswählen oder auf eine beliebige Stelle außerhalb des Bereichs klicken.
+- **Vorschau**: Verschaffen Sie sich eine schnelle Vorschau der Datei (.dita/.xml\), ohne sie zu öffnen.
 
   ![](images/quick-preview_cs.png){width="800" align="left"}
 
@@ -1016,7 +1011,7 @@ Sie können die folgenden Aktionen über das Menü Optionen ausführen:
   > - Wenn eine Datei von einem Benutzer gesperrt oder ausgecheckt wurde, wird beim Bewegen des Mauszeigers über das Sperrsymbol der Benutzer angezeigt, der die Datei gesperrt hat.
   > - Beim Einchecken einer Datei werden Sie aufgefordert, die Änderungen zu speichern. Wenn Sie Ihre Änderungen nicht speichern, werden sie nur in der Datei eincheckt.
 
-- **Vorschau**: Verschaffen Sie sich eine schnelle Vorschau der Datei (.dita, .xml, audio, video oder image), ohne sie zu öffnen. Sie können die Größe des Vorschaufensters ändern. Wenn der Inhalt einen `<xref>` oder `<conref>`können Sie sie auswählen, um sie in einer neuen Registerkarte zu öffnen.  Der Titel der Datei wird im Fenster angezeigt. Wenn kein Titel vorhanden ist, wird der Dateiname angezeigt. So schließen Sie die **Vorschau** können Sie entweder das Symbol zum Schließen auswählen oder auf eine beliebige Stelle außerhalb des Bereichs klicken.
+- **Vorschau**: Verschaffen Sie sich eine schnelle Vorschau der Datei \(.dita/.xml\), ohne sie zu öffnen.
 - **Kopieren**: Sie können aus den folgenden Optionen auswählen:
    - **UUID kopieren**: Kopieren Sie die UUID der ausgewählten Datei in die Zwischenablage.
    - **Pfad kopieren**: Kopieren Sie den vollständigen Pfad der ausgewählten Datei in die Zwischenablage.
@@ -1139,12 +1134,9 @@ Verwenden Sie eine der folgenden Methoden, um Inhalte aus dem Bereich Wiederverw
 
   >[!NOTE]
   >
-  > Wählen Sie eine Datei aus und klicken Sie auf **Vorschau** aus dem **Optionen** -Menü, um die Datei in der Vorschau anzuzeigen, ohne sie zu öffnen. Sie können auch eine Vorschau der Referenzen in einem Thema anzeigen. Die Referenz-ID wird im Fenster angezeigt.
-  >
-  > Die **Vorschau** ist auch im **Optionen** -Menü eines Elements, über das Sie eine schnelle Vorschau des Elements erhalten, bevor Sie es einfügen.
+  > Hinweis: Die **Vorschau** ist auch im Kontextmenü verfügbar, das Ihnen eine schnelle Vorschau des Elements vor dem Einfügen bietet.
 
 - Ziehen Sie das wiederverwendbare Inhaltselement per Drag-and-Drop aus dem Bedienfeld an die gewünschte Position in Ihrem Dokument.
-
 
 
 **Glossar** -  ![](images/glossary.svg)
@@ -1280,138 +1272,86 @@ Das folgende Beispiel zeigt die Verwendung des Betreffschemas in AEM Guides.
 
    ![](images/subject-scheme-apply.png){width="650" align="left"}
 
-**Umgang mit hierarchischen Definitionen von Betreffdefinitionen und Auflistungen**
+   **Umgang mit hierarchischen Definitionen von Betreffdefinitionen und Auflistungen**
 
-Neben der Verarbeitung der Auflistungen und der in derselben Zuordnung vorhandenen Betreffdefinitionen bieten AEM Guides auch die Möglichkeit, Auflistungen und Themendefinitionen in zwei separaten Maps zu definieren. Sie können eine oder mehrere Betreffdefinitionen in einer Zuordnung und die Auflistungsdefinitionen in einer anderen Zuordnung definieren und dann die Zuordnungsreferenz hinzufügen. Beispielsweise erstellt der folgende XML-Code in zwei separaten Maps Themendefinitionen und Auflistungsdefinitionen.
+   Neben der Verarbeitung der Auflistungen und der in derselben Zuordnung vorhandenen Betreffdefinitionen bieten AEM Guides auch die Möglichkeit, Auflistungen und Themendefinitionen in zwei separaten Maps zu definieren. Sie können die Definition des Betreffs in einer Zuordnung und die Auflistungsdefinitionen in einer anderen Zuordnung definieren und dann die Referenz zur Zuordnung hinzufügen. Beispielsweise erstellt der folgende XML-Code in zwei separaten Maps Themendefinitionen und Auflistungsdefinitionen.
 
-Die Definitionen der Betreffs werden in `subject_scheme_map_1.ditamap`
-
-
-```XML
-  <?xml version="1.0" encoding="UTF-8"?> 
-    <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
-    <subjectScheme id="subject-scheme.ditamap_f0bfda58-377b-446f-bf49-e31bc87792b3"> 
-
-    <title>subject_scheme_map_1</title> 
-    
-    <subjectdef keys="os" navtitle="Operating system">
-        <subjectdef keys="linux" navtitle="Linux">
-        <subjectdef keys="redhat" navtitle="RedHat Linux">
-        </subjectdef>
-        <subjectdef keys="suse" navtitle="SuSE Linux">
-        </subjectdef>
-        </subjectdef>
-        <subjectdef keys="windows" navtitle="Windows">
-        </subjectdef>
-        <subjectdef keys="zos" navtitle="z/OS">
-        </subjectdef>
-        </subjectdef>
-        <subjectdef keys="deliveryTargetValues">
-        <subjectdef keys="print">
-        </subjectdef>
-        <subjectdef keys="online">
-        </subjectdef>
-    </subjectdef>
-    <subjectdef keys="mobile" navtitle="Mobile">
-        <subjectdef keys="android" navtitle="Android">
-        </subjectdef>
-        <subjectdef keys="ios" navtitle="iOS">
-    </subjectdef>
-    </subjectdef>
-    <subjectdef keys="cloud" navtitle="Cloud">
-        <subjectdef keys="aws" navtitle="Amazon Web Services">
-        </subjectdef>
-        <subjectdef keys="azure" navtitle="Microsoft Azure">
-        </subjectdef>
-        <subjectdef keys="gcp" navtitle="Google Cloud Platform">
-        </subjectdef>
-    </subjectdef>
-    </subjectScheme>
-```
-
-Die Auflistungsdefinition ist in subject_scheme_map_2.ditamap vorhanden.
-
-```XML
-    ?xml version="1.0" encoding="UTF-8"?> 
-        <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
-        <subjectScheme id="subject-scheme.ditamap_17c433d9-0558-44d4-826e-3a3373a4c5ae"> 
-        <title>subject_scheme_map_2</title> 
-        <mapref format="ditamap" href="subject_scheme_map_1.ditamap" type="subjectScheme"> 
-        </mapref> 
-        <enumerationdef>
-        <attributedef name="platform">
-        </attributedef>
-        <subjectdef keyref="mobile">
-        </subjectdef>
-        <subjectdef keyref="cloud">
-        </subjectdef>
-        </enumerationdef>
-        </subjectScheme>
-```
-
-Im Folgenden werden Themendefinitionen definiert in `subject_scheme_map_1.ditamap`  während die Auflistungsdef in vorhanden ist `subject_scheme_map_2.ditamap`. Der Verweis auf `subject_scheme_map_1.ditamap` wird auch hinzugefügt in `subject_scheme_map_2.ditamap`.
-
->[!NOTE]
->
-> Als `subject_scheme_map_1.ditamap` und `subject_scheme_map_2.ditamap` miteinander referenziert werden, sodass die Betreffschemas aufgelöst werden.
-
-Die Verweise auf die Betreffauflistung werden in der folgenden Prioritätsreihenfolge aufgelöst:
-
-1. Gleiche Karte
-1. Referenzierte Zuordnung
+   Die Definitionen der Betreffs werden in `subject_scheme_map_1.ditamap`
 
 
-Die Verweise werden nicht aufgelöst, wenn die Auflistung nicht in derselben Zuordnung und der referenzierten Zuordnung gefunden wird.
+   ```XML
+   <?xml version="1.0" encoding="UTF-8"?> 
+   <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
+   <subjectScheme id="subject-scheme.ditamap_f0bfda58-377b-446f-bf49-e31bc87792b3"> 
+   <title>subject_scheme_map_1</title> 
+   <subjectdef keys="os" navtitle="Operating system"> 
+   <subjectdef keys="linux" navtitle="Linux"> 
+   <subjectdef keys="redhat" navtitle="RedHat Linux"/> 
+   <subjectdef keys="suse" navtitle="SuSE Linux"/> 
+   </subjectdef> 
+   <subjectdef keys="windows" navtitle="Windows"/> 
+   <subjectdef keys="zos" navtitle="z/OS"/> 
+   </subjectdef> 
+   </subjectScheme>  
+   ```
+
+   Die Auflistungsdefinition ist in subject_scheme_map_2.ditamap vorhanden
+
+   ```XML
+   <?xml version="1.0" encoding="UTF-8"?> 
+   <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
+   <subjectScheme id="subject-scheme.ditamap_17c433d9-0558-44d4-826e-3a3373a4c5ae"> 
+   <title>subject_scheme_map_2</title> 
+   <mapref format="ditamap" href="subject_scheme_map_1.ditamap" type="subjectScheme"> 
+   </mapref> 
+   <enumerationdef> 
+   <attributedef name="platform"> 
+   </attributedef> 
+   <subjectdef keyref="os"> 
+   </subjectdef> 
+   </enumerationdef> 
+   </subjectScheme>  
+   ```
+
+   Im Folgenden werden Themendefinitionen definiert in `subject_scheme_map_1.ditamap`  während die Auflistungsdef in vorhanden ist `subject_scheme_map_2.ditamap`. Der Verweis auf `subject_scheme_map_1.ditamap` wird auch hinzugefügt in `subject_scheme_map_2.ditamap`.
+
+   >[!NOTE]
+   >
+   > Als `subject_scheme_map_1.ditamap` und `subject_scheme_map_2.ditamap` miteinander referenziert werden, sodass die Betreffschemas aufgelöst werden.
+
+   Die Verweise auf die Betreffauflistung werden in der folgenden Prioritätsreihenfolge aufgelöst:
+
+   1. Gleiche Karte
+   1. Referenzierte Zuordnung
 
 
+   Die Verweise werden nicht aufgelöst, wenn die Auflistung nicht in derselben Zuordnung und der referenzierten Zuordnung gefunden wird.
 
+   **Dropdown-Liste Attribute**
 
-**Die Werte auf ein bestimmtes Element beschränken**
+   Sie können den Wert des Betreffschemas auch über das Dropdown-Menü Attribut im Bereich Inhaltseigenschaften in der Autorenansicht ändern. Um den Wert zu ändern, wählen Sie einen Wert aus der Dropdown-Liste Attribut aus.
 
-Sie können die Bedingungen auch auf einige Elemente innerhalb eines Themas beschränken. Verwenden Sie die `<elementdef>` -Tag, um das Element und die `<attributedef>` -Tag, um die Bedingung zu definieren, die auf das Element angewendet werden kann.  Wenn Sie die `<elementdef>` -Tag, können Sie die Bedingungen auf alle Elemente anwenden.
-Verwenden Sie beispielsweise die folgende Auflistung, um die `@platform` -Attribut `<shortdesc>` -Element.  Die anderen Bedingungen sind für alle Elemente sichtbar.
+   ![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
 
-```XML
-<enumerationdef>
-    <elementdef name="shortdesc">
-    </elementdef>
-    <attributedef name="platform">
-    </attributedef>
-    <subjectdef keyref="deliveryTargetValues">
-    </subjectdef>
-    <subjectdef keyref="os">
-    </subjectdef>
-  </enumerationdef>
-```
+   Sie können auch Werte für ein Attribut anwenden, indem Sie mehrere Werte aus der Dropdown-Liste auswählen.
 
-</details>
+   **Quellansicht**
 
+   Sie können die Werte auch aus der Dropdown-Liste des Attributs in der Quellansicht ändern. Die Quellansicht verhindert auch, dass Sie einen falschen Wert hinzufügen.
 
-**Dropdown-Liste Attribute**
+   ![](images/subject-scheme-code-error.png){width="550" align="left"}
 
-Sie können den Wert des Betreffschemas auch über das Dropdown-Menü Attribut im Bereich Inhaltseigenschaften in der Autorenansicht ändern. Um den Wert zu ändern, wählen Sie einen Wert aus der Dropdown-Liste Attribut aus.
+   **Betreffschema über das Bedienfeld &quot;Bedingungen&quot;anzeigen und anwenden**
 
-![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
+   Sie können das Themenschema auch im Bedienfeld Bedingungen anzeigen und anwenden.
 
-Sie können auch Werte für ein Attribut anwenden, indem Sie mehrere Werte aus der Dropdown-Liste auswählen.
+   Um das Betreffschema im Bedienfeld &quot;Bedingungen&quot;anzuzeigen, muss Ihr Systemadministrator die Option auswählen **Schema des Betreffs im Bedienfeld &quot;Bedingungen&quot;anzeigen** unter der Registerkarte &quot;Bedingung&quot;in den Editor-Einstellungen. Weitere Informationen finden Sie unter [Registerkarte &quot;Bedingung&quot;](#id21BMNE0602V).
 
-**Quellansicht**
+   Im Bedienfeld Bedingungen wird die flache vertikale Struktur der Themendefinitionen innerhalb des Betreffschemas angezeigt.
 
-Sie können die Werte auch aus der Dropdown-Liste des Attributs in der Quellansicht ändern. Die Quellansicht verhindert auch, dass Sie einen falschen Wert hinzufügen.
+   ![](images/subject-scheme-condtions-panel.png){width="300" align="left"}
 
-![](images/subject-scheme-code-error.png){width="550" align="left"}
-
-**Betreffschema über das Bedienfeld &quot;Bedingungen&quot;anzeigen und anwenden**
-
-Sie können das Themenschema auch im Bedienfeld Bedingungen anzeigen und anwenden.
-
-Um das Betreffschema im Bedienfeld &quot;Bedingungen&quot;anzuzeigen, muss Ihr Systemadministrator die Option auswählen **Schema des Betreffs im Bedienfeld &quot;Bedingungen&quot;anzeigen** unter der Registerkarte &quot;Bedingung&quot;in den Editor-Einstellungen. Weitere Informationen finden Sie unter [Registerkarte &quot;Bedingung&quot;](#id21BMNE0602V).
-
-Im Bedienfeld Bedingungen wird die flache vertikale Struktur der Themendefinitionen innerhalb des Betreffschemas angezeigt.
-
-![](images/subject-scheme-condtions-panel.png){width="300" align="left"}
-
-Sie können Bedingungen zu Ihrem Inhalt hinzufügen, indem Sie die gewünschte Bedingung auf Ihren Inhalt ziehen und dort ablegen. Der bedingte Inhalt wird in der für die Bedingung definierten Farbe hervorgehoben.
+   Sie können Bedingungen zu Ihrem Inhalt hinzufügen, indem Sie die gewünschte Bedingung auf Ihren Inhalt ziehen und dort ablegen. Der bedingte Inhalt wird in der für die Bedingung definierten Farbe hervorgehoben.
 
 **Snippets** -  ![](images/insert-snippet-icon.svg)
 

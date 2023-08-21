@@ -2,7 +2,7 @@
 title: Benutzerdefinierte DITA-Themenvorlage konfigurieren
 description: Erfahren Sie, wie Sie benutzerdefinierte DITA-Themenvorlagen konfigurieren
 exl-id: f79165ef-5118-4574-815d-c4ecb2f7d58b
-source-git-commit: 20980cd289a306fc73146ec3550ae31f15e91591
+source-git-commit: ecd5c315da5d450f29ee5d44cb19bc3546a19d1c
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 2%
@@ -45,7 +45,9 @@ Mit AEM Guides können Sie einen Ordner zum Speichern Ihrer benutzerdefinierten 
 
 `/content/dam/dita-templates/`
 
-Zum Verwalten von Themen- und Zuordnungsvorlagendateien gibt es spezielle Ordner zum Speichern der Themen- und Zuordnungsvorlagen. Standardmäßig werden alle Themenvorlagen unter dem `/content/dam/dita-templates/topics` Ordner. Alle Zuordnungsvorlagen werden im `/content/dam/dita-templates/maps` Ordner.
+Zum Verwalten von Themen- und Zuordnungsvorlagendateien gibt es spezielle Ordner zum Speichern der Themen- und Zuordnungsvorlagen. Standardmäßig werden alle Themenvorlagen unter dem `/content/dam/dita-templates/topics`
+
+Ordner. Alle Zuordnungsvorlagen werden im `/content/dam/dita-templates/maps` Ordner.
 
 Als Administrator können Sie benutzerdefinierte Zuordnungs- oder Themenvorlagen im Standardordner erstellen oder einen eigenen Ordner zum Speichern benutzerdefinierter Vorlagen erstellen. Wenn Sie den Standardordner verwenden möchten, können Sie diesen Prozess überspringen.
 
