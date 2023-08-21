@@ -2,7 +2,7 @@
 title: Erstellen von Karten basierend auf benutzerdefinierten Vorlagen
 description: Erfahren Sie, wie Sie Karten basierend auf benutzerdefinierten Vorlagen erstellen
 exl-id: 02513148-3876-4549-962a-9984f619030f
-source-git-commit: ca96cafa214d2dd03a9933024a195ec4995ee4dc
+source-git-commit: 3ae28dc4266d418e5730e2036c8eee2a804dc847
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 1%
@@ -61,7 +61,7 @@ Führen Sie die folgenden Schritte aus, um eine Zuordnungsvorlage zu erstellen:
 
 1. Im **Assets-Benutzeroberfläche**, navigieren Sie zum Ordner dita-templates .
 1. Klicks **maps** Ordner, um ihn zu öffnen.
-1. Klicks **Erstellen Sie \> DITA-Vorlage.**
+1. Klicks **Erstellen** > **DITA-Vorlage.**
 
    ![](images/create-dita-template.png){width="300" align="left"}
 

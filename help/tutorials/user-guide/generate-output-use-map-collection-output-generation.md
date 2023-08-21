@@ -2,7 +2,7 @@
 title: Verwenden der Kartensammlung für die Ausgabegenerierung
 description: Erfahren Sie, wie Sie die Map Collection für die Ausgabegenerierung verwenden.
 exl-id: 32e3af6c-9670-42cc-8dbe-9f99fbc60adf
-source-git-commit: 2e39580aa8417641d8b2ac7eab4ba4805cb68f0f
+source-git-commit: 3ae28dc4266d418e5730e2036c8eee2a804dc847
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 0%
