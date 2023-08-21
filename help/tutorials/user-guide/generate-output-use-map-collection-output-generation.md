@@ -2,10 +2,10 @@
 title: Verwenden der Kartensammlung für die Ausgabegenerierung
 description: Erfahren Sie, wie Sie die Map Collection für die Ausgabegenerierung verwenden.
 exl-id: 32e3af6c-9670-42cc-8dbe-9f99fbc60adf
-source-git-commit: 22f88ae4097a6067ed65a963ad6765f6f8c24f36
+source-git-commit: 2e39580aa8417641d8b2ac7eab4ba4805cb68f0f
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 1%
+source-wordcount: '941'
+ht-degree: 0%
 
 ---
 
@@ -32,12 +32,12 @@ So erstellen Sie eine Map Collection und fügen der Sammlung DITA-Maps hinzu:
 
    Bei der Erstellung der Zuordnungssammlung wird eine Erfolgsmeldung angezeigt.
 
-1. Klicken **Schließen** in der Erfolgsmeldung angezeigt.
+1. Klicks **Schließen** in der Erfolgsmeldung angezeigt.
 
    Die neu erstellte Zuordnungsdatei wird auf der Seite Sammlungen zuordnen angezeigt.
 
 1. Klicken Sie auf das graue Feld in der Kachel der Sammlung, die Sie bearbeiten möchten.
-1. Klicken **Bearbeiten** und klicken Sie anschließend auf **Zuordnen hinzufügen**.
+1. Klicks **Bearbeiten** und klicken Sie anschließend auf **Zuordnen hinzufügen**.
 1. Suchen und fügen Sie die DITA-Maps hinzu, die Sie der Map-Sammlung hinzufügen möchten.
 
    Standardmäßig werden alle Vorgaben und Gebietsschemata, die mit der Zuordnung verknüpft sind, automatisch hinzugefügt.
@@ -53,14 +53,14 @@ Die folgenden Filteroptionen und Zuordnungsdetails werden auf der Sammlungsseite
 
 - **Filter:** Die aktuelle Leiste zeigt die folgenden Filter an:
    - **Geändert**: Sie können &quot;Ja&quot;oder &quot;Nein&quot;auswählen. Wenn Sie &quot;Ja&quot;auswählen, werden nur die modifizierten DITA-Maps in der Tabelle Maps und Vorgaben angezeigt.
-   - **Vorgabe**: Wählen Sie eine Vorgabe aus, nach der Sie die Zuordnungsdateien herausfiltern möchten. Wenn Sie beispielsweise *AEM Site* voreingestellt ist, werden nur die Karten angezeigt, die die *AEM Site* Ausgabevorgabe, die für sie konfiguriert ist.
-   - **Sprache**: Sie können einen beliebigen Sprachcode auswählen und nur die ausgewählte Sprache in der Tabelle Karten und Vorgaben anzeigen.
-- **Karten und Vorgaben** table: Die Tabelle &quot;Karten und Vorgaben&quot;enthält Informationen in den folgenden Spalten:
+   - **Voreinstellung**: Wählen Sie eine Vorgabe aus, nach der Sie die Zuordnungsdateien herausfiltern möchten. Wenn Sie beispielsweise *AEM Site* voreingestellt ist, werden nur die Karten angezeigt, die die *AEM Site* Ausgabevorgabe, die für sie konfiguriert ist.
+   - **Sprache**: Sie können einen der verfügbaren Sprachcodes auswählen und nur die ausgewählte Sprache in der Tabelle Karten und Vorgaben anzeigen.
+- **Maps und Vorgaben** Tabelle: Die Tabelle &quot;Karten und Vorgaben&quot;enthält Informationen in den folgenden Spalten:
    - **Zuordnung**: Zeigt den Titel der DITA-Map-Datei an.
    - **Sprache**: Zeigt die Sprache der DITA-Zuordnung an.
-   - **Vorgabe**: Zeigt den Typ der in der Zuordnungsdatei konfigurierten Ausgabevorgabe an.
+   - **Voreinstellung**: Zeigt den in der Zuordnungsdatei konfigurierten Typ der Ausgabevorgabe an.
    - **Geändert**: Gibt an, ob die DITA-Zuordnung nach der letzten Veröffentlichung aktualisiert wird. Anhand dieser Informationen können Sie entscheiden, ob Sie die Ausgabe für diese DITA-Zuordnung erneut veröffentlichen möchten oder nicht.
-   - **Zuletzt generiert**: Zeigt das Datum und die Uhrzeit der letzten generierten Ausgabe an.
+   - **Zuletzt generiert**: Zeigt Datum und Uhrzeit der letzten generierten Ausgabe an.
 
 ## Konfigurieren und Generieren der Ausgabe mithilfe einer Map Collection
 
@@ -71,7 +71,7 @@ Um die Ausgabe mithilfe einer Map Collection zu konfigurieren und zu generieren,
    Die ![](images/global-preset-icon.svg) -Symbol zeigt eine Vorgabe auf Ordnerprofilebene an.
 1. \(Optional\) Führen Sie je nach Anforderung einen der folgenden Schritte aus:
    - Wenden Sie Filter aus der linken Leiste an, um die geänderten Zuordnungen, Ausgabevorgaben oder Sprachen zu filtern.
-   - Klicken Sie bei Bedarf auf **Bearbeiten** und ändern Sie die gewünschte Ausgabe, indem Sie die gleitende Schaltfläche ein- oder ausschalten.
+   - Klicken Sie ggf. auf **Bearbeiten** und ändern Sie die gewünschte Ausgabe, indem Sie die gleitende Schaltfläche ein- oder ausschalten.
 
 
 
@@ -79,7 +79,13 @@ Um die Ausgabe mithilfe einer Map Collection zu konfigurieren und zu generieren,
      >  
      > Standardmäßig ist jede neue Vorgabe deaktiviert.
 
-   - Sie können **Alle Ordnerprofilvorgaben aktivieren/deaktivieren** für eine DITA-Zuordnung, um alle Ordnerprofile für sie in einem Schritt auszuwählen.
+1. Sie können die Vorgaben für eine DITA-Zuordnung wie folgt aktivieren:
+
+   - Aktivieren Sie jede einzelne Vorgabe.
+   - Aktivieren **Alle Vorgaben** für eine DITA-Zuordnung, um alle Vorgaben in einem Schritt auszuwählen. Diese Option ist standardmäßig deaktiviert.
+   - Aktivieren **Ordnerprofilvorgaben** für eine DITA-Zuordnung, um alle Ordner-Profilvorgaben auszuwählen. Diese Option ist standardmäßig deaktiviert.
+     ![Bearbeiten einer Zuordnungssammlung in Cloud Services](images/edit-map-collection-cs.png){width="800" align="left"}
+
 
 
 1. Führen Sie einen der folgenden Schritte aus:
