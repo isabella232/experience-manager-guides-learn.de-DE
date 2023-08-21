@@ -1,9 +1,9 @@
 ---
 title: Inhaltsfragment aus Ihrer Datenquelle einfügen
 description: Erfahren Sie, wie Sie einen Inhaltsausschnitt aus Ihrer Datenquelle einfügen
-source-git-commit: 0f1c9d545dfc6dc53742c6f8d89cd48d33de2681
+source-git-commit: af5ec027ea093a28ba2a2ffd0ca3895546ed6e76
 workflow-type: tm+mt
-source-wordcount: '1549'
+source-wordcount: '1685'
 ht-degree: 0%
 
 ---
@@ -32,14 +32,18 @@ Wählen Sie eine Datenquelle aus, um die Inhaltsfragment-Generatoren und die The
 
 ![](images/data-sources-list-view.png){width="300" align="left"}
 
+*Liste der verbundenen Datenquellen.*
 
 ### Kachelansicht   ![](images/data-sources-tile-view-icon.svg)
 
 ![](images/data-sources-tile-view.png){width="300" align="left"}
 
+*Anzeigen der verbundenen Datenquellen als Kacheln*
+
 Sie können die Daten aus Datenquellen auf zwei Arten verwenden:
 - Inhaltsfragment einfügen
 - Thema erstellen
+
 
 
 ## Inhaltsfragment aus Ihrer Datenquelle einfügen
@@ -53,6 +57,7 @@ Führen Sie die folgenden Schritte aus, um ein Inhaltsfragment mit dem Inhaltsfr
 1. Wählen Sie eine Datenquelle aus, um die für die ausgewählte Datenquelle verfügbaren Inhaltsfragment-Generatoren anzuzeigen.
 
    ![](images/code-snippet-generator.png){width="300" align="left"}
+   *Im Bereich &quot;Data Sources&quot;werden die verfügbaren Inhaltsfragment-Generatoren aufgelistet.*
 
 1. Auswählen **Hinzufügen** , um einen neuen Inhaltsfragment-Generator hinzuzufügen. Die **Inhaltsfragment-Generator hinzufügen** -Bedienfeld geöffnet.
 
@@ -75,6 +80,8 @@ Beispiel:
 
    1. Die Quellansicht zeigt die Daten in der DITA-Quellansicht an.
       ![](images/add-content-snippet-generator.png){width="800" align="left"}
+      *Fügen Sie einen Inhaltsfragment-Generator hinzu. Daten im Quell- oder Vorschaumodus anzeigen.*
+
 1. Um die Ergebnisse der Abfrage zu speichern, geben Sie den Namen des Generators ein und klicken Sie auf **HINZUFÜGEN**.   Der Liste wird ein neuer Inhaltsfragment-Generator hinzugefügt.
 
    >[!NOTE]
@@ -102,6 +109,7 @@ Sie können auch die **Query Snippet einfügen** ![](images/data-source-icon.svg
 
 ![](images/insert-content-snippet.png){width="800" align="left"}
 
+*Bearbeiten und fügen Sie ein Datenfragment ein.*
 
 ## Erstellen eines Themas mit dem Themengenerator
 
@@ -118,6 +126,9 @@ Führen Sie die folgenden Schritte aus, um ein Thema mit dem Themengenerator zu 
 1. Wählen Sie eine Datenquelle aus, um die Inhaltsfragment-Generatoren und die Themengeneratoren anzuzeigen, die für die ausgewählte Datenquelle verfügbar sind.
 
    ![](images/data-sources.png){width="300" align="left"}
+
+   *Fügen Sie einen Themengenerator für eine verbundene Datenquelle hinzu.*
+
 1. Auswählen **Hinzufügen** ![](images/Add_icon.svg) und wählen **Themengenerator** aus der Dropdown-Liste, um einen neuen Themengenerator hinzuzufügen. Die **Themengenerator hinzufügen** -Bedienfeld geöffnet.
 
 
@@ -128,13 +139,14 @@ Führen Sie die folgenden Schritte aus, um ein Thema mit dem Themengenerator zu 
 
    ![](images/topic-generator-fetch-configuration.png){width="300" align="left"}
 
+   *Fügen Sie die Datenabfrage, die Vorlage für die Datenzuordnung und die Details des Stammknotens für den Themengenerator hinzu und geben Sie ihm im Bereich &quot;Fetch Configuration&quot;einen eindeutigen Namen.*
 
    1. Geben Sie die Abfrage im **Datenabfrage** Textfeld.
    1. Wählen Sie die Vorlage aus, die Ihrer Datenquelle zugeordnet ist. **Datenzuordnungsvorlage** Dropdown.
 
-   >[!NOTE]
-   >
-   > Wenn Ihr Administrator benutzerdefinierte Vorlagen konfiguriert hat, werden diese Vorlagen auch in der Dropdown-Liste angezeigt (basierend auf den von Ihrem Administrator durchgeführten Vorlagenpfadkonfigurationen). Sie können beispielsweise eine Themenvorlage erstellen, die eine geordnete Liste, Tabellen, Absätze oder andere DITA-Elemente enthält.
+      >[!NOTE]
+      >
+      > Wenn Ihr Administrator benutzerdefinierte Vorlagen konfiguriert hat, werden diese Vorlagen auch in der Dropdown-Liste angezeigt (basierend auf den von Ihrem Administrator durchgeführten Vorlagenpfadkonfigurationen). Sie können beispielsweise eine Themenvorlage erstellen, die eine geordnete Liste, Tabellen, Absätze oder andere DITA-Elemente enthält.
 
    1. Geben Sie die **Stammknoten**. Dies ist der Knoten, unter dem Sie auf Ihre Daten zugreifen möchten. Der Themengenerator erstellt dann jedes Thema auf der im Stammknoten definierten Ebene. Sie können beispielsweise &quot;issues&quot;als Stammknoten in Jira hinzufügen. Wenn also eine Abfrage 13 Probleme zurückgibt, erhalten Sie 13 Themen, ein Thema für jedes Problem.
 
@@ -148,6 +160,8 @@ Führen Sie die folgenden Schritte aus, um ein Thema mit dem Themengenerator zu 
    **Ausgabe-Konfiguration**
 
    ![](images/topic-generator-output-configuration.png){width="300" align="left"}
+
+   *Geben Sie die Details zum Ausgabepfad und zur Themenbenennungskonvention im Bereich Ausgabekonfiguration ein. Erstellen Sie eine DITA-Zuordnung und benennen Sie sie.*
 
    1. Geben Sie die **Ausgabepfad** Details, in denen Sie Ihre Themen speichern möchten.
    1. Im **Namenskonvention für Themen** können Sie einen Wert oder eine Variable mit Velocity-Tags eingeben. Die neuen Themen folgen dem Konvent. Sie können beispielsweise die Variable `$key` um Themen zu erstellen, die auf Jira-Schlüsseln basieren.
@@ -166,7 +180,7 @@ Führen Sie die folgenden Schritte aus, um ein Thema mit dem Themengenerator zu 
 
    ![](images/topic-generator-metadata.png){width="300" align="left"}
 
-
+   *Fügen Sie die Metadateneigenschaften im Metadatenbedienfeld hinzu, um sie an die Themen zu übergeben.*
 
 1. Geben Sie den Namen des Generators ein und klicken Sie auf **Speichern** , um die Abfrageergebnisse zu speichern. Der Liste wird ein neuer Themengenerator hinzugefügt.
 
@@ -175,6 +189,8 @@ Führen Sie die folgenden Schritte aus, um ein Thema mit dem Themengenerator zu 
 
 
    ![](images/edit-topic-generator.png){width="650" align="left"}
+
+   *Generieren Sie neue Themen aus einem vorhandenen Themengenerator.*
 
    >[!NOTE]
    >
@@ -192,6 +208,8 @@ Klicken Sie mit der rechten Maustaste auf einen Themengenerator, um den **Option
   >Wenn Ihr Thema bereits vorhanden ist, können Sie die Daten im Thema überschreiben oder als neue Version speichern.
 
   ![](images/generate-topic-options.png)
+
+  *Erstellen Sie ein Thema. Wenn die Datei bereits vorhanden ist, speichern Sie es als neue Version oder überschreiben Sie es.*
 
 - **Bearbeiten**: Verwenden Sie diese Option, um den Themengenerator zu ändern und zu speichern.
 - **Löschen**: Mit dieser Option können Sie den ausgewählten Themengenerator löschen.

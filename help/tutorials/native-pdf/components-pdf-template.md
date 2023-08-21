@@ -2,9 +2,9 @@
 title: Native PDF-Veröffentlichungsfunktion | Komponenten einer PDF-Vorlage
 description: Erfahren Sie mehr über die verschiedenen Komponenten einer PDF-Vorlage und wie Sie diese anpassen und konfigurieren.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 08c1f1a8df5fdbaa0d8f27d2752028d0ee2ed538
+source-git-commit: 18ec7e1b19cd6404b86f965be96caa88a0a067fe
 workflow-type: tm+mt
-source-wordcount: '3672'
+source-wordcount: '3934'
 ht-degree: 0%
 
 ---
@@ -107,25 +107,36 @@ Gehen Sie wie folgt vor, um ein Stylesheet zu erstellen:
 
 ### Neuen Stil erstellen {#create-style}
 
-Standardmäßig enthalten die CSS-Dateien Stile für Überschrift, Absatz, Zeichen, Hyperlink, Bild, Tabelle, div, Seite und andere Stile. Sie können das Standard-Stilformat überschreiben oder einen neuen Stil erstellen.
+Standardmäßig enthalten die mit der Vorlage bereitgestellten CSS-Dateien Stile für Überschrift, Absatz, Zeichen, Hyperlink, Bild, Tabelle, div, Seite und andere Stile. Sie können das Standard-Stilformat überschreiben oder einen neuen Stil erstellen.
 
-In der Regel erstellen Sie einen neuen Stil, wenn Sie einen benutzerdefinierten Stil für ein DITA-Element verknüpfen möchten. Damit diese benutzerdefinierten Stile funktionieren, müssen Sie sicherstellen, dass Sie den Klassennamen des Stils mit dem Attribut outputclass des DITA-Elements verknüpfen.
+
+Sie können einen neuen Stil erstellen, um ihn im Seitenlayout der Vorlage zu verwenden, oder einen benutzerdefinierten Stil für ein DITA-Element anwenden. Um diese benutzerdefinierten Stile auf das DITA-Element anzuwenden, müssen Sie sicherstellen, dass der Klassenname des Stils mit dem Namen des DITA-Elements oder dem `outputclass` -Attribut.  Beispiel: `<div>` in DITA wird durch die Variable `.div {}` in CSS oder seiner `outputclass` -Attribut. Wenn Sie eine `<div outputclass="my-div">` In DITA wird sie durch das `.div {}` oder `.my-div {}` in der CSS.
+
 
 
 Gehen Sie wie folgt vor, um einen neuen Stil zu erstellen:
-1. Klicken Sie mit der rechten Maustaste auf einen beliebigen Stil und wählen Sie im Kontextmenü die Option Neuer Stil .
+1. Erweitern Sie die linke Seitenleiste und doppelklicken Sie auf die Vorlage, in der Sie den Stil erstellen möchten.
+1. Erweitern Sie die **Stylesheets** Abschnitt. Er öffnet die **Stile** -Bereich, der alle Stiloptionen enthält.
+1. Klicken Sie auf das Symbol + , um einen neuen Stil hinzuzufügen.
 
-   Dadurch wird das Dialogfeld Stil hinzufügen geöffnet.
+   **Stil hinzufügen** wird geöffnet.
 
-   <img src="assets/add-style.png" alt="Neuen Stil hinzufügen" width="300"/>
-1. Im **Tag** -Feld ein Tag auswählen, für das Sie einen neuen Stil erstellen möchten.
-1. Geben Sie eine **Klasse** name.
 
-   Dieser Klassenname muss mit dem Attribut outputclass des Tags in Ihrem Quellinhalt verknüpft sein.
-1. Wählen Sie eine **Pseudo-Klasse** für eine verbesserte Formatierung des Elements.
+   <img src="assets/add-style.png" alt="Neuen Stil hinzufügen" width="500"/>
+
+1. Geben Sie eine **Klasse** name. Um einen Stil auf das DITA-Element anzuwenden, stellen Sie sicher, dass der Klassenname des Stils mit dem Namen des DITA-Elements oder dem `outputclass` -Attribut.
+1. Im **Tag** (optional), wählen Sie ein Tag aus, für das Sie einen neuen Stil erstellen möchten.
+
+
+1. Wählen Sie eine **Pseudo-Klasse** um ein Element zu formatieren. Mit einer Pseudo-Klasse können Sie einen speziellen Status des Elements definieren. Verwenden Sie beispielsweise die Pseudo-Klasse, um ein Element zu formatieren, wenn Sie den Mauszeiger darüber bewegen oder wenn Sie den Fokus darauf legen. Sie können auch mehrere Pseudoklassen auswählen. Sie können beispielsweise pseudo-class verwenden `a::visited {color: blue;}` , um die besuchten Links zu formatieren.
+
+1. Fügen Sie die Auswahl für den neuen Stil hinzu. Die **Selektor** -Feld unterstützt Sie beim Hinzufügen benutzerdefinierter Selektoren neben der Kombination aus Klasse, Tag und Pseudo-Klasse . Sie können beispielsweise `table a.link` -Stil für alle Hyperlinks in einer Tabelle.
+
+   Weitere Informationen zu CSS-Tags finden Sie unter [Siehe CSS-Stilgrammatik .](https://www.w3.org/TR/CSS21/syndata.html#characters).
+
 1. Klicken Sie auf **Fertig**.
 
-   Ein neuer Stil wird erstellt und im Basisstil hinzugefügt.
+   Ein neuer Stil wird erstellt und der Stilliste hinzugefügt.
 
 ### Vordefinierten oder neuen Stil anpassen {#customize-style}
 
@@ -143,17 +154,26 @@ Gehen Sie wie folgt vor, um einen Stil anzupassen:
 
    Dadurch wird das Stylesheet zur Bearbeitung geöffnet und die Liste der Stile im Bedienfeld &quot;Stile&quot;angezeigt.
 
-   <img src="assets/customize-style.png" alt="Stil anpassen" width="450">
+   <img src="assets/customize-style.png" alt="Stil anpassen" width="800">
 
-1. Um einen Stil anzupassen, doppelklicken Sie auf einen Stil oder klicken Sie auf das Symbol > vor einem Stil, um ihn mithilfe des Stileditors anzuzeigen und anzupassen.
+1. Um einen Stil anzupassen, wählen Sie den Stil aus, der angezeigt werden soll, und passen Sie ihn mithilfe des Stileditors an.
 
-Weitere Informationen zum Arbeiten mit den gängigsten Stilen finden Sie unter [Arbeiten mit allgemeinen Inhaltsstilen](stylesheet.md).
+
+### Eigenschaften von Stilen
+
+Im mittleren Bereich können Sie die Eigenschaften bearbeiten. Es kann jedoch schwierig sein, eine Momentaufnahme aller vorhandenen Werte zu erhalten.  Die **Eigenschaften** gibt einen schnellen Überblick über alle Attribute und Werte des Stils.
+
+Im mittleren Bereich können Sie die häufig verwendeten Eigenschaften bearbeiten, jedoch nicht alle von CSS unterstützten Eigenschaften. Im **Eigenschaften** können Sie alle von CSS unterstützten Eigenschaften bearbeiten und eine Vorschau davon anzeigen. Sie müssen nicht zur Quellansicht wechseln, um Eigenschaften zu bearbeiten.
+
+
+Erfahren Sie mehr über die Verwendung des Stileditors zum [Arbeiten mit allgemeinen Inhaltsstilen](stylesheet.md).
 
 ## Arbeiten mit Ressourcen {#work-with-resources}
 
 Dies ist ein Container für alle Assets, die zum Entwerfen einer Vorlage verwendet werden. Sie können sich dies als Ordner vorstellen, der Assets wie Hintergrundbilder, benutzerdefinierte Schriftarten, Logos und mehr enthält. Jedes Mal, wenn Sie ein Asset in Ihrer Vorlage hinzufügen, wird es in den Asset-Ordner hochgeladen oder dort eingecheckt. Anschließend können Sie diese Assets verwenden, um Ihre PDF-Vorlagen anzupassen oder zu entwerfen.
 
 Gehen Sie wie folgt vor, um eine Asset-Datei zum Ordner Ressourcen hinzuzufügen:
+
 1. Bewegen Sie den Mauszeiger über die Registerkarte Ressourcen-Ordner , klicken Sie auf das Symbol Optionen ... und wählen Sie Importieren.
 
    Dadurch wird das Dialogfeld &quot;Assets hochladen&quot;geöffnet.

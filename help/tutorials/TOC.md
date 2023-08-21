@@ -2,9 +2,9 @@
 user-guide-title: Tutorials für AEM Guides
 user-guide-description: Lesen Sie unsere Sammlung an Tutorials für Adobe Experience Manager Guides.
 breadcrumb-title: Tutorials für AEM Guides
-source-git-commit: 33c4a7b452049ab130f7bcdf9e8a90ecead32170
+source-git-commit: 49b1876f2e9ac653ced74bddb03a585c5154b8b6
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1444'
 ht-degree: 6%
 
 ---
@@ -158,6 +158,7 @@ ht-degree: 6%
          + [Zusätzliche Sonderzeichen konfigurieren](./web-editor/configure-additional-special-characters.md)
       + [Verwalten von Veröffentlichungsaufgaben mit dem Veröffentlichungs-Dashboard](./user-guide/generate-output-publish-dashboard.md)
       + [Grundlegende Fehlerbehebung](./user-guide/generate-output-basic-troubleshooting.md)
+      + [In einem Inhaltsfragment veröffentlichen](./user-guide/publish-content-fragment.md)
       + Massenaktivierung von Inhalten {#bulk-activation}
          + [Massenaktivierung veröffentlichter Inhalte](./user-guide/conf-bulk-activation.md)
          + [Erstellen einer Massen-Aktivierungszuordnung](./user-guide/conf-bulk-activation-create-map-collection.md)
@@ -255,6 +256,7 @@ ht-degree: 6%
                + [Verwenden von JavaScript zum Arbeiten mit Inhalt oder Stil](./native-pdf/use-javascript-content-style.md)
                + [Verwenden benutzerdefinierter Stile in Fußnoten](./native-pdf/footnote-number-style.md)
             + [JVM-Flags für native PDF-Veröffentlichung konfigurieren](./native-pdf/configure-jvm-flags.md)
+         + [Erstellen einer Zuordnung zwischen einem Thema und einem Inhaltsfragment](./install-guide/conf-content-fragment-mapping.md)
       + Arbeiten mit benutzerdefinierten Workflows {#custom-workflow}
          + [Workflows konfigurieren und anpassen](./install-guide/customize-workflows.md)
       + Arbeiten mit Übersetzungskonfigurationen {#translate-config}
