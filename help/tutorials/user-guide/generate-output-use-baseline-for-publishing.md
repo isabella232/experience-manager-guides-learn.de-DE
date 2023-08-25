@@ -2,9 +2,9 @@
 title: Arbeiten mit Grundlinien
 description: Erfahren Sie, wie Sie mit Grundlinie arbeiten
 exl-id: dcafab53-c388-48c3-9455-e4251cdda17d
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8e2e2c60f223b3967fad10372abee3192016c4ef
 workflow-type: tm+mt
-source-wordcount: '1917'
+source-wordcount: '1936'
 ht-degree: 0%
 
 ---
@@ -41,52 +41,32 @@ Sie können eine Baseline mit einer bestimmten Version der Themen und referenzie
 
 Führen Sie die folgenden Schritte aus, um eine Grundlinie zu erstellen:
 
-1. Klicken Sie auf der Seite &quot;Grundlinien&quot;auf **Erstellen**.
+1. Klicken Sie auf der Seite Grundlinien auf **Erstellen**.
 1. Geben Sie einen Namen für die Grundlinie in **Baseline Name**.
-1. In **Version basierend auf festlegen** wählen Sie eine der folgenden Optionen aus:
+   ![eine Grundlinie erstellen](images/create-baseline.png){width="800" align="left"}
+1. In **Version basierend auf festlegen** eine der folgenden Optionen auswählen:
 
-   - **Titel**: Wählen Sie diese Option aus, um die Themen entsprechend dem Titel auszuwählen, der auf sie angewendet wird. Geben Sie einen Titel ein, um die Liste nach der eingegebenen Zeichenfolge zu filtern. Aus der gefilterten Liste können Sie eine Bezeichnung auswählen, um Themen und andere Assets mit der angegebenen Bezeichnung auszuwählen.
+   - **Titel**: Wählen Sie diese Option aus, um die Themen entsprechend dem Titel auszuwählen, der auf sie angewendet wurde. Geben Sie einen Titel ein, um die Liste nach der eingegebenen Zeichenfolge zu filtern. Aus der gefilterten Liste können Sie eine Bezeichnung auswählen, um Themen und andere Assets mit der angegebenen Bezeichnung auszuwählen.
+
    Wenn Sie **Titel** erhalten Sie außerdem eine zusätzliche Option, um die neueste Version der Themen zu verwenden, auf die die angegebene Bezeichnung nicht angewendet wurde. Wenn Sie diese Option nicht auswählen und eine Themen- oder Mediendatei nicht mit der angegebenen Beschriftung versehen ist, schlägt der Prozess der Grundlinienerstellung fehl. Weitere Informationen zum Hinzufügen von Bezeichnungen finden Sie unter [Verwenden von Bezeichnungen](web-editor-use-label.md#).
 
    - **Version auf** &lt;*Zeitstempel*\>: Wählt die Version des Themas als Datum und Uhrzeit aus. Beachten Sie, dass die hier angegebene Uhrzeit der Zeitzone Ihres AEM-Servers entspricht. Wenn sich Ihr Server in einer anderen Zeitzone befindet, werden die Themen gemäß der Zeitzone Ihres Servers und nicht Ihrer lokalen Zeitzone abgerufen.
 
    Nachdem Sie eine Bezeichnung oder Version als Datum ausgewählt haben, werden alle referenzierten Themen und Mediendateien in der Zuordnung entsprechend ausgewählt. Diese Themenauswahl wird nicht auf der Benutzeroberfläche angezeigt, sondern im Backend gespeichert.
 
-1. Wenn Sie eine andere Version für ein oder mehrere Themen verwenden möchten, können Sie dies tun, indem Sie diese Themen manuell auswählen. Klicken **Thema durchsuchen**, wählen Sie das Thema aus, für das Sie eine andere Version verwenden möchten. Wählen Sie aus der Dropdownliste Version für das ausgewählte Thema auswählen eine Version des Themas aus, das Sie in der Grundlinie verwenden möchten, und klicken Sie auf **OK**.
-
-   ![](images/baseline-select-version-drop-down.png){width="800" align="left"}
-
-   Die Informationen zum Thema und zur ausgewählten Version werden im Backend gespeichert. Sie können diesen Schritt wiederholen, um die ausgewählte Version für mehrere Themen zu ändern.
-
-1. Klicken Sie auf **Alle Themen durchsuchen** Link zum Laden aller Themen und Mediendateien, auf die in der DITA-Zuordnung verwiesen wird. Die UUID der Themen und Mediendateien wird auch unter dem Thementitel oder dem Dateinamen \(media\) angezeigt.
-
    >[!NOTE]
    >
-   > Wenn Ihre DITA-Map sehr große Dateien mit verschachtelten Karten und Themen enthält, kann es etwas dauern, bis alle Dateien geladen werden, wenn Sie auf Alle Themen durchsuchen klicken.
-
-   Der Inhalt Ihrer Karte wird in den drei Abschnitten dargestellt: Zuordnungsdatei, Inhalt \(Themenverweise\) und Referred Content \(verschachtelte Themen, Zuordnungen und andere Assets\). Sobald der gesamte referenzierte Inhalt verfügbar ist, können Sie einzeln die Version des Themas auswählen, das Sie in Ihrer Grundlinie verwenden möchten.
-
-   Die **Version** in der Dropdown-Liste werden die verfügbaren Versionen der Themen oder des referenzierten Inhalts angezeigt. Für den referenzierten Inhalt haben Sie die Möglichkeit, automatisch eine Version auszuwählen.
-
-   Wenn Sie **Automatisch auswählen** für den referenzierten Inhalt wählt das System automatisch die Version des referenzierten Inhalts aus, die der Version des Inhalts entspricht, in dem er referenziert wird. Nehmen wir beispielsweise an, ein Thema A verweist auf ein Bild B. Bei der Erstellung von Version 1.5 von Thema A war die Version von Bild B 1.2 im Repository. Wenn jetzt eine Grundlinie mit Version 1.5 des Themas A erstellt wird, wobei Bild B auf **Automatisch auswählen**, wählt das System automatisch Version 1.2 von Bild B aus.
-
-   Wenn Sie eine Grundlinie mithilfe der Beschriftungen erstellen, **Automatisch auswählen** wird auf die Version aller referenzierten Inhalte angewendet.
-
-   Wenn der referenzierte Inhalt oder die Assets \(Thema, Unter-Maps, Bilder oder Videos\) nicht versioniert werden \(z. B. neu hochgeladene Inhalte\), erstellt die Erstellung einer Grundlinie eine Version für diese Dateien. Wenn Ihre Dateien jedoch versioniert sind, wird für diese Dateien keine inkrementelle Version erstellt. Dieses Verhalten wird durch die Einstellung zur automatischen Versionserstellung gesteuert, die standardmäßig aktiviert ist. Dies ist auch für die Übersetzung von Inhalten erforderlich, wobei der Übersetzungsprozess erwartet, dass alle Dateien über eine Version verfügen.
-
-   >[!NOTE]
-   >
-   > Wenn Sie für eine Ressource eine andere Version festlegen möchten, wählen Sie dazu die gewünschte Version aus dem **Version** Dropdown-Liste.
+   >Die Verwendung der Variablen **Alle Themen durchsuchen** beim Erstellen einer Grundlinie.
 
 1. Klicken Sie auf **Speichern**.
 
 ## Inhalt einer Grundlinie anzeigen {#id195FI0I0TLN}
 
-Sie können den Inhalt einer vorhandenen Grundlinie anzeigen, indem Sie auf die Registerkarte Grundlinien klicken und die gewünschte Grundlinienversion aus der Liste auswählen. Die Seite &quot;Grundlinien&quot;ist in drei Teile unterteilt: DITA-Zuordnungsdatei, Inhalt oder Themen der Zuordnung und der referenzierte Inhalt. Wenn Ihre Zuordnung Unterkarten enthält, werden die in der Unterzuordnung referenzierten Themen auch im Abschnitt Inhalt angezeigt. Die verschiedenen Spalten auf der Seite &quot;Grundlinie&quot;werden nachfolgend beschrieben:
+Sie können den Inhalt einer vorhandenen Grundlinie anzeigen, indem Sie auf die Registerkarte Grundlinien klicken und die gewünschte Grundlinienversion aus der Liste auswählen. Die Seite &quot;Grundlinien&quot;ist in drei Teile unterteilt: DITA-Zuordnungsdatei, Inhalt oder Themen der Zuordnung und der referenzierte Inhalt. Wenn Ihre Zuordnung Unterkarten enthält, werden die in der Unterzuordnung referenzierten Themen auch im Abschnitt Inhalt angezeigt. Die verschiedenen Spalten auf der Seite &quot;Grundlinie&quot;werden im Folgenden beschrieben:
 
 - **Name**: Listet die DITA-Zuordnung oder den Titel des Themas oder den Namen des Assets auf, z. B. den Dateinamen eines Bildes.
 
-- **Kind**: Listet die Art oder den Typ des Assets in der Zuordnung auf, z. B. DITA-Zuordnung, DITA-Thema oder Bildformat.
+- **Kind**: Listet die Art oder den Typ des Assets in der Zuordnung wie DITA-Zuordnung, DITA-Thema oder Bildformat auf.
 
 - **Version**: Listet die Version des Assets auf, die in der Grundlinie verfügbar ist.
 
@@ -108,6 +88,31 @@ Führen Sie die folgenden Schritte aus, um eine vorhandene Grundlinie zu bearbei
 
 1. Wählen Sie die Grundlinie aus und klicken Sie auf **Bearbeiten**.
 1. Nehmen Sie die erforderlichen Änderungen an der Grundlinie vor. Sie können den Namen und die Version des Themas oder des referenzierten Inhalts ändern.
+1. Wenn Sie eine andere Version für ein oder mehrere Themen verwenden möchten, können Sie dies tun, indem Sie diese Themen manuell auswählen. Klicks **Thema durchsuchen**, wählen Sie das Thema aus, für das Sie eine andere Version verwenden möchten. Wählen Sie aus der Dropdownliste Version für das ausgewählte Thema auswählen eine Version des Themas aus, das Sie in der Grundlinie verwenden möchten, und klicken Sie auf **OK**.
+
+   ![](images/baseline-select-version-drop-down.png){width="800" align="left"}
+
+   Die Informationen zum Thema und zur ausgewählten Version werden im Backend gespeichert. Sie können diesen Schritt wiederholen, um die ausgewählte Version für mehrere Themen zu ändern.
+
+1. Um alle Themen und Mediendateien zu laden, auf die in der DITA-Map verwiesen wird, klicken Sie auf die Schaltfläche **Alle Themen durchsuchen** -Link. Die UUID von Themen und Mediendateien wird auch unter dem Thementitel oder dem \(media\) Dateinamen angezeigt.
+
+   >[!NOTE]
+   >
+   > Wenn Ihre DITA-Map sehr große Dateien mit verschachtelten Karten und Themen enthält, kann es etwas dauern, bis alle Dateien geladen werden, wenn Sie auf Alle Themen durchsuchen klicken.
+
+   Der Inhalt Ihrer Zuordnung wird in den drei Abschnitten dargestellt: Zuordnungsdatei, Inhalt \(Themenverweise\) und Referrer-Inhalt \(verschachtelte Themen, Maps und andere Assets\). Sobald der gesamte referenzierte Inhalt verfügbar ist, können Sie einzeln die Version des Themas auswählen, das Sie in Ihrer Grundlinie verwenden möchten.
+
+   Die **Version** in der Dropdown-Liste werden die verfügbaren Versionen der Themen oder des referenzierten Inhalts angezeigt. Für den referenzierten Inhalt haben Sie die Möglichkeit, automatisch eine Version auszuwählen.
+
+   Wenn Sie **Automatisch auswählen** für den referenzierten Inhalt wählt das System automatisch die Version des referenzierten Inhalts aus, die der Version des Inhalts entspricht, in dem er referenziert wird. Nehmen wir beispielsweise an, ein Thema A verweist auf ein Bild B. Bei der Erstellung von Version 1.5 von Thema A war die Version von Bild B 1.2 im Repository. Wenn jetzt eine Grundlinie mit Version 1.5 des Themas A erstellt wird, wobei Bild B auf **Automatisch auswählen**, wählt das System automatisch Version 1.2 von Bild B aus.
+
+   Wenn Sie eine Grundlinie mithilfe der Beschriftungen erstellen, **Automatisch auswählen** wird auf die Version aller referenzierten Inhalte angewendet.
+
+   Wenn der referenzierte Inhalt oder die Assets \(Thema, Unter-Maps, Bilder oder Videos\) nicht versioniert werden \(z. B. neu hochgeladene Inhalte\), erstellt die Erstellung einer Grundlinie eine Version für diese Dateien. Wenn Ihre Dateien jedoch versioniert sind, wird für diese Dateien keine inkrementelle Version erstellt. Dieses Verhalten wird durch die Einstellung zur automatischen Versionserstellung gesteuert, die standardmäßig aktiviert ist. Dies ist auch für die Übersetzung von Inhalten erforderlich, wobei der Übersetzungsprozess erwartet, dass alle Dateien über eine Version verfügen.
+
+   >[!NOTE]
+   >
+   > Wenn Sie für eine Ressource eine andere Version festlegen möchten, wählen Sie dazu die gewünschte Version aus dem **Version** Dropdown-Liste.
 1. Klicken Sie auf **Speichern**.
 
 **Grundlinien duplizieren**
@@ -130,7 +135,7 @@ Führen Sie die folgenden Schritte aus, um eine Bezeichnung zu mehreren Themen u
    >
    > Stellen Sie sicher, dass Ihre Grundlinie nicht über die neueste Version eines Themas oder Assets verfügt. Eine Bezeichnung kann nur zu einem Thema oder einem Asset mit Versionsangabe hinzugefügt werden.
 
-1. Klicken **Hinzufügen von Bezeichnungen**.
+1. Klicks **Hinzufügen von Bezeichnungen**.
 
    ![](images/add-label-baseline-uuid.png){width="800" align="left"}
 
@@ -143,7 +148,7 @@ Führen Sie die folgenden Schritte aus, um eine Bezeichnung zu mehreren Themen u
    - Klicken Sie auf **Hinzufügen**.
 Die angegebene Bezeichnung wird der DITA-Zuordnung sowie den referenzierten Themen und Inhalten hinzugefügt.
 
-      ![](images/label-added-baseline-uuid.png){width="650" align="left"}
+     ![](images/label-added-baseline-uuid.png){width="650" align="left"}
 
 
 ## Exportieren der übersetzten Grundlinie {#id196SE600GHS}
@@ -166,7 +171,7 @@ Führen Sie die folgenden Schritte aus, um eine übersetzte Grundlinie zu export
 
 1. Wählen Sie die **Grundlinie verwenden** und wählen Sie die Grundlinie aus, die Sie exportieren möchten.
 
-1. Klicken **Exportgrundlinie**.
+1. Klicks **Exportgrundlinie**.
 
    Der Exportstatus wird angezeigt. Wenn der Prozess erfolgreich war, wird Ihnen eine Meldung angezeigt, in der die Sprache erwähnt wird, für die die Grundlinie exportiert wird. Im Fall eines Fehlers wird die Fehlerursache angezeigt.
 
