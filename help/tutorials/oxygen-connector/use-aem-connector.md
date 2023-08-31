@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie mit dem Oxygen-Plug-in für Adobe Experience 
 hide: true
 hidefromtoc: true
 exl-id: 2db9a34e-2efa-47ad-ba6b-02afc5197669
-source-git-commit: a77f93ddc14b6beb440eaa314eebe53fd00265d7
+source-git-commit: 7fbc6d22fd2f93b7b5bf3233f7ebdd0cb020dda2
 workflow-type: tm+mt
-source-wordcount: '5952'
+source-wordcount: '6038'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ Nachdem Sie das Plug-in heruntergeladen und installiert haben, müssen Sie Folge
 
 - **Webauthentifizierungseinstellungen**: Einstellungen für die SSO-Authentifizierung im Plug-in für AEM Handbücher.
 - **Allgemeine Einstellungen**: Verbindungsparameter für das Plug-in, z. B. AEM Server-URL, Anmeldedaten usw.
-- **Voreinstellung für die Profilattributanpassung**: Diese Konfiguration ist für die Profilattributschemata für die Dokumentationssätze erforderlich.
+- **Voreinstellung für die Profilattributanpassung und Dateinamen in Querverweisen**: Diese Konfiguration ist für die Profilattributschemata für die Dokumentationssätze erforderlich.
 
 ### Webauthentifizierungseinstellungen
 
@@ -236,11 +236,11 @@ Führen Sie die folgenden Schritte aus, um die Verbindungseinstellungen im Sauer
    - **Datei für automatisches Auschecken beim Öffnen**: Wenn diese Option aktiviert ist, wird sie durch Doppelklicken auf eine Datei automatisch ausgecheckt und zur Bearbeitung geöffnet. Wenn die Datei bereits ausgecheckt ist, wird sie einfach zur Bearbeitung geöffnet. Wenn diese Option nicht ausgewählt ist, wird eine Datei, für die Sie keine Sperre haben, im schreibgeschützten Modus geöffnet.
 1. Klicken Sie auf **OK**.
 
-### Voreinstellung für die Profilattributanpassung {#id1827K0D0OHT}
+### Voreinstellung für die Profilattributanpassung und Dateinamen in Querverweisen {#id1827K0D0OHT}
 
-Sie müssen die Voreinstellungen in der Oxygen XML Author konfigurieren, um das Profilattribut zu verwenden, das den DITA-Themen im AEM Repository zugeordnet ist.
+Sie müssen die Voreinstellungen in der Oxygen XML Author konfigurieren, um das Profilattribut zu verwenden, das den DITA-Themen im AEM Repository zugeordnet ist. Außerdem müssen Sie die Voreinstellung so konfigurieren, dass Dateinamen anstelle von GUIDs in den Querverweisen angezeigt werden.
 
-Führen Sie die folgenden Schritte aus, um Profilattribute zu konfigurieren:
+Führen Sie die folgenden Schritte aus, um Profilattribute und Querverweise zu konfigurieren:
 
 1. Klicken Sie in Oxygen XML Author auf **Optionen** \> **Voreinstellungen**.
 1. Im **Dokumenttyp-Zuordnung** Registerkarte auswählen **DITA** und klicken Sie anschließend auf **Erweitern**.
@@ -257,6 +257,11 @@ Führen Sie die folgenden Schritte aus, um Profilattribute zu konfigurieren:
 Der folgende Screenshot zeigt die konfigurierte **Erweiterung** Registerkarte für DITA-Themen:
 
      ![Konfigurierte Erweiterung für DITA-Themen](images/dita-topic-extension-tab.png){width="650" align="left"}
+
+   - Klicks **Auswählen** neben dem **Erweiterungspaket** und wählen Sie LinkResolverExtensionBundle - com.adobe.o2.framework.extn im **Klasse** Liste. Klicken Sie auf **OK**.
+
+     ![Konfigurierte Erweiterung für DITA-Themen](images/dita-map-extenstion-link-resolve.png) {width="650" align="left"}
+
 
 1. Klicks **OK** in allen Dialogfeldern, um Ihre Änderungen zu speichern.
 
@@ -472,7 +477,7 @@ Wenn Sie mehrere Ordner haben, ist es nicht einfach herauszufinden, wie viele Da
 
 Führen Sie die folgenden Schritte aus, um Dateien oder Ordner hochzuladen:
 
-1. Klicken Sie im Bereich &quot;AEM Handbücher&quot;mit der rechten Maustaste auf einen Ordner.
+1. Klicken Sie mit der rechten Maustaste auf einen Ordner im Bedienfeld AEM Handbücher .
 1. Wählen Sie eine der folgenden Optionen aus:
    - **Datei hochladen\(en\)**: Wählen Sie diese Option, um einzelne oder mehrere Dateien in den ausgewählten Ordner im AEM-Repository hochzuladen. Wählen Sie im Dialogfeld Zu ladende Dateien auswählen die Dateien aus und klicken Sie auf **Öffnen**.
    - **Hochladen mit abhängigen Elementen**: Wählen Sie diese Option, um eine DITA-Datei mit den abhängigen Elementen hochzuladen. Wählen Sie im Dialogfeld Zu ladende Datei auswählen die Dateien aus und klicken Sie auf **Öffnen**.
@@ -496,6 +501,7 @@ Beim Verschieben oder Kopieren von Inhalten aus Ihrem lokalen System in AEM Repo
 
 - Wenn Sie Inhalte aus AEM Repository auschecken und Änderungen auf Ihrem lokalen System vornehmen, stellen Sie sicher, dass der Dateiname zum Zeitpunkt des Hochladens der Datei nicht geändert wird.
 
+- Wenn Sie einen Verweis in den DITA Maps Manager einfügen, wird der Titel der Datei und nicht die UUID angezeigt. Wenn der Titel nicht vorhanden ist, wird der Dateiname angezeigt.
 
 ### Favoriten hinzufügen oder entfernen {#id195HC04405P}
 

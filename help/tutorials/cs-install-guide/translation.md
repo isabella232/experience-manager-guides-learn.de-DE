@@ -1,10 +1,10 @@
 ---
 title: Inhalte übersetzen
 description: Erfahren Sie, wie Sie Inhalte übersetzen
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 4d54c52b8771b0c5a40018cfec3a6586029af2fb
 workflow-type: tm+mt
 source-wordcount: '711'
-ht-degree: 12%
+ht-degree: 16%
 
 ---
 
@@ -20,7 +20,7 @@ Automatisieren Sie die Übersetzung von Seiteninhalten, Assets und benutzergener
 
 Die Übersetzung der Inhalte umfasst die folgenden Schritte:
 
-1. AEM mit Ihrer [Übersetzungsdienstleister](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) und Erstellen von Framework-Konfigurationen für die Übersetzungsintegration.
+1. AEM mit Ihrer [Übersetzungsdienstleister](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) und erstellen Sie Framework-Konfigurationen für die Übersetzungsintegration.
 
 1. Verknüpfen Sie die Seiten Ihres Sprachstamms mit dem Übersetzungsdienstleister und den Framework-Konfigurationen.
 
@@ -28,16 +28,16 @@ Die Übersetzung der Inhalte umfasst die folgenden Schritte:
 
 1. [Bereiten Sie die Inhalte für die Übersetzung vor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=en), indem Sie den Sprachstamm und die Stammseiten der Sprachkopien erstellen.
 
-1. Erstellen [Übersetzungsprojekte](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) , um die zu übersetzenden Inhalte zu sammeln und den Übersetzungsprozess vorzubereiten.
+1. Erstellen [Übersetzungsprojekte](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=de) , um die zu übersetzenden Inhalte zu sammeln und den Übersetzungsprozess vorzubereiten.
 
-1. Verwenden Sie Übersetzungsprojekte, um [Verwalten der Inhaltsübersetzung](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) Prozess.
+1. Verwenden Sie Übersetzungsprojekte, um [Verwalten der Inhaltsübersetzung](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=de) -Prozess.
 
 
 Wenn Ihr Übersetzungsanbieter keinen Connector zur Integration mit AEM bereitstellt, unterstützt AEM den manuellen Export und Import von übersetzten Inhalten im XML-Format.
 
 >[!TIP]
 >
-> Siehe *Übersetzung* im Handbuch Best Practices für Best Practices zur Übersetzung von Inhalten.
+> Siehe *Übersetzung* im Leitfaden zu Best Practices Best Practices für die Übersetzung von Inhalten.
 
 ## Konfigurieren der Registerkarte &quot;Übersetzung&quot;im DITA-Map-Dashboard
 
@@ -48,7 +48,7 @@ So blenden Sie die Registerkarte Übersetzung im DITA Map-Dashboard aus:
 
    | PID | Eigenschaftenschlüssel | Eigenschaftswert |
    |---|------------|--------------|
-   | `com.adobe.fmdita.config.ConfigManager` | `hide.tabs.translation` | Boolesch \( true/false\).<br> **Standardwert**: `true` |
+   | `com.adobe.fmdita.config.ConfigManager` | `tabs.translation` | Boolesch \( true/false\).<br> **Standardwert**: `true` |
 
    >[!NOTE]
    >
@@ -67,7 +67,7 @@ Basierend auf dem in Ihrem Setup verwendeten Übersetzungs-Workflow sollte die O
 
 >[!NOTE]
 >
-> Wenn Sie Übersetzungs-Connector verwenden, stellen Sie sicher, dass Sie den Connector wie im Abschnitt *[Konfigurieren des Framework für die Übersetzungsintegration](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)* Thema in AEM Dokumentation.
+> Wenn Sie Übersetzungs-Connector verwenden, stellen Sie sicher, dass Sie den Connector wie im Abschnitt *[Konfigurieren des Übersetzungsintegrations-Frameworks](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)* Thema in AEM Dokumentation.
 
 >[!IMPORTANT]
 >

@@ -1,7 +1,7 @@
 ---
 title: Anpassen und Konfigurieren der Funktion zur nativen PDF-Veröffentlichung
 description: Erfahren Sie, wie Sie die verschiedenen Komponenten der nativen PDF-Funktion anpassen und konfigurieren.
-source-git-commit: 1757b29820cb45970657b46b54ae99d6099fbc84
+source-git-commit: 7bee42be8975ee25254e185edee67778ff3e1294
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 0%
@@ -30,3 +30,4 @@ Weitere Informationen finden Sie unter:
    * [Hinzufügen eines benutzerdefinierten Lesezeichens in der PDF-Ausgabe](../native-pdf/add-custom-bookmark.md)
    * [Verwenden von JavaScript zum Arbeiten mit Inhalt oder Stil](../native-pdf/use-javascript-content-style.md)
    * [Verwenden benutzerdefinierter Stile in Fußnoten](../native-pdf/footnote-number-style.md)
+

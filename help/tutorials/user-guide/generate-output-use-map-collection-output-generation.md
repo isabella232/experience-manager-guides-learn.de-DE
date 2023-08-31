@@ -2,10 +2,10 @@
 title: Verwenden der Kartensammlung für die Ausgabegenerierung
 description: Erfahren Sie, wie Sie die Map Collection für die Ausgabegenerierung verwenden.
 exl-id: 32e3af6c-9670-42cc-8dbe-9f99fbc60adf
-source-git-commit: be1a61d9475185da594b382c1daf361d3fe60b08
+source-git-commit: 9196d7b1094149f06067c153b9c02c2cd20c18af
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 1%
+source-wordcount: '941'
+ht-degree: 0%
 
 ---
 
@@ -79,7 +79,13 @@ Um die Ausgabe mithilfe einer Map Collection zu konfigurieren und zu generieren,
      >  
      > Standardmäßig ist jede neue Vorgabe deaktiviert.
 
-   - Sie können **Alle Ordnerprofilvorgaben aktivieren/deaktivieren** für eine DITA-Zuordnung, um alle Ordnerprofile für sie in einem Schritt auszuwählen.
+1. Sie können die Vorgaben für eine DITA-Zuordnung wie folgt aktivieren:
+
+   - Aktivieren Sie jede einzelne Vorgabe.
+   - Aktivieren **Alle Vorgaben** für eine DITA-Zuordnung, um alle Vorgaben in einem Schritt auszuwählen. Diese Option ist standardmäßig deaktiviert.
+   - Aktivieren **Ordnerprofilvorgaben** für eine DITA-Zuordnung, um alle Ordner-Profilvorgaben auszuwählen. Diese Option ist standardmäßig deaktiviert.
+     ![Bearbeiten einer Zuordnungssammlung in Cloud Services](images/edit-map-collection-cs.png){width="800" align="left"}
+
 
 
 1. Führen Sie einen der folgenden Schritte aus:

@@ -2,9 +2,9 @@
 title: Übersetzen von Dokumenten aus dem Web Editor
 description: Erfahren Sie, wie Sie Dokumente aus dem Web Editor übersetzen können.
 exl-id: 02fc2b51-5b9a-4ad6-9e2e-726ab7602514
-source-git-commit: 7df3024578ad289d9c6e0ab8b93f9fc6b9ff0bfe
+source-git-commit: 15ba984275155489d7ac3878d4b1307a6cd076c6
 workflow-type: tm+mt
-source-wordcount: '1864'
+source-wordcount: '1885'
 ht-degree: 0%
 
 ---
@@ -55,11 +55,9 @@ Stellen Sie vor dem Ausführen der Schritte in diesem Verfahren sicher, dass Sie
    **Verwenden Sie die neueste Version wie unter**: Wählen Sie diese Option, um die Version der Themen nach Erstellungsdatum und -zeit zu filtern. Wenn Sie ein Datum und eine Uhrzeit auswählen, wird nur die neueste Version der Dateien angezeigt, die am oder vor dem ausgewählten Datum und der ausgewählten Uhrzeit erstellt wurden.
 
 1. Klicken Sie auf **Übernehmen**. Eine Liste mit Details zu Themen und zugehörigen Assets wird angezeigt.
-1. Wählen Sie die Themen aus, die Sie zur Übersetzung senden möchten.
+1. Wählen Sie die Themen aus, die Sie zur Übersetzung senden möchten. Sie können auch die Themenfilteroptionen für die folgenden Spalten verwenden:
 
-   Sie können auch die folgenden Themenfilteroptionen verwenden:
-
-   - **Titel**: Titel der Quelldatei
+   - **Titel**: Titel der Quelldatei.  Bewegen Sie den Mauszeiger über den Titel der Quelldatei, um den Titel der Zieldatei oder der übersetzten Datei anzuzeigen.
    - **Dateiname**: Name der Quelldatei
    - **Dateityp**: Typ der Quelldatei. Die verfügbaren Optionen sind &quot;Zuordnung&quot;, &quot;Thema&quot;und &quot;Bild&quot;.
    - **Referenztyp**: Direkte oder indirekte Verweise

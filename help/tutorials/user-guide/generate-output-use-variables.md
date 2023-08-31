@@ -1,13 +1,13 @@
 ---
 title: Verwenden Sie Variablen zum Festlegen der Optionen "Zielpfad", "Site-Name"oder "Dateiname"
-description: Erfahren Sie, wie Sie Variablen zum Festlegen der Optionen "Zielpfad", "Site-Name"oder "Dateiname"verwenden
-source-git-commit: 8b6294425c6e60d1c5b37d98e99114014a104ee6
+description: Erfahren Sie, wie Sie Variablen zum Festlegen der Optionen für Zielpfad, Site-Name oder Dateiname verwenden
+exl-id: e8d5b7c7-4f80-4ab6-9ad1-308bf0d4cf74
+source-git-commit: cf45be23a6369de1e510b7e8ee9cd1a2b61721e3
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
-
 
 # Verwenden Sie Variablen zum Festlegen der Optionen &quot;Zielpfad&quot;, &quot;Site-Name&quot;oder &quot;Dateiname&quot;
 
@@ -23,8 +23,9 @@ In der folgenden Tabelle sind die Variablen aufgeführt, die standardmäßig unt
 | `${preset_name}` | Verwendet den Namen der Ausgabevorgabe, um den Zielpfad zu erstellen. | **Name der Ausgabevorgabe**:<br>`AEM Guides PDF Output`<br><br>**DITA-Map-Dateiname**:<br>`SampleDita.ditamap`<br><br>**Zielpfad** konfiguriert als:<br>`/content/output/sites/${preset_name}`<br><br>**Endlicher Ausgabeort**:<br>`/content/output/sites/AEM Guides PDF Output/SampleDita.html` |
 | `${language_code}` | Verwendet den Sprachcode, in dem sich die Map-Datei befindet, um den Zielpfad zu erstellen. | **DITA-Map-Dateiname**:<br>`SampleDita.ditamap`<br><br>**DITA-Map-Dateipfad**:<br>`/content/dam/projects/AEM-Guides/en/user-guide/`<br><br>**Zielpfad** konfiguriert als:<br>`/content/output/sites/${language_code}`<br><br>**Endlicher Ausgabeort**:<br>`/content/output/sites/en/SampleDita.html` |
 | `${map_parentpath}` | Verwendet den vollständigen Pfad der Map-Datei, um den Zielpfad zu erstellen.<br><br>**Hinweis**:Diese Variable kann nicht verwendet werden, um den AEM Site-Namen oder PDF-Dateinamen anzugeben. | **DITA-Map-Dateiname**:<br>`SampleDita.ditamap`<br><br>**DITA-Map-Dateipfad**:<br>`/content/dam/projects/AEM-Guides/en/user-guide`/<br><br>**Zielpfad** konfiguriert als:<br>`/content/output/sites/${map_parentpath}`<br><br>**Endlicher Ausgabeort**:<br>`/content/output/sites/content/dam/projects/AEM-Guides/en/user-guide/SampleDita.html` |
-| `${path_after_langfolder}` | Verwendet den Pfad der Map-Datei nach dem Sprachordner, um den Zielpfad zu erstellen.<br><br>**Hinweis**: Diese Variable kann nicht zum Angeben des AEM Site-Namens oder PDF-Dateinamens verwendet werden. | **DITA-Map-Dateiname**:<br>`SampleDita.ditamap`<br><br>**DITA-Map-Dateipfad**:<br>`/content/dam/projects/AEM-Guides/en/user-guide/`<br><br>**Zielpfad** konfiguriert als:<br>`/content/output/sites/${path\_after\_langfolder}`<br><br>**Endlicher Ausgabeort**:<br>`/content/output/sites/user-guide/SampleDita.html` |
+| `${path_after_langfolder}` | Verwendet den Pfad der Map-Datei nach dem Sprachordner, um den Zielpfad zu erstellen.<br><br>**Hinweis**: Diese Variable kann nicht verwendet werden, um den AEM Site-Namen oder PDF-Dateinamen anzugeben. | **DITA-Map-Dateiname**:<br>`SampleDita.ditamap`<br><br>**DITA-Map-Dateipfad**:<br>`/content/dam/projects/AEM-Guides/en/user-guide/`<br><br>**Zielpfad** konfiguriert als:<br>`/content/output/sites/${path\_after\_langfolder}`<br><br>**Endlicher Ausgabeort**:<br>`/content/output/sites/user-guide/SampleDita.html` |
+| `${system_date}` | Verwendet das aktuelle Server-Datum, um den Zielpfad zu erstellen. | **DITA-Map-Dateiname**: <br> `SampleDita.ditamap` <br><br> **DITA-Map-Dateipfad:** <br> `/content/dam/projects/AEM-Guides/en/user-guide/` <br><br> **Zielpfad** konfiguriert als: <br> `/content/output/sites/${system_date}` <br> <br> **Endlicher Ausgabespeicherort:** <br> /`content/output/sites/08252023/SampleDita.html` |
+| `${system_time}` | Verwendet die aktuelle Serverzeit zum Erstellen des Zielpfads. | **DITA-Map-Dateiname:** <br>`SampleDita.ditamap` <br> <br> **DITA-Map-Dateipfad:** <br>`/content/dam/projects/AEM-Guides/en/user-guide/` <br><Br>**Zielpfad** konfiguriert als: <br> `/content/output/sites/${system_time}`<br><br>**Endlicher Ausgabespeicherort:**<br>`/content/output/sites/055612/SampleDita.html` |
 
 Darüber hinaus können Sie auch die für die DITA-Map- oder Bookmap-Datei definierten Metadaten als Variablen verwenden. Die Metadaten finden Sie unter der `/jcr:content/metadata` -Knoten der DITA-Map- oder Bookmap-Datei. Beispielsweise wird eine der Metadateneigenschaften definiert, die im `/jcr:content/metadata` node is `dc:title`. Sie können `${dc:title}` und der Titelwert in der endgültigen Ausgabe verwendet wird.
 **Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)
-

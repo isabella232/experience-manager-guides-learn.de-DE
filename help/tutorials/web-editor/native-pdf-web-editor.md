@@ -2,9 +2,9 @@
 title: Native PDF | PDF-Ausgabegenerierung
 description: Generieren einer PDF-Ausgabe in Adobe Experience Manager Guides as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: c11a9d2153dd2971a133ecd40325266b1d6e236c
+source-git-commit: 70801ab0e9465cea7568c7d8e67fcc7f41bae8ab
 workflow-type: tm+mt
-source-wordcount: '3071'
+source-wordcount: '3083'
 ht-degree: 1%
 
 ---
@@ -120,9 +120,9 @@ Um eine Variable zu verwenden, müssen Sie sie im `${<variable>}` Format.
 Beispielsweise eine der Metadateneigenschaften, die in / definiert sind`jcr:content/metadata` node is
 `dc:title`. Sie können `${dc:title}`, und der Titelwert wird in der endgültigen Ausgabe verwendet.
 
-Sie können eine einzelne oder eine Kombination von Variablen verwenden, um die Metadaten zu definieren. Beispiel: `${dc:title} ${dc:docstate}`.
+Sie können eine einzelne oder eine Kombination von Variablen verwenden, um die Metadaten zu definieren. Zum Beispiel: `${dc:title} ${dc:docstate}`.
 
-Sie können auch die Kombination aus einer Variablen und einer Zeichenfolge verwenden.  Beispiel: `View ${dc:title} in ${dc:language}`.
+Sie können auch die Kombination aus einer Variablen und einer Zeichenfolge verwenden.  Zum Beispiel: `View ${dc:title} in ${dc:language}`.
 
 
 **Layout**
@@ -159,7 +159,7 @@ Verwenden Sie die folgenden Optionen, um erweiterte Einstellungen zum Zusammenf�
 | **Verwenden Sie die vollständige Komprimierung, um die PDF-Größe zu optimieren.** | Wählen Sie diese Option aus, wenn Sie die Größe einer großen PDF komprimieren/verringern möchten. Beachten Sie, dass das Komprimieren des PDF die Dateiqualität beeinträchtigen kann. |
 | **Verwenden Sie die Bildkomprimierung zur Optimierung der PDF-Größe.** | Wählen Sie diese Option aus, wenn Sie die Größe der verwendeten Bilder in Ihrer PDF komprimieren/reduzieren möchten. Beachten Sie, dass das Komprimieren eines Bildes die Bildqualität beeinträchtigen kann. |
 | **Benutzerdefinierte Auflösung verwenden (Pixel pro Zoll)** | Dies ist die Seitenanzeigeauflösung in Pixel pro Zoll. Geben Sie einen bevorzugten Wert in das Feld ein, das bei Auswahl dieser Option angezeigt wird. Der Standardwert ist 96 Pixel pro Zoll. Legen Sie einen höheren Wert fest, um mehr Inhalt in Zoll einzupassen, und umgekehrt, wenn Sie einen niedrigeren Wert festlegen. |
-| **Wasserzeichen anzeigen** | Wählen Sie diese Option, um die in Ihrem Inhalt vorhandenen MathML-Gleichungen zu rendern. Andernfalls werden die Gleichungen ignoriert. |
+| **Wasserzeichen anzeigen** | Wählen Sie diese Option, um ein Wasserzeichen in der Ausgabe zu überlagern. Sie können eine neue Textzeichenfolge in das Textfeld eingeben, wobei das Zeichen wie gewünscht Groß-/Kleinschreibung verwendet wird. |
 | **Aktivieren von MathML-Gleichungen** | Wählen Sie diese Option, um die in Ihrem Inhalt vorhandenen MathML-Gleichungen zu rendern. Die Gleichungen werden standardmäßig ignoriert. |
 | **PDF-Konformität** | Dies ist der Standard, den Sie speichern möchten, um sicherzustellen, dass Ihre PDF konform ist. Wählen Sie aus der Dropdown-Liste aus, um aus der Liste der verfügbaren PDF-Standards auszuwählen. Weitere Informationen zu den unterstützten Standards finden Sie unter [Über PDF-Standards](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
 | **Herunterladen temporärer Dateien** | Wählen Sie diese Option aus, wenn Sie die Zwischendatei-HTML herunterladen möchten, die beim Generieren der nativen PDF-Ausgabe erstellt wurde. Sie können die temporären Dateien später herunterladen, nachdem Sie die Ausgabe generiert haben. |

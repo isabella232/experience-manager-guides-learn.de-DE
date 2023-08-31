@@ -1,9 +1,9 @@
 ---
 title: Inhaltsfragment aus Ihrer Datenquelle einfügen
 description: Erfahren Sie, wie Sie einen Inhaltsausschnitt aus Ihrer Datenquelle einfügen
-source-git-commit: af5ec027ea093a28ba2a2ffd0ca3895546ed6e76
+source-git-commit: 71a64a35d065da10783d8e1a035ea1c4728e35f4
 workflow-type: tm+mt
-source-wordcount: '1685'
+source-wordcount: '1723'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,22 @@ A **Datenquelle** ist ein System, in dem Sie die Daten für Ihr Unternehmen spei
 
 ## Data Sources-Bedienfeld
 
-Auswählen **Data Sources** ![](images/data-source-icon.svg) im linken Bereich, um die verbundenen Datenquellen anzuzeigen. Das Bedienfeld Data Sources wird geöffnet und zeigt alle verbundenen Datenquellen an. Weitere Informationen finden Sie unter [Konfigurieren eines Datenquellen-Connectors](../install-guide/conf-data-source-connector.md).
+Auswählen **Data Sources** ![](images/data-source-icon.svg) im linken Bereich, um die verbundenen Datenquellen anzuzeigen. Das Bedienfeld Data Sources wird geöffnet und zeigt alle verbundenen Datenquellen an.
+
+Je nach Einrichtung kann Ihr Administrator einen Datenquellen-Connector konfigurieren:
+
+<details>
+<summary> Cloud Services </summary>
+
+Erfahren Sie, wie [Konfigurieren eines Datenquellen-Connectors](../cs-install-guide/conf-data-source-connector.md) im Cloud Service-Installations- und Konfigurationshandbuch.
+</details>
+
+<details>    
+<summary>  On-Premise Software </summary>
+
+Erfahren Sie, wie [Konfigurieren eines Datenquellen-Connectors](../install-guide/conf-data-source-connector.md)  im On-Premise-Installations- und Konfigurationshandbuch.
+</details>
+
 
 >[!NOTE]
 >
@@ -74,7 +89,7 @@ Die nativen Vorlagen für die ausgewählte Datenquelle werden in der Dropdown-Li
 1. Sie können die Daten in der Vorschau oder in der DITA-Quellansicht anzeigen.
 
    1. Die Vorschau zeigt an, wie die Daten beim Einfügen in den Inhalt angezeigt werden. Die Vorschau zeigt einen kleinen Teil der Daten im Format der ausgewählten Vorlage an.
-Beispiel:
+Zum Beispiel:
       - Wenn Sie die Vorlage &quot;sql-table&quot;ausgewählt haben, können Sie die SQL-Daten im Tabellenformat anzeigen.
       - Wenn Sie die Vorlage &quot;jira-ordered-list&quot;ausgewählt haben, können Sie eine geordnete Liste für die Jira-Probleme anzeigen.
 

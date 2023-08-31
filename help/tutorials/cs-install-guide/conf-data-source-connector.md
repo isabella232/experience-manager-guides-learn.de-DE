@@ -1,9 +1,9 @@
 ---
 title: Konfigurieren eines Datenquellen-Connectors
 description: Erfahren Sie, wie Sie einen Datenquellen-Connector konfigurieren
-source-git-commit: 760d765a364a49aaff8787eea4f067b3f0e25103
+source-git-commit: 2e7f9fb0a5932cc6fa5852ba8d9b9bf13ab12aed
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '457'
 ht-degree: 1%
 
 ---
@@ -11,13 +11,13 @@ ht-degree: 1%
 
 # Konfigurieren eines Datenquellen-Connectors
 
-AEM Guides bietet vordefinierte Connectoren für JIRA- und SQL-Datenbanken (MySQL, PostgreSQL, SQL Server, SQLite). Sie können auch andere Connectoren hinzufügen, indem Sie die Standardschnittstellen erweitern. Die folgende Konfiguration hilft Ihnen, die verschiedenen Datenquellen einfach hinzuzufügen. Nach dem Hinzufügen können Sie die Datenquellen im Web Editor anzeigen.
+AEM Guides bietet vordefinierte Connectoren für JIRA-, SQL-Datenbanken (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce- und Elasticsearch-Datenbanken. Sie können auch andere Connectoren hinzufügen, indem Sie die Standardschnittstellen erweitern. Die folgende Konfiguration hilft Ihnen, die verschiedenen Datenquellen einfach hinzuzufügen. Nach dem Hinzufügen können Sie die Datenquellen im Web Editor anzeigen.
 
 Führen Sie die folgenden Schritte aus, um einen Datenquellen-Connector zu konfigurieren und ihn dann im Web Editor zu verwenden:
 
 ## Connector konfigurieren
 
-Sie können einen vordefinierten Connector konfigurieren, indem Sie eine JSON-Datei hochladen. Sie können die folgenden Beispielkonfigurationsdateien verwenden, um Connectoren für Jira- und SQL-Datenbanken (MySQL, PostgreSQL, SQL Server, SQLite) einzurichten.
+Sie können einen vordefinierten Connector konfigurieren, indem Sie eine JSON-Datei hochladen. Sie können die folgenden Beispielkonfigurationsdateien verwenden, um Connectoren für JIRA-, SQL-Datenbanken (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce- und Elasticsearch-Datenbanken einzurichten.
 
 Eine Beispielsetup-Datei für die grundlegende Authentifizierung von Jira mit Benutzername und Kennwort:
 
@@ -27,7 +27,7 @@ Eine Beispielsetup-Datei für die grundlegende Authentifizierung von Jira mit Be
 	"configName": "Jira",
 	"templateFolders": ["/content/dam/dita-templates/konnect/jira"],
 	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthRestConfig",
+		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthUserNamePasswordRestConfig",
 		"configData": {
 			"username": "jirausername",
 			"password": "jirapassword",
@@ -47,7 +47,7 @@ Eine Beispielsetup-Datei für die grundlegende Authentifizierung von Jira mit To
 	"configName": "Jira",
 	"templateFolders": ["/content/dam/dita-templates/konnect/jira"],
 	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthRestConfig",
+		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthTokenRestConfig",
 		"configData": {
 			"token": "jiraauthtoken",
 			"url": "https://jira.corp.adobe.com/rest/api/latest/search"
@@ -66,7 +66,7 @@ Eine Beispielsetup-Datei für die grundlegende Authentifizierung von Jira mit de
 	"configName": "Jira",
 	"templateFolders": ["/content/dam/dita-templates/konnect/jira"],
 	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthRestConfig",
+		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthTokenRestConfig",
 		"configData": {
 			"token": "Basic jiraauthtoken",
 			"url": "https://jira.corp.adobe.com/rest/api/latest/search"
@@ -119,7 +119,7 @@ Eine Beispielsetup-Datei für die einfache Authentifizierung von PostgreSQL:
 
 Speichern Sie beispielsweise als `postgres.json`.
 
-Eine Beispielsetup-Datei für die grundlegende Authentifizierung von MS SQL Server:
+Eine Beispielsetup-Datei für die grundlegende Authentifizierung von Microsoft SQL Server:
 
 ```
 {
@@ -161,6 +161,104 @@ Eine Beispielsetup-Datei für die grundlegende Authentifizierung von SQLite:
 
 Speichern Sie beispielsweise als `sqqlite.json`.
 
+
+
+Eine Beispielsetup-Datei für H2DB:
+
+```
+{
+	"connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.sql.H2DBConnector",
+	"configName": "H2DBConnector",
+	"templateFolders": ["/content/dam/dita-templates/konnect/sql"],
+	"connectionConfig": {
+		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.sql.UserPassSqlConfig",
+		"configData": {
+			"username": "admin",
+			"password": "admin",
+			"driver": "org.h2.Driver",
+			"connectionString": "jdbc:h2:file:D:/h2db/db"
+		}
+	}
+}
+```
+
+Speichern Sie beispielsweise als `sqqlite.json`.
+
+
+
+Eine Beispielsetup-Datei für die grundlegende Authentifizierung von MariaDb:
+
+```
+{
+	"connectorClazz": "com.adobe.guides.sample.konnect.connector.MariaDBConnector",
+	"configName": "SampleMariaDbConnector",
+	"templateFolders": ["/content/dam/dita-templates/konnect/sql"],
+	"connectionConfig": {
+		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.sql.UserPassSqlConfig",
+		"configData": {
+			"username": "admin",
+			"password": "admin",
+			"driver": "org.mariadb.jdbc.Driver",
+			"connectionString": "jdbc:mariadb://no1010042073107.corp.adobe.com:3308/mysql"
+		}
+	}
+}
+```
+
+Speichern Sie beispielsweise als `mariadb.json`.
+
+
+Eine Beispielsetup-Datei für die grundlegende Authentifizierung von Elasticsearch:
+
+```
+{
+	"connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.rest.ElasticsearchConnector",
+	"configName": "SampleES",
+	"templateFolders": ["/content/dam/dita-templates/konnect/sql"],
+	"connectionConfig": {
+		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthUserNamePasswordRestConfig",
+		"configData": {
+			"username": "admin",
+			"password": "admin",    	
+			"url": "https://testsearch-1370045986.us-east-1.bonsaisearch.net:443"   }
+	}
+}
+```
+
+Speichern Sie beispielsweise als `ES.json`.
+
+Die Abfrage der Elastic Search sollte den Index und die Abfrage enthalten:
+
+```
+{
+"index": "kibana_sample_data_ecommerce",
+"queryString":{
+    "query": {
+        "match_all": {}
+    }
+}
+}
+```
+
+
+
+Eine Beispielsetup-Datei für AdobeCommerce NoAuth:
+
+```
+{
+	"connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.graphql.AdobeCommerceConnector",
+	"configName": "SampleCommerce",
+	"templateFolders": ["/content/dam/dita-templates/konnect"],
+	"connectionConfig": {   "configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.NoAuthRestConfig",
+   "configData": {
+   			"url": "http://host/graphql"   
+		}
+	}
+}
+```
+
+Speichern Sie beispielsweise als `commerce.json`.
+
 ### Connector-Konfiguration anpassen
 
 Mit AEM Guides können Sie einige Werte in der Konfigurationsdatei an die Bedürfnisse des Benutzers anpassen.
@@ -176,7 +274,7 @@ Andere Felder werden basierend auf der Konfigurationsklasse angepasst, die zum A
 
 Laden Sie die Datei an einen Speicherort in AEM Assets hoch.
 
-Beispiel: `/var/dxml/konnect/jira.json`
+Zum Beispiel: `/var/dxml/konnect/jira.json`
 
 ## Erstellen einer Konfiguration mithilfe der REST-API
 

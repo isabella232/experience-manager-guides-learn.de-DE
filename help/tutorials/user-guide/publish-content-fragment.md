@@ -1,9 +1,9 @@
 ---
 title: Veröffentlichen eines Themas in einem Inhaltsfragment
 description: Erfahren Sie, wie Sie ein Thema in einem Inhaltsfragment veröffentlichen.
-source-git-commit: 6cd7d2ec76f90a192dbcd0ef552789d42c23a4fb
+source-git-commit: dd677257d94015d888705e4b6a43ae877e58be4b
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '593'
 ht-degree: 1%
 
 ---
@@ -36,11 +36,22 @@ Fügen Sie beispielsweise `/conf/we-retail` in der Cloud-Konfiguration. Diese Ko
    * **Modell**: Wählen Sie das Inhaltsfragmentmodell aus, das Sie zum Erstellen Ihres Inhaltsfragments verwenden möchten. Die Modelle werden aus dem Ordner ausgewählt, den Sie in den Cloud-Services konfiguriert haben.
    * **Zuordnung**: Wählen Sie eine Zuordnung aus der Dropdown-Liste aus. Es wählt die Zuordnungen aus der *contentFragmentMapping.json* -Datei.
 
-     >[!NOTE]
-     >
-     >Ihr Administrator kann die Zuordnungen im *contentFragmentMapping.json* -Datei.  Erfahren Sie mehr über das [Erstellen einer Zuordnung zwischen einem Thema und einem Inhaltsfragment](../install-guide/conf-content-fragment-mapping.md) in *On-Premise-Installations- und Konfigurationshandbuch*.
 
 
+     Je nach Einrichtung kann Ihr Administrator die Zuordnungen im *contentFragmentMapping.json* -Datei.
+
+     <details>
+        <summary>Cloud Services</summary>
+
+     Erfahren Sie mehr über das [Erstellen einer Zuordnung zwischen einem Thema und einem Inhaltsfragment](../cs-install-guide/conf-content-fragment-mapping-cs.md) im Cloud Service-Installations- und Konfigurationshandbuch.
+     </details>
+
+     <details>
+        <summary> On-Premise Software</summary>
+
+     Erfahren Sie mehr über das [Erstellen einer Zuordnung zwischen einem Thema und einem Inhaltsfragment](../install-guide/conf-content-fragment-mapping.md) im On-Premise-Installations- und Konfigurationshandbuch.
+
+     </details>
    * Wählen Sie die **Überschreiben** aktivieren, wenn Ihr Inhaltsfragment bereits existiert und Sie es überschreiben möchten. AEM Guides zeigt einen Fehler an, wenn Sie das Kontrollkästchen nicht aktivieren und Ihr Inhaltsfragment bereits existiert.
 1. Klicks **Erstellen** , um das Inhaltsfragment zu veröffentlichen.
 1. Sie können die Inhaltsfragmente für ein Thema unter dem **Fragmente** im Abschnitt **Dateieigenschaften**.
