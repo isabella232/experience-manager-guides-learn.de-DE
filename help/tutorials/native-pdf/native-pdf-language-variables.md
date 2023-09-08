@@ -1,9 +1,9 @@
 ---
 title: Native PDF | Unterstützung für Sprachvariablen
 description: Verwenden Sie Sprachvariablen in der PDF-Ausgabe- und Ausgabevorlage.
-source-git-commit: 3e922ef7ed9af200aa8fcfb0cbe4489cf059e335
+source-git-commit: 6de4b4666d804c678674faa6fe1a54ef9b9dbbe0
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1591'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,9 @@ Sie können beispielsweise die folgenden Methoden verwenden, um die Beschriftung
 
 - Deutsch: Verweis
 
-<img src="./assets/language-variable-output.png" width="550">
+<img alt= "Ausgabe in dem Dokument, das Sprachvariablen enthält" src="./assets/language-variable-output.png" width="550">
+
+*Eine Beispielnote in englischer, französischer und deutscher Sprache.*
 
 >[!NOTE]
 >
@@ -33,11 +35,11 @@ Sie können beispielsweise die folgenden Methoden verwenden, um die Beschriftung
 >
 > Wenn Sie den Wert nicht in der Sprache der Benutzeroberfläche definiert haben, wird nach Englisch gesucht (`en_us`) oder andernfalls wird die englische (`en`) und zeigt dasselbe in der PDF-Ausgabe an.
 
-### Typen von Sprachvariablen
+## Typen von Sprachvariablen
 
 AEM Guides unterstützen zwei Variablentypen: Anwendungs- und Benutzervariablen.
 
-#### Anwendungsvariablen
+### Anwendungsvariablen
 
 AEM Guides bieten eine Reihe vordefinierter oder vordefinierter Anwendungsvariablen. Sie können diese vordefinierten Variablen verwenden, um Informationen zu einem für AEM Guides spezifischen Dokument hinzuzufügen. Beispiel: die `chapter-number` zeigt, falls in einer Seite enthalten, die Kapitelnummer an, zu der die Seite gehört. Die `author-label` zeigt den Namen des Dokumentautors an.
 
@@ -46,7 +48,7 @@ AEM Guides bieten eine Reihe vordefinierter oder vordefinierter Anwendungsvariab
 > Sie können den Wert für eine Anwendungsvariable überschreiben.
 
 
-#### Benutzervariablen
+### Benutzervariablen
 
 Sie können auch neue Sprachvariablen erstellen. Sie können beispielsweise eine Benutzervariable Publisher für die Bezeichnung des Herausgebers für das Dokument erstellen.
 
@@ -54,18 +56,20 @@ Sie können auch neue Sprachvariablen erstellen. Sie können beispielsweise eine
 >
 >  Sie sollten über Administratorrechte verfügen, um Benutzervariablen zu erstellen und die Anwendungsvariablen zu bearbeiten.
 
-<img src="./assets/add-language-variables.png" width="550">
+<img alt="Fenster für Sprachvariablen" src="./assets/add-language-variables.png" width="550">
 
-### Neue Sprachvariable hinzufügen
+*Fügen Sie die Sprachvariablen für eine ausgewählte Sprache hinzu und zeigen Sie sie an.*
+
+## Neue Sprachvariable hinzufügen
 
 1. Gehen Sie im Web Editor zur Registerkarte Ausgabe .
 1. Auswählen **Sprachvariablen** <img src="./assets/language-variables.svg" width="25"> im linken Bereich.
-1. Auswählen **Bearbeiten** , um **Sprachvariablen** Fenster. Die in der ausgewählten Sprache vorhandenen Anwendungs- und Benutzervariablen werden in alphabetischer Reihenfolge aufgelistet. Die Werte werden entsprechend der ausgewählten Sprache angezeigt. Wenn Sie beispielsweise die französische Sprache auswählen, wird &quot;Tipp&quot;als &quot;Conseil&quot;angezeigt.
+1. Auswählen **Bearbeiten** , um die **Sprachvariablen** Fenster. Die in der ausgewählten Sprache vorhandenen Anwendungs- und Benutzervariablen werden in alphabetischer Reihenfolge aufgelistet. Die Werte werden entsprechend der ausgewählten Sprache angezeigt. Wenn Sie beispielsweise die französische Sprache auswählen, wird &quot;Tipp&quot;als &quot;Conseil&quot;angezeigt.
 1. Aus dem **Sprache** wählen Sie die gewünschte Sprache aus, in der Sie eine Variable bearbeiten möchten.
 
    >[!NOTE]
    >
-   > Wenn Sie die gewünschten Sprachen nicht anzeigen, aktivieren Sie die gewünschte Sprache über die **Sprachvariableneinstellungen**. Einstellungen auswählen <img src="./assets/settings-icon.svg" width="25">  , um **Sprachvariableneinstellungen** angezeigt.
+   > Wenn Sie die gewünschten Sprachen nicht anzeigen, aktivieren Sie die gewünschte Sprache über die **Sprachvariableneinstellungen**. Einstellungen auswählen <img src="./assets/settings-icon.svg" width="25">  , um die **Sprachvariableneinstellungen** angezeigt.
 
 1. Geben Sie den Variablennamen in die **Name** und deren Wert in **Wert** Spalte.
 
@@ -79,27 +83,70 @@ Sie können auch neue Sprachvariablen erstellen. Sie können beispielsweise eine
 >
 > Wenn Sie nicht **Sprachvariable hinzufügen**, wird die Variable nicht erstellt und der Liste hinzugefügt.
 
+## Exportieren und Importieren von Sprachvariablen
+
+Experience Manager-Handbücher unterstützen den Export und Import der in der ausgewählten Sprache vorhandenen Sprachvariablen. Sie können alle Sprachvariablen zusammen mit den definierten Werten einfach exportieren. Dies umfasst sowohl Anwendungs- als auch Benutzervariablen. Verwenden Sie die exportierte Datei, um die gewünschten Änderungen an den Werten vorzunehmen oder sie in andere Sprachen zu lokalisieren.
+
+Sie können auch die XML-Datei importieren, die die Sprachvariablen enthält. Experience Manager Guides importieren nur die bereits definierten Sprachvariablen, einschließlich Anwendungs- und Benutzervariablen. Es werden keine noch nicht definierten Variablen importiert.
+
+### Exportieren von Sprachvariablen
+
+Um die Sprachvariablen für eine Sprache zu exportieren, wählen Sie die Sprache aus der Dropdown-Liste aus und wählen Sie **Export** <img src="./assets/language-variable-export-icon.svg" alt="Exportsymbol" width="25">.
+Es wird eine XML-Datei im Format erstellt `language_variable_<ln>` where `<ln>` ist der Code der ausgewählten Sprache. Beispiel: `language_variable_en.xml` für Englisch und `language_variable_fr.xml` für Französisch.
+
+>[!NOTE]
+> 
+>Wenn Sie nicht gespeicherte Änderungen an den Sprachvariablen haben, können Sie diese nicht exportieren. Speichern Sie die Änderungen, um die aktivierte **Export** <img src="./assets/language-variable-export-icon.svg" alt="Importsymbol" width="25"> Symbol.
+
+### Sprachvariablen importieren
+
+So importieren Sie die Sprachvariablen:
+
+1. Wählen Sie eine Sprache aus der Dropdown-Liste aus und wählen Sie **Import** <img src="./assets/language-variable-import-icon.svg" width="25">.
+2. Suchen Sie nach der XML, die die Sprachvariablen enthält, und wählen Sie sie aus. Beispielsweise language_variable_en.xml.
+Sie können XML-Dateien im folgenden Format importieren:
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<variables>    
+<variable id="note-important">Important: </variable>    
+<variable id="note-caution">Avertir: </variable>    
+<variable id="image-with-text">Text and image &lt;img src=&quot;/content/dam/assets/images/image_with_text.png&quot; /&gt; </variable> 
+</variables> 
+```
+
+Die Variablen mit derselben ID werden nach dem Import der Datei importiert. Die Werte für die Variablen in der ausgewählten Sprache werden mit denen in der XML-Datei aktualisiert.  Es wird eine Meldung über die Anzahl der aktualisierten Variablen angezeigt.
+
+>[!NOTE]
+> 
+><ul><li>Wenn es sich bei der Datei nicht um eine XML-Datei handelt oder die Datei ein falsches Format enthält, das nicht den Sprachvariablen zugeordnet ist, wird ein Fehler angezeigt, dass ein Problem mit der XML-Datei vorliegt. 
+&gt;<li>Wenn die Datei keine Variablen mit derselben ID enthält, wird eine Warnung angezeigt, dass in der importierten Datei keine übereinstimmende Sprachvariable gefunden wird.
+
 ### Optionen für eine Sprachvariable
 
 Bewegen Sie den Mauszeiger über die Variable, um die **Optionen** auswählen.
 
-<img width="550" src="./assets/language-variable-user-options.png">
+<img width="550" alt="Optionsmenü für Sprachvariablen" src="./assets/language-variable-user-options.png">
 
-Sie können sowohl Anwendungs- als auch Benutzervariablen in der Vorschau anzeigen. Um anzuzeigen, wie der Variablenwert in der Ausgabe angezeigt wird, wählen Sie **Vorschau** von **Optionen** Menü der ausgewählten Variablen.
+*Verwenden Sie die **Optionen**Menü zum Löschen, Anzeigen einer Vorschau oder Duplizieren einer Sprachvariablen.*
+
+Sie können sowohl Anwendungs- als auch Benutzervariablen in der Vorschau anzeigen. Um anzuzeigen, wie der Variablenwert in der Ausgabe angezeigt wird, wählen Sie **Vorschau** aus dem **Optionen** Menü der ausgewählten Variablen.
 Sie können auch **Löschen** oder **Duplizieren** die Benutzervariablen. Wenn Sie eine Variable aus einer Sprache löschen, wird sie automatisch aus allen Sprachen gelöscht.
 
 ### Bearbeiten oder Wiederherstellen der Anwendungsvariablen
 
-Sie können auch die Werte für eine Anwendungsvariable bearbeiten. Später können Sie eine Anwendungsvariable auf den ursprünglichen Wert zurücksetzen. **Variable zurücksetzen** <img src="./assets/application-variable-revert.svg" width="25">  für eine Anwendungsvariable mit einem geänderten Wert angezeigt.
+Sie können auch die Werte für eine Anwendungsvariable bearbeiten. Später können Sie eine Anwendungsvariable auf den ursprünglichen Wert zurücksetzen. **Variable zurücksetzen** <img src="./assets/application-variable-revert.svg" width="25">  wird für eine Anwendungsvariable mit einem geänderten Wert angezeigt.
 
 ## Sprachvariablen in Ausgabevorlagen verwenden
 
-Sie sollten Sprachvariablen zu Ihren lokalisierten Dokumenten hinzufügen. Sie können diese Sprachvariablen in das Seitenlayout einfügen, das auf verschiedenen Seiten in Ihren lokalisierten Dokumenten angezeigt wird. Sie können beispielsweise die Sprachvariable für die Variable `author-name` , der im Kopfzeilenbereich des Seitenlayouts (oder in einem anderen Teil wie der Fußzeile oder dem Hauptteil) angezeigt wird.
+Sie sollten Sprachvariablen zu Ihren lokalisierten Dokumenten hinzufügen. Sie können diese Sprachvariablen in das Seitenlayout einfügen, das auf verschiedenen Seiten in Ihren lokalisierten Dokumenten angezeigt wird. Sie können beispielsweise die Sprachvariable für die Variable `author-name` im Kopfzeilenbereich des Seitenlayouts (oder in einem anderen Teil wie der Fußzeile oder dem Hauptteil) angezeigt wird.
 
-<img src="./assets/language-variable-page-layout.png" width="550">
 
-Der folgende Screenshot zeigt den Autor und den Markennamen, die in der für die französische PDF generierten Ausgabe lokalisiert sind.
 
+<img alt="Seitenlayout eines PDF-Dokuments" src="./assets/language-variable-page-layout.png" width="550">
+
+
+*Der Autor und der Markenname, der in der für die französische PDF generierten Ausgabe lokalisiert ist.*
 
 So fügen Sie eine Sprachvariable wie Ihre `copyright-label` Führen Sie im Kopfzeilenbereich die folgenden Schritte aus:
 
@@ -118,13 +165,15 @@ So fügen Sie eine Sprachvariable wie Ihre `copyright-label` Führen Sie im Kopf
    > Sie können auch die Suchzeichenfolge in das Textfeld eingeben. Die Variablennamen, die die angegebene Zeichenfolge enthalten, werden gefiltert und in der Liste angezeigt.
    > Die ausgewählte Sprachvariable wird in den Kopfzeilenbereich eingefügt.
 
-Der folgende Screenshot zeigt den Wert für die `copyright-label` im Kopfzeilenbereich hinzugefügt.
 
-<img src="./assets/language-variable-header.png" width="550">
+
+<img alt="Variable in den Kopfzeilenbereich einfügen" src="./assets/language-variable-header.png" width="550">
+
+*Die `copyright-label` im Kopfzeilenbereich hinzugefügt.*
 
 ### Anwenden des Inhaltsstils auf Sprachvariablen
 
-Neben dem Wert, den Sie einer Sprachvariablen zuweisen, können Sie auch HTML-Tags verwenden, um den Variablenwert in einer bestimmten Formatierung anzuzeigen. Sie können beispielsweise den Wert der Variablen `publisher-label` in Fettdruck.
+Neben dem Wert, den Sie einer Sprachvariablen zuweisen, können Sie auch HTML-Tags verwenden, um den Variablenwert in einer bestimmten Formatierung anzuzeigen. Sie können beispielsweise den Wert der Variablen `publisher-label` fett gedruckt.
 
 - Sie können die Stile der Werte auch mit <span> -Tag. Beispielsweise können Sie mit der Sprachvariable &quot;page-number&quot;die Seitenzahl im römischen Zahlenformat in englischer Sprache anzeigen und das Format für andere Sprachen angeben.
 
@@ -166,9 +215,13 @@ h1:before {
 
 Die folgenden Screenshots zeigen die in der Ausgabe auf Deutsch und Japanisch lokalisierten Zeichenfolgen an.
 
-<img src="./assets/localize-chapter-german.png" width="550">
+<img alt=" japanische Ausgabe mit Sprachvariable" src="./assets/localize-chapter-german.png" width="550">
 
-<img src="./assets/localize-chapter-japanese.png" width="550">
+
+
+<img alt="Deutsche Ausgabe mit Sprachvariable" src="./assets/localize-chapter-japanese.png" width="550">
+
+
 
 ### Präfixe formatieren
 

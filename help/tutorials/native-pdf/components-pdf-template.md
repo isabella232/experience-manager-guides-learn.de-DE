@@ -2,9 +2,9 @@
 title: Native PDF-Veröffentlichungsfunktion | Komponenten einer PDF-Vorlage
 description: Erfahren Sie mehr über die verschiedenen Komponenten einer PDF-Vorlage und wie Sie diese anpassen und konfigurieren.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 18ec7e1b19cd6404b86f965be96caa88a0a067fe
+source-git-commit: 90cd3c53fd8da0b987c99950dd37d405bea12c6e
 workflow-type: tm+mt
-source-wordcount: '3934'
+source-wordcount: '4160'
 ht-degree: 0%
 
 ---
@@ -192,7 +192,7 @@ Die ausgewählte Datei wird importiert und im Ordner Ressourcen aufgeführt.
 
 ## Erweiterte PDF-Einstellungen {#advanced-pdf-settings}
 
-Verwenden Sie den Bereich Einstellungen , um das Layout der erweiterten PDF zu konfigurieren, das PDF von ungeraden oder geraden Seiten zu starten, die Formate für die Querverweise zu konfigurieren und Druckmarkierungen in der endgültigen PDF zu aktivieren, die mithilfe der Vorlage generiert wird.
+Verwenden Sie den Bereich Einstellungen , um das Layout der erweiterten PDF zu konfigurieren, das PDF von ungeraden oder geraden Seiten zu starten, die Formate für die Querverweise zu konfigurieren und Druckmarken in der endgültigen PDF zu aktivieren, die mithilfe der Vorlage generiert wird.
 
 Klicken Sie zum Konfigurieren auf **Einstellungen** im **Vorlagen** -Bereich, um die folgenden Optionen anzuzeigen:
 
@@ -226,7 +226,14 @@ Informationen zum Anwenden der TOC-Struktur und der Styling-Überschriftenebenen
   >
   >Wenn Sie CSS-Entwickler sind, können Sie das Füllzeichenformat auch direkt in der CSS-Datei definieren.
 
-* **Verwenden der Tabellenfortsetzungsmarkierung**: Wählen Sie diese Option, um Markierungen für lange Tabellen zu definieren, die über mehrere Seiten verteilt sind. <!--For more information on using table continuation markers, see Use table continuation markers.-->
+* **Verwenden der Tabellenfortsetzungsmarkierung**: Wählen Sie diese Option, um Markierungen für lange Tabellen zu definieren, die über mehrere Seiten verteilt sind.
+Sie können den Text definieren, der vor und nach dem Umbruch angezeigt werden soll. Beispielsweise wird eine Tabelle auf Seite 5 umgebrochen, und Sie definieren `<Continued on page %page-num%>` für **Text vor Umbruch**.  Im Text wird unten auf Seite 5 &quot;Fortsetzung auf Seite 6&quot;angezeigt.
+
+  Verwenden Sie Sprachvariablen, um den Text für die Fortsetzung der Markierung vor und nach der Pause zu definieren. Abhängig von Ihrer ausgewählten Sprache wird der lokalisierte Wert automatisch in der PDF-Ausgabe ausgewählt. Sie können beispielsweise `Continued on page %page-num%` als Text in Englisch und `Fortsetzung auf Seite %page-num%` auf Deutsch.
+
+  Bewegen <img src="./assets/info-details.svg" alt= "Infosymbol" width="25"> neben der Option, um weitere Details dazu anzuzeigen.
+
+<!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 ### Seitenlayouts {#page-layouts}
 
@@ -357,11 +364,11 @@ Konfigurieren Sie die Druckproduktionseinstellungen, um Druckermarkierungen zuzu
 
 ### Querverweise {#cross-references}
 
-Auf der Registerkarte &quot;Querverweis&quot;können Sie definieren, wie Querverweise auf der PDF veröffentlicht werden. Sie können die Querverweise für Thementitel, Tabellen, Zahlen und mehr formatieren.
+Verwenden Sie die **Querverweis** um festzulegen, wie die Querverweise auf der PDF veröffentlicht werden. Sie können die Querverweise für Thementitel, Tabellen, Zahlen und mehr formatieren.
 
 Sie können auch Variablen verwenden, um einen Querverweis zu definieren.  Wenn Sie eine Variable verwenden, wird ihr Wert aus den Eigenschaften ausgewählt. Sie können eine einzelne oder eine Kombination von Variablen verwenden, um einen Querverweis zu definieren. Sie können auch eine Kombination aus Zeichenfolge und Variable verwenden.
 
-Sie können beispielsweise Details anzeigen für {chapter}. Wenn der Kapitelname &quot;Allgemeine Einstellungen&quot;lautet, lautet der Querverweis in der Ausgabe &quot;Siehe Details zu den allgemeinen Einstellungen&quot;.
+Sie können beispielsweise `View details on {chapter}`. Wenn der Kapitelname &quot;Allgemeine Einstellungen&quot;lautet, lautet der Querverweis in der Ausgabe &quot;Siehe Details zu den allgemeinen Einstellungen&quot;.
 
 AEM Guides bieten die folgenden nativen Variablen:
 
@@ -371,7 +378,7 @@ AEM Guides bieten die folgenden nativen Variablen:
 * {chapter}: Fügt einen Querverweis zu den Kapitelnummern hinzu. Siehe beispielsweise Kapitel 1.
 * {bookmarkText}: Erstellt einen Querverweis zum mit Lesezeichen versehenen Text. Siehe beispielsweise stop_words auf Seite 5.
 * {captionText}: Erstellt einen Querverweis zur Beschriftung der Abbildung oder Tabelle in Ihrem Thema. Siehe zum Beispiel Flugfluss auf Seite 2.
-* {figure}: Fügt einen Querverweis zur Zahl hinzu. Wählt die Zahl aus den automatischen Nummernstilen aus, die Sie für die Beschriftung definiert haben.  Sie können beispielsweise &quot;Siehe {figure} auf Seite {page}&quot;. Der Querverweis in der Ausgabe enthält die automatisch generierte Zahl und die zugehörige Seitenzahl &quot;Siehe Abbildung 1 auf Seite 5&quot;.
+* {figure}: Fügt einen Querverweis zur Zahl hinzu. Wählt die Zahl aus den automatischen Nummernstilen aus, die Sie für die Beschriftung definiert haben.  Sie können beispielsweise &quot;Siehe {figure} auf Seite {page}&quot;. Der Querverweis in der Ausgabe enthält die automatisch generierte Zahlen- und Seitenzahl &quot;Siehe Abbildung 1 auf Seite 5&quot;.
 * {table}: Fügt einen Querverweis zur Tabellennummer hinzu. Wählt die Tabellennummer aus den automatischen Nummernstilen aus, die Sie für die Beschriftung definiert haben. Sie können beispielsweise &quot;Siehe {table} auf Seite {page}&quot;. Der Querverweis in der Ausgabe enthält die automatisch generierte Tabellennummer und die zugehörige Seitenzahl &quot;Siehe Tabelle 1 auf Seite 5&quot;.
 
 
@@ -381,8 +388,25 @@ AEM Guides bieten die folgenden nativen Variablen:
   >Sie können für Beschriftungs- und Beschriftungs-Tags einen automatischen Nummernstil erstellen.
 
 
+#### Sprachvariablen in Querverweisen
+
+Sie können auch Sprachvariablen verwenden, um lokalisierte Querverweise zu definieren. Abhängig von Ihrer ausgewählten Sprache wird der lokalisierte Wert automatisch in der PDF-Ausgabe ausgewählt.
+
+Beispielsweise können Sie eine Sprachvariable &quot;reference-label&quot;hinzufügen und die Werte in Englisch und Deutsch definieren.
+
+* Englisch - &quot;Ansicht auf Seite {page}&quot;
+* Deutsch - &quot;ANZEIGE auf der Seite&quot; {page}&quot;
 
 
+Wenn Sie `${lng:<variable name>}` im Abschnitt Absatz enthalten die Querverweise in den Absätzen der Ausgabe den lokalisierten Text und die Seitenzahl.\
+Beispielsweise zeigen die folgenden Screenshots die Querverweise &quot;View on the Page 1&quot; auf Englisch und &quot;View auf der Seite 1&quot; auf Deutsch.
 
+<img src="./assets/english-output-corss-reference.png" alt="Englische Ausgabe eines Querverweises in einer Schreibweise" width ="800">
+
+*Ein Querverweis innerhalb eines Absatzes, wenn er in englischer Sprache veröffentlicht wird.*
+
+<img src="./assets/german-output-corss-reference.png" alt="Ausgabe eines Querverweises in einer Schreibweise" width ="800">
+
+*Ein Querverweis innerhalb eines Absatzes, wenn er in deutscher Sprache veröffentlicht wird.*
 
 <!--For more information, see *Format cross-references*.-->
