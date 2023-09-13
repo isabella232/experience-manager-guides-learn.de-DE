@@ -1,7 +1,7 @@
 ---
 title: Versionshinweise | Aktualisierungsanweisungen und behobene Probleme in der Adobe Experience Manager-Version 4.3.0
 description: Erfahren Sie mehr über die Fehlerbehebungen und das Upgrade auf Version 4.3.0 der Adobe Experience Manager-Handbücher.
-source-git-commit: 7581085859785c5b8b597ecfeb7dbe58c7c9e2bc
+source-git-commit: b53f76c2f0234c1ef6c65d954311e3f8c980ffe2
 workflow-type: tm+mt
 source-wordcount: '998'
 ht-degree: 5%
@@ -40,10 +40,10 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen
 ### Adobe Experience Manager
 
 **4.3.0 Nicht-UUID**
-Version 6.5 Service Pack 17, 16, 15 oder 14
+Version 6.5 Service Pack 18, 17, 16, 15 oder 14
 
 **4.3.0 UUID**
-Version 6.5 Service Pack 17, 16, 15 oder 14
+Version 6.5 Service Pack 18, 17, 16, 15 oder 14
 
 Weitere Informationen finden Sie unter *Technische Anforderungen* im Handbuch &quot;Installieren und Konfigurieren von Adobe Experience Manager-Handbüchern&quot;.
 
@@ -78,7 +78,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 - Die PDF-Assets können nicht in den vorhandenen &quot;topicref&quot;-Links ausgewählt werden. (12477).
 - Beim Zusammenführen und Aufteilen in den Tabellen generiert AEM Guides 4.2 zusätzliche Tabellenzellen. (11793)
 - In der Repository-Ansicht können Themen oder Bilder nicht nach Verwendung der Such-/Filterfunktion gezogen werden. (12396)
-- Suchergebnisse sind im Bereich Suchen und Ersetzen deaktiviert, nachdem eine durchsuchte Datei geöffnet wurde. (12142)
+- Suchergebnisse werden im Bereich Suchen und Ersetzen deaktiviert, nachdem eine durchsuchte Datei geöffnet wurde. (12142)
 - Die 8-Taste auf der Seitentastatur funktioniert nicht im AEM Guides-Editor. (12106)
 - Inline-/Display-Attribute werden nicht in der Layout-Ansicht des Web-Editors angezeigt. (12498)
 - Die Konfiguration der globalen Profil-Benutzeroberfläche stimmt nicht mit dem Ordnerprofil überein. (11970)
