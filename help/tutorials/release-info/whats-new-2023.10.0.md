@@ -1,7 +1,7 @@
 ---
 title: Versionshinweise | Neue Funktionen in Adobe Experience Manager-Handbüchern, Version Oktober 2023
 description: Erfahren Sie mehr über die neuen und verbesserten Funktionen in der Version von Adobe Experience Manager Guides as a Cloud Service im Oktober 2023.
-source-git-commit: 18adbd41370d32b183cc4828d1d79b7183453f5e
+source-git-commit: 87aef92535b7204503cd4ed1da838b43b1133b04
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Weitere Informationen zu den Upgrade-Anweisungen, der Kompatibilitätsmatrix und
 
 Experience Manager-Handbücher bieten jetzt eine **Data Sources** -Tool, mit dem Sie native Connectoren für Datenquellen konfigurieren können. Sie können die Connectoren für JIRA-, SQL- (MySQL-, PostgreSQL-, Microsoft SQL Server-, SQLite-, MariaDB-, H2DB-), AdobeCommerce- und Elasticsearch-Datenbanken einfach erstellen.
 
-Sie können einen Datenquellen-Connector auch einfach bearbeiten, neu verbinden, duplizieren oder löschen. Erfahren Sie, wie [einen Datenquellen-Connector mithilfe der Tools konfigurieren](../install-guide/conf-data-source-connector.md).
+Sie können einen Datenquellen-Connector auch einfach bearbeiten, neu verbinden, duplizieren oder löschen. Erfahren Sie, wie [einen Datenquellen-Connector mithilfe der Tools konfigurieren](../cs-install-guide/conf-data-source-connector-tools.md).
 
 ![im Bereich &quot;Datenquellen&quot;aufgelistete Data Source Connectors](assets/data-sources-create-window.png){width="550" align="left"}
 
@@ -33,7 +33,7 @@ Sie können jetzt auch die Protokolldatei zur Inhaltserstellung anzeigen. Mithil
 
 Sie können jetzt die Velocity-Tools in den Vorlagen für Experience Manager-Handbücher verwenden. Mit diesen Tools können Sie verschiedene Funktionen auf die Daten anwenden, die Sie aus den Datenquellen abrufen. Sie können die Vorlagen beim Erstellen eines Inhaltsfragments oder eines Themas verwenden. Mit dieser Funktion sparen Sie Zeit und Mühe bei der manuellen Anwendung derselben Funktion auf jeden Datensatz.  Außerdem werden präzise Ergebnisse sichergestellt.
 Beispielsweise können Sie das $mathematische Tool verwenden, um mathematische Funktionen auszuführen.
-Erfahren Sie mehr über das [Verwenden von Velocity-Tools in Datenquellenvorlagen](../user-guide/web-editor-content-snippet.md##use-velocity-tools).
+Erfahren Sie mehr über das [Verwenden von Velocity-Tools in Datenquellenvorlagen](../user-guide/web-editor-content-snippet.md#use-velocity-tools).
 
 
 ## Native PDF-Verbesserungen
