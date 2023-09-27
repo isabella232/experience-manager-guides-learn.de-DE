@@ -1,10 +1,10 @@
 ---
 title: Abgeschlossene Prüfungsaufgabe anzeigen
-description: Erfahren Sie, wie Sie eine abgeschlossene Prüfungsaufgabe anzeigen.
+description: Erfahren Sie, wie Sie eine abgeschlossene Prüfungsaufgabe als Prüfer oder Autor in AEM Handbüchern anzeigen.
 exl-id: 37f10fc3-e4ca-4e73-a887-65c7e9496f5e
-source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Sie können Prüfungsaufgaben für die Projekte ausführen, für die Sie der Autor (oder Initiator) sind. Sobald eine Prüfungsaufgabe abgeschlossen ist, können Sie und alle Prüfer im schreibgeschützten Modus darauf zugreifen.
 
-## Überprüfer
+## Als Validierer
 
 Als Überprüfer können Sie im Fenster &quot;Kommentare&quot;eine Anzeige sehen, die anzeigt, dass die Überprüfung beendet wurde. Die Symbolleiste &quot;Kommentare&quot;wird nicht angezeigt. Daher können Sie weder Text hervorheben, durchstreichen, einfügen noch Kommentare hinzufügen. Sie können einen Kommentar lesen, aber keine Kommentare bearbeiten oder löschen. Sie können den Kommentaren auch keine Antwort hinzufügen. Die dedizierte Symbolleiste (die zum Hervorheben oder Durchstreichen von Text verwendet wird) wird nicht angezeigt. Das veraltete Kommentarsymbol wird auch nicht in einer abgeschlossenen Prüfungsaufgabe angezeigt.
 

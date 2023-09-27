@@ -1,13 +1,13 @@
 ---
 title: Wichtige Funktionen AEM Handbücher
-description: Erfahren Sie, wie Sie die wichtigsten Funktionen AEM Handbüchern verwenden.
-source-git-commit: 9fd780707f0757036e5c4ccfacbb2231cd8edadc
+description: Lernen Sie die wichtigsten Funktionen in AEM Guides, DITA-Authoring, Content Management, webbasierter Review, Übersetzung, Lokalisierung, kanalübergreifendes Publishing und Integration von FrameMaker kennen.
+exl-id: f456741a-b504-4686-8230-64fac0ad8939
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
-
 
 # Wichtige Funktionen AEM Handbücher {#id167G9I060SI}
 
@@ -34,14 +34,14 @@ Derzeit unterstützt der integrierte Editor die folgenden DITA-Standards:
 **Zusammenarbeit der nächsten Generation durch webbasierte Überprüfung**
 Stellen Sie sicher, dass verteilte Teams mit mehreren Autoren und Validierern über einen leistungsstarken webbasierten zusammengesetzten Review-Workflow reibungslos zusammenarbeiten, wodurch der Umfang manueller Fehler im Prozess minimiert wird.
 
-AEM Handbücher bieten leistungsstarke, aber benutzerfreundliche webbasierte Überprüfungsfunktionen. Sie können mehrere DITA-Themen gleichzeitig zur Überprüfung senden. Mit der Überprüfungsfunktion wird sichergestellt, dass der Dokumentinhalt effizient geprüft wird. Autoren und Validierungsverantwortliche können bei laufenden Überprüfungen mühelos an Änderungen zusammenarbeiten. Überprüfer können die Unterschiede zu früheren Versionen überwachen, um festzustellen, ob das Feedback korrekt integriert wurde. Administratoren können den Verlauf von Prüfungsaufgaben mithilfe des funktionsreichen Management-Dashboards verfolgen.
+AEM Handbücher bieten leistungsstarke, aber benutzerfreundliche webbasierte Überprüfungsfunktionen. Sie können mehrere DITA-Themen gleichzeitig zur Überprüfung senden. Mit der Überprüfungsfunktion können Sie sicherstellen, dass der Dokumentinhalt effizient geprüft wird. Autoren und Validierungsverantwortliche können bei laufenden Überprüfungen mühelos an Änderungen zusammenarbeiten. Überprüfer können die Unterschiede zu früheren Versionen überwachen, um festzustellen, ob das Feedback korrekt integriert wurde. Administratoren können den Verlauf von Prüfungsaufgaben mithilfe des funktionsreichen Management-Dashboards verfolgen.
 
 Jedes Dokument in Ihrem DAM erhält jetzt einen Dokumentstatus. Mit diesem Dokumentstatus können Sie erkennen, welcher Status im Dokumentationsprozess das Dokument ist. Als Administrator des Systems können Sie die Dokumentstatus, den standardmäßigen Start- und Endstatus sowie die Übergänge zum Dokumentstatus für Ihre Dokumente definieren.
 
 **Branchenführende Übersetzungs-Management- und Lokalisierungsunterstützung**
 Ersparen Sie erheblich Zeit und Kosten für die Übersetzung und stellen Sie sicher, dass veröffentlichte Inhalte frei von Übersetzungsfehlern sind.
 
-Adobe Experience Manager verfügt über integrierte Connectoren für führende Übersetzungsanbieter. Nutzen Sie diese Connectoren, um gebietsschemaspezifische Inhalte zu verwalten. Nutzen Sie die detaillierten vordefinierten Übersetzungsberichte vollständig, um nicht übersetzte Inhalte vor der Veröffentlichung zu identifizieren und geeignete Korrekturmaßnahmen zu ergreifen. Sie können den Status von übersetzten Inhalten in Bezug auf Übergeordnete Sprachaktualisierungen verwalten, um nur Übersetzungen für die aktualisierten DITA-Dateien durchzuführen. Eine zeitaufwendige, manuelle Identifizierung von Dateien, die zur Übersetzung gesendet werden sollen, ist nicht erforderlich.
+Adobe Experience Manager verfügt über integrierte Connectoren für führende Übersetzungsanbieter. Nutzen Sie diese Connectoren, um gebietsschemaspezifische Inhalte zu verwalten. Nutzen Sie die detaillierten vordefinierten Übersetzungsberichte vollständig, um nicht übersetzte Inhalte vor der Veröffentlichung zu identifizieren und geeignete Korrekturmaßnahmen zu ergreifen. Sie können den Status von übersetzten Inhalten in Bezug auf Master-Sprachaktualisierungen verwalten, um nur Übersetzungen für die aktualisierten DITA-Dateien durchzuführen. Eine zeitaufwendige, manuelle Identifizierung von Dateien, die zur Übersetzung gesendet werden sollen, ist nicht erforderlich.
 
 **Klassisches Multichannel-Publishing von DITA-Inhalten**
 Optimieren Sie die Veröffentlichung von Unternehmensinhalten mit einem nahtlosen One-Touch-Ansatz, der die Time-to-Market beschleunigt.
@@ -52,17 +52,17 @@ Mit der nativen DITA-Unterstützung, die zu Experience Manager hinzugefügt wurd
 Schnellere Suche und Auswahl relevanter Inhalte, wodurch der ROI bei Inhalten bei jeder Wiederverwendung maximiert wird. Führen Sie über eine einfache Schnittstelle innerhalb des DITA-Authoring-Tools einfache und erweiterte Suchen mithilfe von Inhaltsattributen und Themenmetadaten im gesamten Repository durch. Die Ergebnisse werden mit Inhaltsverwendungsdaten getaggt, damit Sie mühelos den richtigen Inhalt für eine optimale Wiederverwendung finden und auswählen können.
 
 **Detaillierte Berichte zur Veröffentlichungsbereitschaft**
-Machen Sie die Veröffentlichung fehlerfrei, indem Sie Inhalte einfach überprüfen und korrigieren, bevor sie live geschaltet werden. Behalten Sie den Systemzustand genau im Auge, indem Sie einfach auf verschiedene Berichte auf DITA-Map-Ebene zugreifen. Sie können die Anzahl fehlender Themen, beschädigter Links oder Verweise sowie den Status von Überprüfungen und Übersetzungen für alle Themen überprüfen. Sie können die Berichte auch verwenden, um in den letzten Phasen vor der Veröffentlichung umfassende Integritätsprüfungen durchzuführen.
+Machen Sie die Veröffentlichung fehlerfrei, indem Sie Inhalte einfach überprüfen und korrigieren, bevor sie live geschaltet werden. Behalten Sie den Systemzustand genau im Auge, indem Sie einfach auf verschiedene Berichte auf DITA-Map-Ebene zugreifen. Sie können die Anzahl fehlender Themen, beschädigter Links oder Referenzen sowie den Status von Rezensionen und Übersetzungen für alle Themen überprüfen. Sie können die Berichte auch verwenden, um in den letzten Phasen vor der Veröffentlichung umfassende Integritätsprüfungen durchzuführen.
 
 **Umfassende Tag-Management-Unterstützung für personalisierte Ausgabe**\
 Förderung einer tieferen Interaktion der Endbenutzer und der Übernahme von Inhalten durch hochrelevante Inhaltserlebnisse. Mit AEM Guides können Sie die umfassende Tag-Management-Unterstützung in Experience Manager nutzen, um relevante Tags auf DITA-Quellinhalte anzuwenden. Verwenden Sie diese Tags, um Endbenutzern hochgradig personalisierte Inhaltserlebnisse bereitzustellen.
 
 **Native Integration mit Adobe FrameMaker**
-Genießen Sie ein schnelles und nahtloses Erlebnis beim Arbeiten mit Experience Manager und FrameMaker (Version 2015) Update 4 oder höher.
+Genießen Sie beim Arbeiten mit Experience Manager und FrameMaker (Version 2015) Update 4 oder höher ein schnelles und nahtloses Erlebnis.
 
 Die enge Integration von Experience Manager und FrameMaker über einen integrierten Connector hilft Ihnen, nahtlos mit dem Experience Manager Content Repository zu arbeiten. Nutzen Sie den Connector, um schnell mit der Bearbeitung, Überprüfung und Suche von DITA-Inhalten zu beginnen.
 
-Mithilfe des AEM-Connectors in FrameMaker können Sie Ihre FrameMaker-Dateien verwalten. Mit dem AEM-Connector können Sie Ihre DITA- und andere FrameMaker-Dokumente (.book und .fm) einfach auf AEM hochladen. Mit AEM Guides können Sie FrameMaker-Dokumente auch direkt aus AEM veröffentlichen. Falls Ihre FrameMaker-Buchdatei eine Kombination aus DITA- und FM-Dateien enthält, können AEM Guides auch solche Dokumente veröffentlichen. Derzeit können Sie die .book- und .fm-Dateien von FrameMaker in den Formaten PDF, HTML5 und EPUB veröffentlichen.
+Mithilfe des AEM-Connectors in FrameMaker können Sie Ihre FrameMaker-Dateien verwalten. Mit dem AEM-Connector können Sie Ihre DITA- und andere FrameMaker-Dokumente (.book und .fm) einfach auf AEM hochladen. AEM Guides ermöglichen es Ihnen auch, FrameMaker-Dokumente direkt von AEM zu veröffentlichen. Falls Ihre FrameMaker-Buchdatei eine Kombination aus DITA- und FM-Dateien enthält, können AEM Guides auch solche-Dokumente veröffentlichen. Derzeit können Sie FrameMaker .book- und .fm-Dateien in den Formaten PDF, HTML5 und EPUB veröffentlichen.
 
 ## Zusätzliche Ressourcen
 
@@ -74,4 +74,3 @@ Im Folgenden finden Sie eine Liste weiterer hilfreicher Ressourcen AEM Handbüch
 * [Hilfe* Archivierungsseite](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) (Zugriff auf die Dokumentation zu älteren Versionen)
 
 **Übergeordnetes Thema:**[&#x200B;Über Adobe Experience Manager-Handbücher as a Cloud Service](intro.md)
-

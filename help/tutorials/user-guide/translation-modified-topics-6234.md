@@ -1,10 +1,10 @@
 ---
 title: Geänderte Themen übersetzen
-description: Erfahren Sie, wie Sie geänderte Themen übersetzen
+description: Erfahren Sie, wie Sie ein geändertes Thema in AEM Guides erneut übersetzen.
 exl-id: 48b868c3-27ec-4641-b40d-17a641be7497
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Führen Sie die folgenden Schritte aus, um ein geändertes Thema zur erneuten Ü
 
 1. Im **Filter** auf der linken Seite, wählen Sie die **Sprachen übersetzen** , für die Sie den Status überprüfen möchten, und klicken Sie auf **Fertig**.
 
-   Sie können den Übersetzungsstatus für jedes Thema sehen. Die Themen, für die eine andere Themenüberarbeitung als für die Übersetzung verfügbar ist, zeigen eine **Veraltet** Status.
+   Sie können den Übersetzungsstatus für jedes Thema sehen. Die Themen, für die eine andere Überarbeitung des Themas verfügbar ist als das, was zur Übersetzung gesendet wurde, zeigen eine **Veraltet** -Status.
 
    >[!NOTE]
    >
@@ -35,13 +35,13 @@ Führen Sie die folgenden Schritte aus, um ein geändertes Thema zur erneuten Ü
 
    Wenn Sie ein nicht synchronisiertes Datum auswählen, wird die **Erstellen/Aktualisieren von Sprachkopien** im Bereich &quot;Verweise&quot;angezeigt und die **Nicht synchronisierten Status schließen** oberhalb der Schaltfläche **Filter** Symbol.
 
-   Sie können die **Nicht synchronisieren beenden** -Schaltfläche, um den Status &quot;Out of Date&quot;für die Themen in der DITA-Zuordnung zu überschreiben. Wenn Sie beispielsweise Änderungen an der englischen Version des Themas vorgenommen haben, für das keine Übersetzung erforderlich ist, können Sie diese Schaltfläche verwenden und den Status &quot;Out of Date&quot;für das ausgewählte Thema ändern.
+   Sie können die **Nicht synchronisieren beenden** -Schaltfläche zum Überschreiben des Status &quot;Out of Date&quot;für die Themen in der DITA-Zuordnung. Wenn Sie beispielsweise Änderungen an der englischen Version des Themas vorgenommen haben, für das keine Übersetzung erforderlich ist, können Sie diese Schaltfläche verwenden und den Status &quot;Out of Date&quot;für das ausgewählte Thema ändern.
 
    >[!NOTE]
    >
    > Wenn Sie auf die **Nicht synchronisierten Status schließen** für die ausgewählten Themen vom Typ &quot;Out of Date&quot;auf &quot;Aktuell&quot;gesetzt.
 
-1. Klicken **Sprachkopien aktualisieren** und konfigurieren Sie den Übersetzungsauftrag.
+1. Klicks **Sprachkopien aktualisieren** und konfigurieren Sie den Übersetzungsauftrag.
 
 1. Sie können ein neues Übersetzungsprojekt erstellen oder Themen zu einem vorhandenen Übersetzungsprojekt hinzufügen. Geben Sie die erforderlichen Details an, um das Übersetzungsprojekt zu konfigurieren.
 
@@ -63,11 +63,12 @@ Führen Sie die folgenden Schritte aus, um ein geändertes Thema zur erneuten Ü
 
 1. Nach Abschluss der Übersetzung ändert sich der Status in **Bereit zur Überprüfung**. Klicken Sie auf die Auslassungspunkte, um Themendetails anzuzeigen, und führen Sie in der Symbolleiste einen der folgenden Schritte aus:
 
-   - Klicken **In Assets einblenden** um die Übersetzung zu sehen und zu überprüfen.
+   - Klicks **In Assets einblenden** , um die Übersetzung anzuzeigen und zu überprüfen.
 
-   - Klicken **Übersetzung akzeptieren** wenn Sie glauben, dass die Änderungen korrekt übersetzt wurden. Eine Bestätigungsmeldung wird angezeigt.
+   - Klicks **Übersetzung akzeptieren** wenn Sie der Meinung sind, dass die Änderungen korrekt übersetzt wurden. Eine Bestätigungsmeldung wird angezeigt.
 
-   - Klicken **Übersetzung ablehnen** wenn Sie der Meinung sind, dass die Arbeit neu erledigt werden muss. Eine Zurückweisungsmeldung wird angezeigt.
+   - Klicks **Übersetzung ablehnen** wenn Sie der Meinung sind, dass die Arbeit neu erledigt werden muss. Eine Zurückweisungsmeldung wird angezeigt.
+
    >[!NOTE]
    >
    > Es ist wichtig, das übersetzte Asset zu akzeptieren oder abzulehnen. Andernfalls bleibt die Datei an einem temporären Speicherort und wird nicht nach DAM kopiert.

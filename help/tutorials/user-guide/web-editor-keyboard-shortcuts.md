@@ -1,13 +1,13 @@
 ---
 title: Tastaturbefehle im Web-Editor
-description: Erfahren Sie, wie Sie im Web Editor Tastaturbefehle verwenden
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+description: Entdecken Sie zeitsparende Tastaturbefehle im Web-Editor von AEM Guides.
+exl-id: e8be4c83-a236-43c1-b778-c3da92537174
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '218'
 ht-degree: 1%
 
 ---
-
 
 # Tastaturbefehle im Web-Editor {#id2056B0A0WHT}
 
@@ -26,7 +26,7 @@ Es gibt viele Vorgänge im Web Editor, die Sie mit den Tastaturbefehlen ausführ
 | Alle geöffneten Dokumente in der Autoren- oder Quellansicht speichern | **Strg**+**S** |
 | Dialogfeld &quot;Element einfügen&quot; | ***Alt***+***Eingabe*** |
 | Dialogfeld &quot;Element einfügen&quot;anzeigen, um Element vor dem ausgewählten Element einzufügen | ***Alt***+***Umschalt***+***Eingabe*** |
-| Wechseln Sie von einem verschachtelten Element weg und gehen Sie zum übergeordneten Element in linke Richtung. Wechseln Sie andernfalls zum vorherigen gleichrangigen Element. | ***Alt***+**Left *Pfeil* |
+| Wechseln Sie von einem verschachtelten Element weg und gehen Sie zum übergeordneten Element in linke Richtung. Wechseln Sie andernfalls zum vorherigen gleichrangigen Element | ***Alt***+**Left *Pfeil* |
 | Wechseln Sie von einem verschachtelten Element weg und gehen Sie zum übergeordneten Element in die richtige Richtung. Wechseln Sie andernfalls zum nächsten gleichrangigen Element. | ***Alt***+*Rechtspfeil* |
 | XML-Einzug automatisch in die Quellansicht | *Strg*+***Alt***+***L*** |
 | Aktuelles Element aufteilen | **Geben Sie ein** |
@@ -37,4 +37,3 @@ Es gibt viele Vorgänge im Web Editor, die Sie mit den Tastaturbefehlen ausführ
 | Letzte Aktion wiederholen | ***Strg***+**Y** |
 
 **Übergeordnetes Thema:**[ Arbeiten mit dem Web-Editor](web-editor.md)
-

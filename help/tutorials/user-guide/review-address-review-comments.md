@@ -1,10 +1,10 @@
 ---
 title: Kommentare zur Adressüberprüfung
-description: Erfahren Sie, wie Sie Kommentare zur Überprüfung beheben können.
+description: Erfahren Sie, wie Sie in AEM Handbüchern Kommentare zur Überprüfung als Autor bearbeiten können. Hier erfahren Sie, wie Autoren Kommentare in einem Dokument bearbeiten, filtern, akzeptieren oder ablehnen können.
 exl-id: 04f6114d-601f-4e92-a303-18a6dd309a49
-source-git-commit: b55b4aa572a680181388e24827daa7d045f1e406
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
@@ -12,11 +12,11 @@ ht-degree: 0%
 # Kommentare zur Adressüberprüfung {#id2056B0X0KBI}
 
 
-Als Autor können Sie mit dem Web Editor Kommentare in einem Thema bearbeiten. Die Kommentare werden basierend auf der Überprüfungsaufgabe geladen, die im Prüfungsbereich ausgewählt wurde. Weitere Informationen finden Sie unter **Überprüfen** panel ![](images/active-review-tasklist-icon.svg) Funktionsbeschreibung in [Linke Leiste](../user-guide/web-editor-features.md#id2051EA0M0HS) Abschnitt.
+Als Autor können Sie mit dem Web Editor Kommentare in einem Thema bearbeiten. Die Kommentare werden basierend auf der Überprüfungsaufgabe geladen, die im Überprüfungsbereich ausgewählt wurde. Weitere Informationen finden Sie unter **Überprüfen** panel ![](images/active-review-tasklist-icon.svg) Funktionsbeschreibung in [Linke Leiste](../user-guide/web-editor-features.md#id2051EA0M0HS) Abschnitt.
 
 In den folgenden Abschnitten werden die Möglichkeiten zum Bearbeiten von Kommentaren im Web Editor beschrieben.
 
-Ein Autor kann Kommentare in einem Dokument vom Web Editor aus bearbeiten. Visuelle Indikatoren geben an, ob Kommentare eingefügt, \(Text\), gelöscht oder hervorgehoben wurden. Auch die Art des Kommentars wird oben in jedem Kommentar-Eintrag erwähnt.
+Ein Autor kann Kommentare in einem Dokument vom Web-Editor aus bearbeiten. Visuelle Indikatoren geben an, ob Kommentare eingefügt, \(Text\), gelöscht oder hervorgehoben wurden. Auch die Art des Kommentars wird oben in jedem Kommentar-Eintrag erwähnt.
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ Im Web-Editor-Modus enthält der rechte Bereich die Symbole Überprüfung und Ge
   >
   > Wenn sich die Stammzuordnung Ihrer Prüfungsaufgabe von der Stammzuordnung für die Bearbeitung unterscheidet, werden die entsprechenden Informationen angezeigt, um anzugeben, dass die Autorenzuordnung und die Reviewstammzuordnung nicht übereinstimmen.
 
-- **C**: Wenn Sie Ihr Thema nach dem Initiieren des Reviews aktualisiert haben, wird durch Klicken auf das Symbol Thema zur Review-Version zurücksetzen Ihre Arbeitskopie wieder auf die Version zurückgesetzt, die für die Überprüfung freigegeben wurde. Dies erleichtert es Ihnen, das Feedback zur Überprüfung direkt in die zur Überprüfung freigegebene Version zu integrieren. Nachdem Sie das Feedback integriert haben, können Sie Änderungen in der zurückgegebenen Version speichern oder eine neue Revision Ihres Themas erstellen. Wenn Sie eine neue Revision Ihres Themas erstellen, wird eine neue Verzweigung aus der Themenversion erstellt, die zur Überprüfung freigegeben wurde. Wenn Sie beispielsweise Version freigegeben haben `1.2` eines Themas zur Überprüfung, während die aktuelle Authoring-Version `1.3`können Sie dieses Symbol verwenden, um zurück zur Version zu wechseln. `1.2` für die Aufnahme von Überprüfungskommentaren. Wenn Sie eine neue Revision erstellen, nachdem Sie Änderungen an der Version übernommen haben `1.2`, dann eine neue Verzweigung mit Version `1.2.0` für das Thema erstellt.
+- **C**: Wenn Sie Ihr Thema nach dem Initiieren des Reviews aktualisiert haben und dann auf das Symbol Thema zur Review-Version zurücksetzen klicken, wird Ihre Arbeitskopie wieder auf die Version zurückgesetzt, die für die Überprüfung freigegeben wurde. Dies erleichtert es Ihnen, das Feedback zur Überprüfung direkt in die zur Überprüfung freigegebene Version zu integrieren. Nachdem Sie das Feedback integriert haben, können Sie Änderungen in der zurückgegebenen Version speichern oder eine neue Revision Ihres Themas erstellen. Wenn Sie eine neue Revision Ihres Themas erstellen, wird eine neue Verzweigung aus der Themenversion erstellt, die zur Überprüfung freigegeben wurde. Wenn Sie beispielsweise Version freigegeben haben `1.2` eines Themas zur Überprüfung, während die aktuelle Authoring-Version `1.3`können Sie dieses Symbol verwenden, um zurück zur Version zu wechseln. `1.2` für die Aufnahme von Überprüfungskommentaren. Wenn Sie eine neue Revision erstellen, nachdem Sie Änderungen an der Version übernommen haben `1.2`, dann eine neue Verzweigung mit Version `1.2.0` für das Thema erstellt.
 
   Nach der Integration von Review-Feedback möchten Sie in der Regel Änderungen aus der neuesten Version des Themas zusammenführen. Verwenden Sie dazu die [Zusammenführen](web-editor-features.md#id205DF04E0HS) , um alle Aktualisierungen abzurufen, die vorgenommen wurden, nachdem das Thema zur Überprüfung freigegeben wurde.
 
@@ -50,7 +50,7 @@ Im Web-Editor-Modus enthält der rechte Bereich die Symbole Überprüfung und Ge
 
 - E: Importieren Sie die eingefügten und gelöschten \(oder Durchstreichen\) Kommentare direkt in das Thema. Nachdem Sie auf das Symbol &quot;Importieren&quot;geklickt haben, werden in der Arbeitskopie des Themas alle Einfügungen und Löschungen von Text angezeigt. Jetzt gibt es zwei Möglichkeiten, Kommentare zu akzeptieren oder abzulehnen.
 
-  Wenn Sie die vorgeschlagene Änderung \(Einfügung oder Löschung\) einzeln einbeziehen möchten, klicken Sie einfach mit der rechten Maustaste auf den Kommentar im Inhalt und wählen Sie &quot;Änderung akzeptieren&quot;oder &quot;Änderung ablehnen&quot;. Je nach Auswahl wird der Kommentar akzeptiert oder abgelehnt. Im Falle eines akzeptierten Kommentars wird der Inhalt hinzugefügt. und im Fall einer Zurückweisung aus dem Inhalt entfernt. Außerdem wird der Status des Kommentars im Prüfungsbereich geändert.
+  Wenn Sie die vorgeschlagene Änderung \(Einfügung oder Löschung\) einzeln einbeziehen möchten, klicken Sie einfach mit der rechten Maustaste auf den Kommentar im Inhalt und wählen Sie &quot;Änderung akzeptieren&quot;oder &quot;Änderung ablehnen&quot;. Je nach Auswahl wird der Kommentar akzeptiert oder abgelehnt. Im Falle eines akzeptierten Kommentars wird der Inhalt in den Inhalt eingefügt und im Fall einer Ablehnung wird er aus dem Inhalt entfernt. Außerdem wird der Status des Kommentars im Überprüfungsfenster geändert.
 
   ![](images/import-comment-accept-web-editor_cs.png){width="800" align="left"}
 
@@ -66,9 +66,9 @@ Im Web-Editor-Modus enthält der rechte Bereich die Symbole Überprüfung und Ge
 
 - **F**: Laden Sie im Menü Mehr Optionen alle im Prüfungsthema verfügbaren Anlagen herunter.
 - **G**: Suchen Sie in den Kommentaren nach einem Text.
-- **H**: Nehmen Sie einen Kommentar an oder lehnen Sie ihn ab.
+- **H**: Akzeptieren oder lehnen Sie einen Kommentar ab.
 
-- **I**: Filtern Sie die Kommentare. Sie können nach Kommentaren filtern, indem Sie sie auf der Grundlage von Überprüfungstyp \(alle, hervorgehoben, gelöscht, eingefügt oder Kurznotiz\), Überprüfungsstatus \(alle, akzeptiert, abgelehnt oder keine\), Überprüfern \(alle oder bestimmte Überprüfer\(s\)\) oder Themenversionen anzeigen.
+- **I**: Wenden Sie einen Filter auf die Kommentare an. Sie können nach Kommentaren filtern, indem Sie sie auf der Grundlage von Überprüfungstyp \(alle, hervorgehoben, gelöscht, eingefügt oder Kurznotiz\), Überprüfungsstatus \(alle, akzeptiert, abgelehnt oder keine\), Überprüfern \(alle oder bestimmte Überprüfer\(s\)\) oder Themenversionen anzeigen.
 
 
-**Übergeordnetes Thema:**[ Themen oder Karten überprüfen](review.md)
+**Übergeordnetes Thema:**[ Themen oder Zuordnungen überprüfen](review.md)

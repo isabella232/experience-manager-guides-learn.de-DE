@@ -1,17 +1,17 @@
 ---
-title: Bearbeiten von Themen im Web Editor
-description: Erfahren Sie, wie Sie Themen im Web Editor bearbeiten
-source-git-commit: cc0fbca257d82cc82db5b5da8d263309fd71de55
+title: Bearbeiten von Themen im Web-Editor
+description: Erfahren Sie, wie Sie Themen im Web-Editor bearbeiten können. Erfahren Sie mehr über verschiedene Bearbeitungsfunktionen, um Ihre Themendateien in AEM Handbüchern zu ändern.
+exl-id: 9950df78-09bd-433a-891d-0d689bb0c2e4
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
 
+# Bearbeiten von Themen im Web-Editor {#id2056B040VUI}
 
-# Bearbeiten von Themen im Web Editor {#id2056B040VUI}
-
-Der Web Editor verfügt über eine Reihe von Bearbeitungsfunktionen, mit denen Sie Themendateien einfach erstellen oder ändern können. Im Allgemeinen führen Sie die folgenden Schritte aus, um ein Thema im Web Editor zu bearbeiten.
+Der Web Editor verfügt über eine Reihe von Bearbeitungsfunktionen, mit denen Sie Themendateien einfach erstellen oder ändern können. Im Großen und Ganzen führen Sie die folgenden Schritte aus, um ein Thema im Web Editor zu bearbeiten.
 
 >[!IMPORTANT]
 >
@@ -42,7 +42,7 @@ AEM Handbücher bieten die Möglichkeit, den Browser zu aktualisieren, während 
 
    Das rechte Bedienfeld wird ebenfalls neu geöffnet und zeigt dieselbe Ansicht an wie vor der Aktualisierung.
 
-   **Arbeitskopie-Indikator**
+   **Arbeitskopierer**
 AEM Handbücher bieten einen Arbeitskopie-Indikator, der anzeigt, ob die aktuelle \(Arbeitskopie\) der Datei mit der gespeicherten Version synchronisiert ist oder nicht. Wenn Sie Änderungen an Ihrer aktuellen Kopie vorgenommen und Ihre Datei nicht gespeichert haben, wird auf der Registerkarte &quot;Datei&quot;des Themas ein \*-Zeichen mit dem Titel angezeigt. Dieser Indikator dient als Erinnerung, um Ihre Änderungen zu speichern, und verschwindet, wenn Sie Ihre Datei speichern.
 
    ![](images/working-copy-text-update-indicator.png){width="550" align="left"}
@@ -53,4 +53,3 @@ AEM Handbücher bieten einen Arbeitskopie-Indikator, der anzeigt, ob die aktuell
 
 
 **Übergeordnetes Thema:**[ Arbeiten mit dem Web-Editor](web-editor.md)
-

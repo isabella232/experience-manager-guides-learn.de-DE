@@ -1,10 +1,10 @@
 ---
 title: Erstellen einer Karte
-description: Erfahren Sie, wie Sie eine Karte erstellen
+description: Erstellen Sie eine Karte mit dem Map Editor in AEM Handbüchern. Suchen Sie nach den Schritten zum Erstellen einer Map-Datei basierend auf einer Map-Vorlage.
 exl-id: d35ee09f-f951-4866-a2b1-e4b19f76e7a1
-source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ Führen Sie die folgenden Schritte aus, um eine Zuordnungsdatei zu erstellen:
 
 1. Navigieren Sie in der Assets-Benutzeroberfläche zu dem Speicherort, an dem Sie die Zuordnungsdatei erstellen möchten.
 
-1. Klicken **Erstellen** \> **DITA Map**.
+1. Klicks **Erstellen** \> **DITA Map**.
 
-1. Wählen Sie auf der Blueprint-Seite den Typ der zu verwendenden Zuordnungsvorlagen aus und klicken Sie auf **Nächste**.
+1. Wählen Sie auf der Blueprint-Seite den gewünschten Typ von Zuordnungsvorlagen aus und klicken Sie auf **Nächste**.
 
    >[!NOTE]
    >

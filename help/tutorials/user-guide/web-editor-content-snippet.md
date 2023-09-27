@@ -1,9 +1,9 @@
 ---
 title: Inhaltsfragment aus Ihrer Datenquelle einfügen
-description: Erfahren Sie, wie Sie einen Inhaltsausschnitt aus Ihrer Datenquelle einfügen
-source-git-commit: 71a64a35d065da10783d8e1a035ea1c4728e35f4
+description: Verwenden Sie Daten aus Ihrer Datenquelle in AEM Handbüchern. Erfahren Sie, wie Sie ein Inhaltsfragment aus Ihrer Datenquelle einfügen. Erstellen Sie ein Thema mit dem Thema-Generator.
+source-git-commit: 0293dc6e375d6a80bf35694a8e9784f0bb6d0384
 workflow-type: tm+mt
-source-wordcount: '1723'
+source-wordcount: '2028'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,11 @@ Je nach Einrichtung kann Ihr Administrator einen Datenquellen-Connector konfigur
 <details>
 <summary> Cloud Services </summary>
 
-Erfahren Sie, wie [Konfigurieren eines Datenquellen-Connectors](../cs-install-guide/conf-data-source-connector.md) im Cloud Service-Installations- und Konfigurationshandbuch.
+
+- Wenn Sie die Version von Oktober 2023 oder höher verwenden, erfahren Sie, wie Sie [einen Datenquellen-Connector mithilfe der Tools konfigurieren](../cs-install-guide/conf-data-source-connector-tools.md) im Cloud Service-Installations- und Konfigurationshandbuch.
+
+- Wenn Sie die Version vom Juli 2023 oder September 2023 verwenden, erfahren Sie, wie Sie [Konfigurieren eines Datenquellen-Connectors](../cs-install-guide/conf-data-source-connector.md) im Cloud Service-Installations- und Konfigurationshandbuch.
+
 </details>
 
 <details>    
@@ -83,6 +87,8 @@ Die nativen Vorlagen für die ausgewählte Datenquelle werden in der Dropdown-Li
    >[!NOTE]
    >  
    > Wenn Ihr Administrator benutzerdefinierte Vorlagen konfiguriert hat, werden diese Vorlagen auch in der Dropdown-Liste angezeigt (basierend auf den von Ihrem Administrator durchgeführten Vorlagenpfadkonfigurationen).
+   >   
+   >Sie können auch Velocity-Tools in den Vorlagen verwenden. Erfahren Sie mehr über das [Verwenden von Velocity-Tools](#use-velocity-tools).
 
 1. Klicks **Abrufen** , um die Daten aus der Datenquelle abzurufen und die Vorlage auf die Daten anzuwenden, die aus der SQL-Abfrage resultieren.
 
@@ -215,9 +221,7 @@ Führen Sie die folgenden Schritte aus, um ein Thema mit dem Themengenerator zu 
 
 Klicken Sie mit der rechten Maustaste auf einen Themengenerator, um den **Optionen**. Mithilfe der Optionen können Sie die folgenden Vorgänge ausführen:
 
-- **Vorschau**: Verwenden Sie diese Option, um einen Bereich zu öffnen und einen kleinen Teil der Anzeige der Daten in der Ausgabe anzuzeigen.
-- **Inhalt erstellen**: Diese Option generiert die Themen für den ausgewählten Themengenerator. Sie können diese Option auch verwenden, um die vorhandenen Themen zu aktualisieren. Es stellt eine Verbindung zur Datenquelle her und ruft die aktualisierten Daten ab.
-
+- **Erzeugen**: Diese Option generiert die Themen für den ausgewählten Themengenerator. Sie können diese Option auch verwenden, um die vorhandenen Themen zu aktualisieren. Es stellt eine Verbindung zur Datenquelle her und ruft die aktualisierten Daten ab. Beim Generieren des Inhalts ist diese Option deaktiviert und Sie sehen einen Lader.
   >[!NOTE]
   >
   >Wenn Ihr Thema bereits vorhanden ist, können Sie die Daten im Thema überschreiben oder als neue Version speichern.
@@ -225,11 +229,50 @@ Klicken Sie mit der rechten Maustaste auf einen Themengenerator, um den **Option
   ![](images/generate-topic-options.png)
 
   *Erstellen Sie ein Thema. Wenn die Datei bereits vorhanden ist, speichern Sie es als neue Version oder überschreiben Sie es.*
+- **Protokoll anzeigen**: Wählen Sie diese Option, um die Protokolldatei zur Inhaltserstellung anzuzeigen. Die Protokolldatei wird in einer neuen Registerkarte geöffnet. Sie können die Fehler, Warnungen, Informationsmeldungen und Ausnahmen in der Protokolldatei anzeigen. Diese Option ist aktiviert, wenn Sie den Inhalt für den ausgewählten Themengenerator generiert haben.
 
-- **Bearbeiten**: Verwenden Sie diese Option, um den Themengenerator zu ändern und zu speichern.
-- **Löschen**: Mit dieser Option können Sie den ausgewählten Themengenerator löschen.
+- **Vorschau**: Verwenden Sie diese Option, um einen Bereich zu öffnen und einen kleinen Teil der Anzeige der Daten in der Ausgabe anzuzeigen.
+
+
+
+- **Bearbeiten**: Verwenden Sie diese Option, um den Themengenerator zu ändern und zu speichern. Diese Option ist während der Inhaltserstellung deaktiviert.
+- **Löschen**: Mit dieser Option können Sie den ausgewählten Themengenerator löschen. Diese Option ist während der Inhaltserstellung deaktiviert.
 - **Duplizieren**: Diese Option erstellt ein Duplikat oder eine Kopie des ausgewählten Thema-Generators. Das Duplikat wird mit einem Suffix erstellt (wie `topic-sample_1`).
 
+
+
+## Verwenden von Velocity-Tools in Datenquellenvorlagen {#use-velocity-tools}
+
+Experience Manager-Vorlagen unterstützen auch die Velocity-Tools (Version 2.0). Mit diesen Tools können Sie verschiedene Funktionen auf die Daten anwenden, die Sie aus den Datenquellen abrufen. Erfahren Sie mehr über die Verwendung des [Velocity-Tools](https://velocity.apache.org/tools/2.0/generic.html) und die Funktionen, die Sie anwenden können.
+
+Führen Sie die folgenden Schritte aus, um ein Velocity-Tool in einer Vorlage zu verwenden:
+1. Bearbeiten Sie eine Velocity-Vorlage im Web-Editor.
+1. Fügen Sie ein Tool und dessen Funktion in der `<tool.function>` Format. Zum Beispiel:
+   - Verwenden Sie zum Generieren einer zufälligen Nummer mit dem Mathematik-Tool `$mathTool.random`.
+   - Verwenden Sie zum Generieren der Summe der Zahlen mit dem mathematischen Werkzeug `$mathTool.add(num1, num2)`.
+1. Verwenden Sie die Vorlage, um einen Inhaltsausschnitt oder ein Thema zu erstellen.
+1. Nachdem Sie die Vorlage auf die Daten angewendet haben, können Sie die Daten in der Vorschau oder in der DITA-Quellansicht anzeigen.
+
+
+
+
+Sie können die folgenden Tools in den Velocity-Vorlagen verwenden, um verschiedene Funktionen auf die Daten anzuwenden, die Sie aus dem Connector abrufen: -`$alternatorTool`
+- `$classTool`
+- `$contextTool`
+- `$conversionTool`
+- `$dateTool`
+- `$comparisonDateTool`
+- `$displayTool`
+- `$escapeTool`
+- `$fieldTool`
+- `$loopTool`
+- `$linkTool`
+- `$listTool`
+- `$mathTool`
+- `$numberTool`
+- `$renderTool`
+- `$resourceTool`
+- `$sortTool`
 
 
 

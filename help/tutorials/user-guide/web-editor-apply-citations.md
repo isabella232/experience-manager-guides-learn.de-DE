@@ -1,9 +1,9 @@
 ---
 title: Hinzufügen und Verwalten von Zitaten in Ihrem Inhalt
-description: Erfahren Sie, wie Sie Referenzen implementieren können, indem Sie Zitate zu Ihrem Inhalt hinzufügen und darauf anwenden.
-source-git-commit: 85eb0228908134080f3f1e2644f3f7c37b8d7497
+description: Fügen Sie Zitate hinzu und verwalten Sie sie in AEM Handbüchern. Erfahren Sie, wie Sie Inhaltsausgabe mit Zitaten anwenden, importieren, filtern, suchen, ändern, bearbeiten, Vorschau anzeigen, einfügen, löschen und generieren können.
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '1863'
+source-wordcount: '1877'
 ht-degree: 1%
 
 ---
@@ -11,7 +11,7 @@ ht-degree: 1%
 
 # Hinzufügen und Verwalten von Zitaten in Ihrem Inhalt
 
-Zitate sind Verweise auf die Informationsquelle, die zu Ihrem Inhalt hinzugefügt wird. Mithilfe von Zitaten können Sie den Autoren die Quellinformationen zuschreiben und Lesern dabei helfen, die Quellinformationen zu verfolgen. Durch das Hinzufügen von Zitaten wird der Inhalt zuverlässiger und es wird Plagiat verhindert. Sie ermöglichen es Ihnen auch, gut recherchierte Inhalte anzuzeigen.
+Zitate sind Verweise auf die Informationsquelle, die zu Ihrem Inhalt hinzugefügt wird. Mithilfe von Zitaten können Sie den Autoren die Quellinformationen zuschreiben und Lesern dabei helfen, die Quellinformationen zu verfolgen. Das Hinzufügen von Zitaten macht Ihren Inhalt zuverlässiger und verhindert Plagiate. Sie ermöglichen es Ihnen auch, gut recherchierte Inhalte anzuzeigen.
 
 In AEM Handbüchern können Sie Zitate hinzufügen und importieren und auf Ihren Inhalt anwenden. Sie können diese Zitate aus jeder Quelle von Büchern, Websites und Zeitschriften hinzufügen.
 

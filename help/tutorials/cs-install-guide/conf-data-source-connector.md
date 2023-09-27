@@ -1,7 +1,7 @@
 ---
 title: Konfigurieren eines Datenquellen-Connectors
 description: Erfahren Sie, wie Sie einen Datenquellen-Connector konfigurieren
-source-git-commit: 2e7f9fb0a5932cc6fa5852ba8d9b9bf13ab12aed
+source-git-commit: fc142d8a6e907fac1321dfd5c2cb9615d523709d
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 1%
@@ -274,7 +274,7 @@ Andere Felder werden basierend auf der Konfigurationsklasse angepasst, die zum A
 
 Laden Sie die Datei an einen Speicherort in AEM Assets hoch.
 
-Zum Beispiel: `/var/dxml/konnect/jira.json`
+Zum Beispiel: `/content/dam/jira.json`
 
 ## Erstellen einer Konfiguration mithilfe der REST-API
 

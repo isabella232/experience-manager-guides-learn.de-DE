@@ -1,17 +1,17 @@
 ---
 title: Ausgabegenerierung
-description: Erfahren Sie, wie Sie die Ausgabe generieren
+description: Generieren Sie die Ausgabe in AEM Site, PDF, HTML5, EPUB, benutzerdefinierten und JSON über DITA-OT-Plug-ins, natives PDF-Publishing und FMPS in AEM Guides.
 exl-id: 32fc32f8-16b1-4c3c-a6e2-abfb8fba9e66
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
 
 # Ausgabegenerierung {#id1645H8040HD}
 
-AEM Guides verfügen über integrierte Veröffentlichungsfunktionen, mit denen Ausgaben in verschiedenen branchenüblichen Formaten generiert werden können. Mit der aktuellen Version von AEM Guides können Sie Ausgaben in den am häufigsten verwendeten Formaten generieren - AEM Site, PDF, HTML5, EPUB, JSON und benutzerdefinierte Ausgabe über DITA-OT, native PDF-Veröffentlichung und FMPS.
+AEM Guides verfügen über integrierte Veröffentlichungsfunktionen, mit denen Ausgaben in verschiedenen branchenüblichen Formaten generiert werden können. Mit der aktuellen Version von AEM Guides können Sie die Ausgabe in den am häufigsten verwendeten Formaten generieren - AEM Site, PDF, HTML5, EPUB, JSON und benutzerdefinierte Ausgabe über DITA-OT, native PDF-Veröffentlichung und FMPS.
 
 Als Herausgeber können Sie mehrere Ausgaben mit nur wenigen Klicks generieren. Sie können die Ausgabe für eine gesamte DITA-Zuordnung generieren oder nur einige Themen selektiv veröffentlichen, die Sie aktualisiert haben. Sie können auch die Funktion Grundlinien-Veröffentlichung verwenden, um eine bestimmte Version Ihrer DITA-Map oder Ihres Themas selektiv zu veröffentlichen.
 

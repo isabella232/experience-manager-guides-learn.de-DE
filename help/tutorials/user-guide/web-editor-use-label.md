@@ -1,10 +1,10 @@
 ---
 title: Verwenden von Bezeichnungen
-description: Erfahren Sie, wie Sie Beschriftungen verwenden
+description: Informationen zur Verwendung von Bezeichnungen für verschiedene Versionen einer Datei finden Sie in AEM Handbüchern. Erfahren Sie, wie Sie einer Version eines Themas eine Bezeichnung hinzufügen oder löschen.
 exl-id: 3ea56d06-537f-4bfd-922d-df1f23e61a20
-source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Mit AEM Guides können Sie verschiedenen Versionen einer Datei Beschriftungen hinzufügen. Sie können diese Beschriftungen verwenden, um die Version anzugeben, die Sie in eine Grundlinie zur Veröffentlichung einbeziehen möchten. Weitere Informationen zur Verwendung von Bezeichnungen zum Erstellen einer Grundlinie finden Sie unter [Arbeiten mit Grundlinien](generate-output-use-baseline-for-publishing.md#).
 
-Wenn Sie beispielsweise *Version 1.0* eines Themas in *Version 1.0* und *Version 1.1* desselben Themas in *Version 2.0* können Sie *Version 1.0* auf *Version 1.0* und *Version 2.0* auf *Version 1.1*.
+Wenn Sie beispielsweise *Version 1.0* eines Themas in *Version 1.0* und *Version 1.1* desselben Themas in *Version 2.0* können Sie *Version 1.0* auf der *Version 1.0* und *Version 2.0* auf der *Version 1.1*.
 
 Nachdem Sie die Titel hinzugefügt haben, können Sie eine Grundlinie erstellen und festlegen, welche Version des Themas für die Veröffentlichung mit dieser Grundlinie einbezogen werden soll. Um zu sehen, welche Version in einer Grundlinie ein- oder ausgeschlossen werden soll, können Sie die Option Versionsverlauf verwenden.
 
@@ -31,7 +31,7 @@ Führen Sie die folgenden Schritte aus, um Ihrem Thema eine Bezeichnung hinzuzuf
    >
    > Dieselbe Bezeichnung kann nicht den verschiedenen Versionen eines Themas hinzugefügt werden. Sie können jedoch derselben Version eines Themas mehrere Bezeichnungen hinzufügen.
 
-   Die Titel werden im Versionsverlauf des ausgewählten Themas angezeigt. Der folgende Screenshot zeigt die Beschriftungen *x.x-Version* und *Benutzerhandbuch* zur hervorgehobenen Version des Themas hinzugefügt.
+   Die Titel werden im Versionsverlauf des ausgewählten Themas angezeigt. Im folgenden Screenshot werden die Beschriftungen angezeigt *x.x-Version* und *Benutzerhandbuch* zur hervorgehobenen Version des Themas hinzugefügt.
 
    ![](images/labels.png){width="300" align="left"}
 

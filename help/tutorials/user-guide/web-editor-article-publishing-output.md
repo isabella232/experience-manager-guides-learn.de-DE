@@ -1,10 +1,10 @@
 ---
 title: Generiert die Ausgabe aus dem Repository-Bedienfeld
-description: Erfahren Sie, wie Sie eine Ausgabe aus dem Repository-Bedienfeld generieren
+description: Generieren Sie eine Ausgabe aus dem Repository-Bedienfeld oder dem Bereich "Map View"in AEM Handbüchern. Erfahren Sie, wie Sie ein Thema veröffentlichen, das in einer oder mehreren DITA-Maps verwendet wird, oder Ausgaben für mehrere Themen generieren.
 exl-id: 3dea81c3-1e57-4f14-9afe-6b075bd410e0
-source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,9 @@ Sie können auch die für Ihre DITA-Zuordnung erstellten Ausgabevorgaben verwend
 
 - Verwenden Sie die **Schnellgenerierung** -Funktion im Repository-Bedienfeld oder im Bereich &quot;Map View&quot;verwenden, um die Ausgabe für das ausgewählte Thema oder die gesamte DITA Map zu generieren.
 
-   >[!NOTE]
-   >
-   > Sie können auch auf die **Schnellgenerierung** im Bereich &quot;Favoriten&quot;oder im Bereich &quot;Suchen&quot;angezeigt.
+  >[!NOTE]
+  >
+  > Sie können auch auf die **Schnellgenerierung** im Bereich &quot;Favoriten&quot;oder im Bereich &quot;Suchen&quot;angezeigt.
 
 - Verwenden Sie die **Output generieren** Funktion im Bereich &quot;Map View&quot;, um die Ausgabe für die ausgewählten mehreren Themen zu generieren.
 
@@ -33,7 +33,7 @@ Führen Sie die folgenden Schritte aus, um die Ausgabe für ein oder mehrere The
 1. Um ein Thema zu veröffentlichen, das in einer einzelnen DITA-Zuordnung verwendet wird, wählen Sie die Ausgabevorgaben Ihrer Map aus, die Sie für die Veröffentlichung verwenden möchten, und klicken Sie auf **Erzeugen**.
    ![](images/select-preset_cs.png){width="350" align="left"}
 
-1. Sie sehen den Status des Generierungsprozesses der Ausgabe. Um die Ausgabe anzuzeigen, bewegen Sie den Mauszeiger über das Thema und klicken Sie auf &quot;Ausgabe anzeigen&quot;.
+1. Sie sehen den Status des Generierungsprozesses der Ausgabe. Um die Ausgabe anzuzeigen, bewegen Sie den Mauszeiger über das Thema und klicken Sie auf Ausgabe anzeigen .
 
 1. Wenn Sie über ein gemeinsames Thema verfügen, das für mehrere Themen verwendet wird, wählen Sie die verschiedenen DITA-Maps sowie die Ausgabevorgaben aus, die Sie veröffentlichen möchten, und klicken Sie auf **Generieren.**
 
@@ -42,11 +42,11 @@ Führen Sie die folgenden Schritte aus, um die Ausgabe für ein oder mehrere The
 1. Sie sehen den Status des Generierungsprozesses der Ausgabe.
 
    - **Themen**: Listet die ausgewählten Themen auf, für die die Ausgabe generiert wird.
-   - **Vorgabe**: Zeigt die Ausgabevorgaben an, die die ausgewählten Themen enthalten.
+   - **Voreinstellung**: Zeigt die Ausgabevorgaben an, die die ausgewählten Themen enthalten.
    - **Zuordnung**: Listet die DITA-Maps auf, die das ausgewählte Thema enthalten.
    - **Status**: Zeigt den Veröffentlichungsstatus der einzelnen Themen an.
-Um die Ausgabe anzuzeigen, bewegen Sie den Mauszeiger über das Thema und klicken Sie auf &quot;Ausgabe anzeigen&quot;.
-      ![](images/output-multiple-maps_cs.png){width="800" align="left"}
+Um die Ausgabe anzuzeigen, bewegen Sie den Mauszeiger über das Thema und klicken Sie auf Ausgabe anzeigen .
+     ![](images/output-multiple-maps_cs.png){width="800" align="left"}
 
 
 ## Generieren der Ausgabe für eine DITA-Zuordnung aus dem Web-Editor
@@ -61,7 +61,7 @@ Führen Sie die folgenden Schritte aus, um die Ausgabe für die gesamte DITA-Zuo
 
 1. Wählen Sie die Ausgabevorgaben Ihrer DITA-Map aus, die Sie zum Veröffentlichen verwenden möchten, und klicken Sie auf **Generieren.**
 
-1. Sie sehen den Status des Generierungsprozesses der Ausgabe. Um die Ausgabe anzuzeigen, bewegen Sie den Mauszeiger über das Thema und klicken Sie auf &quot;Ausgabe anzeigen&quot;.
+1. Sie sehen den Status des Generierungsprozesses der Ausgabe. Um die Ausgabe anzuzeigen, bewegen Sie den Mauszeiger über das Thema und klicken Sie auf Ausgabe anzeigen .
 
 
 ## Ausgabe für mehr als ein Thema generieren

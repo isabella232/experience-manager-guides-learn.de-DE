@@ -1,13 +1,13 @@
 ---
 title: Erfahren Sie, wie Sie Inhalte übersetzen.
-description: Erfahren Sie, wie Sie Inhalte übersetzen
-source-git-commit: 6eb8d29e71301581e8dbb5b6a4252194c5a89f96
+description: Übersetzen Sie Ihre Inhalte in mehrere Sprachen in AEM Handbüchern. Erfahren Sie mehr über die Workflows für die menschliche und maschinelle Übersetzung.
+exl-id: 21a3307f-2b25-40e8-8801-2f3fd5b2415f
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '132'
 ht-degree: 1%
 
 ---
-
 
 # Inhalte übersetzen {#id1645H700L67}
 
@@ -17,9 +17,9 @@ AEM Guides verfügen über leistungsstarke Funktionen, mit denen Sie Ihre Inhalt
 
 - **Maschinelle Übersetzung** - Dies ist der Standarddienst in AEM, bei dem der Inhalt sofort mithilfe der maschinellen Übersetzung in Echtzeit übersetzt wird. Native AEM bieten die Möglichkeit, eine Verbindung zum Microsoft Translator herzustellen.
 
-   >[!NOTE]
-   >
-   > Microsoft Translator ist nur als Testlizenz verfügbar.
+  >[!NOTE]
+  >
+  > Microsoft Translator ist nur als Testlizenz verfügbar.
 
 
 - **[Best Practices für die Übersetzung von Inhalten](translation-first-time.md)**
@@ -27,5 +27,3 @@ AEM Guides verfügen über leistungsstarke Funktionen, mit denen Sie Ihre Inhalt
 - **[Anzeigen des Übersetzungsstatus](translation-view-trans-state-6234.md)**
 
 - **[Geänderte Themen übersetzen](translation-modified-topics-6234.md)**
-
-

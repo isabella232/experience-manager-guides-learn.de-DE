@@ -1,13 +1,13 @@
 ---
 title: Weitere Funktionen im Map-Editor
-description: Erfahren Sie, wie Sie andere Funktionen in den Map-Editoren verwenden.
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+description: Entdecken Sie einige gängige Funktionen im Basic- und Advanced Map Editor. Erfahren Sie, wie Sie wichtige Verweise im Map-Editor auflösen.
+exl-id: ed6f42f6-b95e-4c4d-a648-6f29641a3488
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
-
 
 # Weitere Funktionen im Map-Editor {#id1942D0T0HUI}
 
@@ -29,7 +29,7 @@ Die in den Benutzereinstellungen ausgewählte Stammzuordnung hat die höchste Pr
 
 Die Schlüsselreferenzen können in einer DITA-Map-Datei oder einer separaten DITA-Datei gespeichert werden. In AEM Handbüchern können Sie Schlüsselreferenzen entweder auf Projektebene oder auf Sitzungsebene angeben. Wenn bereits eine Stammzuordnung für die Benutzersitzung definiert ist, wird sie zum Auflösen der Schlüssel verwendet. Andernfalls wird die standardmäßige Stammzuordnung für diesen Ordner verwendet. Wenn keine standardmäßige Stammzuordnung konfiguriert ist, werden die fehlenden Schlüsselverweise für den Benutzer hervorgehoben.
 
-Es gibt mehrere Möglichkeiten, wichtige Verweise in einem DITA-Thema zu lösen, indem die DITA-Zuordnung definiert wird, die an den folgenden Stellen verwendet werden soll:
+Es gibt mehrere Möglichkeiten, wichtige Verweise in einem DITA-Thema zu beheben, indem die DITA-Zuordnung definiert wird, die an den folgenden Stellen verwendet werden soll:
 
 **Projekteigenschaften** - Sie können eine Stammzuordnung zum Auflösen von Schlüsselverweisen beim Erstellen eines Projekts im Abschnitt Projekteigenschaften definieren.
 
@@ -40,4 +40,3 @@ Diese Stammzuordnung gilt für alle Assets \(Ordner und Unterordner\), die mit d
 **Ansicht &quot;Themenbearbeitung&quot;** - Klicken Sie beim Bearbeiten eines DITA-Themas auf das Symbol Schlüsselauflösung und wählen Sie die DITA-Datei aus, die zum Auflösen der Schlüsselverweise verwendet werden soll.
 
 **Übergeordnetes Thema:**[ Arbeiten mit dem Map Editor](map-editor.md)
-

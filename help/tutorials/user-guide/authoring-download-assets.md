@@ -1,13 +1,13 @@
 ---
 title: Dateien herunterladen
-description: Erfahren Sie, wie Sie Dateien herunterladen
-source-git-commit: cc0fbca257d82cc82db5b5da8d263309fd71de55
+description: Erfahren Sie, wie Sie Dateien aus der DITA-Map-Konsole in AEM-Handbüchern herunterladen und eine DITA-Map-Datei in AEM Repository exportieren.
+exl-id: 3b588256-da30-4a98-be5c-fa36cfa8a80b
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
-
 
 # Dateien herunterladen {#id216MC0H0BE8}
 
@@ -35,18 +35,18 @@ Führen Sie die folgenden Schritte aus, um eine DITA-Map-Datei zusammen mit den 
 
    - **Grundlinie verwenden**: Wählen Sie diese Option aus, um eine Liste der Grundlinien für die DITA-Zuordnung zu erhalten. Wenn Sie die Zuordnungsdatei und deren Inhalt auf Grundlage einer bestimmten Grundlinie herunterladen möchten, wählen Sie die Grundlinie aus der Dropdownliste aus. Weitere Informationen zum Arbeiten mit Grundlinien finden Sie unter [Arbeiten mit Grundlinien](generate-output-use-baseline-for-publishing.md#).
    - **Reduzieren der Dateihierarchie**: Wählen Sie diese Option, um alle referenzierten Themen und Mediendateien in einem einzigen Ordner zu speichern.
-
    >[!NOTE]
    >
    > Sie können auch die Zuordnungsdatei herunterladen, ohne eine Option auszuwählen. In diesem Fall wird die letzte persistente Version der referenzierten Themen und Mediendateien heruntergeladen.
 
-1. Nachdem Sie auf **Download** -Schaltfläche, wird die Anfrage zum Herunterladen der Map in die Warteschlange gestellt. Sie erhalten die folgende Benachrichtigung, sobald die Karte zum Download bereit ist.
+1. Nachdem Sie auf **Herunterladen** -Schaltfläche, wird die Anfrage zum Herunterladen der Map in die Warteschlange gestellt. Sie erhalten die folgende Benachrichtigung, sobald die Karte zum Download bereit ist.
 
    ![](images/download-map-prompt.png){width="550" align="left"}
 
-   - Klicken **Download** um die Zuordnungsdatei im.zip-Format herunterzuladen.
+   - Klicks **Herunterladen** um die Zuordnungsdatei im.zip-Format herunterzuladen.
 
-   - Klicken **Später herunterladen** , um die Map-Datei zu einem späteren Zeitpunkt herunterzuladen. Der Downloadlink kann über den AEM Benachrichtigungs-Posteingang aufgerufen werden. Klicken Sie im Posteingang auf die Benachrichtigung zur generierten Zuordnung, um die Zuordnung im ZIP-Format herunterzuladen.
+   - Klicks **Später herunterladen** , um die Map-Datei zu einem späteren Zeitpunkt herunterzuladen. Der Downloadlink kann über den AEM Benachrichtigungs-Posteingang aufgerufen werden. Klicken Sie im Posteingang auf die Benachrichtigung zur generierten Zuordnung, um die Zuordnung im ZIP-Format herunterzuladen.
+
    >[!NOTE]
    >
    > Standardmäßig bleiben die heruntergeladenen Maps fünf Tage im AEM Benachrichtigungs-Posteingang.
@@ -56,4 +56,3 @@ Führen Sie die folgenden Schritte aus, um eine DITA-Map-Datei zusammen mit den 
 Nachdem die Karte heruntergeladen wurde, können Sie die Karte auswählen und das Symbol Öffnen oben verwenden, um den ausgewählten Bericht zu öffnen.
 
 **Übergeordnetes Thema:**[ Inhalt verwalten](authoring.md)
-

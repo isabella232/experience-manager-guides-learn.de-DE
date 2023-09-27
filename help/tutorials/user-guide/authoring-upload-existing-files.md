@@ -1,13 +1,13 @@
 ---
 title: Hochladen von Dateien
-description: Erfahren Sie, wie Sie Dateien hochladen
-source-git-commit: cc0fbca257d82cc82db5b5da8d263309fd71de55
+description: Erfahren Sie, wie Sie Ihre Dateien in das AEM-Repository hochladen und Fehler beheben können. Erfahren Sie mehr über die Benutzeroberfläche der Asset-Konsole, AEM Desktop-Programm, die Erfassung von Asset-Massen und die Verwendung von FrameMaker für Massen-Uploads.
+exl-id: d6a73953-94dd-4fa5-b09c-5e4c77fead62
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '432'
 ht-degree: 4%
 
 ---
-
 
 # Hochladen von Dateien {#id176FF000JUI}
 
@@ -33,7 +33,7 @@ Wenn Sie über umfangreiche Migrationen und gelegentliche Massenaufnahmen verfü
 
 Adobe FrameMaker verfügt über einen leistungsstarken AEM-Connector, mit dem Sie Ihre vorhandenen DITA- und anderen FrameMaker-Dokumente \(`.book` und `.fm`\) in AEM. Sie können verschiedene Funktionen zum Hochladen von Dateien verwenden, z. B. das Hochladen einer einzelnen Datei, das Hochladen eines vollständigen Ordners mit oder ohne Abhängigkeiten \(z. B. Inhaltsreferenzen, Querverweise und Grafiken\).
 
-Weitere Informationen zur Verwendung der Massen-Upload-Funktion in FrameMaker finden Sie im Abschnitt . *Erstellen eines CRX-Ordners und Hochladen von Dateien* im Benutzerhandbuch zu FrameMaker.
+Weitere Informationen zur Verwendung der Massen-Upload-Funktion unter FrameMaker finden Sie im Abschnitt . *Erstellen eines CRX-Ordners und Hochladen von Dateien* im FrameMaker-Benutzerhandbuch.
 
 ## Umgang mit Fehlern beim Hochladen von Inhalten {#id201MI0I04Y4}
 
@@ -41,9 +41,8 @@ Falls eine oder mehrere Dateien nicht hochgeladen werden konnten, wird am Ende d
 
 ![](images/uuid-files-failed-to-upload_cs.png){width="650" align="center"}
 
-Weitere Informationen zu den verschiedenen Szenarien für das Hochladen von Dateien finden Sie unter [Hochladen von DITA-Inhalten](authoring-file-management.md#).
+Weitere Informationen zu den verschiedenen Szenarien für das Hochladen von Dateien finden Sie unter [DITA-Inhalt hochladen](authoring-file-management.md#).
 
 Wenn Sie ein Tool wie AEM Desktop-Programm oder Asset-Massenaufnahme verwenden, wird die Aktion, die für eine duplizierte Datei ausgeführt werden soll, durch eine Einstellung auf dem AEM-Server gesteuert. Wenden Sie sich an Ihren Systemadministrator, um Informationen zu dieser Konfiguration zu erhalten.
 
 **Übergeordnetes Thema:**[ Inhalt verwalten](authoring.md)
-

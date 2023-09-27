@@ -1,10 +1,10 @@
 ---
 title: Funktionen des Web Editors kennen
-description: Erfahren Sie, wie Sie die Funktionen des Web Editors kennen
+description: Entdecken Sie die Funktionen des Webeditors in AEM Handbüchern. Machen Sie sich mit der Benutzeroberfläche des Web-Editors vertraut, einschließlich der Hauptsymbolleiste, der sekundären Symbolleiste, des linken Bedienfelds, des Inhaltsbearbeitungsbereichs und des rechten Bedienfelds.
 exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: 9196d7b1094149f06067c153b9c02c2cd20c18af
+source-git-commit: a209e46e41055348402292e20c229890cd0c01cf
 workflow-type: tm+mt
-source-wordcount: '15744'
+source-wordcount: '16066'
 ht-degree: 0%
 
 ---
@@ -741,9 +741,7 @@ Die Liste der gefilterten Dateien mit dem gesuchten Text wird angezeigt. Im obig
 
 **Optionen, Menü**
 
-Zusätzlich zum Öffnen von Dateien über das linke Bedienfeld können Sie auch viele Aktionen mit dem
-
-Menü &quot;Optionen&quot;in der Repository-Ansicht. Je nachdem, ob Sie einen Ordner, eine Themendatei oder eine Mediendatei auswählen, werden Ihnen unterschiedliche Optionen angezeigt.
+Zusätzlich zum Öffnen von Dateien über das linke Bedienfeld können Sie auch viele Aktionen über das Menü Optionen ausführen, das in der Repository-Ansicht verfügbar ist. Je nachdem, ob Sie einen Ordner, eine Themendatei oder eine Mediendatei auswählen, werden Ihnen unterschiedliche Optionen angezeigt.
 
 **Optionen für Ordner**
 
@@ -801,7 +799,7 @@ Im Menü Optionen werden je nachdem, ob Sie eine Mediendatei oder eine DITA-Date
 - Eigenschaften
 - Anzeigen in der Assets-Benutzeroberfläche
 
-![](images/options-menu-repo-view-file-level.png){width="550" align="left"}
+![Optionen-Menü einer Datei in der Repository-Ansicht](images/options-menu-repo-view-file-level.png){width="550" align="left"}
 
 Die verschiedenen Optionen im Menü Optionen werden nachfolgend beschrieben:
 
@@ -896,7 +894,18 @@ Die verschiedenen Optionen im Menü Optionen werden nachfolgend beschrieben:
 
 - **Map-Dashboard öffnen**: Wenn es sich bei der ausgewählten Datei um eine DITA-Zuordnung handelt, öffnet diese Option das Landkarten-Dashboard.
 
+- **In Sauerstoff bearbeiten**: Wählen Sie diese Option, um die ausgewählte Datei im Oxygen Connector-Plug-in zu bearbeiten. Die Datei wird zur Bearbeitung geöffnet.
+
+  >[!NOTE]
+  >
+  >Wenden Sie sich an Ihr Customer Success Team, um diese Funktion in der Umgebung aktivieren zu lassen. Dies ist im Rahmen der nativen Unterstützung nicht aktiviert. Weitere Informationen finden Sie unter [Konfigurieren der Bearbeitungsoption in Sauerstoff](../cs-install-guide/conf-edit-in-oxygen.md) im Installations- und Konfigurationshandbuch.
+
+
 - **Anzeigen in der Assets-Benutzeroberfläche**: Verwenden Sie diese Option, um eine Vorschau einer .dita/.xml -Datei in der Assets-Benutzeroberfläche anzuzeigen. Bei einer .ditamap/.bookmap -Datei werden alle Themendateien in der Zuordnung in einer einheitlichen Seitenansicht angezeigt.
+
+- **Als PDF herunterladen**: Verwenden Sie die Option, um die PDF-Ausgabe zu generieren und herunterzuladen.
+
+- **Veröffentlichen als**: Verwenden Sie die Option, um ein Thema oder die Elemente innerhalb eines Themas in einem Inhaltsfragment zu veröffentlichen.
 
 - **Schnellgenerierung**: Generieren Sie die Ausgabe für die ausgewählte Datei. Die Ausgabe kann nur für Dateien generiert werden, die Teil einer Ausgabevorgabe sind. Weitere Informationen finden Sie unter [Artikelbasierte Veröffentlichung im Web Editor](web-editor-article-publishing.md#id218CK0U019I).
 
@@ -995,9 +1004,25 @@ Sie können die folgenden Aktionen über das Menü Optionen der Zuordnungsdatei 
 - **Map-Dashboard öffnen**: Öffnen Sie das Landkarten-Dashboard.
 
 - **Anzeigen in der Assets-Benutzeroberfläche**: Verwenden Sie diese Option, um eine Vorschau der Zuordnungsdatei in der Assets-Benutzeroberfläche anzuzeigen. In dieser Ansicht werden alle Themendateien in der Zuordnung in einer einzigen einheitlichen Seitenansicht angezeigt.
+- **Download-Map**: Wählen Sie diese Option aus, um die **Download-Map** angezeigt.
+Im **Download-Map** können Sie die folgenden Optionen auswählen:
+   - **Grundlinie verwenden**: Wählen Sie diese Option aus, um eine Liste der Grundlinien für die DITA-Zuordnung zu erhalten. Wenn Sie die Zuordnungsdatei und deren Inhalt auf Grundlage einer bestimmten Grundlinie herunterladen möchten, wählen Sie die Grundlinie aus der Dropdownliste aus. Weitere Informationen zum Arbeiten mit Grundlinien finden Sie unter [Arbeiten mit Grundlinien](./generate-output-use-baseline-for-publishing.md).
+   - **Reduzieren der Dateihierarchie**: Wählen Sie diese Option, um alle referenzierten Themen und Mediendateien in einem einzigen Ordner zu speichern.
 
-- **Schnellgenerierung**: Generieren Sie die Ausgabe für die ausgewählte Zuordnungsdatei. Die Ausgabe kann nur für Dateien generiert werden, die Teil einer Ausgabevorgabe sind. Weitere Informationen finden Sie unter [Artikelbasierte Veröffentlichung im Web Editor](web-editor-article-publishing.md#id218CK0U019I).
+  Sie können auch die Zuordnungsdatei herunterladen, ohne eine Option auszuwählen. In diesem Fall werden die letzten beibehaltenen Versionen der referenzierten Themen und Mediendateien heruntergeladen.
+
+  Nachdem Sie auf **Herunterladen** -Schaltfläche, wird die Anfrage zum Herunterladen der Map in die Warteschlange gestellt. Sie erhalten die Download-bereite Benachrichtigung, wenn die Karte zum Herunterladen bereit ist. Wenn der Download fehlschlägt, erhalten Sie die Benachrichtigung, dass der Map-Download fehlgeschlagen ist
+
+  Sie können über den AEM Benachrichtigungs-Posteingang auf den Downloadlink zugreifen. Wählen Sie die generierte Zuordnungsbenachrichtigung im Posteingang aus, um die Zuordnung im ZIP-Format herunterzuladen.
+
+  >[!NOTE]
+  >
+  >  Standardmäßig bleiben die heruntergeladenen Maps fünf Tage im AEM Benachrichtigungs-Posteingang.
+
+- **Output generieren**: Generieren Sie die Ausgabe für die ausgewählte Zuordnungsdatei. Die Ausgabe kann nur für Dateien generiert werden, die Teil einer Ausgabevorgabe sind. Weitere Informationen finden Sie unter [Artikelbasierte Veröffentlichung im Web Editor](web-editor-article-publishing.md#id218CK0U019I).
 - **Schließen**: Schließt die Zuordnungsdatei.
+
+
 
 Der folgende Screenshot zeigt das Menü &quot;Optionen&quot;für eine Datei in der DITA Map-Ansicht:
 

@@ -1,13 +1,13 @@
 ---
 title: Ausgabevorgaben für Global- und Ordnerprofile verwalten
-description: Erfahren Sie, wie Sie Ausgabevorgaben für Global- und Ordnerprofile verwalten
-source-git-commit: 3b33b27e4acb8d0b185427725e23b8beac0c2a46
+description: Erfahren Sie, wie Sie in AEM Handbüchern globale und Ordnerprofil-Ausgabevorgaben erstellen, bearbeiten, umbenennen, duplizieren und löschen.
+exl-id: 40ea464c-16c8-4c95-9c0e-61b6bad95272
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
-
 
 # Ausgabevorgaben für Global- und Ordnerprofile verwalten {#id22BLJ0D0V1U}
 
@@ -18,7 +18,7 @@ Als Administrator können Sie mit AEM Guides Ausgabevorgaben für die globalen u
 Führen Sie die folgenden Schritte aus, um eine Ausgabevorgabe für die Profile Global und Ordner zu erstellen:
 
 1. Wählen Sie die DITA-Zuordnung aus, für die Sie eine Ausgabevorgabe erstellen möchten.
-1. Wählen Sie die **Themen bearbeiten** -Option **Optionen** Menü der Map-Datei. Die Zuordnungsdatei wird zur Bearbeitung im Web-Editor geöffnet.
+1. Wählen Sie die **Themen bearbeiten** Option aus der **Optionen** Menü der Map-Datei. Die Zuordnungsdatei wird zur Bearbeitung im Web-Editor geöffnet.
 1. Im **Ausgabe** klicken Sie auf das Symbol + , um eine Ausgabevorgabe für Ihre DITA-Zuordnung zu erstellen.
 
    ![](images/add-global-output-preset.png){width="350" align="left"}
@@ -27,7 +27,7 @@ Führen Sie die folgenden Schritte aus, um eine Ausgabevorgabe für die Profile 
    - Typ
    - Name
    - Ziel \(für die Knowledgebase-Vorgabe\)
-1. Wählen Sie die **Hinzufügen zum Ordnerprofil** aktivieren, um eine Ausgabevorgabe für das zugehörige Ordnerprofil zu erstellen, und klicken Sie dann auf **Hinzufügen**. Die Vorgabe wird erstellt und unter dem **Ausgabe** -Registerkarte aller zugehörigen Maps. \( ![](images/global-preset-icon.svg)\) Symbol zeigt eine Vorgabe auf Ordnerprofilebene an.
+1. Wählen Sie die **Hinzufügen zum Ordnerprofil** aktivieren, um eine Ausgabevorgabe für das zugehörige Ordnerprofil zu erstellen, und klicken Sie dann auf **Hinzufügen**. Die Vorgabe wird erstellt und unter dem **Ausgabe** -Registerkarte aller zugehörigen Karten. \( ![](images/global-preset-icon.svg)\) Symbol zeigt eine Vorgabe auf Ordnerprofilebene an.
 1. Geben Sie die Konfigurationsdetails ein.
 
    >[!NOTE]
@@ -52,4 +52,3 @@ Sie können auch die folgenden Vorgänge für die Vorgabe im Menü Optionen ausf
 > Wenn eine Ausgabevorgabe in den Profilen &quot;Global&quot;und &quot;Ordner&quot;gelöscht wird, wird sie in allen zugehörigen Maps angezeigt und nicht unter der **Ausgabe** Registerkarte.
 
 **Übergeordnetes Thema:**[ Arbeiten mit dem Web-Editor](web-editor.md)
-

@@ -1,10 +1,10 @@
 ---
 title: Bedingte Attributprofilierung
-description: Erfahren Sie, wie Sie die Profilierung von bedingten Attributen durchführen.
+description: Erfahren Sie, wie Sie in AEM Handbüchern bedingte Attribute erstellen. Verwenden Sie bedingte Attribute im Ordner und globale Profile, um Ihren Inhalt an Bedingungen zu knüpfen.
 exl-id: 31b0ffe6-44e7-459d-a8df-a64ec868768c
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '481'
 ht-degree: 1%
 
 ---
@@ -37,11 +37,11 @@ Um bedingte Attribute zu definieren, führen Sie die folgenden Schritte aus:
 
 1. Klicken Sie auf **Hinzufügen**.
 
-1. Geben Sie die **Name**, **Wert** und **Titel** für das -Attribut.
+1. Geben Sie die **Name**, **Wert** und ein **Titel** für das -Attribut.
 
    Sie können ein Profil mit nur dem Attributnamen speichern. Ein Attribut kann jedoch nur verwendet werden, wenn dafür ein Wert angegeben ist. Wenn Sie für ein Attribut sowohl -Wert als auch -Beschriftung angeben, zeigt der Web Editor weiterhin nur den Wert des Attributs an. Der Titel wird dem Publishing-Administrator zum Zeitpunkt der Erstellung einer bedingten Vorgabe angezeigt.
 
-   Der folgende Screenshot zeigt die Definition der `platform` Attribut mit dem Wert von `unix` und einen Titel `Red Hat Linux`.
+   Der folgende Screenshot zeigt die Definition für die `platform` Attribut mit dem Wert von `unix` und einen Titel `Red Hat Linux`.
 
    ![](images/add-profile.png){width="800" align="left"}
 
@@ -52,7 +52,7 @@ Um bedingte Attribute zu definieren, führen Sie die folgenden Schritte aus:
 1. Klicken Sie auf **Speichern**, um die Änderungen zu speichern.
 
 
-Die `platform` -Attribut im System gespeichert wird. Wann immer ein Autor beschließt, die `platform` -Attribut in einem DITA-Thema in einem Ordner angezeigt werden, sehen sie die Werte auf der Registerkarte Eigenschaften im Web Editor.
+Die `platform` -Attribut im System gespeichert. Wann immer ein Autor beschließt, die `platform` -Attribut in einem DITA-Thema in einem Ordner angezeigt, sehen sie die Werte auf der Registerkarte Eigenschaften im Web Editor.
 
 ![](images/properties-tab.png){width="350" align="left"}
 

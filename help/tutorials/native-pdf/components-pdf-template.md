@@ -2,9 +2,9 @@
 title: Native PDF-Veröffentlichungsfunktion | Komponenten einer PDF-Vorlage
 description: Erfahren Sie mehr über die verschiedenen Komponenten einer PDF-Vorlage und wie Sie diese anpassen und konfigurieren.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 90cd3c53fd8da0b987c99950dd37d405bea12c6e
+source-git-commit: 5abcc887a24d838caabdf9a34a84ebc851ed4cbf
 workflow-type: tm+mt
-source-wordcount: '4160'
+source-wordcount: '4376'
 ht-degree: 0%
 
 ---
@@ -219,6 +219,7 @@ Legen Sie die grundlegenden Konfigurationseinstellungen für das Starten eines K
 
   Hier können Sie bemerken, dass die erweiterten PDF-Einstellungen des ersten Kapitels keine Seitenzahl erhalten, da sie verschachtelte oder untergeordnete Themen haben. Eine Seitenzahl hingegen, wenn sie Anhang und Legal zugewiesen wird, da es sich um eigenständige Themen ohne untergeordnetes Thema handelt.
 
+* **Kapitelnummer im Inhaltsverzeichnis nicht anzeigen** : Wählen Sie diese Option, um die Kapitelnamen ohne die Kapitelnummern im Inhaltsverzeichnis anzuzeigen.   Standardmäßig werden die Kapitelnummern im TOC Ihrer PDF-Ausgabe angezeigt.
 * **Füllzeichenformat**: Verwenden Sie die Dropdown-Liste, um die Füllzeichenlinien &quot;Gepunktet&quot;, &quot;Durchgehend&quot;oder &quot;Leerzeichen&quot;auszuwählen, um die Überschriftenebenen mit den entsprechenden Seitenzahlen zu verbinden.
 Informationen zum Anwenden der TOC-Struktur und der Styling-Überschriftenebenen finden Sie unter [Kapitel-Inhaltsverzeichnis hinzufügen](design-page-layout.md#add-chapter-toc).
 
@@ -232,8 +233,14 @@ Sie können den Text definieren, der vor und nach dem Umbruch angezeigt werden s
   Verwenden Sie Sprachvariablen, um den Text für die Fortsetzung der Markierung vor und nach der Pause zu definieren. Abhängig von Ihrer ausgewählten Sprache wird der lokalisierte Wert automatisch in der PDF-Ausgabe ausgewählt. Sie können beispielsweise `Continued on page %page-num%` als Text in Englisch und `Fortsetzung auf Seite %page-num%` auf Deutsch.
 
   Bewegen <img src="./assets/info-details.svg" alt= "Infosymbol" width="25"> neben der Option, um weitere Details dazu anzuzeigen.
+* **Glossarbegriffe mit der Glossarseite verknüpfen**: Wählen Sie diese Option, um die Glossarbegriffe als Hyperlinks im Inhalt anzuzeigen und sie mit den Begriffen auf der Glossarseite zu verknüpfen. Dies hilft den Lesern, die Definition eines Begriffs im Glossar schnell anzuzeigen.
 
-<!--For more information on using table continuation markers, see Use table continuation markers.-->
+  Um die Glossarbegriffe in Hyperlinks zu konvertieren, gehen Sie folgendermaßen vor:
+   * Aktivieren **Glossar** im **Seitenreihenfolge** für eine DITA-Zuordnung.
+   * Fügen Sie das Glossar in die &quot;Back Matter Pages&quot;für eine Buchkarte ein.
+
+  Wenn Sie die Glossarseite nicht aktivieren, werden die Glossarbegriffe im Inhalt nicht in Hyperlinks in der PDF-Ausgabe konvertiert.
+  <!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 ### Seitenlayouts {#page-layouts}
 
@@ -256,7 +263,13 @@ Die folgenden Einstellungen sind im Abschnitt Seitenlayout verfügbar:
 
 * **Liste der Abbildungen und Tabellen**: Sie können auch das Seitenlayout für Zahlen und Tabellen festlegen. Das ausgewählte Layout wird auf alle Abbildungen und Tabellen angewendet.
 
-* **Index und Glossar**: Wenn Sie ein Indexseitenlayout entworfen haben, ordnen Sie es der Option Index zu. Wenn Sie ein Glossar-Seitenlayout haben, ordnen Sie es der Glossaroption zu.
+* **Index**: Wenn Sie ein Indexseitenlayout entworfen haben, ordnen Sie es der Option Index zu. Mithilfe der Stylesheets können Sie verschiedene Indexelemente in der PDF-Ausgabe formatieren. Indexstile verwenden `.idx-header`, `.idx-footer`, `.idx-body`, `.idx-title`, `.idx-keyword-group`, `.idx-unit`,  `.idx-keyword`, `.idx-name`, `.idx-link` und `.idx-child` , um die Stile für die Elemente des Index anzupassen.
+
+* **Glossar**: Wenn Sie ein Glossar-Seitenlayout haben, ordnen Sie es der Glossaroption zu.  Die Begriffe im Glossar Ihrer PDF-Ausgabe werden immer in alphabetischer Reihenfolge sortiert.
+
+  Mithilfe der Stylesheets können Sie verschiedene Glossarelemente in der PDF-Ausgabe gestalten. Glossarstile verwenden `.glo-header`, `.glo-footer`, `.glo-body`, `.glo-title`, `.glo-unit`, `.glo-link`, und `.glo-term` , um die Stile für die Elemente des Glossars anzupassen.
+
+  Erfahren Sie mehr über die Verwendung des Stileditors zum [Arbeiten mit allgemeinen Inhaltsstilen](stylesheet.md).
 
 * **Seiten mit VorMaterie und Seiten mit Rücken**: Diese Seitenlayouts definieren die Formatierung für Seiten mit Vorder- oder Rückseite Ihres Buches. Wenn Sie das Layout der Vorderteile entworfen haben, ordnen Sie es dem **Seiten mit Vordergrund** -Option. Wenn Sie das Layout der Vorderseite aus dem Dropdown-Menü auswählen, wird das Layout der Vorderseite auf alle in der Vorderseite vorhandenen Themen angewendet.
 
@@ -290,7 +303,7 @@ Sie können die folgenden Bereiche in Ihrer PDF ein- oder ausblenden und auch di
 
   Wenn Sie in Ihrer PDF-Ausgabe keinen bestimmten Bereich anzeigen möchten, können Sie dies verbergen, indem Sie den Umschalter ausschalten.
 
-  Sie können auch die Reihenfolge festlegen, in der diese unterschiedlichen Bereiche in Ihrer PDF generiert werden. Um die Standardreihenfolge dieser Abschnitte zu ändern, wählen Sie die gepunkteten Balken aus, um die Abschnitte per Drag-and-Drop an die gewünschte Position zu ziehen.
+  Sie können auch die Reihenfolge definieren, in der diese unterschiedlichen Bereiche in Ihrer PDF erstellt werden. Um die Standardreihenfolge dieser Abschnitte zu ändern, wählen Sie die gepunkteten Balken aus, um die Abschnitte per Drag-and-Drop an die gewünschte Position zu ziehen.
 
   >[!NOTE]
   >
@@ -298,7 +311,7 @@ Sie können die folgenden Bereiche in Ihrer PDF ein- oder ausblenden und auch di
 
 
 .
-**Kapitel und Themen** Layout ist immer aktiviert und **Glossar** Das Layout ist standardmäßig immer deaktiviert. Sie können sie nicht umschalten.
+**Kapitel und Themen** Das Layout ist standardmäßig immer aktiviert. Sie können sie nicht umschalten.
 
 **Seiten zusammenführen**
 

@@ -1,13 +1,13 @@
 ---
 title: Ausgabevorgabe erstellen, bearbeiten, duplizieren oder entfernen
-description: Erfahren Sie, wie Sie eine Ausgabevorgabe erstellen, bearbeiten, duplizieren oder entfernen
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+description: Erfahren Sie, wie Sie eine benutzerdefinierte Ausgabevorgabe in AEM Guides erstellen, bearbeiten, duplizieren und löschen.
+exl-id: 6ed4f028-da96-4383-9d5c-06b94d6661c0
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
-
 
 # Ausgabevorgabe erstellen, bearbeiten, duplizieren oder entfernen {#id205BEH0K09Z}
 
@@ -19,7 +19,7 @@ Führen Sie die folgenden Schritte aus, um eine benutzerdefinierte Ausgabevorgab
 
 1. Stellen Sie sicher, dass die Registerkarte &quot;Ausgabevorgaben&quot;ausgewählt ist. Klicken Sie in der Symbolleiste auf Erstellen .
 
-   Ein leeres Formular zur Erstellung einer Ausgabevorgabe wird angezeigt.
+   Es wird ein leeres Formular zur Erstellung einer Ausgabevorgabe angezeigt.
 
 1. Geben Sie die erforderlichen Details für den Vorgabetyp ein, den Sie erstellen möchten.
 
@@ -76,4 +76,3 @@ Führen Sie die folgenden Schritte aus, um eine vorhandene Ausgabevorgabe zu lö
 
 
 **Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)
-

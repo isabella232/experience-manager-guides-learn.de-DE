@@ -1,10 +1,10 @@
 ---
 title: Erstellen einer Massen-Aktivierungszuordnung
-description: Erfahren Sie, wie Sie eine Massen-Aktivierungszuordnung erstellen
+description: Erfahren Sie, wie Sie in AEM Handbüchern eine Massen-Aktivierungszuordnung erstellen.
 exl-id: 7d17fb37-9486-4a3b-a421-08e279c95b6c
-source-git-commit: c13d5146f478ed9b9122986a01eaa8a790bc8212
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Auf der Registerkarte Karten und Vorgaben werden Informationen in den folgenden 
 - **UUID**: Zeigt die eindeutige Kennung an, die mit der Datei verknüpft ist.
 
 - **Sprache**: Zeigt den Sprachcode der DITA-Zuordnung an.
-- **Vorgabe**: Zeigt den Titel der in der Zuordnungsdatei konfigurierten Ausgabevorgabe an. Außerdem wird das Symbol je nach Typ der Ausgabevorgabe angezeigt.
+- **Voreinstellung**: Zeigt den Titel der in der Zuordnungsdatei konfigurierten Ausgabevorgabe an. Außerdem wird das Symbol je nach Typ der Ausgabevorgabe angezeigt.
 
   >[!NOTE]
   >
@@ -67,7 +67,7 @@ Auf der Registerkarte Karten und Vorgaben werden Informationen in den folgenden 
 Die folgenden Filteroptionen sind im linken Bereich verfügbar:
 
 - **Geändert**: Sie können &quot;Ja&quot;oder &quot;Nein&quot;auswählen. Wenn Sie &quot;Ja&quot;auswählen, werden nur die modifizierten DITA-Maps angezeigt. Eine geänderte Karte ist eine Karte, die seit der letzten Veröffentlichung erstellt wurde.
-- **Vorgabe**: Wählen Sie eine Vorgabe aus, nach der Sie die Zuordnungsdateien herausfiltern möchten. Wenn Sie beispielsweise *AEM Site* voreingestellt ist, werden nur die Karten angezeigt, die die *AEM Site* Ausgabevorgabe, die für sie konfiguriert ist.
+- **Voreinstellung**: Wählen Sie eine Vorgabe aus, nach der Sie die Zuordnungsdateien herausfiltern möchten. Wenn Sie beispielsweise *AEM Site* voreingestellt ist, werden nur die Karten angezeigt, die die *AEM Site* Ausgabevorgabe, die für sie konfiguriert ist.
 - **Sprache**: Sie können einen der verfügbaren Sprachcodes auswählen und auf der Registerkarte &quot;Karten und Vorgaben&quot;nur die ausgewählte Sprache anzeigen.
 
 - **Filter:** Die aktuelle Leiste zeigt die folgenden Filter an:

@@ -1,13 +1,13 @@
 ---
 title: Berichte
-description: Erfahren Sie, wie Sie Berichte erstellen
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+description: Erfahren Sie, wie Sie DITA-Map-Berichte in AEM-Handbüchern erstellen.
+exl-id: baf3bc11-0725-418e-afef-fe9aa55327fe
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '188'
 ht-degree: 1%
 
 ---
-
 
 # Berichte {#id1645H9007MZ}
 
@@ -15,8 +15,8 @@ Bei einer organisatorischen Einrichtung möchten Sie die Gesamtvollständigkeit 
 
 Sie können DITA-Map-Berichte auf zwei Arten erstellen:
 
-- **Im Web-Editor**: Ermöglicht die Erstellung der Themenliste und des Metadatenberichts für die aktuelle DITA-Zuordnung aus dem Web Editor. Sie können Themen nach Auswahl sortieren oder filtern. Sie haben auch die Funktion zum Massen-Aktualisieren der Metadaten der ausgewählten Themen.
-- **Über das Zuordnungs-Dashboard**: Ermöglicht die Erstellung des DITA-Map-Berichts und die Bereitstellung detaillierter Informationen sowohl auf Zuordnungs- als auch auf Themenebene.
+- **Im Web-Editor**: Ermöglicht das Generieren der Themenliste und des Metadatenberichts für die aktuelle DITA-Zuordnung aus dem Web Editor. Sie können Themen nach Auswahl sortieren oder filtern. Sie haben auch die Funktion, die Metadaten der ausgewählten Themen stapelweise zu aktualisieren.
+- **Über das Zuordnungs-Dashboard**: Ermöglicht die Erstellung des DITA-Zuordnungsberichts und die Bereitstellung detaillierter Informationen auf Zuordnungs- und Themenebene.
 
 - **[DITA-Zuordnungsbericht aus dem Web-Editor](reports-web-editor.md)**
 
@@ -27,5 +27,3 @@ Sie können DITA-Map-Berichte auf zwei Arten erstellen:
 - **[Konversionsstatusbericht](reports-convertion-status.md)**
 
 - **[Versionsverlauf wiederhergestellter Dateien - Bericht](reports-reverted-file-version-history.md)**
-
-

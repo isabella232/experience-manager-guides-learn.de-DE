@@ -1,10 +1,10 @@
 ---
 title: Dokumentstatus
-description: Erfahren Sie, wie Sie den Dokumentstatus anzeigen
+description: Erfahren Sie mehr über die Typen von Dokumentstatus in AEM Handbüchern. Erfahren Sie, wie Sie den Dokumentstatus ändern oder anzeigen und den Dokumentstatus in DDLC verwenden.
 exl-id: 6ab85a63-02d2-4802-a6b8-99e6551a567b
-source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Ein Dokument kann einen beliebigen Dokumentstatus enthalten, der im Profil &quot
 - In Überprüfung - Gibt an, dass ein Überprüfungs-Workflow für das Dokument initiiert wurde.
 - Überprüft - Gibt an, dass das Dokument von den vorgesehenen Benutzern geprüft wurde.
 
-Diese Status werden manuell oder automatisch entsprechend den Profileinstellungen für den Dokumentstatus festgelegt. Wenn beispielsweise das Profil Dokumentstatus mit dem Startstatus Entwurf konfiguriert ist und der Status In Überprüfung für Dokumente, die geprüft werden, definiert ist. Wenn Sie dann ein Dokument erstellen, wird der Dokumentstatus auf *Entwurf*. Wenn Sie eine Prüfungsaufgabe starten, wird der Status des Dokuments in &quot;In Review&quot;geändert.
+Diese Status werden manuell oder automatisch entsprechend den Profileinstellungen für den Dokumentstatus festgelegt. Wenn beispielsweise das Profil &quot;Dokumentstatus&quot;mit dem Startstatus &quot;Entwurf&quot;konfiguriert ist und der Status &quot;In Überprüfung&quot;für Dokumente, die geprüft werden, definiert ist. Wenn Sie dann ein Dokument erstellen, wird der Dokumentstatus auf *Entwurf*. Wenn Sie eine Prüfungsaufgabe starten, wird der Status des Dokuments in &quot;In Review&quot;geändert.
 
 Sie können den Dokumentstatus für ein einzelnes oder mehrere Dokumente auch manuell ändern. Wenn Sie jedoch den Dokumentstatus für mehrere Dokumente ändern möchten, wird der zulässige Status durch die für die ausgewählten Dokumente zulässigen allgemeinen Status bestimmt. Angenommen, Sie haben die Dokumentstatus in derselben Reihenfolge als Entwurf, In-Review, Überprüfen und Veröffentlichungsbereit definiert. In Dokument one.dita wird der Status auf *Entwurf* und in Dokument two.dita wird der Status auf &quot;Überprüfen&quot;festgelegt. Wenn Sie sowohl &quot;one.dita&quot;als auch &quot;two.dita&quot;auswählen, wird der zulässige Dokumentstatus *Veröffentlichungsbereit*. As two.dita ist in *Überarbeitet* state, der nächste mögliche Status für two.dita lautet nur . *Veröffentlichungsbereit*, der angezeigt wird, wenn beide Dokumente ausgewählt sind.
 
@@ -35,7 +35,7 @@ Um den Status eines Dokuments zu ändern, führen Sie die folgenden Schritte aus
 
 1. Wählen Sie in der Assets-Benutzeroberfläche ein oder mehrere Dokumente aus, für die Sie den Dokumentstatus ändern möchten.
 1. Klicken Sie in der Symbolleiste auf **Eigenschaften**.
-1. Wählen Sie den neuen Status aus dem **Dokumentstatus** Dropdown-Liste. Sie können nur die Dokumentstatus auswählen, die im Abschnitt Statusübergang des Dokumentstatusprofils zulässig sind.
+1. Wählen Sie im Dialogfeld **Dokumentstatus** angezeigt. Sie können nur die Dokumentstatus auswählen, die im Abschnitt Statusübergang des Dokumentstatusprofils zulässig sind.
 
    >[!NOTE]
    >
@@ -79,7 +79,7 @@ Führen Sie die folgenden Schritte aus, um die Dokumentvalidierungsfunktion zu v
 
    >[!NOTE]
    >
-   > Wenn Ihr Administrator keine vordefinierte Liste von Bezeichnungen konfiguriert hat, wird Ihnen ein Freiformtextfeld angezeigt, in das Sie einen Titel eingeben können.
+   > Wenn Ihr Administrator keine vordefinierte Liste von Bezeichnungen konfiguriert hat, wird Ihnen ein Freiformtextfeld zur Eingabe eines Titels angezeigt.
 
 1. Sobald das Dokument erfolgreich als genehmigt markiert wurde, wird ein **Vorschau** des Dokuments wird im schreibgeschützten Modus angezeigt.
 

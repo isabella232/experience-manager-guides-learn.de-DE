@@ -1,10 +1,10 @@
 ---
 title: DITA-Zuordnungsbericht aus dem Web-Editor
-description: Erfahren Sie, wie Sie im Web Editor einen DITA-Zuordnungsbericht erstellen
+description: Generieren Sie DITA-Map-Berichte aus dem Webeditor in AEM Handbüchern. Erfahren Sie, wie Sie eine CSV-Datei für Themenlisten, Multimedia-, Metadaten- und Berichte zu fehlerhaften Links erstellen.
 exl-id: b1011cec-6374-4026-bf1c-54a1981c760e
-source-git-commit: 5670b4a8f34916c7ff415680c5ddcfab6e9618e6
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '2351'
+source-wordcount: '2367'
 ht-degree: 0%
 
 ---
@@ -39,12 +39,11 @@ Sie können einen Bericht zu den Themen erstellen, indem Sie die folgenden Schri
    - **Dokumentstatus** Der aktuelle Status des Themas.
    - **Autor** Der Benutzer, der zuletzt an dem Thema gearbeitet hat.
    - **Übergeordnete Zuordnung** Die Liste aller Maps, auf die direkt auf das Thema verwiesen wird.
-
    >[!NOTE]
    >
-   > Klicken **Aktualisieren** , um eine neue Liste von Themen zu erhalten und alle Änderungen in Ihrer Zuordnungsdatei anzuzeigen oder ob ein Verweis in Ihrer Themendatei aktualisiert wird.
+   > Klicks **Aktualisieren** , um eine neue Liste von Themen zu erhalten und alle Änderungen in Ihrer Zuordnungsdatei anzuzeigen oder ob ein Verweis in Ihrer Themendatei aktualisiert wird.
 
-1. Klicken **CSV herunterladen** um den aktuellen Schnappschuss der Themen in der DITA-Map herunterzuladen. Die CSV-Datei enthält die ausgewählten Spalten und die in der **Themenliste** anzeigen. Anschließend können Sie diese CSV-Datei mit der Themenliste in einem beliebigen CSV-Editor öffnen.
+1. Klicks **CSV herunterladen** um den aktuellen Schnappschuss der Themen in der DITA-Map herunterzuladen. Die CSV-Datei enthält die ausgewählten Spalten und die in der **Themenliste** anzeigen. Anschließend können Sie diese CSV-Datei mit der Themenliste in einem beliebigen CSV-Editor öffnen.
 
 **Metadaten stapelweise aus dem Metadatenbericht verwalten**
 
@@ -65,23 +64,23 @@ Führen Sie die folgenden Schritte aus, um die Metadaten Ihrer Referenzen in der
    1. Sie können auch die folgenden Themenfilteroptionen verwenden, um die folgenden Spalten in der Metadatenliste anzuzeigen:
       - **Titel** \(standardmäßig ausgewählt\) Der Titel der referenzierten Datei wird in der DITA-Zuordnung angegeben. Sie können auf die Datei klicken, um sie zu bearbeiten. Sie können auch im Web Editor auf eine Audio- oder Videodatei klicken und diese wiedergeben. Sie können die Lautstärke oder die Ansicht des Videos ändern. Im Kontextmenü haben Sie auch die Möglichkeit, Bilder herunterzuladen, die Wiedergabegeschwindigkeit zu ändern oder Bilder im Bild anzuzeigen.
 
-         >[!NOTE]
-         >
-         > Neben dem Titel einer ausgecheckten Datei wird auch ein Symbol zum Auschecken angezeigt. Sie können den Mauszeiger über das Symbol bewegen, um den Namen des Benutzers anzuzeigen.
+        >[!NOTE]
+        >
+        > Neben dem Titel einer ausgecheckten Datei wird auch ein Symbol zum Auschecken angezeigt. Sie können den Mauszeiger über das Symbol bewegen, um den Namen des Benutzers anzuzeigen.
 
       - **Dateiname** Der Name der Datei.
       - **Dateispeicherort** Der vollständige Pfad der Datei.
       - **Tags** \(standardmäßig ausgewählt\) Auf die Datei angewendete Tags.
 
-         >[!NOTE]
-         >
-         > Standardmäßig können Sie zwei Tags für eine Datei anzeigen. Um weitere Tags anzuzeigen, klicken Sie auf **Mehr anzeigen**. Klicken **Weniger anzeigen** um die Liste erneut zu verzeichnen.
+        >[!NOTE]
+        >
+        > Standardmäßig können Sie zwei Tags für eine Datei anzeigen. Um weitere Tags anzuzeigen, klicken Sie auf **Mehr anzeigen**. Klicks **Weniger anzeigen** , um die Liste erneut zu verzeichnen.
 
       - **Referenztyp** Art der Referenz - direkt oder indirekt
       - **Dokumentstatus** \(standardmäßig ausgewählt\) Der aktuelle Status der Referenzdatei.
       - **Dateityp** \(standardmäßig ausgewählt\) Typ der Quelldatei. Die verfügbaren Optionen sind &quot;Zuordnung&quot;, &quot;Thema&quot;und &quot;Bild&quot;.
       - **Ausgecheckt von** Der Benutzer, der die Datei ausgecheckt hat.
-1. Klicken **CSV herunterladen** , um die aktuelle Momentaufnahme der Verweise in der DITA-Map herunterzuladen. Die CSV-Datei enthält die ausgewählten Spalten und die in der Ansicht &quot;Themenliste&quot;gefilterten Referenzen. Sie können diese Metadaten-CSV-Datei dann in einem beliebigen CSV-Editor öffnen.
+1. Klicks **CSV herunterladen** , um die aktuelle Momentaufnahme der Verweise in der DITA-Map herunterzuladen. Die CSV-Datei enthält die ausgewählten Spalten und die in der Ansicht &quot;Themenliste&quot;gefilterten Referenzen. Sie können diese Metadaten-CSV-Datei dann in einem beliebigen CSV-Editor öffnen.
 
 **Aktualisieren von Metadaten**
 
@@ -102,7 +101,7 @@ Führen Sie die folgenden Schritte aus, um die Metadaten Ihrer Referenzen in der
    > Die allgemeinen Tags, die auf alle ausgewählten Themen angewendet werden, werden aufgelistet.
 
 1. Wählen Sie einen neuen Dokumentstatus aus, wenn Sie den Dokumentstatus aller ausgewählten Verweise ändern möchten. Das Dopdown zeigt den gemeinsamen möglichen Status für alle ausgewählten Themen an. Wenn der aktuelle Status Ihrer Themen beispielsweise In-Review lautet, können Sie den Status &quot;Entwurf&quot;, &quot;Genehmigt&quot;oder &quot;Überprüfen&quot;anzeigen.
-1. Klicken **Aktualisieren** , um die Metadaten zu aktualisieren. Eine Bestätigungsmeldung wird für die Metadaten angezeigt, unabhängig davon, ob sie erfolgreich aktualisiert wurden oder fehlgeschlagene Aktualisierungen aufweisen. Sie können auch auf **Bericht herunterladen** , um die Metadaten-CSV-Datei aus dem Bestätigungsdialogfeld herunterzuladen. Diese CSV-Datei enthält Details zum Aktualisierungsstatus für die ausgewählten Verweise.
+1. Klicks **Aktualisieren** , um die Metadaten zu aktualisieren. Eine Bestätigungsmeldung wird für die Metadaten angezeigt, unabhängig davon, ob sie erfolgreich aktualisiert wurden oder fehlgeschlagene Aktualisierungen aufweisen. Sie können auch auf **Bericht herunterladen** , um die Metadaten-CSV-Datei aus dem Bestätigungsdialogfeld herunterzuladen. Diese CSV-Datei enthält die Details zum Aktualisierungsstatus für die ausgewählten Verweise.
 
 ## Multimedia-Bericht erstellen
 
@@ -115,17 +114,17 @@ Die **Multimedia** enthält detaillierte Informationen zu den in Ihrer Zuordnung
 
    - Wenn Sie nach **Multimedia**, wird der Name des Multimediums in der ersten Spalte angezeigt und dann werden die Namen aller Verweise, in denen es verwendet wurde, in einer anderen Spalte in derselben Zeile angezeigt. Der folgende Screenshot zeigt beispielsweise die Multimedia-Datei WarmCoolForC.gif in der ersten Spalte und drei Referenzen, in denen sie verwendet wird, werden in der dritten Spalte in derselben Zeile angezeigt.
 
-      ![](images/multimedia-report-file-order.png){width="650" align="left"}
+     ![](images/multimedia-report-file-order.png){width="650" align="left"}
 
    - Wenn Sie nach **Verwendet in** -Spalte, werden Sie die verschobene Ansicht anzeigen, wobei die Namen der Referenzen, in denen Multimedia verwendet wurde, in der ersten Spalte aufgeführt sind, während die Multimedia-Namen in einer anderen Spalte in separaten Zeilen aufgeführt sind. Der folgende Screenshot zeigt beispielsweise die Namen der drei Verweise \(Sitztemperatur anpassen, Sitztemperatur ändern und Besatzfläche ändern\) in der ersten Spalte und das Multimedia WarmCoolForC.gif wird in der dritten Spalte in drei separaten Zeilen angezeigt.
 
-      ![](images/multimedia-report-used-in-order.png){width="650" align="left"}
+     ![](images/multimedia-report-used-in-order.png){width="650" align="left"}
 
-1. Sie können Ihre Multimedia-Daten nach **Multimedia-Typ** und **Referenztyp**. Die Liste der Multimedia-Dateien wird je nach Auswahl in der Dropdown-Liste angezeigt. Sie können beispielsweise festlegen, dass nur die Audioverweise in Ihrer DITA-Zuordnung angezeigt werden und eine Datei nur die darin verwendeten Audioverweise anzeigt.
+1. Sie können Ihre Multimedia-Daten nach **Multimedia-Typ**, und **Referenztyp**. Die Liste der Multimedia-Dateien wird je nach Auswahl in der Dropdown-Liste angezeigt. Sie können beispielsweise festlegen, dass nur die Audioverweise in Ihrer DITA-Zuordnung angezeigt werden und eine Datei nur die darin verwendeten Audioverweise anzeigt.
 
    >[!NOTE]
    >
-   > Je nach Multimedia-Typ, der auf Ihrer Karte verwendet wird, sind Bild, Video und Audio in der **Multimedia-Typ** Dropdown-Liste und Direkt oder Indirect werden im **Referenztyp** Dropdown-Liste.
+   > Je nach Multimedia-Typ, der auf Ihrer Karte verwendet wird, sind Bild, Video und Audio in der **Multimedia-Typ** Dropdown-Liste und Direkt oder Indirect werden im **Referenztyp** Dropdown.
 
 1. Sie können auch die folgenden Filteroptionen verwenden, um die folgenden Spalten in der Liste anzuzeigen:
 
@@ -135,16 +134,15 @@ Die **Multimedia** enthält detaillierte Informationen zu den in Ihrer Zuordnung
    - **Multimedia-Typ** \(standardmäßig ausgewählt\) Typ des Multimediums. Die verfügbaren Optionen sind Audio, Video oder Bild.
    - **Verwendet in** \(standardmäßig ausgewählt\) Die Referenzen, in denen das Multimedia verwendet wurde. Sie können auf die Referenz klicken, um sie zu bearbeiten.
    - **Referenztyp** \(standardmäßig ausgewählt\) Der Verweistyp - direkt oder indirekt.
-
    >[!NOTE]
    >
-   > Klicken **Aktualisieren** um eine neue Liste von Multimedia zu erhalten und alle Änderungen in Ihrer Map-Datei anzuzeigen oder ob Multimedia in Ihrer DITA-Karte aktualisiert wird.
+   > Klicks **Aktualisieren** um eine neue Liste von Multimedia zu erhalten und alle Änderungen in Ihrer Map-Datei anzuzeigen oder ob Multimedia in Ihrer DITA-Karte aktualisiert wird.
 
 1. Sie können auch im Web Editor auf eine Audio- oder Videodatei klicken und diese wiedergeben. Sie können die Lautstärke oder die Ansicht des Videos ändern. Im Kontextmenü haben Sie auch die Möglichkeit, Bilder herunterzuladen, die Wiedergabegeschwindigkeit zu ändern oder Bilder im Bild anzuzeigen.
 
    ![](images/video-web-editor.png){width="800" align="left"}
 
-1. Klicken **CSV herunterladen** um den aktuellen Schnappschuss des Multimedia-Programms in die DITA-Karte herunterzuladen. Die CSV-Datei enthält die ausgewählten Spalten und die Multimedia-Datei, die im **Multimedia** anzeigen. Sie können diese Multimedia-CSV-Datei dann in einem beliebigen CSV-Editor öffnen.
+1. Klicks **CSV herunterladen** um den aktuellen Schnappschuss des Multimedia-Programms in die DITA-Karte herunterzuladen. Die CSV-Datei enthält die ausgewählten Spalten und die Multimedia-Datei, die im **Multimedia** anzeigen. Sie können diese Multimedia-CSV-Datei dann in einem beliebigen CSV-Editor öffnen.
 
 
 ## Fehlerbehebung bei fehlerhaften Links{#report-broken-links}
@@ -164,7 +162,7 @@ Sie können den Bericht auf fehlerhafte Links anzeigen, indem Sie die folgenden 
    ![](images/broken-link-filter-usedin.png){width="800" align="left"}
 1. Sie können Ihre fehlerhaften Links nach der **Dateityp** und **Link-Typ**. Die Liste der fehlerhaften Links wird basierend auf Ihrer Auswahl in der Dropdown-Liste angezeigt. Sie können beispielsweise festlegen, dass nur die Inhaltsreferenzen in Ihrer DITA-Zuordnung angezeigt werden und eine Datei nur die darin verwendeten Inhaltsreferenzen anzeigt.
 
-   Je nach Typ der Referenzen, die in Ihrer Zuordnung verwendet werden, sind die Dateireferenz, die Schlüsselreferenz, die Inhaltsreferenz, die Inhaltsschlüsselreferenz, die Bildreferenz und die Multimedia-Dateireferenz in der **Link-Typ** Dropdown-Liste und **DITA-Thema** oder **DITA Map** sind in der **Dateityp** Dropdown-Liste.
+   Je nach Typ der Referenzen, die in Ihrer Zuordnung verwendet werden, sind die Dateireferenz, die Schlüsselreferenz, die Inhaltsreferenz, die Inhaltsschlüsselreferenz, die Bildreferenz und die Multimedia-Dateireferenz in der **Link-Typ** Dropdown-Liste und **DITA-Thema** oder **DITA Map** sind in der **Dateityp** Dropdown.
 1. Sie können auch die folgenden Filteroptionen verwenden, um die folgenden Spalten in der Liste anzuzeigen:
 
    - **Beschädigter Link** (standardmäßig ausgewählt) Der Pfad des fehlerhaften Links wird in der DITA-Zuordnung angegeben.
@@ -174,7 +172,7 @@ Sie können den Bericht auf fehlerhafte Links anzeigen, indem Sie die folgenden 
    - **Verwendet in** (standardmäßig ausgewählt) Die Verweise, in denen der fehlerhafte Link verwendet wurde. Sie können auf die Referenz klicken, um sie im Autorenmodus anzuzeigen.
 
    - **Dateityp** (standardmäßig ausgewählt) Der Verweistyp - DITA Map oder DITA-Thema.
-Klicken **Aktualisieren** um eine neue Liste mit fehlerhaften Links zu erhalten und alle Änderungen in Ihrer Map-Datei anzuzeigen oder ob ein defekter Link in Ihrer DITA-Map aktualisiert wird.
+Klicks **Aktualisieren** um eine neue Liste mit fehlerhaften Links zu erhalten und alle Änderungen in Ihrer Map-Datei anzuzeigen oder ob ein defekter Link in Ihrer DITA-Map aktualisiert wird.
 1. Sie können auf die **Link reparieren** Symbol (![](images/fix-broken-link.svg)), um den fehlerhaften Link zu beheben.
 
    >[!NOTE]
@@ -188,9 +186,9 @@ Klicken **Aktualisieren** um eine neue Liste mit fehlerhaften Links zu erhalten 
    > Wenn Sie einen fehlerhaften Link korrigieren, während Sie nach fehlerhaften Links sortiert haben, wird der Link in allen Dateien behoben, in denen er verwendet wird (die in einer einzigen Zeile gruppiert sind).
 
 1. Sie müssen die erforderlichen Referenzdetails im Abschnitt **Link aktualisieren** angezeigt. Die in **Link aktualisieren** würde vom Referenztyp abhängen.\
-   Wenn Sie einen Link korrigieren, wird er nicht mehr unter der Liste der fehlerhaften Links angezeigt. Stattdessen können Sie sie unter der Themenliste oder den Metadaten anzeigen.
+   Wenn Sie einen Link korrigieren, wird er nicht unter der Liste der fehlerhaften Links angezeigt. Stattdessen können Sie sie unter der Themenliste oder den Metadaten anzeigen.
 
-1. Klicken **CSV herunterladen** , um die aktuelle Momentaufnahme der fehlerhaften Links in der DITA-Map herunterzuladen. Die CSV-Datei enthält die ausgewählten Spalten und die fehlerhaften Links, die in der Ansicht &quot;Broken Links&quot;gefiltert wurden. Sie können diese CSV-Datei dann in einem beliebigen CSV-Editor öffnen und anzeigen.
+1. Klicks **CSV herunterladen** , um die aktuelle Momentaufnahme der fehlerhaften Links in der DITA-Map herunterzuladen. Die CSV-Datei enthält die ausgewählten Spalten und die fehlerhaften Links, die in der Ansicht &quot;Broken Links&quot;gefiltert wurden. Sie können diese CSV-Datei dann in einem beliebigen CSV-Editor öffnen und anzeigen.
 
 
 **Übergeordnetes Thema:**[ Berichte](reports-intro.md)

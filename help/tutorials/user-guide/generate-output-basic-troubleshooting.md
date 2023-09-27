@@ -1,10 +1,10 @@
 ---
 title: Grundlegende Fehlerbehebung
-description: Erfahren Sie, wie Sie die grundlegende Fehlerbehebung durchführen.
+description: Beheben Sie Probleme mit der grundlegenden Fehlerbehebung in AEM Handbüchern. Erfahren Sie, wie Sie die Protokolldatei in einem Texteditor anzeigen, kopieren und überprüfen und JSP-Kompilierungsfehler beheben können.
 exl-id: b5ab2618-6f11-4aaa-8471-09521f8bb512
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
@@ -25,18 +25,18 @@ Führen Sie die folgenden Schritte aus, um die Protokolldatei zur Ausgabegenerie
 
    Im obigen Screenshot zeigen die ersten und dritten Symbole eine fehlgeschlagene Ausgabegenerierung an. Das zweite Symbol zeigt eine erfolgreiche Ausgabegenerierung, jedoch mit Nachrichten. Die letzte ist eine erfolgreiche Ausgabegenerierung ohne Nachricht.
 
-1. Klicken Sie auf den Link im **Generiert bei** nach Abschluss des Auftrags.
+1. Klicken Sie im **Generiert bei** nach Abschluss des Auftrags.
 
    Die Protokolldatei wird in einer neuen Registerkarte geöffnet.
 
    ![](images/log-file.png){width="800" align="left"}
 
 1. Wenden Sie die folgenden Filter an, um den Text in der Protokolldatei hervorzuheben:
-   - Tödlich: Zeigt die schwerwiegenden Fehler in der Protokolldatei mit rosa Farbe an.
+   - Fatal: Zeigt die schwerwiegenden Fehler in der Protokolldatei mit rosa Farbe an.
    - Fehler: Zeigt die Fehler in der Protokolldatei mit orangefarbener Farbe an.
    - Warnung: Markiert die Warnhinweise in der Protokolldatei mit violetter Farbe.
    - Info: Markiert die Informationsmeldungen in der Protokolldatei mit blauer Farbe.
-   - Ausnahme: Die in der Protokolldatei enthaltenen Ausnahmen werden gelb hervorgehoben.
+   - Ausnahme: Die Ausnahmen in der Protokolldatei werden gelb hervorgehoben.
 1. Verwenden Sie die Navigationstasten nach oben und unten, um zum markierten Text in der Protokolldatei zu springen.
 
    Alternativ können Sie durch die Protokolldatei blättern und die Meldungen überprüfen.
@@ -48,11 +48,11 @@ Führen Sie die folgenden Schritte aus, um die Protokolldatei zur Ausgabegenerie
 
 1. Nachdem Sie den Generierungsprozess der Ausgabe gestartet haben, klicken Sie auf **Ausgaben** in der DITA-Map-Konsole.
 
-1. Klicken Sie auf den Link im **Generiert bei** nach Abschluss des Auftrags.
+1. Klicken Sie im **Generiert bei** nach Abschluss des Auftrags.
 
    Die Protokolldatei wird in einer neuen Registerkarte geöffnet.
 
-1. Klicken **Protokoll kopieren** Schaltfläche. Die Protokolldatei wird in die Zwischenablage kopiert.
+1. Klicks **Protokoll kopieren** Schaltfläche. Die Protokolldatei wird in die Zwischenablage kopiert.
 1. Öffnen Sie einen Texteditor und fügen Sie die Protokolldatei in den Editor ein.
 
 1. Scrollen Sie durch die Protokolldatei und suchen Sie nach Meldungen.
@@ -86,7 +86,7 @@ Führen Sie die folgenden Schritte aus, um dieses Problem zu beheben:
 
    Die konfigurierbaren Optionen für das Apache Sling Main Servlet werden angezeigt.
 
-1. Erhöhen Sie den Wert für *Anzahl der Aufrufe pro Anforderung* -Parameter entsprechend Ihren Anforderungen.
+1. Den Wert für die *Anzahl der Aufrufe pro Anforderung* -Parameter gemäß Ihren Anforderungen.
 
 
 **Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)

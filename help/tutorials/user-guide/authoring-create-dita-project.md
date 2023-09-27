@@ -1,10 +1,10 @@
 ---
 title: Erstellen eines DITA-Projekts
-description: Erfahren Sie, wie Sie ein DITA-Projekt erstellen
+description: Erstellen Sie ein DITA-Projekt mithilfe einer Vorlage in AEM Guides. Erfahren Sie, wie Sie mit einem DITA-Projekt die Überprüfungen starten können.
 exl-id: 6dc88ac4-249a-4da2-9787-a58370e281ca
-source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Führen Sie die folgenden Schritte aus, um ein DITA-Projekt zu erstellen:
    http://<server name>:<port>/projects.html
    ```
 
-1. Klicken **Erstellen** \> **Projekt** , um den Assistenten Projekt erstellen zu starten.
+1. Klicks **Erstellen** \> **Projekt** , um den Assistenten Projekt erstellen zu starten.
 
    ![](images/project-console-63.png){width="650" align="left"}
 
@@ -43,11 +43,12 @@ Führen Sie die folgenden Schritte aus, um ein DITA-Projekt zu erstellen:
 
    ![](images/create-project.png){width="650" align="left"}
 
-   - Geben Sie die **Titel**, **Beschreibung** und **Fälligkeitsdatum**.
+   - Geben Sie die **Titel**, **Beschreibung**, und **Fälligkeitsdatum**.
 
    - Sie können optional eine Miniaturansicht für das Projekt auswählen.
 
    - Standardmäßig werden Sie zum Eigentümer des Projekts gemacht. So fügen Sie diesem Projekt weitere Benutzer hinzu:
+
    1. Geben Sie einen Benutzer ein oder wählen Sie einen aus der **Benutzer** Dropdown-Liste.
 
    1. Wählen Sie einen Benutzertyp aus: Autoren, Überprüfer oder Herausgeber.
@@ -60,18 +61,17 @@ Führen Sie die folgenden Schritte aus, um ein DITA-Projekt zu erstellen:
 
       >[!NOTE]
       >
-      >Wenn Sie AEM Guides Version 3.5 oder früher verwenden, wird Ihnen eine Option angezeigt, eine DITA-Map-Datei auszuwählen, um wichtige Verweise für Themenbearbeitung, Vorschau und Review-Workflows aufzulösen. In Version 3.6 und höheren Versionen können Sie die Stammzuordnung über den Web-Editor festlegen. Weitere Informationen finden Sie unter [Benutzereinstellungen](web-editor-features.md#id2087G0P40SB) im Web Editor. Eine weitere Möglichkeit, die Stammzuordnung festzulegen, besteht darin, sie in den Profilen auf globaler Ebene oder auf Ordnerebene zu konfigurieren. Weitere Informationen finden Sie unter *Konfigurieren globaler Profile oder Profile auf Ordnerebene* im Installations- und Konfigurationshandbuch.
+      >Wenn Sie AEM Guides Version 3.5 oder früher verwenden, wird Ihnen eine Option angezeigt, eine DITA-Map-Datei auszuwählen, um wichtige Verweise für Themenbearbeitung, Vorschau und Review-Workflows aufzulösen. In Version 3.6 und höheren Versionen können Sie die Stammzuordnung über den Web-Editor festlegen. Weitere Informationen finden Sie unter [Benutzereinstellungen](web-editor-features.md#id2087G0P40SB) im Web-Editor. Eine weitere Möglichkeit, die Stammzuordnung festzulegen, besteht darin, sie in den Profilen auf globaler Ebene oder auf Ordnerebene zu konfigurieren. Weitere Informationen finden Sie unter *Konfigurieren globaler Profile oder Profile auf Ordnerebene* im Installations- und Konfigurationshandbuch.
+
    Informationen im **Erweitert** tab:
 
    - Geben Sie einen Namen für das Projekt ein. Dieser Name wird verwendet, um die URL für dieses Projekt zu erstellen.
-
-
 
 1. Klicken Sie auf **Erstellen**.
 
    Das Dialogfeld Projekt erstellt wird angezeigt.
 
-1. Klicken **Öffnen** , um Ihre Projektseite zu öffnen.
+1. Klicks **Öffnen** , um Ihre Projektseite zu öffnen.
 
 
-**Übergeordnetes Thema:**[ Themen oder Karten überprüfen](review.md)
+**Übergeordnetes Thema:**[ Themen oder Zuordnungen überprüfen](review.md)

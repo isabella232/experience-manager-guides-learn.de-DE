@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie mit dem Oxygen-Plug-in für Adobe Experience 
 hide: true
 hidefromtoc: true
 exl-id: 2db9a34e-2efa-47ad-ba6b-02afc5197669
-source-git-commit: 7fbc6d22fd2f93b7b5bf3233f7ebdd0cb020dda2
+source-git-commit: 23c1dfb405643bd9f5906807dddc4fff3f2e8535
 workflow-type: tm+mt
-source-wordcount: '6038'
+source-wordcount: '6120'
 ht-degree: 0%
 
 ---
@@ -377,7 +377,12 @@ Wenn Sie die in AEM Handbüchern verfügbaren Editoren verwenden möchten, wähl
 
 Wenn Sie eine Datei auschecken, wird sie lokal auf Ihrem System gespeichert und zur Bearbeitung im AEM Repository gesperrt. Führen Sie die folgenden Schritte aus, um eine Datei auszuchecken:
 
-1. Klicken Sie im Bereich &quot;AEM Handbücher&quot;mit der rechten Maustaste auf eine Datei.
+1. Sie können Ihre Dateien auf eine der folgenden Arten auschecken:
+   - Klicken Sie im Bereich &quot;AEM Handbücher&quot;mit der rechten Maustaste auf eine Datei.
+   - Klicken Sie mit der rechten Maustaste auf die Registerkarte &quot;Zuordnung&quot;im Bereich &quot;DITA Maps Manager&quot;.
+   - Klicken Sie mit der rechten Maustaste auf eine Datei im Bereich &quot;DITA Maps Manager&quot;.
+   - Klicken Sie mit der rechten Maustaste auf die Registerkarte &quot;Datei&quot;, wenn Sie eine Zuordnung oder ein Thema im Editor öffnen.
+
 1. Wählen Sie eine der folgenden Optionen aus:
    - **Checkout:** Checkt eine Datei aus AEM Repository aus und stellt sie zur Bearbeitung bereit.
    - **Checkout mit abhängigen Elementen**: Prüft eine Datei mit ihren direkten Verweisen. Mit dieser Option können Sie Änderungen an übergeordneten und untergeordneten Seiten vornehmen. Das Sauerstoff-Plug-in für AEM Guides unterstützt das Auschecken einer Ebene von abhängigen Elementen. Beispiel: Zuordnung A verweist auf Thema A und Thema A verweist auf Thema B. Wenn Sie Karte A auschecken, wird Thema A unabhängig von der Ebene in der TOC-Hierarchie ausgecheckt. Themen B wird jedoch nicht überprüft, da es nicht direkt von Karte A aus verknüpft ist.
@@ -403,7 +408,13 @@ Wenn Sie eine Datei einchecken, wird die lokale Kopie von Ihrem System im AEM-Re
 
 1. Speichern Sie die Datei, indem Sie auf **Datei** \> **Speichern**.
 
-1. Klicken Sie mit der rechten Maustaste auf eine ausgecheckte Datei und wählen Sie eine der beiden folgenden Optionen:
+1. Klicken Sie mit der rechten Maustaste auf eine ausgecheckte Datei oder Zuordnung an einem der folgenden Speicherorte:
+   - Bedienfeld &quot;AEM Guides&quot;
+   - Bedienfeld &quot;DITA Maps Manager&quot;
+   - Registerkarte &quot;Datei&quot;, wenn Sie eine Zuordnung oder ein Thema im Editor öffnen.
+   - Die Registerkarte &quot;Zuordnung&quot;im Bereich &quot;DITA Maps Manager&quot;.
+
+1. Wählen Sie aus den folgenden beiden Optionen:
 
    - **Einchecken**: Checkt die ausgewählte Datei aus Ihrem lokalen System in AEM Repository ein.
    - **Einchecken mit abhängigen Personen:** Wenn Sie eine Datei zusammen mit den abhängigen Elementen ausgecheckt haben, verwenden Sie diese Option, um alle abhängigen Dateien in einem Vorgang einzuchecken. Bei Auswahl dieser Option wird das Dialogfeld &quot;Einchecken&quot;mit allen abhängigen Dateien angezeigt. Klicken Sie auf OK , um alle Dateien gleichzeitig einzuchecken.

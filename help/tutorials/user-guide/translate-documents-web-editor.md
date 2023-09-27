@@ -1,11 +1,11 @@
 ---
 title: Übersetzen von Dokumenten aus dem Web Editor
-description: Erfahren Sie, wie Sie Dokumente aus dem Web Editor übersetzen können.
+description: Übersetzen Sie Ihre Inhalte über den Web-Editor in mehrere Sprachen. Erfahren Sie, wie Sie ein Übersetzungsprojekt erstellen, Regeln hinzufügen, Versionen anzeigen und nicht synchronisierte Dateien in AEM Handbüchern schließen.
 exl-id: 02fc2b51-5b9a-4ad6-9e2e-726ab7602514
-source-git-commit: 15ba984275155489d7ac3878d4b1307a6cd076c6
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '1885'
-ht-degree: 0%
+source-wordcount: '1904'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ AEM Guides verfügen über eine leistungsstarke Funktion im Web Editor, mit der 
 >
 > Ihr Administrator kann die Registerkarte Verwalten \(für die Übersetzung verwendet\) im Web Editor konfigurieren. Weitere Informationen finden Sie unter *Konfigurieren der Übersetzungsfunktion im Web-Editor* im as a Cloud Service Installieren und Konfigurieren von Adobe Experience Manager-Handbüchern.
 
-## Bevor Sie beginnen
+## Vorbereitung
 
 Stellen Sie vor dem Ausführen der Schritte in diesem Verfahren sicher, dass Sie den erforderlichen Sprachstamm und die Zielordner erstellt haben.
 

@@ -1,13 +1,13 @@
 ---
 title: Vorschau eines Themas
-description: Erfahren Sie, wie Sie eine Vorschau eines Themas anzeigen
-source-git-commit: cc0fbca257d82cc82db5b5da8d263309fd71de55
+description: Erfahren Sie, wie Sie in AEM Handbüchern eine Vorschau eines Themas anzeigen können. Erfahren Sie mehr über die im Vorschaumodus verfügbaren Funktionen. Verzweigung, Wiederherstellung und nachfolgende Versionierung in AEM Handbüchern.
+exl-id: fb8eb87b-2a98-4540-9329-08a759145497
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '1815'
+source-wordcount: '1834'
 ht-degree: 0%
 
 ---
-
 
 # Vorschau eines Themas {#id1696II000QR}
 
@@ -36,7 +36,7 @@ Sie können die folgenden Vorgänge über die Symbolleiste im Vorschaumodus ausf
 
 **Eigenschaften**
 
-Zeigen Sie die Eigenschaften des ausgewählten Themas an. Basierend auf Ihrer AEM können Sie Eigenschaften wie Metadaten, Aktivierung planen \(de\), Verweise, Dokumentstatus und mehr sehen.
+Anzeigen der Eigenschaften des ausgewählten Themas Basierend auf Ihrer AEM können Sie Eigenschaften wie Metadaten, Aktivierung planen \(de\), Verweise, Dokumentstatus und mehr sehen.
 
 >[!NOTE]
 >
@@ -74,11 +74,11 @@ Wenn Ihr Thema bedingte Inhalte enthält, wird das A/B-Symbol in der Symbolleist
 
 - Öffnen Sie den XML-Quellcode einer Datei. Sie können den zugrunde liegenden XML-Code einer Zuordnung, eines Themas oder einer DITAVAL-Datei anzeigen, indem Sie die Datei im Vorschaumodus öffnen und auf das Symbol Quelle klicken. Das Popup &quot;XML-Quelle&quot;zeigt den XML-Quellcode an. Sie können einen bestimmten Code aus der Datei auswählen oder `Ctrl`+`a` , um den gesamten Inhalt auszuwählen.
 
-   >[!NOTE]
-   >
-   > Um die Quellcodeansicht einer DITA-Map-Datei zu erhalten, wählen Sie die Datei in der Assets-Benutzeroberfläche aus und klicken Sie auf Quelle .
+  >[!NOTE]
+  >
+  > Um die Quellcodeansicht einer DITA-Map-Datei zu erhalten, wählen Sie die Datei in der Assets-Benutzeroberfläche aus und klicken Sie auf Quelle .
 
-   ![](images/xml-source-code-view-from-preview_cs.png){width="800" align="left"}
+  ![](images/xml-source-code-view-from-preview_cs.png){width="800" align="left"}
 
 **UUID-Link freigeben**
 
@@ -104,7 +104,7 @@ Wenn Sie den Link über die DITA-Map-Konsole oder den Vorschaumodus einer Datei 
 
 **Auschecken/Einchecken**
 
-- Blendet die Funktionen &quot;Auschecken und Einchecken&quot;ein bzw. aus. Wenn eine Datei ausgecheckt ist, erhält der aktuelle Benutzer eine exklusive Schreibberechtigung für die Datei. Eine ausgecheckte Datei kann im Web Editor zur Bearbeitung geöffnet werden. Nachdem Sie die erforderlichen Änderungen vorgenommen haben, klicken Sie auf das Symbol Einchecken , um die Datei in DAM zu speichern.
+- Schaltet die Funktionen &quot;Auschecken&quot;und &quot;Einchecken&quot;um. Wenn eine Datei ausgecheckt ist, erhält der aktuelle Benutzer eine exklusive Schreibberechtigung für die Datei. Eine ausgecheckte Datei kann im Web Editor zur Bearbeitung geöffnet werden. Nachdem Sie die erforderlichen Änderungen vorgenommen haben, klicken Sie auf das Symbol Einchecken , um die Datei in DAM zu speichern.
 
 Wenn Sie ein Thema auschecken, wird der Dateistatus in der Kartenansicht und in der Listenansicht als ausgecheckt angezeigt.
 
@@ -116,7 +116,7 @@ Ausgecheckte Datei in der Listenansicht:
 
 ![](images/checkout-list-62.png){width="550" align="left"}
 
-Wenn die Spalte &quot;Ausgecheckt&quot;nicht angezeigt wird, wählen Sie **Anzeigeeinstellungen** under **Listenansicht** und wählen Sie die **Ausgecheckt** -Status in **Spalten konfigurieren** angezeigt.
+Wenn die Spalte &quot;Ausgecheckt&quot;nicht angezeigt wird, wählen Sie **Anzeigeeinstellungen** under **Listenansicht** und wählen Sie die **Ausgecheckt** -Status in der **Spalten konfigurieren** angezeigt.
 
 ![](images/list-view-settings-check-out_cs.png){width="800" align="left"}
 
@@ -128,9 +128,9 @@ Wenn die Spalte &quot;Ausgecheckt&quot;nicht angezeigt wird, wählen Sie **Anzei
 
 - Wenn Ihr Thema einige Änderungen erfahren hat, können Sie die Änderungen, die in verschiedenen Versionen dieses Themas vorgenommen wurden, einfach herausfinden. So finden Sie Änderungen in verschiedenen Versionen eines Themas:
 
-   >[!IMPORTANT]
-   >
-   > Die im folgenden Verfahren beschriebene Methode gilt nur für DITA-Dateien. Verwenden Sie bei Nicht-DITA-Dateien die Timeline-Ansicht, um Versionen zu erstellen oder eine vorhandene Version einer Datei wiederherzustellen.
+  >[!IMPORTANT]
+  >
+  > Die im folgenden Verfahren beschriebene Methode gilt nur für DITA-Dateien. Verwenden Sie bei Nicht-DITA-Dateien die Timeline-Ansicht, um Versionen zu erstellen oder eine vorhandene Version einer Datei wiederherzustellen.
 
    1. Öffnen Sie das Thema im Vorschaumodus.
 
@@ -144,7 +144,7 @@ Wenn die Spalte &quot;Ausgecheckt&quot;nicht angezeigt wird, wählen Sie **Anzei
 
       ![](images/show-diff-list-cropped.png){width="800" align="left"}
 
-      Der geänderte Inhalt wird in der Themenvorschau hervorgehoben. Der grün hervorgehobene Inhalt kennzeichnet den neu hinzugefügten Inhalt und der Inhalt in Rot ist der gelöschte Inhalt.
+      Der geänderte Inhalt wird in der Themenvorschau hervorgehoben. Der grün hervorgehobene Inhalt kennzeichnet den neu hinzugefügten Inhalt und rot ist der gelöschte Inhalt.
 
       ![](images/version-difference.png){width="800" align="left"}
 
@@ -157,19 +157,19 @@ Wenn die Spalte &quot;Ausgecheckt&quot;nicht angezeigt wird, wählen Sie **Anzei
    - Nachfolgende Versionen in einem neuen Zweig erstellen
    - Auf eine bestimmte Version eines Themas zurücksetzen
 
-   Die folgende Abbildung zeigt die typische Verzweigung und das nachfolgende Versionierungssystem:
+  Die folgende Abbildung zeigt die typische Verzweigung und das nachfolgende Versionierungssystem:
 
-   ![](images/branching_illustration.png){width="550" align="center"}
+  ![](images/branching_illustration.png){width="550" align="center"}
 
-   Für jedes neue Thema wird die erste Version als 1.0 nummeriert. Danach wird jede neue Version des Themas mit einer inkrementellen Zahl wie 1.1, 1.2 usw. gespeichert. Nachdem Sie eine Verzweigung eines Themas erstellt haben, wird eine neue Verzweigung erstellt, die die Versionsnummer enthält, von der aus die Verzweigung erstellt wird, und am Ende der Version eine 0 hinzufügt. Wie in der Abbildung gezeigt, wird eine neue Verzweigung aus Version 1.1 eines Themas erstellt. Der neue Zweig wird mit Version 1.1.0 versioniert. Jedes Mal, wenn Sie eine neue Version des Themas in diesem Zweig speichern, erhält dieser eine inkrementelle Versionsnummer wie 1.1.1, 1.1.2 usw.
+  Für jedes neue Thema wird die erste Version als 1.0 nummeriert. Danach wird jede neue Version des Themas mit einer inkrementellen Zahl wie 1.1, 1.2 usw. gespeichert. Nachdem Sie eine Verzweigung eines Themas erstellt haben, wird eine neue Verzweigung erstellt, die die Versionsnummer enthält, von der aus die Verzweigung erstellt wird, und am Ende der Version eine 0 hinzufügt. Wie in der Abbildung gezeigt, wird eine neue Verzweigung aus Version 1.1 eines Themas erstellt. Der neue Zweig wird mit Version 1.1.0 versioniert. Danach erhält jedes Mal, wenn Sie eine neue Version des Themas in diesem Zweig speichern, eine inkrementelle Versionsnummer wie 1.1.1, 1.1.2 usw.
 
-   Ähnlich wie beim Verzweigen können Sie auch Ihre funktionierende oder aktuelle Version auf eine beliebige Version zurücksetzen, die im Repository vorhanden ist. Um zu einer Version zurückzukehren, wählen Sie einfach die gewünschte Version des Themas aus und klicken Sie auf **Auf diese Version zurücksetzen** im **Versionsverlauf** Bereich.
+  Ähnlich wie beim Verzweigen können Sie auch Ihre funktionierende oder aktuelle Version auf eine beliebige Version zurücksetzen, die im Repository vorhanden ist. Um zu einer Version zurückzukehren, wählen Sie einfach die gewünschte Version des Themas aus und klicken Sie auf **Auf diese Version zurücksetzen** im **Versionsverlauf** Bedienfeld.
 
-   Führen Sie die folgenden Schritte aus, um einen Zweig zu erstellen, zu einer Version zurückzukehren und nachfolgende Versionen eines Themas zu verwalten:
+  Führen Sie die folgenden Schritte aus, um einen Zweig zu erstellen, zu einer Version zurückzukehren und nachfolgende Versionen eines Themas zu verwalten:
 
-   >[!IMPORTANT]
-   >
-   > Die im folgenden Verfahren beschriebene Methode gilt nur für DITA-Dateien. Verwenden Sie bei Nicht-DITA-Dateien die Timeline-Ansicht, um Versionen zu erstellen oder eine vorhandene Version einer Datei wiederherzustellen.
+  >[!IMPORTANT]
+  >
+  > Die im folgenden Verfahren beschriebene Methode gilt nur für DITA-Dateien. Verwenden Sie bei Nicht-DITA-Dateien die Timeline-Ansicht, um Versionen zu erstellen oder eine vorhandene Version einer Datei wiederherzustellen.
 
    1. Rufen Sie das Thema in der Assets-Benutzeroberfläche auf.
 
@@ -193,25 +193,27 @@ Wenn die Spalte &quot;Ausgecheckt&quot;nicht angezeigt wird, wählen Sie **Anzei
       >
       > Die aktuelle Version eines Themas enthält *\(Aktuell\)* neben der Versionsnummer angegeben.
 
-   1. Klicken **Auf diese Version zurücksetzen**.
+   1. Klicks **Auf diese Version zurücksetzen**.
 
       Es wird eine Meldung angezeigt, in der Sie aufgefordert werden, die Erstellung einer neuen Verzweigung zu bestätigen.
 
    1. *\(Optional\)* In der Eingabeaufforderung erhalten Sie eine Option, die **Aktuelle Arbeitskopie als neue Version speichern**. Je nach Auswahl dieser Option sind die beiden folgenden Aktionen möglich:
 
-      - Wenn Sie diese Option auswählen, wird eine Verzweigung aus Version 1.1 erstellt. Außerdem wird eine neue Version des Themas auch aus der aktuellen Arbeitskopie des Themas erstellt und als nächste Version - 1.4 - gespeichert.
+      - Wenn Sie diese Option auswählen, wird ab Version 1.1 eine Verzweigung erstellt. Außerdem wird eine neue Version des Themas auch aus der aktuellen Arbeitskopie des Themas erstellt und als nächste Version - 1.4 - gespeichert.
 
-         ![](images/next_version_created_over_working_copy.png){width="300" align="left"}
+        ![](images/next_version_created_over_working_copy.png){width="300" align="left"}
 
-         Version 1.2 wird zur aktuellen Arbeitskopie des Themas. Jede anschließend gespeicherte Version wird unter dem neuen Zweig 1.1 erstellt. Die nachfolgende Version eines neuen Themas in diesem Zweig wird beispielsweise als 1.2.0 gespeichert.
+        Version 1.2 wird zur aktuellen Arbeitskopie des Themas. Jede anschließend gespeicherte Version wird unter dem neuen Zweig 1.1 erstellt. Beispielsweise wird die nachfolgende Version eines neuen Themas in dieser Verzweigung als 1.2.0 gespeichert.
 
-         ![](images/new_version_in_branch.png){width="300" align="left"}
+        ![](images/new_version_in_branch.png){width="300" align="left"}
 
       - Wenn Sie diese Option nicht auswählen, wird keine neue Version aus der aktuellen Arbeitskopie des Themas erstellt. Eine neue Verzweigung wird aus Version 1.2 des Themas erstellt. Jede nachfolgende Version des Themas wird unter der Verzweigung 1.2.0, 1.2.1 usw. gespeichert.
 
-         ![](images/new_version_without_working_copy.png){width="300" align="left"}
+        ![](images/new_version_without_working_copy.png){width="300" align="left"}
+
    1. Klicken Sie auf **OK**.
-   Eine neue Verzweigung wird aus der ausgewählten Version des Themas erstellt. Der obige Prozess kann auch angewendet werden, um zu einer bestimmten Version eines Themas zurückzukehren. Technisch gesehen bedeutet das Zurücksetzen auf eine bestimmte Version, dass Sie eine neue Verzweigung aus der ausgewählten Version erstellen und diese Version zur aktuellen Arbeitskopie des Themas machen. Sie können auch den Verlauf der Dateien anzeigen, die im Bericht Versionsverlauf zurückgesetzt wurden. Weitere Informationen zu diesem Bericht finden Sie unter [Versionsverlauf wiederhergestellter Dateien - Bericht](reports-reverted-file-version-history.md#).
+
+
+  Eine neue Verzweigung wird aus der ausgewählten Version des Themas erstellt. Der obige Prozess kann auch angewendet werden, um zu einer bestimmten Version eines Themas zurückzukehren. Technisch gesehen bedeutet das Zurücksetzen auf eine bestimmte Version, dass Sie eine neue Verzweigung aus der ausgewählten Version erstellen und diese Version zur aktuellen Arbeitskopie des Themas machen. Sie können auch den Verlauf der Dateien anzeigen, die im Bericht Versionsverlauf zurückgesetzt wurden. Weitere Informationen zu diesem Bericht finden Sie unter [Versionsverlauf wiederhergestellter Dateien - Bericht](reports-reverted-file-version-history.md#).
 
 **Übergeordnetes Thema:**[ Erstellen und Anzeigen einer Vorschau von Themen](create-preview-topics.md)
-

@@ -1,13 +1,13 @@
 ---
 title: Informationen zu Adobe Experience Manager-Handbüchern
-description: Informationen zu Adobe Experience Manager-Handbüchern as a Cloud Service
-source-git-commit: fac7596f16e5321d708dd251012ac9753eb19ea4
+description: Erfahren Sie mehr über Adobe Experience Manager Guides, eine DITA-basierte Inhaltsverwaltungslösung für Unternehmen. Machen Sie sich mit den Vorteilen AEM Guides vertraut.
+exl-id: c55429d9-ce2a-4dbf-b780-377b1372b828
+source-git-commit: 0a50a6bd2ae2d2efea50f8ff4d70f614870f5899
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
-
 
 # Informationen zu Adobe Experience Manager-Handbüchern {#id1645E0A50MY}
 
@@ -23,11 +23,11 @@ Mit AEM Guides können Unternehmen nahtlose und personalisierte Erlebnisse für 
 
 - Omnichannel-Publishing-Erlebnis in Experience Manager Sites, PDF, HTML5, EPUB und benutzerdefinierte Ausgabe über DITA-OT
 
-- Kenntnis der bestehenden Adobe-Tools/-Systeme und Möglichkeit der Konsolidierung mit einem Partner;
+- Kenntnis der bestehenden Adobe-Tools/-Systeme und der Möglichkeit, sie mit einem Partner zu konsolidieren
 
 - Einzelne CMS für die Verwaltung von Marketing- und technischen Inhalten - durchgehend
 
-- Schnellere Markteinführung mit effizienter Wiederverwendung von Inhalten
+- Schnellere Markteinführung mit effizienter Inhaltswiederverwendung
 
 - Leistungsstarke Analyse-, Kollaboration- und Übersetzungs-Workflows
 

@@ -1,10 +1,10 @@
 ---
 title: Versionsverlauf wiederhergestellter Dateien - Bericht
-description: Erfahren Sie, wie Sie den Versionsverlaufbericht für zurückgegebene Dateien
+description: Zeigen Sie die Berichte zum Versionsverlauf rückgängig gemachter Dateien in AEM Handbüchern an. Erfahren Sie, wie Sie über die Assets-Benutzeroberfläche, die Themenvorschau und die Auswahl der AEM Tools auf Protokolle mit rückgängig gemachten Versionen zugreifen können.
 exl-id: fa90b373-742a-4102-b00f-07e4113fef98
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,11 @@ Der Zugriff auf diesen Bericht ist an folgenden Stellen möglich:
 
 - **Assets-Benutzeroberfläche**: durch Auswahl einer Datei und Öffnen der **Versionsverlauf** über die linke Leiste. Die **Versionsverlauf** Ansicht enthält **Versionsprotokolle wiederherstellen** -Link am unteren Rand des Bedienfelds. Wenn Sie auf diesen Link klicken, wird der Verlauf der ausgewählten Datei mit den wiederhergestellten Versionen angezeigt.
 
-   ![](images/revert-log-from-assets-ui.png){width="300" align="left"}
+  ![](images/revert-log-from-assets-ui.png){width="300" align="left"}
 
 - **Themenvorschau**: Wenn Sie ein Thema in der Vorschau anzeigen, können Sie auch die **Versionsverlauf** aus der linken Leiste. Sie erhalten ein Bedienfeld ähnlich der Assets-Benutzeroberfläche, von dem aus Sie auf die **Versionsprotokolle wiederherstellen** -Link, um auf den Verlauf der wiederhergestellten Version des aktiven Dokuments zuzugreifen.
 
-- **Abschnitt &quot;AEM&quot;**: Sie können auch über den Bereich AEM Tools auf diesen Bericht zugreifen. Im folgenden Verfahren wird erläutert, wie Sie über den Abschnitt AEM Tools auf den Verlauf der Zurückkehrversion zugreifen können.
+- **Abschnitt &quot;AEM Tools&quot;**: Sie können auch über den Bereich AEM Tools auf diesen Bericht zugreifen. Im folgenden Verfahren wird erläutert, wie Sie über den Abschnitt AEM Tools auf den Verlauf der Zurückkehrversion zugreifen können.
 
 
 Führen Sie die folgenden Schritte aus, um auf den Bericht Verlauf zurücksetzen zuzugreifen:
@@ -36,7 +36,7 @@ Führen Sie die folgenden Schritte aus, um auf den Bericht Verlauf zurücksetzen
 
    Es wird eine leere Seite Versionsverlauf wiederherstellen angezeigt, auf der Sie eine Datei oder einen Ordner durchsuchen und auswählen müssen, um den Bericht zu generieren.
 
-1. Klicken **Protokolle anzeigen** , um den Bericht für die ausgewählte Datei oder den ausgewählten Ordner zu generieren.
+1. Klicks **Protokolle anzeigen** , um den Bericht für die ausgewählte Datei oder den ausgewählten Ordner zu generieren.
 
    ![](images/revert-version-history-report.png){width="800" align="left"}
 
@@ -52,7 +52,7 @@ Führen Sie die folgenden Schritte aus, um auf den Bericht Verlauf zurücksetzen
 
    - **Wiederherstellen auf**: Die Version, auf die die Datei zurückgesetzt wurde.
 
-   - **Kommentar**: Alle Kommentare des Benutzers, der die Datei zurückgesetzt hat.
+   - **Kommentar**: Jeder Kommentar des Benutzers, der die Datei zurückgesetzt hat.
 
 
 **Übergeordnetes Thema:**[ Berichte](reports-intro.md)

@@ -1,10 +1,10 @@
 ---
 title: Verwenden des Bedienfelds "Schnellgenerierung"
-description: Erfahren Sie, wie Sie das Bedienfeld "Quick Generate"verwenden
+description: Verwenden Sie das Schnellgenerierungsbedienfeld in AEM Handbüchern. Erfahren Sie, wie Sie die Ausgabe aus dem Schnellgenerierungsbereich generieren und anzeigen.
 exl-id: d48803d9-470c-4679-8def-72b45a85917b
-source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ AEM Guides bieten eine **Schnellgenerierung** im Web Editor integriert. In diese
 Führen Sie die folgenden Schritte aus, um die Ausgabe aus dem **Schnellgenerierung** Bereich:
 
 1. Öffnen Sie Ihre DITA-Karte in der Kartenansicht. Das Symbol Schnellgenerierung wird angezeigt. Sie wird in **Autor** und **Verwalten** Registerkarten.
-1. Klicken Sie auf **Schnellgenerierung** icon \( ![](images/quick-generate-icon.svg)\), um die **Schnellgenerierung** Bereich. Im **Schnellgenerierung** angezeigt, können Sie die Liste aller für Ihre DITA-Zuordnung erstellten Ausgabevorgaben sehen.
+1. Klicken Sie auf **Schnellgenerierung** icon \( ![](images/quick-generate-icon.svg)\), um die **Schnellgenerierung** Bedienfeld. Im **Schnellgenerierung** angezeigt, können Sie die Liste aller für Ihre DITA-Zuordnung erstellten Ausgabevorgaben sehen.
 1. Wählen Sie eine oder mehrere Vorgaben aus, für die Sie die Ausgabe generieren möchten.
-1. Klicken **Erzeugen** , um die Ausgabe für die ausgewählten Vorgaben zu generieren. Bei der Generierung der Ausgabe wird eine Erfolgsmeldung angezeigt. Wenn die Erzeugung fehlschlägt, wird eine Fehlermeldung angezeigt. Sie können auch das Fehlerprotokoll anzeigen, um die Details des Fehlers anzuzeigen, der im Generierungsprozess aufgetreten ist.
-1. Klicken **Ausgabe anzeigen** \( ![](images/view-output-icon.svg)\) Symbol einer bestimmten Vorgabe, um die für die Vorgabe generierte Ausgabe anzuzeigen.
+1. Klicks **Erzeugen** , um die Ausgabe für die ausgewählten Vorgaben zu generieren. Bei der Generierung der Ausgabe wird eine Erfolgsmeldung angezeigt. Wenn die Erzeugung fehlschlägt, wird eine Fehlermeldung angezeigt. Sie können auch das Fehlerprotokoll anzeigen, um die Details des Fehlers anzuzeigen, der im Generierungsprozess aufgetreten ist.
+1. Klicks **Ausgabe anzeigen** \( ![](images/view-output-icon.svg)\) Symbol einer bestimmten Vorgabe, um die für die Vorgabe generierte Ausgabe anzuzeigen.
 
 **Übergeordnetes Thema:**[ Arbeiten mit dem Web-Editor](web-editor.md)

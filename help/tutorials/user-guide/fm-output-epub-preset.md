@@ -1,13 +1,13 @@
 ---
 title: EPUB
-description: Erfahren Sie, wie Sie EPUB
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+description: Generieren und konfigurieren Sie die EPUB-Ausgabe für FrameMaker-Dokumente in AEM Guides.
+exl-id: 5c9d4b78-94bd-46b7-891e-33d7df596ca3
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '175'
 ht-degree: 5%
 
 ---
-
 
 # EPUB {#id205BB0V0PQZ}
 
@@ -15,9 +15,9 @@ Die folgenden Optionen sind für die Ausgabe des EPUB verfügbar:
 
 >[!NOTE]
 >
-> Um Ausgabevorgaben für EPUB zu öffnen, klicken Sie auf einen FrameMaker \(`.fm` oder `.book`\), klicken Sie auf &quot;Ausgabevorgaben&quot;und dann auf die Option &quot;EPUB&quot;.
+> Um Ausgabevorgaben für EPUB zu öffnen, klicken Sie auf eine FrameMaker \(`.fm` oder `.book`\), klicken Sie auf &quot;Ausgabevorgaben&quot;und dann auf die Option &quot;EPUB&quot;.
 
-| ePub | Beschreibung |
+| EPUB | Beschreibung |
 |-----------|-----------|
 | Ausgabetyp | Der Typ der Ausgabe, die Sie generieren möchten. Wählen Sie die Option EPUB , um die Ausgabe des EPUB zu generieren. |
 | Einstellungsname | Geben Sie einen beschreibenden Namen für die EPUB-Ausgabeeinstellungen ein, die Sie erstellen. Sie können beispielsweise *Interne Kundenausgabe* oder *Ausgabe der Endbenutzer*. |
@@ -26,4 +26,3 @@ Die folgenden Optionen sind für die Ausgabe des EPUB verfügbar:
 | Workflow &quot;Nach der Erstellung ausführen&quot; | Wenn Sie diese Option wählen, wird eine neue Dropdownliste mit dem Workflow nach der Generierung angezeigt, die alle in AEM konfigurierten Workflows enthält. Sie müssen einen Workflow auswählen, der nach Abschluss des Workflows zur Generierung der Ausgabe ausgeführt werden soll. |
 
 **Übergeordnetes Thema:**[ Ausgabe von FrameMaker-Dokumenten generieren](fm-output-generatation.md)
-

@@ -1,15 +1,15 @@
 ---
-title: Themen oder Karten überprüfen
-description: Erfahren Sie, wie Sie Themen oder Karten überprüfen
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+title: Themen oder Zuordnungen überprüfen
+description: Prüfen Sie Themen oder Maps effizient in AEM Guides für eine reibungslose Inhaltsbewertung. Machen Sie sich mit den Funktionen für Autoren und Prüfer in AEM Handbüchern vertraut.
+exl-id: 26860f5d-d744-49b4-8483-4e0f3798af93
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
 
-
-# Themen oder Karten überprüfen {#id1645H6010Q5}
+# Themen oder Zuordnungen überprüfen {#id1645H6010Q5}
 
 Fast alle technischen Dokumente müssen mehrere Rezensionen durchlaufen. In den meisten Fällen umfasst ein Prüfungszyklus mehrere Prüfer. Das Ansprechen und Reagieren auf Kommentare von mehreren Validierern ist für Autoren immer eine Herausforderung. In einem Szenario mit mehreren Validierern ist es außerdem hilfreich, wenn einem Validierer auch die Kommentare anderer Validierer angezeigt werden.
 
@@ -33,7 +33,7 @@ Einige der wichtigsten Funktionen, die von AEM Guides für die *Initiatoren \(od
 - Importieren Sie \(gelöschte oder eingefügte\) Kommentare automatisch in die Version des Themas, das zur Überprüfung freigegeben wurde.
 
 
-Für die *validierungsverantwortliche Benutzer*:
+Für die *validierende Benutzer*:
 
 - Erhalten Sie eine zusammengesetzte Ansicht der Themen, die zur Überprüfung freigegeben wurden.
 - Wechseln Sie zwischen der Composite-Ansicht und der individuellen Themenansicht.
@@ -62,5 +62,3 @@ Für die *validierungsverantwortliche Benutzer*:
 - **[Kommentare zur Adressüberprüfung](review-address-review-comments.md)**
 
 - **[Verwalten von Prüfungsaufgaben mithilfe des Überprüfungs-Dashboards](review-manage-tasks-review-dashboard.md)**
-
-

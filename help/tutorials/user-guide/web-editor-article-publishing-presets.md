@@ -1,10 +1,10 @@
 ---
 title: Erstellen von Ausgabevorgaben aus dem Web-Editor
-description: Erfahren Sie, wie Sie im Web Editor Ausgabevorgaben erstellen
+description: Erstellen Sie Ausgabevorgaben über den Web-Editor. Erfahren Sie, wie Sie eine Ausgabevorgabe in AEM Handbüchern bearbeiten, umbenennen, duplizieren und löschen.
 exl-id: 7fde0057-06a5-428e-a91b-9e9386a56270
-source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Führen Sie die folgenden Schritte aus, um Ausgabevorgaben für Ihre DITA-Zuordn
 
    >[!NOTE]
    >
-   > Sie können jedes Thema mit dem erweiterten Map-Editor hinzufügen oder aus der Zuordnung löschen. Weitere Informationen finden Sie unter [Arbeiten mit dem erweiterten Map Editor](map-editor-advanced-map-editor.md#).
+   > Sie können jedes Thema mit dem erweiterten Map-Editor hinzufügen oder aus der Zuordnung löschen. Weitere Informationen finden Sie unter [Arbeiten mit dem erweiterten Map-Editor](map-editor-advanced-map-editor.md#).
 
 1. Im **Ausgabe** klicken Sie auf das Symbol + , um eine Ausgabevorgabe für Ihre DITA-Zuordnung zu erstellen.
 
@@ -34,7 +34,7 @@ Führen Sie die folgenden Schritte aus, um Ausgabevorgaben für Ihre DITA-Zuordn
 1. Geben Sie die folgenden Konfigurationsdetails ein.
 
    1. Wählen Sie die erforderlichen Optionen im **Allgemein** Registerkarte. Sie können eine Ausgabevorgabe mit oder ohne Bedingungen erstellen. Sie können auch eine DITVAL-Datei verwenden. Mit AEM Guides können Sie auch eine Grundlinie für die Veröffentlichung einer bestimmten Version Ihrer DITA-Map auswählen.
-   1. Geben Sie die AEM Site-Details im **AEM** Registerkarte. **Site** zeigt die Liste der AEM Sites an, die in Ihrem AEM Repository verfügbar sind. **Kategorie**, **Bereichsvorlage** und **Artikelvorlage** sind die Strukturkomponenten, die verwendet werden, um das Erscheinungsbild Ihrer Ausgabe zu organisieren. Diese sind in der Vorlage AEM Site vordefiniert.
+   1. Geben Sie die AEM Site-Details im **AEM** Registerkarte. **Site** zeigt die Liste der AEM Sites an, die in Ihrem AEM Repository verfügbar sind. **Kategorie**, **Bereichsvorlage**, und **Artikelvorlage** sind die Strukturkomponenten, die verwendet werden, um das Erscheinungsbild Ihrer Ausgabe zu organisieren. Diese sind in der Vorlage AEM Site vordefiniert.
 
       >[!NOTE]
       >
@@ -47,7 +47,7 @@ Führen Sie die folgenden Schritte aus, um Ausgabevorgaben für Ihre DITA-Zuordn
 
 1. Sie sehen den Status des Generierungsprozesses der Ausgabe. Die **Themen** enthält die Themen, für die die Ausgabe generiert wird, während die **Status** zeigt den Veröffentlichungsstatus der einzelnen Themen an.
 
-   Um die Ausgabe anzuzeigen, bewegen Sie den Mauszeiger über das Thema und klicken Sie auf &quot;Ausgabe anzeigen&quot;.
+   Um die Ausgabe anzuzeigen, bewegen Sie den Mauszeiger über das Thema und klicken Sie auf Ausgabe anzeigen .
 
    ![](images/add-preset-output-generated_cs.png){width="800" align="left"}
 

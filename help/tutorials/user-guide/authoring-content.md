@@ -1,13 +1,13 @@
 ---
 title: Autoreninhalt
-description: Erfahren Sie, wie Sie Inhalte erstellen
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+description: Inhaltserstellung in AEM Handbüchern. Erfahren Sie, wie Sie die Version Ihres Dokuments erstellen, in der Vorschau anzeigen, bearbeiten, speichern und für Überprüfungen freigeben können.
+exl-id: bba2a7a1-ffbc-4d28-9b70-a0274f03e29b
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 3%
+source-wordcount: '145'
+ht-degree: 2%
 
 ---
-
 
 # Autoreninhalt {#id221EAJ0A047}
 
@@ -22,5 +22,3 @@ Sie können auch Desktop-Tools verwenden, um Inhalte zu erstellen. Mithilfe dies
 - **[Verfassen von Inhalten mithilfe AEM Handbüchern](authoring-content-xml-doc.md)**
 
 - **[Verfassen von Inhalten mit Desktop-Tools](author-desktop-tools.md)**
-
-

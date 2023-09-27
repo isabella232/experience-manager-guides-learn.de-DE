@@ -2,9 +2,9 @@
 title: Architektur und Leistung von Cloud Publishing Microservice
 description: Erfahren Sie, wie der neue Microservice eine skalierbare Veröffentlichung auf AEMaaCS ermöglicht.
 exl-id: 963d8912-be10-4d79-8ddd-12481c0ae682
-source-git-commit: 4185c31ae45c7b6fd0d394a15fbca0753d5e0463
+source-git-commit: aa71a2b8ff5f83365ff2f3562bb2b77061a3da8e
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '716'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,9 @@ Dieser Artikel gibt einen Überblick über die Architektur und Leistungszahlen d
 
 >[!NOTE]
 >
-> Die mikrodienstbasierte Veröffentlichung in AEM Guides unterstützt die Typen von Ausgabevorgaben vom Typ PDF (nativ und DITA-OT-basiert), HTML5 und CUSTOM.
+> Die mikrodienstbasierte Veröffentlichung in AEM Guides unterstützt die Typen von PDF (nativ und DITA-OT-basiert), HTML5, JSON und benutzerdefinierten Ausgabevorgaben.
 
-## Probleme mit vorhandenen Veröffentlichungs-Workflows in Cloud
+## Probleme mit vorhandenen Veröffentlichungs-Workflows in der Cloud
 
 DITA Publishing ist ein ressourcenintensiver Prozess, der hauptsächlich von verfügbarem Systemspeicher und CPU abhängig ist. Der Bedarf an diesen Ressourcen steigt weiter, wenn Herausgeber große Maps mit vielen Themen veröffentlichen oder wenn mehrere parallele Veröffentlichungsanforderungen ausgelöst werden.
 
@@ -27,7 +27,7 @@ Diese Ressourcenbegrenzung war die Hauptmotivation, einen dedizierten Dienst ein
 
 ## Einführung in die neue Architektur
 
-Der Dienst verwendet die neuesten Cloud-Lösungen von Adobe wie App Builder, IO Eventing und IMS, um ein Server-loses Angebot zu erstellen. Diese Dienstleistungen basieren selbst auf den allgemein anerkannten Industriestandards wie Kubernetes und Docker.
+Der Dienst verwendet Adobe-Edge-Cloud-Lösungen wie App Builder, IO Eventing und IMS, um ein Server-loses Angebot zu erstellen. Diese Dienstleistungen basieren selbst auf den allgemein anerkannten Industriestandards wie Kubernetes und Docker.
 
 Jede Anfrage an den neuen Veröffentlichungs-Microservice wird in einem isolierten Docker-Container ausgeführt, der jeweils nur eine Veröffentlichungsanforderung ausführt. Wenn neue Veröffentlichungsanforderungen empfangen werden, werden automatisch mehrere neue Container erstellt. Diese einzelne Container-Konfiguration pro Anfrage ermöglicht es dem Microservice, die beste Leistung für die Kunden bereitzustellen, ohne Sicherheitsrisiken einzuführen. Diese Container werden verworfen, sobald die Veröffentlichung beendet ist, sodass nicht verwendete Ressourcen frei werden.
 
@@ -60,11 +60,11 @@ Wenn Sie eine große Karte in On-Premise veröffentlichen, müssen Sie mögliche
 
   <img src="assets/onprem_single_publish.png" alt="Projekt-Tab" width="600">
 
-### Ausführen mehrerer Veröffentlichungen in Cloud im Vergleich zu On-Premise
+### Mehrere Veröffentlichungen in Cloud und On-Premise durchführen
 
 * Cloud
 
-  Der neue Publishing-Microservice scheint in diesem Szenario. Wie Sie aus dem folgenden Bild sehen können, kann die Cloud mit der Zunahme mehrerer Aufträge zur gleichzeitigen Veröffentlichung diese veröffentlichen, ohne dass die Veröffentlichungszeit erheblich verlängert wird.
+  Der neue Publishing-Microservice scheint in diesem Szenario. Wie Sie aus dem unten stehenden Bild sehen können, kann die Cloud mit der Zunahme an mehreren gleichzeitigen Veröffentlichungsaufträgen diese veröffentlichen, ohne dass die Veröffentlichungszeit erheblich verlängert wird.
 
   <img src="assets/cloud_bulk_publish.png" alt="Projekt-Tab" width="600">
 
@@ -76,6 +76,6 @@ Wenn Sie eine große Karte in On-Premise veröffentlichen, müssen Sie mögliche
 
 ## Zusätzliche Vorteile
 
-Ein Teil jeder Veröffentlichungsanforderung muss auf der AEM ausgeführt werden, um den richtigen Veröffentlichungsinhalt abzurufen, der an den Microservice gesendet werden soll. Die neue Cloud-Architektur verwendet AEM Aufträge anstelle AEM Workflows, wie es in der alten Architektur der Fall war. Diese Änderung ermöglicht es AEM Guides-Administratoren, die Cloud-Publishing-Warteschlangeneinstellungen individuell zu konfigurieren, ohne andere AEM Aufträge oder Workflow-Konfigurationen zu beeinträchtigen.
+Ein Teil jeder Veröffentlichungsanforderung muss auf der AEM ausgeführt werden, um den richtigen Veröffentlichungsinhalt abzurufen, der an den Microservice gesendet werden soll. Die neue Cloud-Architektur verwendet AEM Aufträge anstelle AEM Workflows, wie es in der alten Architektur der Fall war. Diese Änderung ermöglicht es AEM Guides-Administratoren, Cloud-Publishing-Warteschlangeneinstellungen individuell zu konfigurieren, ohne andere AEM Aufträge oder Workflow-Konfigurationen zu beeinträchtigen.
 
 Details zur Konfiguration des neuen Veröffentlichungs-Microservice finden Sie hier: [Konfigurieren von Microservice](configure-microservices.md)

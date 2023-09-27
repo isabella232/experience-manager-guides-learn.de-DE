@@ -1,10 +1,10 @@
 ---
 title: Konversionsstatusbericht
-description: Erfahren Sie, wie Sie den Konversionsstatusbericht
+description: Konvertieren Sie Dokumente verschiedener Formate in DITA in AEM Guides. Erfahren Sie, wie Sie Filter hinzufügen und einen Konversionsstatusbericht anzeigen.
 exl-id: 41887af2-404f-41d7-b54c-ec49797200f0
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -29,27 +29,27 @@ Führen Sie die folgenden Schritte aus, um den Konversionsstatusbericht anzuzeig
 
    - **Filter:**
 
-      Sie können die Berichtsdaten nach Dateityp und Konvertierungsstatus filtern. Im Dateityp können Sie die Berichtsdaten für Word-Dokumente, strukturierte HTML, XML und DocBook-Dokumenttypen anzeigen. Im Status können Sie festlegen, dass die Berichtsdaten für Aufgaben angezeigt werden, die erfolgreich, fehlgeschlagen, aktiv oder in Warteschlange ausgeführt wurden.
+     Sie können die Berichtsdaten nach Dateityp und Konvertierungsstatus filtern. Im Dateityp können Sie die Berichtsdaten für Word-Dokumente, strukturierte HTML, XML und DocBook-Dokumenttypen anzeigen. Im Status können Sie festlegen, dass die Berichtsdaten für Aufgaben angezeigt werden, die erfolgreich, fehlgeschlagen, aktiv oder in Warteschlange ausgeführt wurden.
 
-      Im folgenden Screenshot werden die Berichtsdaten für Konversionsaufgaben angezeigt, die den Status &quot;Fehlgeschlagen&quot;, &quot;Aktiv&quot;und &quot;In Warteschlange&quot;aufweisen.
+     Im folgenden Screenshot werden die Berichtsdaten für Konversionsaufgaben angezeigt, die den Status &quot;Fehlgeschlagen&quot;, &quot;Aktiv&quot;und &quot;In Warteschlange&quot;aufweisen.
 
-      ![](images/conversion-report-failed-active-queued.png){width="800" align="left"}
+     ![](images/conversion-report-failed-active-queued.png){width="800" align="left"}
 
    - **Berichtsdaten:**
 
-      Die Berichtsdaten enthalten die folgenden Spalten:
+     Die Berichtsdaten enthalten die folgenden Spalten:
 
-      - **Dateiname**: Name der Quelldatei, in der der Konvertierungsprozess ausgeführt wurde. Durch Klicken auf den Link Dateiname gelangen Sie zum Speicherort des Quelldokuments.
+      - **Dateiname**: Name der Quelldatei, für die der Konvertierungsprozess ausgeführt wurde. Durch Klicken auf den Link Dateiname gelangen Sie zum Speicherort des Quelldokuments.
 
       - **Dateityp**: Typ des Quelldokuments, das Word, strukturierte HTML, XML und DocBook sein kann.
 
       - **Hinzugefügt von**: Name des Benutzers, der die Konvertierungsaufgabe ausgeführt hat.
 
-      - **Datum hinzugefügt**: Datum, an dem die Aufgabe ausgeführt wurde. Durch Klicken auf den Link Datum hinzugefügt wird die Protokolldatei heruntergeladen.
+      - **Datum hinzugefügt**: Datum der Ausführung der Aufgabe. Durch Klicken auf den Link Datum hinzugefügt wird die Protokolldatei heruntergeladen.
 
       - **Pfad**: Vollständiger Pfad des Quelldokuments.
 
-      - **Status**: Status der Konversionsaufgaben: Erfolg, Fehlgeschlagen, Aktiv oder In Warteschlange.
+      - **Status**: Status der Konversionsaufgaben - Erfolg, Fehlgeschlagen, Aktiv oder In Warteschlange.
 
       - **Ausgabe**: Pfad des erfolgreich konvertierten Dokuments. Wenn Sie auf den Link Ausgabe klicken, gelangen Sie zum Speicherort der Ausgabe.
 

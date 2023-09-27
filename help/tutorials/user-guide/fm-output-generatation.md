@@ -1,17 +1,17 @@
 ---
 title: Ausgabe von FrameMaker-Dokumenten generieren
-description: Erfahren Sie, wie Sie die Ausgabe von FrameMaker-Dokumenten generieren.
+description: Erfahren Sie, wie Sie die Ausgabe von FrameMaker-Dokumenten in AEM Handbüchern generieren, um sie im PDF-, HTML5- und EPUB-Format zu veröffentlichen.
 exl-id: d3cef05b-8574-4e86-ab94-c9b880fb9c29
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '202'
 ht-degree: 1%
 
 ---
 
 # Ausgabe von FrameMaker-Dokumenten generieren {#id1645H8040HD}
 
-Ab AEM Guides 1.1 können Sie auch FrameMaker-Dokumente veröffentlichen \(`.book` und `.fm`\) in Ihrem AEM Repository verfügbar. Wenn eine Buchdatei eine Kombination aus DITA- und FrameMaker-Dokumenten enthält, können Sie diese Dokumente auch in AEM Guides veröffentlichen. FrameMaker-Dokumente können in den folgenden Formaten veröffentlicht werden:
+Ab AEM Guides 1.1 können Sie auch FrameMaker-Dokumente \(`.book` und `.fm`\) in Ihrem AEM Repository verfügbar. Wenn eine Buchdatei eine Kombination aus DITA- und FrameMaker-Dokumenten enthält, können Sie auch diese Dokumente in AEM Guides veröffentlichen. FrameMaker-Dokumente können in folgenden Formaten veröffentlicht werden:
 
 - PDF
 
@@ -20,9 +20,9 @@ Ab AEM Guides 1.1 können Sie auch FrameMaker-Dokumente veröffentlichen \(`.boo
 - EPUB
 
 
-Als Autor klicken Sie einfach auf einige Links und die Ausgabe wird generiert. Sie können die Ausgabe für eine ganze Buchdatei generieren oder einzelne FrameMaker-Dateien selektiv veröffentlichen. Vor der Generierung der Ausgabe können Sie auch Änderungen an Ihren FrameMaker-Dateien vornehmen. Wenn Sie eine .fm- oder .book-Datei in AEM Repository auswählen, erhalten Sie die **Öffnen in FrameMaker** in der Symbolleiste. Durch Klicken auf diese Schaltfläche wird die ausgewählte Datei in FrameMaker geöffnet.
+Als Autor klicken Sie einfach auf einige Links und die Ausgabe wird generiert. Sie können die Ausgabe für eine ganze Buchdatei generieren oder einzelne FrameMaker-Dateien selektiv veröffentlichen. Vor der Generierung der Ausgabe können Sie auch Änderungen an Ihren FrameMaker-Dateien vornehmen. Wenn Sie eine .fm- oder .book-Datei in AEM Repository auswählen, erhalten Sie die **Auf FrameMaker öffnen** in der Symbolleiste. Durch Klicken auf diese Schaltfläche wird die ausgewählte Datei im FrameMaker geöffnet.
 
-Die Informationen in den folgenden Abschnitten richten sich an Herausgeber, die mithilfe der Workflows zur Ausgabegenerierung FrameMaker-Dokumente veröffentlichen:
+Die Informationen in den folgenden Abschnitten richten sich an Herausgeber, die die Workflows zur Generierung von Ausgabedokumenten verwenden, um FrameMaker-Dokumente zu veröffentlichen:
 
 - [Grundlegendes zu den Ausgabevorgaben](fm-output-understand-presets.md#)
 

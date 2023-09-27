@@ -1,13 +1,13 @@
 ---
 title: Inhalt verwalten
-description: Erfahren Sie, wie Sie Inhalte verwalten
-source-git-commit: bad2f5cea2c00ca6c9758da27f0dba89a8579eb7
+description: Verwalten Sie Inhalte und identifizieren Sie Ihre Rollen und Berechtigungen in AEM Handbüchern. Erfahren Sie mehr über die wichtigsten Konzepte des Content Managements und der Arbeit mit globalen Profilen oder Profilen auf Ordnerebene.
+exl-id: d2fa31a7-a8ce-4d17-bd4e-0f51ea751dca
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '722'
 ht-degree: 11%
 
 ---
-
 
 # Inhalt verwalten {#id164JBG0M0T1}
 
@@ -37,7 +37,7 @@ Während AEM Guides die Struktur Ihrer DITA-Dateien beibehalten, ermöglicht es 
 
 ## Rolle und Berechtigungen identifizieren {#id181TF0K0MHT}
 
-AEM Guides bieten drei vordefinierte Gruppen. Diese Gruppen sind: *Autoren*, *Überprüfer* und *Herausgeber*. Abhängig von der Gruppe, der Sie zugeordnet sind, sind Sie berechtigt, bestimmte Aufgaben wie in der unten stehenden Tabelle beschrieben auszuführen. Beispielsweise kann eine Veröffentlichungsaufgabe nur von einem Herausgeber, aber nicht von einem Autor oder Überprüfer ausgeführt werden. Auf ähnliche Weise kann ein Autor ein neues Thema erstellen und ein Überprüfer kann nur ein Thema überprüfen.
+AEM Guides bieten drei vordefinierte Gruppen. Diese Gruppen sind: *Autoren*, *Überprüfer*, und *Herausgeber*. Abhängig von der Gruppe, der Sie zugeordnet sind, sind Sie berechtigt, bestimmte Aufgaben wie in der unten stehenden Tabelle beschrieben auszuführen. Beispielsweise kann eine Veröffentlichungsaufgabe nur von einem Herausgeber, aber nicht von einem Autor oder Überprüfer ausgeführt werden. Auf ähnliche Weise kann ein Autor ein neues Thema erstellen und ein Überprüfer kann nur ein Thema überprüfen.
 
 >[!TIP]
 >
@@ -71,7 +71,7 @@ In der folgenden Tabelle sind verschiedene Aufgaben und die Gruppen aufgeführt,
 | Vorgabe löschen |   |   | Ja |
 | **In der DITA Map Console verfügbare Funktionen \(Registerkarte &quot;Ausgaben&quot;\)** |
 | Anzeigen der generierten Ausgabe | Ja |   | Ja |
-| **In der DITA-Map-Konsole verfügbare Funktionen \(Registerkarte &quot;Themen&quot;\)** |
+| **In der DITA Map Console verfügbare Funktionen \(Registerkarte &quot;Themen&quot;\)** |
 | Bewertungsaufgabe erstellen | Ja |   | Ja |
 | Bearbeiten | Ja |   | Ja |
 | **In der DITA Map Console verfügbare Funktionen \(Registerkarte &quot;Grundlinien&quot;\)** |
@@ -91,15 +91,10 @@ In der folgenden Tabelle sind verschiedene Aufgaben und die Gruppen aufgeführt,
 
 **Arbeiten mit globalen Profilen oder Profilen auf Ordnerebene**
 
-In einem Unternehmen können verschiedene Gruppen oder Produkte verschiedene Authoring-Vorlagen, Ausgabevorlagen, bedingte Attributprofile \(oder Betreffschemata\) und Web-Editor-Konfigurationen verwenden. Die Konfiguration dieser Vorlagen nur auf Unternehmensebene (oder globaler Ebene) kann die Arbeit von Autoren erschweren, da ihnen Vorlagen oder Profile angezeigt werden, die für sie nicht relevant sind.
+In einem Unternehmen können verschiedene Gruppen oder Produkte verschiedene Authoring-Vorlagen, Ausgabevorlagen, bedingte Attributprofile \(oder Betreffschemata\) und Web-Editor-Konfigurationen verwenden. Die Konfiguration dieser Vorlagen nur auf Unternehmensebene (oder global\) kann Autoren das Erlebnis erschweren, da sie Vorlagen oder Profile sehen, die für sie nicht relevant sind.
 
 AEM Guides ermöglichen die Konfiguration von Authoring- \(Thema- oder Zuordnungsvorlagen), Ausgabevorlagen, bedingten Attributen und Web-Editor-Konfigurationen auf Unternehmensebene \(global\) sowie auf Ordnerebene. Auf diese Weise können Sie die Konfigurationen für verschiedene Abteilungen oder Produkte in Ihrem Unternehmen trennen.
 
 Außerdem können Sie die ordnerspezifischen Konfigurationen an eine Abteilung oder Produktadministratoren delegieren, um die Verwaltung zu dezentralisieren.
 
 Weitere Informationen zum Einrichten von globalen Profilen und Profilen auf Ordnerebene finden Sie unter *Konfigurieren globaler Profile oder Profile auf Ordnerebene* unter Installieren und Konfigurieren von Adobe Experience Manager-Handbüchern as a Cloud Service.
-
-
-
-
-

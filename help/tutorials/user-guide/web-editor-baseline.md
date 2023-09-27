@@ -1,10 +1,10 @@
 ---
 title: Erstellen und Verwalten von Grundlinien im Web-Editor
-description: Erfahren Sie, wie Sie Grundlinien im Web Editor erstellen und verwalten
+description: Erstellen und verwalten Sie Grundlinien über den Webeditor in AEM Handbüchern. Erfahren Sie, wie Sie Grundlinien basierend auf Bezeichnungen erstellen und Filter auf die Grundlinien anwenden.
 exl-id: 9e390489-16f5-4f9a-a821-5150a66c2ed4
-source-git-commit: 906b1db461d343568b43195113dbc37ef5f88341
+source-git-commit: 361c605bdf02fb3b8754c6596a70e86a00acb3db
 workflow-type: tm+mt
-source-wordcount: '1327'
+source-wordcount: '1446'
 ht-degree: 0%
 
 ---
@@ -78,21 +78,28 @@ Sie können Ihre vorhandenen Grundlinien mithilfe der verschiedenen Funktionen i
 
 - Sie können über das Textfeld im Bedienfeld &quot;Grundlinie&quot;nach einer vorhandenen Grundlinie suchen. Verwenden Sie die **Filter anwenden** -Symbol, um alle Grundlinien anzuzeigen oder die Grundlinien mit dem Erstellungsstatus als &quot;Erfolgreich&quot;, &quot;In Bearbeitung&quot;oder &quot;Fehlgeschlagen&quot;aufzulisten.
 - Verwenden Sie die **Aktualisieren** im Bedienfeld &quot;Grundlinie&quot;ein, um alle Grundlinien erneut zu überprüfen und eine neue Liste der Grundlinien für die DITA-Karte anzuzeigen, die in der Kartenansicht geöffnet ist.
-- Sie können den Inhalt einer vorhandenen Grundlinie anzeigen oder bearbeiten, indem Sie im Bedienfeld Grundlinie auf die Grundlinie doppelklicken. Das Grundlinien-Bearbeitungsfenster in der Mitte zeigt die DITA-Map-Datei, den Inhalt oder die Themen der Zuordnung und den referenzierten Inhalt an.
+- Sie können den Inhalt einer vorhandenen statischen Grundlinie anzeigen oder bearbeiten, indem Sie in der Liste im Bedienfeld Grundlinie auf die Grundlinie doppelklicken. Das Grundlinien-Bearbeitungsfenster in der Mitte zeigt die DITA-Map-Datei, den Inhalt oder die Themen der Zuordnung und den referenzierten Inhalt an.
 
 
-![](images/baseline-options.png){width="550" align="left"}
+  ![Optionen einer Grundlinie](images/baseline-options.png){width="800" align="left"}
 
 Sie können auch die folgenden Vorgänge auf der Grundlinie im Menü Optionen ausführen:
 
-- **Bearbeiten**, **Duplizieren,** oder **Löschen** eine bestehende Grundlinie.
-- Hinzufügen, Entfernen oder Ändern vorhandener Bezeichnungen aus dem **Verwalten von Bezeichnungen** -Option. Wenn Ihr Administrator vordefinierte Beschriftungen konfiguriert hat, werden diese Beschriftungen in der Dropdownliste Titel hinzufügen angezeigt. Weitere Informationen zum Hinzufügen von Bezeichnungen finden Sie unter [Verwenden von Bezeichnungen](web-editor-use-label.md#).
+- **Bearbeiten**, **Duplizieren,** **Umbenennen** oder **Löschen** eine bestehende Grundlinie.
+
+  >[!NOTE]
+  >
+  >Der Bearbeitungsvorgang für statische Grundlinien wird nur für wenige Referenzänderungen empfohlen. Der Bearbeitungsvorgang wird nicht empfohlen, um die Version der DITA-Hauptkarte zu ändern, da alle Verweise neu berechnet werden müssen. Dies kann bei großen DITA-Maps zu einem Fehler bei der Grundlinien-Aktualisierung führen. Für die größeren DITA-Maps können Sie eine neue Grundlinie erstellen oder die Eigenschaften der Grundlinie bearbeiten.
+  >
+  >Der Bearbeitungsvorgang bei dynamischen Grundlinien ermöglicht es Ihnen, die Eigenschaften der Grundlinie zu bearbeiten, da die Verweise für dynamische Grundlinien zur Laufzeit mithilfe der Beschriftungen generiert werden.
+
+- Hinzufügen, Entfernen oder Ändern vorhandener Bezeichnungen aus dem **Verwalten von Bezeichnungen** für statische Grundlinien. Wenn Ihr Administrator vordefinierte Beschriftungen konfiguriert hat, werden diese Beschriftungen in der Dropdownliste Titel hinzufügen angezeigt. Weitere Informationen zum Hinzufügen von Bezeichnungen finden Sie unter [Verwenden von Bezeichnungen](web-editor-use-label.md#).
 
   >[!NOTE]
   >
   > Der Prozess zum Hinzufügen oder Entfernen von Beschriftungen erfolgt asynchron, sodass Sie im Web Editor weiterhin an anderen Dateien arbeiten können. Nachdem der Titel hinzugefügt oder entfernt wurde, wird eine Popup-Meldung angezeigt, in der bestätigt wird, dass der Titel hinzugefügt oder entfernt wurde, und Sie erhalten auch eine Inbox-Benachrichtigung.
 
-- **Eigenschaften bearbeiten** einer vorhandenen Grundlinie, die Sie beim Erstellen der Grundlinie festgelegt haben.
+- **Eigenschaften bearbeiten** einer vorhandenen statischen Grundlinie, die Sie beim Erstellen der Grundlinie festgelegt haben.
 - Exportieren Sie die Momentaufnahme einer Grundlinie in eine CSV-Datei mit dem **Exportgrundlinie** -Option.
 
 **Standardfilter**

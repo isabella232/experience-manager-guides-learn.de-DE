@@ -1,17 +1,17 @@
 ---
 title: Unterstützung für Schematron-Dateien
-description: Erfahren Sie, wie Sie Ihre Themen mit Scehmatron validieren
+description: Erfahren Sie, wie Sie ein DITA-Thema importieren und validieren, Assert-Berichtanweisungen verwenden, um nach Regeln zu suchen, Regex-Ausdrücke zu verwenden und abstrakte Muster in Schemateien von AEM Guides zu definieren.
 exl-id: e5912fa1-af26-42f4-b5e5-a6d2afd45bc8
-source-git-commit: f6794078e760565f5934faf63a7cbfb919acce90
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
 
 # Unterstützung für Schematron-Dateien
 
-&quot;Schematron&quot;bezieht sich auf eine regelbasierte Validierungssprache, die zum Definieren von Tests für eine XML-Datei verwendet wird. Der Webeditor unterstützt Schematron-Dateien. Sie können die Schemadateien importieren und sie auch im Web-Editor bearbeiten. Mithilfe einer Schematron-Datei können Sie bestimmte Regeln definieren und sie dann für ein DITA-Thema oder eine Zuordnung validieren.
+&quot;Schematron&quot;bezieht sich auf eine regelbasierte Validierungssprache, die zum Definieren von Tests für eine XML-Datei verwendet wird. Der Web Editor unterstützt Schematron-Dateien. Sie können die Schemadateien importieren und sie auch im Web-Editor bearbeiten. Mithilfe einer Schematron-Datei können Sie bestimmte Regeln definieren und sie dann für ein DITA-Thema oder eine Zuordnung validieren.
 
 >[!NOTE]
 >
@@ -25,9 +25,9 @@ Führen Sie die folgenden Schritte aus, um die Schematron-Dateien zu importieren
 ![](images/scematron-panel-add.png){width="300" align="left"}
 
 1. Navigieren Sie zum gewünschten Ordner (in den Sie die Dateien hochladen möchten) unter *Repository-Ansicht*.
-1. Klicken Sie auf **Optionen** -Symbol, um das Kontextmenü zu öffnen, und wählen Sie **Hochladen von Assets**.
+1. Klicken Sie auf **Optionen** -Symbol, um das Kontextmenü zu öffnen und **Hochladen von Assets**.
 1. Im **Hochladen von Assets** Dialogfeld können Sie den Zielordner im **Asset-Ordner auswählen** -Feld.
-1. Klicken **Dateien auswählen** und wählen Sie die Schematron-Dateien aus. Sie können eine oder mehrere Schemadateien auswählen und dann auf **Hochladen**.
+1. Klicks **Dateien auswählen** und wählen Sie die Schematron-Dateien aus. Sie können eine oder mehrere Schemadateien auswählen und dann auf **Hochladen**.
 
 ## Validieren eines DITA-Themas oder -Map mit Schematron
 
@@ -51,7 +51,7 @@ Wenn Sie ein Thema im Web Editor öffnen, wird rechts ein Bedienfeld zur Schemav
    * Wenn das Thema keine Regeln unterbricht, wird die Validierungs-Erfolgsmeldung für die Datei angezeigt.
    * Wenn das Thema eine Regel beschädigt, z. B. wenn es keinen Titel enthält und für das oben angegebene Schema validiert wird, wird ein Validierungsfehler angezeigt.
 
-1. Klicken Sie auf die Fehlermeldung, um das Element mit dem Fehler im geöffneten Thema/in der geöffneten Zuordnung zu markieren.
+1. Klicken Sie auf die Fehlermeldung, um das Element, das den Fehler enthält, im geöffneten Thema/in der geöffneten Zuordnung zu markieren.
 
 Die Schemaunterstützung im Web Editor hilft Ihnen dabei, die Dateien anhand eines Regelsatzes zu validieren und Konsistenz und Korrektheit über die Themen hinweg zu gewährleisten.
 
@@ -108,7 +108,7 @@ No one word titles.
 AEM Gudies unterstützt auch abstrakte Muster in Schematron. Sie können allgemeine abstrakte Muster definieren, um diese abstrakten Muster wiederzuverwenden.  Sie können Platzhalterparameter erstellen, die das tatsächliche Muster angeben.
 
 
-Die Verwendung abstrakter Muster kann das Schema vereinfachen, indem es die Duplizierung von Regeln reduziert und die Verwaltung und Aktualisierung Ihrer Validierungslogik erleichtert. Außerdem kann es das Verständnis Ihres Schemas vereinfachen, da Sie komplexe Validierungslogik in einem einzigen abstrakten Muster definieren können, das im gesamten Schema wiederverwendet werden kann.
+Die Verwendung abstrakter Muster kann das Schema vereinfachen, indem die Duplizierung von Regeln reduziert und die Verwaltung und Aktualisierung Ihrer Validierungslogik vereinfacht wird. Außerdem kann es das Verständnis Ihres Schemas vereinfachen, da Sie komplexe Validierungslogik in einem einzigen abstrakten Muster definieren können, das im gesamten Schema wiederverwendet werden kann.
 
 
 Beispielsweise erstellt der folgende XML-Code ein abstraktes Muster und das eigentliche Muster verweist mithilfe der ID auf dieses Muster.

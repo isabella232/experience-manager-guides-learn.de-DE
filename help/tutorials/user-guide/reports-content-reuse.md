@@ -1,10 +1,10 @@
 ---
 title: Bericht zur Inhaltswiederverwendung
-description: Erfahren Sie, wie Sie den Bericht zur Inhaltswiederverwendung wiederverwenden
+description: Erfahren Sie, wie Sie den Bericht zur Wiederverwendung von Inhalten in AEM Handbüchern anzeigen. Erstellen Sie den Bericht, um den Prozentsatz der Wiederverwendung des Inhalts zu ermitteln.
 exl-id: 658ae0fd-9032-4480-b9e4-fe4fec261e72
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ Führen Sie die folgenden Schritte aus, um den Bericht zur Wiederverwendung von 
 
 1. Klicken Sie auf **Bericht zur Inhaltswiederverwendung** Kachel.
 
-1. Klicken **Durchsuchen** um einen Pfad auszuwählen, in dem sich Ihre Themen befinden, oder den Pfad manuell eingeben.
+1. Klicks **Durchsuchen** um einen Pfad auszuwählen, in dem sich Ihre Themen befinden, oder den Pfad manuell eingeben.
 
    Der Bericht wird durch das Prüfen des Inhalts im übergeordneten Ordner und in allen untergeordneten Ordnern generiert.
 
-1. Klicken **Bericht erstellen** , um den Bericht zur Inhaltswiederverwendung zu erhalten.
+1. Klicks **Bericht erstellen** , um den Bericht zur Inhaltswiederverwendung zu erhalten.
 
    ![](images/content-reuse-uuid.png){width="800" align="left"}
 
@@ -37,11 +37,11 @@ Führen Sie die folgenden Schritte aus, um den Bericht zur Wiederverwendung von 
 
    - **Berichtszusammenfassung:**
 
-      Listet die durchschnittliche Wiederverwendung von Inhalten auf, die als Wiederverwendungsinstanzen für Inhalte/Gesamtzahl der Themenanzahl berechnet wird. Dieser Bericht berücksichtigt bei der Berechnung alle direkten Inhaltsreferenzen und Themenreferenzen der ersten Ebene. Die Inhaltswiederverwendungsinstanzen werden als Summe der Werte im Feld Anzahl der wiederverwendeten Male berechnet. Das Thema, das am häufigsten wiederverwendet wird, ist auch in der Berichtszusammenfassung aufgeführt. Durch Klicken auf den Link des Themas im am häufigsten wiederverwendeten Thema wird die Vorschau des Themas geöffnet.
+     Listet die durchschnittliche Wiederverwendung von Inhalten auf, die als Wiederverwendungsinstanzen für Inhalte/Gesamtzahl der Themenanzahl berechnet wird. Dieser Bericht berücksichtigt bei der Berechnung alle direkten Inhaltsreferenzen und Themenreferenzen der ersten Ebene. Die Inhaltswiederverwendungsinstanzen werden als Summe der Werte im Feld Anzahl der wiederverwendeten Male berechnet. Das Thema, das am häufigsten wiederverwendet wird, ist auch in der Berichtszusammenfassung aufgeführt. Durch Klicken auf den Link des Themas im am häufigsten wiederverwendeten Thema wird die Vorschau des Themas geöffnet.
 
    - **Details:**
 
-      Der Bereich Details enthält die folgenden Spalten:
+     Der Bereich Details enthält die folgenden Spalten:
 
       - **Titel**: Der Titel des Themas. Durch Klicken auf den Titel-Link des Themas wird die Themenvorschau geöffnet.
 
@@ -49,7 +49,7 @@ Führen Sie die folgenden Schritte aus, um den Bericht zur Wiederverwendung von 
 
       - **Größe**: Dateigröße in Byte.
 
-      - **Status**: Der aktuelle Status des Dokuments - Entwurf, In-Review oder Überprüfen.
+      - **Status**: Der aktuelle Status des Dokuments - Entwurf, In-Review oder überprüft.
 
       - **Anzahl der wiederverwendeten Male**: Gibt an, wie oft das entsprechende Thema wiederverwendet wurde. Dies wird berechnet als Summe der Einträge in den Spalten &quot;Referenziert von&quot; minus 1.
 

@@ -1,13 +1,13 @@
 ---
 title: Grundlegendes zu den Ausgabevorgaben
-description: Erfahren Sie, wie Sie die Ausgabevorgaben verstehen
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+description: Machen Sie sich mit den Ausgabevorgaben in AEM Handbüchern vertraut. Erstellen Sie Ausgabevorgaben aus dem Web-Editor und dem Dashboard für AEM Website-, PDF-, HTML5-, EPUB-, benutzerdefinierten und JSON-Formate.
+exl-id: ff4dedbb-47c4-40c7-950c-51f70d5d4b1b
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 3%
+source-wordcount: '177'
+ht-degree: 2%
 
 ---
-
 
 # Grundlegendes zu den Ausgabevorgaben {#understanding_output_settings}
 
@@ -17,8 +17,8 @@ In den folgenden Abschnitten werden die für die unterstützten Ausgabeformate v
 
 Sie können Vorgaben auf zwei Arten erstellen:
 
-- **Im Web-Editor**: Sie können AEM Site-, PDF-, HTML-, Knowledge Base-, HTML5-, benutzerdefinierten und JSON-Ausgabevorgabe erstellen und die entsprechenden Ausgaben generieren.
-- **Über das Zuordnungs-Dashboard**: Sie können AEM Site, PDF, HTML5, EPUB und benutzerdefinierte Ausgabevorgabe erstellen und die entsprechenden Ausgaben generieren.
+- **Im Web-Editor**: Sie können AEM Site, PDF, HTML, Knowledge Base, HTML5, benutzerdefinierte und JSON-Ausgabevorgabe erstellen und die entsprechenden Ausgaben generieren.
+- **Über das Zuordnungs-Dashboard**: Sie können AEM Site, PDF, HTML5, EPUB und eine benutzerdefinierte Ausgabevorgabe erstellen und die entsprechenden Ausgaben generieren.
 
 In den folgenden Abschnitten werden die für die unterstützten Ausgabeformate verfügbaren Optionen beschrieben.
 
@@ -36,4 +36,3 @@ In den folgenden Abschnitten werden die für die unterstützten Ausgabeformate v
 
 
 **Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)
-

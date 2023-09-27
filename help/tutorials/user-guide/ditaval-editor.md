@@ -1,13 +1,13 @@
 ---
 title: Verwenden des DITAVAL-Editors
-description: Erfahren Sie, wie Sie den DITAVAL-Editor verwenden
-source-git-commit: c6eceb8ea3ce41f12ea1f689dc8aeab2b4ba3d9c
+description: Erfahren Sie, wie Sie DITAVAL-Dateien mit dem DIVATAL Editor in AEM Guides erstellen und bearbeiten. Erfahren Sie, wie der DITAVAL-Editor DITAVAL-Dateien in der Autoren- und Quellansicht unterstützt.
+exl-id: 53dc9a61-aa07-4fb0-a442-ac845433c8f5
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '780'
 ht-degree: 0%
 
 ---
-
 
 # DITAVAL-Editor {#ditaval-editor}
 
@@ -21,7 +21,7 @@ Führen Sie die folgenden Schritte aus, um eine DITAVAL-Datei zu erstellen:
 
 1. Navigieren Sie in der Assets-Benutzeroberfläche zu dem Speicherort, an dem Sie die DITAVAL-Datei erstellen möchten.
 
-1. Klicken **Erstellen** \> **DITA-Thema**.
+1. Klicks **Erstellen** \> **DITA-Thema**.
 
 1. Wählen Sie auf der Blueprint-Seite die DITAVAL-Dateivorlage aus und klicken Sie auf **Nächste**.
 
@@ -56,9 +56,9 @@ Führen Sie die folgenden Schritte aus, um eine DITAVAL-Datei zu bearbeiten:
 
    ![](images/ditaval-editor-props.png)
 
-   In der ersten Dropdown-Liste werden die zulässigen DITA-Attribute aufgelistet, die Sie in der DITAVAL-Datei verwenden können. Es werden fünf Attribute unterstützt - `audience`, `platform`, `product`, `props`und `otherprops`.
+   In der ersten Dropdown-Liste werden die zulässigen DITA-Attribute aufgelistet, die Sie in der DITAVAL-Datei verwenden können. Es werden fünf Attribute unterstützt - `audience`, `platform`, `product`, `props`, und `otherprops`.
 
-   Die zweite Dropdown-Liste zeigt die für das ausgewählte Attribut konfigurierten Werte an. In der nächsten Dropdownliste werden die Aktionen angezeigt, die Sie für das ausgewählte Attribut konfigurieren können. Zulässige Werte in der Dropdown-Liste Aktion sind: `include`, `exclude`, `passthrough`und `flag`. Weitere Informationen zu diesen Werten finden Sie in der Definition von [prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop) Element in der OASIS DITA-Dokumentation
+   Die zweite Dropdown-Liste zeigt die für das ausgewählte Attribut konfigurierten Werte an. In der nächsten Dropdownliste werden die Aktionen angezeigt, die Sie für das ausgewählte Attribut konfigurieren können. Zulässige Werte in der Dropdown-Liste Aktion sind: `include`, `exclude`, `passthrough`, und `flag`. Weitere Informationen zu diesen Werten finden Sie in der Definition von [prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop) Element in der OASIS DITA-Dokumentation
 
    D: Alle Eigenschaften hinzufügen Wenn Sie alle in Ihrem System definierten bedingten Eigenschaften oder Attribute mit einem Klick hinzufügen möchten, verwenden Sie die Funktion Alle Eigenschaften hinzufügen .
 
@@ -68,7 +68,7 @@ Führen Sie die folgenden Schritte aus, um eine DITAVAL-Datei zu bearbeiten:
 
    ![](images/ditaval-all-props.png)
 
-1. Nachdem Sie die Bearbeitung der DITAVAL-Datei abgeschlossen haben, klicken Sie auf **Speichern**.
+1. Nachdem Sie die DITAVAL-Datei bearbeitet haben, klicken Sie auf **Speichern**.
 
    >[!NOTE]
    >
@@ -79,13 +79,12 @@ Führen Sie die folgenden Schritte aus, um eine DITAVAL-Datei zu bearbeiten:
 
 Der DITAVAL-Editor von AEM Guides unterstützt die Anzeige von DITAVAL-Dateien in zwei verschiedenen Modi oder Ansichten:
 
-**Autor**: Dies ist eine typische Ansicht des DITAVAL-Editors, was Sie sehen, was Sie \(WYSISYG\) erhalten. Sie können Eigenschaften über die einfache Benutzeroberfläche hinzufügen oder entfernen, in der die Eigenschaften, Werte und Aktionen in einer Dropdown-Liste angezeigt werden. In der Autorenansicht haben Sie die Möglichkeit, eine einzelne Eigenschaft einzufügen und alle Eigenschaften mit einem Klick einzufügen.
+**Autor**: Dies ist eine typische Ansicht des DITAVAL-Editors &quot;Was Sie sehen ist, was Sie \(WYSISYG\) erhalten. Sie können Eigenschaften über die einfache Benutzeroberfläche hinzufügen oder entfernen, in der die Eigenschaften, Werte und Aktionen in einer Dropdown-Liste angezeigt werden. In der Autorenansicht haben Sie die Möglichkeit, eine einzelne Eigenschaft einzufügen und alle Eigenschaften mit einem Klick einzufügen.
 
 Sie können auch die Version der DITAVAL-Datei finden, an der Sie derzeit arbeiten, indem Sie den Mauszeiger über den Dateinamen bewegen.
 
-**Quelle**: In der Quellansicht wird die zugrunde liegende XML-Datei angezeigt, aus der sich die DITAVAL-Datei zusammensetzt. In dieser Ansicht können Autoren nicht nur reguläre Textänderungen vornehmen, sondern auch Eigenschaften mithilfe des Smart-Katalogs hinzufügen oder bearbeiten.
+**Quelle**: Die Quellansicht zeigt die zugrunde liegende XML-Datei an, aus der sich die DITAVAL-Datei zusammensetzt. In dieser Ansicht können Autoren nicht nur reguläre Textänderungen vornehmen, sondern auch Eigenschaften mithilfe des Smart-Katalogs hinzufügen oder bearbeiten.
 
 Um den Smart-Katalog aufzurufen, platzieren Sie den Cursor am Ende einer beliebigen Eigenschaftsdefinition und geben Sie &quot;&lt;&quot;ein. Der Editor zeigt eine Liste aller gültigen XML-Elemente an, die Sie an dieser Stelle einfügen können.
 
 ![](images/ditaval-source-view.png)
-

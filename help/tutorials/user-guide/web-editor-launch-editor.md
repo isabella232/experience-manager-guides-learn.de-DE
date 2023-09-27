@@ -1,15 +1,15 @@
 ---
-title: Web Editor starten
-description: Erfahren Sie, wie Sie den Web Editor starten
+title: Starten des Web Editors
+description: Erfahren Sie, wie Sie den Web-Editor über die AEM Navigationsseite, die AEM Assets-Benutzeroberfläche und die DITA-Zuordnungskonsole in AEM Handbüchern starten.
 exl-id: f02f9612-7aaa-42ea-bad3-c44d23b5d034
-source-git-commit: dce7b1c97f8f7f79b313b08ca0489e8e50b633ec
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
 
-# Web Editor starten {#id2056B0140HS}
+# Starten des Web Editors {#id2056B0140HS}
 
 Sie können den Web Editor von den folgenden Speicherorten aus starten:
 
@@ -37,20 +37,20 @@ Da Sie den Web Editor gestartet haben, ohne eine Datei auszuwählen, wird ein le
 
 
 
-   <details>
+  <details>
 
-   <summary> Cloud Services </summary>
+  <summary> Cloud Services </summary>
 
-   Wenn Sie Cloud Services verwenden, klicken Sie auf die **Schließen** -Schaltfläche, um zur AEM Navigationsseite zurückzukehren.
-   </details>
+  Wenn Sie Cloud Service verwenden, klicken Sie auf die **Schließen** -Schaltfläche, um zur AEM Navigationsseite zurückzukehren.
+  </details>
 
-   <details>
+  <details>
 
-   <summary> On-Premise-Software</summary>
+  <summary> On-Premise Software</summary>
 
-   Wenn Sie AEM On-Premise-Software-Handbücher (4.2.1 und höher) verwenden, klicken Sie auf die Schaltfläche **Schließen** rechts klicken, um zu Ihrem aktuellen Dateipfad in der Assets-Benutzeroberfläche zurückzukehren.
+  Wenn Sie AEM On-Premise-Software-Handbücher (4.2.1 und höher) verwenden, klicken Sie auf die Schaltfläche **Schließen** rechts klicken, um zu Ihrem aktuellen Dateipfad in der Assets-Benutzeroberfläche zurückzukehren.
 
-   </details>
+  </details>
 
 ## AEM Assets-Benutzeroberfläche {#id2056BG0307U}
 
@@ -84,7 +84,7 @@ Ein anderer Speicherort, von dem aus Sie den Web Editor starten können, ist die
 
    >[!IMPORTANT]
    >
-   > Wenn Sie mehrere Themen zur Bearbeitung öffnen möchten, wählen Sie die gewünschten Themen in der Asset-Benutzeroberfläche aus und klicken Sie auf &quot;Bearbeiten&quot;. Stellen Sie sicher, dass der Popup-Blocker in Ihrem Browser nicht aktiviert ist. Ansonsten wird nur das erste Thema in der ausgewählten Liste zur Bearbeitung geöffnet.
+   > Wenn Sie mehrere Themen zur Bearbeitung öffnen möchten, wählen Sie die gewünschten Themen in der Asset-Benutzeroberfläche aus und klicken Sie auf Bearbeiten. Stellen Sie sicher, dass der Popup-Blocker in Ihrem Browser nicht aktiviert ist. Ansonsten wird nur das erste Thema in der ausgewählten Liste zur Bearbeitung geöffnet.
 
    ![](images/edit-from-preview_cs.png){width="800" align="left"}
 
@@ -92,7 +92,7 @@ Ein anderer Speicherort, von dem aus Sie den Web Editor starten können, ist die
 
    ![](images/edit-topic-from-quick-action_cs.png){width="800" align="left"}
 
-1. Klicken **Bearbeiten** , um das Thema im Web-Editor zu öffnen.
+1. Klicks **Bearbeiten** , um das Thema im Web-Editor zu öffnen.
 
    ![](images/edit-mode.png){width="800" align="left"}
 
@@ -105,13 +105,13 @@ Gehen Sie wie folgt vor, um den Web Editor über die DITA Map-Konsole zu öffnen
 
    Die DITA-Map-Konsole wird angezeigt.
 
-1. Klicken **Themen**.
+1. Klicks **Themen**.
 
    Eine Liste der Themen in der Zuordnungsdatei wird angezeigt. Die UUID der Themen wird unter dem Thementitel angezeigt.
 
 1. Wählen Sie die Themendatei aus, die Sie bearbeiten möchten.
 
-1. Klicken **Thema bearbeiten**.
+1. Klicks **Thema bearbeiten**.
 
    ![](images/edit-topics-map-console_cs.png){width="800" align="left"}
 

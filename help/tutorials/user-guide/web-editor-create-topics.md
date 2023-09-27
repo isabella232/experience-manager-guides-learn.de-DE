@@ -1,10 +1,10 @@
 ---
 title: Erstellen von Themen
-description: Erfahren Sie, wie Sie Themen erstellen
+description: Erfahren Sie, wie Sie mit benutzerdefinierten Vorlagen im Web-Editor von AEM Guides DITA-Thementypen erstellen.
 exl-id: 336bbbff-f268-40be-ad3a-9c72923be71b
-source-git-commit: e69665f3c4a0db10365719ac671cbd3ac0c455ec
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '595'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Mit AEM Guides können Sie DITA-Themen vom Typ - Thema, Aufgabe, Konzept, Referenz, Glossar, DITAVAL und mehr erstellen. Neben der Erstellung von Themen basierend auf vordefinierten Vorlagen können Sie auch benutzerdefinierte Vorlagen definieren. Diese Vorlagen müssen dem Ordnerprofil hinzugefügt werden, damit sie in der Vorlagenauswahl-Blueprint und im Web-Editor angezeigt werden.
 
-Beachten Sie, dass die Konfiguration Globales Profil und Ordnerprofil nur für Administratoren auf Ordnerebene verfügbar ist. Weitere Informationen zum Einrichten von globalen Profilen und Profilen auf Ordnerebene finden Sie unter *Bearbeitungsvorlagen konfigurieren* unter Installieren und Konfigurieren von Adobe Experience Manager-Handbüchern für Ihre Einrichtung.
+Beachten Sie, dass die Konfiguration Globales Profil und Ordnerprofil nur für Administratoren auf Ordnerebene verfügbar ist. Weitere Informationen zum Einrichten von globalen Profilen und Profilen auf Ordnerebene finden Sie unter *Authoring-Vorlagen konfigurieren* unter Installieren und Konfigurieren von Adobe Experience Manager-Handbüchern für Ihre Einrichtung.
 
 Führen Sie die folgenden Schritte aus, um ein Thema zu erstellen:
 
@@ -21,11 +21,11 @@ Führen Sie die folgenden Schritte aus, um ein Thema zu erstellen:
 
 1. Um ein neues Thema zu erstellen, klicken Sie auf **Erstellen** \> **DITA-Thema**.
 
-1. Wählen Sie auf der Blueprint-Seite den Typ des DITA-Dokuments aus, das Sie erstellen möchten, und klicken Sie auf **Nächste**.
+1. Wählen Sie auf der Blueprint-Seite den Typ des zu erstellenden DITA-Dokuments aus und klicken Sie auf **Nächste**.
 
    ![](images/create_dita_topic.png){width="800" align="left"}
 
-   Standardmäßig stellt AEM Guides die am häufigsten verwendeten DITA-Themenvorlagen bereit. Sie können weitere Themenvorlagen entsprechend Ihren organisatorischen Anforderungen konfigurieren, siehe *Bearbeitungsvorlagen konfigurieren* unter Installieren und Konfigurieren von Adobe Experience Manager-Handbüchern für Ihre Einrichtung.
+   Standardmäßig stellt AEM Guides die am häufigsten verwendeten DITA-Themenvorlagen bereit. Sie können weitere Themenvorlagen entsprechend Ihren organisatorischen Anforderungen konfigurieren, siehe *Authoring-Vorlagen konfigurieren* unter Installieren und Konfigurieren von Adobe Experience Manager-Handbüchern für Ihre Einrichtung.
 
    >[!NOTE]
    >

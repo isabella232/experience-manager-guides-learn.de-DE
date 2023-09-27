@@ -1,10 +1,10 @@
 ---
 title: Arbeiten mit dem Basic Map Editor
-description: Erfahren Sie, wie Sie mit dem Basic Map Editor arbeiten.
+description: Erfahren Sie, wie Sie mit dem Basic Map Editor in AEM Handbüchern arbeiten. Machen Sie sich mit den Funktionen des einfachen Map-Editors auf Zuordnungs- und Themenebene vertraut. Erstellen und bearbeiten Sie Beziehungstabellen in einer DITA-Zuordnung.
 exl-id: 85194806-db3f-442b-a551-540d148d26ec
-source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1420'
 ht-degree: 0%
 
 ---
@@ -84,17 +84,17 @@ Aktivieren Sie das Kontrollkästchen links neben den Themen und klicken Sie in d
 
 Aktivieren Sie das Kontrollkästchen links neben einem Thema und klicken Sie in der Symbolleiste auf Löschen , um die ausgewählten Themen aus der Karte zu entfernen.
 
-**D: Zahlen anzeigen/ausblenden**
+**D: Zahlen anzeigen/Zahlen ausblenden**
 
 Zeigt die \(oder blendet\) Nummerierung für die Themen auf der Karte an.
 
-**E: Bestätigen**
+**E: Validieren**
 
 Überprüfen Sie, ob die Zuordnung gültig ist oder Fehler aufweist.
 
 **F: Standardmodus/XML-Modus**
 
-Im **Standardmodus**, wenn Sie auf einen Themenlink klicken, wird die Vorschau des Themas in einer neuen Registerkarte angezeigt. Klicken Sie auf die **Standardmodus** ändert den Modus in **XML-Modus**. In **XML-Modus** Wenn Sie auf eine beliebige Stelle in einer Themenzeile klicken, wird die zugrunde liegende XML der Themenreferenzen innerhalb des Themas angezeigt. In der XML-Quellansicht gibt es eine **Auto-Einzug** -Option, die den XML-Code im lesbaren und leicht lesbaren Format neu organisiert. Wenn Sie eine Zuordnung manuell bearbeiten, führt die Quellansicht auch Validierungsprüfungen durch. Wenn Ihre XML Fehler enthält, wird dasselbe im **XML-Modus** und Sie dürfen die DITA-Map-Datei nicht speichern. Wenn Sie die XML-Datei für die gesamte Zuordnung anzeigen möchten, klicken Sie auf eine beliebige Stelle außerhalb der Themengrenze.
+Im **Standardmodus**, wenn Sie auf einen Themenlink klicken, wird die Vorschau des Themas in einer neuen Registerkarte angezeigt. Klicken Sie auf die **Standardmodus** ändert den Modus in **XML-Modus**. In **XML-Modus** Wenn Sie auf eine beliebige Stelle in einer Themenzeile klicken, wird die zugrunde liegende XML der Themenreferenzen innerhalb des Themas angezeigt. In der Quell-XML-Ansicht gibt es eine **Auto-Einzug** -Option, die den XML-Code im lesbaren und leicht lesbaren Format neu organisiert. Wenn Sie eine Zuordnung manuell bearbeiten, führt die Quellansicht auch Validierungsprüfungen durch. Wenn Ihre XML Fehler enthält, wird dasselbe im **XML-Modus** und Sie dürfen die DITA-Map-Datei nicht speichern. Wenn Sie die XML-Datei für die gesamte Zuordnung anzeigen möchten, klicken Sie auf eine beliebige Stelle außerhalb der Themengrenze.
 
 
 **Hinweis:** Im Standardmodus können Sie die Tastaturbefehle verwenden, um \(`Ctrl+z`\) oder wiederholen Sie \(`Ctrl+y`\) die letzte Aktion.
@@ -114,7 +114,7 @@ Wenn Sie den Mauszeiger im Basic Map Editor über ein Thema oder eine Unterzuord
 
 ![](images/ditamap-actions.png){width="650" align="left"}
 
-**A: Nach links oder Nach rechts verschieben**
+**A: Nach links oder nach rechts verschieben**
 
 Klicken Sie auf die Pfeilsymbole links oder rechts, um das Thema nach links oder rechts zu verschieben. Wenn Sie ein Thema so verschieben, wird es zu einem untergeordneten Element \(verschachteln\) oder Geschwister \(Verschachtelung entfernen\) im Hinblick auf das obige Thema.
 
@@ -147,7 +147,7 @@ Führen Sie die folgenden Schritte aus, um mit Beziehungstabellen im Basic Map E
 
    >[!TIP]
    >
-   > Im Tab Themen haben Sie die Möglichkeit, die Zuordnungsdatei mit ihren abhängigen Elementen herunterzuladen. Weitere Informationen finden Sie unter [DITA-Map-Datei exportieren](authoring-download-assets.md#id218UBA00IXA).
+   > Im Tab Themen können Sie die Zuordnungsdatei mit ihren abhängigen Elementen herunterladen. Weitere Informationen finden Sie unter [DITA-Map-Datei exportieren](authoring-download-assets.md#id218UBA00IXA).
 
 1. Klicken Sie in der Symbolleiste auf **Bearbeiten**.
 
@@ -178,7 +178,7 @@ Sie können auch die folgenden Aktionen im Beziehungstabelle-Editor durchführen
 
 **Zeilen oder Spalten löschen**
 
-Wenn Sie eine Spalte aus Ihrer Tabelle löschen möchten, aktivieren Sie das Kontrollkästchen in der Spaltenüberschrift und klicken Sie auf &quot;Löschen&quot;. Wenn Sie eine Zeile aus der Tabelle entfernen möchten, aktivieren Sie das Kontrollkästchen in der ersten Spalte der entsprechenden Zeile und klicken Sie auf &quot;Löschen&quot;.
+Wenn Sie eine Spalte aus Ihrer Tabelle löschen möchten, aktivieren Sie das Kontrollkästchen in der Spaltenüberschrift und klicken Sie auf &quot;Löschen&quot;. Wenn Sie eine Zeile aus der Tabelle entfernen möchten, aktivieren Sie das Kontrollkästchen in der ersten Spalte der entsprechenden Zeile und klicken Sie auf Löschen.
 
 **Thema löschen**
 

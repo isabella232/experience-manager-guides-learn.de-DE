@@ -1,13 +1,13 @@
 ---
 title: Artikelbasierte Veröffentlichung im Web Editor
-description: Erfahren Sie, wie Sie im Web Editor eine artikelbasierte Veröffentlichung durchführen können.
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+description: Erfahren Sie, wie Sie einen oder mehrere Artikel im Web-Editor veröffentlichen. Generieren Sie die Ausgabe für ein oder mehrere Themen in einer DITA-Zuordnung in AEM Guides.
+exl-id: b827c606-0d4b-4e7b-8a82-75b375dffe1a
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
-
 
 # Artikelbasierte Veröffentlichung im Web Editor {#id218CL05J0M1}
 
@@ -31,4 +31,3 @@ Sie können auch die für Ihre DITA-Zuordnung erstellten Ausgabevorgaben verwend
 
 
 **Übergeordnetes Thema:**[ Arbeiten mit dem Web-Editor](web-editor.md)
-

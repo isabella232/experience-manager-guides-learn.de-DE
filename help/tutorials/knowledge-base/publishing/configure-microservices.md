@@ -2,9 +2,9 @@
 title: Neue mikrodienstbasierte Veröffentlichung für AEM Guides as a Cloud Service konfigurieren
 description: Erfahren Sie, wie Sie neue mikrodienstbasierte Veröffentlichungen für AEM-Handbücher konfigurieren.
 exl-id: 92e3091d-6337-4dc6-9609-12b1503684cd
-source-git-commit: 92b087c4cb115f0966d20b6b1d9d26839c6e39b7
+source-git-commit: aa71a2b8ff5f83365ff2f3562bb2b77061a3da8e
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ Für jede Veröffentlichungsanforderung AEM Handbücher führt as a Cloud Servic
 
 >[!NOTE]
 >
-> Die mikrodienstbasierte Veröffentlichung in AEM Guides unterstützt die Typen von Ausgabevorgaben vom Typ PDF (nativ und DITA-OT-basiert), HTML5 und CUSTOM.
+> Die mikrodienstbasierte Veröffentlichung in AEM Guides unterstützt die Typen von PDF (nativ und DITA-OT-basiert), HTML5, JSON und benutzerdefinierten Ausgabevorgaben.
 
-Da der neue Cloud Publishing-Dienst durch die JWT-basierte Authentifizierung von Adobe IMS geschützt ist, sollten Kunden die folgenden Schritte ausführen, um ihre Umgebungen in sichere Token-basierte Authentifizierungsarbeitsabläufe von Adobe zu integrieren und mit der neuen Cloud-basierten skalierbaren Publishing-Lösung zu beginnen.
+Da der neue Cloud Publishing-Dienst durch die Adobe IMS-JWT-basierte Authentifizierung geschützt ist, sollten Kunden die folgenden Schritte ausführen, um ihre Umgebungen mit sicheren Token-basierten Authentifizierungsarbeitsabläufen zu integrieren und mit der neuen Cloud-basierten skalierbaren Publishing-Lösung zu beginnen.
 
 
 ## Erstellen von IMS-Konfigurationen in der Adobe Developer-Konsole
@@ -34,11 +34,11 @@ Führen Sie die folgenden Schritte aus, um IMS-Konfigurationen in der Adobe Deve
 
    <img src="assets/projects-tab.png" alt="Projekt-Tab" width="500">
 
-1. Um ein neues leeres Projekt zu erstellen, wählen Sie **Leeres Projekt** von **Neues Projekt erstellen** Dropdown-Liste.
+1. Um ein neues leeres Projekt zu erstellen, wählen Sie **Leeres Projekt** aus dem **Neues Projekt erstellen** Dropdown.
 
    <img src="assets/create-new-project.png" alt="Neues Projekt erstellen" width="500">
 
-1. Auswählen **API** von **Zum Projekt hinzufügen** Dropdown-Liste, um Ihrem Projekt die IO Management-API hinzuzufügen.
+1. Auswählen **API** aus dem **Zum Projekt hinzufügen** Dropdown-Liste, um Ihrem Projekt die IO Management-API hinzuzufügen.
 
    <img src="assets/add-project.png" alt="Projekt hinzufügen" width="300">
 
@@ -56,7 +56,7 @@ Führen Sie die folgenden Schritte aus, um IMS-Konfigurationen in der Adobe Deve
 
    <img src="assets/project-overview.png" alt="Projektübersicht" width="500">
 
-1. Klicken **Download** oben auf die Schaltfläche zum Herunterladen der Dienst-JSON.
+1. Klicks **Herunterladen** oben auf die Schaltfläche zum Herunterladen der Dienst-JSON.
 
    <img src="assets/download-json.png" alt="JSON herunterladen" width="500">
 
@@ -117,8 +117,8 @@ Danach sollten Sie in der Lage sein, das neue Microservice-basierte Cloud Publis
 **Datei**: `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
 
 **Inhalt**:
-* `dxml.use.publish.microservice`: Wechseln zur Aktivierung der Veröffentlichung auf Microservice-Basis mithilfe von DITA-OT
-* `dxml.use.publish.microservice.native.pdf`: Wechseln zur Aktivierung der mikrodienstbasierten nativen PDF-Veröffentlichung
+* `dxml.use.publish.microservice`: Wechsel zur Aktivierung der Veröffentlichung auf Microservice-Basis mithilfe von DITA-OT
+* `dxml.use.publish.microservice.native.pdf`: Wechsel zur Aktivierung der mikrodienstbasierten nativen PDF-Veröffentlichung
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>

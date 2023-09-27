@@ -1,10 +1,10 @@
 ---
 title: Übergeben der Metadaten an die Ausgabe mithilfe von DITA-OT
-description: Erfahren Sie, wie Sie die Metadaten mithilfe von DITA-OT an die Ausgabe übergeben.
+description: Erfahren Sie, wie Sie die Metadaten mithilfe der DITA-OT-Veröffentlichung in AEM Handbüchern an die Ausgabe übergeben.
 exl-id: 637895e5-aece-4827-a32e-f2ae3e3704ef
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -23,21 +23,21 @@ Führen Sie die folgenden Schritte aus, um die Metadaten mithilfe der DITA-OT-Ve
 
 1. Wählen Sie in der Dropdown-Liste Eigenschaften die Metadaten aus, die Sie an die DITA-OT-Veröffentlichung übergeben möchten.
 
-   In der Dropdown-Liste Eigenschaften werden sowohl die benutzerdefinierten als auch die Standardeigenschaften aufgelistet. Im obigen Screenshot-Autor ist beispielsweise die benutzerdefinierte Eigenschaft, während `dc:description`, `dc:language`, `dc:title`und `docstate` sind die Standardeigenschaften.
+   In der Dropdown-Liste &quot;Eigenschaften&quot;werden sowohl die benutzerdefinierten als auch die Standardeigenschaften aufgelistet. Im obigen Screenshot-Autor ist beispielsweise die benutzerdefinierte Eigenschaft, während `dc:description`, `dc:language`, `dc:title`, und `docstate` sind die Standardeigenschaften.
 
    >[!NOTE]
    >
-   > Diese Eigenschaften werden aus der Datei metadataList ausgewählt, die am folgenden Speicherort verfügbar ist:`/libs/fmdita/config/metadataList`. In dieser Datei sind standardmäßig vier Eigenschaften aufgeführt: `dc:description`, `dc:language`, `dc:title`und `docstate`.
+   > Diese Eigenschaften werden aus der Datei metadataList ausgewählt, die am folgenden Speicherort verfügbar ist:`/libs/fmdita/config/metadataList`. In dieser Datei sind standardmäßig vier Eigenschaften aufgeführt: `dc:description`, `dc:language`, `dc:title`, und `docstate`.
 
    Diese Datei kann überlagert werden unter: `/apps/fmdita/config/metadataList`.
 
    Informationen zum Übergeben einer benutzerdefinierten Eigenschaft, für die Sie die Werte bereits definiert haben, finden Sie unter [Verwenden AEM Metadaten in der DITA-OT-PDF-Ausgabe](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880).
 
-1. Aus dem **Eigenschaften** Dropdown-Liste die gewünschten benutzerdefinierten und standardmäßigen Eigenschaften aus. Wählen Sie beispielsweise `author`, `dc:title`und `dc:description`. Dies sind die Standardwerte `metadata/properties` wird erstellt, sobald wir eine Datei erstellen. Die ausgewählten Eigenschaften werden unter dem Dropbox-Menü aufgeführt.
+1. Aus dem **Eigenschaften** Dropdown-Liste die gewünschten benutzerdefinierten und standardmäßigen Eigenschaften aus. Wählen Sie beispielsweise `author`, `dc:title`, und `dc:description`. Dies sind die Standardwerte `metadata/properties` wird erstellt, sobald wir eine Datei erstellen. Die ausgewählten Eigenschaften werden unter dem Dropbox-Menü aufgelistet.
 
    ![](images/selected-metadata-properties.png){width="300" align="left"}
 
-1. Klicken **Fertig** oben links, um die Änderungen zu speichern.
+1. Klicks **Fertig** oben links, um die Änderungen zu speichern.
 1. Generieren Sie die Ausgabe.
 
 Die ausgewählten Metadateneigenschaften werden an die mit DITA-OT generierte Ausgabe übergeben.

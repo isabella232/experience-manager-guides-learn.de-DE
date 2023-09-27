@@ -1,10 +1,10 @@
 ---
 title: Senden von Themen zur Überprüfung
-description: Erfahren Sie, wie Sie Themen zur Überprüfung senden
+description: Erfahren Sie in AEM Handbüchern, wie Sie eine Prüfungsaufgabe erstellen und Themen zur Überprüfung senden. Senden Sie mindestens ein Thema in einer DITA-Map zur Überprüfung.
 exl-id: 7a9b36ad-44d4-4952-9906-d95feb95d0c6
-source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '2733'
+source-wordcount: '2752'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ Da der Prüfungs-Workflow projektspezifisch ist, muss der Initiator der Überpr�
 
 Sie können eine Prüfungsaufgabe aus folgenden Quellen erstellen:
 
-- **Web Editor**: Ermöglicht das Senden eines einzelnen Themas oder einer DITA-Map zur Überprüfung. Beachten Sie, dass der Workflow zum Erstellen einer Prüfungsaufgabe im Web-Editor und in der Assets-Benutzeroberfläche üblich ist. Nur die Methode zum Starten des Überprüfungs-Workflows unterscheidet sich. Informationen zum Starten des Prüfungs-Workflows über den Web-Editor finden Sie in der [Prüfungsaufgabe erstellen](web-editor-features.md#id215OCJ00JXA) im Web Editor.
+- **Web-Editor**: Ermöglicht das Senden eines einzelnen Themas oder einer DITA-Map zur Überprüfung. Beachten Sie, dass der Workflow zum Erstellen einer Prüfungsaufgabe im Web-Editor und in der Assets-Benutzeroberfläche üblich ist. Nur die Methode zum Starten des Überprüfungs-Workflows unterscheidet sich. Informationen zum Starten des Prüfungs-Workflows über den Web-Editor finden Sie in der [Prüfungsaufgabe erstellen](web-editor-features.md#id215OCJ00JXA) im Web-Editor.
 
-- **Assets-Benutzeroberfläche**: Ermöglicht das Senden eines oder mehrerer Themen und DITA-Maps zur Überprüfung. Die Freigabe von Dokumenten zur Überprüfung über den Workflow der Assets-Benutzeroberfläche wird in diesem Thema behandelt.
+- **Assets-Benutzeroberfläche**: Ermöglicht das Senden eines oder mehrerer Themen und einer DITA-Map zur Überprüfung. Die Freigabe von Dokumenten zur Überprüfung über den Workflow der Assets-Benutzeroberfläche wird in diesem Thema behandelt.
 
 
 In der Assets-Benutzeroberfläche gibt es zwei Möglichkeiten, wie ein Autor/Herausgeber eine Prüfungsaufgabe erstellen kann:
@@ -33,7 +33,7 @@ In der Assets-Benutzeroberfläche gibt es zwei Möglichkeiten, wie ein Autor/Her
 >
 > Bevor Sie eine Prüfungsaufgabe erstellen, stellen Sie sicher, dass Sie ein Projekt erstellt und diesem Projekt Überprüfer hinzugefügt haben.
 
-So erstellen Sie eine Prüfungsaufgabe und senden Themen zur Überprüfung:
+Um eine Prüfungsaufgabe zu erstellen und Themen zur Überprüfung zu senden, führen Sie die folgenden Schritte aus:
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ So erstellen Sie eine Prüfungsaufgabe und senden Themen zur Überprüfung:
 
    ![](images/create-review-task-023.png){width="650" align="left"}
 
-1. Geben Sie einen **Titel** für die Aufgabe und wählen Sie eine DITA aus. **Projekt** aus der Dropdown-Liste aus.
+1. Geben Sie einen **Titel** für die Aufgabe und wählen Sie eine DITA aus. **Projekt** aus der Dropdown-Liste.
 
 1. Im **Zuweisen zu** Dropdown-Feld die Validierer auswählen, an die Sie die Themen zur Überprüfung senden möchten.
 
@@ -65,7 +65,7 @@ So erstellen Sie eine Prüfungsaufgabe und senden Themen zur Überprüfung:
 
 1. Geben Sie einen **Beschreibung** für die Aufgabe.
 
-   Diese Beschreibung wird als Hauptteil der Benachrichtigungs-E-Mail verwendet, die an die Validierungsverantwortlichen gesendet wird.
+   Diese Beschreibung wird als Hauptteil der Benachrichtigungs-E-Mail verwendet, die an die validierungsverantwortlichen Benutzer gesendet wird.
 
 1. Wählen Sie die **Fälligkeitsdatum** und Zeit, um die Frist für die Überprüfung festzulegen.
 
@@ -85,7 +85,7 @@ So erstellen Sie eine Prüfungsaufgabe und senden Themen zur Überprüfung:
 
    Wenn Sie allen Validierungsverantwortlichen erlauben möchten, ein Thema in der Prüfungsaufgabe zu überprüfen, wählen Sie **Zuweisung zum Überprüfen von Themen zulassen**.
 
-   Wenn Sie diese Option nicht auswählen, werden die validierungsverantwortlichen Benutzer im **Zuweisen zu** kann nur die Themen überprüfen, die ihnen zugewiesen sind.
+   Wenn Sie diese Option nicht auswählen, werden die Überprüfer im **Zuweisen zu** kann nur die Themen überprüfen, die ihnen zugewiesen sind.
 
 1. Klicken Sie auf **Weiter**.
 
@@ -116,30 +116,30 @@ So erstellen Sie eine Prüfungsaufgabe und senden Themen zur Überprüfung:
 
 1. Auf der Seite &quot;Überprüfer&quot;können Sie Überprüfer hinzufügen oder entfernen. Die folgenden Vorgänge sind auf der Seite &quot;Validierungsverantwortliche&quot;verfügbar:
 
-   - **Alle auswählen**: Wählt alle Themen in der Themenliste aus. Sie können einfach einen Batch-Vorgang ausführen, nachdem Sie alle Themen ausgewählt haben.
+   - **Alle auswählen**: Auswahl aller Themen in der Themenliste. Nach Auswahl aller Themen können Sie einfach einen Batch-Vorgang ausführen.
    - **Auswahl löschen**: Hebt die Auswahl der in der Themenliste ausgewählten Themen auf.
 
-      >[!NOTE]
-      >
-      > Sie können ein Thema auch einzeln auswählen oder deaktivieren, indem Sie auf das Kontrollkästchen neben dem Thema klicken.
+     >[!NOTE]
+     >
+     > Sie können ein Thema auch einzeln auswählen oder deaktivieren, indem Sie auf das Kontrollkästchen neben dem Thema klicken.
 
    - **Hinzufügen**: Zeigt das Dialogfeld &quot;Überprüfer hinzufügen&quot;an. Sie können den Namen eines Validierers oder einer Benutzerrolle \(oder Gruppe\) eingeben, den Sie als Validierer zu den ausgewählten Themen hinzufügen möchten.
-   - **Entfernen**: Zeigt das Dialogfeld &quot;Überprüfer entfernen&quot;an. Sie können den Namen eines Validierers oder einer Benutzerrolle \(oder Gruppe\) eingeben, den Sie als Validierer aus den ausgewählten Themen entfernen möchten.
+   - **Entfernen**: Zeigt das Dialogfeld &quot;Reviewer entfernen&quot;an. Sie können den Namen eines Validierers oder einer Benutzerrolle \(oder Gruppe\) eingeben, den Sie als Validierer aus den ausgewählten Themen entfernen möchten.
 
-      >[!NOTE]
-      >
-      > Sie können eine Überprüfung auch aus einem Thema entfernen, indem Sie im Feld des Überprüfers auf das Kreuzzeichen klicken.
+     >[!NOTE]
+     >
+     > Sie können eine Überprüfung auch aus einem Thema entfernen, indem Sie im Feld des Überprüfers auf das Kreuzzeichen klicken.
 
-   - **Neu zuweisen**: Zeigt das Dialogfeld &quot;Überprüfer erneut zuweisen&quot;an. Sie können den Namen eines Validierers oder einer Benutzerrolle eingeben \(oder Gruppe\), dem Sie die Prüfungsaufgabe zuweisen möchten. Dadurch werden alle vorhandenen Prüfer aus den ausgewählten Themen entfernt und die neu ausgewählten Prüfer diesen Themen zugewiesen.
+   - **Neu zuweisen**: Zeigt das Dialogfeld Reviewer erneut zuweisen an. Sie können den Namen eines Validierers oder einer Benutzerrolle eingeben \(oder Gruppe\), dem Sie die Prüfungsaufgabe zuweisen möchten. Dadurch werden alle vorhandenen Prüfer aus den ausgewählten Themen entfernt und die neu ausgewählten Prüfer diesen Themen zugewiesen.
    - **Export**: Ermöglicht den Export der Details der Prüfungsaufgabe in eine CSV-Datei. Die Datei enthält Details wie den Pfad und Titel des Themas, den Namen des Prüfers und die Version der Themen, die zur Überprüfung gesendet werden.
-   - **Überprüfer bearbeiten**: Klicken Sie auf ![](images/edit_pencil_icon.svg)-Symbol in der Themenliste wird das Dialogfeld &quot;Überprüfer bearbeiten&quot;angezeigt. Sie können Überprüfer für das ausgewählte Thema in diesem Dialogfeld hinzufügen oder entfernen.
-1. Klicken **Erstellen** , um die Prüfungsaufgabe zu erstellen.
+   - **Validierungsverantwortliche bearbeiten**: Klicken Sie auf das ![](images/edit_pencil_icon.svg)-Symbol in der Themenliste wird das Dialogfeld &quot;Überprüfer bearbeiten&quot;angezeigt. Sie können Überprüfer für das ausgewählte Thema in diesem Dialogfeld hinzufügen oder entfernen.
+1. Klicks **Erstellen** , um die Prüfungsaufgabe zu erstellen.
 
    Wenn die Prüfungsaufgabe erfolgreich erstellt wurde, wird eine Bestätigungsmeldung angezeigt. Die [Dokumentstatus](web-editor-document-states.md#) für die Themen, die zur Überprüfung gesendet werden, auf &quot;In Review&quot;eingestellt ist.
 
    >[!NOTE]
    >
-   > Sie können auch oben rechts im Bildschirm auf Benachrichtigungsglocke klicken und bestätigen, dass die Prüfungsaufgabe erfolgreich erstellt wurde. Im Bereich Benachrichtigungen finden Sie jeweils eine Benachrichtigung für die validierungsverantwortlichen Benutzer, die Teil der Prüfungsaufgabe waren, und eine Benachrichtigung für den Initiator der Überprüfung.
+   > Sie können auch oben rechts im Bildschirm auf Benachrichtigungsglocke klicken und bestätigen, dass die Überprüfungsaufgabe erfolgreich erstellt wurde. Im Bereich Benachrichtigungen finden Sie jeweils eine Benachrichtigung für die validierungsverantwortlichen Benutzer, die Teil der Prüfungsaufgabe waren, und eine Benachrichtigung für den Initiator der Überprüfung.
 
 
 Allen Validierungsverantwortlichen wird eine E-Mail gesendet, in der sie darauf hingewiesen werden, dass ihnen ein Thema oder mehrere Themen zur Überprüfung zugewiesen wurden. Die E-Mail enthält einen direkten Link, auf den sie klicken und in einem Browserfenster auf das Thema zugreifen können.
@@ -152,7 +152,7 @@ Eine DITA-Karte ist eine logische Organisation von Themen in einem Buch. Wenn Si
 
 Mit AEM Guides können Sie ein oder mehrere Themen in einer DITA-Map zur Überprüfung gleichzeitig senden. Der Validierer sieht die vollständige Zuordnungsdatei zusammen mit Themen, die zur Überprüfung freigegeben wurden. Dies erleichtert es dem Validierer, einen Kontext des Themas in der Landkarte oder Buchdatei zu erhalten.
 
-Sie können dieselbe DITA-Zuordnung in für die Überprüfung in mehreren Prüfungsaufgaben freigeben. Wenn es beispielsweise in einer DITA-Zuordnung die Themen A, B, C, D und E gibt. In einer Prüfungsaufgabe können Sie A, B und C zur Überprüfung freigeben und in einer anderen Überprüfungsaufgabe können Sie die Themen C, D und E zur Überprüfung senden. Der Überprüfungsprozess ermöglicht die Freigabe derselben Themen- und Zuordnungsdatei in mehreren Prüfungsaufgaben. Beim gemeinsamen Thema in mehreren Prüfungsaufgaben überschreiben die in einer Prüfungsaufgabe gegebenen Kommentare nicht die Kommentare in den anderen Prüfungsaufgaben oder führen sie mit ihnen zusammen.
+Sie können dieselbe DITA-Zuordnung in für die Überprüfung in mehreren Prüfungsaufgaben freigeben. Wenn es beispielsweise in einer DITA-Zuordnung die Themen A, B, C, D und E gibt. In einer Prüfungsaufgabe können Sie A, B und C zur Überprüfung freigeben, während Sie in einer anderen Prüfungsaufgabe die Themen C, D und E zur Überprüfung senden können. Der Überprüfungsprozess ermöglicht die Freigabe derselben Themen- und Zuordnungsdatei in mehreren Prüfungsaufgaben. Beim gemeinsamen Thema in mehreren Prüfungsaufgaben überschreiben die in einer Prüfungsaufgabe gegebenen Kommentare nicht die Kommentare in den anderen Prüfungsaufgaben oder führen sie mit ihnen zusammen.
 
 >[!IMPORTANT]
 >
@@ -174,7 +174,7 @@ Um ein oder mehrere Themen zusammen mit der Map-Datei zur Überprüfung zu sende
 
 1. Klicken Sie in der Symbolleiste auf **Prüfungsaufgabe erstellen**. Die Seite zur Erstellung von Prüfungsaufgaben wird angezeigt.
 
-1. Geben Sie einen **Titel** für die Aufgabe und wählen Sie eine DITA aus. **Projekt** aus der Dropdown-Liste aus.
+1. Geben Sie einen **Titel** für die Aufgabe und wählen Sie eine DITA aus. **Projekt** aus der Dropdown-Liste.
 
    >[!NOTE]
    >
@@ -190,7 +190,7 @@ Um ein oder mehrere Themen zusammen mit der Map-Datei zur Überprüfung zu sende
 
 1. Geben Sie einen **Beschreibung** für die Aufgabe.
 
-   Diese Beschreibung wird als Hauptteil der Benachrichtigungs-E-Mail verwendet, die an die Validierungsverantwortlichen gesendet wird.
+   Diese Beschreibung wird als Hauptteil der Benachrichtigungs-E-Mail verwendet, die an die validierungsverantwortlichen Benutzer gesendet wird.
 
 1. Wählen Sie die **Fälligkeitsdatum** und Zeit, um die Frist für die Überprüfung festzulegen.
 
@@ -202,7 +202,7 @@ Um ein oder mehrere Themen zusammen mit der Map-Datei zur Überprüfung zu sende
 
    Wenn Sie allen Validierungsverantwortlichen erlauben möchten, ein Thema in der Prüfungsaufgabe zu überprüfen, wählen Sie **Zuweisung zum Überprüfen von Themen zulassen**.
 
-   Wenn Sie diese Option nicht auswählen, werden die validierungsverantwortlichen Benutzer im **Zuweisen zu** kann nur die Themen überprüfen, die ihnen zugewiesen sind.
+   Wenn Sie diese Option nicht auswählen, werden die Überprüfer im **Zuweisen zu** kann nur die Themen überprüfen, die ihnen zugewiesen sind.
 
 1. Klicken Sie auf **Weiter**.
 
@@ -217,7 +217,7 @@ Um ein oder mehrere Themen zusammen mit der Map-Datei zur Überprüfung zu sende
    - *\(Standard\)* Wählen Sie die Option **Neueste Version** , um die letzte gespeicherte Revision der Themen auszuwählen.
    - Wählen Sie die **Version auf** und geben Sie das Datum und die Uhrzeit zur Auswahl einer Version gemäß Datum und Uhrzeit an. Wenn am angegebenen Datum keine Themenversion verfügbar ist, wird eine Version unmittelbar nach dem angegebenen Datum und der angegebenen Uhrzeit ausgewählt.
    - Wählen Sie die **Titel auswählen** und wählen Sie einen Titel aus der Dropdown-Liste aus. Alle Themen, die die ausgewählte Bezeichnung enthalten, werden im **Version** Dropdown-Liste.
-   - Wählen Sie die **Auswählen einer Grundlinie** und wählen Sie eine Grundlinie aus der Dropdown-Liste aus. Alle Themenversionen, die Teil der ausgewählten Grundlinie sind, werden im **Version** Dropdown-Liste.
+   - Wählen Sie die **Auswählen einer Grundlinie** und wählen Sie eine Grundlinie aus der Dropdownliste aus. Alle Themenversionen, die Teil der ausgewählten Grundlinie sind, werden im **Version** Dropdown-Liste.
 1. Nachdem Sie Ihre Auswahl für eine Version getroffen haben, klicken Sie auf **Anwenden**.
 
    Die auf der ausgewählten Option basierende Version wird für die Themen ausgewählt.
@@ -232,24 +232,23 @@ Um ein oder mehrere Themen zusammen mit der Map-Datei zur Überprüfung zu sende
 
 1. Auf der Seite &quot;Überprüfer&quot;können Sie Überprüfer hinzufügen oder entfernen. Die folgenden Vorgänge sind auf der Seite &quot;Validierungsverantwortliche&quot;verfügbar:
 
-   - **Alle auswählen**: Wählt alle Themen in der Themenliste aus. Sie können einfach einen Batch-Vorgang ausführen, nachdem Sie alle Themen ausgewählt haben.
+   - **Alle auswählen**: Auswahl aller Themen in der Themenliste. Nach Auswahl aller Themen können Sie einfach einen Batch-Vorgang ausführen.
    - **Auswahl löschen**: Hebt die Auswahl der in der Themenliste ausgewählten Themen auf.
 
-      >[!NOTE]
-      >
-      > Sie können ein Thema auch einzeln auswählen oder deaktivieren, indem Sie auf das Kontrollkästchen neben dem Thema klicken.
+     >[!NOTE]
+     >
+     > Sie können ein Thema auch einzeln auswählen oder deaktivieren, indem Sie auf das Kontrollkästchen neben dem Thema klicken.
 
    - **Hinzufügen**: Zeigt das Dialogfeld &quot;Überprüfer hinzufügen&quot;an. Sie können den Namen eines Validierers oder einer Benutzerrolle \(oder Gruppe\) eingeben, den Sie als Validierer zu den ausgewählten Themen hinzufügen möchten.
-   - **Entfernen**: Zeigt das Dialogfeld &quot;Überprüfer entfernen&quot;an. Sie können den Namen eines Validierers oder einer Benutzerrolle \(oder Gruppe\) eingeben, den Sie als Validierer aus den ausgewählten Themen entfernen möchten.
-   - **Neu zuweisen**: Zeigt das Dialogfeld &quot;Überprüfer erneut zuweisen&quot;an. Sie können den Namen eines Validierers oder einer Benutzerrolle eingeben \(oder Gruppe\), dem Sie die Prüfungsaufgabe zuweisen möchten. Dadurch werden alle vorhandenen Prüfer aus den ausgewählten Themen entfernt und die neu ausgewählten Prüfer diesen Themen zugewiesen.
+   - **Entfernen**: Zeigt das Dialogfeld &quot;Reviewer entfernen&quot;an. Sie können den Namen eines Validierers oder einer Benutzerrolle \(oder Gruppe\) eingeben, den Sie als Validierer aus den ausgewählten Themen entfernen möchten.
+   - **Neu zuweisen**: Zeigt das Dialogfeld Reviewer erneut zuweisen an. Sie können den Namen eines Validierers oder einer Benutzerrolle eingeben \(oder Gruppe\), dem Sie die Prüfungsaufgabe zuweisen möchten. Dadurch werden alle vorhandenen Prüfer aus den ausgewählten Themen entfernt und die neu ausgewählten Prüfer diesen Themen zugewiesen.
    - **Export**: Ermöglicht den Export der Details der Prüfungsaufgabe in eine CSV-Datei. Die Datei enthält Details wie den Pfad und Titel des Themas, den Namen des Prüfers und die Version der Themen, die zur Überprüfung gesendet werden.
-   - **Überprüfer bearbeiten**: Klicken Sie auf ![](images/edit_pencil_icon.svg)-Symbol in der Themenliste wird das Dialogfeld &quot;Überprüfer bearbeiten&quot;angezeigt. Sie können Überprüfer für das ausgewählte Thema in diesem Dialogfeld hinzufügen oder entfernen.
-
+   - **Validierungsverantwortliche bearbeiten**: Klicken Sie auf das ![](images/edit_pencil_icon.svg)-Symbol in der Themenliste wird das Dialogfeld &quot;Überprüfer bearbeiten&quot;angezeigt. Sie können Überprüfer für das ausgewählte Thema in diesem Dialogfeld hinzufügen oder entfernen.
    >[!IMPORTANT]
    >
    > Sie müssen mindestens einen Validierer zuweisen, um die Prüfungsaufgabe zu erstellen.
 
-1. Klicken **Erstellen** , um die Prüfungsaufgabe zu erstellen.
+1. Klicks **Erstellen** , um die Prüfungsaufgabe zu erstellen.
 
    Wenn die Prüfungsaufgabe erfolgreich erstellt wurde, wird eine Bestätigungsmeldung angezeigt. Die [Dokumentstatus](web-editor-document-states.md#) für die Themen, die zur Überprüfung gesendet werden, auf &quot;In Review&quot;eingestellt ist.
 
@@ -264,4 +263,4 @@ Um ein oder mehrere Themen zusammen mit der Map-Datei zur Überprüfung zu sende
 
 Allen Validierungsverantwortlichen wird eine E-Mail gesendet, in der sie darauf hingewiesen werden, dass ihnen Themen zur Überprüfung zugewiesen wurden. Die E-Mail enthält einen direkten Link, auf den sie klicken und in einem Browserfenster auf das Thema zugreifen können. Die Themen werden zusammen mit der DITA-Zuordnung im Überprüfungsmodus geöffnet.
 
-**Übergeordnetes Thema:**[ Themen oder Karten überprüfen](review.md)
+**Übergeordnetes Thema:**[ Themen oder Zuordnungen überprüfen](review.md)

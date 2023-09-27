@@ -2,15 +2,15 @@
 title: Native PDF-Veröffentlichungsfunktion | Erstellen eines Seitenlayouts
 description: Erfahren Sie, wie Sie Ihr Seitenlayout für die Präsentation von Informationen in verschiedenen Bereichen Ihrer PDF-Ausgabe entwerfen.
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
-source-git-commit: 6182455850fb14cc24ce6229f6e4cb2b547901b7
+source-git-commit: 5abcc887a24d838caabdf9a34a84ebc851ed4cbf
 workflow-type: tm+mt
-source-wordcount: '4712'
+source-wordcount: '4807'
 ht-degree: 0%
 
 ---
 
 
-# Erstellen eines Seitenlayouts {#design-page-layout}
+# Seitenlayout erstellen {#design-page-layout}
 
 Bei der Erstellung eines PDF-Dokuments würden Sie verschiedene Bereiche für die Darstellung verschiedener Informationstypen haben. Beispielsweise würde ein PDF-Dokument von einer Vorder- oder Titelseite aus beginnen, die das Logo, den Buchtitel oder die Versionsinformationen Ihres Unternehmens enthält. Dann gibt es Kapitel, Anhänge oder Glossarseiten. Jeder Bereich in einem PDF-Dokument sieht anders aus, was durch Erstellen und Anpassen des Seitenlayouts erreicht wird.
 
@@ -33,7 +33,7 @@ Ein PDF-Dokument enthält in der Regel die folgenden Abschnitte:
 
 Diese Abschnitte benötigen ein entsprechendes Seitenlayout, um die Informationen in einem bestimmten Format darzustellen. Darüber hinaus können Sie auch eine leere Seite haben, die als Füller verwendet wird, um ein neues Kapitel von einer ungeraden oder geraden Seite aus zu beginnen. In diesem Fall können Sie entweder das standardmäßige Seitenlayout verwenden oder ein Seitenlayout für eine leere Seite erstellen. Siehe [Neues Seitenlayout erstellen](components-pdf-template.md#create-page-layout) für weitere Details.
 
-Die Einstellungen für Seitenlayouts unter **Vorlage > Einstellungen** können Sie festlegen, welches Seitenlayout für verschiedene Bereiche Ihrer PDF verwendet werden soll. Jedes Seitenlayout kann außerdem verschiedene Varianten für die erste, rechte oder linke Seite aufweisen.
+Die Einstellungen für Seitenlayouts unter **Vorlage > Einstellungen** -Bereich können Sie definieren, welches Seitenlayout für verschiedene Bereiche Ihrer PDF verwendet werden soll. Jedes Seitenlayout kann außerdem verschiedene Varianten für die erste, rechte oder linke Seite aufweisen.
 
 ### Erstellen der Layout-Varianten für die erste, rechte oder linke Seite {#page-layout-variants}
 
@@ -57,9 +57,9 @@ Beachten Sie beim Erstellen der Seitenlayouts die folgenden Punkte:
 
 * Wenn Ihre Kapitel von einer ungeraden oder geraden Seite beginnen sollen, können Sie ein Seitenlayout für die leere Seite erstellen. Mit diesem Seitenlayout wird die Lücke zwischen zwei Kapiteln gefüllt, um sicherzustellen, dass das Kapitel von der gewünschten ungeraden oder geraden Seite beginnt.
 
-   >[!NOTE]
-   >
-   >Wenn Sie kein eigenes leeres Seitenlayout erstellen, wird das standardmäßige Seitenlayout verwendet. Informationen zum Erstellen eines Seitenlayouts finden Sie unter [Neues Seitenlayout erstellen](components-pdf-template.md#create-page-layout).
+  >[!NOTE]
+  >
+  >Wenn Sie kein eigenes leeres Seitenlayout erstellen, wird das standardmäßige Seitenlayout verwendet. Informationen zum Erstellen eines Seitenlayouts finden Sie unter [Neues Seitenlayout erstellen](components-pdf-template.md#create-page-layout).
 
 Das folgende Beispiel führt Sie durch den Prozess der Erstellung von Varianten eines Seitenlayouts:
 
@@ -77,9 +77,9 @@ Das folgende Beispiel führt Sie durch den Prozess der Erstellung von Varianten 
    >
    >Für eine erweiterte Konfiguration können Sie die Quellansicht verwenden und Ihren benutzerdefinierten HTML- und CSS-Code hinzufügen.
 
-1. Bewegen Sie den Mauszeiger über den **Kapitel** und klicken Sie auf **Optionen** , um das Kontextmenü anzuzeigen.
+1. Bewegen Sie den Mauszeiger über den **Kapitel** Layout und klicken Sie auf **Optionen** , um das Kontextmenü anzuzeigen.
 
-1. Klicken oder bewegen Sie den Mauszeiger über **Layout-Variante hinzufügen** und wählen Sie das gewünschte Seitenlayout (Erste, Links oder Rechts), das Sie erstellen möchten.
+1. Klicken oder Mauszeiger darüber **Layout-Variante hinzufügen** und wählen Sie das gewünschte Seitenlayout (Erste, Links oder Rechts), das Sie erstellen möchten.
 
 Das Layout der ausgewählten Seite wird mithilfe einer Kopie des grundlegenden Kapitellayouts erstellt. Wenn Sie also Änderungen am standardmäßigen Seiten-Layout für Kapitel vorgenommen haben, werden dieselben Änderungen zum Zeitpunkt der Erstellung des Seitenlayouts im varianten Seitenlayout repliziert.
 
@@ -97,15 +97,18 @@ Beim Entwerfen eines Seitenlayouts ist es wichtig, die verschiedenen Seiteneigen
 
 * **Rotation anzeigen** : Geben Sie die Seite oder Richtung an, in der die ursprüngliche obere Seite nach der Drehung dargestellt wird. Sie können zwischen dem Uhrzeigersinn 90, dem Uhrzeigersinn 90 oder dem Uhrzeigersinn 180 Grad wählen. Dies ist sehr nützlich in einer Situation, in der Sie eine Kombination aus Hochformat- und Querformat-Layouts in Ihrer Ausgabe verwenden möchten. Sie können beispielsweise das Hochformat als generisches Seitenlayout verwenden und ein Querformat-Seitenlayout für die Darstellung von Tabellen mit großen Flächen festlegen. In diesem Fall können Sie festlegen, dass der Tabelleninhalt im Uhrzeigersinn 90 Grad angezeigt wird. Dadurch wird die Seite im Querformat ausgerichtet und der Inhalt wird um 90 Grad gedreht, um die Kontinuität im Blick zu wahren. Wir werden sehen, wie dies erreicht wird, als Beispiel weiter unten in diesem Abschnitt.
 
-* **Nummerierung neu starten von** : Geben Sie die Seitenzahl an, von der aus die Nummerierung für dieses Seitenlayout beginnen soll. Sie können beispielsweise die Seitennummer so festlegen, dass sie für jedes Kapitel neu gestartet wird. In diesem Fall müssen Sie die Eigenschaft Nummerierung von neu starten auf 1 der Layoutvariante Erste Seite des Kapitelseitenlayouts festlegen.
+* **Seitennummerierung** :Die Seitennummerierung ist standardmäßig fortlaufend in einer PDF. Beispielsweise könnte eine PDF von 100 Seiten fortlaufende Seitenzahlen von 1 bis 100 aufweisen. Sie können die Nummerierung auch von einer bestimmten Zahl in allen Abschnitten oder dem ersten Vorkommen eines Abschnitts aus neu starten.
+   * **Neu starten von** : Geben Sie die Seitenzahl an, von der aus die Nummerierung für dieses Seitenlayout beginnen soll. Sie können beispielsweise die Seitennummer so festlegen, dass sie für jedes Kapitel neu gestartet wird. In diesem Fall müssen Sie den Neustart von der -Eigenschaft auf 1 für die Layoutvariante Erste Seite des Kapitelseitenlayouts festlegen. Standardmäßig wird die Seitennummerierung von der vorherigen Seite aus fortgesetzt.
+
+   * **Nur auf das erste Vorkommen anwenden**: Sie können auch mit einer bestimmten Zahl beginnen, die nur für das erste Vorkommen eines Abschnitts gilt. Sie können beispielsweise nur das erste Kapitel aus 1 beginnen und die Seitenzahlen für andere Kapitel fortsetzen.
 
 * **Layout** : Geben Sie die Seitenränder zusammen mit dem Abstand für die oberen, unteren, linken und rechten Seiten an. In der folgenden Abbildung wird erläutert, wie Ränder, Abstand und Rahmen um den Inhalt gerendert werden. Beachten Sie, dass der Rand oben und unten auf einer Seite die Kopf- und Fußzeile enthält.
 
-   <img src="./assets/margins-padding-illustration.png" width="300">
+  <img src="./assets/margins-padding-illustration.png" width="300">
 
-* **Hintergrund** : Fügen Sie ein Bild oder eine Farbe als Hintergrund Ihres Seitenlayouts hinzu. Für ein Bild können Sie die Höhe und Breite des Bildes sowie die Wiederholungs- und Positionseigenschaften angeben.
+* **Hintergrund** : Schließen Sie ein Bild oder eine Farbe als Hintergrund Ihres Seitenlayouts ein. Für ein Bild können Sie die Höhe und Breite des Bildes sowie die Wiederholungs- und Positionseigenschaften angeben.
 
-* **Fußnote** : Geben Sie die Eigenschaften an, mit denen Fußnoten in der Ausgabe angezeigt werden sollen. Sie können die Eigenschaften für Ränder und Abstand sowie einen Randstil festlegen.
+* **Fußnote** : Geben Sie die Eigenschaften an, die Fußnoten in der Ausgabe anzeigen sollen. Sie können die Eigenschaften für Ränder und Abstand sowie einen Randstil festlegen.
 
 ### Seitengröße festlegen {#set-page-size}
 
@@ -138,7 +141,7 @@ In der obigen Ausgabe werden die Kontaktlisten-Informationen im Querformat angez
 
 Um diese Art von Ausgabe zu erzielen, müssen wir die folgenden Hauptaufgaben durchführen:
 
-1. Erstellen Sie ein Seitenlayout mit der Ausrichtung &quot;Querformat&quot;.
+1. Erstellen Sie ein Seitenlayout mit Querformatausrichtung.
 
 1. Ändern Sie die **Rotation anzeigen** -Eigenschaft zum Rendern von Inhalten in 90°.
 
@@ -148,7 +151,7 @@ Um diese Art von Ausgabe zu erzielen, müssen wir die folgenden Hauptaufgaben du
 
 Führen Sie die folgenden Schritte aus, um die oben genannten Aufgaben zu erledigen:
 
-1. Erstellen Sie ein Seitenlayout mit der Ausrichtung &quot;Querformat&quot;.
+1. Erstellen Sie ein Seitenlayout mit Querformatausrichtung.
    1. Erstellen Sie ein &quot;Querformat&quot;-Seitenlayout anhand der unter &quot;Neues Seitenlayout erstellen&quot;beschriebenen Schritte.
 
    1. Klicken Sie im rechten Bereich auf **Seiteneigenschaften**.
@@ -159,10 +162,9 @@ Führen Sie die folgenden Schritte aus, um die oben genannten Aufgaben zu erledi
 1. Ändern Sie die Eigenschaft &quot;View Rotation&quot;, um Inhalte im Uhrzeigersinn um 90° zu rendern.
 
    1. Auswählen **Im Uhrzeigersinn 90°** aus der Dropdown-Liste Drehung anzeigen .
-
    <img src="./assets/view-rotation-page-props.png" width="300">
 
-   1. Klicken **Alle speichern** , um die aktualisierten Seitenlayouteigenschaften zu speichern.
+   1. Klicks **Alle speichern** , um die aktualisierten Seitenlayouteigenschaften zu speichern.
 
 1. Erstellen Sie einen benutzerdefinierten Stil, um das neue Seitenlayout zu verwenden.
    1. Erweitern Sie die linke Seitenleiste und doppelklicken Sie auf die Vorlage, in der Sie den Stil erstellen möchten.
@@ -173,7 +175,7 @@ Führen Sie die folgenden Schritte aus, um die oben genannten Aufgaben zu erledi
 
       Das Stylesheet Layout wird zur Bearbeitung geöffnet.
 
-   1. Rechtsklick **Weitere Stile** und wählen Sie **Neuer Stil**.
+   1. Rechtsklick auf **Weitere Stile** und wählen **Neuer Stil**.
       <img src="./assets/stylesheet-other-new-style.png" width="300">
 
    1. Geben Sie im Popup Stil hinzufügen **Querformat** im **classname**.
@@ -181,7 +183,7 @@ Führen Sie die folgenden Schritte aus, um die oben genannten Aufgaben zu erledi
 
    1. Klicken Sie auf **Fertig**.
 
-      Ein neuer Stil mit dem Namen `.landscape-style` wird erstellt und am Ende der Liste Andere Stile hinzugefügt.
+      Ein neuer Stil mit dem Namen `.landscape-style` wird erstellt und am Ende der Liste &quot;Andere Stile&quot;hinzugefügt.
 
    1. Doppelklicken Sie auf die `.landscape-style` -Stil, um ihn zur Bearbeitung zu öffnen.
 
@@ -191,7 +193,7 @@ Führen Sie die folgenden Schritte aus, um die oben genannten Aufgaben zu erledi
 
       <img src="./assets/new-style-with-landscape-layout.png" width="500">
 
-   1. Klicken **Alle speichern** , um die aktualisierten Stileigenschaften zu speichern.
+   1. Klicks **Alle speichern** , um die aktualisierten Stileigenschaften zu speichern.
 
 1. Fügen Sie den Stil im `outputclass` Definition der Tabelle, die im Querformat-Seitenlayout dargestellt werden soll.
    1. Öffnen Sie in einem DITA-Dateieditor die Datei, auf die Sie das neue Seitenlayout anwenden möchten.
@@ -208,7 +210,7 @@ Führen Sie die folgenden Schritte aus, um die oben genannten Aufgaben zu erledi
 
       <img src="./assets/new-style-table-outputclass.png" width="300">
 
-1. Klicken **Alle speichern** , um die aktualisierte Datei zu speichern.
+1. Klicks **Alle speichern** , um die aktualisierte Datei zu speichern.
 1. Generieren Sie die PDF-Ausgabe.
 
 Der Tabelleninhalt wird am Anfang des PDF im Querformat gerendert.
@@ -245,11 +247,11 @@ Um beispielsweise ein Hintergrundbild in den mittleren Teil Ihres Inhaltsbereich
 
 1. Legen Sie die anderen Eigenschaften fest, um die gewünschte Darstellung des Hintergrundbilds anzupassen.
 
-   * **Wiederholung im Hintergrund** : Geben Sie an, ob der Hintergrund wiederholt werden soll oder nicht.
+   * **Wiederholung im Hintergrund** : Geben Sie an, ob der Hintergrund wiederholt werden soll.
 
    * **Hintergrundposition** : Legen Sie eine Position für das Hintergrundbild auf Ihrer Seite fest.
 
-Der folgende Screenshot zeigt das Hintergrundbild mit der Eigenschaft &quot;Background Repeat&quot;auf _no-repeat_ und Eigenschaft &quot;Background Position&quot;auf _Zentrum_.
+Der folgende Screenshot zeigt das Hintergrundbild mit der Eigenschaft &quot;Background Repeat&quot;auf _no-repeat_ und Eigenschaft &quot;Background Position&quot;auf _Mittelzentrum_.
 
 <img src="./assets/background-image.png" width="500">
 
@@ -261,7 +263,7 @@ Wenn Sie ein neues Seitenlayout erstellen, wird der Kopf- und Fußzeilenbereich 
 
 ### Ändern der Kopf- und Fußzeilenränder und -zeilen {#header-footer-margins}
 
-Standardmäßig sind die Ränder für Kopf- und Fußzeilen auf 1 Zoll eingestellt. Sie können diesen Standardwert ändern, indem Sie im Bereich Seiteneigenschaften die Einstellung Rand ändern. Führen Sie die folgenden Schritte aus, um die Kopf- und Fußzeilengröße zu ändern:
+Standardmäßig sind die Ränder für Kopf- und Fußzeilen auf 1 Zoll eingestellt. Sie können diesen Standardwert ändern, indem Sie die Einstellung für den Rand im Bereich Seiteneigenschaften ändern. Führen Sie die folgenden Schritte aus, um die Kopf- und Fußzeilengröße zu ändern:
 
 1. Öffnen Sie das gewünschte Seitenlayout zur Bearbeitung.
 
@@ -280,7 +282,7 @@ Standardmäßig sind die Ränder für Kopf- und Fußzeilen auf 1 Zoll eingestell
 
 1. Um die Fußzeilengröße zu ändern, geben Sie den gewünschten Wert in das Feld &quot;Unterer Rand&quot;ein.
 
-Sie können den Kopf- und Fußzeilenbereich so gestalten, dass er mehrere Zeilen enthält. Fügen Sie dazu einen \ hinzu&lt;p> -Tag mit der Einfüge-HTML Elemente (<img src="./assets/insert-html-element-2.svg" width="25">) im Kopf- oder Fußzeilenbereich.
+Sie können den Kopf- und Fußzeilenbereich so gestalten, dass er mehrere Zeilen enthält. Fügen Sie dazu einen \ hinzu&lt;p> -Tag mit der Einfüge-HTML-Elemente (<img src="./assets/insert-html-element-2.svg" width="25">) im Kopf- oder Fußzeilenbereich.
 
 | _Entwicklerecke_: <img src="./assets/developer-corner-icon.svg" width="25"> |
 |---|
@@ -313,7 +315,7 @@ Wenn Sie nicht möchten, dass ein Seitenlayout über eine Kopf- und Fußzeile ve
 Je nach Ihren Anforderungen können Sie ein Bild hinzufügen, das im Kopfzeilenbereich (oder einem anderen Teil) des Seitenlayouts angezeigt wird. Es gibt zwei Möglichkeiten, ein Bild in Ihrem Seitenlayout hinzuzufügen:
 
 * Verwenden Sie ein Bild aus den Vorlagenressourcen.
-* Verwenden Sie den \&lt;add image=&quot;&quot;> im Seitenlayout-Editor.
+* Verwenden Sie die&lt;add image=&quot;&quot;> im Seitenlayout-Editor.
 
 >[!NOTE]
 >
@@ -332,7 +334,7 @@ Gehen Sie wie folgt vor, um ein Bild wie das Logo Ihres Unternehmens in den Kopf
    Oder klicken Sie in den Kopfzeilenbereich.
 
 1. Um ein Bild hinzuzufügen, wählen Sie eine der folgenden Methoden:
-1. Klicken Sie auf **Bild einfügen** (<img src="./assets/insert-image-icon.svg" width="25">) in der Symbolleiste; im **Pfad auswählen** Popup, navigieren Sie zur Bildposition und klicken Sie auf **Auswählen** , um sie in den Kopfzeilenbereich einzufügen.
+1. Klicken Sie auf **Bild einfügen** (<img src="./assets/insert-image-icon.svg" width="25">) in der Symbolleiste; in der **Pfad auswählen** Popup, navigieren Sie zur Bildposition und klicken Sie auf **Auswählen** , um sie in den Kopfzeilenbereich einzufügen.
 1. Ziehen Sie ein Bild aus dem Ordner Ressourcen in den Kopfzeilenbereich.
 
 Der folgende Screenshot zeigt ein Beispielbild, das im Kopfzeilenbereich hinzugefügt wurde.
@@ -365,7 +367,7 @@ Sie können auch die Metadateneigenschaften aus Ihren Assets auswählen und zum 
 
 >[!NOTE]
 >
-> Die Metadatenfelder werden entsprechend Ihrer Auswahl an Assets oder Zuordnungen im **Von** Dropdown-Liste.
+> Die Metadatenfelder werden entsprechend Ihrer Auswahl an Assets oder Zuordnungen im **Von** Dropdown.
 
 
 <!--For more information, see [Add fields and metadata](design-page-layout.md#add-fields-and-metadata).-->
@@ -488,7 +490,7 @@ Im folgenden Beispiel wird ein Kapitel-TOC in das erste Seitenlayout eines Kapit
 
    >[!NOTE]
    >
-   >Die endgültige veröffentlichte PDF zeigt nur die TOC-Einträge basierend auf dem Inhalt in Ihren Kapiteln an. Wenn ein Kapitel keine Überschriften der Stufe 5 enthält, wird es nicht in der endgültigen Ausgabe angezeigt.
+   >Die endgültige veröffentlichte PDF zeigt nur die TOC-Einträge basierend auf dem Inhalt Ihrer Kapitel an. Wenn ein Kapitel keine Überschriften der Stufe 5 enthält, wird es nicht in der endgültigen Ausgabe angezeigt.
 
 Das Erscheinungsbild des Standard-Inhaltsverzeichnisses kann mithilfe der Stylesheets angepasst werden. Der Stil beginnt mit `chaptoc-level-#` (like `chaptoc-level-1`, `chaptoc-level-2`usw.) verwendet werden, um die Stile für das Kapitel-Inhaltsverzeichnis anzupassen. <!--For more details on the stylesheet elements used in the TOC and how to customize them, see _Customize default chapter TOC_-->.
 
@@ -520,9 +522,9 @@ So erstellen Sie ein Seitenlayout mit mehreren Spalten:
 
    * **Spaltenbreite:** Geben Sie die Breite einer Spalte in einem mehrspaltigen Layout an. Standardmäßig wird die Größe in Pixel (px) festgelegt. Sie können sie auch in pt, rem, em, % oder in Einheiten angeben.
 
-      >[!NOTE]
-      >
-      >Wenn Sie keine Größe angeben, werden die Spalten gleichmäßig aufgeteilt, sodass sie zur angegebenen Seite passen. In den meisten Fällen müssen Sie diesen Wert nicht angeben.
+     >[!NOTE]
+     >
+     >Wenn Sie keine Größe angeben, werden die Spalten gleichmäßig aufgeteilt, sodass sie zur angegebenen Seite passen. In den meisten Fällen müssen Sie diesen Wert nicht angeben.
 
    * **Spalten-Gap** : Geben Sie den Abstand zwischen einzelnen Spalten an.
 
@@ -538,10 +540,9 @@ So erstellen Sie ein Seitenlayout mit mehreren Spalten:
    >
    >Sie können die Eigenschaft &quot;Span Column&quot;mithilfe des Attributs &quot;outputClass&quot;auf jedes DITA-Element anwenden.
 
-   * **Spaltenfüllung** : Geben Sie an, wie Spalten mit Inhalt gefüllt werden sollen. Standardmäßig ist dies auf Balance gesetzt, wodurch jede Spalte mit gleicher Inhaltsmenge gefüllt wird.
+   * **Spaltenfüllung** : Geben Sie an, wie Spalten mit Inhalten gefüllt werden. Standardmäßig ist dies auf Balance gesetzt, wodurch jede Spalte mit gleicher Inhaltsmenge gefüllt wird.
 
-   * **Spaltenregel** : Wenn Sie eine Zeile zwischen Spalten haben möchten, verwenden Sie diese Eigenschaft, um die Zeilen- oder Regelstile zu definieren. Geben Sie die Werte für Stil, Farbe und Breite des Lineals an, um eine Linie zwischen den Spalten hinzuzufügen.
-
+   * **Spaltenregel** : Wenn Sie eine Zeile zwischen Spalten definieren möchten, verwenden Sie diese Eigenschaft, um die Zeilen- oder Regelstile zu definieren. Geben Sie die Werte für Stil, Farbe und Breite des Lineals an, um eine Linie zwischen den Spalten hinzuzufügen.
 
 ## Arbeiten mit dem Bereich &quot;Inhaltseigenschaften&quot; {#work-with-content-props}
 
@@ -551,7 +552,7 @@ Im Bereich &quot;Inhaltseigenschaften&quot;können Sie das Erscheinungsbild der 
 
 * **Rahmen** : Enthält Eigenschaften zum Hinzufügen und Formatieren eines Rands zu einem Element im Seitenlayout. Sie können für einen gekrümmten Rand &quot;Rahmenseitenstil&quot;(wie alle, oben, unten, rechts oder links), &quot;Rahmenstil&quot;(als &quot;Durchgehend&quot;, &quot;Gestrichelt&quot;, &quot;Punktlinien&quot;oder mehr), &quot;Rahmenfarbe&quot;, &quot;Breite&quot;und &quot;Radius&quot;festlegen. Im folgenden Beispiel wurde im Kopfzeilenbereich der Seite ein gekrümmter Rand hinzugefügt.
 
-   <img src="./assets/border-properties.png" width="500">
+  <img src="./assets/border-properties.png" width="500">
 
 * **Layout** : Enthält Eigenschaften zum Konfigurieren des Layouts eines Elements im Seitenlayout. Sie können Höhe, Breite, Spannen und Abstand (für oben, unten, links oder rechts), Horizontale oder vertikale Ausrichtung, Gleitkommazahl (als links, rechts oder nicht), Löschen (als links, rechts, beides oder ohne), Elementposition (als absolut, fest, relativ oder mehr), Anzeige (als Block, Inhalt, Korrektur oder höher), Z Index, Transparenz, Transformierung (durch Drehen oder Skalieren) festlegen. ) und &quot;Ursprung transformieren&quot;(durch X und Y-Versatz).
 
