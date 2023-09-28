@@ -1,15 +1,17 @@
 ---
 title: Konfigurieren eines Datenquellen-Connectors mit Tools
 description: Erfahren Sie, wie Sie mithilfe der Tools einen Datenquellen-Connector konfigurieren.
-source-git-commit: 87e907a1fbc27c9b3f8db5e4ab3c78143b03001e
+exl-id: b73ceb8d-caf0-4752-a6d9-07985cdf741e
+source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
 
 
-# Konfigurieren eines Datenquellen-Connectors mithilfe der Tools
+
+# Konfigurieren eines Datenquellen-Connectors über die Benutzeroberfläche
 
 Experience Manager-Handbücher enthalten die **Data Sources** -Tool, mit dem Sie native Connectoren für Datenquellen konfigurieren können. Sie können Connectoren für die Datenbanken JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce und Elasticsearch einrichten.
 
@@ -74,7 +76,3 @@ Wenn der Connector mit demselben Namen vorhanden ist, wird ein Fehler angezeigt.
 
 
 Nachdem Sie die Datenquelle konfiguriert haben, wird der Connector unter der **Data Sources-Bedienfeld** im Web-Editor. Anschließend können Sie eine Verbindung zur Datenquelle herstellen und ein Inhaltsfragment in Ihre Themen einfügen. Weitere Informationen finden Sie unter [Inhaltsfragment aus Ihrer Datenquelle einfügen](../user-guide/web-editor-content-snippet.md).
-
-
-
-

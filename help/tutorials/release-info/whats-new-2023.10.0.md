@@ -1,9 +1,10 @@
 ---
 title: Versionshinweise | Neue Funktionen in Adobe Experience Manager-Handbüchern, Version Oktober 2023
 description: Erfahren Sie mehr über die neuen und verbesserten Funktionen in der Version von Adobe Experience Manager Guides as a Cloud Service im Oktober 2023.
-source-git-commit: 87aef92535b7204503cd4ed1da838b43b1133b04
+exl-id: 583bc9fe-1e61-4727-869b-0dbc19625f70
+source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -15,11 +16,11 @@ Dieser Artikel behandelt die neuen und verbesserten Funktionen in der Version Ok
 Weitere Informationen zu den Upgrade-Anweisungen, der Kompatibilitätsmatrix und den in dieser Version behobenen Problemen finden Sie unter [Versionshinweise](release-notes-2023.10.0.md).
 
 
-## Konfigurieren eines Datenquellen-Connectors mithilfe der Tools
+## Konfigurieren eines Datenquellen-Connectors über die Benutzeroberfläche
 
 Experience Manager-Handbücher bieten jetzt eine **Data Sources** -Tool, mit dem Sie native Connectoren für Datenquellen konfigurieren können. Sie können die Connectoren für JIRA-, SQL- (MySQL-, PostgreSQL-, Microsoft SQL Server-, SQLite-, MariaDB-, H2DB-), AdobeCommerce- und Elasticsearch-Datenbanken einfach erstellen.
 
-Sie können einen Datenquellen-Connector auch einfach bearbeiten, neu verbinden, duplizieren oder löschen. Erfahren Sie, wie [einen Datenquellen-Connector mithilfe der Tools konfigurieren](../cs-install-guide/conf-data-source-connector-tools.md).
+Sie können einen Datenquellen-Connector auch einfach bearbeiten, neu verbinden, duplizieren oder löschen. Erfahren Sie, wie [einfach einen Datenquellen-Connector über die Benutzeroberfläche konfigurieren](../cs-install-guide/conf-data-source-connector-tools.md).
 
 ![im Bereich &quot;Datenquellen&quot;aufgelistete Data Source Connectors](assets/data-sources-create-window.png){width="550" align="left"}
 
@@ -65,4 +66,3 @@ Weitere Informationen finden Sie im Abschnitt **Kartenansicht** Funktionsbeschre
 In den Experience Manager Guides können Sie jetzt eine Datei im Web Editor auswählen und die Datei dann im Oxygen-Connector-Plugin bearbeiten. Diese Option ist im Rahmen der nativen Unterstützung nicht aktiviert.
 
 Weitere Informationen finden Sie im Abschnitt **Dateioptionen** Funktionsbeschreibung innerhalb der [Linke Leiste](../user-guide/web-editor-features.md#id2051EA0M0HS) Abschnitt.
-

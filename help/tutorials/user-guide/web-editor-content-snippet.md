@@ -1,13 +1,13 @@
 ---
 title: Inhaltsfragment aus Ihrer Datenquelle einfügen
 description: Verwenden Sie Daten aus Ihrer Datenquelle in AEM Handbüchern. Erfahren Sie, wie Sie ein Inhaltsfragment aus Ihrer Datenquelle einfügen. Erstellen Sie ein Thema mit dem Thema-Generator.
-source-git-commit: 87aef92535b7204503cd4ed1da838b43b1133b04
+exl-id: 9d60499c-49b4-4793-b3ec-5c99b34338e0
+source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
 workflow-type: tm+mt
-source-wordcount: '2028'
+source-wordcount: '2029'
 ht-degree: 0%
 
 ---
-
 
 # Daten aus Ihrer Datenquelle verwenden
 
@@ -23,7 +23,7 @@ Je nach Einrichtung kann Ihr Administrator einen Datenquellen-Connector konfigur
 <summary> Cloud Services </summary>
 
 
-- Wenn Sie die Version von Oktober 2023 oder höher verwenden, erfahren Sie, wie Sie [einen Datenquellen-Connector mithilfe der Tools konfigurieren](../cs-install-guide/conf-data-source-connector-tools.md) im Cloud Service-Installations- und Konfigurationshandbuch.
+- Wenn Sie die Version von Oktober 2023 oder höher verwenden, erfahren Sie, wie Sie [einen Datenquellen-Connector über die Benutzeroberfläche konfigurieren](../cs-install-guide/conf-data-source-connector-tools.md) im Cloud Service-Installations- und Konfigurationshandbuch.
 
 - Wenn Sie die Version vom Juli 2023 oder September 2023 verwenden, erfahren Sie, wie Sie [Konfigurieren eines Datenquellen-Connectors](../cs-install-guide/conf-data-source-connector.md) im Cloud Service-Installations- und Konfigurationshandbuch.
 
@@ -273,6 +273,3 @@ Sie können die folgenden Tools in den Velocity-Vorlagen verwenden, um verschied
 - `$renderTool`
 - `$resourceTool`
 - `$sortTool`
-
-
-
