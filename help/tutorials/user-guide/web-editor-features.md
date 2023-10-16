@@ -1,10 +1,10 @@
 ---
 title: Funktionen des Web Editors kennen
 description: Entdecken Sie die Funktionen des Webeditors in AEM Handbüchern. Machen Sie sich mit der Benutzeroberfläche des Web-Editors vertraut, einschließlich der Hauptsymbolleiste, der sekundären Symbolleiste, des linken Bedienfelds, des Inhaltsbearbeitungsbereichs und des rechten Bedienfelds.
-exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: a209e46e41055348402292e20c229890cd0c01cf
+exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
+source-git-commit: f7a0140a274a83dfeb6a1ba70ae9c09297d1754c
 workflow-type: tm+mt
-source-wordcount: '16066'
+source-wordcount: '16500'
 ht-degree: 0%
 
 ---
@@ -141,17 +141,62 @@ Im folgenden Screenshot werden im aktuellen Kontext nur 3 von 4 konfigurierten E
 
 - **Attributliste**: Wie bei der Elementliste können Sie die Liste der Attribute und deren Anzeigenamen steuern, die in der Attributliste eines Elements angezeigt werden sollen. Im folgenden Screenshot wurden nur drei Attribute so konfiguriert, dass sie in der Attributliste eines Elements angezeigt werden:
 
-![](images/editor-setting-attributes-list.png){width="650" align="left"}
+  ![](images/editor-setting-attributes-list.png){width="650" align="left"}
 
-Wenn Sie mit dieser Einstellung versuchen, einem Element ein Attribut hinzuzufügen, sehen Sie nur die Liste der Attribute, die in der Liste konfiguriert sind.
+  Wenn Sie mit dieser Einstellung versuchen, einem Element ein Attribut hinzuzufügen, sehen Sie nur die Liste der Attribute, die in der Liste konfiguriert sind.
 
-![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
+  ![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
+
+- **Profil veröffentlichen**: Enthält die Veröffentlichungsprofile , die zum Veröffentlichen der Knowledge Base-Ausgabe verwendet werden können. Sie können ein neues Profil für einen ausgewählten Verbrauchertyp erstellen. Beispielsweise Salesforce.
+
+   - **Anforderungen zum Erstellen eines Salesforce-Veröffentlichungsprofils**
+
+      - Erstellen Sie eine verbundene App für Salesforce. Weitere Informationen finden Sie unter [Aktivieren der OAuth-Einstellungen für die API-Integration](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5).
+
+      - Stellen Sie beim Konfigurieren der verbundenen App Folgendes sicher:
+
+         - Geben Sie den Rückruf an.
+
+           `URL: http://: <server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
+
+         - Wählen Sie die folgenden OAuth-Bereiche aus:
+            - Vollständiger Zugriff (vollständig)
+            - Wählen Sie Benutzerdaten über APIs verwalten (API) aus.
+
+  Sobald die App konfiguriert ist, stellt Salesforce eine **Consumer Key** und **Verbrauchergeheimnis**.
+
+  Diese können zum Erstellen des Salesforce Publish-Profils verwendet werden.
+  ![Profile in den Editor-Einstellungen](./images/create-profile-editor-settings.png){width="300" align="left"}
+
+
+
+- Um ein Veröffentlichungsprofil zu erstellen, können Sie eine Wissensdatenbank wie Salesforce aus dem **Server-Typ** Dropdown. Geben Sie einen Profilnamen ein. Im **Site-URL** Geben Sie die Website des Verbrauchers ein, die Sie zum Veröffentlichen der Ausgabe verwenden würden, und fügen Sie dann die **Consumer Key** und **Verbrauchergeheimnis** von der Verbraucherseite wie Salesforce bereitgestellt werden. Melden Sie sich dann beim neu erstellten Profil an.
+
+  >[!NOTE]
+  >
+  >Verwenden Sie zum Konfigurieren eines Proxys für Salesforce in Experience Manager-Handbüchern die Apache HTTP Components Proxy Configuration in AEM. Erfahren Sie, wie [Konfigurieren des Proxys für den AEM Link Checker](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
+
+
+  Nach der Anmeldung können Sie das Veröffentlichungsprofil in den Ausgabevorgaben einer DITA Map auswählen und die Ausgabe für ausgewählte Artikel generieren. Weitere Informationen finden Sie unter [Artikelbasierte Veröffentlichung im Web Editor](../install-guide/configure-article-based-publishing.md) im Installations- und Konfigurationshandbuch.
+
+- **Validierung**: Diese Registerkarte enthält Optionen zum Konfigurieren der Schematron-Überprüfungen im Web-Editor. Sie können die folgenden Funktionen aktivieren:
+
+   - **Führen Sie vor dem Speichern der Datei eine Validierungsprüfung durch.**: Wählen Sie diese Option aus, um Schematron-Validierungen mit den ausgewählten Schematron-Dateien vor einem Speichervorgang auszuführen. Sie können eine Schematron-Datei hinzufügen, indem Sie auf das Symbol + klicken. Die ausgewählten Schematron-Dateien werden aufgelistet.
+
+     >[!NOTE]
+     >Die ausgewählten Schematron-Dateien bleiben für das ausgewählte Ordnerprofil bestehen.
+
+     ![Validierung in den Editor-Einstellungen](./images/editor-setting-validation.png){width="300" align="left"}
+Dadurch wird verhindert, dass Benutzer Dateien speichern, die eine Regel beschädigen, die in den ausgewählten Schematron-Dateien definiert ist. Wenn diese Option nicht ausgewählt ist, wird die Datei vor dem Speichern der Änderungen nicht validiert.
+
+   - **Alle Benutzer können Schemadateien im Überprüfungsfenster hinzufügen**: Wählen Sie diese Option aus, damit Benutzer im Webeditor im Bereich Validierung beliebige Schemadateien hinzufügen können. Dadurch können Benutzer Schematron-Dateien hinzufügen und die Themen dann anhand der Schematron-Datei validieren. Wenn dies nicht ausgewählt ist, wird die **Schematron-Datei hinzufügen** -Schaltfläche steht Benutzern im **Überprüfungsbedienfeld** des Webeditors.
+
 
 - **Anzeigenattribute**: Wie die Attributliste können Sie die Liste der Attribute steuern, die in der Attributliste eines Elements angezeigt werden sollen. Standardmäßig sind vier **Anzeigenattribute** - Zielgruppe, Plattform, Produkt und Eigenschaften so konfiguriert wurden, dass sie in der Attributliste eines Elements angezeigt werden. Sie können auch ein Anzeigenattribut mit der **Hinzufügen** Symbol oben. Sie können auch jedes beliebige Anzeigenattribut mit der **Löschen** Symbol.
 
-Die für ein Element definierten Attribute werden im Layout und in der Gliederungsansicht angezeigt.
+  Die für ein Element definierten Attribute werden im Layout und in der Gliederungsansicht angezeigt.
 
-![](images/editor-settings-display-attributes.png){width="550" align="left"}
+  ![](images/editor-settings-display-attributes.png){width="550" align="left"}
 
 - **Übersetzung**: Dieser Tab enthält die Option, die Quellbeschriftungen auf die Zielversion zu übertragen.
 

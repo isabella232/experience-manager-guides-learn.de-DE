@@ -1,10 +1,10 @@
 ---
 title: Inhaltsfragment aus Ihrer Datenquelle einfügen
 description: Verwenden Sie Daten aus Ihrer Datenquelle in AEM Handbüchern. Erfahren Sie, wie Sie ein Inhaltsfragment aus Ihrer Datenquelle einfügen. Erstellen Sie ein Thema mit dem Thema-Generator.
-exl-id: 9d60499c-49b4-4793-b3ec-5c99b34338e0
-source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
+exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
+source-git-commit: f7a0140a274a83dfeb6a1ba70ae9c09297d1754c
 workflow-type: tm+mt
-source-wordcount: '2029'
+source-wordcount: '2060'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,9 @@ Je nach Einrichtung kann Ihr Administrator einen Datenquellen-Connector konfigur
 <details>    
 <summary>  On-Premise Software </summary>
 
-Erfahren Sie, wie [Konfigurieren eines Datenquellen-Connectors](../install-guide/conf-data-source-connector.md)  im On-Premise-Installations- und Konfigurationshandbuch.
+- Wenn Sie Version 4.3.1 oder höher verwenden, erfahren Sie, wie Sie [einen Datenquellen-Connector über die Benutzeroberfläche konfigurieren](../cs-install-guide/conf-data-source-connector-tools.md) im On-Premise-Installations- und Konfigurationshandbuch.
+
+- Wenn Sie Version 4.3 verwenden, erfahren Sie, wie Sie [Konfigurieren eines Datenquellen-Connectors](../cs-install-guide/conf-data-source-connector.md) im On-Premise-Installations- und Konfigurationshandbuch.
 </details>
 
 

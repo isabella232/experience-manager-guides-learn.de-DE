@@ -2,9 +2,9 @@
 user-guide-title: Tutorials für AEM Guides
 user-guide-description: Lesen Sie unsere Sammlung an Tutorials für Adobe Experience Manager Guides.
 breadcrumb-title: Tutorials für AEM Guides
-source-git-commit: 40666d63314fa94f4ddf9b23341671994274c7e2
+source-git-commit: ebc63f6320f512987846b9d359014faf4772c5a7
 workflow-type: tm+mt
-source-wordcount: '1597'
+source-wordcount: '1612'
 ht-degree: 7%
 
 ---
@@ -54,8 +54,10 @@ ht-degree: 7%
       + On-Premise/Managed Services {#on-prem-release-notes}
          + Version 4.3.0 {#43-release}
             + Neuerungen {#43-whats-new}
+               + [4.3.1 Neue Funktionen](./release-info/whats-new-4.3.1-release.md)
                + [4.3.0 Neue Funktionen](./release-info/whats-new-4.3-release.md)
             + Versionshinweise {#43-release-notes}
+               + [4.3.1 - Versionshinweise](./release-info/release-notes-4.3.1.md)
                + [4.3.0 - Versionshinweise](./release-info/release-notes-4.3.md)
          + Version 4.2 {#42-release}
             + Neuerungen {#42-whats-new}
@@ -242,6 +244,7 @@ ht-degree: 7%
          + [Konfigurieren der Anzahl der LimitReads für eine Abfrage](./install-guide/conf-query-limitreads.md)
          + [Pakete für die artikelbasierte Veröffentlichung installieren](./install-guide/configure-article-based-publishing.md)
          + [Konfigurieren eines Datenquellen-Connectors](./install-guide/conf-data-source-connector.md)
+         + [Konfigurieren eines Datenquellen-Connectors über die Benutzeroberfläche](./install-guide/conf-data-source-connector-tools.md)
          + [Festlegen des Erweiterten Map-Editors als Standard](./install-guide/conf-map-editor.md)
          + [Standardmäßig Attribut @navtitle einschließen](./install-guide/auto-add-navtitle.md)
          + [Konfigurieren der Bearbeitungsoption in Sauerstoff](./cs-install-guide/conf-edit-in-oxygen.md)
@@ -322,7 +325,7 @@ ht-degree: 7%
          + [PDF-Generierung für einzelne Themen konfigurieren](./cs-install-guide/conf-pdf-generation-dita-ot.md)
          + [Übersetzungsfunktion im Web-Editor konfigurieren](./cs-install-guide/conf-translation-web-editor.md)
          + [Konfigurieren eines Datenquellen-Connectors](./cs-install-guide/conf-data-source-connector.md)
-         + [Konfigurieren eines Datenquellen-Connectors mit Tools](./cs-install-guide/conf-data-source-connector-tools.md)
+         + [Konfigurieren eines Datenquellen-Connectors über die Benutzeroberfläche](./cs-install-guide/conf-data-source-connector-tools.md)
          + [Festlegen des Erweiterten Map-Editors als Standard](./cs-install-guide/conf-map-editor.md)
          + [Standardmäßig Attribut @navtitle einschließen](./cs-install-guide/auto-add-navtitle.md)
       + Arbeiten mit globalen Profilen und Profilen auf Ordnerebene {#global-folder-profiles-cs}
