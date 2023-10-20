@@ -1,22 +1,22 @@
 ---
 title: Versionshinweise | Neue Funktionen in Version 4.3.1 der Adobe Experience Manager-Handbücher
 description: Erfahren Sie mehr über die neuen und verbesserten Funktionen in Version 4.3.1 der Adobe Experience Manager-Handbücher.
-source-git-commit: 5c51ff7f52624c6403e5486e099d1262f324e523
+source-git-commit: a865630527045574ef5a96622537e767eacd9fc2
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
 
 # Neue Funktionen in Version 4.3.1 der Adobe Experience Manager-Handbücher (Oktober 2023)
 
-Dieser Artikel behandelt die neuen und verbesserten Funktionen in Version 4.3.1 der Adobe Experience Manager-Handbücher (später auch als *AEM*).
+Dieser Artikel behandelt die neuen und verbesserten Funktionen in Version 4.3.1 der Adobe Experience Manager-Handbücher (später auch als *Experience Manager-Handbücher*).
 
 Weitere Informationen zu den Upgrade-Anweisungen, der Kompatibilitätsmatrix und den in dieser Version behobenen Problemen finden Sie unter [Versionshinweise](./release-notes-4.3.1.md).
 
 ## Herstellen einer Verbindung zu einer Datenquelle und Einfügen der Themen
 
-Experience Manager-Handbücher bieten vordefinierte Connectoren, mit denen Sie eine Verbindung zu Ihren Datenquellen herstellen können. AEM Handbücher sind somit ein echter Content-Hub. Dies bietet Ihnen den Vorteil, dass Sie Zeit und Mühe sparen, die andernfalls für das manuelle Hinzufügen oder die Replikation von Daten ausgegeben würden.
+Experience Manager-Handbücher bieten vordefinierte Connectoren, mit denen Sie eine Verbindung zu Ihren Datenquellen herstellen können. Experience Manager-Handbücher sind damit ein echter Content-Hub. Dies bietet Ihnen den Vorteil, dass Sie Zeit und Mühe sparen, die andernfalls für das manuelle Hinzufügen oder die Replikation von Daten ausgegeben würden.
 
 Neben den bereits vorhandenen nativen Connectoren wie JIRA und SQL (MySQL, PostgreSQL, SQL Server, SQLite) kann Ihr Administrator auch Connectoren für die Datenbanken MariaDB, H2DB, AdobeCommerce und Elasticsearch konfigurieren. Sie können auch andere Connectoren hinzufügen, indem sie die Standardschnittstellen erweitern.
 

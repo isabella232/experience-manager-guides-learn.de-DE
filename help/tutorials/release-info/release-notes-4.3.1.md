@@ -1,41 +1,41 @@
 ---
 title: Versionshinweise | Aktualisierungsanweisungen und behobene Probleme in Adobe Experience Manager-Handbüchern 4.3.1
 description: Erfahren Sie mehr über die Fehlerbehebungen und das Upgrade auf Version 4.3.1 der Adobe Experience Manager-Handbücher.
-source-git-commit: a8f36d020422d9d83ca47e2246dc42278f2c7963
+source-git-commit: eb22fe5d4872b0e5c6594869193799fd9e64d95d
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1216'
 ht-degree: 5%
 
 ---
 
 # Version 4.3.1 von Adobe Experience Manager-Handbüchern (Oktober 2023)
 
-In diesem Versionshinweis werden die Upgrade-Anweisungen, die Kompatibilitätsmatrix und die in Version 4.3.1 der Adobe Experience Manager-Handbücher behobenen Probleme (später auch als *AEM*).
+In diesem Versionshinweis werden die Upgrade-Anweisungen, die Kompatibilitätsmatrix und die in Version 4.3.1 der Adobe Experience Manager-Handbücher behobenen Probleme (später auch als *Experience Manager-Handbücher*).
 
 Weitere Informationen zu den neuen Funktionen und Verbesserungen finden Sie unter [Neue Funktionen in Version 4.3.1 von Adobe Experience Manager-Handbüchern](./whats-new-4.3.1-release.md).
 
-## Aktualisierung auf Version 4.3.1 der AEM Handbücher
+## Aktualisierung auf Version 4.3.1 der Experience Manager-Handbücher
 
 
-Sie können Ihre aktuelle Version von AEM Guides einfach auf Version 4.3.1 aktualisieren. Bevor Sie mit der Aktualisierung auf Version 4.3.1 von AEM Guides fortfahren, müssen Sie die folgenden Punkte beachten: Sie können Ihre aktuelle Version von AEM Guides auf Version 4.3.1 aktualisieren.
+Sie können Ihre aktuelle Version von Guides einfach auf Version 4.3.1 aktualisieren. Bevor Sie mit der Aktualisierung auf Version 4.3.1 der Experience Manager-Handbücher fortfahren, müssen Sie die folgenden Punkte beachten: Sie können Ihre aktuelle Version der Experience Manager-Handbücher auf Version 4.3.1 aktualisieren
 
-- Wenn Sie Version 4.2 oder 4.2.x verwenden, können Sie direkt auf Version 4.3.1 aktualisieren.
-- Wenn Sie Version 4.1 oder 4.1.x verwenden, müssen Sie auf Version 4.2 oder 4.2.x aktualisieren, bevor Sie auf Version 4.3.1 aktualisieren.
+
+- Wenn Sie Version 4.3.0, 4.2 oder 4.2.1 verwenden, können Sie direkt auf Version 4.3.1 aktualisieren.
+- Wenn Sie Version 4.1 oder 4.1.x verwenden, müssen Sie auf Version 4.3.0, 4.2 oder 4.2.x aktualisieren, bevor Sie auf Version 4.3.1 aktualisieren.
 - Wenn Sie Version 4.0 verwenden, müssen Sie vor der Aktualisierung auf Version 4.3.1 auf Version 4.2 aktualisieren.
 - Wenn Sie Version 3.8.5 verwenden, müssen Sie auf Version 4.0 aktualisieren, bevor Sie auf Version 4.2 aktualisieren.
-- Wenn Sie eine Version vor 3.8.5 verwenden, finden Sie im Abschnitt AEM Upgrade-Handbuch im produktspezifischen Installationshandbuch weitere Informationen.
-
+- Wenn Sie eine Version vor 3.8.5 verwenden, finden Sie im Abschnitt Upgrade Experience Manager-Handbuch im produktspezifischen Installationshandbuch weitere Informationen.
 
 
 >[!NOTE]
 >
->Sie müssen AEM Service Pack installieren, bevor Sie AEM Guides-Version aktualisieren.
+>Sie müssen AEM Service Pack installieren, bevor Sie die Experience Manager Guides-Version aktualisieren.
 
 Weitere Informationen finden Sie unter [Upgrade-Anweisungen](../install-guide/upgrade-xml-documentation.md).
 
 ## Kompatibilitätsmatrix
 
-In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen aufgelistet, die von AEM Guides 4.3.1 unterstützt werden.
+In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen aufgelistet, die von Experience Manager Guides 4.3.1 unterstützt werden.
 
 ### Adobe Experience Manager
 
@@ -71,7 +71,7 @@ Weitere Informationen finden Sie unter *Technische Anforderungen* im Handbuch &q
 
 | Name des Komponentenpakets | Komponentenversion | Vorlagenversion |
 |---|---|---|
-| Inhaltspaket für AEM Guides-Komponenten für Cloud Service | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
+| Experience Manager Guides-Komponenteninhaltspaket für Cloud Service | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
 
 ## Behobene Probleme
 
