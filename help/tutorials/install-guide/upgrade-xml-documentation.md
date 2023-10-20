@@ -2,7 +2,7 @@
 title: Adobe Experience Manager-Handbücher aktualisieren
 description: Erfahren Sie, wie Sie Adobe Experience Manager-Handbücher aktualisieren
 exl-id: f058b39f-7408-4874-942b-693e133886cf
-source-git-commit: 9a4f230d6724bcb5d8fc7036048ca13fd7bc52bc
+source-git-commit: 6078cb1856ba45524e46165d546daf4109e9b2b2
 workflow-type: tm+mt
 source-wordcount: '4349'
 ht-degree: 1%
@@ -526,7 +526,7 @@ Führen Sie die folgenden Schritte aus, um den vorhandenen Inhalt nachzubearbeit
 
 ## Upgrade auf Version 4.3.1 {#upgrade-version-4-3-1}
 
-Die Aktualisierung auf Version 4.3.1 hängt von der aktuellen Version der Experience Manager-Handbücher ab. Wenn Sie Version 4.3, 4.2 oder 4.2.1 verwenden, können Sie direkt auf Version 4.3.1 aktualisieren.
+Die Aktualisierung auf Version 4.3.1 hängt von der aktuellen Version der Experience Manager-Handbücher ab. Wenn Sie Version 4.3.0, 4.2 oder 4.2.1 verwenden, können Sie direkt auf Version 4.3.1 aktualisieren.
 
 >[!NOTE]
 >
