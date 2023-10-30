@@ -1,7 +1,7 @@
 ---
 title: Native PDF-Veröffentlichungsfunktion | Barcode hinzufügen
 description: Erfahren Sie, wie Sie Barcodes hinzufügen.
-source-git-commit: 6cea7a92eed8f7b1d4a0763baae65ccccd71790e
+source-git-commit: 5a845d91882742dfcbe70421e62110630b3b85b2
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 2%
@@ -38,7 +38,7 @@ Fügen Sie der DITA-Zuordnung ein Ressourcen-ID-Element hinzu. Die Ressourcen-ID
 
 Sie können die Ressourcen-ID auch im Authoring-Modus bearbeiten.
 
-<img src="./assets/barcode-map.png" alt="Beispielausgabe mit Barcode" width="700">
+<img src="./assets/barcode-map.png" alt="Beispielausgabe mit Barcode" width="700" border="2px solid gray">
 
 
 ### Hinzufügen eines Barcode-Platzhalters in der Vorlagenkopfzeile
@@ -75,37 +75,37 @@ Nachdem Sie die vorherigen Schritte ausgeführt haben, können Sie die PDF-Ausga
 
 Der folgende Screenshot zeigt einen Beispiel-Barcode in einer PDF-Ausgabe.
 
-<img src="./assets/barcode-output-sample.png" alt="Beispielausgabe mit Barcode" width="700">
+<kbd><img src="./assets/barcode-output-sample.png" alt="Beispielausgabe mit Barcode" width="700"></kbd>
 
 
 ## Barcode-Typen {#barcode-types}
 
 | Typ | CSS-Attribut | Zusätzliche Attribute |
 | ------------------------------- | ----------------------- | -------------------------- |
-| QR-Code | qrcode |  |
-| PDF417 | pdf417 |  |
-| DataMatrix | data-matrix |  |
-| Aztec Code | aztec-code |  |
-| Rastermatrix | grid-matrix |  |
-| Maxicode | maxicode mode-4 |  |
-| Micro QR | microqr |  |
-| Code 1 | code-one |  |
-| Codablock F | codablockf |  |
-| GS1 Databar Limited | datenbankgebunden |  |
-| GS1 Databar Omnidirektional | Datenbank omnidirektional |  |
-| EAN-13 | ean-13 |  |
+| QR-Code | qrcode |                            |
+| PDF417 | pdf417 |                            |
+| DataMatrix | data-matrix |                            |
+| Aztec Code | aztec-code |                            |
+| Rastermatrix | grid-matrix |                            |
+| Maxicode | maxicode mode-4 |                            |
+| Micro QR | microqr |                            |
+| Code 1 | code-one |                            |
+| Codablock F | codablockf |                            |
+| GS1 Databar Limited | datenbankgebunden |                            |
+| GS1 Databar Omnidirektional | Datenbank omnidirektional |                            |
+| EAN-13 | ean-13 |                            |
 | GS1-128 (AN-128) | code128 | -ro-barcode-encoding: gs1; |
-| ITF-14 | itf14 |  |
-| UPC-A | upc-a |  |
-| Code 128 | code128 |  |
-| Interleaved 2 von 5 | Code2of5 interleaved |  |
-| POSTNET | postnet |  |
-| Niederländische Post-Kixcode | kixcode |  |
-| Korea Post | korea-post |  |
-| Deutsche Post Leitcode | dp-leitcode |  |
-| Australia Post | auspost |  |
-| Logmars | logmars |  |
-| Pharmakovigilanz | Pharmakokinetik |  |
-| USPS OneCode (Intelligent Mail) | usps-onecode |  |
+| ITF-14 | itf14 |                            |
+| UPC-A | upc-a |                            |
+| Code 128 | code128 |                            |
+| Interleaved 2 von 5 | Code2of5 interleaved |                            |
+| POSTNET | postnet |                            |
+| Niederländische Post-Kixcode | kixcode |                            |
+| Korea Post | korea-post |                            |
+| Deutsche Post Leitcode | dp-leitcode |                            |
+| Australia Post | auspost |                            |
+| Logmars | logmars |                            |
+| Pharmakovigilanz | Pharmakokinetik |                            |
+| USPS OneCode (Intelligent Mail) | usps-onecode |                            |
 
 
