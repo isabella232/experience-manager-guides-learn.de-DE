@@ -2,7 +2,7 @@
 title: Native PDF-Veröffentlichungsfunktion | Komponenten einer PDF-Vorlage
 description: Erfahren Sie mehr über die verschiedenen Komponenten einer PDF-Vorlage und wie Sie diese anpassen und konfigurieren.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 5abcc887a24d838caabdf9a34a84ebc851ed4cbf
+source-git-commit: 7fe45a2bb55e9cb72518edd3cb2aa81b99612613
 workflow-type: tm+mt
 source-wordcount: '4376'
 ht-degree: 0%
@@ -414,11 +414,11 @@ Beispielsweise können Sie eine Sprachvariable &quot;reference-label&quot;hinzuf
 Wenn Sie `${lng:<variable name>}` im Abschnitt Absatz enthalten die Querverweise in den Absätzen der Ausgabe den lokalisierten Text und die Seitenzahl.\
 Beispielsweise zeigen die folgenden Screenshots die Querverweise &quot;View on the Page 1&quot; auf Englisch und &quot;View auf der Seite 1&quot; auf Deutsch.
 
-<img src="./assets/english-output-corss-reference.png" alt="Englische Ausgabe eines Querverweises in einer Schreibweise" width ="800">
+<img src="./assets/english-output-corss-reference.png" alt="Englische Ausgabe eines Querverweises in einer Schreibweise" width ="800" border="2px solid blue">
 
 *Ein Querverweis innerhalb eines Absatzes, wenn er in englischer Sprache veröffentlicht wird.*
 
-<img src="./assets/german-output-corss-reference.png" alt="Ausgabe eines Querverweises in einer Schreibweise" width ="800">
+<img src="./assets/german-output-corss-reference.png" alt="Ausgabe eines Querverweises in einer Schreibweise" width ="800" border="2px solid blue">
 
 *Ein Querverweis innerhalb eines Absatzes, wenn er in deutscher Sprache veröffentlicht wird.*
 
