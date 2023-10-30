@@ -1,7 +1,7 @@
 ---
 title: Native PDF-Veröffentlichungsfunktion | Barcode hinzufügen
 description: Erfahren Sie, wie Sie Barcodes hinzufügen.
-source-git-commit: 5a845d91882742dfcbe70421e62110630b3b85b2
+source-git-commit: 31225583f45337b209f325174176b9a4199db648
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 2%
@@ -38,7 +38,7 @@ Fügen Sie der DITA-Zuordnung ein Ressourcen-ID-Element hinzu. Die Ressourcen-ID
 
 Sie können die Ressourcen-ID auch im Authoring-Modus bearbeiten.
 
-<img src="./assets/barcode-map.png" alt="Beispielausgabe mit Barcode" width="700" border="2px solid gray">
+<img src="./assets/barcode-map.png" alt="Beispielausgabe mit Barcode" width="700" border="2px solid blue">
 
 
 ### Hinzufügen eines Barcode-Platzhalters in der Vorlagenkopfzeile
@@ -75,7 +75,7 @@ Nachdem Sie die vorherigen Schritte ausgeführt haben, können Sie die PDF-Ausga
 
 Der folgende Screenshot zeigt einen Beispiel-Barcode in einer PDF-Ausgabe.
 
-<kbd><img src="./assets/barcode-output-sample.png" alt="Beispielausgabe mit Barcode" width="700"></kbd>
+<img src="./assets/barcode-output-sample.png" alt="Beispielausgabe mit Barcode" width="700">
 
 
 ## Barcode-Typen {#barcode-types}
