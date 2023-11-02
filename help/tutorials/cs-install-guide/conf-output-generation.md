@@ -1,13 +1,13 @@
 ---
 title: Ausgabegenerierungseinstellungen konfigurieren
 description: Erfahren Sie, wie Sie die Einstellungen für die Generierung von Ausgaben konfigurieren
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '5252'
+source-wordcount: '5340'
 ht-degree: 1%
 
 ---
-
 
 # Ausgabegenerierungseinstellungen konfigurieren {#id181AI0B0E30}
 
@@ -66,9 +66,7 @@ Wenn Sie das nächste Mal DITA-Inhalte mithilfe der Vorlagenkonfigurationen Ihre
 Die AEM-Handbücher unterstützen das Erstellen von Ausgaben in folgenden Formaten:
 
 - AEM Site
-
 - PDF
-
 - HTML 5
 - EPUB
 - Benutzerdefinierte Ausgabe über DITA-OT
@@ -80,6 +78,7 @@ Sie können auch benutzerdefinierte DITA Open Toolkit \(DITA-OT\)-Plug-ins mit d
 >[!TIP]
 >
 > Siehe *AEM Site-Veröffentlichung* im Handbuch Best Practices für Best Practices zur Erstellung AEM Site-Ausgabe.
+
 
 ### Anpassen der Designvorlage zum Generieren der Ausgabe {#customize_xml-add-on}
 
@@ -99,7 +98,7 @@ Führen Sie die folgenden Schritte aus, um Ihre eigene Designvorlage für AEM Si
 
    /apps/fmdita/config/templates
 
-1. Sie müssen auch die referenzierten Vorlagen vom Standardvorlagenknoten herunterladen und kopieren. Die referenzierten Vorlagen befinden sich unter:
+1. Sie müssen auch die referenzierten Vorlagen aus dem Standardvorlagenknoten herunterladen und kopieren. Die referenzierten Vorlagen befinden sich unter:
 
    /libs/fmdita/templates/default/cqtemplates
 
@@ -107,18 +106,18 @@ Führen Sie die folgenden Schritte aus, um Ihre eigene Designvorlage für AEM Si
 
    | Eigenschaft | Beschreibung |
    |--------|-----------|
-   | `landingPageTemplate`, `searchPageTemplate`, `topicPageTemplate`, `shadowPageTemplate` | Geben Sie die `cq:Template` Knoten für diese entsprechenden Seiten \(Landingpage, Suche und Thema\). Standardmäßig wird die `cq:Template` -Knoten für diese Seiten finden Sie unter `/libs/fmdita/templates/default/cqtemplates` Knoten. Dieser Knoten definiert die Struktur und Eigenschaften der Landingpage, der Such- und der Themenseite.<br> Die `shadowPageTemplate` wird verwendet, um den Chunked-Inhalt zu optimieren. Sie müssen den Wert dieser Eigenschaft auf Folgendes festlegen: `fmdita/templates/default/cqtemplates/shadowpage` <br> **Hinweis:** Sie müssen einen Wert für die `topicPageTemplate`. Die `landingPageTemplate` und `searchPageTemplate` sind optionale Eigenschaften. Wenn Sie nicht möchten, dass die Such- und Landingpages generiert werden, geben Sie diese Eigenschaften nicht an. |
+   | `landingPageTemplate`, `searchPageTemplate`, `topicPageTemplate`, `shadowPageTemplate` | Geben Sie die `cq:Template` Knoten für diese entsprechenden Seiten \(Landingpage, Suche und Thema\). Standardmäßig wird die `cq:Template` -Knoten für diese Seiten finden Sie unter `/libs/fmdita/templates/default/cqtemplates` Knoten. Dieser Knoten definiert die Struktur und Eigenschaften der Landingpage, der Such- und der Themenseite.<br> Die `shadowPageTemplate` wird zur Optimierung des Chunked-Inhalts verwendet. Sie müssen den Wert dieser Eigenschaft auf Folgendes festlegen: `fmdita/templates/default/cqtemplates/shadowpage` <br> **Hinweis:** Sie müssen einen Wert für `topicPageTemplate`. Die `landingPageTemplate` und `searchPageTemplate` sind optionale Eigenschaften. Wenn Sie nicht möchten, dass die Such- und Landingpages generiert werden, geben Sie diese Eigenschaften nicht an. |
    | `title` | Ein beschreibender Name Ihrer Designvorlage. |
    | `topicContentNode` | Der Speicherort des Knotens, der den DITA-Inhalt auf einer Themenseite enthält. Der Pfad ist relativ zur Themenseite. |
    | `topicHeadNode` | Der Speicherort des Knotens, der die Kopfwerte \(oder Metadaten\) enthält, die aus dem DITA-Inhalt abgeleitet wurden. Der Pfad ist relativ zur Themenseite. |
    | `tocNode` | Der Speicherort des Knotens, der das Inhaltsverzeichnis enthalten wird. Der Pfad ist relativ zur Landingpage oder zum Zielpfad. |
    | `basePathProp` | Der Eigenschaftsname zum Speichern des Pfads des Stammverzeichnisses der veröffentlichten Site. |
    | `indexPathProp` | Der Eigenschaftsname zum Speichern des Pfads der Landingpage/Indexseite der veröffentlichten Site. |
-   | `pdfPathProp` | Der Eigenschaftsname zum Speichern des Themen-PDF-Pfads, wenn die PDF-Generierung des Themas aktiviert ist. |
+   | `pdfPathProp` | Der Eigenschaftsname zum Speichern des PDF-Pfads des Themas, wenn die PDF-Generierung des Themas aktiviert ist. |
    | `pdfTypeProp` | Der Eigenschaftsname zum Speichern des Typs der PDF-Generierung. Derzeit enthält diese Eigenschaft immer &quot;Thema&quot;. |
    | `searchPathProp` | Der Eigenschaftsname zum Speichern des Pfads der Suchseite, wenn die Vorlage eine Suchseite enthält. |
    | `siteTitleProp` | Der Eigenschaftsname zum Speichern des Titels der veröffentlichten Site. Dieser Titel ist normalerweise mit dem Titel der zu veröffentlichenden Karte identisch. |
-   | `sourcePathProp` | Der Eigenschaftsname zum Speichern des Pfads des Quell-DITA-Themas für die aktuelle Seite. |
+   | `sourcePathProp` | Der Eigenschaftsname zum Speichern des Pfads des DITA-Quellthemas für die aktuelle Seite. |
    | `tocPathProp` | Der Eigenschaftsname zum Speichern des Pfads des TOC-Stammverzeichnisses für die veröffentlichte Site. |
 
 
@@ -146,7 +145,7 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 
 Als Administrator können Sie eine Liste gültiger Sonderzeichen definieren, die in Dateinamen zulässig sind und letztendlich die URL einer AEM Site-Ausgabe bilden. In früheren Versionen konnten Benutzer Dateinamen mit Sonderzeichen wie `@`, `$`, `>`und mehr. Diese Sonderzeichen führten bei der Generierung AEM Site-Seiten zu einer kodierten URL.
 
-Ab Version 3.8 wurden Konfigurationen hinzugefügt, um eine Liste von Sonderzeichen zu definieren, die in Dateinamen zulässig sind. Standardmäßig enthält die gültige Dateinamenkonfiguration &quot;`a-z A-Z 0-9 - _`&quot;. Dies bedeutet, dass Sie beim Erstellen einer Datei beliebige Sonderzeichen im Dateinamen haben können, diese jedoch intern durch einen Bindestrich \(`-`\) im Dateinamen. Sie können beispielsweise den Titel der Datei als Einführung 1 oder Introduction@1 festlegen. Der entsprechende Dateiname, der für beide Fälle generiert wurde, wäre Einführung-1.
+Ab Version 3.8 wurden Konfigurationen hinzugefügt, um eine Liste von Sonderzeichen zu definieren, die in Dateinamen zulässig sind. Standardmäßig enthält die gültige Dateinamenkonfiguration &quot;`a-z A-Z 0-9 - _`&quot;. Dies bedeutet, dass Sie beim Erstellen einer Datei beliebige Sonderzeichen im Dateinamen haben können, diese jedoch intern durch einen Bindestrich \(`-`\) in den Dateinamen. Sie können beispielsweise den Titel der Datei als Einführung 1 oder Introduction@1 festlegen. Der entsprechende Dateiname, der für beide Fälle generiert wurde, wäre Einführung-1.
 
 Beachten Sie bei der Definition einer Liste gültiger Zeichen, dass diese Zeichen &quot;`*/:[\]|#%{}?&<>"/+`&quot; und `a space` wird immer durch einen Bindestrich \(`-`\).
 
@@ -160,12 +159,12 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 |---|------------|--------------|
 | `com.adobe.fmdita.common.SanitizeNodeNameImpl` | `aemsite.DisallowedFileNameChars` | Stellen Sie sicher, dass die Eigenschaft auf ``'<>`@$``. Sie können dieser Liste weitere Sonderzeichen hinzufügen. |
 
-Sie können auch die anderen Eigenschaften konfigurieren, z. B. Kleinschreibung in Dateinamen, Trennzeichen zur Verarbeitung ungültiger Zeichen und maximal zulässige Anzahl von Zeichen in Dateinamen. Um diese Eigenschaften zu konfigurieren, fügen Sie die folgenden Schlüsselwertpaare in die Konfigurationsdatei ein:
+Sie können auch die anderen Eigenschaften konfigurieren, z. B. Kleinschreibung in Dateinamen, Trennzeichen zur Verarbeitung ungültiger Zeichen und maximal zulässige Anzahl von Zeichen in Dateinamen. Um diese Eigenschaften zu konfigurieren, fügen Sie die folgenden Schlüssel-Wert-Paare in die Konfigurationsdatei ein:
 
 | Eigenschaftenschlüssel | Eigenschaftswert |
 |------------|--------------|
 | `nodename.uselower` | Boolesch \(true/false\).<br> **Standardwert**: true |
-| `nodename.separator` | Beliebiges Zeichen. <br> **Standardwert**: \_ *\(Unterstrich\)* |
+| `nodename.separator` | Jedes Zeichen. <br> **Standardwert**: \_ *\(Unterstrich\)* |
 | `nodename.maxlength` | Ganzzahlwert.<br> **Standardwert**: 50 |
 
 ### Reduzieren AEM Site-Knotenstruktur konfigurieren
@@ -176,7 +175,7 @@ Wenn Sie AEM Site-Ausgabe generieren, wird intern ein Knoten für jedes Element 
 
 Beachten Sie, dass im obigen Schnappschuss für jeden `p` -Element und die nachfolgenden Unterelemente sowie eine ähnliche Struktur werden für jedes andere Element erstellt, das im Thema verwendet wird.
 
-Mit AEM Guides können Sie konfigurieren, wie die Knotenstruktur AEM Site-Ausgabe intern erstellt wird. Sie können die Knotenstruktur bei bestimmten Elementen reduzieren. Das bedeutet, dass Sie ein Element definieren können, das als Hauptelement betrachtet wird. Alle darin enthaltenen Unterelemente werden mit dem Hauptelement zusammengeführt. Wenn Sie beispielsweise die `p` -Element, dann jedes Element, das innerhalb der `p` -Element wird mit dem Hauptelement zusammengeführt `p` -Element. Für kein Unterelement innerhalb der Variablen `p` -Element. Der folgende Schnappschuss zeigt die Knotenstruktur, reduziert auf `p` element:
+Mit AEM Guides können Sie konfigurieren, wie die Knotenstruktur AEM Site-Ausgabe intern erstellt wird. Sie können die Knotenstruktur bei bestimmten Elementen reduzieren. Das bedeutet, dass Sie ein Element definieren können, das als Hauptelement betrachtet wird. Alle darin enthaltenen Unterelemente werden mit dem Hauptelement zusammengeführt. Wenn Sie beispielsweise die `p` -Element, dann jedes Element, das innerhalb der `p` -Element wird mit dem Hauptelement zusammengeführt `p` -Element. Eine separate Anmerkung wird für kein Unterelement im `p` -Element. Der folgende Schnappschuss zeigt die Knotenstruktur, reduziert auf `p` element:
 
 ![](assets/flattened-aem-site-node-structure.png)
 
@@ -212,7 +211,7 @@ So reduzieren Sie AEM Site-Knotenstruktur:
    | `com.adobe.dxml.flattening.FlatteningConfigurationService` | `flattening.enabled` | Boolesch \(true/false\).<br> **Standardwert**: `false` |
 
 
-Wenn Sie jetzt die AEM Site-Ausgabe generieren, befinden sich die Knoten im `p` -Element reduziert und im `p` -Element selbst. Sie finden die neuen Reduzierungseigenschaften für die `p` -Element in CRXDE.
+Wenn Sie jetzt die AEM Site-Ausgabe generieren, befinden sich die Knoten im `p` -Element reduziert und im `p` -Element selbst. Die neuen Reduzierungseigenschaften für `p` -Element in CRXDE.
 
 ![](assets/flatten-aem-site-note-props-crxde.png)
 
@@ -230,15 +229,15 @@ Um die Suche zu aktivieren, sollten Sie die Reduzierung AEM Site-Knotenstruktur 
 
 VORSICHT:
 
-Sie können bis zu 1 MB reduzierten Inhalt durchsuchen. Im vorherigen Screenshot können Sie beispielsweise suchen, ob der Inhalt unter &lt;p> Tag ist &lt;= 1 MB.
+Sie können bis zu 1 MB reduzierten Inhalt durchsuchen. Im vorherigen Screenshot können Sie beispielsweise suchen, ob der Inhalt unter &lt;p> -Tag ist &lt;= 1 MB.
 
 >[!NOTE]
 >
-> Die Suche funktioniert nur dann für die Elemente, wenn die `<flatten>`auf &quot;true&quot;gesetzt ist. Standardmäßig verfügt AEM Guides über die `<flatten>` -Attribut für häufig verwendete Textelemente wie &lt;p> &lt;ul> &lt;li>. Wenn Sie jedoch einige benutzerdefinierte Elemente erstellt haben, sollten Sie die `<flatten>` in der Datei &quot;elementmapping.xml&quot;auf &quot;true&quot;gesetzt.
+> Die Suche funktioniert nur bei Elementen, wenn die `<flatten>`auf &quot;true&quot;gesetzt ist. Standardmäßig verfügt AEM Guides über die `<flatten>` -Attribut für häufig verwendete Textelemente wie &lt;p> &lt;ul> &lt;li>. Wenn Sie jedoch einige benutzerdefinierte Elemente erstellt haben, sollten Sie die `<flatten>` in der Datei &quot;elementmapping.xml&quot;auf &quot;true&quot;gesetzt.
 
 **Reduzieren AEM Site-Knotenstruktur verhindern**
 
-Ähnlich wie beim Festlegen des Knotens, der in AEM Site-Ausgabe reduziert werden soll, können Sie auch ein Element angeben, das Sie aus dieser Konfiguration ausschließen möchten. Beispiel: Wenn Sie Knoten reduzieren möchten bei `body` -Element, Sie möchten jedoch keine `table` -Element in `body` zum Reduzieren hinzufügen, können Sie die Eigenschaft exclude innerhalb der `table` -Elements.
+Ähnlich wie beim Festlegen des Knotens, der in AEM Site-Ausgabe reduziert werden soll, können Sie auch ein Element angeben, das Sie aus dieser Konfiguration ausschließen möchten. Beispiel: Wenn Sie Knoten reduzieren möchten bei `body` -Element, Sie möchten jedoch keine `table` -Element in `body` zum Reduzieren hinzufügen, können Sie die Eigenschaft exclude innerhalb der `table` -Element definiert.
 
 So schließen Sie die `table` -Element aus der Reduzierung hinzufügen, fügen Sie die folgende Eigenschaft zum `table` Definition des Elements:
 
@@ -251,7 +250,7 @@ Wenn Sie AEM Site-Ausgabe mit **Löschen und** Erstellen ****für die Einstellun
 Führen Sie die folgenden Schritte aus, um die Erstellung einer Version für die zu löschende(n\) Seite zu stoppen:
 
 1. Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-install-additional-config-override.md#) , um die Konfigurationsdatei zu erstellen.
-1. Geben Sie in der Konfigurationsdatei die folgenden \(property\) Details an, um die **Keine Version für gelöschte Seiten erstellen** Option:
+1. Geben Sie in der Konfigurationsdatei die folgenden \(Eigenschaft\)-Details an, um die **Keine Version für gelöschte Seiten erstellen** Option:
 
    | PID | Eigenschaftenschlüssel | Eigenschaftswert |
    |---|------------|--------------|
@@ -261,8 +260,14 @@ Führen Sie die folgenden Schritte aus, um die Erstellung einer Version für die
    >
    > Wenn diese Option aktiviert ist, können Benutzer alle Seiten direkt löschen, ohne eine Version für sie zu erstellen. Wenn die Option nicht ausgewählt ist, wird eine Version erstellt, bevor die Seite\(n\) gelöscht wird.
 
+### Einrichten eines benutzerdefinierten Rewriters mit Experience Manager-Handbüchern {#custom-rewriter}
 
-## Verwenden von Metadaten zur Veröffentlichung der Ausgabe über DITA-OT {#id191LF0U0TY4}
+Experience Manager Guides verfügen über ein benutzerdefiniertes Sling [**rewriter**](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) -Modul zur Behandlung der im Fall von Querkarten generierten Links (Verknüpfungen zwischen den Themen zweier verschiedener Karten). Diese Rewriter-Konfiguration wird unter folgendem Pfad installiert: <br> `/apps/fmdita/config/rewriter/fmdita-crossmap-link-patcher`.
+
+Wenn Sie einen anderen benutzerdefinierten Sling-Rewriter in Ihrer Codebase haben, verwenden Sie eine `'order'` Wert größer als 50, da der Experience Manager Guides Sling Rewriter verwendet `'order'` 50.  Um dies zu überschreiben, benötigen Sie einen Wert > 50 . Weitere Informationen finden Sie unter [Pipelines zum Neuschreiben der Ausgabe](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
+
+
+## Verwenden von Metadaten bei der Veröffentlichung der Ausgabe über DITA-OT {#id191LF0U0TY4}
 
 AEM Guides bieten eine Möglichkeit, benutzerdefinierte Metadaten beim Veröffentlichen der Ausgabe mithilfe von DITA-OT zu übergeben. Als Administrator und Herausgeber müssen Sie die folgenden Aufgaben ausführen, um benutzerdefinierte Metadaten in der veröffentlichten Ausgabe zu konfigurieren und zu verwenden:
 
@@ -285,7 +290,7 @@ Um die erforderlichen Metadaten im System hinzuzufügen, führen Sie die folgend
 
    Die Seite Metadatenschema-Formulare wird angezeigt.
 
-1. Wählen Sie die **default** aus der Liste.
+1. Wählen Sie die **default** Formular aus der Liste.
 
    >[!NOTE]
    >
@@ -455,7 +460,7 @@ Eine allgemeine Übersicht über die `elementmapping.xml` Struktur wird nachfolg
 
    `type` akzeptiert die folgenden Werte:
 
-   - COMPOSITE: Element zur Komponente *Die Zuordnung wird für untergeordnete Elemente fortgesetzt* sowie
+   - COMPOSITE: Element zu Komponente *Die Zuordnung wird für untergeordnete Elemente fortgesetzt* sowie.
 
    - STANDALONE: untergeordnete Elemente des aktuellen Elements sind *nicht weiter zugeordnet*.
 
@@ -511,9 +516,9 @@ Eine allgemeine Übersicht über die `elementmapping.xml` Struktur wird nachfolg
 
    Wie diese Auflösung abläuft, wird auf der Grundlage des Wertes der `rel` -Attribut in der Attributzuordnung.
 
-   - Wenn `rel=source`, dann den Wert von `href` in Bezug auf die DITA-Quelldatei aufgelöst, die derzeit verarbeitet wird. Der Wert von `href` aufgelöst und in den Wert von `fileReference` -Eigenschaft.
+   - Wenn `rel=source`, dann den Wert von `href` in Bezug auf die DITA-Quelldatei aufgelöst, die derzeit verarbeitet wird. Der Wert von `href` wird aufgelöst und in den Wert von `fileReference` -Eigenschaft.
 
-   - Wenn `rel=target`, dann den Wert von `href` in Bezug auf den Speicherort der Stammveröffentlichung aufgelöst. Der Wert von `href` aufgelöst und in den Wert von `fileReference` -Eigenschaft.
+   - Wenn `rel=target`, dann den Wert von `href` in Bezug auf den Speicherort der Stammveröffentlichung aufgelöst. Der Wert von `href` wird aufgelöst und in den Wert von `fileReference` -Eigenschaft.
 
    Wenn Sie nicht möchten, dass eine Vorverarbeitung oder Auflösung für Pfadattribute erfolgt, müssen Sie die `ispath` -Attribut. Der Wert wird unverändert kopiert und die Komponente kann die erforderliche Auflösung durchführen.
 
@@ -548,17 +553,17 @@ In der folgenden Tabelle werden die Elemente im DITA-Elementschema beschrieben:
 |-------|-----------|
 | `<ditaelement>` | Der Knoten der obersten Ebene für jedes Zuordnungselement. |
 | `<class>` | Das Klassenattribut des DITA-Zielelements, für das Sie die Komponente schreiben.<br> Beispielsweise lautet das Klassenattribut für das DITA-Thema: <br> `- topic/topic` |
-| `<componentpath>` | Der CRXDE-Pfad der zugeordneten AEM-Komponente. |
-| `<type>` | Mögliche Werte:<br> -   **COMPOSITE**: Verarbeiten von untergeordneten Elementen <br> -   **STANDALON**: Überspringt die Verarbeitung untergeordneter Elemente |
+| `<componentpath>` | Der CRXDE-Pfad der zugeordneten AEM. |
+| `<type>` | Mögliche Werte:<br> -   **COMPOSITE**: Verarbeiten Sie auch untergeordnete Elemente <br> -   **STANDALON**: Überspringt die Verarbeitung untergeordneter Elemente |
 | `<attributeprop>` | Wird für die Zuordnung von serialisierten DITA-Attributen und -Werten zu AEM Knoten als Eigenschaft verwendet. Wenn Sie beispielsweise `<note type="Caution">` -Element und die für dieses Element zugeordnete Komponente `<attributeprop>attr_t</ attributeprop>`, dann werden das Attribut und der Wert des Knotens serialisiert auf `attr_t` Eigenschaft des entsprechenden AEM-Knotens \( `attr_t->type="caution"`\). |
 | `<textprop>propname_t</textprop>` | Speichern Sie die `getTextContent()` Ausgabe in Eigenschaft definiert durch `propname_t.` <br> **Hinweis:** Dies ist eine optimierte Eigenschaft. |
-| `<xmlprop>propname_x </xmlprop>` | Speichern Sie serialisiertes XML dieses Knotens in der Eigenschaft, die durch definiert wird. `propname_x.<br> `**Hinweis:** Dies ist eine optimierte Eigenschaft. |
+| `<xmlprop>propname_x </xmlprop>` | Speichern Sie serialisiertes XML dieses Knotens in der Eigenschaft, die von `propname_x.<br> `**Hinweis:** Dies ist eine optimierte Eigenschaft. |
 | `<xpath>` | Wenn das XPath-Element in der Elementzuordnung bereitgestellt wird, sollte die XPath-Bedingung zusammen mit dem Elementnamen und der Klasse ebenfalls erfüllt sein, damit die Komponentenzuordnung verwendet wird. |
 | `<target>` | Platzieren Sie für das DITA-Element im CRX-Repository an dem angegebenen Speicherort.<br> Mögliche Werte: <br> - **head**: Unter dem Kopfknoten <br> - **text**: Unter dem Absatzknoten |
 | `<wrapelement>` | Das HTML-Element, in das der Inhalt eingeschlossen werden soll. |
 | `<wrapclass>` | Der Elementwert der Eigenschaft `wrapclass.` |
 | `<attributemap>` | Container-Knoten, der eine oder mehrere `<attribute>` Knoten. |
-| `<attribute from="attrname" to="propname" ispath="true|false" rel="source|target" />` | Ordnet die DITA-Attribute AEM Eigenschaften zu: <br> -   **`from`**: DITA-Attributname <br> -   **`to`**: Name der Komponenteneigenschaft <br> -   **`ispath`**: Wenn das Attribut ein Pfadwert ist \(z. B.: *image*\) <br> -   **`rel`**: Wenn der Pfad die Quelle oder das Ziel ist <br> **Hinweis:** Wenn `attrname` beginnt mit `%`, dann map `attrname minus '%'` to prop &#39; `propname`&quot;. |
+| `<attribute from="attrname" to="propname" ispath="true|false" rel="source|target" />` | Ordnet die DITA-Attribute AEM Eigenschaften zu: <br> -   **`from`**: DITA-Attributname <br> -   **`to`**: Name AEM Komponenteneigenschaft <br> -   **`ispath`**: Wenn das Attribut ein Pfadwert ist \(z. B.: *image*\) <br> -   **`rel`**: Wenn der Pfad die Quelle oder das Ziel ist <br> **Hinweis:** Wenn `attrname` beginnt mit `%`, dann map `attrname minus '%'` to prop &#39; `propname`&quot;. |
 
 **Weitere Hinweise**
 
@@ -570,7 +575,7 @@ In der folgenden Tabelle werden die Elemente im DITA-Elementschema beschrieben:
 
 - Wenn Sie einige \(und nicht alle\) der Elementzuordnungen überschreiben möchten, müssen Sie nicht die gesamte `elementmapping.xml` -Datei. Sie müssen eine neue XML-Zuordnungsdatei erstellen und nur die Elemente definieren, die Sie überschreiben.
 
-- Nachdem Sie die XML-Datei am benutzerdefinierten Speicherort erstellt haben, aktualisieren Sie die `Override Element Mapping` -Einstellung in `com.adobe.fmdita.config.ConfigManager` Bundle.
+- Nachdem Sie die XML-Datei am benutzerdefinierten Speicherort erstellt haben, aktualisieren Sie die `Override Element Mapping` -Einstellung in `com.adobe.fmdita.config.ConfigManager` Bundle
 
 
 ## DITA-Map-Konsole anpassen {#id188HC08M0CZ}
@@ -585,7 +590,7 @@ AEM Guides bieten die `apps.fmdita.dashboard-extn` Kategorie zum Anpassen der Zu
 
 >[!NOTE]
 >
-> Weitere Informationen zum Erstellen AEM Client-Bibliothek finden Sie unter [Verwenden Client-seitiger Bibliotheken](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en).
+> Weitere Informationen zum Erstellen AEM Client-Bibliothek finden Sie unter [Verwenden Client-seitiger Bibliotheken](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=de).
 
 ## Verarbeiten der Bilddarstellung während der Ausgabegenerierung {#id177BF0G0VY4}
 
@@ -611,7 +616,7 @@ Mit AEM Guides können Sie konfigurieren, welche Bilddarstellung zum Zeitpunkt d
 </renditionmap>
 ```
 
-Die `mimetype` -Element gibt den MIME-Typ des Dateiformats an. Die `rendition output` -Element gibt den Typ des Ausgabeformats und den Namen der Ausgabedarstellung an \(z. B. `cq5dam.web.1280.1280.jpeg`\), die zum Veröffentlichen der angegebenen Ausgabe verwendet werden soll. Sie können die Bildausgabeformate angeben, die für alle unterstützten Ausgabeformate verwendet werden sollen - AEMSITE, PDF, HTML5, EPUB und CUSTOM.
+Die `mimetype` -Element gibt den MIME-Typ des Dateiformats an. Die `rendition output` -Element gibt den Typ des Ausgabeformats und den Namen der Ausgabe an \(z. B. `cq5dam.web.1280.1280.jpeg`\), die zum Veröffentlichen der angegebenen Ausgabe verwendet werden soll. Sie können die Bildausgabeformate angeben, die für alle unterstützten Ausgabeformate verwendet werden sollen - AEMSITE, PDF, HTML5, EPUB und CUSTOM.
 
 Wenn die angegebene Ausgabedarstellung nicht vorhanden ist, sucht AEM Publishing-Prozess für Guides zunächst nach der Web-Ausgabe des angegebenen Bildes. Wenn selbst die Webausgabe nicht gefunden wird, wird die ursprüngliche Ausgabe des Bildes verwendet.
 
@@ -619,7 +624,7 @@ Wenn die angegebene Ausgabedarstellung nicht vorhanden ist, sucht AEM Publishing
 >
 > Diese Bildausgabeformate steuern nur die Ausgabegenerierung. Die Webausgabe eines Bildes wird verwendet, wenn Sie ein Dokument zur Vorschau oder Überprüfung öffnen.
 
-## Konfigurieren des Zeitrahmens für die automatische Bereinigung für den Ausgabedarstellungsverlauf {#id19AAI070V8Q}
+## Konfigurieren des Zeitrahmens für die automatische Bereinigung für den Ausgabestverlauf {#id19AAI070V8Q}
 
 Wenn Sie eine Ausgabe generieren, wird die Ausgabe zusammen mit den Ausgabsprotokollen erstellt. Bei großen DITA-Maps können diese Protokolle viel Platz in Ihrem Repository beanspruchen. Standardmäßig werden die Protokolle am folgenden Speicherort im Repository gespeichert:
 
@@ -657,4 +662,3 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 >[!TIP]
 >
 > Siehe *Ausgabeverlauf* im Handbuch Best Practices für Best Practices zum Arbeiten mit dem Ausgabedarstellungsverlauf.
-

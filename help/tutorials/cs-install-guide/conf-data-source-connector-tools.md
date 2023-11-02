@@ -1,19 +1,17 @@
 ---
 title: Konfigurieren eines Datenquellen-Connectors mit Tools
 description: Erfahren Sie, wie Sie mithilfe der Tools einen Datenquellen-Connector konfigurieren.
-exl-id: b73ceb8d-caf0-4752-a6d9-07985cdf741e
-source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
+exl-id: d7cd412b-89ea-43a5-97b3-09944863bbee
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
 
-
-
 # Konfigurieren eines Datenquellen-Connectors über die Benutzeroberfläche
 
-Experience Manager-Handbücher enthalten die **Data Sources** -Tool, mit dem Sie native Connectoren für Datenquellen konfigurieren können. Sie können Connectoren für die Datenbanken JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce und Elasticsearch einrichten.
+Experience Manager-Handbücher enthalten die **Data Sources** -Tool, mit dem Sie native Connectoren für Datenquellen konfigurieren können. Sie können die Connectoren JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce, Elasticsearch und Generic REST Client einrichten.
 
 Um einen Connector zu konfigurieren, führen Sie die folgenden Schritte aus:
 

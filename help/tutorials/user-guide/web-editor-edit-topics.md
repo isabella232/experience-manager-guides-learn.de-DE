@@ -1,10 +1,10 @@
 ---
 title: Bearbeiten von Themen im Web-Editor
 description: Erfahren Sie, wie Sie Themen im Web-Editor bearbeiten können. Erfahren Sie mehr über verschiedene Bearbeitungsfunktionen, um Ihre Themendateien in AEM Handbüchern zu ändern.
-exl-id: 9950df78-09bd-433a-891d-0d689bb0c2e4
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,9 @@ Der Web Editor verfügt über eine Reihe von Bearbeitungsfunktionen, mit denen S
    > Wenn Sie keine Änderungen in AEM Repository übertragen möchten, klicken Sie auf **Schließen** und klicken Sie anschließend auf **Ohne Speichern schließen** im Dialogfeld Nicht gespeicherte Änderungen .
 
    **Aktualisieren des Browsers beim Bearbeiten der Dateien**
-AEM Handbücher bieten die Möglichkeit, den Browser zu aktualisieren, während Sie Ihre Inhalte im Web Editor bearbeiten. Mit dieser Funktion können Sie die Bearbeitung von Inhalten fortsetzen, falls bei der Arbeit ein Anwendungsfehler auftritt. Wenn Sie auf die Browseraktualisierung klicken, während eine oder mehrere Dateien mit nicht gespeicherten Änderungen zur Bearbeitung geöffnet sind, werden Sie gewarnt, dass die nicht gespeicherten Änderungen möglicherweise verloren gehen. Sie erhalten die Möglichkeit, den Aktualisierungsvorgang abzubrechen und Ihre Dateien zu speichern, um Ihre Änderungen beizubehalten.
+Experience Manager-Handbücher bieten die Möglichkeit, den Browser zu aktualisieren, während Sie den Inhalt im Web Editor bearbeiten. Mit dieser Funktion können Sie die Bearbeitung von Inhalten fortsetzen, falls bei der Arbeit ein Anwendungsfehler auftritt. Wenn Sie auf die Browseraktualisierung klicken, während eine oder mehrere Dateien mit nicht gespeicherten Änderungen zur Bearbeitung geöffnet sind, werden Sie gewarnt, dass die nicht gespeicherten Änderungen möglicherweise verloren gehen. Sie erhalten die Möglichkeit, den Aktualisierungsvorgang abzubrechen und Ihre Dateien zu speichern, um Ihre Änderungen beizubehalten.
 
-   Selbst beim Aktualisieren des Browsers werden die Ansichten des linken und des rechten Bereichs im Web Editor beibehalten. Beispielsweise wird das aktive Thema im Bereich &quot;Repository&quot;erneut geöffnet. Das Zuordnungsbedienfeld wird zusammen mit der zuvor geöffneten Karte beibehalten.
+   Selbst beim Aktualisieren des Browsers werden die Ansichten des linken und des rechten Bereichs im Web Editor beibehalten. Experience Manager-Handbücher stellen den zuletzt gespeicherten Status der Dateien wieder her, die im Web Editor geöffnet wurden, wenn Sie den Browser aktualisieren. Beispielsweise werden die im Repository-Bedienfeld geöffneten Dateien erneut geöffnet. Das Zuordnungsbedienfeld wird zusammen mit der zuvor geöffneten Karte beibehalten.
 
    Das aktive Thema oder die DITA-Zuordnung wird im Inhaltsbearbeitungsbereich erneut geöffnet.
 

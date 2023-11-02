@@ -2,9 +2,9 @@
 title: Native PDF | PDF-Ausgabegenerierung
 description: Erfahren Sie, wie Sie die native PDF-Veröffentlichung verwenden, eine PDF-Ausgabevorgabe erstellen und generieren, temporäre Dateien herunterladen, nachdem Sie die native PDF-Ausgabe generiert haben, und Sprachvariablen in AEM Guides verwenden.
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 4c10f2387208477bd2ba27188e8aeaa6f3a4a661
 workflow-type: tm+mt
-source-wordcount: '3229'
+source-wordcount: '3264'
 ht-degree: 1%
 
 ---
@@ -135,7 +135,7 @@ Verwenden Sie , um Seitenlayouts festzulegen und Seitenansichtsoptionen für die
 
 | Einstellung | Beschreibung |
 | --- | --- |
-| **PDF-Vorlage** | PDF-Vorlagen bieten eine klare Struktur für die Definition von Seitenlayouts, Inhaltsstilen und die Anwendung verschiedener Einstellungen auf Ihre PDF-Ausgabe. Wählen Sie aus der Dropdown-Liste PDF-Vorlage die gewünschte Vorlage aus. |
+| **PDF-Vorlage** | PDF-Vorlagen bieten eine klare Struktur für die Definition von Seitenlayouts, Inhaltsstilen und die Anwendung verschiedener Einstellungen auf Ihre PDF-Ausgabe. Wählen Sie aus der Dropdown-Liste PDF-Vorlage die gewünschte Vorlage aus. <br> Sie können auch **Vorlage durchsuchen** <img src="./assets/browse-templates-icon.svg"  alt= "Symbol &quot;Vorlagen durchsuchen&quot;" width="25">  , um eine Vorlage auszuwählen. Im **PDF-Vorlage auswählen** -Dialogfeld können Sie auch eine Vorschau der Miniaturansicht anzeigen und den Titel und die Beschreibung für die ausgewählte Vorlage anzeigen. |
 | **Seitenanzeige** | Verwenden Sie die Seitenanzeige für die Seitenansicht, die anzeigt, wie die PDF beim Öffnen angezeigt wird. Wählen Sie aus den Dropdown-Optionen Seitenanzeige aus, um eine bevorzugte Ansicht auszuwählen. <br><ul><li> **Standard**  Wird gemäß der Standardeinstellung des PDF-Viewers auf dem Computer des Benutzers angezeigt.  <br> <li> **Einzelseitenansicht** Zeigt jeweils eine Seite an.   <br> <li> **Einzelseiten-Scrollen** Zeigt eine einzelne Seite in einer vertikalen Spalte mit fortlaufenden Werten an.  <br> <li> **Zwei Seitenansichten** Zeigt zwei Seiten gleichzeitig nebeneinander an. .<br> <li> **Scrollen auf zwei Seiten** Zeigt einen zweiseitigen, parallelen Scrollbereich mit kontinuierlichem Scrollen an. </ul> |
 | **Zoom** | Wählen Sie diese Option aus, um die Seitenansicht zu ändern, die anzeigt, wie das PDF beim Öffnen angezeigt wird.  <br><ul><li> **Standard** Zeigt gemäß der Standardeinstellung des PDF-Viewers auf dem Computer eines Benutzers an    <br> <li> **100 %** Legt fest, dass die Seite in ihrer tatsächlichen Größe angezeigt wird.     <br> <li> **Seite anpassen** Passt die Seitenbreite und -höhe in den Dokumentbereich ein. .<br> <li> **Seitenbreite anpassen** Legt die Breite der Seite so fest, dass sie die Breite des Dokumentbereichs ausfüllt.  <br> <li> **Seitenhöhe anpassen** Legt die Höhe der Seite als Füllhöhe für den Dokumentbereich fest. </ul> |
 

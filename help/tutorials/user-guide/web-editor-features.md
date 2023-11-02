@@ -2,9 +2,9 @@
 title: Funktionen des Web Editors kennen
 description: Entdecken Sie die Funktionen des Webeditors in AEM Handbüchern. Machen Sie sich mit der Benutzeroberfläche des Web-Editors vertraut, einschließlich der Hauptsymbolleiste, der sekundären Symbolleiste, des linken Bedienfelds, des Inhaltsbearbeitungsbereichs und des rechten Bedienfelds.
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
-source-git-commit: f7a0140a274a83dfeb6a1ba70ae9c09297d1754c
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '16500'
+source-wordcount: '17079'
 ht-degree: 0%
 
 ---
@@ -212,6 +212,12 @@ Die Benutzereinstellungen stehen allen Autoren zur Verfügung. Mithilfe der Vore
 ![](images/user_preference_editor.PNG){width="550" align="left"}
 
 - **Gerätedesign verwenden**: Aktivieren Sie dieses Kontrollkästchen, damit AEM Guides je nach Thema Ihres Geräts automatisch zwischen hellen und dunklen Designs wechseln können.
+
+- **Anzeigen von Dateien nach**: Wählen Sie die Standardmethode zum Anzeigen der Dateien im Web-Editor aus. Sie können die Liste der Dateien anhand der Titel oder Dateinamen aus den verschiedenen Bedienfeldern im **Autor** anzeigen.
+  >[!NOTE]
+  >
+  > Standardmäßig werden die Dateien nach Titel im Web Editor angezeigt.
+
 - **Design**: Sie können aus den Designs Hell, Lightest, Dark oder Dunkelste für den Editor wählen. Im Falle eines Lightest-Designs verwenden die Symbolleisten und Bedienfelder einen helleren grauen Farbhintergrund. Im Falle des Lichtdesigns verwenden die Symbolleisten und Bedienfelder einen hellgrauen Farbhintergrund. Im Falle eines dunkelsten Designs verwenden die Symbolleisten und Bedienfelder einen dunkleren schwarzen Farbhintergrund. Im Falle eines dunklen Designs verwenden die Symbolleisten und Bedienfelder einen schwarzen Farbhintergrund. In allen Designs wird der Inhaltsbearbeitungsbereich in weißem Farbhintergrund angezeigt.
 
 - **Ordnerprofile**: Das Ordnerprofil steuert verschiedene Konfigurationen im Zusammenhang mit bedingten Attributen, Bearbeitungsvorlagen, Ausgabevorgaben und Web-Editor-Konfigurationen. Das globale Profil wird standardmäßig angezeigt. Wenn Ihr Administrator außerdem Ordnerprofile im System konfiguriert hat, werden diese ebenfalls in der Liste Ordnerprofile angezeigt.
@@ -713,6 +719,10 @@ Im linken Bereich haben Sie Zugriff auf die folgenden Funktionen:
 **Favoriten** -  ![](images/favorite-collections.svg)
 
 Wenn Sie an einer Reihe von Dateien oder Ordnern arbeiten, können Sie diese Ihrer Favoritenliste hinzufügen, um schnell darauf zugreifen zu können. Die Favoritenliste enthält die Liste der Dokumente, die Sie hinzugefügt haben, sowie andere öffentlich zugängliche Dokumente der anderen Benutzer.
+Standardmäßig können Sie die Dateien anhand von Titeln anzeigen. Wenn Sie den Mauszeiger über eine Datei bewegen, können Sie den Dateinamen und den Dateipfad als QuickInfo anzeigen.
+>[!NOTE]
+>
+> Als Administrator können Sie auch die Liste der Dateien nach Dateinamen im Web Editor anzeigen. Wählen Sie die **Dateiname** der **Anzeigen von Dateien nach** Abschnitt in **Benutzereinstellungen** ![](images/user_preference_editor_icon.svg).
 
 Um eine Favoritenliste oder Sammlung zu erstellen, klicken Sie auf das Symbol + neben dem Bedienfeld Favoriten , um das Protokoll Neue Sammlung - Dialogfeld aufzurufen:
 
@@ -753,7 +763,12 @@ Sie können auch viele Aktionen über das Menü &quot;Optionen&quot;ausführen, 
 
 **Repository-Ansicht** - ![](images/Repository_icon.svg)
 
-Wenn Sie auf das Symbol &quot;Repository-Ansicht&quot;klicken, erhalten Sie eine Liste der in DAM verfügbaren Dateien und Ordner.
+Wenn Sie auf das Symbol &quot;Repository-Ansicht&quot;klicken, erhalten Sie eine Liste der in DAM verfügbaren Dateien und Ordner. Standardmäßig können Sie die Dateien anhand von Titeln anzeigen. Wenn Sie den Mauszeiger über eine Datei bewegen, können Sie den Dateinamen und den Dateinamen als QuickInfo anzeigen.
+
+>[!NOTE]
+>
+> Als Administrator können Sie auch die Liste der Dateien nach Dateinamen im Web Editor anzeigen. Wählen Sie die **Dateiname** der **Anzeigen von Dateien nach** Abschnitt in **Benutzereinstellungen** ![](images/user_preference_editor_icon.svg).
+
 
 Es werden 75 Dateien gleichzeitig geladen. Jedes Mal, wenn Sie auf **Mehr laden**... werden 75 Dateien geladen und die Schaltfläche wird nicht mehr angezeigt, wenn alle Dateien aufgelistet sind. Diese Stapelladung ist effizient und Sie können schneller auf die Dateien zugreifen, als alle in einem Ordner vorhandenen Dateien zu laden.
 
@@ -1013,7 +1028,15 @@ Geben Sie einen **Titel** für den Ordner, der automatisch in den Ordnernamen ko
 
 **Kartenansicht** -  ![](images/map-view-icon.svg)
 
-Wenn Sie auf das Symbol &quot;Kartenansicht&quot;klicken, erhalten Sie eine Liste der Themen in der Map-Datei. Wenn Sie keine Zuordnungsdatei geöffnet haben, wird die Zuordnungsansicht leer angezeigt. Durch Doppelklick auf eine Zuordnungsdatei wird die Zuordnungsdatei in dieser Ansicht geöffnet. Sie können auf eine beliebige Datei in der Karte doppelklicken, um sie im Web Editor zu öffnen. Wenn Sie eine Karte in der Kartenansicht öffnen, wird der Titel der aktuellen Karte in der Mitte der Hauptsymbolleiste angezeigt. Wenn der Titel zu lang ist, wird eine Auslassungszeichen angezeigt, und Sie können auch mit dem Mauszeiger über den Titel fahren, um den vollständigen Titel in der QuickInfo anzuzeigen. Wenn Sie über Bearbeitungsrechte für die Zuordnungsdateien verfügen, können Sie auch die Dateien bearbeiten. Weitere Informationen zum Öffnen und Bearbeiten eines Themas über eine DITA-Zuordnung finden Sie unter [Themen über DITA-Map bearbeiten](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
+Wenn Sie auf das Symbol &quot;Kartenansicht&quot;klicken, erhalten Sie eine Liste der Themen in der Map-Datei. Wenn Sie keine Zuordnungsdatei geöffnet haben, wird die Zuordnungsansicht leer angezeigt. Durch Doppelklick auf eine Zuordnungsdatei wird die Zuordnungsdatei in dieser Ansicht geöffnet. Sie können auf eine beliebige Datei in der Karte doppelklicken, um sie im Web Editor zu öffnen.
+
+Standardmäßig können Sie die Dateien anhand von Titeln anzeigen. Wenn Sie den Mauszeiger über eine Datei bewegen, können Sie den Dateinamen und den Dateipfad als QuickInfo anzeigen.
+>[!NOTE]
+>
+>Als Administrator können Sie auch den Dateinamen der übergeordneten Zuordnung anzeigen, die derzeit in der Kartenansicht geöffnet ist. Wählen Sie die **Dateiname** der **Anzeigen von Dateien nach** Abschnitt in **Benutzereinstellungen** ![](images/user_preference_editor_icon.svg).
+
+
+Wenn Sie eine Karte in der Kartenansicht öffnen, wird der Titel der aktuellen Karte in der Mitte der Hauptsymbolleiste angezeigt. Wenn der Titel zu lang ist, wird eine Auslassungszeichen angezeigt, und Sie können auch mit dem Mauszeiger über den Titel fahren, um den vollständigen Titel in der QuickInfo anzuzeigen. Wenn Sie über Bearbeitungsrechte für die Zuordnungsdateien verfügen, können Sie auch die Dateien bearbeiten. Weitere Informationen zum Öffnen und Bearbeiten eines Themas über eine DITA-Zuordnung finden Sie unter [Themen über DITA-Map bearbeiten](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
 
 Sie können die folgenden Aktionen über das Menü Optionen der Zuordnungsdatei ausführen:
 
@@ -1177,6 +1200,11 @@ Sie können nach einer Zeichenfolge im Element suchen, wenn sie im Bedienfeld &q
 Eine der Hauptfunktionen von DITA ist die Möglichkeit, Inhalte wiederzuverwenden. Im Bedienfeld Wiederverwendbare Inhalte können Sie Ihre DITA-Dateien speichern, aus denen Sie im Allgemeinen wiederverwendbaren Inhalt einfügen. Nach dem Hinzufügen bleiben die DITA-Dateien sitzungsübergreifend im Bereich Wiederverwendbare Inhalte . Das bedeutet, dass Sie Ihre DITA-Dateien nicht erneut hinzufügen müssen, um später darauf zugreifen zu können.
 
 Sie können wiederverwendbaren Inhalt einfach per Drag-and-Drop aus dem Bedienfeld auf das aktuelle Thema ziehen und so einfach und schnell einfügen. Sie können auch eine Vorschau des Inhalts erhalten, bevor Sie ihn in Ihr Dokument einfügen.
+
+Standardmäßig können Sie die Dateien anhand von Titeln anzeigen. Wenn Sie den Mauszeiger über eine Datei bewegen, können Sie den Dateinamen und den Dateipfad als QuickInfo anzeigen.
+>[!NOTE]
+>
+> Als Administrator können Sie auch die Liste der Dateien nach Dateinamen im Web Editor anzeigen. Wählen Sie die **Dateiname** der **Anzeigen von Dateien nach** Abschnitt in **Benutzereinstellungen** ![](images/user_preference_editor_icon.svg).
 
 Verwenden Sie eine der folgenden Methoden, um eine DITA-Datei zum Bereich Wiederverwendbare Inhalte hinzuzufügen:
 
@@ -1527,6 +1555,12 @@ Der Bereich &quot;Vorlagen&quot;steht nur Administratoren zur Verfügung. Mithil
 
 ![](images/templates-panel_cs.png){width="550" align="left"}
 
+Standardmäßig können Sie die Dateien anhand von Titeln anzeigen. Wenn Sie den Mauszeiger über eine Vorlage bewegen, können Sie den Dateinamen und den Dateinamen als QuickInfo anzeigen.
+
+>[!NOTE]
+>
+> Als Administrator können Sie auch die Liste der Dateien im Web Editor anzeigen. Wählen Sie die **Dateiname** der **Anzeigen von Dateien nach** Abschnitt in **Benutzereinstellungen** ![](images/user_preference_editor_icon.svg).
+
 Um eine Vorlage zu erstellen, klicken Sie auf das Symbol + neben Vorlagen und wählen Sie eine Vorlage aus, die Sie erstellen möchten. Wenn Sie **Themenvorlage** wird das Dialogfeld &quot;Neue Themenvorlage erstellen&quot;angezeigt:
 
 ![](images/create-new-topic-template.PNG){width="400" align="left"}
@@ -1544,7 +1578,12 @@ Im Menü Optionen einer vorhandenen Vorlage können Sie zwischen **Bearbeiten** 
 **Überprüfung** -  ![](images/active-review-tasklist-icon.svg)
 
 AEM Handbücher bieten die Möglichkeit, alle Prüfungsaufgaben in Ihren Projekten anzuzeigen. Sie können alle Überprüfungsprojekte und die aktiven Prüfungsaufgaben innerhalb der Überprüfungsprojekte anzeigen, zu denen Sie gehören, aus dem **Überprüfen** Bedienfeld.  Anschließend können Sie die Prüfungsaufgaben öffnen, um die Kommentare der einzelnen Prüfer anzuzeigen.
-Im Prüfungsbereich werden die Prüfungsaufgaben angezeigt. Als Autor können Sie die Kommentare in einem Thema mit dem Web Editor adressieren.
+Im Prüfungsbereich werden die Prüfungsaufgaben angezeigt. Standardmäßig können Sie die Dateien anhand von Titeln anzeigen. Wenn Sie den Mauszeiger über eine Datei bewegen, können Sie den Dateinamen und den Dateipfad als QuickInfo anzeigen.
+>[!NOTE]
+>
+> Als Administrator können Sie auch die Liste der Dateien nach Dateinamen im Web Editor anzeigen. Wählen Sie die **Dateiname** der **Anzeigen von Dateien nach** Abschnitt in **Benutzereinstellungen** ![](images/user_preference_editor_icon.svg).
+
+Als Autor können Sie die Kommentare in einem Thema mit dem Web Editor adressieren.
 
 
 Um die Überprüfungskommentare in den aktiven Prüfungsaufgaben anzuzeigen, die in Ihren Projekten vorhanden sind, führen Sie die folgenden Schritte aus:
@@ -1581,6 +1620,11 @@ Um die Überprüfungskommentare in den aktiven Prüfungsaufgaben anzuzeigen, die
 Das Symbol Suchen und Ersetzen befindet sich unten im linken Bereich. Im Bereich Suchen und Ersetzen können Sie nach Text für Dateien in einer Zuordnung oder einem Ordner in Ihrem Repository suchen und diese ersetzen. Sie können in allen Themen einer Landkarte sowie Themen, die in den Unterkarten innerhalb der Landkarte vorhanden sind, suchen und ersetzen.
 
 ![](images/map-find-replace.png){width="800" align="left"}
+
+Standardmäßig können Sie die Dateien anhand von Titeln anzeigen. Wenn Sie den Mauszeiger über eine Datei bewegen, können Sie den Dateinamen und den Dateipfad als QuickInfo anzeigen.
+>[!NOTE]
+>
+> Als Administrator können Sie auch die Liste der Dateinamen im Web Editor anzeigen. Wählen Sie die **Dateiname** der **Anzeigen von Dateien nach** Abschnitt in **Benutzereinstellungen** ![](images/user_preference_editor_icon.svg).
 
 Führen Sie die folgenden Schritte aus, um die globale Suche durchzuführen und zu ersetzen:
 
@@ -1665,7 +1709,14 @@ Sie können auch die **Suchen in Map** Option aus der **Optionen** -Menü einer 
 
 ## Inhaltsbearbeitungsbereich {#id2051EB000UI}
 
-Im Inhaltsbearbeitungsbereich wird der Inhalt des Themas oder der Zuordnung angezeigt. In diesem Bereich werden alle Inhalte bearbeitet. Es gibt eine WYSIWYG-Ansicht des Inhalts, den Sie bearbeiten. Sie können mehrere Themen gleichzeitig öffnen lassen, die auf den jeweiligen Registerkarten angezeigt werden. Unter der Registerkarte der Datei befindet sich der Breadcrumb des Elements an der aktuellen Cursorposition. In der oberen rechten Ecke des Inhaltsbearbeitungsbereichs wird die Versionsnummer des aktuellen Themas angezeigt.
+Im Inhaltsbearbeitungsbereich wird der Inhalt des Themas oder der Zuordnung angezeigt. In diesem Bereich werden alle Inhalte bearbeitet. Es gibt eine WYSIWYG-Ansicht des Inhalts, den Sie bearbeiten. Sie können mehrere Themen gleichzeitig öffnen lassen, die auf den jeweiligen Registerkarten angezeigt werden.
+
+Standardmäßig können Sie die Dateinamen in den Registerkarten anzeigen. Wenn Sie den Mauszeiger über eine Datei bewegen, können Sie den Dateinamen und den Dateipfad als QuickInfo anzeigen.
+>[!NOTE]
+>
+> Als Administrator können Sie auch die Liste der Dateien anhand der Dateinamen in den Registerkarten anzeigen. Wählen Sie die **Dateiname** der **Anzeigen von Dateien nach** Abschnitt in **Benutzereinstellungen** ![](images/user_preference_editor_icon.svg).
+
+Unter der Registerkarte der Datei befindet sich der Breadcrumb des Elements an der aktuellen Cursorposition. In der oberen rechten Ecke des Inhaltsbearbeitungsbereichs wird die Versionsnummer des aktuellen Themas angezeigt.
 
 ![](images/content-editing-area.png){width="650" align="left"}
 
@@ -1720,7 +1771,10 @@ Im Abschnitt Verweise haben Sie Zugriff auf folgende Funktionen:
 - **Verwendet in**: In den Referenzen werden die Dokumente aufgelistet, auf die die aktuelle Datei verwiesen oder verwendet wird.
 - **Ausgehende Links:** Unter Ausgehende Links werden die Dokumente aufgelistet, auf die im aktuellen Dokument verwiesen wird.
 
-Bewegen Sie den Mauszeiger über den Verweis der Datei und rufen Sie den Dateipfad und die UUID der Datei in der QuickInfo ab.
+Standardmäßig können Sie die Dateien anhand von Titeln anzeigen. Wenn Sie den Mauszeiger über eine Datei bewegen, können Sie den Dateinamen und den Dateipfad als QuickInfo anzeigen.
+>[!NOTE]
+>
+> Als Administrator können Sie auch die Liste der Dateien nach Dateinamen im Web Editor anzeigen. Wählen Sie die **Dateiname** der **Anzeigen von Dateien nach** Abschnitt in **Benutzereinstellungen** ![](images/user_preference_editor_icon.svg).
 
 **Hinweis:** Alle in und ausgehenden Verweise werden mit den Dokumenten per Hyperlink verknüpft. Sie können die verknüpften Dokumente einfach öffnen und bearbeiten.
 

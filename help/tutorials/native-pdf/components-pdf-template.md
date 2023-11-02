@@ -2,9 +2,9 @@
 title: Native PDF-Veröffentlichungsfunktion | Komponenten einer PDF-Vorlage
 description: Erfahren Sie mehr über die verschiedenen Komponenten einer PDF-Vorlage und wie Sie diese anpassen und konfigurieren.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 7fe45a2bb55e9cb72518edd3cb2aa81b99612613
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '4376'
+source-wordcount: '4859'
 ht-degree: 0%
 
 ---
@@ -236,7 +236,7 @@ Sie können den Text definieren, der vor und nach dem Umbruch angezeigt werden s
 * **Glossarbegriffe mit der Glossarseite verknüpfen**: Wählen Sie diese Option, um die Glossarbegriffe als Hyperlinks im Inhalt anzuzeigen und sie mit den Begriffen auf der Glossarseite zu verknüpfen. Dies hilft den Lesern, die Definition eines Begriffs im Glossar schnell anzuzeigen.
 
   Um die Glossarbegriffe in Hyperlinks zu konvertieren, gehen Sie folgendermaßen vor:
-   * Aktivieren **Glossar** im **Seitenreihenfolge** für eine DITA-Zuordnung.
+   * Aktivieren **Glossar** im **Seitenlayout-Reihenfolge** für eine DITA-Zuordnung.
    * Fügen Sie das Glossar in die &quot;Back Matter Pages&quot;für eine Buchkarte ein.
 
   Wenn Sie die Glossarseite nicht aktivieren, werden die Glossarbegriffe im Inhalt nicht in Hyperlinks in der PDF-Ausgabe konvertiert.
@@ -265,7 +265,11 @@ Die folgenden Einstellungen sind im Abschnitt Seitenlayout verfügbar:
 
 * **Index**: Wenn Sie ein Indexseitenlayout entworfen haben, ordnen Sie es der Option Index zu. Mithilfe der Stylesheets können Sie verschiedene Indexelemente in der PDF-Ausgabe formatieren. Indexstile verwenden `.idx-header`, `.idx-footer`, `.idx-body`, `.idx-title`, `.idx-keyword-group`, `.idx-unit`,  `.idx-keyword`, `.idx-name`, `.idx-link` und `.idx-child` , um die Stile für die Elemente des Index anzupassen.
 
-* **Glossar**: Wenn Sie ein Glossar-Seitenlayout haben, ordnen Sie es der Glossaroption zu.  Die Begriffe im Glossar Ihrer PDF-Ausgabe werden immer in alphabetischer Reihenfolge sortiert.
+* **Glossar**: Wenn Sie ein Glossar-Seitenlayout haben, ordnen Sie es der Glossaroption zu.
+
+  Die Begriffe im Glossar Ihrer PDF-Ausgabe werden immer in alphabetischer Reihenfolge sortiert.
+
+  Sie können auch das Tag hinzufügen `sort-as` um einen Sortierschlüssel für die Glossarbegriffe zu definieren. Experience Manager Guides verwenden dann den Sortierschlüssel, um die Glossarbegriffe anstelle der Glossarbegriffe zu sortieren. Wenn Sie den Sortierschlüssel nicht definiert haben, werden die Glossarbegriffe zum Sortieren verwendet. Sie können beispielsweise das Tag `sort-as` der `glossterm` und legen Sie den Wert auf `A` für den Begriff &quot;USB&quot;(z. B. `<glossterm>USB<sort-as>A</sort-as></glossterm>`). Auf ähnliche Weise können Sie `sort-as` Tag und legen Sie den Wert auf `B` für den Begriff &quot;Pen Drive&quot;. Wenn Sie diese Glossarbegriffe sortieren, wird der Sortierschlüssel `A` für den Glossarbegriff &quot;USB&quot; vor der Sortiertaste angezeigt. `B` für den Glossarbegriff &quot;Pen Drive&quot;. In der PDF-Ausgabe kommt &quot;USB&quot; also vor &quot;Pen Drive&quot; auf der Glossarseite.
 
   Mithilfe der Stylesheets können Sie verschiedene Glossarelemente in der PDF-Ausgabe gestalten. Glossarstile verwenden `.glo-header`, `.glo-footer`, `.glo-body`, `.glo-title`, `.glo-unit`, `.glo-link`, und `.glo-term` , um die Stile für die Elemente des Glossars anzupassen.
 
@@ -285,7 +289,7 @@ Die folgenden Einstellungen sind im Abschnitt Seitenlayout verfügbar:
 
 Weitere Informationen zu Seitenlayouts finden Sie unter [Seitenlayout erstellen](design-page-layout.md).
 
-### Seitenreihenfolge {#page-order}
+### Seitenlayout-Reihenfolge {#page-order}
 
 Sie können die folgenden Bereiche in Ihrer PDF ein- oder ausblenden und auch die Reihenfolge anordnen, in der sie in Ihrer endgültigen PDF-Ausgabe angezeigt werden sollen:
 
@@ -299,7 +303,7 @@ Sie können die folgenden Bereiche in Ihrer PDF ein- oder ausblenden und auch di
 * Glossar
 * Zitat
 
-  <img src="assets/page-order-advance-settings.png" alt="Seitenreihenfolge" width="550">
+  <img src="assets/page-order-advance-settings.png" alt="Seitenlayoutreihenfolge" width="550">
 
   Wenn Sie in Ihrer PDF-Ausgabe keinen bestimmten Bereich anzeigen möchten, können Sie dies verbergen, indem Sie den Umschalter ausschalten.
 
@@ -350,6 +354,43 @@ Sie können auch die folgenden Aktionen durchführen:
 * Sie können auch ein benutzerdefiniertes Layout mehrmals hinzufügen und sortieren. Auf diese Weise können Sie statischen Inhalt entsprechend veröffentlichen.
 
   Beispielsweise können Sie ein benutzerdefiniertes Layout verwenden, um eine statische Warnung mehrmals in der PDF-Ausgabe zu veröffentlichen.
+
+
+
+### Seitenorganisation
+
+Die Seiten in einem PDF-Dokument werden in der Regel entsprechend dem Inhalt in der DITA-Map- oder Bookmap-Datei veröffentlicht. Sie können jedoch auch die Reihenfolge der Seiten im PDF-Dokument ändern. Sie können beispielsweise ein mehrseitiges Dokument als Booklet drucken. Wenn Sie die Blätter zusammenkleben, falten und stapeln, ist das Ergebnis ein einzelnes Buch mit der richtigen Seitenreihenfolge.  Sie können dann die veröffentlichte Broschüre wie ein Buch lesen.
+
+<img src="assets/template-page-organization.png" alt="Seitenorganisation" width="550">
+
+
+Die folgenden Einstellungen sind im **Seitenorganisation** Abschnitt:
+
+#### Seitenreihenfolge
+
+Wählen Sie eine Seitenreihenfolge aus, die die Reihenfolge der Seiten in Ihrem PDF-Dokument bestimmt. Sie können die folgenden Optionen aus der Dropdown-Liste auswählen:
+
+* **Standard**: Die Standardreihenfolge der Seiten gemäß der Quelldatei.
+* **Erste ungerade Seiten**: Alle ungeraden Seiten werden vor allen geraden Seiten verschoben.
+* **Gerade Seiten zuerst**: Alle geraden Seiten werden vor allen ungeraden Seiten verschoben.
+* **Umkehren**: Die Seitenreihenfolge wird umgekehrt.
+* **Lesezeichen**: Alle Seiten werden wie in einem Booklet angeordnet.
+* **Lesezeichen rechts nach links**: Alle Seiten befinden sich in der Lesezeichenreihenfolge von rechts nach links.
+* **Benutzerdefiniert**: Definieren Sie eine benutzerdefinierte Reihenfolge der Seiten anstelle einer vordefinierten Reihenfolge.
+   * &quot;eine..b&quot;— Alle aufeinander folgenden Seiten von a bis b.
+   * &quot;a,b,c&quot; — Neue Seitenreihenfolge a, b, c.
+   * &quot;a*b&quot;- Die Seite a wird wiederholt.
+   * &quot;-a&quot;- Negative Seitenzahlen zählen rückwärts ab der letzten Seite und können mit anderen benutzerdefinierten Bestellungen kombiniert werden.
+   * &quot;X&quot;— Alle Seiten des Dokuments. Gleiches Ergebnis wie &quot;1..-1&quot;.
+
+Sie können beispielsweise eine benutzerdefinierte Reihenfolge wie &quot;2,3,5*2,7.10,-1,-2&quot;festlegen.
+Die angegebene Seitenreihenfolge führt dazu, dass ein PDF die folgenden Seitenzahlen aus dem Originaldokument hat, vorausgesetzt, es enthält insgesamt 25 Seiten: 2, 3, 5, 5, 7, 8, 9, 10, 25, 24.
+
+#### Mehr als eine Seite pro Blatt konfigurieren
+
+Wählen Sie diese Option, um mehrere Seiten auf einem einzelnen Blatt Papier zu veröffentlichen.  Wählen Sie dann die Anzahl der Zeilen und Spalten aus und veröffentlichen Sie die Seiten wie ein Raster auf einem einzigen Blatt. Beispielsweise können Sie die Seiten als Raster aus 2 Zeilen und 4 Spalten veröffentlichen.
+
+Definieren Sie die Größe des Zielblatts und die Ausrichtung, in der Sie das Blatt veröffentlichen möchten. Sie können auch die Ränder- und Abstandseigenschaften des Blatts angeben.
 
 
 

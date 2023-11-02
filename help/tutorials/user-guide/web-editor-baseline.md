@@ -1,10 +1,10 @@
 ---
 title: Erstellen und Verwalten von Grundlinien im Web-Editor
 description: Erstellen und verwalten Sie Grundlinien über den Webeditor in AEM Handbüchern. Erfahren Sie, wie Sie Grundlinien basierend auf Bezeichnungen erstellen und Filter auf die Grundlinien anwenden.
-exl-id: 9e390489-16f5-4f9a-a821-5150a66c2ed4
-source-git-commit: 361c605bdf02fb3b8754c6596a70e86a00acb3db
+exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,7 @@ Sie können auch die folgenden Vorgänge auf der Grundlinie im Menü Optionen au
   > Der Prozess zum Hinzufügen oder Entfernen von Beschriftungen erfolgt asynchron, sodass Sie im Web Editor weiterhin an anderen Dateien arbeiten können. Nachdem der Titel hinzugefügt oder entfernt wurde, wird eine Popup-Meldung angezeigt, in der bestätigt wird, dass der Titel hinzugefügt oder entfernt wurde, und Sie erhalten auch eine Inbox-Benachrichtigung.
 
 - **Eigenschaften bearbeiten** einer vorhandenen statischen Grundlinie, die Sie beim Erstellen der Grundlinie festgelegt haben.
-- Exportieren Sie die Momentaufnahme einer Grundlinie in eine CSV-Datei mit dem **Exportgrundlinie** -Option.
+- Exportieren Sie die Momentaufnahme einer Grundlinie in eine Microsoft Excel-Datei mit der **Exportgrundlinie** -Option.
 
 **Standardfilter**
 

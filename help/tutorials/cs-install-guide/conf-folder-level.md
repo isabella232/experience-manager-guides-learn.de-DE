@@ -1,13 +1,13 @@
 ---
 title: Konfigurieren globaler Profile oder Profile auf Ordnerebene
 description: Erfahren Sie, wie Sie globale Profile oder Profile auf Ordnerebene konfigurieren
-source-git-commit: 6f4ab3baf0c0dd333035c3a7d131bd151b17de45
+exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '3962'
+source-wordcount: '3961'
 ht-degree: 0%
 
 ---
-
 
 # Konfigurieren globaler Profile oder Profile auf Ordnerebene {#id181AH2003PF}
 
@@ -25,7 +25,7 @@ Außerdem können Sie die ordnerspezifischen Konfigurationen an eine Abteilung o
 
 - **Bedingte Attribute**: Verwenden Sie diese Registerkarte, um bedingte Attribute auf globaler oder Ordnerebene zu konfigurieren. Ein bedingtes Attribut ist eine Kombination aus Attributname und -wert und Sie können auch eine Bezeichnung dafür definieren. Sie können die standardmäßigen DITA-Attribute oder Ihre eigenen benutzerdefinierten Attribute verwenden. Die von Ihnen auf globaler Ebene definierten bedingten Attribute werden allen Benutzern projektübergreifend zur Verfügung gestellt. Wenn Sie bedingte Attribute auf Ordnerebene definiert haben, werden sie mit den global definierten bedingten Attributen zusammengeführt.
 
-- **Authoring-Vorlage**: Auf dieser Registerkarte können Sie die Vorlagen konfigurieren, die Ihre Autoren zum Erstellen von DITA-Inhalten verwenden werden. Die folgenden Themenvorlagen sind standardmäßig verfügbar:
+- **Vorlagen**: Verwenden Sie diese Registerkarte, um die Vorlagen zu konfigurieren, die Ihre Autoren zum Erstellen oder Veröffentlichen von DITA-Inhalten verwenden werden. Die folgenden Themenvorlagen sind standardmäßig verfügbar:
 
    - Glossar
 
@@ -49,11 +49,11 @@ Außerdem können Sie die ordnerspezifischen Konfigurationen an eine Abteilung o
 
   Neben Themenvorlagen können Sie auch die Zuordnungsvorlagen definieren, die Autoren zur Verfügung gestellt werden. Die folgenden Zuordnungsvorlagen sind standardmäßig verfügbar:
 
-   - Map
+   - Zuordnung
 
    - Lesezeichen
 
-- **Ausgabevorgabe**: Ähnlich wie bei Authoring-Vorlagen gibt es fünf vorkonfigurierte Ausgabevorgaben:
+- **Ausgabevorgabe**: Ähnlich wie bei Vorlagen gibt es fünf vorkonfigurierte Ausgabevorgaben:
 
    - AEM Site
 
@@ -75,9 +75,9 @@ Außerdem können Sie die ordnerspezifischen Konfigurationen an eine Abteilung o
    - Beschriftungen der XML-Inhaltsversion
    - Rootmap \(nur auf Ordnerebene\)
 
-Sie können sowohl globale Profile als auch Profile auf Ordnerebene konfigurieren. In einem Profil auf Ordnerebene können Sie die Ordner definieren, für die die Einstellungen gelten sollen. Zu diesen Einstellungen gehören die bedingten Attribute, Bearbeitungsvorlagen, Ausgabevorgaben und Einstellungen des XML-Editors. Die Konfigurationen für bedingte Vorgaben, Authoring-Vorlagen und XML-Editor werden dann Autoren zur Verfügung gestellt, die in den konfigurierten Ordnern arbeiten. Auf ähnliche Weise haben Herausgeber Zugriff auf die konfigurierten Ausgabevorgaben, die in den konfigurierten Ordnern definiert sind.
+Sie können sowohl globale Profile als auch Profile auf Ordnerebene konfigurieren. In einem Profil auf Ordnerebene können Sie die Ordner definieren, für die die Einstellungen gelten sollen. Zu diesen Einstellungen gehören die bedingten Attribute, Vorlagen, Ausgabevorgaben und XML-Editor-Einstellungen. Die Konfigurationen für bedingte Vorgaben, Vorlagen und XML-Editor werden dann für Autoren verfügbar gemacht, die in den konfigurierten Ordnern arbeiten. Auf ähnliche Weise haben Herausgeber Zugriff auf die konfigurierten Ausgabevorgaben, die in den konfigurierten Ordnern definiert sind.
 
-Ein Profil auf Ordnerebene überschreibt die im globalen Profil konfigurierten Einstellungen. Anders ausgedrückt: Wenn ein Ordner über ein Profil auf Ordnerebene verfügt, werden die Authoring-Vorlagen, Ausgabevorlagen und XML-Editor-Einstellungen angezeigt, die im entsprechenden Ordnerprofil konfiguriert sind. Die im globalen Profil konfigurierten Einstellungen werden nicht angezeigt. Dies gilt jedoch nicht für die bedingten Attribute. Bei bedingten Attributen werden die bedingten Attribute auf globaler Ebene und auf Ordnerebene zusammengeführt.
+Ein Profil auf Ordnerebene überschreibt die im globalen Profil konfigurierten Einstellungen. Anders ausgedrückt: Wenn ein Ordner über ein Profil auf Ordnerebene verfügt, werden die Vorlagen, Ausgabevorlagen und XML-Editor-Einstellungen angezeigt, die im entsprechenden Ordnerprofil konfiguriert sind. Die im globalen Profil konfigurierten Einstellungen werden nicht angezeigt. Dies gilt jedoch nicht für die bedingten Attribute. Bei bedingten Attributen werden die bedingten Attribute auf globaler Ebene und auf Ordnerebene zusammengeführt.
 
 Die folgenden Abschnitte führen Sie durch den Prozess der Konfiguration globaler Profile auf Profil- und Ordnerebene.
 
@@ -99,7 +99,7 @@ Führen Sie die folgenden Schritte aus, um das globale Profil zu konfigurieren:
 
 1. So konfigurieren Sie **Bedingte Attribute**, siehe [Bedingte Attribute für globale Profile oder Profile auf Ordnerebene konfigurieren](#id1889D0I305Z).
 
-1. So konfigurieren Sie **Authoring-Vorlage**, siehe [Authoring-Vorlagen konfigurieren](#id1889D0IL0Y4).
+1. So konfigurieren Sie **Vorlagen**, siehe [Authoring-Vorlagen konfigurieren](#id1889D0IL0Y4).
 
 1. So konfigurieren Sie **Ausgabevorgaben**, siehe [Konfigurieren von Ausgabevorgaben](#id18AGD0IH0Y4).
 
@@ -144,7 +144,7 @@ Führen Sie die folgenden Schritte aus, um ein Profil auf Ordnerebene zu konfigu
 
    >[!NOTE]
    >
-   > Benutzer, die Sie hier hinzufügen, verfügen über die Administratorrechte zum Aktualisieren der bedingten Attribute, der Bearbeitungsvorlage und der für dieses Ordnerprofil konfigurierten Ausgabevorgaben.
+   > Benutzer, die Sie hier hinzufügen, verfügen über die Administratorrechte, um die für dieses Ordnerprofil konfigurierten bedingten Attribute, Vorlagen und Ausgabevorgaben zu aktualisieren.
 
 1. Um einen Ordner hinzuzufügen, klicken Sie auf das Symbol Durchsuchen im Ordnerpfad, navigieren Sie zu einem Ordner, wählen Sie ihn aus und klicken Sie auf Hinzufügen , um ihn diesem Profil hinzuzufügen.
 
@@ -161,11 +161,11 @@ Führen Sie die folgenden Schritte aus, um ein Profil auf Ordnerebene zu konfigu
 1. Klicken Sie nach dem Hinzufügen aller erforderlichen Ordner und Benutzer zum Ordnerprofil auf **Speichern**.
 
 
-Jetzt können Sie die bedingten Attribute, Bearbeitungsvorlagen, Ausgabevorgaben und den XML-Editor konfigurieren.
+Jetzt können Sie die bedingten Attribute, Vorlagen, Ausgabevorgaben und den XML-Editor konfigurieren.
 
 >[!IMPORTANT]
 >
-> Wenn Sie ein Ordnerprofil erstellen, enthält es standardmäßig keine Authoring-Vorlagen. Sie müssen die erforderlichen Authoring-Vorlagen zum Ordnerprofil hinzufügen, damit sie für Ihre Autoren verfügbar sind.
+> Wenn Sie ein Ordnerprofil erstellen, enthält es standardmäßig keine Vorlagen. Sie müssen die erforderlichen Vorlagen zum Ordnerprofil hinzufügen, damit sie für Ihre Autoren verfügbar sind.
 
 ## Bedingte Attribute für globale Profile oder Profile auf Ordnerebene konfigurieren {#id1889D0I305Z}
 
@@ -225,13 +225,13 @@ Wenn Sie ein benutzerdefiniertes Attribut verwenden, muss es sich um ein gültig
 1. Fügen Sie benutzerdefinierte Attribute zum Profil auf globaler Ebene oder auf Ordnerebene hinzu.
 
 
-## Authoring-Vorlagen konfigurieren {#id1889D0IL0Y4}
+## Vorlagen konfigurieren {#id1889D0IL0Y4}
 
-AEM Guides sind mit 7 nativen Bearbeitungsvorlagen und 2 DITA-Zuordnungsvorlagen ausgestattet. Sie können festlegen, dass nur einige Vorlagen für Ihre Autoren verfügbar sind. Wenn Sie eine benutzerdefinierte Vorlage verwenden, kann diese konfiguriert und für das Authoring bereitgestellt werden. Auf der Registerkarte &quot;Authoring-Vorlage&quot;in der Konfiguration von Ordnerprofilen können Sie Themen- oder Zuordnungsvorlagen aus globalen Profilen oder Profilen auf Ordnerebene hinzufügen oder entfernen.
+AEM Guides sind mit 7 nativen Themenvorlagen, 2 DITA-Zuordnungsvorlagen und 3 PDF-Vorlagen ausgestattet. Sie können festlegen, dass nur einige Vorlagen für Autoren und Herausgeber verfügbar sind. Wenn Sie eine benutzerdefinierte Vorlage verwenden, kann diese konfiguriert und für die Bearbeitung und Veröffentlichung zur Verfügung gestellt werden. Sie verwenden die **Vorlagen** in der Ordnerprofilkonfiguration, um Themen-, Zuordnungs- oder PDF-Vorlagen aus globalen Profilen oder Ordnerprofilen hinzuzufügen oder daraus zu entfernen.
 
-Sie können auch vor dem Konfigurieren der Themen- oder Zuordnungsvorlagen auf globaler oder Ordnerebene einen Speicherort für Ihre benutzerdefinierten Authoring-Vorlagen definieren. Informationen zum Konfigurieren eines benutzerdefinierten Speicherorts zum Speichern von Bearbeitungsvorlagen finden Sie unter [Benutzerdefinierten DITA-Vorlagenordnerpfad konfigurieren](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z).
+Sie können auch vor dem Konfigurieren der Themen-, Zuordnungs- oder PDF-Vorlagen auf globaler oder Ordnerebene einen Speicherort für Ihre benutzerdefinierten Vorlagen definieren. Informationen zum Konfigurieren eines benutzerdefinierten Speicherorts zum Speichern der Vorlagen finden Sie unter [Benutzerdefinierten DITA-Vorlagenordnerpfad konfigurieren](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z).
 
-Führen Sie die folgenden Schritte aus, um das Thema oder die Zuordnungsvorlagen zu einem Ordnerprofil hinzuzufügen:
+Führen Sie die folgenden Schritte aus, um die Themen-, Zuordnungs- oder PDF-Vorlagen einem Ordnerprofil hinzuzufügen:
 
 1. Melden Sie sich bei Adobe Experience Manager als Administrator oder Benutzer mit Administratorrechten für ein Profil auf Ordnerebene an.
 
@@ -243,26 +243,26 @@ Führen Sie die folgenden Schritte aus, um das Thema oder die Zuordnungsvorlagen
 
    >[!NOTE]
    >
-   > Sie können die Authoring-Vorlage im Profil &quot;Global&quot;oder in einem Profil auf Ordnerebene konfigurieren.
+   > Sie können eine Vorlage im Profil &quot;Global&quot;oder ein Profil auf Ordnerebene konfigurieren.
 
-1. Klicken Sie auf der Profilseite auf die **Authoring-Vorlage** Registerkarte.
+1. Klicken Sie auf der Profilseite auf die **Vorlagen** Registerkarte.
 1. Klicken Sie auf **Bearbeiten**.
 
-   Sie erhalten die Optionen zum Hinzufügen von Themen- und Zuordnungsvorlagen, indem Sie vom Standardspeicherort aus suchen oder nach ihnen suchen.
+   Sie erhalten die Optionen zum Hinzufügen von Themen-, Landkarten- und PDF-Vorlagen, indem Sie vom Standardspeicherort aus suchen oder nach ihnen suchen.
 
    >[!NOTE]
    >
-   > Standardmäßig werden alle Authoring-Vorlagen im Ordner /content/dam/dita-templates gespeichert. Die `dita-templates` Ordner enthält `topics` und `maps` Unterordner zum Speichern der Themen- und Zuordnungsvorlagen. Sie können Ihre benutzerdefinierten Vorlagen \(.dita,.xml oder .ditamapfiles\) in die Standardordner für Vorlagen einfügen. Nachdem Sie Ihre Vorlage im Standardordner hinzugefügt haben, können Sie sie dem globalen Ordner oder dem Ordnerprofil hinzufügen. Weitere Informationen zum Erstellen benutzerdefinierter Vorlagen mit dem Web Editor finden Sie unter [Benutzerdefinierte Authoring-Vorlage erstellen](#id1917D0EG0HJ).
+   > Standardmäßig werden alle Vorlagen im Ordner /content/dam/dita-templates gespeichert. Die `dita-templates` Ordner enthält `topics`, `maps`, und `PDF` Unterordner zum Speichern der Themen-, Zuordnungs- und PDF-Vorlagen. Sie können Ihre benutzerdefinierten Vorlagen \(.dita,.xml oder .ditamapfiles\) in die Standardordner für Vorlagen einfügen. Nachdem Sie Ihre Vorlage im Standardordner hinzugefügt haben, können Sie sie dem globalen Ordner oder dem Ordnerprofil hinzufügen. Weitere Informationen zum Erstellen benutzerdefinierter Vorlagen mit dem Web Editor finden Sie unter [Benutzerdefinierte Authoring-Vorlage erstellen](#id1917D0EG0HJ).
 
-   ![](assets/search-author-temp.png)
+   ![](assets/search-author-temp.png){width="800" align="left"}
 
-1. Fügen Sie Ihrem Profil das erforderliche Thema hinzu und ordnen Sie ihm Vorlagen zu.
+1. Fügen Sie Ihrem Profil die erforderlichen Themen-, Zuordnungs- und PDF-Vorlagen hinzu.
 
    Um eine Vorlage hinzuzufügen, führen Sie einen der folgenden Schritte aus:
 
    - Auswählen **Suche oder Typ** und geben Sie den Namen einer Vorlage ein oder wählen Sie ihn aus der Dropdown-Liste aus. Die Dropdown-Liste enthält alle Standardvorlagen und alle neuen Vorlagen, die Sie erstellt haben.
 
-     ![](assets/default-template-list.png)
+     ![](assets/default-template-list.png){width="800" align="left"}
 
    - Klicks **Durchsuchen** und wählen Sie eine Vorlage aus DAM aus.
 
@@ -270,7 +270,7 @@ Führen Sie die folgenden Schritte aus, um das Thema oder die Zuordnungsvorlagen
 
    Die ausgewählten Vorlagen werden der Vorlagenliste hinzugefügt.
 
-   ![](assets/author-templ-added-list.png)
+   ![](assets/author-templ-added-list.png){width="800" align="left"}
 
    >[!NOTE]
    >
@@ -475,4 +475,3 @@ Im obigen Beispiel ist &quot;label1&quot;der Bezeichner für die Bezeichnungsrei
 **Rootmap**
 
 Wenn Ihre Autoren mit einer bestimmten Stammkarte arbeiten, können Sie diese hier durchsuchen und auswählen. Beachten Sie, dass Sie die Rootmap nur für ein Profil auf Ordnerebene definieren können.
-

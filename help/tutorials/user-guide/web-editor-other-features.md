@@ -1,10 +1,10 @@
 ---
 title: Weitere Funktionen im Web Editor
 description: Weitere Funktionen des Webeditors finden Sie in AEM Handbüchern. Erfahren Sie, wie Sie diese Funktionen für ein verbessertes Authoring in AEM Handbüchern verwenden.
-exl-id: dea19372-8a15-4b5d-aea4-47dc914d779e
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '2144'
+source-wordcount: '2136'
 ht-degree: 0%
 
 ---
@@ -190,7 +190,7 @@ Zusätzlich zum Kontextmenü der Breadcrumb-Leiste kann auf das Dialogfeld Eleme
 
 **Umbruch eines Elements aufheben**
 
-- Durch das Entpacken eines Elements können Sie das Element-Tag aus dem ausgewählten Text entfernen und mit dem übergeordneten Element zusammenführen. Wenn Sie beispielsweise eine `p` -Element in einer `note` -Element, können Sie die `p` -Element, um den Text direkt im `note` -Element. Die Option Element entpacken ist im Kontextmenü des Themas-Breadcrumbs verfügbar. Um die Einbindung eines Elements aufzuheben, wählen Sie das Element im Breadcrumb des Themas aus, klicken Sie mit der rechten Maustaste auf das Element, um das Kontextmenü zu öffnen, und wählen Sie dann Element entpacken aus, um das Element zu entfernen und den Text des Elements mit dem übergeordneten Element zusammenzuführen.
+- Durch das Entpacken eines Elements können Sie das Element-Tag aus dem ausgewählten Text entfernen und mit dem übergeordneten Element zusammenführen. Wenn Sie beispielsweise eine `p` -Element in einer `note` -Element, können Sie die `p` -Element, um den Text direkt im `note` -Element. Die **Element entpacken** ist im Kontextmenü der Breadcrumb-Leiste des Themas verfügbar. Um die Einbindung eines Elements aufzuheben, klicken Sie mit der rechten Maustaste auf das Element, um das Kontextmenü zu öffnen, und wählen Sie dann **Element entpacken** , um das Element zu entfernen und den Text des Elements mit seinem übergeordneten Element zusammenzuführen.
 
 **Zeilenumbrüche und Einzüge beibehalten**
 

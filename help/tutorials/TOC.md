@@ -2,9 +2,9 @@
 user-guide-title: Tutorials für AEM Guides
 user-guide-description: Lesen Sie unsere Sammlung an Tutorials für Adobe Experience Manager Guides.
 breadcrumb-title: Tutorials für AEM Guides
-source-git-commit: ebc63f6320f512987846b9d359014faf4772c5a7
+source-git-commit: a9772cdde6161923d28be806407931859d9918d1
 workflow-type: tm+mt
-source-wordcount: '1612'
+source-wordcount: '1617'
 ht-degree: 7%
 
 ---
@@ -20,27 +20,30 @@ ht-degree: 7%
       + Cloud Services {#cloud-release-notes}
          + [Bereitstellungsanweisungen](./release-info/deploy-xml-on-aemaacs.md)
          + Versionen 2023 {#2023-releases}
-            + Oktober-Version {#2310-release}
-               + [Neuerungen](./release-info/whats-new-2023.10.0.md)
-               + [Versionshinweise](./release-info/release-notes-2023.10.0.md)
-            + September-Version {#2309-release}
-               + [Neuerungen](./release-info/whats-new-2023.9.0.md)
-               + [Versionshinweise](./release-info/release-notes-2023.9.0.md)
-            + Juli-Version {#2307-release}
-               + [Neuerungen](./release-info/whats-new-2023.7.0.md)
-               + [Versionshinweise](./release-info/release-notes-2023.7.0.md)
-            + Juni-Version {#2306-release}
-               + [Neuerungen](./release-info/whats-new-2023.6.0.md)
-               + [Versionshinweise](./release-info/release-notes-2023.6.0.md)
-            + April-Version {#2304-release}
-               + [Neuerungen](./release-info/whats-new-2023.4.0.md)
-               + [Versionshinweise](./release-info/release-notes-2023.4.0.md)
-            + März-Version {#2303-release}
-               + [Neuerungen](./release-info/whats-new-2023.3.0.md)
-               + [Versionshinweise](./release-info/release-notes-2023.3.0.md)
-            + Februar-Version {#2302-release}
-               + [Neuerungen](./release-info/whats-new-2023.2.0.md)
-               + [Versionshinweise](./release-info/release-notes-2023.2.0.md)
+         + November-Version {#2311-release}
+            + [Neuerungen](./release-info/whats-new-2023.11.0.md)
+            + [Versionshinweise](./release-info/release-notes-2023.11.0.md)
+         + Oktober-Version {#2310-release}
+            + [Neuerungen](./release-info/whats-new-2023.10.0.md)
+            + [Versionshinweise](./release-info/release-notes-2023.10.0.md)
+         + September-Version {#2309-release}
+            + [Neuerungen](./release-info/whats-new-2023.9.0.md)
+            + [Versionshinweise](./release-info/release-notes-2023.9.0.md)
+         + Juli-Version {#2307-release}
+            + [Neuerungen](./release-info/whats-new-2023.7.0.md)
+            + [Versionshinweise](./release-info/release-notes-2023.7.0.md)
+         + Juni-Version {#2306-release}
+            + [Neuerungen](./release-info/whats-new-2023.6.0.md)
+            + [Versionshinweise](./release-info/release-notes-2023.6.0.md)
+         + April-Version {#2304-release}
+            + [Neuerungen](./release-info/whats-new-2023.4.0.md)
+            + [Versionshinweise](./release-info/release-notes-2023.4.0.md)
+         + März-Version {#2303-release}
+            + [Neuerungen](./release-info/whats-new-2023.3.0.md)
+            + [Versionshinweise](./release-info/release-notes-2023.3.0.md)
+         + Februar-Version {#2302-release}
+            + [Neuerungen](./release-info/whats-new-2023.2.0.md)
+            + [Versionshinweise](./release-info/release-notes-2023.2.0.md)
          + Versionen 2022 {#2022-releases}
             + [November-Versionshinweise](./release-info/release-notes-2022.11.0.md)
             + [Oktober - Versionshinweise](./release-info/release-notes-2022.10.0.md)
@@ -53,14 +56,14 @@ ht-degree: 7%
             + [Januar - Versionshinweise](./release-info/release-notes-2022.1.0.md)
       + On-Premise/Managed Services {#on-prem-release-notes}
          + Version 4.3.0 {#43-release}
-            + Neuerungen {#43-whats-new}
+            + Neue Funktionen {#43-whats-new}
                + [4.3.1 Neue Funktionen](./release-info/whats-new-4.3.1-release.md)
                + [4.3.0 Neue Funktionen](./release-info/whats-new-4.3-release.md)
             + Versionshinweise {#43-release-notes}
                + [4.3.1 - Versionshinweise](./release-info/release-notes-4.3.1.md)
                + [4.3.0 - Versionshinweise](./release-info/release-notes-4.3.md)
          + Version 4.2 {#42-release}
-            + Neuerungen {#42-whats-new}
+            + Neue Funktionen {#42-whats-new}
                + [4.2.1 Neue Funktionen](./release-info/whats-new-4.2.1-release.md)
                + [4.2 Neue Funktionen](./release-info/whats-new-4.2-release.md)
             + Versionshinweise {#42-release-notes}
@@ -267,7 +270,7 @@ ht-degree: 7%
                + [Anwenden eines benutzerdefinierten Stils auf Inhaltsverzeichniseinträge und Themeninhalte](./native-pdf/custom-style-toc.md)
                + [Hinzufügen eines benutzerdefinierten Lesezeichens in der PDF-Ausgabe](./native-pdf/add-custom-bookmark.md)
                + [Verwenden von JavaScript zum Arbeiten mit Inhalt oder Stil](./native-pdf/use-javascript-content-style.md)
-               + [Verwenden benutzerdefinierter Stile in Fußnoten](./native-pdf/footnote-number-style.md)
+               + [Stile auf Fußnoten anwenden](./native-pdf/footnote-number-style.md)
          + [JVM-Flags für native PDF-Veröffentlichung konfigurieren](./native-pdf/configure-jvm-flags.md)
          + [Erstellen einer Zuordnung zwischen einem Thema und einem Inhaltsfragment](./install-guide/conf-content-fragment-mapping.md)
       + Arbeiten mit benutzerdefinierten Workflows {#custom-workflow}
