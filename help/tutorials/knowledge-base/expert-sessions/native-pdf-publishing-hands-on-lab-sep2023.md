@@ -1,9 +1,10 @@
 ---
 title: Native PDF-Veröffentlichung "Hands on lab - BYOS"- Interaktives Lernen
 description: Diese "Hands-on Lab - BYOS"-Sitzung bietet eine ausführliche Untersuchung der nativen PDF-Veröffentlichung. Informieren Sie sich über verschiedene Anwendungsfälle, nutzen Sie wichtige Funktionen und wenden Sie sich direkt an Adobe-Experten, um Ihre spezifischen Problemanweisungen und -anforderungen zu bearbeiten.
-source-git-commit: 03da00daf0118b66ef5653dfb80918c33bc8f76b
+exl-id: 55c276d8-8611-4050-be5f-7f9854f94228
+source-git-commit: befe892ce4c9a6643593469bdc7fdd808ceb0c31
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '356'
 ht-degree: 1%
 
 ---
@@ -61,8 +62,8 @@ In dieser Sitzung erfahren Sie mehr über Folgendes für die Veröffentlichung n
 
 ## Nächste Sachverständigensitzung
 
-- **Thema** - TBD
-- **Geplant am** - TBD
+- **Thema** - Guides Extension Framework
+- **Geplant am** - 2. November 2023
 
 ## Kontakt
 
