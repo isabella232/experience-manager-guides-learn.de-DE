@@ -1,8 +1,8 @@
 ---
 title: Unterstützung für Schematron-Dateien
 description: Erfahren Sie, wie Sie ein DITA-Thema importieren und validieren, Assert-Berichtanweisungen verwenden, um nach Regeln zu suchen, Regex-Ausdrücke zu verwenden und abstrakte Muster in Schemateien von AEM Guides zu definieren.
-exl-id: e5912fa1-af26-42f4-b5e5-a6d2afd45bc8
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
+source-git-commit: 05a7b46b0c6ec056f85a82759400717fce9a845c
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 0%
@@ -105,7 +105,7 @@ No one word titles.
 
 ## Abstrakte Muster definieren{#schematron-abstract-patterns}
 
-AEM Gudies unterstützt auch abstrakte Muster in Schematron. Sie können allgemeine abstrakte Muster definieren, um diese abstrakten Muster wiederzuverwenden.  Sie können Platzhalterparameter erstellen, die das tatsächliche Muster angeben.
+AEM Guides unterstützen auch abstrakte Muster in Schematron. Sie können allgemeine abstrakte Muster definieren, um diese abstrakten Muster wiederzuverwenden.  Sie können Platzhalterparameter erstellen, die das tatsächliche Muster angeben.
 
 
 Die Verwendung abstrakter Muster kann das Schema vereinfachen, indem die Duplizierung von Regeln reduziert und die Verwaltung und Aktualisierung Ihrer Validierungslogik vereinfacht wird. Außerdem kann es das Verständnis Ihres Schemas vereinfachen, da Sie komplexe Validierungslogik in einem einzigen abstrakten Muster definieren können, das im gesamten Schema wiederverwendet werden kann.
