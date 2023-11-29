@@ -2,9 +2,9 @@
 title: Weitere Funktionen im Web Editor
 description: Weitere Funktionen des Webeditors finden Sie in AEM Handbüchern. Erfahren Sie, wie Sie diese Funktionen für ein verbessertes Authoring in AEM Handbüchern verwenden.
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '2136'
+source-wordcount: '2248'
 ht-degree: 0%
 
 ---
@@ -187,6 +187,15 @@ Zusätzlich zum Kontextmenü der Breadcrumb-Leiste kann auf das Dialogfeld Eleme
 
 - Sie können auf das Dialogfeld Element umbenennen zugreifen, indem Sie im Bedienfeld &quot;Umrisse&quot;das Menü &quot;Optionen&quot;eines Elements aufrufen.
 
+
+
+**Element einschließen**
+
+- Wenn Sie ein Element umbrechen, können Sie dem ausgewählten Text ein Element-Tag hinzufügen. Sie können den Text nach DITA-Standards in jedes untergeordnete Element einschließen. Wenn Sie beispielsweise Text unter einem `note` -Element ein, können Sie den Text in ein `p` -Element.
+
+  Die **Umbruch-Element** ist im Kontextmenü der Breadcrumb-Leiste des Themas verfügbar. Um ein Element einzuschließen, klicken Sie mit der rechten Maustaste auf das Element und öffnen Sie das Kontextmenü. Wählen Sie das Element aus der **Umbruch-Element** angezeigt. Der Text wird im neuen Element angezeigt.
+
+  Sie können auch den Text oder das Element im Inhalt auswählen und dann die **Umbruch-Element**  -Option im Kontextmenü.
 
 **Umbruch eines Elements aufheben**
 

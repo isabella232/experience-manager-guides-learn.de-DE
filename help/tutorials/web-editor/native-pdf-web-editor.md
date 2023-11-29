@@ -2,9 +2,9 @@
 title: Native PDF | PDF-Ausgabegenerierung
 description: Erfahren Sie, wie Sie die native PDF-Veröffentlichung verwenden, eine PDF-Ausgabevorgabe erstellen und generieren, temporäre Dateien herunterladen, nachdem Sie die native PDF-Ausgabe generiert haben, und Sprachvariablen in AEM Guides verwenden.
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: 4c10f2387208477bd2ba27188e8aeaa6f3a4a661
+source-git-commit: 1305c960df98553edbd1fb65c8f6e8da7c232087
 workflow-type: tm+mt
-source-wordcount: '3264'
+source-wordcount: '3327'
 ht-degree: 1%
 
 ---
@@ -165,8 +165,9 @@ Verwenden Sie die folgenden Optionen, um erweiterte Einstellungen zum Zusammenf�
 | **Benutzerdefinierte Auflösung verwenden (Pixel pro Zoll)** | Dies ist die Seitenanzeigeauflösung in Pixel pro Zoll. Geben Sie einen bevorzugten Wert in das Feld ein, das bei Auswahl dieser Option angezeigt wird. Der Standardwert ist 96 Pixel pro Zoll. Legen Sie einen höheren Wert fest, um mehr Inhalt in Zoll einzupassen, und umgekehrt, wenn Sie einen niedrigeren Wert festlegen. |
 | **Wasserzeichen anzeigen** | Wählen Sie diese Option, um ein Wasserzeichen in der Ausgabe zu überlagern. Sie können eine neue Textzeichenfolge in das Textfeld eingeben, wobei das Zeichen wie gewünscht Groß-/Kleinschreibung verwendet wird. <br><br>Verwenden Sie statischen Text oder Sprachvariablen, um die lokalisierte Version des Wasserzeichens zu veröffentlichen.  Abhängig von Ihrer ausgewählten Sprache wird der lokalisierte Wert automatisch in der PDF-Ausgabe ausgewählt. Beispielsweise können Sie &quot;Publisher&quot;als Wasserzeichen auf Englisch und &quot;Auteure&quot;auf Französisch drucken.  <br> Format: `${lng:<variable name>}`. Beispiel: `$ {lng:publisher-label}` where `publisher-label` ist eine Sprachvariable. <br> Bewegen <img src="./assets/info-details.svg" alt= "Infosymbol" width="25"> neben der Option, um weitere Details dazu anzuzeigen. |
 | **Aktivieren von MathML-Gleichungen** | Wählen Sie diese Option, um die in Ihrem Inhalt vorhandenen MathML-Gleichungen zu rendern. Die Gleichungen werden standardmäßig ignoriert. |
-| **PDF-Konformität** | Dies ist der Standard, den Sie speichern möchten, um sicherzustellen, dass Ihre PDF konform ist. Wählen Sie aus der Dropdown-Liste aus, um aus der Liste der verfügbaren PDF-Standards auszuwählen. Weitere Informationen zu den unterstützten Standards finden Sie unter [Über PDF-Standards](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
 | **Herunterladen temporärer Dateien** | Wählen Sie diese Option aus, wenn Sie die Zwischendatei-HTML herunterladen möchten, die beim Generieren der nativen PDF-Ausgabe erstellt wurde. Sie können die temporären Dateien später herunterladen, nachdem Sie die Ausgabe generiert haben. |
+| **PDF-Konformität** | Dies ist der Standard, den Sie speichern möchten, um sicherzustellen, dass Ihre PDF konform ist. Wählen Sie aus der Dropdown-Liste aus, um aus der Liste der verfügbaren PDF-Standards auszuwählen. Weitere Informationen zu den unterstützten Standards finden Sie unter [Über PDF-Standards](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
+| **Dateieigenschaften** | Wählen Sie die Eigenschaften aus, die Sie als Metadaten verarbeiten möchten. In der Dropdown-Liste werden sowohl die benutzerdefinierten als auch die Standardeigenschaften aufgeführt. Diese Eigenschaften werden auf der Seite &quot;Eigenschaften&quot;der DITA-Map- oder Bookmap-Datei festgelegt. Nach dem Festlegen werden diese Eigenschaften auch in die Themen in der Zuordnung kopiert. Die ausgewählten Metadateneigenschaften werden an die Ausgabe übergeben, die mithilfe des nativen PDF generiert wurde. |
 
 ## Generieren einer PDF-Ausgabe {#generate-pdf-output}
 

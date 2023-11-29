@@ -1,10 +1,10 @@
 ---
 title: Ausgabevorgaben für Global- und Ordnerprofile verwalten
 description: Erfahren Sie, wie Sie in AEM Handbüchern globale und Ordnerprofil-Ausgabevorgaben erstellen, bearbeiten, umbenennen, duplizieren und löschen.
-exl-id: 40ea464c-16c8-4c95-9c0e-61b6bad95272
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+exl-id: 549c9fe2-77f8-423c-8b3e-b43e56055732
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Führen Sie die folgenden Schritte aus, um eine Ausgabevorgabe für die Profile 
    - Name
    - Ziel \(für die Knowledgebase-Vorgabe\)
 1. Wählen Sie die **Hinzufügen zum Ordnerprofil** aktivieren, um eine Ausgabevorgabe für das zugehörige Ordnerprofil zu erstellen, und klicken Sie dann auf **Hinzufügen**. Die Vorgabe wird erstellt und unter dem **Ausgabe** -Registerkarte aller zugehörigen Karten. \( ![](images/global-preset-icon.svg)\) Symbol zeigt eine Vorgabe auf Ordnerprofilebene an.
-1. Geben Sie die Konfigurationsdetails ein.
+1. Geben Sie die Konfigurationsdetails ein. Weitere Informationen zu Ausgabevorgaben finden Sie unter [Grundlegendes zu den Ausgabevorgaben](./generate-output-understand-presets.md).
 
    >[!NOTE]
    >

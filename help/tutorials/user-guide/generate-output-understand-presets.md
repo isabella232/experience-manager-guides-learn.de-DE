@@ -1,10 +1,10 @@
 ---
 title: Grundlegendes zu den Ausgabevorgaben
 description: Machen Sie sich mit den Ausgabevorgaben in AEM Handbüchern vertraut. Erstellen Sie Ausgabevorgaben aus dem Web-Editor und dem Dashboard für AEM Website-, PDF-, HTML5-, EPUB-, benutzerdefinierten und JSON-Formate.
-exl-id: ff4dedbb-47c4-40c7-950c-51f70d5d4b1b
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+exl-id: 8eaf0765-8b66-47d6-9c40-888495baa711
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '208'
 ht-degree: 2%
 
 ---
@@ -34,5 +34,6 @@ In den folgenden Abschnitten werden die für die unterstützten Ausgabeformate v
 
 - **[JSON](generate-output-json.md)**
 
+Als Administrator können Sie mit den Experience Manager-Handbüchern Ausgabevorgaben für die Global- und Ordnerprofile erstellen und verwalten. Weitere Informationen finden Sie unter [Ausgabevorgaben für Global- und Ordnerprofile verwalten](./web-editor-manage-output-presets.md).
 
 **Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)

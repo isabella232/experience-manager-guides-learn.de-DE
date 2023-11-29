@@ -2,9 +2,9 @@
 title: Native PDF-Veröffentlichungsfunktion | Komponenten einer PDF-Vorlage
 description: Erfahren Sie mehr über die verschiedenen Komponenten einer PDF-Vorlage und wie Sie diese anpassen und konfigurieren.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '4859'
+source-wordcount: '4947'
 ht-degree: 0%
 
 ---
@@ -420,6 +420,10 @@ Konfigurieren Sie die Druckproduktionseinstellungen, um Druckermarkierungen zuzu
 
 Verwenden Sie die **Querverweis** um festzulegen, wie die Querverweise auf der PDF veröffentlicht werden. Sie können die Querverweise für Thementitel, Tabellen, Zahlen und mehr formatieren.
 
+>[!NOTE]
+>
+> Wenn Sie den Link-Text beim Einfügen des Querverweises definiert haben, hat er Vorrang vor dem in der Vorlage Native PDF definierten Querverweisformat.
+
 Sie können auch Variablen verwenden, um einen Querverweis zu definieren.  Wenn Sie eine Variable verwenden, wird ihr Wert aus den Eigenschaften ausgewählt. Sie können eine einzelne oder eine Kombination von Variablen verwenden, um einen Querverweis zu definieren. Sie können auch eine Kombination aus Zeichenfolge und Variable verwenden.
 
 Sie können beispielsweise `View details on {chapter}`. Wenn der Kapitelname &quot;Allgemeine Einstellungen&quot;lautet, lautet der Querverweis in der Ausgabe &quot;Siehe Details zu den allgemeinen Einstellungen&quot;.
@@ -441,6 +445,22 @@ AEM Guides bieten die folgenden nativen Variablen:
   >
   >Sie können für Beschriftungs- und Beschriftungs-Tags einen automatischen Nummernstil erstellen.
 
+#### Standard-Querverweisformat
+
+Wenn Sie das Textfeld leer lassen und den Link-Text beim Einfügen eines Querverweises nicht definiert haben, werden in den Experience Manager-Guides die folgenden Variablen für die entsprechenden Querverweise hinzugefügt:
+
+* **Titel**: `{title}`
+* **Beschreibung**: `{description}`
+* **Absatz**: `{bookmarkText}`
+* **Lesezeichen**: `{bookmarkText}`
+* **Abbildung**: `{captionText}`
+* **Tabelle**: `{captionText}`
+
+Die Rangfolge für Querverweise lautet:
+* Link-Text, der in den Querverweisen hinzugefügt wird
+* In der nativen PDF-Vorlage definiertes Querverweisformat
+* Standard-Querverweisformat
+
 
 #### Sprachvariablen in Querverweisen
 
@@ -455,11 +475,12 @@ Beispielsweise können Sie eine Sprachvariable &quot;reference-label&quot;hinzuf
 Wenn Sie `${lng:<variable name>}` im Abschnitt Absatz enthalten die Querverweise in den Absätzen der Ausgabe den lokalisierten Text und die Seitenzahl.\
 Beispielsweise zeigen die folgenden Screenshots die Querverweise &quot;View on the Page 1&quot; auf Englisch und &quot;View auf der Seite 1&quot; auf Deutsch.
 
-<img src="./assets/english-output-corss-reference.png" alt="Englische Ausgabe eines Querverweises in einer Schreibweise" width ="800" border="2px solid blue">
+<img src="./assets/english-output-corss-reference.png" alt="Englische Ausgabe eines Querverweises in einer Schreibweise" width ="800" border="2px">
 
 *Ein Querverweis innerhalb eines Absatzes, wenn er in englischer Sprache veröffentlicht wird.*
 
-<img src="./assets/german-output-corss-reference.png" alt="Ausgabe eines Querverweises in einer Schreibweise" width ="800" border="2px solid blue">
+<img src="./assets/german-output-corss-reference.png" alt="Ausgabe eines Querverweises in einer Schreibweise" width ="800" border="2px">
+
 
 *Ein Querverweis innerhalb eines Absatzes, wenn er in deutscher Sprache veröffentlicht wird.*
 

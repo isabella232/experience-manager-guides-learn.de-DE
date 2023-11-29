@@ -2,9 +2,9 @@
 title: Erstellen und Verwalten von Grundlinien im Web-Editor
 description: Erstellen und verwalten Sie Grundlinien über den Webeditor in AEM Handbüchern. Erfahren Sie, wie Sie Grundlinien basierend auf Bezeichnungen erstellen und Filter auf die Grundlinien anwenden.
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Sie können eine Grundlinie im Web Editor erstellen, indem Sie die folgenden Sch
 1. Öffnen Sie im Bereich &quot;Repository&quot;die DITA-Map-Datei in der Kartenansicht.
 1. Klicken Sie auf **Verwalten** Registerkarte. Die **Grundlinie** zeigt die Grundlinien der DITA-Zuordnung an.
 
-   ![](images/baseline-manage.png){width="800" align="left"}
+   ![Grundlegender Bereich](images/baseline-manage.png){width="800" align="left"}
 
 1. Im **Grundlinie** auf + rechts oben. Sie können eine Grundlinie mit einer bestimmten Version der Themen und referenzierten Inhalten erstellen, die an einem bestimmten Datum und zu einer bestimmten Uhrzeit verfügbar sind, oder mit einer für eine Version der Themen definierten Bezeichnung.
 1. Geben Sie einen Namen für die Grundlinie in **Baseline Name**.
@@ -56,7 +56,7 @@ Sie können eine Grundlinie im Web Editor erstellen, indem Sie die folgenden Sch
 
    Grundlinien, die auf Bezeichnungen basieren, werden dynamisch aktualisiert. Wenn Sie eine Grundlinie erstellen, eine Grundlinie herunterladen oder ein Übersetzungsprojekt mit einer Grundlinie erstellen, werden die Dateien dynamisch anhand der aktualisierten Beschriftungen ausgewählt. Wenn Sie beispielsweise Version 1.2 eines Themas mit Label Release 1.0 für die Grundlinie und später aktualisierte Version 1.5 mit Label Release 1.0 verwendet haben, wird die Grundlinie dynamisch aktualisiert und Version 1.5 wird verwendet.
 
-   ![](images/dynamic-baseline.png){width="550" align="left"}
+   ![Erstellen einer Grundlinie](images/dynamic-baseline.png){width="550" align="left"}
 
    - **Beschriftungen auswählen**: Wenn für die Themen Beschriftungen angegeben sind, werden diese im Abschnitt **Beschriftungen auswählen** Dropdown. Sie können die Titel\(s\) aus der Liste auswählen. Die zuerst ausgewählten Titel erhalten höhere Priorität als die späteren.
 
@@ -83,7 +83,9 @@ Sie können Ihre vorhandenen Grundlinien mithilfe der verschiedenen Funktionen i
 
   ![Optionen einer Grundlinie](images/baseline-options.png){width="800" align="left"}
 
-Sie können auch die folgenden Vorgänge auf der Grundlinie im Menü Optionen ausführen:
+
+
+  Sie können auch die folgenden Vorgänge auf der Grundlinie im Menü Optionen ausführen:
 
 - **Bearbeiten**, **Duplizieren,** **Umbenennen** oder **Löschen** eine bestehende Grundlinie.
 
@@ -106,7 +108,7 @@ Sie können auch die folgenden Vorgänge auf der Grundlinie im Menü Optionen au
 
 Verwenden des Symbols Filter im **Standardfilter** -Bedienfeld können Sie Filter auf die Grundlinie anwenden, die im Fenster der Grundlinienbearbeitung geöffnet wurde:
 
-![](images/baseline-filter.png){width="350" align="left"}
+![Grundlinienfilter](images/baseline-filter.png){width="300" align="left"}
 
 - Filtern Sie die Dateien nach Dateinamen oder Dateispeicherort.
 - Filtern Sie die Dateien anhand der Werte für verschiedene Spalten wie Dateityp, Referenztyp usw.

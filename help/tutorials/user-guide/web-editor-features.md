@@ -2,9 +2,9 @@
 title: Funktionen des Web Editors kennen
 description: Entdecken Sie die Funktionen des Webeditors in AEM Handbüchern. Machen Sie sich mit der Benutzeroberfläche des Web-Editors vertraut, einschließlich der Hauptsymbolleiste, der sekundären Symbolleiste, des linken Bedienfelds, des Inhaltsbearbeitungsbereichs und des rechten Bedienfelds.
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '17079'
+source-wordcount: '17231'
 ht-degree: 0%
 
 ---
@@ -302,7 +302,12 @@ Im Kontextmenü der Tabelle haben Sie folgende Möglichkeiten:
 - Generieren von IDs
 
 
-Sie können Attribute auch für mehrere Zellen, ganze Zeilen oder Spalten einer Tabelle definieren. Um beispielsweise die Tabellenzelle auszurichten, ziehen Sie die gewünschte Zelle und wählen Sie sie aus. Im Bereich &quot;Inhaltseigenschaften&quot;\(rechts\) wird die Eigenschaft **Typ** Änderungen an **Mehrere Einstiege**. Wählen Sie im Abschnitt Andere Attribute die `@valign` -Attribut aus der Dropdown-Liste &quot;Attribut&quot;aus. Wählen Sie in der Wert-Dropdown-Liste die gewünschte Textausrichtung aus, die Sie auf die ausgewählten Tabellenzellen anwenden möchten.
+Sie können Attribute auch für mehrere Zellen, ganze Zeilen oder Spalten einer Tabelle definieren. Um beispielsweise die Tabellenzelle auszurichten, ziehen Sie die gewünschte Zelle und wählen Sie sie aus. Im Bereich &quot;Inhaltseigenschaften&quot;(rechts) wird die Eigenschaft **Typ** Änderungen an **Mehrere Einstiege**.
+
+1. Im **Attribute** Abschnitt, klicken Sie auf **+Hinzufügen**.
+1. Wählen Sie die `@valign` -Attribut aus **Attribut** Dropdown-Liste.
+1. Wählen Sie in der Wert-Dropdown-Liste die gewünschte Textausrichtung aus, die Sie auf die ausgewählten Tabellenzellen anwenden möchten.
+1. Klicken Sie auf **Hinzufügen.**
 
 ![](images/align-table-cell_cs.png){width="800" align="left"}
 
@@ -329,7 +334,7 @@ Im Feld Quelle wird die UUID der eingefügten Bilddatei angezeigt. Sie können d
 
 Sie können die Größe eines Bildes ändern, indem Sie für die Bilddatei den Wert Höhe oder Breite angeben. Das Seitenverhältnis des Bildes wird automatisch beibehalten. Bei Bedarf können Sie auch das Seitenverhältnis der Bilddatei beibehalten, indem Sie auf das Sperrsymbol \(Seitenverhältnis beibehalten\) klicken und die Werte für Höhe und Breite angeben.
 
-Sie können auch die Platzierungseinstellung für das Bild als Inline- oder Umbruch festlegen. Wenn Sie die Platzierungsoption &quot;Platzierung umbrechen&quot;verwenden, können Sie festlegen, wo das Bild ausgerichtet werden soll (links, zentriert oder rechts\).
+Sie können auch die Platzierungseinstellung für das Bild als Inline- oder Umbruch festlegen. Wenn Sie die Platzierungsoption &quot;Platzierung umbrechen&quot;verwenden, können Sie festlegen, wo das Bild ausgerichtet werden soll (links, zentriert oder rechts).
 
 Sie können auch andere Eigenschaften für eine Bilddatei hinzufügen, indem Sie die erforderlichen Eigenschaften in der **Attribute** -Feld.
 
@@ -778,7 +783,7 @@ Sie können auch im Web Editor auf eine Audio- oder Videodatei klicken und diese
 
 
 
-Durch Doppelklicken auf eine Zuordnungsdatei wird sie im **Kartenansicht**. Weitere Informationen finden Sie unter **Kartenansicht** Funktionsbeschreibung in [Linke Leiste](web-editor-features.md#id2051EA0M0HS) Abschnitt. Durch Doppelklicken auf eine Themendatei wird sie im [Inhaltsbearbeitungsbereich](#id2051EB000UI). Wenn Sie eine Datei direkt über den Web Editor navigieren und öffnen können, sparen Sie Zeit und erhöhen die Produktivität.
+Wählen Sie eine Karte aus und drücken Sie die Eingabetaste oder doppelklicken Sie auf , um sie im **Kartenansicht**. Weitere Informationen finden Sie unter **Kartenansicht** Funktionsbeschreibung in [Linke Leiste](web-editor-features.md#id2051EA0M0HS) Abschnitt. Wählen Sie ein Thema aus und drücken Sie die Eingabetaste oder doppelklicken Sie auf , um es im [Inhaltsbearbeitungsbereich](#id2051EB000UI). Wenn Sie eine Datei direkt über den Web Editor navigieren und öffnen können, sparen Sie Zeit und erhöhen die Produktivität.
 
 **Suche filtern**
 
@@ -1036,7 +1041,14 @@ Standardmäßig können Sie die Dateien anhand von Titeln anzeigen. Wenn Sie den
 >Als Administrator können Sie auch den Dateinamen der übergeordneten Zuordnung anzeigen, die derzeit in der Kartenansicht geöffnet ist. Wählen Sie die **Dateiname** der **Anzeigen von Dateien nach** Abschnitt in **Benutzereinstellungen** ![](images/user_preference_editor_icon.svg).
 
 
-Wenn Sie eine Karte in der Kartenansicht öffnen, wird der Titel der aktuellen Karte in der Mitte der Hauptsymbolleiste angezeigt. Wenn der Titel zu lang ist, wird eine Auslassungszeichen angezeigt, und Sie können auch mit dem Mauszeiger über den Titel fahren, um den vollständigen Titel in der QuickInfo anzuzeigen. Wenn Sie über Bearbeitungsrechte für die Zuordnungsdateien verfügen, können Sie auch die Dateien bearbeiten. Weitere Informationen zum Öffnen und Bearbeiten eines Themas über eine DITA-Zuordnung finden Sie unter [Themen über DITA-Map bearbeiten](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
+Wenn Sie eine Karte in der Kartenansicht öffnen, wird der Titel der aktuellen Karte in der Mitte der Hauptsymbolleiste angezeigt. Wenn der Titel zu lang ist, wird eine Auslassungszeichen angezeigt, und Sie können auch mit dem Mauszeiger über den Titel fahren, um den vollständigen Titel in der QuickInfo anzuzeigen.
+
+Wenn Sie Schlüsselattribute für das Thema oder die Zuordnungsreferenzen definieren, können Sie den Titel, das entsprechende Symbol und den Schlüssel im linken Bereich anzeigen. Der Schlüssel wird angezeigt als `keys=<key-name>`.
+
+![Schlüssel in der Kartenansicht](images/view-key-title-map-view.png){width="300" align="left"}
+
+Wenn Sie über Bearbeitungsrechte für die Zuordnungsdateien verfügen, können Sie auch die Dateien bearbeiten. Weitere Informationen zum Öffnen und Bearbeiten eines Themas über eine DITA-Zuordnung finden Sie unter [Themen über DITA-Map bearbeiten](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
+
 
 Sie können die folgenden Aktionen über das Menü Optionen der Zuordnungsdatei ausführen:
 
@@ -1163,7 +1175,7 @@ Die Gliederung bietet die folgenden Funktionen:
 
   ![](images/drop-element-outline-view_cs.png){width="300" align="left"}
 
-- Die **Optionen** im Menü *Gliederungsansicht* ermöglicht Ihnen allgemeine Vorgänge wie das Ausschneiden, Kopieren, Löschen, Generieren von ID, Einfügen von Elementen vor oder nach dem aktuellen Element, Umbenennen oder Ersetzen eines Elements, Aufheben der Einbettung eines Elements und Erstellen eines Ausschnitts aus dem ausgewählten Element.
+- Die **Optionen** im Menü *Gliederungsansicht* ermöglicht Ihnen allgemeine Vorgänge wie das Ausschneiden, Kopieren, Löschen, Generieren der ID, Einfügen von Elementen vor oder nach dem aktuellen Element, Umbenennen oder Ersetzen eines Elements, Umbrechen eines Elements, Aufheben der Einbettung eines Elements und Erstellen eines Ausschnitts aus dem ausgewählten Element.
 
 >[!NOTE]
 >
@@ -1487,9 +1499,16 @@ Verwenden Sie beispielsweise die folgende Auflistung, um die `@platform` -Attrib
 
 **Dropdown-Liste Attribute**
 
-Sie können den Wert des Betreffschemas auch über das Dropdown-Menü Attribut im Bereich Inhaltseigenschaften in der Autorenansicht ändern. Um den Wert zu ändern, wählen Sie einen Wert aus der Dropdown-Liste Attribut aus.
+Sie können den Wert des Betreffschemas auch mit der **Attribute** Dropdown aus **Inhaltseigenschaften** -Bedienfeld in **Autor** anzeigen.
+![](images/subject-scheme-attribute-dropdown.png){width="200" align="left"}
+Führen Sie die folgenden Schritte aus, um den Wert zu ändern:
 
-![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
+1. Wählen Sie ein Attribut aus dem **Attribut** Dropdown.
+1. Auswählen **Bearbeiten** ![edit-icon](images/edit_pencil_icon.svg).
+1. Wählen Sie den erforderlichen Wert aus der **Wert** Dropdown.
+1. Klicken Sie auf **Aktualisieren**.
+
+
 
 Sie können auch Werte für ein Attribut anwenden, indem Sie mehrere Werte aus der Dropdown-Liste auswählen.
 
@@ -1732,7 +1751,22 @@ Im rechten Bereich haben Sie Zugriff auf die folgenden Funktionen:
 
 **Inhaltseigenschaften** -  ![](images/content-properties-icon.svg)
 
-Sie können auf die Funktion Inhaltseigenschaften zugreifen, indem Sie im rechten Bereich auf das Symbol Inhaltseigenschaften klicken. Der Bereich Inhaltseigenschaften enthält Informationen zum Typ des aktuell ausgewählten Elements im Dokument und dessen Attributen. Sie können Attribute auch hinzufügen, indem Sie das Attribut aus der Dropdown-Liste auswählen und den Wert eines Attributs angeben.
+Sie können auf die Funktion Inhaltseigenschaften zugreifen, indem Sie im rechten Bereich auf das Symbol Inhaltseigenschaften klicken. Der Bereich Inhaltseigenschaften enthält Informationen zum Typ des aktuell ausgewählten Elements im Dokument und dessen Attributen.
+Sie können Attribute einfach hinzufügen, bearbeiten oder löschen.
+
+1. Klicks **+ Hinzufügen**.
+
+   ![-Attribute in Inhaltseigenschaften](images/properties-tab-attributes_cs.png){width="300" align="left"}
+
+1. Im **Attribut** das Attribut aus der Dropdown-Liste auswählen und den Wert eines Attributs angeben.  Klicken Sie anschließend auf **Hinzufügen**.
+
+   ![Attributebereich mit mehreren Attributen ](images/attributes-multiple-properties.png){width="300" align="left"}
+
+1. Um das Attribut zu bearbeiten, bewegen Sie den Mauszeiger darüber und wählen Sie **Bearbeiten** ![edit-icon](images/edit_pencil_icon.svg).
+   ![Attribute bearbeiten](images/edit-attributes-content-properties.png){width="300" align="left"}
+
+1. Um das Attribut zu löschen, bewegen Sie den Mauszeiger darüber und wählen Sie **Löschen** ![delete-icon](images/Delete_icon.svg).
+
 
 >[!NOTE]
 >
@@ -1740,7 +1774,7 @@ Sie können auf die Funktion Inhaltseigenschaften zugreifen, indem Sie im rechte
 
 Wenn Ihr Administrator ein Profil für Attribute erstellt hat, erhalten Sie diese Attribute zusammen mit den konfigurierten Werten. Im Bereich &quot;Inhaltseigenschaften&quot;können Sie diese Attribute auswählen und sie relevanten Inhalten in Ihrem Thema zuweisen. Auf diese Weise können Sie auch bedingte Inhalte erstellen, die dann zur Erstellung einer bedingten Ausgabe verwendet werden können. Weitere Informationen zum Generieren der Ausgabe mithilfe von bedingten Vorgaben finden Sie unter [Verwenden von Bedingungsvorgaben](generate-output-use-condition-presets.md#).
 
-![](images/properties-tab-attributes_cs.png){width="300" align="left"}
+
 
 **Dateieigenschaften** -  ![](images/topic-properties-icon.svg)
 
@@ -1750,11 +1784,12 @@ Zeigen Sie die Eigenschaften der ausgewählten Datei an, indem Sie im rechten Be
 
 Im Abschnitt Allgemein erhalten Sie Zugriff auf die folgenden Funktionen:
 
-![](images/file-properties-general.png){width="300" align="left"}
+![file-properties](images/file-properties-general.png){width="300" align="left"}
 
 - **Name**: Zeigt den Dateinamen des ausgewählten Themas an. Der Dateiname ist mit der Eigenschaftenseite der ausgewählten Datei per Hyperlink verknüpft.
 - **ID**: Zeigt die ID des ausgewählten Themas an.
-- **Metadaten-Tags**: Dies sind die Metadaten-Tags des Themas. Sie werden über das Feld &quot;Tags&quot;auf der Eigenschaftenseite festgelegt.
+- **Tags**: Dies sind die Metadaten-Tags des Themas. Sie werden über das Feld &quot;Tags&quot;auf der Eigenschaftenseite festgelegt. Sie können sie in der Dropdown-Liste eingeben oder auswählen.  Die Tags werden im Dropdown-Menü angezeigt. Um ein Tag zu löschen, wählen Sie das Kreuzsymbol neben dem Tag aus.
+- **Weitere Eigenschaften bearbeiten**: Auf der Seite mit den Dateieigenschaften können Sie weitere Eigenschaften bearbeiten.
 - **Sprache**: Zeigt die Sprache des Themas an. Sie wird im Sprachfeld auf der Eigenschaftenseite festgelegt.
 - **Erstellt am**: Zeigt Datum und Uhrzeit der Erstellung des Themas an.
 - **Ausgecheckt von**: Zeigt den Benutzer an, der das Thema ausgecheckt hat.

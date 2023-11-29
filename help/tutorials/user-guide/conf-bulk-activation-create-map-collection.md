@@ -1,10 +1,10 @@
 ---
 title: Erstellen einer Massen-Aktivierungszuordnung
 description: Erfahren Sie, wie Sie in AEM Handbüchern eine Massen-Aktivierungszuordnung erstellen.
-exl-id: 7d17fb37-9486-4a3b-a421-08e279c95b6c
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+exl-id: ea0bd465-a2d9-488f-83e9-62b336233eb1
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Auf der Registerkarte Karten und Vorgaben werden Informationen in den folgenden 
   > Der kleine ![](images/global-preset-icon.svg) -Symbol zeigt eine Vorgabe auf Ordnerprofilebene an.
 - **Geändert**: Gibt an, ob die DITA-Zuordnung nach der letzten Veröffentlichung aktualisiert wird. Anhand dieser Informationen können Sie entscheiden, ob Sie die Ausgabe für diese DITA-Zuordnung aktivieren möchten oder nicht.
 - **Generiert**: Zeigt Datum und Uhrzeit der letzten generierten Ausgabe an.
-- **Veröffentlicht**: Zeigt das Datum und die Uhrzeit der letzten veröffentlichten \(oder aktivierten\) Ausgabe an. Wenn Sie auf den Link klicken, wird die Seite Aktivierungsergebnisse mit Informationen zum Stammpfad angezeigt, in dem der Inhalt aktiviert ist.
+- **Veröffentlicht**: Zeigt das Datum und die Uhrzeit der letzten veröffentlichten (oder aktivierten) Ausgabe an. Wenn Sie den Link auswählen, wird die **Aktivierungsergebnisse** angezeigt, die die Protokolle mit Informationen zum Stammpfad enthält, in dem der Inhalt aktiviert ist.
 
 
 Die folgenden Filteroptionen sind im linken Bereich verfügbar:

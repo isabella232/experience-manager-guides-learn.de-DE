@@ -2,10 +2,10 @@
 title: Tastaturbefehle im Web-Editor
 description: Entdecken Sie zeitsparende Tastaturbefehle im Web-Editor von AEM Guides.
 exl-id: d843c5a9-04f8-44f2-9bf5-60cb4ed7fa38
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 3%
+source-wordcount: '347'
+ht-degree: 2%
 
 ---
 
@@ -24,6 +24,9 @@ Es gibt viele Vorgänge im Web Editor, die Sie mit den Tastaturbefehlen ausführ
 | Fettformatierung auf ausgewählten Text anwenden | ***Strg***+***B*** | ***Befehl***+***B*** |
 | Kurze Formatierung auf ausgewählten Text anwenden | ***Strg***+***I*** | ***Befehl***+***I*** |
 | Unterstrichene Formatierung auf ausgewählten Text anwenden | ***Strg***+***U*** | ***Befehl***+***U*** |
+| Fokus auf den linken Bereich | **Strg***+**Umschalt**+***1*** | ***Befehl***+**Umschalt**+***1*** |
+| Fokus auf das rechte Bedienfeld | **Strg***+**Umschalt**+***2*** | ***Befehl***+**Umschalt**+***2*** |
+| Fokus auf den aktuellen Editor | **Strg***+**Umschalt**+***0*** | ***Befehl***+**Umschalt**+***0*** |
 | Dokument in der Autoren- oder Quellansicht speichern | ***Strg***+**Umschalt**+***S*** | ***Befehl***+**Umschalt**+***S*** |
 | Alle geöffneten Dokumente in der Autoren- oder Quellansicht speichern | ***Strg***+***S*** | ***Befehl***+***S*** |
 | Dialogfeld &quot;Element einfügen&quot; | ***Alt***+***Eingabe*** | ***Option***+***Eingabe*** |

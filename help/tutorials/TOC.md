@@ -2,9 +2,9 @@
 user-guide-title: Tutorials für AEM Guides
 user-guide-description: Lesen Sie unsere Sammlung an Tutorials für Adobe Experience Manager Guides.
 breadcrumb-title: Tutorials für AEM Guides
-source-git-commit: 3da096cd419b63a5a68e4ee8dc39ceaa5f58d7de
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1633'
 ht-degree: 7%
 
 ---
@@ -20,30 +20,33 @@ ht-degree: 7%
       + Cloud Services {#cloud-release-notes}
          + [Bereitstellungsanweisungen](./release-info/deploy-xml-on-aemaacs.md)
          + Versionen 2023 {#2023-releases}
-         + November-Version {#2311-release}
-            + [Neuerungen](./release-info/whats-new-2023.11.0.md)
-            + [Versionshinweise](./release-info/release-notes-2023.11.0.md)
-         + Oktober-Version {#2310-release}
-            + [Neuerungen](./release-info/whats-new-2023.10.0.md)
-            + [Versionshinweise](./release-info/release-notes-2023.10.0.md)
-         + September-Version {#2309-release}
-            + [Neuerungen](./release-info/whats-new-2023.9.0.md)
-            + [Versionshinweise](./release-info/release-notes-2023.9.0.md)
-         + Juli-Version {#2307-release}
-            + [Neuerungen](./release-info/whats-new-2023.7.0.md)
-            + [Versionshinweise](./release-info/release-notes-2023.7.0.md)
-         + Juni-Version {#2306-release}
-            + [Neuerungen](./release-info/whats-new-2023.6.0.md)
-            + [Versionshinweise](./release-info/release-notes-2023.6.0.md)
-         + April-Version {#2304-release}
-            + [Neuerungen](./release-info/whats-new-2023.4.0.md)
-            + [Versionshinweise](./release-info/release-notes-2023.4.0.md)
-         + März-Version {#2303-release}
-            + [Neuerungen](./release-info/whats-new-2023.3.0.md)
-            + [Versionshinweise](./release-info/release-notes-2023.3.0.md)
-         + Februar-Version {#2302-release}
-            + [Neuerungen](./release-info/whats-new-2023.2.0.md)
-            + [Versionshinweise](./release-info/release-notes-2023.2.0.md)
+            + Dezember-Version {#2312-release}
+               + [Neuerungen](./release-info/whats-new-2023.12.0.md)
+               + [Versionshinweise](./release-info/release-notes-2023.12.0.md)
+            + November-Version {#2311-release}
+               + [Neuerungen](./release-info/whats-new-2023.11.0.md)
+               + [Versionshinweise](./release-info/release-notes-2023.11.0.md)
+            + Oktober-Version {#2310-release}
+               + [Neuerungen](./release-info/whats-new-2023.10.0.md)
+               + [Versionshinweise](./release-info/release-notes-2023.10.0.md)
+            + September-Version {#2309-release}
+               + [Neuerungen](./release-info/whats-new-2023.9.0.md)
+               + [Versionshinweise](./release-info/release-notes-2023.9.0.md)
+            + Juli-Version {#2307-release}
+               + [Neuerungen](./release-info/whats-new-2023.7.0.md)
+               + [Versionshinweise](./release-info/release-notes-2023.7.0.md)
+            + Juni-Version {#2306-release}
+               + [Neuerungen](./release-info/whats-new-2023.6.0.md)
+               + [Versionshinweise](./release-info/release-notes-2023.6.0.md)
+            + April-Version {#2304-release}
+               + [Neuerungen](./release-info/whats-new-2023.4.0.md)
+               + [Versionshinweise](./release-info/release-notes-2023.4.0.md)
+            + März-Version {#2303-release}
+               + [Neuerungen](./release-info/whats-new-2023.3.0.md)
+               + [Versionshinweise](./release-info/release-notes-2023.3.0.md)
+            + Februar-Version {#2302-release}
+               + [Neuerungen](./release-info/whats-new-2023.2.0.md)
+               + [Versionshinweise](./release-info/release-notes-2023.2.0.md)
          + Versionen 2022 {#2022-releases}
             + [November-Versionshinweise](./release-info/release-notes-2022.11.0.md)
             + [Oktober - Versionshinweise](./release-info/release-notes-2022.10.0.md)
@@ -362,7 +365,9 @@ ht-degree: 7%
    + [Java-basierte API für die Arbeit mit Ordnerprofilen](./api-reference/folder-profile-java.md)
    + [Java-basierte API zum Erstellen und Aktivieren von Paketen](./api-reference/create-activate-package-java.md)
    + [Ereignishandler für die Nachbearbeitung](./api-reference/post-process-event.md)
+   + [Ereignis-Handler für Massenaktivierung](./api-reference/bulk-activation-complete-event.md)
    + [Konvertierungs-Prozess-Ereignishandler](./api-reference/conversion-complete-event.md)
+
 + Wissensdatenbank {#knowledge-base}
    + Expertensitzung {#expert-session}
       + [Übersicht über Expertensitzungen](./knowledge-base/expert-sessions/expert-session.md)

@@ -1,10 +1,10 @@
 ---
 title: Verwenden der Kartensammlung für die Ausgabegenerierung
 description: Erfahren Sie, wie Sie eine Zuordnungssammlung erstellen und löschen und eine DITA-Zuordnung hinzufügen oder löschen. Konfigurieren, Generieren und Abbrechen einer Ausgabegenerierungsaufgabe aus einer Zuordnungssammlung in AEM Handbüchern.
-exl-id: 32e3af6c-9670-42cc-8dbe-9f99fbc60adf
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+exl-id: 41152fa4-f739-44d2-9ccd-74072f53e31b
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '1212'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ So erstellen Sie eine Map Collection und fügen der Sammlung DITA-Maps hinzu:
 
    Die DITA-Zuordnungsdateien werden Ihrer Zuordnungssammlung hinzugefügt.
 
-   ![](images/maps_presets_62_63.png){width="800" align="left"}
+   ![Mapping-Sammlungs-Dashboard](./images/map-collection-dashboard.png){width="800" align="left"}
 
 Die folgenden Filteroptionen und Zuordnungsdetails werden auf der Sammlungsseite angezeigt:
 
@@ -57,8 +57,10 @@ Die folgenden Filteroptionen und Zuordnungsdetails werden auf der Sammlungsseite
    - **Sprache**: Sie können einen der verfügbaren Sprachcodes auswählen und nur die ausgewählte Sprache in der Tabelle Karten und Vorgaben anzeigen.
 - **Maps und Vorgaben** Tabelle: Die Tabelle &quot;Karten und Vorgaben&quot;enthält Informationen in den folgenden Spalten:
    - **Zuordnung**: Zeigt den Titel der DITA-Map-Datei an.
+   - **Dateiname**: Zeigt den Dateinamen der DITA-Zuordnung an.
    - **Sprache**: Zeigt die Sprache der DITA-Zuordnung an.
    - **Voreinstellung**: Zeigt den in der Zuordnungsdatei konfigurierten Typ der Ausgabevorgabe an.
+   - **Grundlinie**: Zeigt die Grundlinie an, die von der Ausgabevorgabe verwendet wird.  Wenn keine Grundlinie verwendet wird, wird ein Bindestrich &#39;-&#39; angezeigt.
    - **Geändert**: Gibt an, ob die DITA-Zuordnung nach der letzten Veröffentlichung aktualisiert wird. Anhand dieser Informationen können Sie entscheiden, ob Sie die Ausgabe für diese DITA-Zuordnung erneut veröffentlichen möchten oder nicht.
    - **Zuletzt generiert**: Zeigt Datum und Uhrzeit der letzten generierten Ausgabe an.
 
@@ -92,9 +94,36 @@ Um die Ausgabe mithilfe einer Map Collection zu konfigurieren und zu generieren,
 
    - Um die Ausgabe der ausgewählten Karten zu generieren, wählen Sie die Zuordnungsdateien aus und klicken Sie auf **Ausgewählte generieren**.
    - Um die Ausgabe aller DITA-Maps mit den konfigurierten Vorgaben zu generieren, klicken Sie auf **Alle generieren**.
+
    >[!IMPORTANT]
    >
    > Wenn sich ein Ausgabeerstellungsprozess für eine Vorgabe oder DITA-Zuordnung entweder in der Warteschlange befindet oder in Bearbeitung ist, können Sie keine weitere Ausgabegenerierungsaufgabe für dieselbe Vorgabe oder Zuordnung starten.
+
+## Konfigurieren der Metadateneigenschaften
+
+In der Zuordnungssammlung können Sie die Metadateneigenschaften stapelweise für die DITA-Maps konfigurieren. Auswählen **Konfigurieren von Metadaten**  , um die **Asset-Metadaten** Seite. Im **Asset-Metadaten** -Seite, werden alle in der Sammlung vorhandenen Karten auf der linken Seite aufgelistet.
+
+![Metadaten konfigurieren](images/map-collection-asset-metadata.png){width="800" align="left"}
+
+Führen Sie die folgenden Schritte aus, um die Metadateneigenschaften zu konfigurieren:
+
+1. Sie können die Karten auswählen, für die die Metadaten aktualisiert werden sollen. Standardmäßig sind alle vorhandenen DITA-Maps ausgewählt.
+
+1. Nachdem Sie die DITA-Maps ausgewählt haben, können Sie Eigenschaften wie Metadaten, planmäßige (de)Aktivierung, Verweise, Dokumentstatus und mehr anzeigen.
+
+1. Aktualisieren Sie die Metadateneigenschaften.
+
+1. Klicks **Speichern und schließen** oben, um die Aktualisierungen zu speichern.
+1. (Optional) Wenn Sie die Tags aktualisieren, können Sie auch im **Speichern und schließen** Dropdown, um die neuen Tags an die vorhandene Liste anzuhängen.
+1. Klicks **Einsenden** aus dem **Speichern und schließen** Dropdown.
+Die Metadateneigenschaften werden für die DITA-Maps aktualisiert, die Sie stapelweise aus der Zuordnungssammlung auswählen.
+
+>[!NOTE]
+> 
+>Für **Dokumentstatus** in der Dropdown-Liste können Sie nur die Dokumentstatus auswählen, die für alle ausgewählten DITA-Maps gemeinsam zulässig sind. Weitere Informationen finden Sie unter [**Dokumentstatus**](./web-editor-document-states.md).
+
+Die Metadateneigenschaften werden mit den Dateieigenschaften synchronisiert. Nach der Aktualisierung können Sie sie im **Dateieigenschaften** im Web Editor angezeigt.
+
 
 
 ## Löschen einer Map-Sammlung oder einer DITA-Zuordnung aus der Map Collection
@@ -102,7 +131,7 @@ Um die Ausgabe mithilfe einer Map Collection zu konfigurieren und zu generieren,
 - Um eine Zuordnungssammlung zu löschen, wählen Sie eine Sammlung auf der Seite &quot;Zuordnungssammlung&quot;aus und klicken Sie auf **Löschen**.
 - Um eine DITA-Map aus einer Map-Sammlung zu löschen, öffnen Sie die Map-Sammlung im Bearbeitungsmodus, wählen Sie die DITA-Map-Datei aus und klicken Sie auf **Aus Sammlung löschen**.
 
-  Dadurch werden auch alle mit der DITA-Map verknüpften Vorgaben oder Gebietsschemata aus der Map-Sammlung entfernt.
+Dadurch werden auch alle mit der DITA-Map verknüpften Vorgaben oder Gebietsschemata aus der Map-Sammlung entfernt.
 
 
 ## Abbrechen einer Ausgabenerstellungsaufgabe aus einer Map Collection

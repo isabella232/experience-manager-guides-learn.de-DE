@@ -1,10 +1,10 @@
 ---
 title: Arbeiten mit dem erweiterten Map-Editor
 description: Erfahren Sie, wie Sie mit dem erweiterten Map-Editor in AEM Guides arbeiten. Machen Sie sich mit den Funktionen des erweiterten Map-Editors vertraut. Bearbeiten Sie Themen über eine DITA-Zuordnung und verwenden Sie die Layoutansicht, die Autorenansicht und den Vorschaumodus.
-exl-id: 4f48d489-d13e-4285-8870-373f0324f5f6
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '3701'
+source-wordcount: '3707'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ Führen Sie die folgenden Schritte aus, um Ihre Zuordnungsdatei mit dem erweiter
 
    Das Thema wird der Karte hinzugefügt.
 
-   ![](images/map-editor-add-topic.png){width="800" align="left"}
+   ![Map Editor hinzufügen](images/map-editor-add-topic.png){width="800" align="left"}
 
 1. Um nachfolgende Themen oder eine Unterzuordnung hinzuzufügen, ziehen Sie das Thema oder die Unterzuordnung per Drag-and-Drop an die gewünschte Position in der Zuordnung.
 
@@ -231,7 +231,7 @@ Der Bereich &quot;Inhaltseigenschaften&quot;enthält Informationen zum Typ des a
 
 - **Andere Attribute** Wenn Ihr Administrator ein Profil für Attribute erstellt hat, erhalten Sie diese Attribute zusammen mit den konfigurierten Werten. Im Bereich &quot;Inhaltseigenschaften&quot;können Sie diese Attribute auswählen und sie relevanten Inhalten in Ihrem Thema zuweisen. Sie können auch Attribute zuweisen, die von Ihrem Administrator unter der **Anzeigenattribute** in den Editor-Einstellungen. Die für ein Element definierten Attribute werden im Layout und in der Gliederungsansicht angezeigt. Auf diese Weise können Sie sich alle Themen in einer Zuordnung, für die ein bestimmtes Attribut definiert ist, kurz ansehen. Beispielsweise alle Themen, für die das Plattformattribut als &quot;Android&quot;definiert ist.
 
-  ![](images/layout-inline-attributes.png){width="650" align="left"}
+  ![Layoutansicht](images/layout-inline-attributes.png){width="650" align="left"}
 
 
   Weitere Informationen finden Sie unter *Anzeigenattribute* innerhalb der *Editor-Einstellungen* Funktionsbeschreibung in [Linke Leiste](web-editor-features.md#id2051EA0M0HS) Abschnitt.

@@ -2,10 +2,10 @@
 title: Ausgabegenerierungseinstellungen konfigurieren
 description: Erfahren Sie, wie Sie die Einstellungen für die Generierung von Ausgaben konfigurieren
 exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '5340'
-ht-degree: 1%
+source-wordcount: '5496'
+ht-degree: 2%
 
 ---
 
@@ -140,6 +140,23 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 | PID | Eigenschaftenschlüssel | Eigenschaftswert |
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `aemsite.pagetitle` | Boolesch \(true/false\). Wenn Sie die Ausgabe mithilfe des Seitentitels generieren möchten, setzen Sie diese Eigenschaft auf &quot;true&quot;. Standardmäßig ist die Verwendung des Dateinamens festgelegt.<br> **Standardwert**: false |
+
+### URL der Ausgabe der AEM Site zur Verwendung des Dokumenttitels konfigurieren
+
+Sie können die Dokumenttitel in der URL der AEM Site-Ausgabe verwenden. Wenn der Dateiname nicht vorhanden ist oder alle Sonderzeichen enthält, können Sie das System so konfigurieren, dass die Sonderzeichen in der URL der AEM Site-Ausgabe durch ein Trennzeichen ersetzt werden. Sie können sie auch so konfigurieren, dass sie durch den Namen des ersten untergeordneten Themas ersetzt werden.
+
+
+Um die Seitennamen zu konfigurieren, führen Sie die folgenden Schritte aus:
+
+1. Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-install-additional-config-override.md#) , um die Konfigurationsdatei zu erstellen.
+1. Geben Sie in der Konfigurationsdatei die folgenden (Eigenschaft-)Details an, um die Seitennamen für die Themen zu konfigurieren.
+
+| PID | Eigenschaftenschlüssel | Eigenschaftswert |
+|---|------------|--------------|
+| `com.adobe.fmdita.common.SanitizeNodeName` | `nodename.systemDefinedPageName` | Boolesch (`true/false`). **Standardwert**: `false` |
+
+Wenn beispielsweise die Variable *@navtitle* in `<topichead>` enthält alle Sonderzeichen und Sie legen `aemsite.pagetitle` -Eigenschaft auf &quot;true&quot;gesetzt ist, wird standardmäßig ein Trennzeichen verwendet. Wenn Sie die `nodename.systemDefinedPageName` auf &quot;true&quot;gesetzt ist, wird der Name des ersten untergeordneten Themas angezeigt.
+
 
 ### Konfigurieren von Bereinigungsregeln für Dateinamen zum Erstellen von Themen und Veröffentlichen AEM Site-Ausgabe {#id2164D0KD0XA}
 
