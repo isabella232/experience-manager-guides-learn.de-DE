@@ -1,9 +1,9 @@
 ---
 title: Versionshinweise | Neue Funktionen in der Adobe Experience Manager-Anleitung, Version Dezember 2023
 description: Erfahren Sie mehr über die neuen und verbesserten Funktionen in der Version von Adobe Experience Manager Guides as a Cloud Service im Dezember 2023.
-source-git-commit: 9fcc8faec4631d710dbdfd7e4f8567069d0ba120
+source-git-commit: 8d24048af5f5583988da50927e31f2643d844e68
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1021'
 ht-degree: 0%
 
 ---
@@ -99,6 +99,8 @@ Jetzt können Sie den Dateinamen der DITA-Map anzeigen. Sie können auch die Gru
 ![Sammlungs-Dashboard zuordnen](assets/map-collection-dashboard.png){width="800" align="left"}
 
 *Anzeigen, Bearbeiten und Generieren der Ausgabe über das Dashboard der Zuordnungssammlung.*
+
+Erfahren Sie, wie [Verwenden der Kartensammlung für die Ausgabegenerierung](../user-guide/generate-output-use-map-collection-output-generation.md).
 
 ## Anzeigen von Schlüsselattributen in der Kartenansicht
 

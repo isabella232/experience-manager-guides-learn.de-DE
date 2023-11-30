@@ -1,9 +1,10 @@
 ---
 title: Versionshinweise | Neue Funktionen in der Adobe Experience Manager-Anleitung, Version November 2023
 description: Erfahren Sie mehr über die neuen und verbesserten Funktionen in der Version von Adobe Experience Manager Guides as a Cloud Service im November 2023.
-source-git-commit: 6cc5299f8f4566e38c5a8c96e17fadd915f6e206
+exl-id: 83c04e01-92f1-41b0-8866-a202f4106b51
+source-git-commit: 57ff1a3b6ceb9debc8e29065fd37cab21adc1b96
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
@@ -43,6 +44,7 @@ Weitere Informationen finden Sie unter [Erweiterte PDF-Einstellungen](../native-
 ### Verbesserte Ressourcenverwaltung für native PDF-Vorlagen
 
 Experience Manager Guides haben die Ressourcenverwaltung für native PDF-Vorlagen verbessert. Sie können jetzt Ressourcen wie Bilder, CSS-Dateien und Schriftartdateien für mehrere native PDF-Vorlagen freigeben und wiederverwenden. Durch diese Verbesserung ist die Verwaltung der Ressourcen für eine große Anzahl von Vorlagen wesentlich einfacher. Sie müssen keine doppelten Ressourcen für jede Vorlage erstellen und diese in einem freigegebenen Ordner speichern und in allen nativen PDF-Vorlagen verwenden.
+Weitere Informationen finden Sie unter [PDF-Vorlage](../native-pdf/pdf-template.md).
 
 ## Verbesserungen am Webeditor
 
@@ -64,6 +66,8 @@ Sie können Bedingungsattribute in Ihren DITA-Themen definieren. Verwenden Sie d
 
 ![Bedingungsvorgaben auf der Registerkarte &quot;Verwalten&quot;des Web-Editors ](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
 
+Weitere Informationen finden Sie unter [Verwenden von Bedingungsvorgaben](../user-guide/generate-output-use-condition-presets.md).
+
 ### Dateiregisterkarten beim Aktualisieren des Browsers wiederherstellen
 
 Experience Manager-Handbücher stellen beim Aktualisieren des Browsers den Status der geöffneten Dateiregisterkarten im Web Editor wieder her. Weitere Informationen finden Sie unter **Aktualisieren des Browsers beim Bearbeiten der Dateien** Abschnitt unter [Bearbeiten von Themen im Web-Editor](../user-guide/web-editor-edit-topics.md).
@@ -78,4 +82,3 @@ Weitere Informationen finden Sie unter **Umbruch eines Elements aufheben** aus d
 Experience Manager-Handbücher ermöglichen es Ihnen jetzt auch, Tastaturbefehle zu verwenden, um den Cursor in den Web-Editor zu verschieben. Sie können die Tastaturbefehle verwenden, um ein Wort schnell nach links oder rechts zu verschieben. Mithilfe der Tastaturbefehle können Sie auch zum Anfang oder Ende der Zeile wechseln.
 Jetzt können Sie auch Tastaturbefehle verwenden, um den Cursor an den Anfang des nächsten Elements oder an das Ende des vorherigen Elements zu verschieben.
 Weitere Informationen zum [Tastaturbefehle im Web-Editor](../user-guide/web-editor-keyboard-shortcuts.md).
-
