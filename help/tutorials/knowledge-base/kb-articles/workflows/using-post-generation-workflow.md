@@ -1,13 +1,13 @@
 ---
 title: Arbeitsablauf nach der Erstellung
 description: Eine Übersicht über den Nachbearbeitungs-Workflow mit einem Beispiel
-source-git-commit: 447cd512d1b6cdce3bd1ddded1575dab87daa04a
+exl-id: e19fdc0b-0ec6-46ce-81ed-e9490d12c029
+source-git-commit: b8fed051e235146cd797af2524a68d8d2d0f16c6
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '320'
 ht-degree: 2%
 
 ---
-
 
 # Veröffentlichung von AEM-Handbüchern - Workflow nach der Erstellung
 
@@ -21,7 +21,7 @@ Sie können beispielsweise bestimmte Eigenschaften für die PDF-Ausgabe festlege
 
 Erstellen Sie einen Java- oder ECMA-basierten Workflow-Prozess, der den Vorgang für die generierte Ausgabe ausführt. Beispiel: Kopieren einiger Metadaten aus der Quelle in den generierten Inhalt oder Bearbeiten von Metadaten der generierten Ausgabe.
 - Wir werden ein Beispiel für die Erstellung eines solchen Prozesses mit ECMA-Skript verwenden (siehe angehängtes Paket).
-- Informationen zum Java-basierten Workflow-Prozess finden Sie im Abschnitt &quot;*Arbeitsablauf für die Generierung nach der Ausgabe anpassen*&quot; [Handbuch zur Installation und Konfiguration](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_Installation-Configuration-Guide_EN.pdf#page=119)
+- Informationen zum Java-basierten Workflow-Prozess finden Sie im Abschnitt &quot;*Arbeitsablauf für die Generierung nach der Ausgabe anpassen*&quot; [Handbuch zur Installation und Konfiguration](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/custom-workflow/customize-workflows.html?lang=en#id17A6GI004Y4)
 
 
 ### Erstellen Sie ein Workflow-Modell
