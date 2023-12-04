@@ -1,13 +1,12 @@
 ---
 title: Anzeige von UUID-basierten Links konfigurieren
 description: Erfahren Sie, wie Sie die Anzeige von UUID-basierten Links konfigurieren.
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 1%
 
 ---
-
 
 # Anzeige von UUID-basierten Links konfigurieren {#id2035G20M0QN}
 
@@ -20,4 +19,3 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.uuid` | Boolesch \(true/false\). Wenn Sie den relativen Pfad des verknüpften Inhalts anzeigen möchten, setzen Sie diese Eigenschaft auf &quot;false&quot;. <br> **Standardwert**: true |
 
 **Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
-

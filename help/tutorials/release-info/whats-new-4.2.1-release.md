@@ -1,9 +1,9 @@
 ---
 title: Versionshinweise | Neue Funktionen in Version 4.2.1 der Adobe Experience Manager-Handbücher
 description: Erfahren Sie mehr über die neuen und verbesserten Funktionen in Version 4.2.1 der Adobe Experience Manager-Handbücher.
-source-git-commit: 6a1c6383f827bcd1e388290a793b69d372b7e7ce
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Weitere Informationen finden Sie unter [AEM](../user-guide/web-editor-launch-edi
 
 ## Erweiterte Metadatenunterstützung beim PDF-Publishing
 
-AEM Guides bieten jetzt erweiterte Unterstützung für die Metadaten, die den Metadaten in Ihrer PDF-Ausgabe zugeordnet sind. Die Metadatenoptionen enthalten Informationen über das Dokument und seinen Inhalt, wie den Namen des Autors, den Dokumenttitel, Schlüsselwörter, Copyright-Informationen und andere Datenfelder.
+AEM Guides bieten jetzt erweiterte Unterstützung für die Metadaten, die den Metadaten in Ihrer PDF-Ausgabe zugeordnet sind. Die Metadatenoptionen enthalten Informationen über das Dokument und seinen Inhalt, wie z. B. den Namen des Autors, den Dokumenttitel, Schlüsselwörter, Copyright-Informationen und andere Datenfelder.
 
 <img src="assets/pdf-metadata.png" alt=" native PDF-Metadaten">
 
@@ -78,7 +78,7 @@ Weitere Informationen finden Sie unter [Verwenden benutzerdefinierter Stile in F
 
 ## Öffnen und Abspielen von Video- oder Audiodateien im Web Editor
 
-AEM Handbücher bietet jetzt die Funktion zum Öffnen und Abspielen der Audio- oder Videodateien im Web Editor. Sie können die Lautstärke oder die Ansicht des Videos ändern. Im Kontextmenü haben Sie auch die Möglichkeit, **Download**, ändern **Rückspielgeschwindigkeit** oder Ansicht **Bild im Bild**.
+AEM Handbücher bietet jetzt die Funktion zum Öffnen und Abspielen der Audio- oder Videodateien im Web Editor. Sie können die Lautstärke oder die Ansicht des Videos ändern. Im Kontextmenü haben Sie auch die Möglichkeit, **Herunterladen**, ändern **Rückspielgeschwindigkeit** oder Ansicht **Bild im Bild**.
 
 <img src="assets/video-web-editor.png" alt="Abspielvideo" width="600">
 

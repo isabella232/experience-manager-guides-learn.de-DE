@@ -1,13 +1,12 @@
 ---
 title: REST-APIs für die Output-Verwaltung
 description: Erfahren Sie mehr über REST-APIs für die Output-Verwaltung
-source-git-commit: 4dcd90422f02f3b45aa74137fe58609962b09b49
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1175'
 ht-degree: 0%
 
 ---
-
 
 # REST-APIs für die Output-Verwaltung {#id175UB30E05Z}
 
@@ -134,4 +133,3 @@ Eine POST-Methode zum Löschen einer Ausgabevorgabe.
 **Parameter**: |Name|Typ|Erforderlich|Beschreibung| |—|—|—|—|—| |`:operation`|String|Ja|Name des aufzurufenden Vorgangs. Der Wert dieses Parameters lautet `deleteoutput`.<br> **Hinweis:** Beim Wert wird nicht zwischen Groß- und Kleinschreibung unterschieden.| |`sourcePath`|Zeichenfolge|Ja|Absoluter Pfad der DITA-Map-Datei.| |`outputName`|Zeichenfolge|Ja|Name der zu löschenden Ausgabevorgabe.|
 
 **Antwortwerte**: Gibt eine HTTP-Antwort 200 \(erfolgreich\) zurück.
-

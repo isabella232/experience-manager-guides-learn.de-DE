@@ -1,11 +1,10 @@
 ---
 title: Versionshinweise für [!DNL AEM Guides], Version Februar 2022
 description: Februar-Version [!DNL Adobe Experience Manager Guides] as a Cloud Service
-exl-id: eb7ff475-bb5b-4d32-b291-024147fbfed1
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 3%
+source-wordcount: '974'
+ht-degree: 0%
 
 ---
 
@@ -14,9 +13,9 @@ ht-degree: 3%
 ## Aktualisierung auf die Februarversion
 
 Aktuelles Upgrade durchführen [!DNL Adobe Experience Manager Guides] as a Cloud Service (später genannt) [!DNL AEM Guides] as a Cloud Service Einrichtung) durch Ausführen der folgenden Schritte:
-1. Sehen Sie sich den Git-Code des Cloud Services an und wechseln Sie zu der Verzweigung, die in der Cloud Services-Pipeline entsprechend der Umgebung konfiguriert ist, die Sie aktualisieren möchten.
-1. Aktualisieren `<dox.version>` -Eigenschaft in `/dox/dox.installer/pom.xml` -Datei Ihres Cloud Services-Git-Codes auf 2022.2.114.
-1. Übertragen Sie die Änderungen und führen Sie die Cloud Services-Pipeline aus, um auf die Februar-Version von zu aktualisieren. [!DNL AEM Guides] as a Cloud Service.
+1. Sehen Sie sich den Git-Code des Cloud Service an und wechseln Sie zu der Verzweigung, die in der Cloud Service-Pipeline entsprechend der Umgebung konfiguriert ist, die Sie aktualisieren möchten.
+1. Aktualisieren `<dox.version>` -Eigenschaft in `/dox/dox.installer/pom.xml` -Datei Ihres Cloud Service-Git-Codes auf 2022.2.114.
+1. Übertragen Sie die Änderungen und führen Sie die Cloud Service-Pipeline aus, um auf die Februar-Version von zu aktualisieren. [!DNL AEM Guides] as a Cloud Service.
 
 ## Kompatibilitätsmatrix
 
@@ -27,7 +26,7 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die von [!DNL AEM Guide
 | FMPS | FrameMaker |
 | --- | --- |
 | Nicht kompatibel | Aktualisierung 4 und höher für 2020 |
-|  |  |
+| | |
 
 
 ### Sauerstoffanschluss
@@ -38,7 +37,7 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die von [!DNL AEM Guide
 |  |  |  |
 
 
-## Neue Funktionen und Erweiterungen
+## Neue Funktionen und Verbesserungen
 
 ### Native PDF-Veröffentlichung
 
@@ -76,7 +75,7 @@ Weitere Informationen finden Sie unter *Szenarien zum Schließen und Speichern v
 
 Wenn Sie die DITA-Map herunterladen, wird die Anfrage in die Warteschlange gestellt und Sie erhalten eine Benachrichtigung, sobald die Karte zum Herunterladen bereit ist. Sie können die Zuordnungsdatei sofort herunterladen oder später über den im Posteingang für AEM Benachrichtigungen angegebenen Link herunterladen.
 
-![Map download](assets/download-map-prompt.png)
+![Herunterladen von Karten](assets/download-map-prompt.png)
 
 ### Überprüfung
 
@@ -91,17 +90,17 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Bei der artikelbasierten Veröffentlichung werden keine Artikel veröffentlicht, die auf der ausgewählten Grundlinie basieren. (8771)
 * DITAVAL-Dateien werden bei der artikelbasierten Veröffentlichung nicht berücksichtigt. (8770)
 * Artikelbasierte Veröffentlichung für Salesforce-Profil kann nicht durchgeführt werden, wenn der Datensatztyp FAQ ist und der Artikelfeldinhalt Frage lautet. (8448)
-* Artikelbasierte Veröffentlichung für das Salesforce-Profil ist nicht möglich, wenn der Datensatztyp manuell ist. (8447)
+* Artikelbasierte Veröffentlichung für das Salesforce-Profil kann nicht durchgeführt werden, wenn der Datensatztyp manuell ist. 8447)
 
-### Web Editor
+### Web-Editor
 
 * Das Ziehen und Ablegen einer Bedingung funktioniert in DITA-Themen nicht. (8761)
 * Beim Hinzufügen eines Kapitels zu einer Lesekarte über Drag &amp; Drop aus der Favoriten-Ansicht fehlen Attribute. (8746)
 * Das Bearbeiten der Eigenschaften eines Bildes (Höhe, Breite) führt zu einem Anwendungsfehler. (8722)
-* Beschädigte Links werden nicht im Bedienfeld &quot;Umrisse&quot;in der Quellansicht angezeigt. (8590)
-* Der XML-Editor entfernt Zeilenumbruch-Tags in Codeblock. (8522)
+* Beschädigte Links werden nicht im Bedienfeld &quot;Umrisse&quot;in der Quellansicht angezeigt. 8590)
+* Der XML-Editor entfernt Zeilenumbruch-Tags in Codeblock. 8522)
 * Die Glossnutzung wird bei der Erstellung eines Glossars als Hinweis angezeigt. (8384)
-* xref kann nicht selbst an gültigen Stellen eingefügt werden. (8354)
+* xref kann nicht selbst an gültigen Stellen eingefügt werden. 8354)
 * Die Elementliste (Alt+Eingabetaste) wird im dunklen/dunkelsten Design grau dargestellt. (7913)
 * Die Liste der Zuordnungsvorlagen in **Erstellen** option( Suchmenü) des Repository-Bedienfelds entspricht nicht dem **Ordnerprofil** in den Benutzereinstellungen. (5918)
 * Element-IDs werden nicht automatisch für Elemente generiert, die über die Funktion Inhalt wiederverwenden in der Hauptsymbolleiste hinzugefügt werden. (5826)
@@ -111,7 +110,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Die Bildbearbeitung funktioniert auf dem Cloud-Server nicht erwartungsgemäß. (8768)
 * Im Bedienfeld Versionsverlauf zeigt der aktuelle Versionsabschnitt einen falschen Zeitstempel an und wurde durch Informationen geändert. (8765)
 * Das Hochladen von DITAVAL-Dateien auf den Cloud-Server schlägt fehl, wenn AEM Desktop-Tool verwendet wird. (8707)
-* Der zweite Administrator-Benutzer kann nicht als erster Administrator-Benutzer zu einem Ordner hinzugefügt werden. (8430)
+* Der zweite Administrator-Benutzer kann nicht als erster Administrator-Benutzer zu einem Ordner hinzugefügt werden. 8430)
 * Nicht eindeutige Eigenschaften eines Assets werden beim Kopieren und Einfügen des Assets nicht kopiert. (8241)
 
 ### Nutzungsänderungen

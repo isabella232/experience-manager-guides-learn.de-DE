@@ -1,9 +1,9 @@
 ---
 title: Ausgabegenerierungseinstellungen konfigurieren
 description: Erfahren Sie, wie Sie die Einstellungen für die Generierung von Ausgaben konfigurieren
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '5761'
+source-wordcount: '5762'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ Die **Registerkarte &quot;Grundlinie ausblenden&quot;** ist nicht standardmäßi
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Suchen Sie nach und klicken Sie auf **com.adobe.fmdita.config.ConfigManager** Bundle.
+1. Suchen Sie nach und klicken Sie auf **com.adobe.fmdita.config.ConfigManager** Bundle
 
 1. Wählen Sie die **Registerkarte &quot;Grundlinie ausblenden&quot;** -Option.
 
@@ -43,7 +43,7 @@ Sie können FrameMaker Publishing Server \(FMPS\) verwenden, um eine Ausgabe fü
 
 >[!NOTE]
 >
-> Um die Ausgabe mit FMPS zu generieren, müssen Sie über den FMPS-Server verfügen. Informationen zur Installation und Konfiguration finden Sie im Benutzerhandbuch für FrameMaker Publishing Server.
+> Um die Ausgabe mithilfe von FMPS zu generieren, müssen Sie über den FMPS-Server verfügen. Weitere Informationen zur Installation und Konfiguration finden Sie im FrameMaker Publishing Server-Benutzerhandbuch.
 
 Um AEM Guides für die Verwendung von FMPS zu konfigurieren, aktualisieren Sie die folgenden Eigenschaften der `com.adobe.fmdita.config.ConfigManager` Bundle in der Web-Konsole.
 
@@ -53,13 +53,13 @@ Um AEM Guides für die Verwendung von FMPS zu konfigurieren, aktualisieren Sie d
 
 | Eigenschaft | Beschreibung |
 |--------|-----------|
-| Anmeldedomäne für FrameMaker Publishing Server | Geben Sie den Domänennamen oder den Arbeitsgruppennamen an, auf dem der FrameMaker Publishing Server gehostet wird. Geben Sie je nach FMPS-Version den Domänennamen wie folgt an:-   **FMPS 2020**: IP-Adresse: 192.168.1.101 <br>- **FMPS 2019 und früher**: IP-Adresse oder Domänenname |
-| URL des FrameMaker Publishing Server | Geben Sie die URL des FrameMaker Publishing Server an. Stellen Sie die FMPS-URL basierend auf der FMPS-Version wie folgt bereit:<br>- **FMPS 2020**: `http://<fmps_ip>:<port>` \(http://192.168.1.101:7000\) <br> - **FMPS 2019 und früher**: `http://<fmps_ip>:<port>/fmserver/v1/` |
-| FMPS-Version | Geben Sie die Versionsnummer des FrameMaker Publishing Server an. Geben Sie je nach FMPS-Version die Versionsinformationen wie folgt an: <br>- **FMPS 2020**: 2020 <br> - **FMPS 2019 und früher**: 2019 oder 2017 |
-| Benutzername und Kennwort für FrameMaker Publishing Server | Geben Sie den Benutzernamen und das Kennwort für den Zugriff auf den FrameMaker Publishing Server an. |
-| FMPS-Zeitüberschreitung | \(*Optional*\) Geben Sie die Zeit \(in Sekunden\) an, für die AEM Guides auf eine Antwort vom FrameMaker Publishing Server warten. Wenn keine Antwort in der angegebenen Zeit empfangen wurde, beendet AEM Guides die Veröffentlichungsaufgabe und die Aufgabe wird als fehlgeschlagen gekennzeichnet. <br> Standardwert: 300 Sekunden \(5 Minuten\) |
-| Externe AEM-URL | *\(Optional\)* Die AEM-URL, in der der FrameMaker Publishing Server die generierten Ausgabedateien platziert. Beispiel: `http://<server-name>:<port>/`. |
-| AEM Admin-Benutzername und -Passwort | *\(Optional\)* Der Benutzername und das Kennwort für einen Administrator Ihrer AEM. Dies wird von FrameMaker Publishing Server zur Kommunikation mit AEM verwendet. |
+| FrameMaker Publishing Server Login Domain | Geben Sie den Domänennamen oder den Arbeitsgruppennamen an, auf dem die FrameMaker Publishing Server gehostet wird. Geben Sie je nach FMPS-Version den Domänennamen wie folgt an:   **FMPS 2020**: IP-Adresse als 192.168.1.101 <br>- **FMPS 2019 und früher**: IP-Adresse oder Domänenname |
+| FrameMaker Publishing Server-URL | Geben Sie die URL der FrameMaker Publishing Server an. Stellen Sie die FMPS-URL basierend auf der FMPS-Version wie folgt bereit:<br>- **FMPS 2020**: `http://<fmps_ip>:<port>` \(http://192.168.1.101:7000\) <br> - **FMPS 2019 und früher**: `http://<fmps_ip>:<port>/fmserver/v1/` |
+| FMPS-Version | Geben Sie die Versionsnummer der FrameMaker Publishing Server an. Geben Sie basierend auf der FMPS-Version die Versionsinformationen wie folgt an: <br>- **FMPS 2020**: 2020 <br> - **FMPS 2019 und früher**: 2019 oder 2017 |
+| FrameMaker Publishing Server Benutzername und Kennwort | Geben Sie den Benutzernamen und das Kennwort für den Zugriff auf die FrameMaker Publishing Server an. |
+| FMPS-Zeitüberschreitung | \(*Optional*\) Geben Sie die Zeit \(in Sekunden\) an, für die AEM Guides auf eine Antwort von der FrameMaker Publishing Server warten. Wenn keine Antwort in der angegebenen Zeit empfangen wurde, beendet AEM Guides die Veröffentlichungsaufgabe und die Aufgabe wird als fehlgeschlagen gekennzeichnet. <br> Standardwert: 300 Sekunden \(5 Minuten\) |
+| Externe AEM-URL | *\(Optional\)* Die AEM-URL, in der die FrameMaker Publishing Server die generierten Ausgabedateien platziert. Zum Beispiel: `http://<server-name>:<port>/`. |
+| AEM Admin-Benutzername und Kennwort | *\(Optional\)* Der Benutzername und das Kennwort für einen Administrator Ihrer AEM. Dies wird von FrameMaker Publishing Server verwendet, um mit AEM zu kommunizieren. |
 | Timeout für die Ausführung von FMPS-Aufgaben | Diese Einstellung gilt nur für FMPS 2020. Geben Sie die Zeit \(in Sekunden\) an, nach der FMPS nicht mehr auf die Ausführung dieses Prozesses warten soll. |
 
 ## Gemischte Veröffentlichung auf einer vorhandenen AEM-Site konfigurieren {#id1691I0V0MGR}
@@ -79,7 +79,7 @@ Sie müssen die folgenden Konfigurationen auf Ihrer vorhandenen Site durchführe
 
 Führen Sie die folgenden Schritte aus, um die Vorlageneigenschaften Ihrer vorhandenen Site zu konfigurieren:
 
-1. Melden Sie sich bei AEM an und öffnen Sie den Modus CRXDE Lite .
+1. Melden Sie sich bei AEM an und öffnen Sie den CRXDE Lite-Modus.
 
 1. Navigieren Sie zum Vorlagenkonfigurationsknoten Ihrer Site. Beispielsweise speichert AEM Guides die standardmäßigen Vorlagenkonfigurationen im folgenden Knoten:
 
@@ -107,7 +107,7 @@ Bei vorhandenen Sites müssen Sie jedoch die `topicContentNode` und `topicHeadNo
 
 Führen Sie die folgenden Schritte aus, um die erforderlichen Knoten zu Ihrer vorhandenen Site hinzuzufügen:
 
-1. Melden Sie sich bei AEM an und öffnen Sie den Modus CRXDE Lite .
+1. Melden Sie sich bei AEM an und öffnen Sie den CRXDE Lite-Modus.
 
 1. Suchen `jcr:content` innerhalb Ihres Site-Knotens.
 
@@ -122,7 +122,7 @@ AEM Guides unterstützen das Erstellen von Ausgaben in folgenden Formaten:
 
 - PDF
 
-- HTML 5
+- HTML5
 - EPUB
 - Benutzerdefinierte Ausgabe über DITA-OT
 
@@ -144,7 +144,7 @@ Mit der im Lieferumfang von AEM Guides enthaltenen Standard-Designvorlage könne
 
 Führen Sie die folgenden Schritte aus, um Ihre eigene Designvorlage für AEM Site-Ausgabegenerierung festzulegen:
 
-1. Melden Sie sich bei AEM an und öffnen Sie den Modus CRXDE Lite .
+1. Melden Sie sich bei AEM an und öffnen Sie den CRXDE Lite-Modus.
 
 1. Navigieren Sie zum Knoten der Standard-Designvorlage . Der Speicherort des Standardknotens der Designvorlage lautet:
 
@@ -162,18 +162,18 @@ Führen Sie die folgenden Schritte aus, um Ihre eigene Designvorlage für AEM Si
 
    | Eigenschaft | Beschreibung |
    |--------|-----------|
-   | `landingPageTemplate`, `searchPageTemplate`, `topicPageTemplate`, `shadowPageTemplate` | Geben Sie die `cq:Template` Knoten für diese entsprechenden Seiten \(Landingpage, Suche und Thema\). Standardmäßig wird die `cq:Template` -Knoten für diese Seiten finden Sie unter `/libs/fmdita/templates/default/cqtemplates` Knoten. Dieser Knoten definiert die Struktur und Eigenschaften der Landingpage, der Such- und der Themenseite. <br>Die `shadowPageTemplate` wird verwendet, um den Chunked-Inhalt zu optimieren. Sie müssen den Wert dieser Eigenschaft auf Folgendes festlegen: <br> `fmdita/templates/default/cqtemplates/shadowpage` <br> **Hinweis** Sie müssen einen Wert für die `topicPageTemplate`. Die `landingPageTemplate` und `searchPageTemplate` sind optionale Eigenschaften. Wenn Sie nicht möchten, dass die Such- und Landingpages generiert werden, geben Sie diese Eigenschaften nicht an. |
+   | `landingPageTemplate`, `searchPageTemplate`, `topicPageTemplate`, `shadowPageTemplate` | Geben Sie die `cq:Template` Knoten für diese entsprechenden Seiten \(Landingpage, Suche und Thema\). Standardmäßig wird die `cq:Template` -Knoten für diese Seiten finden Sie unter `/libs/fmdita/templates/default/cqtemplates` Knoten. Dieser Knoten definiert die Struktur und Eigenschaften der Landingpage, der Such- und der Themenseite. <br>Die `shadowPageTemplate` wird zur Optimierung des Chunked-Inhalts verwendet. Sie müssen den Wert dieser Eigenschaft auf Folgendes festlegen: <br> `fmdita/templates/default/cqtemplates/shadowpage` <br> **Hinweis** Sie müssen einen Wert für `topicPageTemplate`. Die `landingPageTemplate` und `searchPageTemplate` sind optionale Eigenschaften. Wenn Sie nicht möchten, dass die Such- und Landingpages generiert werden, geben Sie diese Eigenschaften nicht an. |
    | `title` | Ein beschreibender Name Ihrer Designvorlage. |
    | `topicContentNode` | Der Speicherort des Knotens, der den DITA-Inhalt auf einer Themenseite enthält. Der Pfad ist relativ zur Themenseite. |
    | `topicHeadNode` | Der Speicherort des Knotens, der die Kopfwerte \(oder Metadaten\) enthält, die aus dem DITA-Inhalt abgeleitet wurden. Der Pfad ist relativ zur Themenseite. |
    | `tocNode` | Der Speicherort des Knotens, der das Inhaltsverzeichnis enthalten wird. Der Pfad ist relativ zur Landingpage oder zum Zielpfad. |
    | `basePathProp` | Der Eigenschaftsname zum Speichern des Pfads des Stammverzeichnisses der veröffentlichten Site. |
    | `indexPathProp` | Der Eigenschaftsname zum Speichern des Pfads der Landingpage/Indexseite der veröffentlichten Site. |
-   | `pdfPathProp` | Der Eigenschaftsname zum Speichern des Themen-PDF-Pfads, wenn die PDF-Generierung des Themas aktiviert ist. |
+   | `pdfPathProp` | Der Eigenschaftsname zum Speichern des PDF-Pfads des Themas, wenn die PDF-Generierung des Themas aktiviert ist. |
    | `pdfTypeProp` | Der Eigenschaftsname zum Speichern des Typs der PDF-Generierung. Derzeit enthält diese Eigenschaft immer &quot;Thema&quot;. |
    | `searchPathProp` | Der Eigenschaftsname zum Speichern des Pfads der Suchseite, wenn die Vorlage eine Suchseite enthält. |
    | `siteTitleProp` | Der Eigenschaftsname zum Speichern des Titels der veröffentlichten Site. Dieser Titel ist normalerweise mit dem Titel der zu veröffentlichenden Karte identisch. |
-   | `sourcePathProp` | Der Eigenschaftsname zum Speichern des Pfads des Quell-DITA-Themas für die aktuelle Seite. |
+   | `sourcePathProp` | Der Eigenschaftsname zum Speichern des Pfads des DITA-Quellthemas für die aktuelle Seite. |
    | `tocPathProp` | Der Eigenschaftsname zum Speichern des Pfads des TOC-Stammverzeichnisses für die veröffentlichte Site. |
 
 
@@ -181,7 +181,7 @@ Führen Sie die folgenden Schritte aus, um Ihre eigene Designvorlage für AEM Si
 >
 > Nachdem Sie einen benutzerdefinierten Designvorlagenknoten erstellt haben, müssen Sie die Option Design in den AEM Site-Ausgabevorgaben aktualisieren, um den benutzerdefinierten Designvorlagenknoten zu verwenden.
 
-Weitere Informationen finden Sie unter [Erstellen der ersten Adobe Experience Manager 6.3-Website](https://helpx.adobe.com/experience-manager/using/first_aem63_website.html) und [Grundlagen](https://helpx.adobe.com/de/experience-manager/6-3/sites/developing/using/the-basics.html) der Entwicklung Ihrer eigenen Website auf AEM.
+Weitere Informationen finden Sie unter [Erstellen der ersten Adobe Experience Manager 6.3-Website](https://helpx.adobe.com/experience-manager/using/first_aem63_website.html) und [Grundlagen](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/the-basics.html) der Entwicklung Ihrer eigenen Website auf AEM.
 
 ### Dokumenttitel zum Generieren AEM Site-Ausgabe verwenden
 
@@ -203,7 +203,7 @@ Um die URLs zu konfigurieren, die in AEM Site-Ausgabe generiert werden, führen 
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Suchen Sie nach und klicken Sie auf **com.adobe.fmdita.config.ConfigManager** Bundle.
+1. Suchen Sie nach und klicken Sie auf **com.adobe.fmdita.config.ConfigManager** Bundle
 
 1. Wählen Sie die **Verwenden des Titels für AEM Site-Seitennamen** -Option.
 
@@ -218,7 +218,7 @@ Um die URLs zu konfigurieren, die in AEM Site-Ausgabe generiert werden, führen 
 
 Als Administrator können Sie eine Liste gültiger Sonderzeichen definieren, die in Dateinamen zulässig sind und letztendlich die URL einer AEM Site-Ausgabe bilden. In früheren Versionen konnten Benutzer Dateinamen mit Sonderzeichen wie `@`, `$`, `>`und mehr. Diese Sonderzeichen führten bei der Generierung AEM Site-Seiten zu einer kodierten URL.
 
-Ab Version 3.8 wurden Konfigurationen hinzugefügt, um eine Liste von Sonderzeichen zu definieren, die in Dateinamen zulässig sind. Standardmäßig enthält die gültige Dateinamenkonfiguration &quot;`a-z A-Z 0-9 - _`&quot;. Dies bedeutet, dass Sie beim Erstellen einer Datei beliebige Sonderzeichen im Dateinamen haben können, diese jedoch intern durch einen Bindestrich \(`-`\) im Dateinamen. Sie können beispielsweise den Titel der Datei als Einführung 1 oder Introduction@1 festlegen. Der entsprechende Dateiname, der für beide Fälle generiert wurde, wäre Einführung-1.
+Ab Version 3.8 wurden Konfigurationen hinzugefügt, um eine Liste von Sonderzeichen zu definieren, die in Dateinamen zulässig sind. Standardmäßig enthält die gültige Dateinamenkonfiguration &quot;`a-z A-Z 0-9 - _`&quot;. Dies bedeutet, dass Sie beim Erstellen einer Datei beliebige Sonderzeichen im Dateinamen haben können, diese jedoch intern durch einen Bindestrich \(`-`\) in den Dateinamen. Sie können beispielsweise den Titel der Datei als Einführung 1 oder Introduction@1 festlegen. Der entsprechende Dateiname, der für beide Fälle generiert wurde, wäre Einführung-1.
 
 Beachten Sie bei der Definition einer Liste gültiger Zeichen, dass diese Zeichen &quot;`*/:[\]|#%{}?&<>"/+`&quot; und `a space` wird immer durch einen Bindestrich \(`-`\).
 
@@ -236,17 +236,17 @@ So konfigurieren Sie die gültigen Sonderzeichen in Dateinamen und AEM Site-Ausg
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Suchen Sie nach und klicken Sie auf *com.adobe.fmdita.common.SanitizeNodeNameImpl* Bundle.
+1. Suchen Sie nach und klicken Sie auf *com.adobe.fmdita.common.SanitizeNodeNameImpl* Bundle
 
 1. Im **Unzulässige Zeichensätze für die Veröffentlichung in AEM Sites** -Eigenschaft festlegen, stellen Sie sicher, dass die -Eigenschaft auf ```'<>`@$```. Sie können dieser Liste weitere Sonderzeichen hinzufügen. Diese müssen jedoch über die folgenden Sonderzeichen verfügen.
 
    >[!NOTE]
    >
-   > Sie können auch die anderen Eigenschaften konfigurieren, z. B. **Kleinbuchstaben verwenden** in Dateinamen, **Trennzeichen** um ungültige Zeichen zu verarbeiten, und **Maximale Zeichenanzahl** in den Dateinamen erlaubt.
+   > Sie können auch die anderen Eigenschaften konfigurieren, z. B. **Kleinbuchstaben verwenden** in Dateinamen, **Trennzeichen** zur Verarbeitung ungültiger Zeichen und **Maximale Zeichenanzahl** in den Dateinamen erlaubt.
 
 1. Klicken Sie auf **Speichern**.
 
-1. Suchen Sie nach und klicken Sie auf **com.adobe.fmdita.config.ConfigManager** Bundle.
+1. Suchen Sie nach und klicken Sie auf **com.adobe.fmdita.config.ConfigManager** Bundle
 
 1. Im **Regex für gültige Zeichen** -Eigenschaft festlegen, stellen Sie sicher, dass die -Eigenschaft auf `[-a-zA-Z0-9_]`. Sie können dieser Liste weitere Zeichen hinzufügen. Sie muss jedoch diese einfachen Zeichen enthalten und die Liste muss mit einem Bindestrich \(`-`\).
 
@@ -265,7 +265,7 @@ Wenn Sie AEM Site-Ausgabe generieren, wird intern ein Knoten für jedes Element 
 
 Beachten Sie, dass im obigen Schnappschuss für jeden `p` -Element und die nachfolgenden Unterelemente sowie eine ähnliche Struktur werden für jedes andere Element erstellt, das im Thema verwendet wird.
 
-Mit AEM Guides können Sie konfigurieren, wie die Knotenstruktur AEM Site-Ausgabe intern erstellt wird. Sie können die Knotenstruktur bei bestimmten Elementen reduzieren. Das bedeutet, dass Sie ein Element definieren können, das als Hauptelement betrachtet wird. Alle darin enthaltenen Unterelemente werden mit dem Hauptelement zusammengeführt. Wenn Sie beispielsweise die `p` -Element, dann jedes Element, das innerhalb der `p` -Element wird mit dem Hauptelement zusammengeführt `p` -Element. Für kein Unterelement innerhalb der Variablen `p` -Element. Der folgende Schnappschuss zeigt die Knotenstruktur, reduziert auf `p` element:
+Mit AEM Guides können Sie konfigurieren, wie die Knotenstruktur AEM Site-Ausgabe intern erstellt wird. Sie können die Knotenstruktur bei bestimmten Elementen reduzieren. Das bedeutet, dass Sie ein Element definieren können, das als Hauptelement betrachtet wird. Alle darin enthaltenen Unterelemente werden mit dem Hauptelement zusammengeführt. Wenn Sie beispielsweise die `p` -Element, dann jedes Element, das innerhalb der `p` -Element wird mit dem Hauptelement zusammengeführt `p` -Element. Eine separate Anmerkung wird für kein Unterelement im `p` -Element. Der folgende Schnappschuss zeigt die Knotenstruktur, reduziert auf `p` element:
 
 ![](assets/flattened-aem-site-node-structure.png){width="300" align="left"}
 
@@ -303,7 +303,7 @@ So reduzieren Sie AEM Site-Knotenstruktur:
       http://<server name>:<port>/system/console/configMgr
       ```
 
-   1. Suchen Sie nach und klicken Sie auf *com.adobe.dxml.flattening.FlateningConfigurationService* Bundle.
+   1. Suchen Sie nach und klicken Sie auf *com.adobe.dxml.flattening.FlateningConfigurationService* Bundle
 
    1. Wählen Sie die **Eigenschaft flattening.enabled** -Option.
 
@@ -314,13 +314,13 @@ So reduzieren Sie AEM Site-Knotenstruktur:
 >
 > Wenn Sie Änderungen an der Datei elementmapping.xml vorgenommen haben, stellen Sie sicher, dass Sie configMgr öffnen und jedes Bundle speichern, damit Änderungen wirksam werden.
 
-Wenn Sie jetzt die AEM Site-Ausgabe generieren, befinden sich die Knoten im `p` -Element reduziert und im `p` -Element selbst. Sie finden die neuen Reduzierungseigenschaften für die `p` -Element in CRXDE.
+Wenn Sie jetzt die AEM Site-Ausgabe generieren, befinden sich die Knoten im `p` -Element reduziert und im `p` -Element selbst. Die neuen Reduzierungseigenschaften für `p` -Element in CRXDE.
 
 ![](assets/flatten-aem-site-note-props-crxde.png){width="650" align="left"}
 
 **Reduzieren der Struktur AEM Site-Anmerkungen verhindern**
 
-Ähnlich wie beim Festlegen des Knotens, der in AEM Site-Ausgabe reduziert werden soll, können Sie auch ein Element angeben, das Sie aus dieser Konfiguration ausschließen möchten. Beispiel: Wenn Sie Knoten reduzieren möchten bei `body` -Element, Sie möchten jedoch keine `table` -Element in `body` zum Reduzieren hinzufügen, können Sie die Eigenschaft exclude innerhalb der `table` -Elements.
+Ähnlich wie beim Festlegen des Knotens, der in AEM Site-Ausgabe reduziert werden soll, können Sie auch ein Element angeben, das Sie aus dieser Konfiguration ausschließen möchten. Beispiel: Wenn Sie Knoten reduzieren möchten bei `body` -Element, Sie möchten jedoch keine `table` -Element in `body` zum Reduzieren hinzufügen, können Sie die Eigenschaft exclude innerhalb der `table` -Element definiert.
 
 So schließen Sie die `table` -Element aus der Reduzierung hinzufügen, fügen Sie die folgende Eigenschaft zum `table` Definition des Elements:
 
@@ -340,7 +340,7 @@ Führen Sie die folgenden Schritte aus, um die Erstellung einer Version für die
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Suchen Sie nach und klicken Sie auf *com.adobe.fmdita.config.ConfigManager* Bundle.
+1. Suchen Sie nach und klicken Sie auf *com.adobe.fmdita.config.ConfigManager* Bundle
 
 1. Auswählen **Keine Version für gelöschte Seiten erstellen** -Option.
 
@@ -350,7 +350,7 @@ Führen Sie die folgenden Schritte aus, um die Erstellung einer Version für die
 
 1. Klicken Sie auf **Speichern**.
 
-## Verwenden von Metadaten zur Veröffentlichung der Ausgabe über DITA-OT {#id191LF0U0TY4}
+## Verwenden von Metadaten bei der Veröffentlichung der Ausgabe über DITA-OT {#id191LF0U0TY4}
 
 AEM Guides bieten eine Möglichkeit, benutzerdefinierte Metadaten beim Veröffentlichen der Ausgabe mithilfe von DITA-OT zu übergeben. Als Administrator und Herausgeber müssen Sie die folgenden Aufgaben ausführen, um benutzerdefinierte Metadaten in der veröffentlichten Ausgabe zu konfigurieren und zu verwenden:
 
@@ -371,9 +371,9 @@ Um die erforderlichen Metadaten im System hinzuzufügen, führen Sie die folgend
 
 1. Klicken Sie auf **Metadatenschemata** Kachel.
 
-   Die Seite Metadatenschema-Formulare wird angezeigt.
+   Die Seite Metadatenschema Forms wird angezeigt.
 
-1. Wählen Sie die **default** aus der Liste.
+1. Wählen Sie die **default** Formular aus der Liste.
 
    >[!NOTE]
    >
@@ -402,9 +402,9 @@ Der neue Parameter wird jetzt auf der Seite Eigenschaften für alle DITA-Maps an
 
 Als Nächstes müssen Sie die benutzerdefinierten Metadaten in der DITA-Map-Konsole verfügbar machen. Führen Sie die folgenden Schritte aus, um die benutzerdefinierten Metadaten auf der DITA Map-Dashboards verfügbar zu machen:
 
-1. Melden Sie sich bei AEM an und öffnen Sie den Modus CRXDE Lite .
+1. Melden Sie sich bei AEM an und öffnen Sie den CRXDE Lite-Modus.
 
-1. Greifen Sie auf die Datei metadataList zu, die unter folgendem Speicherort verfügbar ist:
+1. Greifen Sie auf die Datei &quot;metadataList&quot;zu, die unter folgendem Speicherort verfügbar ist:
 
    /libs/fmdita/config/metadataList
 
@@ -446,7 +446,7 @@ Die ausgewählten Eigenschaften/Metadaten werden an den Veröffentlichungsprozes
 
 ## DITA-Elementzuordnung mit AEM Komponenten anpassen {#id1679J600HEL}
 
-DITA-Elemente in AEM Guides werden ihren entsprechenden AEM Komponenten zugeordnet. AEM Guides verwenden diese Zuordnung in Workflows wie Veröffentlichung und Überprüfung, um DITA-Elemente in eine entsprechende AEM zu konvertieren. Die Zuordnung wird im Abschnitt `elementmapping.xml` -Datei, auf die über den Modus CRXDE Lite zugegriffen werden kann. Greifen Sie im Modus CRXDE Lite auf die folgende URL zu:
+DITA-Elemente in AEM Guides werden ihren entsprechenden AEM Komponenten zugeordnet. AEM Guides verwenden diese Zuordnung in Workflows wie Veröffentlichung und Überprüfung, um DITA-Elemente in eine entsprechende AEM zu konvertieren. Die Zuordnung wird im Abschnitt `elementmapping.xml` -Datei, auf die über den CRXDE Lite-Modus zugegriffen werden kann. Greifen Sie im CRXDE Lite-Modus auf die folgende URL zu:
 
 `/libs/fmdita/config/elementmapping.xml`
 
@@ -506,7 +506,7 @@ Eine allgemeine Übersicht über die `elementmapping.xml` Struktur wird nachfolg
 
    `type` akzeptiert die folgenden Werte:
 
-   - COMPOSITE: Element zur Komponente *Die Zuordnung wird für untergeordnete Elemente fortgesetzt* sowie
+   - COMPOSITE: Element zu Komponente *Die Zuordnung wird für untergeordnete Elemente fortgesetzt* sowie.
 
    - STANDALONE: untergeordnete Elemente des aktuellen Elements sind *nicht weiter zugeordnet*.
 
@@ -564,9 +564,9 @@ Eine allgemeine Übersicht über die `elementmapping.xml` Struktur wird nachfolg
 
    Wie diese Auflösung abläuft, wird auf der Grundlage des Wertes der `rel` -Attribut in der Attributzuordnung.
 
-   - Wenn `rel=source`, dann den Wert von `href` in Bezug auf die DITA-Quelldatei aufgelöst, die derzeit verarbeitet wird. Der Wert von `href` aufgelöst und in den Wert von `fileReference` -Eigenschaft.
+   - Wenn `rel=source`, dann den Wert von `href` in Bezug auf die DITA-Quelldatei aufgelöst, die derzeit verarbeitet wird. Der Wert von `href` wird aufgelöst und in den Wert von `fileReference` -Eigenschaft.
 
-   - Wenn `rel=target`, dann den Wert von `href` in Bezug auf den Speicherort der Stammveröffentlichung aufgelöst. Der Wert von `href` aufgelöst und in den Wert von `fileReference` -Eigenschaft.
+   - Wenn `rel=target`, dann den Wert von `href` in Bezug auf den Speicherort der Stammveröffentlichung aufgelöst. Der Wert von `href` wird aufgelöst und in den Wert von `fileReference` -Eigenschaft.
 
    Wenn Sie nicht möchten, dass eine Vorverarbeitung oder Auflösung für Pfadattribute erfolgt, müssen Sie die `ispath` -Attribut. Der Wert wird unverändert kopiert und die Komponente kann die erforderliche Auflösung durchführen.
 
@@ -601,17 +601,17 @@ In der folgenden Tabelle werden die Elemente im DITA-Elementschema beschrieben:
 |-------|-----------|
 | `<ditaelement>` | Der Knoten der obersten Ebene für jedes Zuordnungselement. |
 | `<class>` | Das Klassenattribut des DITA-Zielelements, für das Sie die Komponente schreiben. <br>Beispielsweise lautet das Klassenattribut für das DITA-Thema: <br>`topic/topic` |
-| `<componentpath>` | Der CRXDE-Pfad der zugeordneten AEM-Komponente. |
-| `<type>` | Mögliche Werte: <br>- **COMPOSITE**: Verarbeiten von untergeordneten Elementen <br>- **STANDALON**: Überspringt die Verarbeitung untergeordneter Elemente |
+| `<componentpath>` | Der CRXDE-Pfad der zugeordneten AEM. |
+| `<type>` | Mögliche Werte: <br>- **COMPOSITE**: Verarbeiten Sie auch untergeordnete Elemente <br>- **STANDALON**: Überspringt die Verarbeitung untergeordneter Elemente |
 | `<attributeprop>` | Wird für die Zuordnung von serialisierten DITA-Attributen und -Werten zu AEM Knoten als Eigenschaft verwendet. Wenn Sie beispielsweise `<note type="Caution">` -Element und die für dieses Element zugeordnete Komponente `<attributeprop>attr_t</ attributeprop>`, dann werden das Attribut und der Wert des Knotens serialisiert auf `attr_t` Eigenschaft des entsprechenden AEM-Knotens \( `attr_t->type="caution"`\). |
 | `<textprop>propname_t</textprop>` | Speichern Sie die `getTextContent()` Ausgabe in Eigenschaft definiert durch `propname_t.` **Hinweis:**  Dies ist eine optimierte Eigenschaft. |
-| `<xmlprop>propname_x </xmlprop>` | Speichern Sie serialisiertes XML dieses Knotens in der Eigenschaft, die durch definiert wird. `propname_x.` **Hinweis:** Dies ist eine optimierte Eigenschaft. |
+| `<xmlprop>propname_x </xmlprop>` | Speichern Sie serialisiertes XML dieses Knotens in der Eigenschaft, die von `propname_x.` **Hinweis:** Dies ist eine optimierte Eigenschaft. |
 | `<xpath>` | Wenn das XPath-Element in der Elementzuordnung bereitgestellt wird, sollte die XPath-Bedingung zusammen mit dem Elementnamen und der Klasse ebenfalls erfüllt sein, damit die Komponentenzuordnung verwendet wird. |
 | `<target>` | Platzieren Sie für das DITA-Element im CRX-Repository an dem angegebenen Speicherort. <br>Mögliche Werte:<br>- **head**: Unter dem Kopfknoten <br>- **text**: Unter dem Absatzknoten |
 | `<wrapelement>` | Das HTML-Element, in das der Inhalt eingeschlossen werden soll. |
 | `<wrapclass>` | Der Elementwert der Eigenschaft `wrapclass.` |
 | `<attributemap>` | Container-Knoten, der eine oder mehrere `<attribute>` Knoten. |
-| `<attribute from="attrname" to="propname" ispath="true|false" rel="source|target" />` | Ordnet die DITA-Attribute AEM Eigenschaften zu:<br>- **`from`**: DITA-Attributname<br>- **`to`**: Name der Komponenteneigenschaft <br>- **`ispath`**: Wenn das Attribut ein Pfadwert ist \(z. B.: *image*\)<br>- **`rel`**: Wenn der Pfad die Quelle oder das Ziel ist <br>**Hinweis:** Wenn `attrname` beginnt mit `%`, dann map `attrname minus '%'` to prop &#39; `propname`&quot;. |
+| `<attribute from="attrname" to="propname" ispath="true|false" rel="source|target" />` | Ordnet die DITA-Attribute AEM Eigenschaften zu:<br>- **`from`**: DITA-Attributname<br>- **`to`**: Name AEM Komponenteneigenschaft <br>- **`ispath`**: Wenn das Attribut ein Pfadwert ist \(z. B.: *image*\)<br>- **`rel`**: Wenn der Pfad die Quelle oder das Ziel ist <br>**Hinweis:** Wenn `attrname` beginnt mit `%`, dann map `attrname minus '%'` to prop &#39; `propname`&quot;. |
 
 **Weitere Hinweise**
 
@@ -623,7 +623,7 @@ In der folgenden Tabelle werden die Elemente im DITA-Elementschema beschrieben:
 
 - Wenn Sie einige \(und nicht alle\) der Elementzuordnungen überschreiben möchten, müssen Sie nicht die gesamte `elementmapping.xml` -Datei. Sie müssen eine neue XML-Zuordnungsdatei erstellen und nur die Elemente definieren, die Sie überschreiben.
 
-- Nachdem Sie die XML-Datei am benutzerdefinierten Speicherort erstellt haben, aktualisieren Sie die `Override Element Mapping` -Einstellung in `com.adobe.fmdita.config.ConfigManager` Bundle.
+- Nachdem Sie die XML-Datei am benutzerdefinierten Speicherort erstellt haben, aktualisieren Sie die `Override Element Mapping` -Einstellung in `com.adobe.fmdita.config.ConfigManager` Bundle
 
 
 ## DITA-Map-Konsole anpassen {#id188HC08M0CZ}
@@ -638,7 +638,7 @@ AEM Guides bieten die `apps.fmdita.dashboard-extn` Kategorie zum Anpassen der Zu
 
 >[!NOTE]
 >
-> Weitere Informationen zum Erstellen AEM Client-Bibliothek finden Sie unter [Verwenden Client-seitiger Bibliotheken](https://helpx.adobe.com/de/experience-manager/6-4/sites/developing/using/clientlibs.html).
+> Weitere Informationen zum Erstellen AEM Client-Bibliothek finden Sie unter [Verwenden Client-seitiger Bibliotheken](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/clientlibs.html).
 
 ## Verarbeiten der Bilddarstellung während der Ausgabegenerierung {#id177BF0G0VY4}
 
@@ -664,7 +664,7 @@ Mit AEM Guides können Sie konfigurieren, welche Bilddarstellung zum Zeitpunkt d
 </renditionmap>
 ```
 
-Die `mimetype` -Element gibt den MIME-Typ des Dateiformats an. Die `rendition output` -Element gibt den Typ des Ausgabeformats und den Namen der Ausgabedarstellung an \(z. B. `cq5dam.web.1280.1280.jpeg`\), die zum Veröffentlichen der angegebenen Ausgabe verwendet werden soll. Sie können die Bildausgabeformate angeben, die für alle unterstützten Ausgabeformate verwendet werden sollen - AEMSITE, PDF, HTML5, EPUB und CUSTOM.
+Die `mimetype` -Element gibt den MIME-Typ des Dateiformats an. Die `rendition output` -Element gibt den Typ des Ausgabeformats und den Namen der Ausgabe an \(z. B. `cq5dam.web.1280.1280.jpeg`\), die zum Veröffentlichen der angegebenen Ausgabe verwendet werden soll. Sie können die Bildausgabeformate angeben, die für alle unterstützten Ausgabeformate verwendet werden sollen - AEMSITE, PDF, HTML5, EPUB und CUSTOM.
 
 Wenn die angegebene Ausgabedarstellung nicht vorhanden ist, sucht AEM Publishing-Prozess für Guides zunächst nach der Web-Ausgabe des angegebenen Bildes. Wenn selbst die Webausgabe nicht gefunden wird, wird die ursprüngliche Ausgabe des Bildes verwendet.
 
@@ -672,7 +672,7 @@ Wenn die angegebene Ausgabedarstellung nicht vorhanden ist, sucht AEM Publishing
 >
 > Diese Bildausgabeformate steuern nur die Ausgabegenerierung. Die Webausgabe eines Bildes wird verwendet, wenn Sie ein Dokument zur Vorschau oder Überprüfung öffnen.
 
-## Konfigurieren des Zeitrahmens für die automatische Bereinigung für den Ausgabedarstellungsverlauf {#id19AAI070V8Q}
+## Konfigurieren des Zeitrahmens für die automatische Bereinigung für den Ausgabestverlauf {#id19AAI070V8Q}
 
 Wenn Sie eine Ausgabe generieren, wird die Ausgabe zusammen mit den Ausgabsprotokollen erstellt. Bei großen DITA-Maps können diese Protokolle viel Platz in Ihrem Repository beanspruchen. Standardmäßig werden die Protokolle am folgenden Speicherort im Repository gespeichert:
 
@@ -700,11 +700,11 @@ Führen Sie die folgenden Schritte aus, um einen Tag und eine Uhrzeit für die B
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Suchen Sie nach und klicken Sie auf **com.adobe.fmdita.config.ConfigManager** Bundle.
+1. Suchen Sie nach und klicken Sie auf **com.adobe.fmdita.config.ConfigManager** Bundle
 
 1. Im **Bereinigungszeitraum für den Output-Verlauf** -Eigenschaft festlegen, geben Sie die Anzahl der Tage an, nach denen der Ausgabedarstellungsverlauf zusammen mit den Ausgabsprotokollen bereinigt wird. Standardmäßig ist er auf 5 Tage eingestellt. Wenn Sie diese Funktion deaktivieren möchten, legen Sie diese Eigenschaft auf 0 fest.
 
-1. Im **Bereinigungszeit des Ausgabeverlaufs** -Eigenschaft, geben Sie den Zeitpunkt an, zu dem der Bereinigungsprozess eingeleitet wird. Standardmäßig ist sie auf 0:00 \(oder 12:00 Mitternacht\) eingestellt. Zu diesem Zeitpunkt wird der Bereinigungsprozess täglich für Ausgaben ausgeführt, die vor der in der Variablen **Bereinigungszeitraum für den Output-Verlauf** -Eigenschaft.
+1. Im **Bereinigungszeit des Ausgabeverlaufs** -Eigenschaft, geben Sie den Zeitpunkt an, zu dem der Bereinigungsprozess eingeleitet wird. Standardmäßig ist sie auf 0:00 \(oder 12:00 Mitternacht\) eingestellt. Zu diesem Zeitpunkt wird der Bereinigungsprozess täglich für Ausgaben ausgeführt, die vor der in der **Bereinigungszeitraum für den Output-Verlauf** -Eigenschaft.
 
    >[!NOTE]
    >
@@ -715,7 +715,7 @@ Führen Sie die folgenden Schritte aus, um einen Tag und eine Uhrzeit für die B
 
 ## Ändern der zuletzt generierten Ausgabelistenbegrenzung {#id1679JH0H0O2}
 
-Sie können die maximale Anzahl der generierten Ausgaben ändern, die auf der Registerkarte &quot;Ausgaben&quot;für eine DITA-Zuordnung angezeigt werden. Standardmäßig wird eine Liste der letzten 25 generierten Ausgaben angezeigt. Um die Anzahl der Ausgaben zu ändern, die in der Liste angezeigt werden sollen, aktualisieren Sie die **Begrenzung der Ausgabenliste** -Einstellung in `com.adobe.fmdita.config.ConfigManager` Bundle.
+Sie können die maximale Anzahl der generierten Ausgaben ändern, die auf der Registerkarte &quot;Ausgaben&quot;für eine DITA-Zuordnung angezeigt werden. Standardmäßig wird eine Liste der letzten 25 generierten Ausgaben angezeigt. Um die Anzahl der Ausgaben zu ändern, die in der Liste angezeigt werden sollen, aktualisieren Sie die **Begrenzung der Ausgabenliste** -Einstellung in `com.adobe.fmdita.config.ConfigManager` Bundle
 
 >[!TIP]
 >
@@ -725,5 +725,4 @@ Sie können die maximale Anzahl der generierten Ausgaben ändern, die auf der Re
 
 Mit AEM Guides können Sie die Poolgröße der Ausgabegenerierungsprozesse konfigurieren, die die Anzahl der gleichzeitig ausgeführten Output-Generierungsprozesse steuert. Standardmäßig ist die Größe des Prozess-Pools auf die Anzahl der in Ihrem System verfügbaren Prozessorkerne plus 1 eingestellt. Sie können diesen Wert in 1 ändern, falls Sie eine sequenzielle Veröffentlichung wünschen. In diesem Fall wird die erste Veröffentlichungsaufgabe ausgeführt und die nächste Veröffentlichungsaufgabe wird in der Veröffentlichungswarteschlange gespeichert.
 
-Um die Poolgröße für die Verarbeitung der Ausgabenerzeugung zu ändern, aktualisieren Sie die **Erstellungspoolgröße** -Einstellung in `com.adobe.fmdita.publish.manager.PublishThreadManagerImpl` Bundle.
-
+Um die Poolgröße für die Verarbeitung der Ausgabenerzeugung zu ändern, aktualisieren Sie die **Erstellungspoolgröße** -Einstellung in `com.adobe.fmdita.publish.manager.PublishThreadManagerImpl` Bundle

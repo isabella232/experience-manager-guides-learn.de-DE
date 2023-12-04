@@ -1,26 +1,25 @@
 ---
 title: Versionshinweise | Neue Funktionen in Adobe Experience Manager-Handbüchern, Version Juni 2023
 description: Erfahren Sie mehr über die neuen und verbesserten Funktionen in der Version von Adobe Experience Manager Guides as a Cloud Service im Juni 2023.
-exl-id: ff6ac4a4-76a3-4b41-9da7-6a888de0eca5
-source-git-commit: f1292c94d77b724467d9eede59687bf0041cbce5
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1212'
 ht-degree: 0%
 
 ---
 
 # Neue Funktionen in der Version von Adobe Experience Manager Guides as a Cloud Service im Juni 2023
 
-Dieser Artikel behandelt die neuen und verbesserten Funktionen in Version Juni 2023 der Adobe Experience Manager-Handbücher (später auch als *AEM as a Cloud Service Handbücher*).
+Dieser Artikel behandelt die neuen und verbesserten Funktionen in Version Juni 2023 der Adobe Experience Manager-Handbücher (später auch als *AEM as a Cloud Service Guides*).
 
 Weitere Informationen zu den Upgrade-Anweisungen, der Kompatibilitätsmatrix und den in dieser Version behobenen Problemen finden Sie unter [Versionshinweise](release-notes-2023.6.0.md).
 
-## Bericht &quot;Fehlerhafte Links&quot;im Web-Editor
+## Bericht zu fehlerhaften Links im Web-Editor
 
 Mit AEM Guides können Sie die Gesamtvollständigkeit Ihrer technischen Dokumente überprüfen und Berichte aus dem Web-Editor erstellen. Ab der Version Juni 2023 bieten Ihnen AEM Handbücher die Möglichkeit, fehlerhafte Links anzuzeigen und zu reparieren. Dies ist ein nützlicher Bericht, der Ihnen bei der Verwaltung Ihrer fehlerhaften Links hilft. Sie können die fehlerhaften Links in Ihrer DITA-Zuordnung einfach anzeigen und sie auch beheben.
 ![](assets/broken-link-report.png){width="800" align="left"}
 
-Wenn Sie einen Link korrigieren, wird er nicht mehr unter der Liste der fehlerhaften Links angezeigt.
+Wenn Sie einen Link korrigieren, wird er nicht unter der Liste der fehlerhaften Links angezeigt.
 
 Weitere Informationen finden Sie unter [Fehlerbehebung bei fehlerhaften Links](../user-guide/reports-web-editor.md#report-broken-links).
 
@@ -38,7 +37,7 @@ Weitere Informationen zum Menü Optionen einer Datei finden Sie unter **Reposito
 
 Jetzt können Sie ein Wasserzeichen zur PDF-Ausgabe des Dokuments hinzufügen, das noch nicht genehmigt wurde. Dieses Wasserzeichen wird nicht angezeigt, wenn Sie die PDF für das Dokument im Dokumentstatus &quot;Genehmigt&quot;generieren. Sie können beispielsweise einen Wasserzeichenentwurf für Ihre PDF-Ausgabe hinzufügen.
 
-Weitere Informationen finden Sie unter [Hinzufügen eines Wasserzeichens zur PDF-Ausgabe für Entwürfe von Dokumenten](../native-pdf/use-javascript-content-style.md#watermark-draft-document).
+Weitere Informationen finden Sie unter [Hinzufügen eines Wasserzeichens zur PDF-Ausgabe für Entwurfsdokumente](../native-pdf/use-javascript-content-style.md#watermark-draft-document).
 
 ### Unterstützung für Sprachvariablen
 
@@ -79,7 +78,7 @@ Weitere Informationen finden Sie unter [Felder und Metadaten hinzufügen](../nat
 
 ## Verbesserungen bei Schemata
 
-### Verwenden Sie Berichtanweisungen, um in Schemata nach Regeln zu suchen
+### Verwenden Sie Berichtanweisungen zur Überprüfung auf Regeln in Schema
 
 AEM Guides unterstützen jetzt auch die Berichtanweisungen mit dem Schema. Eine Berichtanweisung generiert eine Meldung, wenn eine Testanweisung als &quot;true&quot;ausgewertet wird. Wenn Sie beispielsweise eine Kurzbeschreibung von 150 Zeichen oder weniger wünschen, können Sie eine Berichtanweisung definieren, um die Themen zu überprüfen, bei denen die Kurzbeschreibung mehr als 150 Zeichen umfasst.
 
@@ -99,9 +98,9 @@ AEM Guides unterstützen auch abstrakte Muster in Schematron. Sie können allgem
 
 Weitere Informationen finden Sie unter [Abstrakte Muster definieren](../user-guide/support-schematron-file.md#schematron-abstract-patterns).
 
-## Navigieren Sie vom Web Editor zur AEM Startseite .
+## Navigieren Sie vom Web Editor zur AEM Homepage .
 
-Jetzt können Sie einfach vom Web-Editor zur AEM-Startseite navigieren.
+Jetzt können Sie einfach vom Web-Editor zur AEM Homepage navigieren.
 
 ![](assets/web-editor-launch-page.png){width="800" align="left"}
 
@@ -128,7 +127,7 @@ Mithilfe dieses Formats können Sie den Inhalt in das XLIFF-Format des Branchens
 
 ## Verbessertes Bedienfeld &quot;Favoriten&quot;
 
-Mithilfe AEM Handbücher können Sie eine Sammlung oder Favoritenliste Ihrer Dateien und Ordner erstellen und diese einfach verwenden. Jetzt **Optionen** ist auch im Menü **Favoriten** Bereich. Sie können die ausgewählte Sammlung umbenennen oder aus der **Optionen** Menü. Sie können die **Aktualisieren** , um eine neue Liste von Dateien oder Ordnern aus dem Repository zu erhalten. Sie können den Ordnerinhalt auch in der Assets-Benutzeroberfläche anzeigen.
+Mithilfe AEM Handbücher können Sie eine Sammlung oder Favoritenliste Ihrer Dateien und Ordner erstellen und diese einfach verwenden. Jetzt **Optionen** Menü ist auch verfügbar im **Favoriten** Bedienfeld. Sie können die ausgewählte Sammlung umbenennen oder aus der **Optionen** Menü. Sie können die **Aktualisieren** , um eine neue Liste von Dateien oder Ordnern aus dem Repository zu erhalten. Sie können den Ordnerinhalt auch in der Assets-Benutzeroberfläche anzeigen.
 
 ![](assets/favorites-options.png){width="650" align="left"}
 
@@ -138,10 +137,10 @@ Mithilfe AEM Handbücher können Sie eine Sammlung oder Favoritenliste Ihrer Dat
 
 Weitere Informationen finden Sie unter **Optionen** Menü einer Favoriten-Sammlung, siehe **Favoriten** Funktionsbeschreibung in [Linke Leiste](../user-guide/web-editor-features.md#id2051EA0M0HS) Abschnitt.
 
-## Wechseln zum Systemdesign
+## Wechseln Sie zum Systemdesign
 
 Sie können jetzt auch das Gerätedesign verwenden. Verwenden der **Benutzereinstellungen** können Sie AEM Guides so konfigurieren, dass je nach Thema Ihres Geräts automatisch zwischen hellen und dunklen Themen umgeschaltet wird.
 
 ![](assets/device-theme-user-preferences.png){width="550" align="left"}
 
-Weitere Informationen finden Sie unter **Benutzereinstellungen** Funktionsbeschreibung in [Hauptsymbolleiste](../user-guide/web-editor-features.md#id2051EA0G05Z) Abschnitt.
+Weitere Informationen finden Sie unter **Benutzereinstellungen** Funktionsbeschreibung in [Hauptleiste](../user-guide/web-editor-features.md#id2051EA0G05Z) Abschnitt.

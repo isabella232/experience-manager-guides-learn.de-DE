@@ -1,13 +1,12 @@
 ---
 title: REST-APIs für Konversions-Workflow
 description: Erfahren Sie mehr über die REST-APIs für den Konversions-Workflow
-source-git-commit: 8707acf3ba01b7488eea6597c434da73a901d037
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
-
 
 # REST-APIs für Konversions-Workflow {#id175UB30E05Z}
 
@@ -42,4 +41,3 @@ Eine GET-Methode, die InDesign-Dokumente in das DITA-Format konvertiert.
 **Parameter**: |Name|Typ|Erforderlich|Beschreibung| |—|—|—|—|—| |``operation``|String|Ja|Name des aufzurufenden Vorgangs. Der Wert dieses Parameters lautet ``idml2dita``. <br> **Hinweis:** Beim Wert wird nicht zwischen Groß- und Kleinschreibung unterschieden.| |`inputFile`|String|Ja|Absoluter Pfad der InDesign-Quelldateien im AEM Repository.| |`destPath`|Zeichenfolge|Ja|Absoluter Pfad des Zielorts, an dem die konvertierten DITA-Dateien gespeichert werden.| |`createRev`|Boolesch|Ja|Geben Sie an, ob eine Revision der Dateien erstellt wird \( `true`\) am angegebenen Ziel oder nicht \( `false`\). Dies wird nur berücksichtigt, wenn der Zielspeicherort eine vorhandene Version der konvertierten Dateien enthält.|
 
 **Antwortwerte**: Gibt eine HTTP-Antwort 200 \(erfolgreich\) zurück.
-

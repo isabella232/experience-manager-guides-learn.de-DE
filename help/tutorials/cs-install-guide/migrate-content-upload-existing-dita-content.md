@@ -1,13 +1,12 @@
 ---
 title: Vorhandenen DITA-Inhalt hochladen
 description: Erfahren Sie, wie Sie vorhandenen DITA-Inhalt hochladen
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 1%
+source-wordcount: '499'
+ht-degree: 0%
 
 ---
-
 
 # Vorhandenen DITA-Inhalt hochladen {#id176FF000JUI}
 
@@ -25,9 +24,9 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 
 ## Verwenden von curl-Befehlen
 
-Sie können auch curl-Befehle verwenden, um einen Ordner in DAM zu erstellen, Dateien hochzuladen und Metadaten zum hochgeladenen Inhalt hinzuzufügen.
+Sie können auch mithilfe von Curl-Befehlen einen Ordner in DAM erstellen, Dateien hochladen und Metadaten zum hochgeladenen Inhalt hinzufügen.
 
-**Erstellen eines Ordners**
+**Ordner erstellen**
 
 Führen Sie den folgenden Befehl aus, um einen Ordner in AEM Repository zu erstellen:
 
@@ -56,7 +55,7 @@ Geben Sie die folgenden Parameter an, um eine Datei hochzuladen:
 
 - `<username>:<passowrd>`: Geben Sie den Benutzernamen und das Kennwort für den Zugriff auf das AEM-Repository an. Dieser Benutzer muss Schreibrechte für die `server folder path`.
 
-- ``local file path``: Füllen Sie den Dateipfad auf Ihrem lokalen System aus, den Sie hochladen möchten.
+- ``local file path``: Vervollständigen Sie den Dateipfad auf Ihrem lokalen System, den Sie hochladen möchten.
 
 - `<server folder path>`: Füllen Sie den Ordnerpfad auf dem AEM-Server aus, auf den Sie die Datei hochladen möchten.
 
@@ -79,4 +78,3 @@ Geben Sie die folgenden Parameter an, um Metadateninformationen hinzuzufügen:
 
 
 **Übergeordnetes Thema:**[ Migrieren vorhandener Inhalte](migrate-content.md)
-

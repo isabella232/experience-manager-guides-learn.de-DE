@@ -1,8 +1,7 @@
 ---
 title: Ausgabegenerierung
 description: Generieren Sie die Ausgabe in AEM Site, PDF, HTML5, EPUB, benutzerdefinierten und JSON über DITA-OT-Plug-ins, natives PDF-Publishing und FMPS in AEM Guides.
-exl-id: 32fc32f8-16b1-4c3c-a6e2-abfb8fba9e66
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 0%
@@ -43,4 +42,3 @@ Die Informationen in den folgenden Abschnitten richten sich an Herausgeber, die 
 >[!IMPORTANT]
 >
 > Die in diesem Thema beschriebenen Funktionen stehen nur Benutzern mit Herausgebern oder Administratorrechten zur Verfügung.
-

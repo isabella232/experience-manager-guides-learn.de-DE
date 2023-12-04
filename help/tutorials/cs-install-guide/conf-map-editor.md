@@ -1,13 +1,12 @@
 ---
 title: Festlegen des Erweiterten Map-Editors als Standard
-description: Erfahren Sie, wie Sie den erweiterten Map Editor als Standard festlegen.
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+description: Erfahren Sie, wie Sie den erweiterten Map-Editor als Standard festlegen.
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 0%
 
 ---
-
 
 # Festlegen des Erweiterten Map-Editors als Standard {#id181AI0003PN}
 
@@ -26,4 +25,3 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 > Wenn ein Autor eine Zuordnungsdatei erstellt und sie zur Bearbeitung öffnet, wird standardmäßig der Basic Map Editor gestartet. Wenn die Option &quot;Bearbeiten&quot;für eine Zuordnungsdatei aus der Assets-Benutzeroberfläche ausgewählt ist, wird sie auch im Basic Map Editor geöffnet.
 
 **Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
-

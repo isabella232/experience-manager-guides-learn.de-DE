@@ -1,11 +1,10 @@
 ---
-title: Versionshinweise | Adobe Experience Manager-Handbücher as a Cloud Service, Version August 2022
+title: Versionshinweise | Adobe Experience Manager Guides as a Cloud Service, Version August 2022
 description: August-Version der Adobe Experience Manager-Handbücher as a Cloud Service
-exl-id: a01bfe8a-4715-438c-bb94-aa1d31f6662d
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1156'
-ht-degree: 2%
+source-wordcount: '1169'
+ht-degree: 0%
 
 ---
 
@@ -13,10 +12,10 @@ ht-degree: 2%
 
 ## Aktualisierung auf die August-Version
 
-Aktualisieren Sie Ihre aktuellen Adobe Experience Manager-Handbücher as a Cloud Service (später als *AEM as a Cloud Service Handbücher*) einrichten, indem Sie die folgenden Schritte ausführen:
-1. Sehen Sie sich den Git-Code des Cloud Services an und wechseln Sie zu der Verzweigung, die in der Cloud Services-Pipeline entsprechend der Umgebung konfiguriert ist, die Sie aktualisieren möchten.
-1. Aktualisieren `<dox.version>` -Eigenschaft in `/dox/dox.installer/pom.xml` -Datei Ihres Cloud Services-Git-Codes auf 2022.8.167.
-1. Übertragen Sie die Änderungen und führen Sie die Cloud Services-Pipeline aus, um auf die August-Version der as a Cloud Service AEM Guides zu aktualisieren.
+Aktualisieren Sie Ihre aktuellen Adobe Experience Manager-Handbücher as a Cloud Service (später als *AEM as a Cloud Service Guides*) einrichten, indem Sie die folgenden Schritte ausführen:
+1. Sehen Sie sich den Git-Code des Cloud Service an und wechseln Sie zu der Verzweigung, die in der Cloud Service-Pipeline entsprechend der Umgebung konfiguriert ist, die Sie aktualisieren möchten.
+1. Aktualisieren `<dox.version>` -Eigenschaft in `/dox/dox.installer/pom.xml` -Datei Ihres Cloud Service-Git-Codes auf 2022.8.167.
+1. Übertragen Sie die Änderungen und führen Sie die Cloud Service-Pipeline aus, um auf die August-Version der as a Cloud Service AEM Guides zu aktualisieren.
 
 ## Kompatibilitätsmatrix
 
@@ -27,19 +26,19 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen
 | FMPS | FrameMaker |
 | --- | --- |
 | Nicht kompatibel | Aktualisierung 4 und höher für 2020 |
-|  |  |
+| | |
 
 *Die in AEM erstellten Grundlinien und Bedingungen werden in FMPS-Versionen ab 2020.2 unterstützt.
 
 ### Sauerstoffanschluss
 
-| AEM zu Handbüchern as a Cloud - Version | Sauerstoff Connector Windows | Sauerstoff Connector Mac |
+| AEM-Handbücher für Cloud | Sauerstoff Connector Windows | Sauerstoff Connector Mac |
 | --- | --- | --- |
-| 2022.8.0 | 2.7.5 | 2.7.5 |
+| 2022.8.0 | 2,7,5 | 2,7,5 |
 |  |  |  |
 
 
-## Neue Funktionen und Erweiterungen
+## Neue Funktionen und Verbesserungen
 
 AEM Guides as a Cloud Service bietet viele Verbesserungen und neue Funktionen in der August-Version:
 
@@ -60,7 +59,7 @@ Die Ansicht &quot;Layout&quot;bietet außerdem die **Anzeigeoptionen** um die Ze
 
 Sie können die Themen auch basierend auf den angewendeten bedingten Filtern anzeigen.
 
-Neben der Organisation von Themen in der Map-Datei können Sie auch Verweise hinzufügen, verschieben, kopieren, einfügen oder löschen, indem Sie die **Optionen** für ein Element in der Ansicht &quot;Layout&quot;verfügbar. Sie können ein Thema oder eine Zuordnung auch per Drag-and-Drop aus dem Repository-Bedienfeld in die im Map Editor geöffnete Karte ziehen.
+Zusätzlich zum Organisieren von Themen in der Map-Datei können Sie auch Verweise hinzufügen, verschieben, kopieren, einfügen oder löschen, indem Sie die **Optionen** für ein Element in der Ansicht &quot;Layout&quot;verfügbar. Sie können ein Thema oder eine Zuordnung auch per Drag-and-Drop aus dem Repository-Bedienfeld in die im Map Editor geöffnete Karte ziehen.
 
 Im rechten Bereich werden die Inhaltseigenschaften und die Zuordnungseigenschaften in der Ansicht &quot;Layout&quot;des Map-Editors angezeigt. Die für das ausgewählte Thema definierten Inline-Attribute werden in der Layout-Ansicht dem Thema zugeordnet. Sie können beispielsweise schnell alle Themen finden, für die das Plattformattribut definiert ist als `IOS`.
 
@@ -81,7 +80,7 @@ Die konfigurierten Inline-Attribute, die für ein Thema definiert sind, werden i
 ### Zusätzliche Filter in der Ansicht &quot;Repository&quot;
 
 Die Filtersuche in der Repository-Ansicht wurde jetzt leistungsfähiger. Zwei neue Suchkriterien, **Zuletzt geändert** und **Tags** wurden hinzugefügt, um die Dateien zu filtern und Ihre Suche im AEM Repository einzuschränken:
-* **Zuletzt geändert**: Sie können nach Dateien suchen, die nach einem ausgewählten Datum, aber vor einem ausgewählten Datum zuletzt geändert wurden. Sie können auch die vordefinierten Kriterien verwenden und nach Dateien suchen, die in den letzten 2 Stunden, in der letzten Woche, im letzten Monat oder im letzten Jahr zuletzt geändert wurden.
+* **Zuletzt geändert**: Sie können nach Dateien suchen, die nach einem ausgewählten Datum, aber vor einem ausgewählten Datum, zuletzt geändert wurden. Sie können auch die vordefinierten Kriterien verwenden und nach Dateien suchen, die in den letzten 2 Stunden, in der letzten Woche, im letzten Monat oder im letzten Jahr zuletzt geändert wurden.
 * **Tags**: Sie können auch nach Dateien suchen, auf die bestimmte Tags angewendet wurden. Sie können das Tag entweder eingeben oder aus der Dropdown-Liste auswählen.
 
 ![Repository-Ansichtsfilter](assets/repo-filter-search.png)
@@ -91,7 +90,7 @@ Die Filtersuche in der Repository-Ansicht wurde jetzt leistungsfähiger. Zwei ne
 
 Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
-* Veralteter Lucene-Index wird in /core/article-publish/src/main/java/com/adobe/dxml/article/publish/util/DoxUtils.java verwendet (9291)
+* Veralteter Lucene-Index wird in /core/article-publish/src/main/java/com/adobe/dxml/article/publish/util/DoxUtils.java verwendet (9291).
 * Aktualisiertes Node.js wird nicht für die Veröffentlichung verwendet. (9835)
 * DITA-Thema wird nicht automatisch mit den Änderungen aktualisiert, die auf der **Eigenschaften** Seite. (8745)
 * Frontmatter-Element beim Hinzufügen zu einer DITA-Bookmap funktioniert nicht ordnungsgemäß. (9507)
@@ -100,7 +99,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Native PDF | Wenn ein SVG-Bild bearbeitet wird, wird es im Seitenlayout nicht aktualisiert angezeigt. (9069)
 * Beim Einfügen eines `Nonbreaking Hyphen` wird mithilfe des **Sonderzeichen einfügen** angezeigt. (8919)
 * Der XML-Editor zeigt keine aktualisierten Bilder in den Themen an, wenn sie bearbeitet wurden. (9500)
-* Beim Veröffentlichen der Ausgabe über den Editor können die Vorgaben nicht aus dem **Ausgabe** Registerkarte. (9100)
+* Beim Veröffentlichen der Ausgabe über den Editor können die Vorgaben nicht aus dem **Ausgabe** Registerkarte. 9100
 * Die Unterkarten einer DITA-Zuordnung werden nicht mit der **Alle auswählen** -Option aus dem Menü mit den Auslassungspunkten. (9814)
 * Zuordnungs- oder Themenvorlagen können nicht aus der **Vorlagen** zur benutzerdefinierten Zuordnungsvorlage im Web-Editor. (9846)
 * Neue Themen- oder Zuordnungsvorlage kann nicht im Unterordner einer Zuordnungs- oder Themenvorlage erstellt werden. (9888)
@@ -112,7 +111,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
 ## Bekannte Probleme
 
-Adobe hat die folgenden bekannten Probleme in der Version AEM Handbücher as a Cloud Service vom August 2022 identifiziert.
+Adobe hat die folgenden bekannten Probleme in AEM Handbüchern as a Cloud Service vom August 2022 identifiziert.
 
 ### Bekannte Probleme mit Problemumgehung
 
@@ -120,11 +119,11 @@ Verwenden Sie die bereitgestellte Problemumgehung für die folgenden bekannten P
 
 * Die Ansicht &quot;Layout&quot;ist im Map Editor nicht sichtbar.
 
-   **Problemumgehung**: Aktualisieren Sie ui_config.json im Ordnerprofil.
+  **Workaround**: Aktualisieren Sie ui_config.json im Ordnerprofil.
 
 * Symbols.json wird überschrieben, sodass das Problem 8919 auftritt.
 
-   **Problemumgehung**: Aktualisierte symbols.json muss mit überschriebenen symbols.json zusammengeführt werden.
+  **Workaround**: Aktualisierte symbols.json muss mit überschriebenen symbols.json zusammengeführt werden.
 
 ### Andere bekannte Probleme
 

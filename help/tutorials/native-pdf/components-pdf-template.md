@@ -1,10 +1,9 @@
 ---
 title: Native PDF-Veröffentlichungsfunktion | Komponenten einer PDF-Vorlage
 description: Erfahren Sie mehr über die verschiedenen Komponenten einer PDF-Vorlage und wie Sie diese anpassen und konfigurieren.
-exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '4947'
+source-wordcount: '4975'
 ht-degree: 0%
 
 ---
@@ -64,7 +63,7 @@ Mit den Einstellungen in der Komponente Seitenlayouts können Sie die Struktur e
 
 1. Im _Layout duplizieren_ ein, geben Sie einen Namen für das Seitenlayout ein.
 
-1. Klicken Sie auf **Fertig**.
+1. Klicks **Fertig**.
 Eine Kopie des ausgewählten Seitenlayouts wird erstellt und unter Seitenlayouts hinzugefügt.
 
 ### Seitenlayout anpassen {#customize-page-layout}
@@ -187,7 +186,7 @@ Gehen Sie wie folgt vor, um eine Asset-Datei zum Ordner Ressourcen hinzuzufügen
 
 1. Klicks **Dateien auswählen** zum Durchsuchen der Asset-Datei von Ihrem lokalen Computer aus
 
-1. Klicken Sie auf **Hochladen**.
+1. Klicks **Hochladen**.
 Die ausgewählte Datei wird importiert und im Ordner Ressourcen aufgeführt.
 
 ## Erweiterte PDF-Einstellungen {#advanced-pdf-settings}
@@ -377,7 +376,7 @@ Wählen Sie eine Seitenreihenfolge aus, die die Reihenfolge der Seiten in Ihrem 
 * **Lesezeichen**: Alle Seiten werden wie in einem Booklet angeordnet.
 * **Lesezeichen rechts nach links**: Alle Seiten befinden sich in der Lesezeichenreihenfolge von rechts nach links.
 * **Benutzerdefiniert**: Definieren Sie eine benutzerdefinierte Reihenfolge der Seiten anstelle einer vordefinierten Reihenfolge.
-   * &quot;eine..b&quot;— Alle aufeinander folgenden Seiten von a bis b.
+   * &quot;a..b&quot;— Alle aufeinander folgenden Seiten von a bis b.
    * &quot;a,b,c&quot; — Neue Seitenreihenfolge a, b, c.
    * &quot;a*b&quot;- Die Seite a wird wiederholt.
    * &quot;-a&quot;- Negative Seitenzahlen zählen rückwärts ab der letzten Seite und können mit anderen benutzerdefinierten Bestellungen kombiniert werden.
@@ -454,7 +453,7 @@ Wenn Sie das Textfeld leer lassen und den Link-Text beim Einfügen eines Querver
 * **Absatz**: `{bookmarkText}`
 * **Lesezeichen**: `{bookmarkText}`
 * **Abbildung**: `{captionText}`
-* **Tabelle**: `{captionText}`
+* **Verzeichnis**: `{captionText}`
 
 Die Rangfolge für Querverweise lautet:
 * Link-Text, der in den Querverweisen hinzugefügt wird

@@ -1,13 +1,12 @@
 ---
 title: Herunterladen und installieren
 description: Erfahren Sie, wie Sie herunterladen und installieren
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '134'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
-
 
 # Herunterladen und installieren {#id1645E0O04MK}
 
@@ -21,7 +20,7 @@ Bevor Sie mit dem Download- und Installationsprozess beginnen, müssen Sie siche
 
 - **[erstmaliges Herunterladen und Installieren AEM Handbücher](download-install-aemg-first-time.md)**
 
-- **[Konfiguration des Dispatchers](download-install-configure-dispatcher.md)**
+- **[Konfigurieren des Dispatchers](download-install-configure-dispatcher.md)**
 
 - **[Installation AEM Guides überprüfen](download-install-verify-aemg-installation.md)**
 
@@ -30,5 +29,3 @@ Bevor Sie mit dem Download- und Installationsprozess beginnen, müssen Sie siche
 - **[AEM deinstallieren](download-install-unistall-aemg.md)**
 
 - **[Recommendations zur Leistungsoptimierung](download-install-recommend-perf-optimiz.md)**
-
-

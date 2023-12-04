@@ -1,11 +1,10 @@
 ---
 title: Übersetzen von Dokumenten aus dem Web Editor
 description: Übersetzen Sie Ihre Inhalte über den Web-Editor in mehrere Sprachen. Erfahren Sie, wie Sie ein Übersetzungsprojekt erstellen, Regeln hinzufügen, Versionen anzeigen und nicht synchronisierte Dateien in AEM Handbüchern schließen.
-exl-id: 02fc2b51-5b9a-4ad6-9e2e-726ab7602514
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1904'
-ht-degree: 1%
+source-wordcount: '1907'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +31,7 @@ Stellen Sie vor dem Ausführen der Schritte in diesem Verfahren sicher, dass Sie
 >
 > Der Stammordner und die Zielordner müssen auf derselben Ebene erstellt werden.
 
-## Erstellen eines Übersetzungsprojekts
+## Erstelle ein Übersetzungsprojekt
 
 1. Öffnen Sie im Bereich &quot;Repository&quot;die DITA-Zuordnungsdatei in der Zuordnungsansicht.
 1. Klicken Sie auf **Verwalten** Registerkarte. Im Übersetzungsfenster wird der per Hyperlink verknüpfte Titel der DITA-Map zusammen mit dem **Sprachen** Liste.
@@ -54,7 +53,7 @@ Stellen Sie vor dem Ausführen der Schritte in diesem Verfahren sicher, dass Sie
 
    **Verwenden Sie die neueste Version wie unter**: Wählen Sie diese Option, um die Version der Themen nach Erstellungsdatum und -zeit zu filtern. Wenn Sie ein Datum und eine Uhrzeit auswählen, wird nur die neueste Version der Dateien angezeigt, die am oder vor dem ausgewählten Datum und der ausgewählten Uhrzeit erstellt wurden.
 
-1. Klicken Sie auf **Übernehmen**. Eine Liste mit Details zu Themen und zugehörigen Assets wird angezeigt.
+1. Klicks **Anwenden**. Eine Liste mit Details zu Themen und zugehörigen Assets wird angezeigt.
 1. Wählen Sie die Themen aus, die Sie zur Übersetzung senden möchten. Sie können auch die Themenfilteroptionen für die folgenden Spalten verwenden:
 
    - **Titel**: Titel der Quelldatei.  Bewegen Sie den Mauszeiger über den Titel der Quelldatei, um den Titel der Zieldatei oder der übersetzten Datei anzuzeigen.

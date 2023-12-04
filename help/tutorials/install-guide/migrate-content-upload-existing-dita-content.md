@@ -1,13 +1,12 @@
 ---
 title: Vorhandenen DITA-Inhalt hochladen
 description: Erfahren Sie, wie Sie vorhandenen DITA-Inhalt hochladen
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1201'
 ht-degree: 0%
 
 ---
-
 
 # Vorhandenen DITA-Inhalt hochladen {#id176FF000JUI}
 
@@ -42,22 +41,22 @@ Führen Sie die folgenden Schritte aus, um WinSCP zum Hochladen von Dateien zu v
 
 Adobe FrameMaker verfügt über einen leistungsstarken AEM-Connector, mit dem Sie Ihre vorhandenen DITA- und anderen FrameMaker-Dokumente \(.book und .fm\) einfach in AEM hochladen können. Sie können verschiedene Funktionen zum Hochladen von Dateien verwenden, z. B. das Hochladen einer einzelnen Datei, das Hochladen eines vollständigen Ordners mit oder ohne Abhängigkeiten \(z. B. Inhaltsreferenzen, Querverweise und Grafiken\).
 
-Führen Sie die folgenden Schritte aus, um den AEM Connector von FrameMaker zum Hochladen von Inhalten zu verwenden:
+Führen Sie die folgenden Schritte aus, um FrameMaker AEM Connector zum Hochladen von Inhalten zu verwenden:
 
 1. Starten Sie FrameMaker.
 
-1. Öffnen Sie die **Verbindungs-Manager** angezeigt.
+1. Öffnen Sie die **Connection Manager** angezeigt.
 
    ![](assets/fm-aem-connector.png){width="550" align="left"}
 
 1. Geben Sie die folgenden Details ein, um eine Verbindung zum AEM-Repository herzustellen:
 
-   - **Name**: Geben Sie einen beschreibenden Namen ein, um die Verbindung zu Ihrem AEM-Server zu identifizieren.
+   - **Name**: Geben Sie einen beschreibenden Namen ein, um die Verbindung zu Ihrem AEM zu identifizieren.
    - **Server**: Geben Sie die URL und die Portnummer Ihres AEM-Servers ein.
 
    - **Benutzername**/**Passwort**: Geben Sie den Benutzernamen und das Kennwort für den Zugriff auf den AEM-Server ein.
 
-1. Klicken Sie auf **Verbinden**.
+1. Klicks **Verbinden**.
 
    Nachdem die Verbindung erfolgreich hergestellt wurde, werden Assets aus dem AEM Repository im Fenster Repository Manager angezeigt.
 
@@ -80,7 +79,7 @@ Führen Sie die folgenden Schritte aus, um Dateinamen mit einem UUID-Muster zu v
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Suchen Sie nach und klicken Sie auf *com.adobe.fmdita.config.ConfigManager* Bundle.
+1. Suchen Sie nach und klicken Sie auf *com.adobe.fmdita.config.ConfigManager* Bundle
 
 1. Im **UUID-Dateinamenmuster** -Eigenschaft ein Muster angeben, um die Namen der importierten Datei zu überprüfen.
 
@@ -107,7 +106,7 @@ Beim Verschieben oder Kopieren von Inhalten im AEM-Repository müssen die folgen
 
 - Beim Kopieren einer oder mehrerer Dateien von einem Speicherort an einen anderen Speicherort wird für Dateien ohne UUID eine neue UUID generiert. Diese UUID wird den Metadaten der Datei hinzugefügt.
 
-- Wenn eine Datei einen Konflikt oder ein Duplikat aufweist, wird ein eindeutiger Dateiname für die neue Datei generiert, die kopiert oder verschoben wird.
+- Wenn eine Datei einen Konflikt aufweist oder ein Duplikat aufweist, wird ein eindeutiger Dateiname für die neue Datei generiert, die kopiert oder verschoben wird.
 
 - Keine zwei Dateien können dieselbe UUID aufweisen. Allen neuen Dateien wird eine eindeutige UID zugewiesen.
 
@@ -121,9 +120,9 @@ Beim Verschieben oder Kopieren von Inhalten aus Ihrem lokalen System in das AEM-
 
 ## Verwenden von curl-Befehlen
 
-Sie können auch curl-Befehle verwenden, um einen Ordner in DAM zu erstellen, Dateien hochzuladen und Metadaten zum hochgeladenen Inhalt hinzuzufügen.
+Sie können auch mithilfe von Curl-Befehlen einen Ordner in DAM erstellen, Dateien hochladen und Metadaten zum hochgeladenen Inhalt hinzufügen.
 
-**Erstellen eines Ordners**
+**Ordner erstellen**
 
 Führen Sie den folgenden Befehl aus, um einen Ordner in AEM Repository zu erstellen:
 
@@ -152,7 +151,7 @@ Geben Sie die folgenden Parameter an, um eine Datei hochzuladen:
 
 - `<username>:<passowrd>`: Geben Sie den Benutzernamen und das Kennwort für den Zugriff auf das AEM-Repository an. Dieser Benutzer muss Schreibrechte für die `server folder path`.
 
-- ``local file path``: Füllen Sie den Dateipfad auf Ihrem lokalen System aus, den Sie hochladen möchten.
+- ``local file path``: Vervollständigen Sie den Dateipfad auf Ihrem lokalen System, den Sie hochladen möchten.
 
 - `<server folder path>`: Füllen Sie den Ordnerpfad auf dem AEM-Server aus, auf den Sie die Datei hochladen möchten.
 
@@ -175,4 +174,3 @@ Geben Sie die folgenden Parameter an, um Metadateninformationen hinzuzufügen:
 
 
 **Übergeordnetes Thema:**[ Migrieren vorhandener Inhalte](migrate-content.md)
-

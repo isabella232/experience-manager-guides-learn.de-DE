@@ -1,15 +1,14 @@
 ---
-title: Benutzerverwaltung und Sicherheit
-description: Erfahren Sie, wie die Benutzerverwaltung und Sicherheit funktionieren.
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+title: Benutzerverwaltung und -sicherheit
+description: Erfahren Sie, wie die Benutzerverwaltung und Sicherheit funktionieren
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 13%
+source-wordcount: '708'
+ht-degree: 10%
 
 ---
 
-
-# Benutzerverwaltung und Sicherheit {#id181AED00G5Z}
+# Benutzerverwaltung und -sicherheit {#id181AED00G5Z}
 
 Um auf Funktionen in den AEM-Handbüchern zuzugreifen und diese zu konfigurieren, müssen Sie Benutzer erstellen. Diesen Benutzern können dann Berechtigungen für den Zugriff auf alle oder bestimmte Funktionen in den AEM Handbüchern zugewiesen werden. Erfahren Sie, wie Sie die Benutzerautorisierung konfigurieren und verwalten und verstehen Sie auch die Theorie, die dahinter steckt, wie Authentifizierung und Autorisierung in AEM funktioniert.
 
@@ -22,7 +21,7 @@ Die folgenden Themen in AEM Dokumentation helfen Ihnen dabei, die Konzepte und F
 
 ## Von AEM Guides erstellte Benutzergruppen {#id181TF0K0MHT}
 
-AEM Guides bieten drei native Gruppen zur Verwaltung verschiedener Aufgaben in einem DITA-Projekt. Diese Gruppen sind: *Autoren*, *Überprüfer* und *Herausgeber*. Abhängig von der Gruppe, der ein Benutzer zugeordnet ist, können er bestimmte Aufgaben ausführen. Beispielsweise kann eine Veröffentlichungsaufgabe nur von einem Herausgeber, aber nicht von einem Autor oder Überprüfer ausgeführt werden. Auf ähnliche Weise kann ein Autor ein neues Thema erstellen und ein Überprüfer kann nur ein Thema überprüfen.
+AEM Guides bieten drei native Gruppen zur Verwaltung verschiedener Aufgaben in einem DITA-Projekt. Diese Gruppen sind: *Autoren*, *Überprüfer*, und *Herausgeber*. Abhängig von der Gruppe, der ein Benutzer zugeordnet ist, können er bestimmte Aufgaben ausführen. Beispielsweise kann eine Veröffentlichungsaufgabe nur von einem Herausgeber, aber nicht von einem Autor oder Überprüfer ausgeführt werden. Auf ähnliche Weise kann ein Autor ein neues Thema erstellen und ein Überprüfer kann nur ein Thema überprüfen.
 
 >[!TIP]
 >
@@ -56,7 +55,7 @@ In der folgenden Tabelle sind verschiedene Aufgaben und die Gruppen aufgeführt,
 | Vorgabe löschen |   |   | Ja |
 | **In der DITA Map Console verfügbare Funktionen \(Registerkarte &quot;Ausgaben&quot;\)** |
 | Anzeigen der generierten Ausgabe | Ja |   | Ja |
-| **In der DITA-Map-Konsole verfügbare Funktionen \(Registerkarte &quot;Themen&quot;\)** |
+| **In der DITA Map Console verfügbare Funktionen \(Registerkarte &quot;Themen&quot;\)** |
 | Bewertungsaufgabe erstellen | Ja |   | Ja |
 | Bearbeiten | Ja |   | Ja |
 | **In der DITA Map Console verfügbare Funktionen \(Registerkarte &quot;Grundlinien&quot;\)** |
@@ -80,17 +79,17 @@ Die folgende Liste enthält einige Empfehlungen und Punkte, die sich auf Benutze
 
 - *Überprüfer* Sie können über die Projektkonsole oder über den Benachrichtigungslink im Posteingang auf Überprüfungskommentare zu einem Thema zugreifen und diese hinzufügen. Außerdem ist dieser Zugriff nur verfügbar, bis die Prüfungsaufgabe geöffnet ist.
 
-- Standardmäßig *Herausgeber* erhalten Zugriff und Berechtigungen für die folgenden Ordner in DAM:
+- Standardmäßig ist *Herausgeber* erhalten Zugriff und Berechtigungen für die folgenden Ordner in DAM:
 
-   - `/content/fmdita` –\> Lesen und Schreiben
+   - `/content/fmdita` -\> Lesen und Schreiben
 
-   - `/content/dam/fmdita-outputs` –\> Lesen und Schreiben
+   - `/content/dam/fmdita-outputs` -\> Lesen und Schreiben
 
-   - `/content/output/sites` –\> Lesen und Schreiben
+   - `/content/output/sites` -\> Lesen und Schreiben
 
   Sie müssen Ihrem Herausgeber explizite Lese- und Schreibberechtigungen erteilen, wenn Sie neben den oben genannten standardmäßigen Veröffentlichungsorten einen anderen Speicherort verwenden.
 
-- Alle Benutzer unter *Autoren*, *Überprüfer* und *Herausgeber* Gruppen haben Lesezugriff auf alle Inhalte in DAM.
+- Alle Benutzer unter *Autoren*, *Überprüfer*, und *Herausgeber* -Gruppen haben Lesezugriff auf alle Inhalte in DAM.
 
 - Berechtigungen auf Ordnerebene müssen Benutzern über die Benutzerverwaltungsseite zugewiesen werden.
 
@@ -101,4 +100,3 @@ Die folgende Liste enthält einige Empfehlungen und Punkte, die sich auf Benutze
 - Um Benutzern Berechtigungen zum Ändern des Dokumentstatus zu geben, stellen Sie sicher, dass Sie den Benutzer im Abschnitt Statusübergang des Dokumentstatusprofils hinzufügen.
 
 [1](#fnsrc_1) Wenn *Autoren* und *Herausgeber* werden zur Überprüfung aufgefordert.[2](#fnsrc_2) Abhängig von den Berechtigungen, die dem Benutzer im Dokumentstatusprofil zugewiesen wurden.
-

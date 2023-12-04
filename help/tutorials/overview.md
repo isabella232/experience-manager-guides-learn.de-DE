@@ -1,10 +1,9 @@
 ---
 title: Tutorials für Experience Manager-Handbücher
 description: Hier finden Sie Anleitungsvideos für Experience Manager-Handbücher (früher XML Documentation für Adobe Experience Manager). Erfahren Sie mehr über native DITA-Unterstützung und strukturiertes Authoring in Experience Manager.
-exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
-source-git-commit: 7fa60a962a94ad5011359398cc668f8080859a8c
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '303'
 ht-degree: 2%
 
 ---
@@ -25,16 +24,16 @@ Mit [!DNL AEM Guides] -Lösung können Unternehmen nahtlose und personalisierte 
 
 * **[[!DNL AEM Guides] Einführungskurs](../courses/course-1/overview.md)**
 
-   _Erfahren Sie, wie Sie Inhalte erstellen, organisieren, erstellen und veröffentlichen können mit [!DNL Adobe Experience Manager Guides]._
+  _Erfahren Sie, wie Sie Inhalte erstellen, organisieren, erstellen und veröffentlichen können mit [!DNL Adobe Experience Manager Guides]._
 
 
 * **[[!DNL AEM Guides] Authoring im integrierten Web-Editor](../courses/course-3/overview.md)**
 
-   _Erfahren Sie, wie Sie Inhalte mithilfe des nativen Web-Editors in  [!DNL Adobe Experience Manager Guides]. Verschaffen Sie sich umfassende Kenntnisse zu Benutzereinstellungen, Editor-Einstellungen, Konfiguration, Symbolleisten und mehr._
+  _Erfahren Sie, wie Sie Inhalte mithilfe des nativen Web-Editors in  [!DNL Adobe Experience Manager Guides]. Verschaffen Sie sich umfassende Kenntnisse zu Benutzereinstellungen, Editor-Einstellungen, Konfiguration, Symbolleisten und mehr._
 
 * **[Generierung der Ausgabe mit [!DNL AEM Guides]](../courses/course-2/overview.md)**
 
-   _Erfahren Sie, wie Sie eine Ausgabe generieren mit [!DNL Adobe Experience Manager Guides]. Erfahren Sie mehr über verschiedene Funktionen, die für die Generierung von Ausgaben verfügbar sind - Berichte, Grundlinien, Bedingungen, Fehlerbehebung, Massenveröffentlichung und Aktivierung._
+  _Erfahren Sie, wie Sie eine Ausgabe generieren mit [!DNL Adobe Experience Manager Guides]. Erfahren Sie mehr über verschiedene Funktionen, die für die Generierung von Ausgaben verfügbar sind - Berichte, Grundlinien, Bedingungen, Fehlerbehebung, Massenveröffentlichung und Aktivierung._
 
 
 <!--
@@ -94,4 +93,4 @@ Dummy links cause validation to fail
 
 * [[!DNL AEM Guides] Online-Benutzerhandbuch](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html)
 * [[!DNL AEM Guides] PDF-Guides](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
-* [Experience League - AEM](https://experienceleague.adobe.com/?lang=de#recommended/solutions/experience-manager)
+* [Experience League – AEM-Erkundung](https://experienceleague.adobe.com/?lang=de#recommended/solutions/experience-manager)

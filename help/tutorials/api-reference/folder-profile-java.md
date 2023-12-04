@@ -1,13 +1,12 @@
 ---
 title: Java-basierte API für die Arbeit mit Ordnerprofilen
 description: Erfahren Sie mehr über die Java-basierte API für die Arbeit mit Ordnerprofilen
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
-
 
 # Java-basierte API für die Arbeit mit Ordnerprofilen {#id175UB30E05Z}
 
@@ -62,4 +61,3 @@ Session session) throws GuidesApiException
 - Wenn die API über eine nicht autorisierte Benutzersitzung aufgerufen wird, z. B. der Benutzer, der kein Administrator für das angegebene Ordnerprofil ist.
 
 [1](#fnsrc_1) Die `attributeNames`, `values`, und `labels` in einer Array-Liste muss demselben Eintrag entsprechen.
-

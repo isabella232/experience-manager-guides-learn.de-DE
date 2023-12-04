@@ -1,13 +1,12 @@
 ---
 title: Anzeige von UUID-basierten Links konfigurieren
 description: Erfahren Sie, wie Sie die Anzeige von UUID-basierten Links konfigurieren.
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 0%
 
 ---
-
 
 # Anzeige von UUID-basierten Links konfigurieren {#id2035G20M0QN}
 
@@ -23,7 +22,7 @@ Führen Sie die folgenden Schritte aus, um den relativen Pfad oder die UUID des 
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Suchen Sie nach und klicken Sie auf **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** Bundle.
+1. Suchen Sie nach und klicken Sie auf **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** Bundle
 
 1. Im *XmlEditorConfig* -Einstellungen **Aktivieren von UUIDs** ist standardmäßig aktiviert. Dies bedeutet, dass die UUID des referenzierten Inhalts im **Link** -Eigenschaft im Bereich &quot;Eigenschaften&quot;.
 
@@ -33,4 +32,3 @@ Führen Sie die folgenden Schritte aus, um den relativen Pfad oder die UUID des 
 
 
 **Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
-

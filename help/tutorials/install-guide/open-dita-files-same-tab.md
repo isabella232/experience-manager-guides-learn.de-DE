@@ -1,13 +1,12 @@
 ---
 title: DITA-Themen- oder Zuordnungsdateien auf derselben Registerkarte öffnen
 description: Erfahren Sie, wie Sie DITA-Themen oder -Zuordnungsdateien auf derselben Registerkarte öffnen
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 0%
 
 ---
-
 
 # DITA-Themen- oder Zuordnungsdateien auf derselben Registerkarte öffnen {#id223HI0P202H}
 
@@ -21,7 +20,7 @@ Wenn Sie in einigen Workflows auf einen Link eines Themas oder einer Zuordnungsd
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Suchen Sie nach und klicken Sie auf **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** Bundle.
+1. Suchen Sie nach und klicken Sie auf **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** Bundle
 
 1. Wählen Sie die **DITA-Thema/Karte auf derselben Registerkarte öffnen** -Option.
 
@@ -42,4 +41,3 @@ Diese Einstellung wirkt sich auf die folgenden Stellen aus, an denen Sie auf die
 
 
 **Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
-

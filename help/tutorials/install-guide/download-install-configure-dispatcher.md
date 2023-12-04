@@ -1,17 +1,16 @@
 ---
 title: Konfiguration des Dispatchers
 description: Erfahren Sie, wie Sie den Dispatcher konfigurieren
-source-git-commit: 9fe396dcfd2e3570ec386c958d7d4efdb4d608e5
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 9%
+source-wordcount: '302'
+ht-degree: 6%
 
 ---
 
-
 # Konfiguration des Dispatchers {#id213BCM0M05U}
 
-Wenn Sie planen, einen Dispatcher in der AEM-Autoreninstanz zusammen mit AEM Guides zu verwenden, müssen Sie die folgenden zusätzlichen Konfigurationen durchführen, um das Setup abzuschließen:
+Wenn Sie planen, einen Dispatcher in AEM Autoreninstanz zusammen mit AEM Guides zu verwenden, müssen Sie die folgenden zusätzlichen Konfigurationen durchführen, um das Setup abzuschließen:
 
 >[!NOTE]
 >
@@ -79,4 +78,3 @@ Wenn Sie einen Dispatcher mit AEM Guides verwenden und Ihre Autoreninstanz über
 ```
 
 **Übergeordnetes Thema:**[ Herunterladen und installieren](download-install.md)
-

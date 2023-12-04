@@ -1,11 +1,10 @@
 ---
-title: Versionshinweise | Adobe Experience Manager-Handbücher Version 4.1
+title: Versionshinweise | Adobe Experience Manager Guides Version 4.1
 description: Aktuelle Version der Adobe Experience Manager-Handbücher
-exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '3532'
-ht-degree: 3%
+source-wordcount: '3644'
+ht-degree: 1%
 
 ---
 
@@ -29,7 +28,7 @@ Weitere Informationen finden Sie unter [Upgrade-Anweisungen](assets/Adobe-Experi
 
 In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen aufgelistet, die von AEM Guides 4.1.3 unterstützt werden.
 
-### Adobe Experience Manager
+### ADOBE EXPERIENCE MANAGER
 
 **Nicht-UUID**
 Version 6.5 Service Pack 13, 12, 11 oder 10
@@ -42,21 +41,21 @@ Weitere Informationen finden Sie im Abschnitt Technische Anforderungen im Handbu
 
 ### FrameMaker und FrameMaker Publishing Server
 
-| Release | FMPS 2020 | FMPS 2019 | FM 2020 | FM 2019 |
+| Freigabe | FMPS 2020 | FMPS 2019 | FM 2020 | FM 2019 |
 | --- | --- | --- | --- | --- |
 | 4.1.3 (Nicht-UUID) | 2020.2 oder höher* | 2019 | 2020.3 oder höher | 2019.8 (neueste Aktualisierung) |
 | 4.1.3 (UUID) | 2020.2 oder höher* | Nicht kompatibel | 2020.4 oder höher | Nicht kompatibel |
-|  |  |  |  |
+| | | | |
 
 *Die in AEM erstellten Grundlinien und Bedingungen werden in FMPS-Versionen ab 2020.2 unterstützt.
 
 ### Sauerstoffanschluss
 
-| Release | Sauerstoff Connector Windows | Sauerstoff Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
+| Freigabe | Sauerstoff Connector Windows | Sauerstoff Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
 | --- | --- | --- |--- |--- |
-| 4.1.3 (Nicht-UUID) | 2.0 | 2.0 | 1.6 | 1.6 |
-| 4.1.3 (UUID) | 2.7 | 2.7 | 2.3 | 2.3 |
-|  |  |  |
+| 4.1.3 (Nicht-UUID) | 2.0 | 2.0 | 1,6 | 1,6 |
+| 4.1.3 (UUID) | 2,7 | 2,7 | 2,3 | 2,3 |
+|  |  |   |
 
 
 ## Behobene Probleme
@@ -72,7 +71,7 @@ Der behobene Fehler ist unten aufgeführt:
 
 In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen aufgelistet, die von AEM Guides 4.1.2 unterstützt werden.
 
-### Adobe Experience Manager
+### ADOBE EXPERIENCE MANAGER
 
 **Nicht-UUID**
 Version 6.5 Service Pack 13, 12, 11 oder 10
@@ -85,21 +84,21 @@ Weitere Informationen finden Sie im Abschnitt Technische Anforderungen im Handbu
 
 ### FrameMaker und FrameMaker Publishing Server
 
-| Release | FMPS 2020 | FMPS 2019 | FM 2020 | FM 2019 |
+| Freigabe | FMPS 2020 | FMPS 2019 | FM 2020 | FM 2019 |
 | --- | --- | --- | --- | --- |
 | 4.1.2 (Nicht-UUID) | 2020.2 oder höher* | 2019 | 2020.3 oder höher | 2019.8 (neueste Aktualisierung) |
 | 4.1.2 (UUID) | 2020.2 oder höher* | Nicht kompatibel | 2020.4 oder höher | Nicht kompatibel |
-|  |  |  |  |
+| | | | |
 
 *Die in AEM erstellten Grundlinien und Bedingungen werden in FMPS-Versionen ab 2020.2 unterstützt.
 
 ### Sauerstoffanschluss
 
-| Release | Sauerstoff Connector Windows | Sauerstoff Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
+| Freigabe | Sauerstoff Connector Windows | Sauerstoff Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
 | --- | --- | --- |--- |--- |
-| 4.1.2 (Nicht-UUID) | 2.0 | 2.0 | 1.6 | 1.6 |
-| 4.1.2 (UUID) | 2.7 | 2.7 | 2.3 | 2.3 |
-|  |  |  |
+| 4.1.2 (Nicht-UUID) | 2.0 | 2.0 | 1,6 | 1,6 |
+| 4.1.2 (UUID) | 2,7 | 2,7 | 2,3 | 2,3 |
+|  |  |   |
 
 
 ## Behobene Probleme
@@ -117,7 +116,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
 * Die während der Übersetzung exportierte Grundlinie wird nicht auf der Registerkarte &quot;Grundlinie&quot;des Editors geladen.
 
-   **Problemumgehung**: Verwenden Sie die Registerkarte &quot;Grundlinie&quot;des DITA-Map-Dashboards.
+  **Workaround**: Verwenden Sie die Registerkarte &quot;Grundlinie&quot;des DITA-Map-Dashboards.
 
 ## 4,1 | Versionshinweise
 
@@ -127,7 +126,7 @@ Diese Versionshinweise behandeln die Upgrade-Anweisungen, neuen Funktionen und V
 
 In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen aufgelistet, die von AEM Guides 4.1 unterstützt werden.
 
-### Adobe Experience Manager
+### ADOBE EXPERIENCE MANAGER
 
 **Nicht-UUID**
 Version 6.5 Service Pack 13, 12, 10 oder 11
@@ -142,24 +141,24 @@ Weitere Informationen finden Sie im Abschnitt Technische Anforderungen im Handbu
 
 ### FrameMaker und FrameMaker Publishing Server
 
-| Release | FMPS 2020 | FMPS 2019 | FM 2020 | FM 2019 |
+| Freigabe | FMPS 2020 | FMPS 2019 | FM 2020 | FM 2019 |
 | --- | --- | --- | --- | --- |
 | 4.1 (Nicht-UUID) | 2020.2 oder höher* | 2019 | 2020.3 oder höher | 2019.8 (neueste Aktualisierung) |
 | 4.1 (UUID) | 2020.2 oder höher* | Nicht kompatibel | 2020.4 oder höher | Nicht kompatibel |
-|  |  |  |  |
+| | | | |
 
 *Die in AEM erstellten Grundlinien und Bedingungen werden in FMPS-Versionen ab 2020.2 unterstützt.
 
 ### Sauerstoffanschluss
 
-| Release | Sauerstoff Connector Windows | Sauerstoff Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
+| Freigabe | Sauerstoff Connector Windows | Sauerstoff Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
 | --- | --- | --- |--- |--- |
-| 4.1 (Nicht-UUID) | 2.0 | 2.0 | 1.6 | 1.6 |
-| 4.1 (UUID) | 2.7 | 2.7 | 2.3 | 2.3 |
+| 4.1 (Nicht-UUID) | 2.0 | 2.0 | 1,6 | 1,6 |
+| 4.1 (UUID) | 2,7 | 2,7 | 2,3 | 2,3 |
 |  |  |  |
 
 
-## Neue Funktionen und Erweiterungen
+## Neue Funktionen und Verbesserungen
 
 AEM-Handbücher bieten viele Verbesserungen und neue Funktionen in Version 4.1:
 
@@ -224,14 +223,14 @@ Jetzt erhalten Sie die leistungsstarke Funktion, um benutzerdefinierte Kartenvor
 
 ![Datenvorlagen](assets/dita-templates.png)
 
-Sie können auch auf andere Zuordnungsvorlagen und Themenvorlagen aus der angepassten Zuordnungsvorlage verweisen. Die referenzierten Zuordnungsvorlagen können sich auf verschiedene Zuordnungsvorlagen, Themenvorlagen, Themen, Zuordnungen, Bilder, Videos und andere Assets beziehen.
+Sie können auch auf andere Zuordnungsvorlagen und Themenvorlagen aus der benutzerdefinierten Zuordnungsvorlage verweisen. Die referenzierten Zuordnungsvorlagen können sich auf verschiedene Zuordnungsvorlagen, Themenvorlagen, Themen, Zuordnungen, Bilder, Videos und andere Assets beziehen.
 
 ![Erstellen von Datenvorlagen](assets/create-dita-template.png)
 
 Die benutzerdefinierte Kartenvorlage kann Ihnen dabei helfen, die Zuordnungsvorlagen und die gesamte referenzierte Ordnerstruktur einfach zu replizieren. Diese benutzerdefinierten Vorlagen sind besonders nützlich, um mehrere Karten mit rekursiven Strukturen und Referenzen zu erstellen und neu zu erstellen.
 
 * **Schematron-Unterstützung**
-&quot;Schematron&quot;bezieht sich auf eine regelbasierte Validierungssprache, die zum Definieren von Tests für eine XML-Datei verwendet wird. Mithilfe einer Schematron-Datei können Sie bestimmte Regeln definieren und sie dann für ein DITA-Thema oder eine Zuordnung validieren. Der Webeditor unterstützt Schematron-Dateien. Sie können die Schemadateien importieren und sie auch im Web-Editor bearbeiten. Die Schemaunterstützung im Web Editor hilft Ihnen dabei, die Dateien anhand eines Regelsatzes zu validieren und Konsistenz und Korrektheit über die Themen hinweg zu gewährleisten.
+&quot;Schematron&quot;bezieht sich auf eine regelbasierte Validierungssprache, die zum Definieren von Tests für eine XML-Datei verwendet wird. Mithilfe einer Schematron-Datei können Sie bestimmte Regeln definieren und sie dann für ein DITA-Thema oder eine Zuordnung validieren. Der Web Editor unterstützt Schematron-Dateien. Sie können die Schemadateien importieren und sie auch im Web-Editor bearbeiten. Die Schemaunterstützung im Web Editor hilft Ihnen dabei, die Dateien anhand eines Regelsatzes zu validieren und Konsistenz und Korrektheit über die Themen hinweg zu gewährleisten.
 
 ![Schematron validieren](assets/schematron-validate.png)
 
@@ -248,8 +247,7 @@ Weitere Informationen finden Sie unter *Szenarien zum Schließen und Speichern v
 ![Suchbegriff einfügen](assets/insert-keyword.png)
 
 * **Unterstützung für Markdown-Dokumente**
-Markdown ist eine einfache Markup-Sprache, mit der Sie Formatierungselemente zu Nur-Text-Dokumenten hinzufügen können. Mit dem Web Editor können Sie Markdown-Dokumente (.md) zusammen mit Ihren DITA-Dokumenten verwenden. Sie können ein Markdown-Dokument einfach im Web-Editor erstellen und in der Vorschau anzeigen und es auch über den DITA-Map-Editor in Ihre Map-Datei einfügen.  Weitere Informationen finden Sie unter 
-*Erstellen von Markdown-Dokumenten aus dem Web Editor* Abschnitt im Handbuch Verwenden von Adobe Experience Manager-Handbüchern.
+Markdown ist eine einfache Markup-Sprache, mit der Sie Formatierungselemente zu Nur-Text-Dokumenten hinzufügen können. Mit dem Web Editor können Sie Markdown-Dokumente (.md) zusammen mit Ihren DITA-Dokumenten verwenden. Sie können ein Markdown-Dokument einfach im Web-Editor erstellen und in der Vorschau anzeigen und es auch über den DITA-Map-Editor in Ihre Map-Datei einfügen.  Weitere Informationen finden Sie unter *Erstellen von Markdown-Dokumenten aus dem Web Editor* Abschnitt im Handbuch Verwenden von Adobe Experience Manager-Handbüchern.
 
 ![Support-Markdown](assets/create-markdown-dita-topic.png)
 
@@ -266,7 +264,7 @@ AEM Version 4.1 von Guides bietet die Funktion &quot;Grundlinie&quot;, die im We
 
 **Hinweis**: Für ein aktualisiertes System aktualisieren Sie bitte die neueste **ui_config.json** für das Ordnerprofil.
 
-Verwenden Sie diese Funktion, um eine Grundlinie mit einer bestimmten Version der Themen zu erstellen, die an einem bestimmten Datum und zu einer bestimmten Uhrzeit verfügbar sind. Außerdem erhalten Sie die API-Unterstützung zum Erstellen oder Aktualisieren einer Grundlinie mit einem für eine Themenversion definierten Titel.
+Verwenden Sie diese Funktion, um eine Grundlinie mit einer bestimmten Version der Themen zu erstellen, die an einem bestimmten Datum und zu einer bestimmten Uhrzeit verfügbar sind. Außerdem erhalten Sie die API-Unterstützung zum Erstellen oder Aktualisieren einer Grundlinie mit einer für eine Themenversion definierten Beschriftung.
 
 ![Grundlegende Registerkarte](assets/baseline-manage.png)
 
@@ -276,15 +274,14 @@ Sie können die Dateien anhand von Dateinamen oder Dateispeicherort durchsuchen.
 
 Die Leistung für die Grundlagenerstellung wurde weiter verbessert. Der Prozess zum Erstellen von Grundlinien ist asynchron, sodass Sie andere Dateien im Web Editor weiter bearbeiten können, während die Grundlinie erstellt wird. Weitere Informationen finden Sie unter *Erstellen und Verwalten von Grundlinien im Web-Editor* im Handbuch Verwenden von Adobe Experience Manager-Handbüchern.
 
-Hinweis: Die Registerkarte &quot;Grundlinie&quot;im Dashboard der Karte ist standardmäßig ausgeblendet. Ihr Administrator kann die Registerkarte &quot;Grundlinie&quot;im Dashboard der Landkarte aktivieren.
+Hinweis: Die Registerkarte &quot;Grundlinie&quot;im Dashboard der Zuordnung ist standardmäßig ausgeblendet. Ihr Administrator kann die Registerkarte &quot;Grundlinie&quot;im Dashboard der Landkarte aktivieren.
 
 * Der Grundlinienparameter in den APIs zum Herunterladen von Landingpages verwendet jetzt den Titel der Grundlinie, um den versionierten Inhalt abzurufen.
 
 ### Verbesserter Übersetzungsprozess
 
 * **Möglichkeit zur Erstellung eines Scoping-Übersetzungsprojekts**
-Wenn Sie nur den Bereich für die Übersetzung eines Projekts erstellen müssen, können Sie 
-**Neues Scoping-Übersetzungsprojekt erstellen**. Dadurch werden die Kopien nicht zur Übersetzung gesendet und der ursprüngliche Übersetzungsstatus der Dateien wird beibehalten.
+Wenn Sie nur den Bereich für die Übersetzung eines Projekts erstellen müssen, können Sie **Neues Scoping-Übersetzungsprojekt erstellen**. Dadurch werden die Kopien nicht zur Übersetzung gesendet und der ursprüngliche Übersetzungsstatus der Dateien wird beibehalten.
 
 ![Scoping-Übersetzungsprojekt](assets/scoping-translation-project.png)
 
@@ -311,7 +308,7 @@ Weitere Informationen zur Übersetzung finden Sie unter *Übersetzen von Dokumen
 
 Wenn Sie die DITA-Map herunterladen, wird die Anfrage in die Warteschlange gestellt und Sie erhalten eine Benachrichtigung, sobald die Karte zum Herunterladen bereit ist. Sie können die Zuordnungsdatei sofort herunterladen oder später über den im Posteingang für AEM Benachrichtigungen angegebenen Link herunterladen.
 
-![Map download](assets/download-map-prompt.png)
+![Herunterladen von Karten](assets/download-map-prompt.png)
 
 ### Weitere Funktionsverbesserungen
 
@@ -327,20 +324,20 @@ AEM Guides unterstützen nicht mehr die Generierung des DITA-Ausgabeformats für
 Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
 * Die Authoring-Unterstützung ist nicht als Alternative für dateipfadbasierte Verweise auf Veröffentlichungen verfügbar. (8076)
-* DITA Add on-Paket verhindert die Erkennung von DAM-doppelten Assets. (8417)
+* DITA Add on-Paket verhindert die Erkennung von DAM-doppelten Assets. 8417)
 * Nach dem Einchecken eines Dokuments von Sauerstoff in AEM wird der japanische Inhalt im Dokument durch Fragezeichen (???) ersetzt. (9124)
 * Die ausgecheckten Dateien aktualisieren funktioniert nicht bei der Protokollierung mit Web-Authentifizierung in Oxygen. (9179)
 * Die Datei wird beim Öffnen in Sauerstoff nicht ausgecheckt. (9192)
 * Nach dem Einchecken eines Dokuments von Sauerstoff in AEM wird der japanische Inhalt im Dokument durch Fragezeichen (???) ersetzt. (9276)
 * Webauthentifizierung funktioniert nicht in Sauerstoff. (9296)
 * Die Neuladung schlägt in Sauerstoff fehl, wenn die Datei(en) bereits in AEM am selben Speicherort vorhanden ist. (9328)
-* Option nicht verfügbar, um Inhalte zwischen AEM und dem lokalen System erzwungen zu synchronisieren. (9439)
+* Option nicht verfügbar, um die erzwungene Synchronisierung von Inhalten zwischen AEM und dem lokalen System zu ermöglichen. (9439)
 * Die ID wird nicht automatisch für das Element generiert, das mit **Wiederverwendbaren Inhalt einfügen** von der sekundären Symbolleiste aus. (5826)
 * Beim Hochladen eines Bildes mit demselben Namen wie einer vorhandenen Datei über den Editor wird kein Bestätigungsdialogfeld angezeigt. (6011)
 * Ein geschütztes Leerzeichen ist in der Zeichensatzpalette nicht verfügbar. (7523)
 * Die Elementliste (Alt+Eingabetaste) wird im dunklen/dunkelsten Design grau dargestellt. (7913)
 * Die Version wird beim Speichern der Revision eines Themas in der Symbolleiste des Zuordnungsbereichs nicht aktualisiert. (8228)
-* xref kann nicht selbst an gültigen Stellen eingefügt werden. (8354)
+* xref kann nicht selbst an gültigen Stellen eingefügt werden. 8354)
 * Der Vorgang &quot;getversionlabel&quot;weist Einschränkungen auf und bietet keine erwartete Leistung. (8513)
 * Probleme treten beim Bestätigungsdialogfeld beim Schließen einer gesperrten oder bearbeiteten Datei auf, die derzeit nicht im Editor geöffnet ist. (8692)
 * Beim Hinzufügen eines Benutzers als Administrator im Ordnerprofil tritt ein Fehler auf, wenn die Benutzer-ID numerisch ist. (8908)
@@ -348,7 +345,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Sprachcode wird nicht mit der Sprache im Übersetzungsbereich angezeigt. (9108)
 * Die Registerkarten Übersetzung und Grundlinie sind im Dashboard Landkarte für einige Zeit sichtbar. (9146)
 * Wenn die Übersetzung abgeschlossen ist, wird eine zusätzliche Version für das übersetzte Asset erstellt. (9310)
-* Die validierte Übersetzung wird nicht in die Zielsprache integriert, wenn der Zielsprachcode fünf Zeichen enthält, z. B. `fr_ca`. (9357)
+* Die validierte Übersetzung wird nicht in die Zielsprache integriert, wenn der Zielsprachcode fünf Zeichen enthält, z. B. `fr_ca`. 9357
 * Übersetzte Inhalte sind fehlerhaft, wenn der erstellte Zielsprachcode als `fr-fr, `, `en-us`. (9527)
 * Beim Laden einer DITA-Zuordnung, die sich außerhalb des Sprachordners befindet, wird eine Ausnahme am Backend protokolliert.(9543)
 * DITA-Datei kann nicht mit der benutzerdefinierten DITA-Vorlage aus dem Editor erstellt werden. (7262)
@@ -363,44 +360,44 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Beim Upgrade von 3.8.X auf 4.0 treten Probleme im Überprüfungsprozess auf. (8788)
 * Wenn ein Benutzername lang ist, werden die Symbole, die angenommen/abgelehnt werden, im Überprüfungsfenster des Web Editors nicht klar angezeigt. (8793)
 * Der Referenzbaum bricht nach dem Entfernen eines Themas und dem Ausführen eines Verschiebevorgangs ab. (8804)
-* Benutzerdefinierte DTD, die vom Benutzer definiert wird, hat keinen Vorrang vor standardmäßiger DITA-DTD, die in DITA-OT eingebettet ist. (9104)
+* Benutzerdefinierte DTD, die vom Benutzer definiert wird, hat keinen Vorrang vor standardmäßiger DITA-DTD, die in DITA-OT eingebettet ist. 9104
 * Die Position der Markierung ist in der Seitenansicht falsch. (9305)
 * Die Fußnote &quot;Verwendung nach Referenz&quot;scrollt nicht zum Fußnote-Abschnitt in AEM Site-Ausgabe. (9061)
 * Die Reihenfolge der Fußnoten ist in der Ausgabe der AEM Site falsch. (9327)
 * Neu erstellte DITA-Assets werden immer von einem anderen Benutzer ausgecheckt. (9387)
 * Fehler wird bei der Erstellung neuer Inhalte immer protokolliert. (9388)
 * Der dritte Bildschirm im Erstellungsprozess einer Prüfungsaufgabe zeigt nicht die Liste der Glossare an. (4558)
-* Beim Hochladen mehrerer Dateien aus FrameMaker/Sauerstoff Connector wurden falsche UUID-Referenzen zugewiesen. (8269)
+* Beim Hochladen mehrerer Dateien aus dem FrameMaker/Sauerstoff Connector wurden falsche UID-Referenzen zugewiesen. (8269)
 * Wenn eine Prüfungsaufgabe im Posteingang neu zugewiesen wird, wird keine E-Mail-Benachrichtigung gesendet. (8376)
-* Der zweite Administrator-Benutzer kann nicht als erster Administrator-Benutzer zu einem Ordner hinzugefügt werden. (8430)
-* **Beschriftungen anwenden** auf der Registerkarte &quot;Grundlinie&quot;werden keine Beschriftungen in der Dropdown-Liste angezeigt. (8455)
+* Der zweite Administrator-Benutzer kann nicht als erster Administrator-Benutzer zu einem Ordner hinzugefügt werden. 8430)
+* **Anwenden von Beschriftungen** auf der Registerkarte &quot;Grundlinie&quot;werden keine Beschriftungen in der Dropdown-Liste angezeigt. 8455
 * Bei Verwendung der Grundlinien-Veröffentlichung mit dem Bild als conref im Thema wird das Bild nicht in der Ausgabe veröffentlicht. (8564)
 * Die Bereinigungsfunktion für die Ausgabe schlägt fehl, wenn eine große Anzahl von Knoten des Ausgabestverlaufs vorhanden ist. (8568)
 * Im Bedienfeld Versionsverlauf zeigt der aktuelle Versionsabschnitt einen falschen Zeitstempel an und wurde durch Informationen geändert. (8765)
-* Die Grundlinie wird nicht anhand des definierten Titels aktualisiert. (8799)
+* Die Grundlinie wird nicht auf der Grundlage des definierten Titels aktualisiert. (8799)
 * Fehler tritt auf, wenn Dateien, deren übergeordneter Ordner Sonderzeichen im Dateinamen enthält, in Sauerstoff geöffnet werden (mithilfe der **In Sauerstoff bearbeiten** Schaltfläche). (8918)
 * Das Hochladen von Dateien aus Sauerstoff in AEM schlägt fehl. (9157)
 * Download-Map mit Grundlinie funktioniert nicht, wenn der Inhalt in einen anderen Ordner verschoben wird. (9331)
 * Oxygen überprüft eine falsche Version eines Themas, nachdem eine Version in AEM zurückgesetzt wurde. (9411)
 * Die Suche im Bereich &quot;Repository&quot;und das Browserdialogfeld &quot;topicref&quot;frieren den Bildschirm ein, wenn der Inhalt groß ist. (9432)
-* Wenn die Einstellung **Neue Version für hochgeladene Datei erstellen** auf EIN gesetzt ist, wird eine neue Version erstellt, wenn auf einem beliebigen eingefrorenen Knoten der Modus zurückgesetzt und gespeichert wird. (9473)
+* Wenn die Einstellung **Neue Version für hochgeladene Datei erstellen** auf &quot;ON&quot;gesetzt ist, wird eine neue Version erstellt, wenn auf einem beliebigen eingefrorenen Knoten der Modus zurückgesetzt und gespeichert wird. (9473)
 * Beim Zurücksetzen einer Dateiversion werden in der Assets-Benutzeroberfläche falsche Unterschiede beim Zeitstempel angezeigt. (9480)
 * Dateien werden beim Zurücksetzen auf eine beliebige Version automatisch ausgecheckt. (9482)
 * Das Sperrsymbol wird in der Repository-Ansicht angezeigt, selbst wenn die Datei im Editor eingecheckt wurde.  (5756)
 * Über die Autorenansicht des Webeditors können in einer Bookmap keine Vordergrund- und Hintergrundelemente hinzugefügt werden. (7652)
 * Der Vorschaumodus unterstützt nicht `deliveryTarget` bedingtes Verarbeitungsattribut in DITA. (7685)
 * AEM beim Öffnen eines Glossarthemas im XML-Editor erzwingt, es zu speichern, auch wenn es nicht geändert wurde. (8105)
-* Das Dialogfeld Referenzen einfügen wird beim Hinzufügen von Subjekten zu einer Zuordnung über die Benutzeroberfläche geöffnet. (8212)
-* Wiederverwenden des Inhaltsbereichs Abstürze bei der Suche nach Sonderzeichen `[` oder `*` .(8279)
+* Das Dialogfeld Verweise einfügen wird beim Hinzufügen von Subjekten zu einer Zuordnung über die Benutzeroberfläche geöffnet. (8212)
+* Wiederverwenden des Inhaltsbereichs Abstürze bei der Suche nach Sonderzeichen `[` oder `*` .8279)
 * Beim Authoring-Glossar zeigt der Web Editor den Inhalt als Hinweis an. (8384)
-* Der XML-Editor entfernt Zeilenumbrüche im Codeblock. (8522)
-* Beim Wechseln zwischen Quell- und Autorenmodus wird das Thema als verschmutzt markiert und der Inhalt muss erneut gespeichert werden.(8524)
+* Der XML-Editor entfernt Zeilenumbrüche im Codeblock. 8522)
+* Beim Wechseln zwischen Quell- und Autorenmodus wird das Thema als verschmutzt markiert und der Inhalt muss erneut gespeichert werden.8524)
 * Ein entsperrtes Thema kann nicht geschlossen werden. (8545)
 * Es gibt keine Option zum Auswählen des Knowledgebase-Pfads in artikelbasierten Veröffentlichungsvorgaben. (8636)
 * Beim Hinzufügen eines Kapitels zu einer Lesekarte über Drag &amp; Drop aus der Favoriten-Ansicht fehlen Attribute. (8746)
 * Das Dialogfeld &quot;Suchbegriff einfügen&quot;verfügt nicht über die Suchfunktion und Suchbegriffe werden nicht in sortierter Reihenfolge aufgelistet. (9094)
-* Wenn Sie eine Suche im XML-Editor durchführen, friert die Seite ein. (9452)
+* Wenn Sie eine Suche im XML-Editor durchführen, friert die Seite ein. 9452
 * Sites fehlen in AEM Vorgaben auf der Registerkarte &quot;Ausgabe&quot;. (9567)
 * SVG von Bildern, die in den Autorenmodi des XML-Editors nicht korrekt dargestellt werden. (9426)
 * Die Grundlinie wird beim Veröffentlichen über Salesforce nicht berücksichtigt. (8953)
-* Die Möglichkeit, die Rootmap aus den Einstellungen der Benutzereinstellungen zu löschen, ist nicht vorhanden. (8534)
+* Die Möglichkeit, die Rootmap aus den Einstellungen der Benutzereinstellungen zu löschen, ist nicht vorhanden. 8534

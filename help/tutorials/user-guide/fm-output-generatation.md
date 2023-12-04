@@ -1,10 +1,9 @@
 ---
 title: Ausgabe von FrameMaker-Dokumenten generieren
 description: Erfahren Sie, wie Sie die Ausgabe von FrameMaker-Dokumenten in AEM Handbüchern generieren, um sie im PDF-, HTML5- und EPUB-Format zu veröffentlichen.
-exl-id: d3cef05b-8574-4e86-ab94-c9b880fb9c29
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '203'
 ht-degree: 1%
 
 ---
@@ -15,7 +14,7 @@ Ab AEM Guides 1.1 können Sie auch FrameMaker-Dokumente \(`.book` und `.fm`\) in
 
 - PDF
 
-- HTML 5
+- HTML5
 
 - EPUB
 
@@ -31,4 +30,3 @@ Die Informationen in den folgenden Abschnitten richten sich an Herausgeber, die 
 >[!IMPORTANT]
 >
 > Die in diesem Thema beschriebenen Funktionen stehen nur Benutzern mit Herausgebern oder Administratorrechten zur Verfügung.
-

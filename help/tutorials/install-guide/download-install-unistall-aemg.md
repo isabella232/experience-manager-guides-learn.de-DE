@@ -1,13 +1,12 @@
 ---
 title: AEM deinstallieren
 description: Erfahren Sie, wie Sie AEM deinstallieren.
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
 
 ---
-
 
 # AEM deinstallieren {#id21BHG0C0SXA}
 
@@ -23,8 +22,8 @@ Führen Sie die folgenden Schritte aus, um AEM Handbücher zu deinstallieren:
 
 1. Suchen Sie nach dem com.adobe.fmdita -Paket.
 1. Klicken Sie auf das Paket, um es zu erweitern.
-1. Klicken **Mehr** , um das Dropdown-Menü zu öffnen.
-1. Klicken **Deinstallieren** und warten Sie, bis die Deinstallation abgeschlossen ist.
+1. Klicks **Mehr** , um das Dropdown-Menü zu öffnen.
+1. Klicks **Deinstallieren** und warten Sie, bis die Deinstallation abgeschlossen ist.
 1. Wenn Sie dieses Paket nicht mehr benötigen, klicken Sie auf **Löschen** nach der Deinstallation des Pakets.
 
 ## Nach der Deinstallation
@@ -43,8 +42,7 @@ Führen Sie die folgenden Schritte aus, um die Restdateien nach der Deinstallati
    http://<host>:<port>/libs/granite/ui/content/dumplibs.rebuild.html?back=true
    ```
 
-1. Klicken **Ungültiger Cache**.
+1. Klicks **Ungültiger Cache**.
 1. Bereinigen Sie den Cache des Browsers.
 
 **Übergeordnetes Thema:**[ Herunterladen und installieren](download-install.md)
-

@@ -1,8 +1,7 @@
 ---
 title: PDF
 description: Generieren und konfigurieren Sie die PDF-Ausgabe für FrameMaker-Dokumente in AEM Guides.
-exl-id: ece004ed-5233-460b-889d-94e693ceed93
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 3%
@@ -27,7 +26,7 @@ Die folgenden Optionen sind für die PDF-Ausgabe verfügbar:
 | PDF für jede Datei im Buch generieren | Wenn Sie die Ausgabe für eine Buchdatei generieren, wählen Sie diese Option, um für jede Buchdatei eine separate PDF zu generieren. |
 | PDF nur für Überprüfung generieren | Wählen Sie diese Option aus, um PDF mit aktivierter Kommentarfunktion zu generieren. |
 | Erstellen eines benannten Ziels für alle Elemente und Absätze | Wählen Sie diese Option aus, um benannte Ziele basierend auf Elementen und Absätzen zu erstellen. |
-| **Anzeige-Einstellungen** |
+| **Anzeigeeinstellungen** |
 | Dokument auf Seite öffnen | Geben Sie die Seitennummer an, die beim Öffnen der PDF angezeigt werden soll. |
 | Anfangszoomfaktor | Wählen Sie den Zoomfaktor des Dokuments aus. |
 | Registrierungszeichen | Um ein Dokument mit Zuschnittmarkierungen und Registrierungsmarkierungen zu drucken, wählen Sie eine Option aus der Dropdownliste Registrierungsmarken aus. |

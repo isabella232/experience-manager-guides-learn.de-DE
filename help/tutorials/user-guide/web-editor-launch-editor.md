@@ -1,10 +1,9 @@
 ---
 title: Starten des Web Editors
 description: Erfahren Sie, wie Sie den Web-Editor über die AEM Navigationsseite, die AEM Assets-Benutzeroberfläche und die DITA-Zuordnungskonsole in AEM Handbüchern starten.
-exl-id: f02f9612-7aaa-42ea-bad3-c44d23b5d034
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '590'
 ht-degree: 0%
 
 ---

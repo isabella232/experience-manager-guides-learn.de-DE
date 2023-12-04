@@ -1,13 +1,12 @@
 ---
 title: Übersetzungsfunktion im Web-Editor konfigurieren
 description: Erfahren Sie, wie Sie die Übersetzungsfunktion im Web Editor konfigurieren
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 0%
 
 ---
-
 
 # Übersetzungsfunktion im Web-Editor konfigurieren {#id21BONI0J0YR}
 
@@ -46,4 +45,3 @@ So blenden Sie die **Verwalten** im Web Editor die folgenden Schritte ausführen
 Beachten Sie Folgendes: **Verwalten** -Filter nicht mehr verfügbar ist.
 
 **Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
-

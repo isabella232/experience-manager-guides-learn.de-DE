@@ -1,10 +1,9 @@
 ---
 title: Schematron-Unterstützung für Wearditor
 description: Arbeiten mit Schematron im Wearditor
-exl-id: 3e61432f-d81e-446e-b0ad-560f5b9fa91a
-source-git-commit: f3c8ec973d3a6369d6135a33f61584c8bf7d083d
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
@@ -21,7 +20,7 @@ Neben der Unterstützung für DITA-Regeln unterstützt der Web-Editor auch die V
     HINWEIS: Der Webeditor unterstützt ISO-Schemata.
 
 
-## Funktionsweise von &quot;Schematron&quot;im Web-Editor
+## Funktionsweise von &quot;Schema&quot;im Web-Editor
 
 ### Konfigurieren von Schemaregeln
 
@@ -52,49 +51,49 @@ Die aktuelle Version von AEM Guides unterstützt nur die Validierung, die aussch
 
 ### Beispiele und weitere Hilfe zu Schemakontrollen-Regeln
 
-#### Beispiele für Anwendungsfälle
+#### Anwendungsbeispiele
 
 - Überprüfen Sie, ob ein Link extern ist und den Bereich &quot;extern&quot;aufweist.
 
-   ```
-   <sch:pattern>
-       <sch:rule context="xref[contains(@href, 'http') or contains(@href, 'https')]">
-           <sch:assert test="@scope = 'external' and @format = 'html'">
-               All external xref links must be with scope='external' and format='html'
-           </sch:assert>
-       </sch:rule>
-   </sch:pattern>
-   ```
+  ```
+  <sch:pattern>
+      <sch:rule context="xref[contains(@href, 'http') or contains(@href, 'https')]">
+          <sch:assert test="@scope = 'external' and @format = 'html'">
+              All external xref links must be with scope='external' and format='html'
+          </sch:assert>
+      </sch:rule>
+  </sch:pattern>
+  ```
 
 - Überprüfen Sie, ob mindestens eine &quot;topicref&quot;in einer Zuordnung oder mindestens ein &quot;li&quot;unter einer &quot;ul&quot;vorhanden ist.
 
-   ```
-   <sch:pattern>
-       <sch:rule context="map">
-           <sch:assert test="count(topicref) > 0">
-               There should be atleast one topicref in map
-           </sch:assert>
-       </sch:rule>
-   
-       <sch:rule context="ul">
-           <sch:assert test="count(li) > 1" >
-               A list must have more than one item.
-           </sch:assert>
-       </sch:rule>
-   </sch:pattern>
-   ```
+  ```
+  <sch:pattern>
+      <sch:rule context="map">
+          <sch:assert test="count(topicref) > 0">
+              There should be atleast one topicref in map
+          </sch:assert>
+      </sch:rule>
+  
+      <sch:rule context="ul">
+          <sch:assert test="count(li) > 1" >
+              A list must have more than one item.
+          </sch:assert>
+      </sch:rule>
+  </sch:pattern>
+  ```
 
 - Das Element &quot;indexterm&quot;sollte immer in einem &quot;prolog&quot;vorhanden sein
 
-   ```
-   <sch:pattern>
-       <sch:rule context="*[contains(@class, ' topic/indexterm ')]">
-           <sch:assert test="ancestor::node()/local-name() = 'prolog'">
-               The indexterm element should be in a prolog.
-           </sch:assert>
-       </sch:rule>
-   </sch:pattern>
-   ```
+  ```
+  <sch:pattern>
+      <sch:rule context="*[contains(@class, ' topic/indexterm ')]">
+          <sch:assert test="ancestor::node()/local-name() = 'prolog'">
+              The indexterm element should be in a prolog.
+          </sch:assert>
+      </sch:rule>
+  </sch:pattern>
+  ```
 
 #### Ressourcen
 

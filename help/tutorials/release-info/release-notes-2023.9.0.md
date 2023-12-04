@@ -1,10 +1,10 @@
 ---
 title: Versionshinweise | Upgrade-Anweisungen und behobene Probleme in Adobe Experience Manager-Handbüchern, Version September 2023
 description: Erfahren Sie mehr über die Fehlerbehebungen und wie Sie auf die Version September 2023 von Adobe Experience Manager Guides as a Cloud Service aktualisieren können
-source-git-commit: 3f79dfbc747b3d2efc05608d05df6ba45e53d877
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1458'
-ht-degree: 3%
+source-wordcount: '1486'
+ht-degree: 0%
 
 ---
 
@@ -104,7 +104,7 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen
 
 | AEM-Handbücher für Cloud | FMPS | FrameMaker |
 | --- | --- | --- |
-| 2023.09.0 | Nicht kompatibel | 2022 oder höher |
+| 2023,09,0 | Nicht kompatibel | 2022 oder höher |
 | | | |
 
 
@@ -112,7 +112,7 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen
 
 | AEM-Handbücher für Cloud | Sauerstoff Connector Windows | Sauerstoff Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
 | --- | --- | --- | --- | --- |
-| 2023.09.0 | 3.1-uuid 17 | 3.1-uuid 17 | 2.3 | 2.3 |
+| 2023,09,0 | 3.1-uuid 17 | 3.1-uuid 17 | 2,3 | 2,3 |
 |  |  |  |  |
 
 
@@ -151,7 +151,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
 - Das Feld &quot;title&quot;in den Metadateneigenschaften von DITA-Maps wird von `<title>` -Element für die Zuordnung. (10702)
 - Der Inhaltsverweis ist beim Kopieren und Einfügen von DITA-Dateien beschädigt, wenn die Themen-ID nicht mit der GUID übereinstimmt. (12614)
-- In dynamischen Grundlinien wird die Liste der Beschriftungen nicht aus den direkten Verweisen der Arbeitskopie einer DITA-Zuordnung abgerufen. (11917)
+- In dynamischen Grundlinien wird die Liste der Beschriftungen nicht aus den direkten Verweisen der Arbeitskopie einer DITA-Zuordnung abgerufen. (1917)
 
 ### Veröffentlichung
 
@@ -162,21 +162,17 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 - Native PDF | Wenn das Thema und der Titel dieselbe ID aufweisen, führt dies zu einer fehlerhaften Generierung der PDF-Ausgabe. (12644)
 - Native PDF | Beim Hinzufügen einer Ausgabeklasse zu einer übergeordneten Klasse `<topicref>` -Element in einer DITA-Zuordnung und durch Anwendung eines benutzerdefinierten Stils auf die Ausgabeklasse wird die Formatierung auf Elemente im Themenhauptteil angewendet, einschließlich Abschnittstitel.(12166)
 - Inkrementelle Veröffentlichung funktioniert nicht, wenn eine DITA-Map über mehrere Ditavalrefs verfügt. (12117)
-- AEM Site | Beim Erstellen einer Zuordnung mit Keydef, die auf ein Thema als Variable verweist, und beim Hinzufügen von processing-role=resource-only werden einige unerwartete Seiten erstellt. (12099)
+- AEM Site | Beim Erstellen einer Zuordnung mit Keydef, die auf ein Thema als Variable verweist, und beim Hinzufügen von processing-role=resource-only werden einige unerwartete Seiten erstellt. (1209)
 - Wenn Assets aus AEM DAM in einer anderen Ausgabe als der AEM-Site verwendet werden, spiegeln die Metadaten &quot;jcr:createdBy&quot;nicht den Namen des Herausgebers oder den Namen des Benutzers wider, der die DITA-Map oder das Thema zuletzt geändert hat. (12090)
-- AEM Sites | DITA-Zuordnung mit topichead im Navigationstitel (mit nicht unterstützten Zeichen) führt zu fehlerhaften Seiten-URLs. (11978)
-- Native PDF | Probleme treten zur Unterstützung von topichead/topicmeta/navtitle in Frontmatter und Backmatter auf. (11969)
+- AEM Sites | DITA-Zuordnung mit topichead im Navigationstitel (mit nicht unterstützten Zeichen) führt zu fehlerhaften Seiten-URLs. (1978)
+- Native PDF | Probleme treten zur Unterstützung von topichead/topicmeta/navtitle in Frontmatter und Backmatter auf. (1969)
 - Native PDF | Das Generieren von PDF für große Dokumente ist zeitaufwendig. (11955)
 - Native PDF | Beim Umbenennen einer Vorgabe wird beim Generieren einer PDF-Ausgabe eine NullPointerException ausgelöst. (11889)
 - Die `<conref>` -Inhalt wird nicht in der PDF-Ausgabe angezeigt. (11131)
 - Innerhalb der `<div>` Elemente zum Wechseln zwischen der Autoren- und der Quellansicht im Seitenlayout-Editor. (10750)
-- Der im AEM Cloud Manager replizierte Inhalt ist nicht in der Veröffentlichungsinstanz sichtbar. (9564)
+- Der im AEM Cloud Manager replizierte Inhalt ist nicht in der Veröffentlichungsinstanz sichtbar. 9564
 
 ### Übersetzung
 
 - Der Prozess zum Exportieren einer umbenannten Grundlinie für eine Übersetzung schlägt fehl. (12993)
 - Der Titel der übersetzten Datei wird anstelle des Titels der Quelldatei angezeigt. (11630)
-
-
-
-

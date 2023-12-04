@@ -1,9 +1,9 @@
 ---
 title: Hinzufügen benutzerdefinierter Stile zum Guides-Editor
 description: Erfahren Sie, wie Sie benutzerdefinierte Stile hinzufügen, um das Erscheinungsbild des Guides-Editors zu ändern.
-source-git-commit: 9e7d5bb4c8f6c6ebe21bfcebdd7d2e13971b8df2
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---

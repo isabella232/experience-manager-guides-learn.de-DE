@@ -1,10 +1,9 @@
 ---
 title: Inhaltsfragment aus Ihrer Datenquelle einfügen
 description: Verwenden Sie Daten aus Ihrer Datenquelle in AEM Handbüchern. Erfahren Sie, wie Sie ein Inhaltsfragment aus Ihrer Datenquelle einfügen. Erstellen Sie ein Thema mit dem Thema-Generator.
-exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
-source-git-commit: f7a0140a274a83dfeb6a1ba70ae9c09297d1754c
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '2060'
+source-wordcount: '2066'
 ht-degree: 0%
 
 ---
@@ -97,7 +96,7 @@ Die nativen Vorlagen für die ausgewählte Datenquelle werden in der Dropdown-Li
 1. Sie können die Daten in der Vorschau oder in der DITA-Quellansicht anzeigen.
 
    1. Die Vorschau zeigt an, wie die Daten beim Einfügen in den Inhalt angezeigt werden. Die Vorschau zeigt einen kleinen Teil der Daten im Format der ausgewählten Vorlage an.
-Zum Beispiel:
+Beispiel:
       - Wenn Sie die Vorlage &quot;sql-table&quot;ausgewählt haben, können Sie die SQL-Daten im Tabellenformat anzeigen.
       - Wenn Sie die Vorlage &quot;jira-ordered-list&quot;ausgewählt haben, können Sie eine geordnete Liste für die Jira-Probleme anzeigen.
 
@@ -180,7 +179,7 @@ Führen Sie die folgenden Schritte aus, um ein Thema mit dem Themengenerator zu 
       > 
       > Sie müssen die Dateibenennungskonvention für den Namen des neuen Themengenerators befolgen. Im Namen des Thema-Generators darf kein Leerzeichen stehen. Außerdem können Sie keinen neuen Themengenerator mit dem Namen eines vorhandenen Themengenerators speichern. Es tritt ein Fehler auf.
 
-   **Ausgabe-Konfiguration**
+   **Ausgabekonfiguration**
 
    ![](images/topic-generator-output-configuration.png){width="300" align="left"}
 
@@ -249,7 +248,7 @@ Experience Manager-Vorlagen unterstützen auch die Velocity-Tools (Version 2.0).
 
 Führen Sie die folgenden Schritte aus, um ein Velocity-Tool in einer Vorlage zu verwenden:
 1. Bearbeiten Sie eine Velocity-Vorlage im Web-Editor.
-1. Fügen Sie ein Tool und dessen Funktion in der `<tool.function>` Format. Zum Beispiel:
+1. Fügen Sie ein Tool und dessen Funktion in der `<tool.function>` Format. Beispiel:
    - Verwenden Sie zum Generieren einer zufälligen Nummer mit dem Mathematik-Tool `$mathTool.random`.
    - Verwenden Sie zum Generieren der Summe der Zahlen mit dem mathematischen Werkzeug `$mathTool.add(num1, num2)`.
 1. Verwenden Sie die Vorlage, um einen Inhaltsausschnitt oder ein Thema zu erstellen.

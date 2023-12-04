@@ -1,19 +1,18 @@
 ---
 title: Verwalten von Tags für DITA-Dateien in AEM Handbüchern
 description: Kurzer Artikel zum Verwalten von cq:tags in AEM Handbüchern
-source-git-commit: 06f7adfd4fbbc3b51c6d6c08689697c20c8ce8fe
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '280'
 ht-degree: 1%
 
 ---
-
 
 # Hinzufügen, Entfernen und Verwalten von Tags in DITA-Inhalten
 
 Tags eignen sich insbesondere für die Kategorisierung Ihrer Inhalte. Wenn Inhalt ordnungsgemäß mit Tags versehen ist, kann es Ihnen dabei helfen, genaue Themen in Ihrer Ditamap zu finden, und der Endbenutzer findet den entsprechenden Inhalt schneller in Ihrer veröffentlichten Ausgabe.
 
-> **_HINWEIS:_**  Der folgende Artikel gilt für AEM Guides Build 4.2 (On-Premise) /Feb 2023 (Cloud-Version ) oder höhere Versionen
+> **_NOTE:_**  Der folgende Artikel gilt für AEM Guides Build 4.2 (On-Premise) /Feb 2023 (Cloud-Version ) oder höhere Versionen
 
 
 ## Erstellen von Tags
@@ -23,7 +22,7 @@ Tagging ist eine native AEM-Funktion, und Ihr AEM Administrator kann bei der ers
 
 ## Hinzufügen, Entfernen und Verwalten von Tags in Ihrem DITA-Inhalt
 
-**Alle in AEM cq erstellten Tags: -Tags können für Ihre DITA-Inhalte hinzugefügt, entfernt und verwaltet werden**
+**Alle Tags, die in AEM cq erstellt wurden: Tags können hinzugefügt, entfernt und für Ihre DITA-Inhalte verwaltet werden**
 
 Es gibt verschiedene Möglichkeiten, Tags zu DITA-Inhalten hinzuzufügen. Dieser Artikel konzentriert sich jedoch auf die Benutzeroberfläche AEM Guides-Web-Editors.
 
@@ -31,7 +30,7 @@ Es gibt verschiedene Möglichkeiten, Tags zu DITA-Inhalten hinzuzufügen. Dieser
 
 1. Wechseln Sie zur Repository-Ansicht in der Guides-Benutzeroberfläche
 2. Doppelklicken Sie auf &quot;ditamap&quot;und öffnen Sie in der Kartenansicht.
-3. Navigieren Sie zur Registerkarte &quot;Verwalten&quot;.
+3. Navigieren Sie zur Registerkarte &quot;Verwalten&quot;
 4. Wählen Sie auf der Registerkarte Verwalten die Option Zu Metadaten .
 5. Die Liste aller direkten und indirekten Ditamap-Dateien wird hier geladen.
 6. Wählen Sie eine oder mehrere Dateien aus und klicken Sie auf das Symbol &quot;Verwalten&quot;. Hier können Sie ausgewählten Dateien Tags hinzufügen.
@@ -60,4 +59,3 @@ Sie können auch vorhandene Tags entfernen, die in ausgewählten Dateien verwend
 
 
 **Wenden Sie sich bei weiteren Fragen an Ihren jeweiligen CSM.**
-

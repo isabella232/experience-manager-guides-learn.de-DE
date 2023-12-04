@@ -1,17 +1,16 @@
 ---
 title: Dokumentstatus konfigurieren
 description: Erfahren Sie, wie Sie Dokumentstatus konfigurieren
-source-git-commit: e3b2fc8c96ce535bb91e7bce935720aa389a917a
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 0%
 
 ---
 
-
 # Dokumentstatus konfigurieren {#id181GB0400UI}
 
-Mit AEM-Handbüchern können Sie den Dokumentstatus für Ihre DITA-Themen entsprechend den Anforderungen Ihres Unternehmens definieren. Sie können verschiedene Status Ihres Dokuments von Anfang bis Ende definieren. Der erste Status kann beispielsweise Entwurf sein und zu Überprüfen, Genehmigt, Übersetzt und schließlich zu Veröffentlicht wechseln.
+Mit AEM-Handbüchern können Sie die Dokumentzustände für Ihre DITA-Themen entsprechend den Anforderungen Ihres Unternehmens definieren. Sie können verschiedene Status Ihres Dokuments von Anfang bis Ende definieren. Der erste Status kann beispielsweise Entwurf sein und zu Überprüfen, Genehmigt, Übersetzt und schließlich zu Veröffentlicht wechseln.
 
 Es gibt zwei Möglichkeiten, wie ein Thema von einem Status zum anderen übergehen kann - manuelle und automatische. Die in einem Profil definierten Dokumentstatus können zum manuellen Ändern des Dokumentstatus verwendet werden. Dies kann über die Seite Eigenschaften einer Themendatei erfolgen. Sie können auch definieren, wer das Dokument von einem Status in einen anderen verschieben kann. Ein Autor kann beispielsweise ein Dokument erstellen und der Standardstatus des Dokuments kann &quot;Entwurf&quot;lauten. Wenn der Autor das Dokument zur Überprüfung sendet, kann er den Dokumentstatus in &quot;In Überprüfung&quot;ändern. Der Überprüfer kann den Dokumentstatus basierend auf dem Überprüfungsprozess entweder zu Genehmigt oder zu Entwurf erneut ändern. Wenn das Dokument genehmigt ist, kann der Herausgeber den Dokumentstatus abhängig vom Workflow in Übersetzt oder Veröffentlicht ändern.
 
@@ -19,7 +18,7 @@ Es gibt zwei Möglichkeiten, wie ein Thema von einem Status zum anderen übergeh
 >
 > Wenn ein Benutzer zum *Administratoren* -Gruppe kann der Benutzer den Status eines Dokuments von einem beliebigen Status ändern, unabhängig von den im System definierten Dokumentstatusübergängen.
 
-## Dokumentstatus erstellen
+## Erstellen eines Dokumentstatus
 
 AEM Guides werden mit einer Reihe von Standarddokumentstatus ausgeliefert. Diese Status sind:
 
@@ -40,7 +39,7 @@ Um Dokumentstatus mithilfe des Ordnerprofils zu erstellen, führen Sie die folge
 
    Die Seite &quot;Asset-Status&quot;wird angezeigt. Standardmäßig zeigt die Seite ein Standardprofil an.
 
-1. Klicken **Profil erstellen** und geben Sie die folgenden Details ein:
+1. Klicks **Profil erstellen** und geben Sie die folgenden Details ein:
    - Geben Sie im Feld Profil den Namen für das Profil ein.
    - Geben Sie den Pfad an, auf den Sie das neue Profil anwenden möchten.
    - Geben Sie den Status des Dokuments im **Zugelassene Status** under **Staaten**. Die standardmäßigen Dokumentstatus sind &quot;Entwurf&quot;, &quot;Bearbeiten&quot;, &quot;In Review&quot;, &quot;Genehmigt&quot;und &quot;Fertig&quot;.
@@ -132,9 +131,9 @@ Wenn Sie den Dokumentstatus nicht manuell ändern möchten, können Sie einen Wo
 
    Der Workflow wird in einer neuen Registerkarte geöffnet.
 
-1. Klicken **Bearbeiten** \(oben rechts\).
+1. Klicks **Bearbeiten** \(oben rechts\).
 
-1. Öffnen Sie die **Schritte** Browser; using **Seitliches Bedienfeld ein/aus** ganz links in der oberen Symbolleiste
+1. Öffnen Sie die **Schritte** Browser, mithilfe von **Seitliches Bedienfeld ein/aus** ganz links in der oberen Symbolleiste
 
 1. Ziehen Sie die entsprechenden Schritte\(s\) an die gewünschte Position im Modell.
 
@@ -152,7 +151,7 @@ Wenn Sie den Dokumentstatus nicht manuell ändern möchten, können Sie einen Wo
 
    >[!NOTE]
    >
-   > Stellen Sie sicher, dass Sie im Textfeld Argumente den richtigen Dokumentstatus eingeben. Wenn Sie einen falschen Wert eingeben, wird das Dokument auf einen falschen Status gesetzt.
+   > Vergewissern Sie sich, dass Sie im Textfeld Argumente den richtigen Dokumentstatus eingeben. Wenn Sie einen falschen Wert eingeben, wird das Dokument auf einen falschen Status gesetzt.
 
 1. Bestätigen Sie die Änderung mit **Speichern und schließen**.
 
@@ -167,7 +166,7 @@ AEM Guides bieten einen Arbeitsablauf für die Dokumentgenehmigung, mit dem Sie 
 1. Auswählen **Handbücher** aus der Liste der Tools und klicken Sie auf die Schaltfläche **Ordnerprofile**.
 1. Klicken Sie auf **Globales Profil** Kachel.
 1. Wählen Sie die **Konfiguration des XML-Editors** Registerkarte und klicken Sie auf **Bearbeiten** Symbol oben
-1. Klicken Sie auf **Download** -Symbol, um die Datei ui\_config.json auf Ihr lokales System herunterzuladen. Anschließend können Sie Änderungen an der Datei vornehmen und diese dann hochladen.
+1. Klicken Sie auf **Herunterladen** -Symbol, um die Datei ui\_config.json auf Ihr lokales System herunterzuladen. Anschließend können Sie Änderungen an der Datei vornehmen und diese dann hochladen.
 1. Im `ui_config.json` Datei, aktivieren Sie die Validierungs-Workflow-Funktion, indem Sie die *Funktionen* wie unten gezeigt:
 
    ```
@@ -178,4 +177,3 @@ AEM Guides bieten einen Arbeitsablauf für die Dokumentgenehmigung, mit dem Sie 
    ```
 
 1. Speichern Sie die Datei und laden Sie sie hoch.
-

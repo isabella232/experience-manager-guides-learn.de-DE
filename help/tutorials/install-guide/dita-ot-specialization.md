@@ -1,13 +1,12 @@
 ---
 title: Verwenden einer benutzerdefinierten DITA-OT- und DITA-Spezialisierung
 description: Erfahren Sie, wie Sie benutzerdefinierte DITA-OT- und DITA-Spezialisierung verwenden.
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '2075'
+source-wordcount: '2093'
 ht-degree: 0%
 
 ---
-
 
 # Verwenden einer benutzerdefinierten DITA-OT- und DITA-Spezialisierung {#id181GAJ0005Z}
 
@@ -21,7 +20,7 @@ Wenn Sie Ant-Parameter beim Veröffentlichen einer Ausgabe verarbeiten möchten,
 
 >[!TIP]
 >
-> Siehe *DITA-OT-Profilkonfiguration* und *Verwenden benutzerdefinierter DITA-OT* Abschnitte des Best Practices-Handbuchs zu Best Practices für die Verwendung benutzerdefinierter DITA-OT-Plug-ins.
+> Siehe *Konfiguration von DITA-OT-Profilen* und *Verwenden benutzerdefinierter DITA-OT* Abschnitte des Best Practices-Handbuchs zu Best Practices für die Verwendung benutzerdefinierter DITA-OT-Plug-ins.
 
 ## Verwenden benutzerdefinierter DITA-OT-Plug-ins {#id181NH1020L7}
 
@@ -37,7 +36,7 @@ Das standardmäßige DITA-OT-Paket, das mit AEM Guides verfügbar ist, wird mit 
 
 Führen Sie die folgenden Schritte aus, um das benutzerdefinierte DITA-OT-Plug-in in das AEM-Repository hochzuladen:
 
-1. Melden Sie sich bei AEM an und öffnen Sie den Modus CRXDE Lite .
+1. Melden Sie sich bei AEM an und öffnen Sie den CRXDE Lite-Modus.
 
 1. Laden Sie die `DITA-OT.ZIP` -Datei.
 
@@ -61,8 +60,7 @@ Führen Sie die folgenden Schritte aus, um das benutzerdefinierte DITA-OT-Plug-i
 
    - Führen Sie den Integrator \(zur Installation des benutzerdefinierten Plug-ins\) auf einem Mac/Linux-Betriebssystem aus, um Probleme mit Dateiseparatoren zu vermeiden. Da Windows und Linux OS unterschiedliche Dateiseparatoren haben, ist das in Mac/Linux OS integrierte Plug-in sowohl mit dem Windows- als auch dem Linux-Setup kompatibel.
    - Stellen Sie sicher, dass `DITA-OT.ZIP` enthält einen Ordner mit dem Namen &quot;DITA-OT&quot;, der alle relevanten Plug-ins und Dateien enthält.
-   - Vergewissern Sie sich, dass `DITA-OT.ZIP` Die erstellte Datei hat mimeType: &quot;nt:file&quot; \(entspricht dem primären Typ der ZIP-Datei beim Hochladen in AEM\). Verwenden Sie ein WebDAV-Tool oder eine Codebereitstellung, um diese ZIP-Datei in den gewünschten Pfad in AEM hochzuladen. \(Verwenden Sie AEM Paketmanager nicht, um diese ZIP-Datei bereitzustellen, da diese ZIP kein AEM Inhaltspaket, sondern nur eine Archivdatei ist.\)
-
+   - Überprüfen Sie, ob `DITA-OT.ZIP` Datei, die Sie erstellen, ist von mimeType: &quot;nt:file&quot; \(entspricht dem primären Typ der ZIP-Datei, wenn sie in AEM hochgeladen wird\). Verwenden Sie ein WebDAV-Tool oder eine Codebereitstellung, um diese ZIP-Datei in den gewünschten Pfad in AEM hochzuladen. \(Verwenden Sie AEM Paketmanager nicht, um diese ZIP-Datei bereitzustellen, da diese ZIP kein AEM Inhaltspaket, sondern nur eine Archivdatei ist.\)
    >[!NOTE]
    >
    > Es wird empfohlen, das standardmäßige DITA-OT-Paket nicht zu überschreiben. Sie sollten Ihr benutzerdefiniertes DITA-OT-Paket mit Ihrem Plug-in an einem anderen Speicherort unter dem `apps` Ordner.
@@ -70,7 +68,7 @@ Führen Sie die folgenden Schritte aus, um das benutzerdefinierte DITA-OT-Plug-i
 1. Öffnen Sie das standardmäßige DITA-Profil zur Bearbeitung und speichern Sie es \(ohne Aktualisierungen vorzunehmen\), damit die Änderungen wirksam werden.
 
 
-Führen Sie die folgenden Schritte aus, um ein neues Profil zu erstellen und es so zu konfigurieren, dass das auf Ihrem Server gespeicherte benutzerdefinierte DITA-OT-Plug-in verwendet wird:
+Führen Sie die folgenden Schritte aus, um ein neues Profil zu erstellen und es für die Verwendung des auf Ihrem Server gespeicherten benutzerdefinierten DITA-OT-Plug-ins zu konfigurieren:
 
 1. Speichern Sie das benutzerdefinierte DITA-OT-Plug-in auf Ihrem Server.
 
@@ -109,10 +107,10 @@ Führen Sie die folgenden Schritte aus, um ein neues Profil zu erstellen und es 
    | DITA-OT AEM Arguments | \(*Optional*\) Geben Sie die benutzerdefinierten Befehlszeilenargumente an, die vom benutzerdefinierten DITA-OT-Plug-in zum Generieren der AEM Site-Ausgabe verarbeitet werden. |
    | DITA-OT-Bibliothekspfade | \(*Optional*\) Geben Sie die zusätzlichen Bibliothekspfade des DITA-OT-Plug-ins an. |
    | DITA-OT Build XML | \(*Optional*\) Geben Sie den Pfad des benutzerdefinierten Ant-Build-Skripts an, das mit dem angepassten DITA-OT-Plug-in gebündelt wird. Dieser Pfad ist relativ zum DITA-OT-Ordner auf Ihrem Dateisystem. |
-   | DITA-OT-Ant-Skript-Ordner | \(Optional\) Geben Sie den Pfad des Skriptordners DITA-OT Ant an. Dieser Pfad ist relativ zum DITA-OT-Ordner auf Ihrem Dateisystem. |
-   | DITA-OT-Umgebungsvariablen | *\(Optional\)* Geben Sie Umgebungsvariablen an, die an den DITA-OT-Prozess übergeben werden sollen. Standardmäßig fügt AEM Guides vier Variablen hinzu: `ANT_OPTS`, `ANT_HOME`, `PATH`und `CLASSPATH`. <br> Sie können alle vorhandenen Systemumgebungsvariablen oder Eigenschaften zum Erstellen neuer Umgebungsvariablen wiederverwenden. Wenn Sie beispielsweise `JAVA_HOME` -Systemvariable, die in Ihrem System definiert ist, und Sie möchten eine neue Umgebungsvariable mit dem Namen `JAVA_BIN` , die mit `JAVA_HOME`. Anschließend können Sie die Definition von `JAVA_BIN` as:<br> `JAVA_BIN= ${JAVA_HOME}/bin` <br> **Hinweis** Sie können auch Java-Systemeigenschaften verwenden, um Umgebungsvariablen zu erstellen. Wenn AEM Startskript beispielsweise eine Java-Systemeigenschaft definiert `java.io.tmpdir` in einen temporären Ordner zu verweisen, können Sie diese Eigenschaft verwenden, um eine neue Variable wie folgt zu definieren: `${java.io.tmpdir}/fmdita/dita_ot`. <br> **Wichtig** Um eine vorhandene Systemvariable oder -eigenschaft wiederzuverwenden, muss sie in `${}`. |
+   | DITA-OT Ant Script-Ordner | \(Optional\) Geben Sie den Pfad des Skriptordners DITA-OT Ant an. Dieser Pfad ist relativ zum DITA-OT-Ordner auf Ihrem Dateisystem. |
+   | DITA-OT-Umgebungsvariablen | *\(Optional\)* Geben Sie Umgebungsvariablen an, die an den DITA-OT-Prozess übergeben werden sollen. Standardmäßig fügt AEM Guides vier Variablen hinzu: `ANT_OPTS`, `ANT_HOME`, `PATH`, und `CLASSPATH`. <br> Sie können alle vorhandenen Systemumgebungsvariablen oder Eigenschaften zum Erstellen neuer Umgebungsvariablen wiederverwenden. Wenn Sie beispielsweise `JAVA_HOME` -Systemvariable, die in Ihrem System definiert ist, und Sie möchten eine neue Umgebungsvariable mit dem Namen `JAVA_BIN` , die mithilfe von `JAVA_HOME`. Anschließend können Sie die Definition von `JAVA_BIN` as:<br> `JAVA_BIN= ${JAVA_HOME}/bin` <br> **Hinweis** Sie können auch Java-Systemeigenschaften verwenden, um Umgebungsvariablen zu erstellen. Wenn AEM Startskript beispielsweise eine Java-Systemeigenschaft definiert `java.io.tmpdir` in einen temporären Ordner zu verweisen, können Sie diese Eigenschaft verwenden, um eine neue Variable wie folgt zu definieren: `${java.io.tmpdir}/fmdita/dita_ot`. <br> **Wichtig** Um eine vorhandene Systemvariable oder -eigenschaft wiederzuverwenden, muss sie in `${}`. |
    | DITA-OT-Ausgabe überschreiben | *\(Optional\)* Wenn diese Option aktiviert ist, können Sie das DITA-OT-Paket angeben, das auf Ihrem lokalen System verfügbar ist, um die Ausgabe mithilfe von DITA-OT zu generieren. Diese Konfiguration wird bei Aktivierung des ConfigManager festgelegt. <br> Wenn Sie den Pfad eines DITA-OT-Pakets angeben möchten, das auf AEM Server gespeichert ist, deaktivieren Sie diese Option. |
-   | AEM DITA-OT-ZIP-Pfad/lokaler DITA-OT-Ordnerpfad | Geben Sie je nach Ihrer Auswahl in der DITA-OT-Ausgabe überschreiben den vollständigen Pfad an, in dem die benutzerdefinierte DITA-OT.zip-Datei gespeichert ist. Dies kann der Pfad in Ihrem AEM-Repository oder lokalen System sein. |
+   | AEM DITA-OT-ZIP-Pfad/lokaler DITA-OT-Ordnerpfad | Geben Sie je nach Ihrer Auswahl in &quot;DITA-OT-Ausgabe überschreiben&quot;den vollständigen Pfad an, unter dem die benutzerdefinierte DITA-OT.zip-Datei gespeichert ist. Dies kann der Pfad in Ihrem AEM-Repository oder lokalen System sein. |
    | DITA-OT-Plug-in-Pfad | Pfad des benutzerdefinierten Plug-ins. Dieses Plug-in wird automatisch in das Haupt-DITA-OT-Paket integriert. |
    | Kataloge integrieren | \(*Optional*\) Pfad der benutzerdefinierten DTD- und XSD-catalog.xml-Dateien im AEM-Repository. Dies sollte nur bereitgestellt werden, wenn die Kataloge im DITA-OT-Paket fehlen. Diese Kataloge werden automatisch als Plug-in in das DITA-OT integriert. |
    | System-ID-Katalog hinzufügen | \(*Optional*\) Wählen Sie diese Option nur aus, wenn im Katalog fehlende Öffentliche ID-Einträge vorhanden sind oder die DITA-Dateien nur die System-IDs verwenden, die relativ zum Serverpfad sind, von dem aus sie hochgeladen werden. |
@@ -120,9 +118,9 @@ Führen Sie die folgenden Schritte aus, um ein neues Profil zu erstellen und es 
 
    >[!NOTE]
    >
-   >  Das Installationsprogramm für AEM Guides erstellt zwei Umgebungsvariablen, mit denen Sie den Pfad der benutzerdefinierten DITA-OT-Plug-in-Dateien angeben können. Diese Umgebungsvariablen sind: DITAOT\_DIR, das den Pfad des Ordners DITA-OT im Dateisystem enthält; und DITAMAP\_DIR, die den Pfad enthält, in den der DITA-Map-Inhalt im Dateisystem extrahiert wird.
+   >  Das Installationsprogramm für AEM Guides erstellt zwei Umgebungsvariablen, mit denen Sie den Pfad der benutzerdefinierten DITA-OT-Plug-in-Dateien angeben können. Diese Umgebungsvariablen sind: DITAOT\_DIR, das den Pfad des DITA-OT-Ordners im Dateisystem enthält, und DITAMAP\_DIR, der den Pfad enthält, in den der DITA-Map-Inhalt im Dateisystem extrahiert wird.
 
-1. Klicken **Fertig** , um das Profil zu speichern.
+1. Klicks **Fertig** , um das Profil zu speichern.
 
 
 >[!NOTE]
@@ -133,7 +131,7 @@ Führen Sie die folgenden Schritte aus, um ein neues Profil zu erstellen und es 
 
 Bei der DITA-Spezialisierung werden neue DITA-Strukturen erstellt, indem neue Elemente hinzugefügt oder vorhandene Elemente entfernt werden. Um ein neues DITA-Element zu erstellen, können Sie ein vorhandenes DITA-Element als Grundlage nehmen und es gemäß Ihren Authoring-Anforderungen ändern. Im Wesentlichen ermöglicht Ihnen die DITA-Spezialisierung die Erstellung benutzerdefinierter Informationsmodelle, die Ihren Geschäftsanforderungen entsprechen und gleichzeitig die Vorteile der vorhandenen DITA-Architektur erhalten.
 
-Sie können die Profilfunktion verwenden, um benutzerdefinierte DITA-Spezialisierungseinstellungen zu speichern. Diese Einstellungen können dann zum Zeitpunkt der Bearbeitung und Veröffentlichung von benutzerdefinierten DITA-Inhalten verwendet werden. Mit AEM Guides können Sie die öffentliche ID und die System-ID in Ihren benutzerdefinierten DTDs/XSDs verwenden.
+Sie können die Profilfunktion verwenden, um benutzerdefinierte DITA-Spezialisierungseinstellungen zu speichern. Diese Einstellungen können dann zum Zeitpunkt der Bearbeitung und Veröffentlichung von benutzerdefinierten DITA-Inhalten verwendet werden. AEM Guides ermöglichen Ihnen die Verwendung der öffentlichen ID und der System-ID in Ihren benutzerdefinierten DTDs/XSDs.
 
 >[!NOTE]
 >
@@ -147,7 +145,7 @@ Führen Sie die folgenden Schritte aus, um ein neues Profil zu erstellen und es 
 
    >[!NOTE]
    >
-   > Im Fall von DITA 1.3 ist der Standardspeicherort für DTD `catalog.xml` -Datei im AEM-Repository lautet: `/libs/fmdita/dita_resources/DITA-1.3/dtd/catalog.xml`.
+   > Bei DITA 1.3 ist der Standardspeicherort für DTD `catalog.xml` -Datei im AEM-Repository lautet: `/libs/fmdita/dita_resources/DITA-1.3/dtd/catalog.xml`.
 
 1. Geben Sie die XSD-Details im `catalog.xml` -Datei, die auch im Spezialisierungsordner enthalten sein muss.
 
@@ -185,10 +183,9 @@ Führen Sie die folgenden Schritte aus, um ein neues Profil zu erstellen und es 
 
    Weitere Informationen zu anderen Eigenschaften auf der Seite &quot;Profile&quot;finden Sie in der Tabelle &quot;Eigenschaften&quot;unter [Schritt 6](#id17A9F0D075Z) des [Verwenden benutzerdefinierter DITA-OT-Plug-ins](#id181NH1020L7) Abschnitt.
 
-1. Klicken **Fertig** , um das Profil zu speichern.
+1. Klicks **Fertig** , um das Profil zu speichern.
 
 
 >[!NOTE]
 >
 > Sie können das benutzerdefinierte DITA-Profil als Paket exportieren und auf die anderen AEM Guides-Instanzen hochladen, um Zeit zu sparen. Weitere Informationen finden Sie unter [Anhang.md](appendix.md).
-

@@ -1,9 +1,9 @@
 ---
 title: Anhang
 description: Erfahren Sie, wie Sie InDesign-Dateien für die Konvertierung vorbereiten.
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '2861'
+source-wordcount: '2851'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Die einfachste Möglichkeit, Text auszuschließen, der im Dokument nicht benöti
 
 ***Mapping zu DITA-Doctypes***
 
-Es ist wichtig, dass Ihr Quelldokument über mindestens einen Absatzstil oder ein Element verfügt, das bzw. das den Anfang eines Themas markieren kann. Es ist üblich, dass Dokumente *Überschrift1* als Name der Überschriften der obersten Ebene im Dokument. Anschließend können Sie eine Zuordnung von diesem Stil zu einem bestimmten DITA-Doctype erstellen. Wenn Ihr Dokument gut organisiert ist und die Verwendung von *Überschrift1* ist konstant, dann erhalten Sie gute Ergebnisse.
+Es ist wichtig, dass Ihr Quelldokument über mindestens einen Absatzstil oder ein Element verfügt, das bzw. das den Anfang eines Themas markieren kann. Für Dokumente wird häufig Folgendes verwendet *Überschrift1* als Name der Überschriften der obersten Ebene im Dokument. Anschließend können Sie eine Zuordnung von diesem Stil zu einem bestimmten DITA-Doctype erstellen. Wenn Ihr Dokument gut organisiert ist und die Verwendung *Überschrift1* ist konstant, dann erhalten Sie gute Ergebnisse.
 
 ***Mehrere DITA-Doctypes***
 
@@ -88,7 +88,7 @@ InDesign Tabellenstile ermöglichen es, dass Spalten- und Zellenausrichtung eine
 
 Für die korrekte DITA-Konvertierung ist eine Zuordnungsdatei erforderlich, die mit dem Inhalt des Quelldokuments übereinstimmt. Bei unstrukturierten InDesign-Dokumenten bedeutet dies, dass alle verfügbaren Absatzstile und Zeichenstile zugeordnet werden müssen. Bei XML-strukturierten InDesign-Dokumenten müssen alle Elemente in der zugehörigen DTD zugeordnet werden.
 
-Die Zuordnungsdateien für unstrukturierte und strukturierte InDesign-Dokumente unterscheiden sich. Dies liegt an den komplexeren Verarbeitungsanforderungen für die Konvertierung unstrukturierter Quellinhalte in DITA.
+Die Zuordnungsdateien für unstrukturierte und strukturierte InDesign-Dokumente unterscheiden sich. Dies liegt an den komplexeren Verarbeitungsanforderungen für die Konvertierung von unstrukturierten Quellinhalten in DITA.
 
 Nachfolgend finden Sie ein Beispiel für die Zuordnungsdatei:
 
@@ -176,7 +176,7 @@ Die `mapDoctypeParaRule` -Element ist obligatorisch. Die Attribute dieses Elemen
 
 **Absatzregel für Dokumenttyp**
 
-Die `doctypeParaRule` -Element ist obligatorisch. Dadurch kann der Konvertierungsprozess den Beginn eines neuen Themas identifizieren. Normalerweise wird die `@style` -Attribut allein verwendet wird, wobei die `@local` auf 0 gesetzt. Wenn jedoch immer lokale Formatierungsüberschreibungen für den ausgewählten Stil vorhanden sind, müssen Sie eine Regel für jeden Stil und dessen lokale Überschreibungen hinzufügen. Dies ist in der generierten Mapping-Datei einfach zu erkennen, wo dies oder Ähnliches gefunden werden könnte:
+Die `doctypeParaRule` -Element ist obligatorisch. Dadurch kann der Konvertierungsprozess den Beginn eines neuen Themas identifizieren. Normalerweise wird die `@style` -Attribut allein verwendet wird, wobei `@local` auf 0 gesetzt. Wenn jedoch immer lokale Formatierungsüberschreibungen für den ausgewählten Stil vorhanden sind, müssen Sie eine Regel für jeden Stil und dessen lokale Überschreibungen hinzufügen. Dies ist in der generierten Mapping-Datei einfach zu erkennen, wo dies oder Ähnliches gefunden werden könnte:
 
 ```XML
 <paraRule style="Heading 1" local="0" mapTo="p">
@@ -189,11 +189,11 @@ Die `doctypeParaRule` -Element ist obligatorisch. Dadurch kann der Konvertierung
 
 Im obigen Beispiel gibt es zwei `paraRule` -Elemente für `@style` = &quot;Überschrift1&quot;. Erstellen Sie einfach eine Entsprechung `doctypeParaRule` -Elemente mit `@mapToDoctype` -Attribut nach Bedarf festlegen.
 
-Die in der Variablen `doctypeParaRule` werden nachfolgend erläutert:
+Die in der `doctypeParaRule` werden nachfolgend erläutert:
 
-- `@style`: Der Name eines Stils im Quell-InDesign-Dokument.
+- `@style`: Der Name eines Stils im Quelldokument-InDesign.
 - `@local`: Siehe [\#id194CG0V005Z](#id194CG0V005Z).
-- `@mapToDoctype`: Der Name eines DITA-Thementyps aus einer Aufzählungsliste aller gültigen `doctypes`.
+- `@mapToDoctype`: Der Name eines DITA-Thementyps aus einer nummerierten Liste aller gültigen `doctypes`.
 
 **Element-Umbruchregeln**
 
@@ -203,88 +203,88 @@ Die Elementumbruchregeln definieren die Möglichkeiten, Elemente im eingehenden 
 
 Dies ist ein optionales Element. Die `wrap` -Element listet die Elemente auf, die umschlossen oder verschoben werden. Umbruch wird normalerweise verwendet, wenn einer Reihe von Elementen ein gemeinsames übergeordnetes Element zugewiesen werden muss. Beispiel: mehrere `li` Elemente, die in eine `ol` -Element. Zusätzlich `wrap` kann für das Verschieben von Elementen verwendet werden, z. B. Titel für Zahlen und Tabellen.
 
-Die in der Variablen `wrap` werden nachfolgend erläutert:
+Die in der `wrap` werden nachfolgend erläutert:
 
-- `@element`: Ein Pluszeichen hinter einem Elementnamen zeigt an, dass alle benachbarten Elemente mit demselben Namen in das Element mit dem Namen `@wrapper`-Attribut.
+- `@element`: Ein Pluszeichen hinter einem Elementnamen zeigt an, dass alle benachbarten Elemente mit demselben Namen in das Element mit dem Namen im `@wrapper`-Attribut.
 - `@wrapper`: Der Name des einschließenden Elements.
-- `@context`: Bietet eine Möglichkeit, die Wrapper eines bestimmten Elements weiter zu verfeinern. Das folgende Beispiel zeigt eine Möglichkeit, eine Reihe von `li` Elemente in einer geordneten Liste `ol` oder eine ungeordnete Liste `ul` gemäß `@context` Wert \(der Kontext wird für die `paraRule` element\):
+- `@context`: Bietet eine Möglichkeit, die Wrapper eines bestimmten Elements weiter einzugrenzen. Das folgende Beispiel zeigt eine Möglichkeit, eine Reihe von `li` Elemente in einer geordneten Liste `ol` oder eine ungeordnete Liste `ul` gemäß `@context` Wert \(der Kontext wird für die `paraRule` element\):
 
-   ```XML
-   <wrap elements="li+" context="number" wrapper="ol">
-      <attributeRules createID="true"/>
-   </wrap>
-   <wrap elements="li+" context="bullet" wrapper="ul">
-      <attributeRules createID="true"/>
-   </wrap>
-   ```
+  ```XML
+  <wrap elements="li+" context="number" wrapper="ol">
+     <attributeRules createID="true"/>
+  </wrap>
+  <wrap elements="li+" context="bullet" wrapper="ul">
+     <attributeRules createID="true"/>
+  </wrap>
+  ```
 
 
-Das folgende Beispiel zeigt, wie Sie eine `fig` Element aus einem `title` und `image` element:
+Das folgende Beispiel zeigt, wie Sie eine `fig` -Element aus einem `title` und `image` element:
 
-- `@elements`: Die durch Kommas getrennten Elemente werden in das Element mit dem Namen `@wrapper` -Attribut. Aufgrund der gängigen Praxis, Bildtitel unter das Bild aufzunehmen, wird der Titel der `title` -Element unmittelbar nach dem `image`.
+- `@elements`: Die durch ein Komma getrennten Elemente werden in das Element mit dem Namen `@wrapper` -Attribut. Aufgrund der gängigen Praxis, Bildtitel unter das Bild aufzunehmen, wird der Titel der `title` -Element unmittelbar nach dem `image`.
 
-   Die folgende Umbruchregel:
+  Die folgende Umbruchregel:
 
-   ```XML
-   <wrap elements="title, image" context="FigTitle" wrapper="fig">
-      <attributeRules createID="true"/>
-   </wrap>
-   ```
+  ```XML
+  <wrap elements="title, image" context="FigTitle" wrapper="fig">
+     <attributeRules createID="true"/>
+  </wrap>
+  ```
 
-   Konvertiert die folgende XML-Zwischendatei:
+  Konvertiert die folgende XML-Zwischendatei:
 
-   ```XML
-   <image href="Links/myImage.png" scale="59">
-      <title>IDML2DITA workflow</title>
-   ```
+  ```XML
+  <image href="Links/myImage.png" scale="59">
+     <title>IDML2DITA workflow</title>
+  ```
 
-   In die folgende gültige DITA-Ziellenstruktur:
+  In die folgende gültige DITA-Zielleistenstruktur:
 
-   ```XML
-   <fig id="id397504">
-      <title>IDML2DITA workflow</title>
-      <image href="Links/myImage.png" scale="59">
-   </fig>
-   ```
+  ```XML
+  <fig id="id397504">
+     <title>IDML2DITA workflow</title>
+     <image href="Links/myImage.png" scale="59">
+  </fig>
+  ```
 
 - `@wrapper`: Der Name des einschließenden Elements.
-- `@context`: Bietet eine Möglichkeit, die Umbruchweise eines bestimmten Elements weiter zu verfeinern \(der Kontext wird im `paraRule` Element\).
+- `@context`: Bietet eine Möglichkeit, weiter zu verfeinern, wie ein bestimmtes Element umschlossen wird \(der Kontext wird im `paraRule` Element\).
 
 Das folgende Beispiel zeigt, wie Sie eine `title` in `table`:
 
 - `@elements`: Die `title` -Element, das sich entweder unmittelbar vor oder unmittelbar nach einer `table` wird in das Element mit dem Namen im `@wrapper` -Attribut. Ein XPath-Prädikat kann die Position des Titelelements als `[before]` oder `[after]`.
 
-   Beispiel: Die folgende Umbruchregel:
+  Beispiel: Die folgende Umbruchregel:
 
-   ```XML
-   <wrap elements="title[before]" context="TableTitle" wrapper="table">
-      <attributeRules createID="true"/>
-   </wrap>
-   ```
+  ```XML
+  <wrap elements="title[before]" context="TableTitle" wrapper="table">
+     <attributeRules createID="true"/>
+  </wrap>
+  ```
 
-   Konvertiert die folgende XML-Zwischendatei:
+  Konvertiert die folgende XML-Zwischendatei:
 
-   ```XML
-   <title>IDML2DITA workflow</title>
-   <table id="id289742" outputclass="BasicTable">
-      <tgroup cols="2">
-         <colspec colname="0" colwidth="0.7*">
-            <colspec colname="1" colwidth="0.3*">
-   ```
+  ```XML
+  <title>IDML2DITA workflow</title>
+  <table id="id289742" outputclass="BasicTable">
+     <tgroup cols="2">
+        <colspec colname="0" colwidth="0.7*">
+           <colspec colname="1" colwidth="0.3*">
+  ```
 
-   In diese gültige DITA-Ziffernstruktur:
+  In diese gültige DITA-Ziffernstruktur:
 
-   ```XML
-   <table id="id289742" outputclass="BasicTable">
-      <title>IDML2DITA workflow</title>
-      <tgroup cols="2">
-         <colspec colname="0" colwidth="0.7*">
-            <colspec colname="1" colwidth="0.3*">
-   ```
+  ```XML
+  <table id="id289742" outputclass="BasicTable">
+     <title>IDML2DITA workflow</title>
+     <tgroup cols="2">
+        <colspec colname="0" colwidth="0.7*">
+           <colspec colname="1" colwidth="0.3*">
+  ```
 
 - `@wrapper`: Der Name des einschließenden Elements.
 
-- `@context`: Bietet eine Möglichkeit, die Umbruchweise eines bestimmten Elements weiter zu verfeinern \(der Kontext wird im `paraRule` Element\).
+- `@context`: Bietet eine Möglichkeit, weiter zu verfeinern, wie ein bestimmtes Element umschlossen wird \(der Kontext wird im `paraRule` Element\).
 
 
 **Absatzstilregeln**
@@ -299,21 +299,21 @@ Die `paraRule` -Element ist obligatorisch. Dadurch werden die Zuordnungsregeln f
 >
 > Die eckigen Klammern geben einen integrierten InDesign-Stilnamen an.
 
-Die in der Variablen `paraRule` werden nachfolgend erläutert:
+Die in der `paraRule` werden nachfolgend erläutert:
 
-- `@style`: Der Name eines Stils im Quell-InDesign-Dokument.
+- `@style`: Der Name eines Stils im Quelldokument-InDesign.
 - `@local`: Siehe [\#id194CG0V005Z](#id194CG0V005Z).
 - `@mapTo`: Der Name eines DITA-Zielelements.
 
-- `@context`: Dieses Attribut wird verwendet, um eine Relation zu einer bestimmten **wrap** Regel, wenn mehr als eine Wrapper-Auswahl verfügbar ist. Beispiel: die `li` -Element kann entweder in ein `ol`oder `ul` -Element. Um die verschiedenen Listentypen zu identifizieren, können Sie einen bestimmten Stilnamen oder die `@local` -Attribut, das Folgendes anzeigen kann:
-   - `local="p[-|-|-|-|-|b|-|-]"` Bei dem`b`&quot; in Feld 6 ein Element mit Aufzählungszeichen. In diesem Fall `@context` zu &#39;`bullet`&quot;.
+- `@context`: Dieses Attribut wird verwendet, um eine Relation zu einer bestimmten **wrap** Regel, wenn mehr als eine Wrapper-Auswahl verfügbar ist. Beispiel: die `li` -Element kann entweder in ein `ol`oder `ul` -Element. Zur Identifizierung der verschiedenen Listentypen können Sie einen bestimmten Stilnamen oder die `@local` -Attribut, das Folgendes anzeigen kann:
+   - `local="p[-|-|-|-|-|b|-|-]"` Bei dem`b`&quot; in Feld 6 bedeutet, dass ein Listenelement mit Aufzählungszeichen angezeigt wird. In diesem Fall `@context` zu &#39;`bullet`&quot;.
    - `local="p[-|-|-|-|-|n|-|-]"` Bei dem`n`&quot; in Feld 6 ein nummeriertes Listenelement. In diesem Fall `@context` zu &#39;`number`&quot;.
 
 - `@commentOut`: Dieses Attribut ermöglicht das Umbrechen des Zielelements in XML-Kommentaren, sodass die Informationen nicht verloren gehen, sondern vom Benutzer manuell verarbeitet werden können. Dies ist nützlich, wenn der Quellinhalt nicht gezwungen werden kann, die DITA-Strukturregeln einzuhalten.
 
 - `@refactor`: Dieses optionale Attribut hat zwei Werte:
 
-- `unwrap`: Das übereinstimmende Element wird entfernt, wobei der Inhalt beibehalten wird.
+- `unwrap`: Das übereinstimmende Element wird entfernt, während der Inhalt beibehalten wird.
 
 - `drop`: Das übereinstimmende Element und alle zugehörigen Inhalte werden entfernt.
 
@@ -332,13 +332,13 @@ Dies ist ein optionales Element.
 
 Dies sind die Zuordnungsregeln für alle Zeichenstile. In einem InDesign-Dokument ist der gesamte Text in untergeordneten Elementen von Zeichenstilen enthalten.
 
-Die in der Variablen `charRule` werden nachfolgend erläutert:
+Die in der `charRule` werden nachfolgend erläutert:
 
-- `@style`: Der Name eines Stils im Quell-InDesign-Dokument.
+- `@style`: Der Name eines Stils im Quelldokument-InDesign.
 - `@local`: Siehe [\#id194CG0V005Z](#id194CG0V005Z).
 - `@mapTo`: Der Name eines DITA-Zielelements.
 - `@refactor`: Dieses optionale Attribut hat zwei Werte:
-   - `unwrap`: Das übereinstimmende Element wird entfernt, wobei der Inhalt beibehalten wird.
+   - `unwrap`: Das übereinstimmende Element wird entfernt, während der Inhalt beibehalten wird.
 
    - `drop`: Das übereinstimmende Element und alle zugehörigen Inhalte werden entfernt.
 
@@ -360,10 +360,10 @@ Attributregeln dienen dazu, die Attribute für die übereinstimmenden Elemente z
 Je nach Kontext stehen die folgenden Attribute zur Verfügung: `attributeRules` element:
 
 - `@createID`: Generiert eine eindeutige ID für die übereinstimmenden Elemente. Zulässige Werte `true` oder `false`. In allen Kontexten verfügbar.
-- `@copyAll`: Kopiert alle Attribute nur für strukturierte Quelldateien aus dem XML-Quellinhalt. Zulässige Werte sind `true` oder `false`. Verfügbar für Kontexte `mapDoctypeParaRule`, `mapDoctypeElemRule`, `doctypeElemRule` und `elementRule`.
+- `@copyAll`: Kopiert alle Attribute nur aus dem XML-Quellinhalt für strukturierte Quelldateien. Zulässige Werte sind `true` oder `false`. Verfügbar für Kontexte `mapDoctypeParaRule`, `mapDoctypeElemRule`, `doctypeElemRule` und `elementRule`.
 
 
-Die in der Variablen `attributeRules` werden nachfolgend erläutert:
+Die in der `attributeRules` werden nachfolgend erläutert:
 
 >[!NOTE]
 >
@@ -383,7 +383,7 @@ In jedem InDesign-Dokument ist es möglich, dass Absatzstile und Zeichenstile me
 Die `@local` -Attribute werden als spezielles, durch Trennzeichen getrenntes Format angezeigt, in dem acht Felder zusammen mit einem Präfix bereitgestellt werden, um die Art der Formatierung zu überschreiben. Die Felder für Formatierungscodes sind unten aufgeführt:
 
 - Präfix **p** für die lokale Überschreibung im Para-Stil oder **c** für die lokale Überschreibung des Zeichenstils.
-- **Schriftschnitt** , der den Familiennamen und Eigenschaften wie &quot;***Fett Zusammengekürzt Kursiv***&quot;.
+- **Schriftschnitt** , der den Familiennamen und Eigenschaften wie &quot;***Fett kondensiert Kursiv***&quot;.
 - **Schriftgröße** in den Buchstaben.
 - **Zeichenposition** für Hochgestellt oder Tiefgestellt.
 - **under** für Unterstriche.
@@ -396,7 +396,7 @@ Eine sorgfältige Verwendung dieser Funktion ermöglicht andernfalls verloren ge
 
 **Strukturzuordnung**
 
-Die Strukturzuordnungsdatei ähnelt der Stilzuordnungsdatei mit einer einfachen Struktur, die alle Quellelemente und relevanten Attributtypen auflistet. Zwei Attribute, `@map_date` und `@map_version` werden zur Aufzeichnung der Version der zu verwendenden Mapping-Datei bereitgestellt.
+Die Strukturzuordnungsdatei ähnelt der Stilzuordnungsdatei mit einer einfachen Struktur, die alle Quellelemente und relevanten Attributtypen auflistet. Zwei Attribute, `@map_date` und `@map_version` werden für die Aufzeichnung der Version der zu verwendenden Mapping-Datei bereitgestellt.
 
 **Dokumenttyp**
 
@@ -412,9 +412,9 @@ Die `mapDoctypeElemRule` -Element ist obligatorisch. Die Attribute dieses Elemen
 
 **`elementRule`element** Die `elementRule` -Element ist obligatorisch. Dies sind die Zuordnungsregeln für alle Quellelemente. Während ein InDesign-Dokument unstrukturierte Stilelemente enthält, werden diese bei strukturierten Inhalten ignoriert, es sei denn, die ***Hybridmodus*** Die Verarbeitung ist aktiviert.
 
-Die in der Variablen `elementRule` werden nachfolgend erläutert:
+Die in der `elementRule` werden nachfolgend erläutert:
 
-- `@elementName`: Der Name eines Elements im Quell-InDesign-Dokument.
+- `@elementName`: Der Name eines Elements im Quelldokument-InDesign.
 
 - `@local`: Siehe [\#id194CG0V005Z](#id194CG0V005Z). \(Nur bei Hybriddokumenten nützlich\).
 
@@ -422,7 +422,7 @@ Die in der Variablen `elementRule` werden nachfolgend erläutert:
 
 - `@refactor`: Dieses optionale Attribut hat zwei Werte:
 
-   - `unwrap`: Das übereinstimmende Element wird entfernt, wobei der Inhalt beibehalten wird.
+   - `unwrap`: Das übereinstimmende Element wird entfernt, während der Inhalt beibehalten wird.
 
    - `drop`: Das übereinstimmende Element und alle zugehörigen Inhalte werden entfernt.
 
@@ -454,11 +454,11 @@ Führen Sie die folgenden Schritte aus, um die Verweise mithilfe des im Produktp
 - Paket von &quot;`/content/fmdita/references`&quot;
 - Alle anderen erforderlichen Details, je nach gemeldetem Szenario
 
-**Patch-Skript**
+**Patch script**
 
 Führen Sie die folgenden Schritte aus, um fehlerhafte Verweise mithilfe des im Produktpaket verfügbaren Patch-Skripts zu patchen:
 
-1. Ausführen des Patch-Skripts `[/bin/fmdita/validatebtree?operation=patch]` , um die fehlerhaften Verweise zu beheben. Die Ausführung des Skripts dauert einige Minuten und druckt die Protokolle im Laufe des Prozesses. Sobald die Ausführung abgeschlossen ist, wird &quot;`Done`&quot; am Ende.
+1. Ausführen des Patch-Skripts `[/bin/fmdita/validatebtree?operation=patch]` , um die fehlerhaften Verweise zu beheben. Die Ausführung des Skripts dauert einige Minuten und druckt die Protokolle im Laufe des Prozesses. Nach Abschluss der Ausführung wird &quot;`Done`&quot; am Ende.
 
    **Hinweis:* Es wird empfohlen, die Protokolle zu Referenzzwecken zu kopieren und zu speichern.
 
@@ -475,4 +475,3 @@ Sie können für diese Skriptausführung auch einen separaten Logger erstellen, 
 - Legen Sie `DEBUG`
 
 Die erstellte Protokolldatei zeichnet alle Informationen auf, die mit der Skriptausführung zusammenhängen, und ist nützlich für den Fall, dass bei der Browsersitzung ein Timeout auftritt, während das Skript vom Browser ausgelöst wird.
-

@@ -1,9 +1,9 @@
 ---
 title: Einrichtung von Inhalten und Vorlagen
 description: Erfahren Sie, was Sie beim Einrichten von Inhalten und Vorlagen in AEM Handbüchern beachten sollten.
-source-git-commit: 87c92776f417aba49096b447baf81916dea5d57f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '275'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ In dieser Sitzung haben wir im Großen und Ganzen Folgendes behandelt:
 - **Datum** - 27. April 2023
 - **Anzahl der TeilnehmerInnen** - 70
 - **Dauer** - 60 Minuten
-- **Zielgruppe** - Kunden, Partner und Mitarbeiter der Adobe
+- **Zielgruppe** - Kunden, Partner und Adobe-Mitarbeiter
 
 
 ## Haupterkenntnisse
@@ -52,14 +52,13 @@ In dieser Sitzung haben Sie Folgendes erfahren:
 
 - **Benutzerhandbuch** - [Autoreninhalt](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
-- **Community-Forum** - Sitzungsspezifische Community-Interaktionen auf Experience League finden Sie unter  [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Community-Forum** - Sitzungsspezifische Community-Interaktionen auf dem Experience League finden Sie unter  [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > Die in dieser Sitzung angezeigten Funktionen sind in den folgenden Versionen AEM Handbücher verfügbar:
 > - On-Premise: 4.2 oder höher
-> - Cloud Services: 2303 oder höher
-
+> - Cloud Service: 2303 oder höher
 
 
 ## Nächste Sachverständigensitzung

@@ -1,20 +1,19 @@
 ---
 title: Recommendations zur Leistungsoptimierung
 description: Recommendations zur Leistungsoptimierung kennenlernen
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '967'
 ht-degree: 0%
 
 ---
-
 
 # Recommendations zur Leistungsoptimierung {#id213BD0JG0XA}
 
 ## Datenspeicher konfigurieren \(erforderlich\)
 
 **Was ist die Veränderung?**
-Legen Sie die `minRecordLength` -Eigenschaft auf einen Wert von `100` unter der Konfiguration `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` Weitere Informationen zum Dateidatumsspeicher und zum S3-Datenspeicher finden Sie unter [Konfigurieren von Knotenspeichern und Datenspeichern in AEM 6](https://helpx.adobe.com/de/experience-manager/6-5/sites/deploying/using/data-store-config.html) Artikel.
+Legen Sie die `minRecordLength` -Eigenschaft auf einen Wert von `100` unter der Konfiguration `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` Weitere Informationen zum Dateidatumsspeicher und zum S3-Datenspeicher finden Sie unter [Konfigurieren von Knotenspeichern und Datenspeichern in AEM 6](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html) Artikel.
 
 >[!NOTE]
 >
@@ -44,9 +43,9 @@ Diese Änderung verhindert, dass der Knoten /var/dxml indiziert und im Segmentsp
 ## Java-Speicheroptimierung \(erforderlich\)
 
 **Was ist die Veränderung?**
-Die JVM-Startparameter sollten entsprechend der Infrastruktur und der Festplattengröße sorgfältig angepasst werden. Es wird empfohlen, den Support der Adobe zu konsultieren, um Hilfe beim Zugriff auf die ideale Konfiguration zu erhalten. Sie können jedoch die folgenden Konfigurationen selbst ausprobieren:
+Die JVM-Startparameter sollten entsprechend der Infrastruktur und der Festplattengröße sorgfältig angepasst werden. Es wird empfohlen, den Adobe-Support zu konsultieren, um Hilfe beim Zugriff auf die ideale Konfiguration zu erhalten. Sie können jedoch die folgenden Konfigurationen selbst ausprobieren:
 
-- Setzen Sie die JVM-Heap-Größe auf ein Minimum von 1/4 des gesamten verfügbaren Speichers. Verwenden Sie den Parameter . `-Xmx<size>` , um die Heap-Speichergröße festzulegen. Legen Sie den Wert für fest:`Xms` gleich `-Xmx`.
+- Setzen Sie die JVM-Heap-Größe auf ein Minimum von 1/4 des gesamten verfügbaren Speichers. Verwenden des Parameters `-Xmx<size>` , um die Heap-Speichergröße festzulegen. Legen Sie den Wert für fest:`Xms` gleich `-Xmx`.
 
 - Aktivieren `-XX:+HeapDumpOnOutOfMemoryError` und legen Sie den Pfad für `-XX:HeapDumpPath=</path/to/folder``>`.
 
@@ -64,7 +63,7 @@ Die JVM-Startparameter sollten entsprechend der Infrastruktur und der Festplatte
 
 - Im Allgemeinen für Java 11 verwenden Sie G1GC \(`-XX:+UseG1GC`\) und für Java 8 verwenden Sie CMS \(-`XX:+UseConcMarkSweepGC`\).
 
-- Verwendung `-XX:NewRatio` zur Steuerung der Größe des Speicherplatzes der jungen Generation. Der Standardwert ist 2, was bedeutet, dass 1/3 des Speichers für junge Generation verwendet wird. Da viele Objekte schnell erstellt und zerstört werden, wird mit dem Wert 1 1/2 des Speichers der jungen Generation zugewiesen.
+- Verwendung `-XX:NewRatio` um die Größe des Speicherplatzes der jungen Generation zu steuern. Der Standardwert ist 2, was bedeutet, dass 1/3 des Speichers für junge Generation verwendet wird. Da viele Objekte schnell erstellt und zerstört werden, wird mit dem Wert 1 1/2 des Speichers der jungen Generation zugewiesen.
 
 - Steuern Sie die Anzahl der Objekte, die mit der `-XX:MaxTenuringThreshold`. Verwenden Sie den Wert 15 \(Standard\), um zu verzögern, wenn Objekte zur alten Generation weitergeleitet werden.
 
@@ -125,4 +124,3 @@ Dies kann zur Laufzeit erfolgen.
 Durch diese Änderung wird die Nachbearbeitungszeit beim Massen-Upload von DITA-Dateien verkürzt.
 
 **Übergeordnetes Thema:**[ Herunterladen und installieren](download-install.md)
-

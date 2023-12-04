@@ -1,13 +1,12 @@
 ---
 title: Symbolleiste anpassen
 description: Erfahren Sie, wie Sie die Symbolleiste anpassen
-source-git-commit: ef2e99db8c298d34af5777baa48886a55ac32590
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 0%
 
 ---
-
 
 # Symbolleiste anpassen {#id172FB00L0V6}
 
@@ -28,7 +27,7 @@ Das Hinzufügen einer Funktion zum Web-Editor umfasst zwei Hauptaufgaben - das H
 
 Führen Sie die folgenden Schritte aus, um der Symbolleiste des Web-Editors eine Funktion hinzuzufügen:
 
-1. Melden Sie sich bei AEM an und öffnen Sie den Modus CRXDE Lite .
+1. Melden Sie sich bei AEM an und öffnen Sie den CRXDE Lite-Modus.
 
 1. Navigieren Sie zur Standardkonfigurationsdatei, die unter folgendem Speicherort verfügbar ist:
 
@@ -46,27 +45,27 @@ Führen Sie die folgenden Schritte aus, um der Symbolleiste des Web-Editors eine
 
    - **extraklasse:** Name der Klasse(n), getrennt durch Leerzeichen.
 
-   - **items:** Definieren Sie die Definition aller Gruppen in der Symbolleiste. Jede Gruppe kann ein oder mehrere Symbolleistensymbole enthalten. Um Symbole in einer Symbolleistengruppe zu definieren, müssen Sie die `type` -Attribut in `items`und setzen Sie den Wert auf `buttonGroup`. Geben Sie einen oder mehrere Klassennamen in der `extraclass` -Eigenschaft. Geben Sie den Namen der Funktion im `label` -Eigenschaft. Das folgende Snippet aus dem `ui_config.json` -Datei zeigt die Definition des Hauptbausteins der Symbolleiste, gefolgt von der `buttonGroup` Definition:
+   - **items:** Definieren Sie die Definition aller Gruppen in der Symbolleiste. Jede Gruppe kann ein oder mehrere Symbolleistensymbole enthalten. Um Symbole in einer Symbolleistengruppe zu definieren, müssen Sie die `type` -Attribut innerhalb der `items`und setzen Sie den Wert auf `buttonGroup`. Geben Sie einen oder mehrere Klassennamen in der `extraclass` -Eigenschaft. Geben Sie den Namen der Funktion im `label` -Eigenschaft. Das folgende Snippet aus dem `ui_config.json` -Datei zeigt die Definition des Hauptbausteins der Symbolleiste, gefolgt von der `buttonGroup` Definition:
 
-      ```json
-      "toolbar": {    
-        "type": "blockGroup",    
-        "extraclass": 
-        "toolbar operations",    
-          "items": [      
-            {        
-              "type": "buttonGroup",        
-              "extraclass": "left-controls",        
-              "label": "Left Controls",        
-              "items": [
-      ```
+     ```json
+     "toolbar": {    
+       "type": "blockGroup",    
+       "extraclass": 
+       "toolbar operations",    
+         "items": [      
+           {        
+             "type": "buttonGroup",        
+             "extraclass": "left-controls",        
+             "label": "Left Controls",        
+             "items": [
+     ```
 
-      Innerhalb der `items` -Sammlung müssen Sie die Definition für ein oder mehrere Symbolleistensymbole angeben.
+     Innerhalb der `items` -Sammlung müssen Sie die Definition für ein oder mehrere Symbolleistensymbole angeben.
 Sie müssen die folgenden Eigenschaften definieren, um ein Symbolleistensymbol hinzuzufügen:
 
    - **Typ:** Angeben `button` als `type` -Wert. Dieser Wert gibt an, dass Sie eine Symbolleistenschaltfläche hinzufügen.
 
-   - **Symbol:** Geben Sie den Namen des Coral-Symbols an, das Sie in der Symbolleiste verwenden möchten.
+   - **-Symbol:** Geben Sie den Namen des Coral-Symbols an, das Sie in der Symbolleiste verwenden möchten.
 
    - **Variante:** Angeben `quiet` als `variant` -Wert.
 
@@ -74,17 +73,17 @@ Sie müssen die folgenden Eigenschaften definieren, um ein Symbolleistensymbol h
 
    - **on-click:** Geben Sie den für die Funktion definierten Befehlsnamen in der JavaScript-Datei an. Wenn für Ihren Befehl Eingabeparameter erforderlich sind, geben Sie den Befehlsnamen wie folgt an:
 
-      ```JavaScript
-      "on-click": {"name": "AUTHOR_INSERT_ELEMENT", "args": "simpletable"}
-      ```
+     ```JavaScript
+     "on-click": {"name": "AUTHOR_INSERT_ELEMENT", "args": "simpletable"}
+     ```
 
    - **ein- oder ausblenden:** Wenn Sie die `show` -Eigenschaft und geben Sie dann die Modi an, in denen das Symbol angezeigt wird. Mögliche Werte sind - `@isAuthorMode`, `@isSourceMode`, `@isPreviewMode`, `true` \(in allen Modi anzeigen\) oder `false` \(In allen Modi ausblenden\).
 
-   anstelle von `show`können Sie auch die `hide` -Eigenschaft. Die möglichen Werte sind identisch mit in `show` -Eigenschaft mit dem einzigen Unterschied, dass das Symbol für den angegebenen Modus nicht angezeigt wird.
+   anstelle von `show`, können Sie auch die `hide` -Eigenschaft. Die möglichen Werte sind identisch mit in `show` -Eigenschaft mit dem einzigen Unterschied, dass das Symbol für den angegebenen Modus nicht angezeigt wird.
 
 1. Erstellen Sie eine *clientlib* und fügen Sie Ihr JavaScript in diesen Ordner ein.
 
-1. Aktualisieren Sie die categories-Eigenschaft des *clientlib* Ordner, indem ihm der Wert von *apps.fmdita.xml\_editor.page\_overrides*.
+1. Aktualisieren Sie die categories-Eigenschaft des *clientlib* Ordner, indem ihm der Wert von *apps.format.xml\_editor.page\_overrides*.
 
 1. Speichern Sie die *ui\_config.json* und laden Sie den Web Editor neu.
 
@@ -205,7 +204,7 @@ Manchmal möchten Sie nicht alle derzeit im Web-Editor verfügbaren Funktionen b
 
 Führen Sie die folgenden Schritte aus, um unerwünschte Funktionen aus der Symbolleiste zu entfernen:
 
-1. Melden Sie sich bei AEM an und öffnen Sie den Modus CRXDE Lite .
+1. Melden Sie sich bei AEM an und öffnen Sie den CRXDE Lite-Modus.
 
 1. Navigieren Sie zur Standardkonfigurationsdatei, die unter folgendem Speicherort verfügbar ist:.
 
@@ -234,4 +233,3 @@ Die `ui_config.json` -Datei umfasst drei Abschnitte:
 
 
 **Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
-

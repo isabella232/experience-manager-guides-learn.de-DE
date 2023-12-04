@@ -3,14 +3,12 @@ title: Sauerstoff-Plug-in für Adobe Experience Manager-Handbücher
 description: Erfahren Sie, wie Sie mit dem Oxygen-Plug-in für Adobe Experience Manager-Handbücher Inhalte erstellen und verwalten können.
 hide: true
 hidefromtoc: true
-exl-id: 2db9a34e-2efa-47ad-ba6b-02afc5197669
-source-git-commit: 23c1dfb405643bd9f5906807dddc4fff3f2e8535
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '6120'
+source-wordcount: '6101'
 ht-degree: 0%
 
 ---
-
 
 # Sauerstoff-Plug-in für Adobe Experience Manager-Handbücher {#id1645H6010Q5}
 
@@ -43,7 +41,7 @@ Nachdem Sie das Installationsprogramm installiert haben, installieren Sie es auf
 
 >[!IMPORTANT]
 >
->Wenn Sie eine ältere Version des Plug-ins auf Ihrem System installiert haben, stellen Sie sicher, dass Sie es deinstallieren, bevor Sie den Installationsprozess starten. Siehe **Deinstallieren von Paketen** im Abschnitt [Arbeiten mit Paketen](https://helpx.adobe.com/de/experience-manager/6-4/sites/administering/using/package-manager.html) Artikel für Anweisungen zur Deinstallation.
+>Wenn Sie eine ältere Version des Plug-ins auf Ihrem System installiert haben, stellen Sie sicher, dass Sie es deinstallieren, bevor Sie den Installationsprozess starten. Siehe **Deinstallieren von Paketen** im Abschnitt [Arbeiten mit Paketen](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) Artikel für Anweisungen zur Deinstallation.
 
 Führen Sie die folgenden Schritte für das System aus, auf dem Oxygen XML Author installiert ist:
 
@@ -77,7 +75,7 @@ Führen Sie die folgenden Schritte für das System aus, auf dem Oxygen XML Autho
 
 >[!IMPORTANT]
 >
->Wenn Sie eine ältere Version des Plug-ins auf Ihrem System installiert haben, stellen Sie sicher, dass Sie es deinstallieren, bevor Sie den Installationsprozess starten. Siehe **Deinstallieren von Paketen** im Abschnitt [Arbeiten mit Paketen](https://helpx.adobe.com/de/experience-manager/6-4/sites/administering/using/package-manager.html) Anweisungen zur Deinstallation des Artikels.
+>Wenn Sie eine ältere Version des Plug-ins auf Ihrem System installiert haben, stellen Sie sicher, dass Sie es deinstallieren, bevor Sie den Installationsprozess starten. Siehe **Deinstallieren von Paketen** im Abschnitt [Arbeiten mit Paketen](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) Anweisungen zur Deinstallation des Artikels.
 
 Führen Sie die folgenden Schritte für das System aus, auf dem Oxygen XML Author installiert ist:
 
@@ -253,7 +251,7 @@ Führen Sie die folgenden Schritte aus, um Profilattribute und Querverweise zu k
 
 1. Im **Erweiterungen** -Tab, nehmen Sie die folgenden Änderungen vor:
    - Klicks **Auswählen** neben dem **Listener für Autorenerweiterungsstatus** under **Individuelle Erweiterungen** und wählen Sie CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn im **Klasse** Liste. Klicken Sie auf **OK**.
-   - Klicks **Auswählen** neben dem **Autor des benutzerdefinierten Attributwert-Editors** under **Individuelle Erweiterungen** und wählen Sie CustomValueEditor - com.adobe.o2.framework.extn im **Klasse** Liste. Klicken Sie auf **OK**.
+   - Klicks **Auswählen** neben dem **Autor des benutzerdefinierten Attributwert-Editors** under **Individuelle Erweiterungen** und wählen Sie CustomValueEditor - com.adobe.o2.framework.extn im **Klasse** Liste. Klicks **OK**.
 Der folgende Screenshot zeigt die konfigurierte **Erweiterung** Registerkarte für DITA-Themen:
 
      ![Konfigurierte Erweiterung für DITA-Themen](images/dita-topic-extension-tab.png){width="650" align="left"}
@@ -484,7 +482,7 @@ Wenn Sie mehrere Ordner haben, ist es nicht einfach herauszufinden, wie viele Da
 - Sie können die Dateiliste nach Dateinamen, Titel oder Pfad sortieren. Wenn eine neue Datei ausgecheckt ist, wird die Datei in der Ansicht in sortierter Reihenfolge angezeigt.
 
 
-### Hochladen von Dateien und Ordnern {#id195HC03F03J}
+### Dateien und Ordner hochladen {#id195HC03F03J}
 
 Führen Sie die folgenden Schritte aus, um Dateien oder Ordner hochzuladen:
 
@@ -749,5 +747,3 @@ Lösung: Führen Sie die folgenden Schritte aus, um die Logger für Adobe Xygen 
 
 
 Mit den vorherigen Schritten werden die Protokolle aktiviert und Sie können sie zur Problembehebung verwenden.
-
-

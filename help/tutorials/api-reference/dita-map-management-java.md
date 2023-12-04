@@ -1,13 +1,12 @@
 ---
 title: Java-basierte APIs zum Arbeiten mit DITA-Maps
 description: Erfahren Sie mehr über die Java-basierten APIs für die Verwendung mit DITA-Maps
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1027'
 ht-degree: 0%
 
 ---
-
 
 # Java-basierte APIs zum Arbeiten mit DITA-Maps {#id175UB30E05Z}
 
@@ -154,4 +153,3 @@ public static List
 **Parameter**: |Name|Typ|Beschreibung| |—|—|—| |`rootNode`|javax.jcr.Node|Der Stammknoten, für den alle Abhängigkeiten abgerufen werden sollen.|
 
 **Rückgabe**: Eine Knotenliste, die alle Abhängigkeiten des Stammknotens enthält.
-

@@ -1,9 +1,9 @@
 ---
 title: Erweiterungs-Framework von AEM Handbüchern - Anpassen der Web-Editor- und Überprüfungs-Benutzeroberfläche
 description: Mit dem Framework für die Guides-Erweiterung können Sie die gewünschten Abschnitte der Review-Benutzeroberfläche oder des Web-Editors anpassen, indem Sie einfach zu aktualisierende JSON-, CSS- und JavaScript-Dateien verwenden.
-source-git-commit: 5ad664296478ed16f6f2d80e79a4812f5ff96f9c
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '365'
 ht-degree: 1%
 
 ---

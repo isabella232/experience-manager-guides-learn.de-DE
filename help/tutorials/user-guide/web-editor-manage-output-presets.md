@@ -1,8 +1,7 @@
 ---
 title: Ausgabevorgaben für Global- und Ordnerprofile verwalten
 description: Erfahren Sie, wie Sie in AEM Handbüchern globale und Ordnerprofil-Ausgabevorgaben erstellen, bearbeiten, umbenennen, duplizieren und löschen.
-exl-id: 549c9fe2-77f8-423c-8b3e-b43e56055732
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 0%

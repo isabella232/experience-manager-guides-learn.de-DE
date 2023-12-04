@@ -1,10 +1,10 @@
 ---
 title: Versionshinweise | Aktualisierungsanweisungen und behobene Probleme in der Adobe Experience Manager-Version 4.3.0
 description: Erfahren Sie mehr über die Fehlerbehebungen und das Upgrade auf Version 4.3.0 der Adobe Experience Manager-Handbücher.
-source-git-commit: b53f76c2f0234c1ef6c65d954311e3f8c980ffe2
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 5%
+source-wordcount: '1086'
+ht-degree: 1%
 
 ---
 
@@ -49,7 +49,7 @@ Weitere Informationen finden Sie unter *Technische Anforderungen* im Handbuch &q
 
 ### FrameMaker und FrameMaker Publishing Server
 
-| Release | FMPS 2022 | FMPS 2020 | FM 2022 | FM 2020 |
+| Freigabe | FMPS 2022 | FMPS 2020 | FM 2022 | FM 2020 |
 | --- | --- | --- | --- | --- |
 | 4.3.0 (Nicht-UUID) | 2022 oder höher | 2020.2 oder höher* | 2022 oder höher | 2020.3 oder höher |
 | 4.3.0 (UUID) | 2022 oder höher | 2020.2 oder höher* | 2022 oder höher | 2020.4 oder höher |
@@ -59,10 +59,10 @@ Weitere Informationen finden Sie unter *Technische Anforderungen* im Handbuch &q
 
 ### Sauerstoffanschluss
 
-| Release | Sauerstoff Connector Windows | Sauerstoff Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
+| Freigabe | Sauerstoff Connector Windows | Sauerstoff Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
 | --- | --- | --- |--- |--- |
-| 4.3.0 (Nicht-UUID) | 2.3-normal-5 | 2.3-normal-5 | 1.6 | 1.6 |
-| 4.3.0 (UUID) | 3.0-uuid-4 | 3.0-uuid-3 | 2.3 | 2.3 |
+| 4.3.0 (Nicht-UUID) | 2.3-normal-5 | 2.3-normal-5 | 1,6 | 1,6 |
+| 4.3.0 (UUID) | 3.0-uuid-4 | 3.0-uuid-3 | 2,3 | 2,3 |
 |  |  |   |
 
 ## Behobene Probleme
@@ -82,14 +82,14 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 - Die 8-Taste auf der Seitentastatur funktioniert nicht im AEM Guides-Editor. (12106)
 - Inline-/Display-Attribute werden nicht in der Layout-Ansicht des Web-Editors angezeigt. (12498)
 - Die Konfiguration der globalen Profil-Benutzeroberfläche stimmt nicht mit dem Ordnerprofil überein. (11970)
-- Inhaltsreferenzen sind beim Kopieren und Einfügen von DITA-Dateien fehlerhaft. (11959)
+- Inhaltsreferenzen sind beim Kopieren und Einfügen von DITA-Dateien fehlerhaft. (1959)
 - Inhaltsfragment kann nicht in der Spaltenansicht bearbeitet werden, wenn AEM Guides installiert sind. (7342)
 - Der Inhalt geht verloren, wenn sich eine entpackte xref unter einem untergeordneten Element-Tag befindet. (12532)
 - Der Genehmigungs-Workflow funktioniert nicht, wenn in den Dateieigenschaften des rechten Bedienfelds document in &quot;end state&quot;geändert wird. (11026)
 - Asset-Benutzeroberfläche | In der Listenansicht sind die überlagerten verfügbaren Spalten nicht zusammenführbar. (11528)
 - Keyref ist in der Kartenansicht nicht aufgelöst. (11490)
 - Das obere Menü wird nicht angezeigt, wenn Sie durch den XML-Editor navigieren. (10868)
-- `conref` im ph-Tag | Das angezeigte Dialogfeld zum Durchsuchen ist falsch. (9481)
+- `conref` im ph-Tag | Das angezeigte Dialogfeld zum Durchsuchen ist falsch. 9481)
 - Lokale Links zu anderen Elementen werden im Web Editor nicht aufgelöst. (8790)
 - Die Funktion Matches() funktioniert in der Schematron-Funktion nicht. (11224)
 

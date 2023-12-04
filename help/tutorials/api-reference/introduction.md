@@ -1,10 +1,9 @@
 ---
 title: Einführung
 description: Einführung in das API-Referenzhandbuch für AEM Handbücher
-exl-id: d8ee9cf7-1d67-4b4a-aa80-64e893a99463
-source-git-commit: 112085153aaf246289bd8f91657c95e986df482e
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---

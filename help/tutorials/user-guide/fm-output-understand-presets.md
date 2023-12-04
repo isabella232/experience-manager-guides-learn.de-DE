@@ -1,8 +1,7 @@
 ---
 title: Einführung in die Ausgabevorgaben
 description: Veröffentlichen Sie FrameMaker-Dokumente in AEM Handbüchern. Erfahren Sie, wie Sie Ausgabe für FrameMaker-Dokumente in den Formaten PDF, HTML5 und EPUB generieren.
-exl-id: a084e643-cae6-4263-a498-3ae62228b886
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 0%

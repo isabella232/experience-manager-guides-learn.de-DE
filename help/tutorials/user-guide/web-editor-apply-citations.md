@@ -1,13 +1,12 @@
 ---
 title: Hinzufügen und Verwalten von Zitaten in Ihrem Inhalt
 description: Fügen Sie Zitate hinzu und verwalten Sie sie in AEM Handbüchern. Erfahren Sie, wie Sie Inhaltsausgabe mit Zitaten anwenden, importieren, filtern, suchen, ändern, bearbeiten, Vorschau anzeigen, einfügen, löschen und generieren können.
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1877'
-ht-degree: 1%
+source-wordcount: '1887'
+ht-degree: 0%
 
 ---
-
 
 # Hinzufügen und Verwalten von Zitaten in Ihrem Inhalt
 
@@ -133,7 +132,7 @@ Die folgenden Optionen sind im Dropdown-Menü verfügbar:
 | MLA | APA | Chicago | IEEE | AHA |
 |---|---|---|---|---|
 | Modern Language Association Style <br> | American Psychology Association Style | Chicago Manual of Style | Institut für Elektrotechnik und Elektroniktechnik | American Heart Association Style |
-| Beispiel:<br> Crawford, Claire, et al. *Emotionaler Inhalt dunkler Erinnerungen*.Edited by Memory, vol 16, 2010, Amsterdam. | Beispiel: <br> Crawford, C., J., &amp; , C. (2010). *Emotionaler Inhalt dunkler Erinnerungen* (505-16 ed.). 10.1080/ 09658210902067289 | Beispiel: <br> Crawford, Claire, et al. *Emotionaler Inhalt dunkler Erinnerungen*. 505-16, 2010. | Beispiel: <br> C. Crawford, J. und C. , *Emotionaler Inhalt dunkler Erinnerungen*. Amsterdam, 2010. | Beispiel: <br> C. Crawford, J. und C. , *Emotionaler Inhalt dunkler Erinnerungen*. Amsterdam, 2010. |
+| Beispiel:<br> Crawford, Claire, et al. *Emotionaler Inhalt dunkler Erinnerungen*.Edited by Memory, vol 16, 2010, Amsterdam. | Beispiel: <br> Crawford, C., J., &amp; , C. (2010). *Emotionaler Inhalt dunkler Erinnerungen* (505-16 ed.). 10.1080/ 09658210902067289 | Beispiel: <br> Crawford, Claire, et al. *Emotionaler Inhalt dunkler Erinnerungen*. 16.5.2010. | Beispiel: <br> C. Crawford, J. und C. , *Emotionaler Inhalt dunkler Erinnerungen*. Amsterdam, 2010. | Beispiel: <br> C. Crawford, J. und C. , *Emotionaler Inhalt dunkler Erinnerungen*. Amsterdam, 2010. |
 
 
 ## Bearbeiten von Zitaten
@@ -142,11 +141,11 @@ Gehen Sie wie folgt vor, um die Zitate zu bearbeiten:
 
 1. Bewegen Sie den Mauszeiger über den Namen der Zitation aus der Liste. Auswählen  ![](images/options.svg) die **Optionen** Symbol.
 
-1. Wählen Sie **Bearbeiten** aus.
+1. Auswählen  **Bearbeiten**.
 
 Die **Zitat bearbeiten** wird geöffnet.
 
-1. Nehmen Sie die erforderlichen Änderungen vor. Klicken Sie auf **Fertig**.
+1. Nehmen Sie die erforderlichen Änderungen vor. Auswählen **Fertig**.
 Die ausgewählte Zitat wird bearbeitet.
 
 >[!NOTE]
@@ -159,7 +158,7 @@ Gehen Sie wie folgt vor, um eine Zitate in der Vorschau anzuzeigen:
 
 Bewegen Sie den Mauszeiger über den Namen der Zitation aus der Liste. Auswählen     ![](images/options.svg) **Optionen** Symbol.
 
-1. Wählen Sie **Vorschau**.
+1. Auswählen **Vorschau**.
 Sie können den Inhalt und das Format der Zitate im Vorschaufenster in der Vorschau anzeigen.
 
    >[!NOTE]
@@ -191,7 +190,7 @@ Sie können Zitate zum Thema über die Hauptsymbolleiste oder das linke Bedienfe
    ![Anführungsdialogfeld](images/citation-dialog-main-toolbar.png){width="300" align="left"}
 1. Sie können Zitate filtern, indem Sie die ersten Buchstaben im Suchbereich der **Zitat** Dialogfeld.
 
-1. Klicken Sie auf **Fertig**.
+1. Klicks **Fertig**.
 Die ausgewählte Erwähnung wird an der Cursorposition in Ihrem Thema hinzugefügt.
 
 

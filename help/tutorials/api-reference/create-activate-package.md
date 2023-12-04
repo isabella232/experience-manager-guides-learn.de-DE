@@ -1,13 +1,12 @@
 ---
 title: REST-API zum Erstellen und Aktivieren von Paketen
 description: Erfahren Sie mehr über die REST-API zum Erstellen und Aktivieren von Paketen
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
-
 
 # REST-API zum Erstellen und Aktivieren von Paketen {#id198CF0260Y4}
 

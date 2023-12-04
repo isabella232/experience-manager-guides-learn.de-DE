@@ -1,8 +1,7 @@
 ---
 title: Verwalten von Metadaten
 description: Erfahren Sie, wie Sie Metadaten in AEM Handbüchern definieren und verwalten. Verwenden Sie Smart- und Bulk-Tagging, um verwandte Themen in einer DITA-Map einfach zu finden.
-exl-id: 842f1b41-9146-4de3-bcc0-38c10646a032
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 2%

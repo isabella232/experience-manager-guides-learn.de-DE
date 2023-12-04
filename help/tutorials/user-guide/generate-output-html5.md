@@ -1,15 +1,14 @@
 ---
 title: HTML5 verwenden
 description: Erfahren Sie, wie Sie eine HTML5-Vorgabe aus dem Web-Editor und dem Mapping-Dashboard erstellen. Konfigurieren Sie die HTML5-Ausgabevorgabe in AEM Guides.
-exl-id: c484289b-92aa-4790-b62b-650ecbe1b86b
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1153'
 ht-degree: 1%
 
 ---
 
-# HTML 5 {#id205BE700XO1}
+# HTML5 {#id205BE700XO1}
 
 Die HTML5-Ausgabe wird in einer flachen Ordnerhierarchie erzeugt. Dies bedeutet, dass die vom Inhalt im Repository verwendete Ordnerstruktur nicht in der HTML5-Ausgabe repliziert wird. Der gesamte Inhalt wird im HTML5-Ausgabeformat veröffentlicht und in einem Ordner gespeichert. Die Dateinamen werden auch durch die UUIDs der Dateien in der generierten Ausgabe ersetzt. Die einzige Datei ohne UUID-basierten Dateinamen ist die Datei index.html .
 

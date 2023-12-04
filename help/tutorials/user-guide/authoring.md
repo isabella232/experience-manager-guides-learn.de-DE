@@ -1,11 +1,10 @@
 ---
 title: Inhalt verwalten
 description: Verwalten Sie Inhalte und identifizieren Sie Ihre Rollen und Berechtigungen in AEM Handbüchern. Erfahren Sie mehr über die wichtigsten Konzepte des Content Managements und der Arbeit mit globalen Profilen oder Profilen auf Ordnerebene.
-exl-id: d2fa31a7-a8ce-4d17-bd4e-0f51ea751dca
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 11%
+source-wordcount: '717'
+ht-degree: 10%
 
 ---
 

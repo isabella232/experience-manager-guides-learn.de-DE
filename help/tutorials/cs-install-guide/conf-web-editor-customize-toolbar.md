@@ -1,13 +1,12 @@
 ---
 title: Symbolleiste anpassen
 description: Erfahren Sie, wie Sie die Symbolleiste anpassen
-source-git-commit: 7306c1c3fbf37c049f9de1b2b492bb9b8906b065
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '956'
 ht-degree: 0%
 
 ---
-
 
 # Symbolleiste anpassen {#id172FB00L0V6}
 
@@ -32,16 +31,16 @@ Führen Sie die folgenden Schritte aus, um der Symbolleiste des Web-Editors eine
 1. Auswählen **Handbücher** aus der Liste der Tools und klicken Sie auf die Schaltfläche **Ordnerprofile**.
 1. Klicken Sie auf **Globales Profil** Kachel.
 1. Wählen Sie die **Konfiguration des XML-Editors** Registerkarte und klicken Sie auf **Bearbeiten** Symbol oben
-1. Klicken Sie auf **Download** -Symbol, um die Datei ui\_config.json auf Ihr lokales System herunterzuladen. Anschließend können Sie Änderungen an der Datei vornehmen und diese dann hochladen.
+1. Klicken Sie auf **Herunterladen** -Symbol, um die Datei ui\_config.json auf Ihr lokales System herunterzuladen. Anschließend können Sie Änderungen an der Datei vornehmen und diese dann hochladen.
 1. Im `ui_config.json` -Datei, fügen Sie die Definition der neuen Funktion im Abschnitt &quot;Symbolleisten&quot;hinzu. Speichern Sie die Datei und laden Sie sie hoch.
 
    In der Regel können Sie eine neue Schaltflächengruppe für Symbolleisten erstellen und eine oder mehrere Schaltflächen der Symbolleiste hinzufügen. Sie können auch eine neue Symbolleistenschaltfläche innerhalb einer vorhandenen Symbolleistengruppe hinzufügen. Die folgenden Details sind erforderlich, um eine neue Symbolleistengruppe zu erstellen:
 
-   **type**: Angeben `blockGroup` als `type` -Wert. Dieser Wert gibt an, dass Sie eine Blockgruppe erstellen, die eine oder mehrere Symbolleistengruppen enthalten würde.
+   **type**: Geben Sie `blockGroup` als `type` -Wert. Dieser Wert gibt an, dass Sie eine Blockgruppe erstellen, die eine oder mehrere Symbolleistengruppen enthalten würde.
 
    **extraklasse**: Name der Klasse(n), getrennt durch Leerzeichen.
 
-   **items**: Definieren Sie die Definition aller Gruppen in der Symbolleiste. Jede Gruppe kann ein oder mehrere Symbolleistensymbole enthalten. Um Symbole in einer Symbolleistengruppe zu definieren, müssen Sie die `type` -Attribut in `items`und setzen Sie den Wert auf `buttonGroup`. Geben Sie einen oder mehrere Klassennamen in der `extraclass` -Eigenschaft. Geben Sie den Namen der Funktion im `label` -Eigenschaft. Das folgende Snippet aus dem `ui_config.json` -Datei zeigt die Definition des Hauptbausteins der Symbolleiste, gefolgt von der `buttonGroup` Definition:
+   **items**: Geben Sie die Definition aller Gruppen in der Symbolleiste an. Jede Gruppe kann ein oder mehrere Symbolleistensymbole enthalten. Um Symbole in einer Symbolleistengruppe zu definieren, müssen Sie die `type` -Attribut innerhalb der `items`und setzen Sie den Wert auf `buttonGroup`. Geben Sie einen oder mehrere Klassennamen in der `extraclass` -Eigenschaft. Geben Sie den Namen der Funktion im `label` -Eigenschaft. Das folgende Snippet aus dem `ui_config.json` -Datei zeigt die Definition des Hauptbausteins der Symbolleiste, gefolgt von der `buttonGroup` Definition:
 
        &quot;
        &quot;toolbar&quot;: {
@@ -51,7 +50,7 @@ Führen Sie die folgenden Schritte aus, um der Symbolleiste des Web-Editors eine
        &quot;items&quot;: [
        {
        &quot;type&quot;: &quot;buttonGroup&quot;,
-       &quot;extraclass&quot;: &quot;linke Steuerelemente&quot;,
+       &quot;extraclass&quot;: &quot;left-control&quot;,
        &quot;label&quot;: &quot;Linke Steuerelemente&quot;,
        &quot;items&quot;: [
        &quot;
@@ -60,11 +59,11 @@ Führen Sie die folgenden Schritte aus, um der Symbolleiste des Web-Editors eine
 
    Sie müssen die folgenden Eigenschaften definieren, um ein Symbolleistensymbol hinzuzufügen:
 
-   **type**: Angeben `button` als `type` -Wert. Dieser Wert gibt an, dass Sie eine Symbolleistenschaltfläche hinzufügen.
+   **type**: Geben Sie `button` als `type` -Wert. Dieser Wert gibt an, dass Sie eine Symbolleistenschaltfläche hinzufügen.
 
    **icon**: Geben Sie den Namen des Coral-Symbols an, das Sie in der Symbolleiste verwenden möchten.
 
-   **Variante**: Angeben `quiet` als `variant` -Wert.
+   **Variante**: Geben Sie `quiet` als `variant` -Wert.
 
    **title**: Geben Sie die QuickInfo für das Symbol an.
 
@@ -76,7 +75,7 @@ Führen Sie die folgenden Schritte aus, um der Symbolleiste des Web-Editors eine
    
    **ein- oder ausblenden**: Wenn Sie die `show` -Eigenschaft und geben Sie dann die Modi an, in denen das Symbol angezeigt wird. Mögliche Werte sind - `@isAuthorMode`, `@isSourceMode`, `@isPreviewMode`, `true` \(in allen Modi anzeigen\) oder `false` \(In allen Modi ausblenden\).
 
-   anstelle von `show`können Sie auch die `hide` -Eigenschaft. Die möglichen Werte sind identisch mit in `show` -Eigenschaft mit dem einzigen Unterschied, dass das Symbol für den angegebenen Modus nicht angezeigt wird.
+   anstelle von `show`, können Sie auch die `hide` -Eigenschaft. Die möglichen Werte sind identisch mit in `show` -Eigenschaft mit dem einzigen Unterschied, dass das Symbol für den angegebenen Modus nicht angezeigt wird.
 
    Das folgende Beispiel zeigt AEM Versionsnummer des Guides, wenn der Benutzer in der Symbolleiste auf das Symbol Version anzeigen klickt.
 
@@ -102,7 +101,7 @@ Führen Sie die folgenden Schritte aus, um der Symbolleiste des Web-Editors eine
 
 1. Erstellen Sie eine *clientlib* und fügen Sie Ihr JavaScript in diesen Ordner ein.
 
-1. Aktualisieren Sie die categories-Eigenschaft des *clientlib* Ordner, indem ihm der Wert von *apps.fmdita.xml\_editor.page\_overrides*.
+1. Aktualisieren Sie die categories-Eigenschaft des *clientlib* Ordner, indem ihm der Wert von *apps.format.xml\_editor.page\_overrides*.
 
 1. Speichern Sie die *ui\_config.json* und laden Sie den Web Editor neu.
 
@@ -119,7 +118,7 @@ Führen Sie die folgenden Schritte aus, um unerwünschte Funktionen aus der Symb
 1. Auswählen **Handbücher** aus der Liste der Tools und klicken Sie auf die Schaltfläche **Ordnerprofile**.
 1. Klicken Sie auf **Globales Profil** Kachel.
 1. Wählen Sie die **Konfiguration des XML-Editors** Registerkarte und klicken Sie auf **Bearbeiten** Symbol oben
-1. Klicken Sie auf **Download** -Symbol, um die Datei ui\_config.json auf Ihr lokales System herunterzuladen. Anschließend können Sie Änderungen an der Datei vornehmen und diese dann hochladen.
+1. Klicken Sie auf **Herunterladen** -Symbol, um die Datei ui\_config.json auf Ihr lokales System herunterzuladen. Anschließend können Sie Änderungen an der Datei vornehmen und diese dann hochladen.
 
    Die `ui_config.json` -Datei umfasst drei Abschnitte:
 
@@ -139,4 +138,3 @@ Führen Sie die folgenden Schritte aus, um unerwünschte Funktionen aus der Symb
 
 
 **Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
-

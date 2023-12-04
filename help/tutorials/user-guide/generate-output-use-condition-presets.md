@@ -1,11 +1,10 @@
 ---
 title: Verwenden von Bedingungsvorgaben
 description: Erfahren Sie mehr über die Verwendung von Bedingungsvorgaben in AEM Guides. Erfahren Sie, wie Sie in AEM Bedingungsvorgaben erstellen, bearbeiten, kopieren und löschen.
-exl-id: f6865a34-abdd-4d23-b903-0211bebd13b7
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1202'
-ht-degree: 2%
+source-wordcount: '1210'
+ht-degree: 1%
 
 ---
 
@@ -43,7 +42,7 @@ Sie können eine Bedingungsvoreinstellung für die Themen erstellen, indem Sie d
    >
    > Wenn das Namensfeld leer ist oder Sie ein ungültiges Zeichen oder einen Namen eingeben, der mit einer vorhandenen Bedingungsvorgabe übereinstimmt, wird ein Fehler angezeigt. Sie können einen Bindestrich &quot;-&quot;oder einen Unterstrich &quot;_&quot;als Trennzeichen verwenden.
 
-1. Wählen Sie **Erstellen** aus.
+1. Auswählen **Erstellen**.
 Die neue Bedingungsvoreinstellung wird der Liste hinzugefügt.
 1. Doppelklicken Sie auf eine Bedingungsvorgabe, um die Attribute und Aktionen anzuzeigen.
 Die **Attribute** zeigt alle Attribute an, die zu allen Verweisen hinzugefügt wurden, die in der Zuordnung vorhanden sind. Im rechten Bereich werden nur die Bedingungen angezeigt, die Sie den Bedingungsvorgaben hinzugefügt haben.
@@ -54,7 +53,7 @@ Die **Attribute** zeigt alle Attribute an, die zu allen Verweisen hinzugefügt w
    * **Alle auswählen** , um alle Attribute und deren Werte zur Bedingungsvoreinstellung hinzuzufügen.
 Standardmäßig ist die Aktion für ein Attribut `Include`.
 
-1. Klicken Sie auf **Hinzufügen**. Sie können diesen Schritt wiederholen, um weitere Attribute hinzuzufügen. Die von Ihnen hinzugefügten Attribute werden von der Mitte zum rechten Bereich verschoben.
+1. Auswählen **Hinzufügen**. Sie können diesen Schritt wiederholen, um weitere Attribute hinzuzufügen. Die von Ihnen hinzugefügten Attribute werden von der Mitte zum rechten Bereich verschoben.
 1. Wählen Sie oben in der Aktionsleiste Entfernen aus, um die ausgewählten Attribute im rechten Bereich zu entfernen.
 1. (Optional) Bei Bedarf können Sie die auf die Attribute angewendete Aktion überschreiben.
 Führen Sie einen der folgenden Schritte aus:

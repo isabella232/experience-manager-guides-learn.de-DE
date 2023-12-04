@@ -1,13 +1,12 @@
 ---
 title: REST-API für die Verwendung mit DITA-Maps
 description: Erfahren Sie mehr über die REST-API für die Verwendung mit DITA-Maps
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 0%
 
 ---
-
 
 # REST-API für die Verwendung mit DITA-Maps {#id175UB30E05Z}
 
@@ -43,4 +42,3 @@ Eine GET-Methode, die den Exportstatus für eine DITA-Zuordnung mit allen zugeh�
 |Name|Typ|Erforderlich|Beschreibung| |—|—|—|—|—| |`jobId`|Zeichenfolge|Ja|Die Auftrags-ID, die abgerufen wird, wenn der Exportauftrag initiiert wird.|
 
 **Antwortwerte**: |Element|Beschreibung| |—|—| |`status`|Der Status des Exportvorgangs. Die möglichen Optionen sind: GESTARTET, FEHLGESCHLAGEN, FORTSCHRITTE, ERFOLG, FEHLGESCHLAGEN, GELÖSCHT| |`jobId`|Die eindeutige ID des Auftrags. Kann später zur Statusabfrage verwendet werden.| |`errorMessage`|Die Fehlermeldung des Auftrags im Fall eines Fehlers \(wenn der Status FEHLGESCHLAGEN, FEHLGESCHLAGEN oder GELÖSCHT ist\).| |`filePath`|Der Dateipfad der ZIP-Datei. Sie ist nur vorhanden, wenn der Auftrag abgeschlossen ist und der Status SUCCEED lautet. Dies kann zum Herunterladen der ZIP-Datei verwendet werden.|
-

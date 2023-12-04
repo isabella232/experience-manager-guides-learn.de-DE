@@ -1,13 +1,12 @@
 ---
 title: DITA-Themen- oder Zuordnungsdateien auf derselben Registerkarte öffnen
 description: Erfahren Sie, wie Sie DITA-Themen oder -Zuordnungsdateien auf derselben Registerkarte öffnen
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '208'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
-
 
 # DITA-Themen- oder Zuordnungsdateien auf derselben Registerkarte öffnen {#id223HH0301J3}
 
@@ -33,4 +32,3 @@ Diese Einstellung wirkt sich auf die folgenden Stellen aus, an denen Sie auf die
 
 
 **Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
-

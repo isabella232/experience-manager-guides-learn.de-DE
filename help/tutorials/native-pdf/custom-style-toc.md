@@ -1,13 +1,12 @@
 ---
 title: Native PDF-Veröffentlichungsfunktion | Anwenden eines benutzerdefinierten Stils auf Inhaltsverzeichniseinträge und Themeninhalte
 description: Erfahren Sie, wie Sie Stile für Ihren Inhalt erstellen und Stile erstellen.
-source-git-commit: 09918abbdade934468dea1c55d0ca2cd60622b35
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
 
 ---
-
 
 # Anwenden eines benutzerdefinierten Stils auf Inhaltsverzeichniseinträge und Themeninhalte
 
@@ -72,5 +71,3 @@ Schließlich können Sie auch Stile auf den gesamten Inhalt innerhalb des Themas
 Unter Verwendung der oben genannten Stilattribute wird links neben dem *Flugverlauf* wie unten gezeigt:
 
 <img src="./assets/pdf-output-topic-content.jpg" width="500">
-
-

@@ -1,13 +1,12 @@
 ---
 title: Pakete für die artikelbasierte Veröffentlichung installieren
 description: Erfahren Sie, wie Sie Pakete für eine artikelbasierte Veröffentlichung installieren.
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 0%
 
 ---
-
 
 # Pakete für die artikelbasierte Veröffentlichung installieren {#id21BNL02052Z}
 
@@ -19,4 +18,3 @@ Um die artikelbasierte Veröffentlichung zu aktivieren, laden Sie die folgenden 
 - Komponentenpaket für artikelbasierte Veröffentlichung
 
 **Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
-

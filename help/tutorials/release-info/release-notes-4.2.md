@@ -1,11 +1,10 @@
 ---
-title: Versionshinweise | Adobe Experience Manager-Handbücher Version 4.2
+title: Versionshinweise | Adobe Experience Manager Guides Version 4.2
 description: Erfahren Sie mehr über die Fehlerbehebungen und das Upgrade auf Version 4.2 der Adobe Experience Manager-Handbücher.
-exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
-source-git-commit: b7a6cb6086e94e2c0cbed8e35ca8d194a4fa36d4
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1338'
-ht-degree: 6%
+source-wordcount: '1391'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +19,7 @@ Weitere Informationen zu den neuen Funktionen und Verbesserungen finden Sie unte
 Sie können Ihre aktuelle Version von AEM Guides einfach auf Version 4.2 aktualisieren. Bevor Sie mit der Aktualisierung auf Version 4.2 von AEM Guides fortfahren, müssen Sie die folgenden Punkte beachten:
 * Wenn Sie Version 4.0, 4.1 oder 4.1.x verwenden, können Sie direkt auf Version 4.2 aktualisieren.
 * Wenn Sie Version 3.8.5 verwenden, müssen Sie auf Version 4.0 aktualisieren, bevor Sie auf Version 4.2 aktualisieren.
-* Wenn Sie eine Version vor 3.8.5 verwenden, lesen Sie den Abschnitt *AEM* im produktspezifischen Installationshandbuch.
+* Wenn Sie eine Version vor 3.8.5 verwenden, lesen Sie den Abschnitt *Upgrade AEM Handbücher* im produktspezifischen Installationshandbuch.
 
 >[!NOTE]
 >
@@ -44,21 +43,21 @@ Weitere Informationen finden Sie unter *Technische Anforderungen* im Handbuch &q
 
 ### FrameMaker und FrameMaker Publishing Server
 
-| Release | FMPS 2022 | FMPS 2020 | FM 2022 | FM 2020 |
+| Freigabe | FMPS 2022 | FMPS 2020 | FM 2022 | FM 2020 |
 | --- | --- | --- | --- | --- |
 | 4.2 (Nicht-UUID) | 2022 oder höher | 2020.2 oder höher* | 2022 oder höher | 2020.3 oder höher |
 | 4.2 (UUID) | 2022 oder höher | 2020.2 oder höher* | 2022 oder höher | 2020.4 oder höher |
-|  |  |  |  |
+| | | | |
 
 *Die in AEM erstellten Grundlinien und Bedingungen werden in FMPS-Versionen ab 2020.2 unterstützt.
 
 ### Sauerstoffanschluss
 
-| Release | Sauerstoff Connector Windows | Sauerstoff Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
+| Freigabe | Sauerstoff Connector Windows | Sauerstoff Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
 | --- | --- | --- |--- |--- |
-| 4.2 (Nicht-UUID) | 2.1-normal-4 | 2.1-normal-4 | 1.6 | 1.6 |
-| 4.2 (UUID) | 2.8-uuid-8 | 2.8-uuid-8 | 2.3 | 2.3 |
-|  |  |  |
+| 4.2 (Nicht-UUID) | 2.1-normal-4 | 2.1-normal-4 | 1,6 | 1,6 |
+| 4.2 (UUID) | 2.8-uuid-8 | 2.8-uuid-8 | 2,3 | 2,3 |
+|  |  |   |
 
 ## Behobene Probleme
 
@@ -66,17 +65,17 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
 ### Authoring
 
-* Beim Hinzufügen einer Registerkarte wird der linke Bereich umgebrochen. (11126)
+* Beim Hinzufügen einer Registerkarte wird der linke Bereich umgebrochen. (1126)
 * Änderungen im HTML-Code des Web Editors verursachen Probleme mit `<dl>` und `<dlentry>`. (11024)
 * Einige Attribute werden nicht als bedingt behandelt und verursachen Probleme. (10895)
-* Drei Ebenen oder mehr verschachtelt `<indexterm>` sind beim nativen PDF-Export nicht verschachtelt. (10799)
+* Drei Ebenen oder mehr verschachtelt `<indexterm>` sind beim nativen PDF-Export nicht verschachtelt. (1079)
 * Der Inhalt verschwindet beim Wechsel von der Autoren- zur Quellansicht im Hauptteil einer Aufgabe. (10735)
 * Überprüfungskommentare werden in einer Prüfungsaufgabe nicht platziert. (10625)
 * `<conref>` Hinweis innerhalb eines para-Tags wird nicht im Vorschaumodus angezeigt. (10559)
 * Wenn Sie die Rücktaste am Ende eines Listenelements drücken, wird die gesamte Liste entfernt. (10540)
 * Der Bildschirm wird in Chrome v106 beim Ziehen und Ablegen eines Elements aus der Benutzeroberfläche (z. B. aus dem Bedienfeld &quot;Bedingungen&quot;) als leer angezeigt. (10524)
 * Die Schaltfläche &quot;Automatischer Einzug&quot;fehlt in der Symbolleiste in **Quelle** anzeigen. (10448)
-* Das erste Zeichen eines Listenelements geht manchmal verloren, wenn die Liste im Editor erstellt wird.( 10447)
+* Das erste Zeichen eines Listenelements geht manchmal verloren, wenn die Liste im Editor erstellt wird.(10447)
 * **Rückgängig** oder **Wiederholen** funktioniert bei einigen Dateien nicht richtig. (10373)
 * Benutzerdefinierte Metadaten werden beim Kopieren und Einfügen nicht beibehalten. (10367)
 * Beim Kopieren (Strg+C) und Einfügen (Strg+V) des Inhalts tritt ein Fehler auf. (10304)
@@ -93,7 +92,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Keine Option zum Erstellen einer neuen Vorlage in den Unterordnern von Themen oder Maps. (9888)
 * Der XML-Editor aktualisiert die Bilder nicht zu Themen. (9500)
 * mimeType ist für die Erstellung und Aktualisierung von DITA-Assets hartcodiert. (8979)
-* Ein normaler Bindestrich wird bei der Auswahl von geschützten Bindestrichen im **Sonderzeichen einfügen** angezeigt. (8919)
+* Ein normaler Bindestrich wird eingefügt, wenn Sie im **Sonderzeichen einfügen** angezeigt. (8919)
 * Der Name des Erstellers der Version im Versionsverlauf ist &quot;fmdita-service-user&quot;für die Dateien, die über die Assets-Benutzeroberfläche hochgeladen wurden. (8910)
 * Die Option &quot;Bearbeiten&quot;funktioniert nicht für Bilder, während Sie in der Spaltenansicht der Assets-Benutzeroberfläche arbeiten. (8758)
 * DITA-Thema wird nicht automatisch mit Änderungen aktualisiert, die am **Eigenschaften** Seite. (8745)
@@ -117,16 +116,16 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Die Themenregenerierung funktioniert in einigen Szenarien nicht. (10635)
 * PDF-Publishing schlägt beim Generieren der Ausgabe für eine Vorgabe (einer vorhandenen Vorgabe) fehl. (10584)
 * Die Schaltfläche Protokoll anzeigen funktioniert nicht, falls die PDF-Erstellung für eine Vorgabe fehlschlägt. (10576)
-* Der Herausgeber zeigt die angeforderten Daten nicht in den Infoprotokollen an und enthält auch einige Junk-Protokolle.( 10567)
+* Der Herausgeber zeigt die angeforderten Daten nicht in den Infoprotokollen an und enthält auch einige Junk-Protokolle.(10567)
 * Native PDF | PDF-Generierung schlägt mit einer Nullzeiger-Ausnahme fehl. (10950)
 * Native PDF | conkeyref wird in der generierten Ausgabe nicht aufgelöst. (10564)
-* Native PDF | Probleme treten mit den Metadaten einer Zuordnung auf, auf die in der PDF-Ausgabe verwiesen werden muss.( 10556)
+* Native PDF | Probleme treten mit den Metadaten einer Zuordnung auf, auf die in der PDF-Ausgabe verwiesen werden muss.(10556)
 * Native PDF | Beim Drehen der Tabellenüberschrift treten Probleme auf. (10555)
-* Native PDF | Beim Entfernen von Themen mit Verarbeitungsrolle=&#39;resource-only&#39; treten Probleme auf. (10554)
+* Native PDF | Beim Entfernen von Themen mit Verarbeitungsrolle=&#39;resource-only&#39; treten Probleme auf. 10554)
 * Native PDF | Leere Keyrefs werden in der PDF-Ausgabe angezeigt. (10553)
 * Native PDF | Verschachtelt `<indexterm>` sind beim nativen PDF-Export nicht verschachtelt. (10521)
 * Native PDF | Native PDF verwendet für die generierten Tags den Inline-Stil anstelle des Klassennamens. (10498)
-* Native PDF | Verschachtelte topicref in Anhängen werden alle in der temporären HTML in h1 umgewandelt.( 10454)
+* Native PDF | Verschachtelte topicref in Anhängen werden alle in der temporären HTML in h1 umgewandelt.(10454)
 * Native PDF | Frontmatter-Themen können nicht aus dem Inhaltsverzeichnis ausgeblendet werden. (10355)
 * Native PDF | Tabellenframe-Attribut wird nicht auf die temporäre HTML übertragen (als Klasse). (10353)
 * Native PDF | Temporäre HTML-Dateien fügen die Klassen colsep und rowsep zu <td> und <th> auch wenn ihr Wert 0 in der Quell-DITA beträgt. (10352)
@@ -134,10 +133,10 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Native PDF | Schlüsselreferenzen für Keydefs mit Bild- oder externen Links werden nicht aufgelöst. (10063)
 * Native PDF | Anlage wird als Kapitel in der generierten PDF angezeigt. (9829)
 * Die Registerkarte &quot;Vorlage&quot;im XML-Editor wird den Ordnerprofil-Administratoren nicht angezeigt. (10266)
-* Die Grundlinienveröffentlichung schlägt bei PDF fehl, die mit FrameMaker Publishing Server 2020 erstellt wurden. (10551)
+* Grundlegende Veröffentlichung schlägt bei PDF fehl, die mit FrameMaker Publishing Server 2020 erstellt wurde. (10551)
 * Anwendungsfehler tritt beim Klicken auf die Schaltfläche &quot;Bearbeiten&quot;auf, nachdem im Popup &quot;Quick Generate&quot;das Kontrollkästchen Alle Vorgaben über Ausgabevorgaben ausgewählt wurden. (10388)
 * Wenn die Registerkarte &quot;Ausgabe&quot;im Web Editor über mehr Vorgaben verfügt, ist der Bereich &quot;Vorgaben&quot;nicht vertikal durchlaufbar und zeigt nicht alle verfügbaren Vorgaben an. (9787)
-* Vorgaben können beim Veröffentlichen über den Editor nicht aus dem Output-Workflow gelöscht werden. (9100)
+* Vorgaben können beim Veröffentlichen über den Editor nicht aus dem Output-Workflow gelöscht werden. 9100
 * Peer-Link wird als normaler Text statt als Link auf der generierten Seite gerendert. (7774)
 
 ## Bekanntes Problem

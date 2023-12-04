@@ -1,13 +1,12 @@
 ---
 title: Konfigurieren der Bearbeitungsoption in Sauerstoff
 description: Erfahren Sie, wie Sie die Option zur Bearbeitung im Oxygen Connector-Plug-in konfigurieren.
-source-git-commit: a209e46e41055348402292e20c229890cd0c01cf
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 1%
 
 ---
-
 
 # Konfigurieren der Bearbeitungsoption in Sauerstoff
 
@@ -26,4 +25,3 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 > Diese Konfiguration ist standardmäßig deaktiviert und die Option ist im Web-Editor nicht verfügbar.
 
 **Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
-

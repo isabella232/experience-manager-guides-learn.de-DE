@@ -1,10 +1,9 @@
 ---
 title: Anleitungen zur Veröffentlichung von Benchmarks auf AEMaaCS
 description: Machen Sie sich mit den Systembeschränkungen bei der Veröffentlichung in AEM Cloud vertraut.
-exl-id: cc6e38b9-6276-4147-beda-93f66368e15d
-source-git-commit: 06a55ef933f9e7941cef2337212a830413a478af
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '234'
 ht-degree: 8%
 
 ---
@@ -21,10 +20,10 @@ Informationen zum Konfigurieren des neuen Veröffentlichungsdienstes für AEM Cl
 ## Ausführungsumgebung
 
     AEM: 2023.5.11983.20230511T173830Z
-    Guide Add On Release: 2023.6.0
+    Guide Add on Release: 2023.6.0
     AEM Site-Vorlage: OOTB-Vorlage für AEM Guides
-    DITA-OT-Version: 3,5,4
-    Veröffentlichungs-Workflow-Typ: Veröffentlichungsarbeitsablauf aufteilen
+    DITA-OT-Version: 3.5.4
+    Veröffentlichungs-Workflow-Typ: Veröffentlichungs-Workflow aufteilen
     Vom Microservice unterstützte Ausgabe: Native PDF, PDF (Dita-OT)
 
 ## Generierungsnummern der Ausgabe
@@ -34,7 +33,7 @@ Informationen zum Konfigurieren des neuen Veröffentlichungsdienstes für AEM Cl
 | AEM Site | 3500 | 5220 | Nein |
 | Native PDF | 3500 | 780 | Ja |
 | PDF (DITA-OT) | 11000 | 960 | Ja |
-| HTML 5 | 3500 | 240 | Nein |
+| HTML5 | 3500 | 240 | Nein |
 | Benutzerdefiniert | 300 | 300 | Nein |
 
 ## Wichtige Hinweise

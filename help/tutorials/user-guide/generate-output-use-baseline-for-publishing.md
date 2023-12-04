@@ -1,10 +1,9 @@
 ---
 title: Arbeiten mit Grundlinien
 description: Machen Sie sich mit der Verwendung von Grundlinien in AEM Guides vertraut. Erfahren Sie, wie Sie übersetzte Grundlinien erstellen, anzeigen, bearbeiten, duplizieren, entfernen, Beschriftungen hinzufügen und exportieren.
-exl-id: dcafab53-c388-48c3-9455-e4251cdda17d
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '1960'
 ht-degree: 0%
 
 ---
@@ -145,7 +144,7 @@ Führen Sie die folgenden Schritte aus, um eine Bezeichnung zu mehreren Themen u
 
 1. Wenn Sie die Bezeichnung auf Themen anwenden möchten, die in den Unterkarten referenziert werden, wählen Sie **Beschriftung auf untergeordnete Maps und abhängige Elemente anwenden** -Option.
 
-   - Klicken Sie auf **Hinzufügen**.
+   - Klicks **Hinzufügen**.
 Die angegebene Bezeichnung wird der DITA-Zuordnung sowie den referenzierten Themen und Inhalten hinzugefügt.
 
      ![](images/label-added-baseline-uuid.png){width="650" align="left"}

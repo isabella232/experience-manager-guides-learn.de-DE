@@ -1,13 +1,12 @@
 ---
 title: Textfilter konfigurieren
 description: Erfahren Sie, wie Sie Textfilter konfigurieren
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 0%
 
 ---
-
 
 # Textfilter konfigurieren {#id21BPD0FK0XA}
 
@@ -27,7 +26,7 @@ Führen Sie die folgenden Schritte aus, um die Textfilter zu konfigurieren:
 1. Klicken Sie auf **Globales Profil** Kachel.
 1. Klicken Sie auf **Konfiguration des XML-Editors**.
 1. Klicken Sie auf **Bearbeiten** Symbol oben.
-1. Klicken Sie auf **Download** -Symbol, um die Datei ui\_config.json auf Ihr lokales System herunterzuladen. Anschließend können Sie Änderungen an der Datei vornehmen und diese dann hochladen.
+1. Klicken Sie auf **Herunterladen** -Symbol, um die Datei ui\_config.json auf Ihr lokales System herunterzuladen. Anschließend können Sie Änderungen an der Datei vornehmen und diese dann hochladen.
    1. Konfigurieren Sie die Filter in der Datei. Sie können auch benutzerdefinierte Filter hinzufügen, wie im folgenden Beispiel gezeigt:
 
       Das folgende Codefragment zeigt, wie Sie Filteroptionen für DITA-Dateien, Nicht-DITA-, DITA-Elemente und Ausgecheckt von Dateien hinzufügen. Es enthält auch einen benutzerdefinierten Filter - Tags.
@@ -78,4 +77,3 @@ Führen Sie die folgenden Schritte aus, um die Textfilter zu konfigurieren:
 Die konfigurierten Filter sind im Filterbereich verfügbar.
 
 **Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
-

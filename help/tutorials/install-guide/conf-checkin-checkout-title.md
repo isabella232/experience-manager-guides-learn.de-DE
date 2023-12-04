@@ -1,7 +1,7 @@
 ---
 title: Konfigurieren des Titels für die Symbole Einchecken und Auschecken
 description: Erfahren Sie, wie Sie den Titel für die Symbole "Ein- und Auschecken"konfigurieren
-source-git-commit: bb4b875864b31197437a944ded5862bbf937bc29
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
@@ -29,4 +29,3 @@ Mit AEM Guides können Sie den Titel für die Symbole &quot;Ein- und Auschecken&
    ```
 
 1. Speichern Sie die Datei und laden Sie sie hoch.
-

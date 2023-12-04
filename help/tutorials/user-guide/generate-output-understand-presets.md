@@ -1,11 +1,10 @@
 ---
 title: Grundlegendes zu den Ausgabevorgaben
 description: Machen Sie sich mit den Ausgabevorgaben in AEM Handbüchern vertraut. Erstellen Sie Ausgabevorgaben aus dem Web-Editor und dem Dashboard für AEM Website-, PDF-, HTML5-, EPUB-, benutzerdefinierten und JSON-Formate.
-exl-id: 8eaf0765-8b66-47d6-9c40-888495baa711
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '208'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 

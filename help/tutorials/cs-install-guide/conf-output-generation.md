@@ -1,11 +1,10 @@
 ---
 title: Ausgabegenerierungseinstellungen konfigurieren
 description: Erfahren Sie, wie Sie die Einstellungen für die Generierung von Ausgaben konfigurieren
-exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '5496'
-ht-degree: 2%
+source-wordcount: '5470'
+ht-degree: 1%
 
 ---
 
@@ -67,7 +66,7 @@ Die AEM-Handbücher unterstützen das Erstellen von Ausgaben in folgenden Format
 
 - AEM Site
 - PDF
-- HTML 5
+- HTML5
 - EPUB
 - Benutzerdefinierte Ausgabe über DITA-OT
 
@@ -305,7 +304,7 @@ Um die erforderlichen Metadaten im System hinzuzufügen, führen Sie die folgend
 
 1. Klicken Sie auf **Metadatenschemata** Kachel.
 
-   Die Seite Metadatenschema-Formulare wird angezeigt.
+   Die Seite Metadatenschema Forms wird angezeigt.
 
 1. Wählen Sie die **default** Formular aus der Liste.
 
@@ -607,11 +606,11 @@ AEM Guides bieten die `apps.fmdita.dashboard-extn` Kategorie zum Anpassen der Zu
 
 >[!NOTE]
 >
-> Weitere Informationen zum Erstellen AEM Client-Bibliothek finden Sie unter [Verwenden Client-seitiger Bibliotheken](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=de).
+> Weitere Informationen zum Erstellen AEM Client-Bibliothek finden Sie unter [Verwenden Client-seitiger Bibliotheken](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en).
 
 ## Verarbeiten der Bilddarstellung während der Ausgabegenerierung {#id177BF0G0VY4}
 
-AEM enthält eine Reihe von Standard-Workflows und Medien-Handles zur Verarbeitung von Assets. In AEM gibt es vordefinierte Workflows für die Verarbeitung von Assets für die häufigsten MIME-Typen. Normalerweise erstellt AEM für jedes Bild, das Sie hochladen, mehrere Ausgabeformate desselben Binärformats. Diese Ausgabedarstellungen können unterschiedlich groß sein, mit einer anderen Auflösung, einem hinzugefügten Wasserzeichen oder anderen geänderten Eigenschaften. Weitere Informationen dazu, wie AEM mit Assets umgehen, finden Sie unter [Verarbeitung von Assets mithilfe von Medien-Handlern und Workflows](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=de) in AEM Dokumentation.
+AEM enthält eine Reihe von Standard-Workflows und Medien-Handles zur Verarbeitung von Assets. In AEM gibt es vordefinierte Workflows für die Verarbeitung von Assets für die häufigsten MIME-Typen. Normalerweise erstellt AEM für jedes Bild, das Sie hochladen, mehrere Ausgabeformate desselben Binärformats. Diese Ausgabedarstellungen können unterschiedlich groß sein, mit einer anderen Auflösung, einem hinzugefügten Wasserzeichen oder anderen geänderten Eigenschaften. Weitere Informationen dazu, wie AEM mit Assets umgehen, finden Sie unter [Verarbeitung von Assets mithilfe von Medien-Handlern und Workflows](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en) in AEM Dokumentation.
 
 Mit AEM Guides können Sie konfigurieren, welche Bilddarstellung zum Zeitpunkt der Generierung der Ausgabe für Ihre Dokumente verwendet werden soll. Sie können beispielsweise aus einer der standardmäßigen Bildausgabeformate wählen oder eine erstellen und zum Veröffentlichen Ihrer Dokumente dasselbe verwenden. Die Bildwiedergabe-Zuordnung für die Veröffentlichung Ihrer Dokumente wird im `/libs/fmdita/config/ **renditionmap.xml**` -Datei. Ein Snippet aus `renditionmap.xml` -Datei wie folgt lautet:
 

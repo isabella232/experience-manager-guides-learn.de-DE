@@ -1,13 +1,12 @@
 ---
 title: Eingabeaufforderung zum Einchecken einer Datei beim Schließen konfigurieren
-description: Erfahren Sie, wie Sie die Eingabeaufforderung zum Einchecken einer Datei beim Schließen konfigurieren
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+description: Erfahren Sie, wie Sie die Aufforderung zum Einchecken einer Datei beim Schließen konfigurieren
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 1%
 
 ---
-
 
 # Eingabeaufforderung zum Einchecken einer Datei beim Schließen konfigurieren {#id222HC040PE8}
 
@@ -23,7 +22,7 @@ Die **Datei entsperren** nicht standardmäßig aktiviert ist und Sie dies über 
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Suchen Sie nach und klicken Sie auf **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** Bundle.
+1. Suchen Sie nach und klicken Sie auf **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** Bundle
 
 1. Wählen Sie die **Beim Schließen Einchecken anfordern** -Option.
 
@@ -35,4 +34,3 @@ Wenn diese Konfiguration aktiviert ist, wird die **Datei entsperren** ist im Dia
 Weitere Informationen finden Sie unter *Szenarien zum Schließen und Speichern von Dateien* im as a Cloud Service Handbuch Verwenden von Adobe Experience Manager-Handbüchern beschrieben.
 
 **Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
-

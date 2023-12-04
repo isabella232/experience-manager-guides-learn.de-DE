@@ -1,20 +1,19 @@
 ---
 title: Benutzerdefiniertes Bedienfeld im linken Bereich konfigurieren
 description: Erfahren Sie, wie Sie ein benutzerdefiniertes Bedienfeld im linken Bedienfeld konfigurieren
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 0%
 
 ---
 
-
 # Benutzerdefiniertes Bedienfeld im linken Bereich konfigurieren {#id224JI200Y6F}
 
 Führen Sie die folgenden Schritte aus, um ein benutzerdefiniertes Bedienfeld im linken Bereich des Web-Editors hinzuzufügen:
 
 1. Erstellen Sie eine *clientlib* und fügen Sie Ihre JavaScript- und CSS-Datei in diesen Ordner ein.
-1. Aktualisieren Sie die categories-Eigenschaft des *clientlib* Ordner, indem ihm der Wert von *apps.fmdita.xml\_editor.page\_overrides*.
+1. Aktualisieren Sie die categories-Eigenschaft des *clientlib* Ordner, indem ihm der Wert von *apps.format.xml\_editor.page\_overrides*.
 
 Beispielcode zum Konfigurieren eines benutzerdefinierten Bedienfelds:
 
@@ -56,4 +55,3 @@ tcx.ready(function () { //Ready will call the callback after editor code is set 
 ```
 
 **Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
-

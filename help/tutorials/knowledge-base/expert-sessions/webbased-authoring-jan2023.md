@@ -1,17 +1,16 @@
 ---
 title: Webbasierte Inhalte erstellen
 description: Erfahren Sie, wie Sie strukturierte Inhalte mit dem Web-Editor erstellen.
-exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
-source-git-commit: 3d12389dbd7458a74bb9b9ec488e83bf39c8c9bf
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 1%
+source-wordcount: '196'
+ht-degree: 2%
 
 ---
 
 # Webbasierte Inhalte erstellen
 
-AEM Guides verfügen über einen integrierten Webeditor zum Verfassen strukturierter Inhalte. Sie können mit einem vereinfachten webbasierten Authoring-Erlebnis arbeiten, aber dennoch leistungsstarke Funktionen wie bedingte Inhaltsvalidierung, Rechtschreibprüfung, Wiederverwendung von Inhalten, Referenzvalidierung, Anzeigenamen und Gleichungen der Autorenberechnung verwenden oder aktivieren.
+AEM Guides verfügen über einen integrierten Webeditor zum Verfassen strukturierter Inhalte. Sie können mit einem vereinfachten webbasierten Authoring-Erlebnis arbeiten, aber dennoch leistungsstarke Funktionen wie bedingte Inhaltsvalidierung, Rechtschreibprüfung, Wiederverwendung von Inhalten, Referenzvalidierung, Anzeigenamen und Authoring-Mathematik-Gleichungen verwenden oder aktivieren.
 
 ## Sitzungsübersicht
 
@@ -26,9 +25,9 @@ In dieser Sitzung erfahren Sie, wie Sie Inhalte mit dem Web-Editor erstellen, ve
 - **Datum** - 19. Januar 2023
 - **Anzahl der TeilnehmerInnen** - 89
 - **Dauer** - 60 Minuten
-- **Zielgruppe** - Kunden, Partner und Mitarbeiter der Adobe
+- **Zielgruppe** - Kunden, Partner und Adobe-Mitarbeiter
 
-## Wichtige Schritte
+## Haupterkenntnisse
 
 In dieser Sitzung erfahren Sie mehr über Folgendes:
 - Einstellungen für den Web-Editor konfigurieren
@@ -42,14 +41,13 @@ In dieser Sitzung erfahren Sie mehr über Folgendes:
 
 - **Benutzerhandbuch** - [Autoreninhalt](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map/authoring-content.html)
 
-- **Community-Forum** - Sitzungsspezifische Community-Interaktionen auf Experience League finden Sie unter  [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Community-Forum** - Sitzungsspezifische Community-Interaktionen auf dem Experience League finden Sie unter  [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > Die in dieser Sitzung angezeigten Funktionen sind in den folgenden Versionen AEM Handbücher verfügbar:
 > - On-Premise 4.1.3 oder höher
-> - Cloud Services 2211 und höher
-
+> - Cloud Service 2211 und höher
 
 ## Kontakt
 

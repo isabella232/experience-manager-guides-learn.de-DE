@@ -1,13 +1,12 @@
 ---
 title: REST-API zum Arbeiten mit bedingten Attributen
 description: Erfahren Sie mehr über die REST-API für die Verwendung mit bedingten Attributen.
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 2%
+source-wordcount: '147'
+ht-degree: 0%
 
 ---
-
 
 # REST-API zum Arbeiten mit bedingten Attributen {#id175UB30E05Z}
 
@@ -17,7 +16,7 @@ Mit der folgenden REST-API können Sie bedingte Attribute zu einem Ordnerprofil 
 
 Eine POST -Methode, die einem angegebenen Ordnerprofil bedingte Attribute hinzufügt.
 
-**URL-Anforderung**:\
+**Anforderungs-URL**:\
 http://*&lt;aem-guides-server>*: *&lt;port-number>*/bin/fmdita/folderprofiles
 
 **Parameter**:\
@@ -40,4 +39,3 @@ http://*&lt;aem-guides-server>*: *&lt;port-number>*/bin/fmdita/folderprofiles
 
 **Antwortwerte**:\
 Gibt eine HTTP-Antwort 200 \(Erfolgreich\) zurück.
-

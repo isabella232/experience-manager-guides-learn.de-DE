@@ -1,13 +1,12 @@
 ---
 title: Versionsverwaltung
 description: Funktionsweise der Versionsverwaltung
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1662'
 ht-degree: 0%
 
 ---
-
 
 # Versionsverwaltung {#id181GB000XY4}
 
@@ -33,7 +32,7 @@ Um eine neue Version der hochgeladenen Datei zu erstellen, führen Sie die folge
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Suchen Sie nach und klicken Sie auf **com.adobe.fmdita.config.ConfigManager** Bundle.
+1. Suchen Sie nach und klicken Sie auf **com.adobe.fmdita.config.ConfigManager** Bundle
 
 1. Wählen Sie die **Neue Version für hochgeladene Datei erstellen** -Option.
 
@@ -64,7 +63,7 @@ Führen Sie die folgenden Schritte aus, um diese Funktionen zu aktivieren:
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Suchen Sie nach und klicken Sie auf **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** Bundle.
+1. Suchen Sie nach und klicken Sie auf **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** Bundle
 
 1. Wählen Sie die **Bearbeitung ohne Checkout deaktivieren** -Option.
 
@@ -97,7 +96,7 @@ So können Benutzer die Datei beim Hochladen überschreiben, die von ihnen oder 
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Suchen Sie nach und klicken Sie auf **com.adobe.fmdita.config.ConfigManager** Bundle.
+1. Suchen Sie nach und klicken Sie auf **com.adobe.fmdita.config.ConfigManager** Bundle
 
 1. Wählen Sie die **Auscheckte Datei beim Hochladen überschreiben** -Option.
 
@@ -118,7 +117,7 @@ Um zu verhindern, dass Benutzer versehentlich Dateien löschen, die von ihnen od
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Suchen Sie nach und klicken Sie auf **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** Bundle.
+1. Suchen Sie nach und klicken Sie auf **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** Bundle
 
 1. Wählen Sie die **Löschen von ausgecheckten Inhalten verhindern** -Option.
 
@@ -168,19 +167,19 @@ So definieren Sie, wer eine Datei löschen kann, die Verweise enthält oder von 
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Suchen Sie nach und klicken Sie auf **com.adobe.fmdita.config.ConfigManager** Bundle.
+1. Suchen Sie nach und klicken Sie auf **com.adobe.fmdita.config.ConfigManager** Bundle
 
 1. Suchen Sie die **Löschung von Bausteinen für referenzierte Assets** -Option.
 
 1. Je nachdem, wem Sie Zugriff auf das Löschen gewähren möchten, geben Sie eine der folgenden Konstanten an:
 
-   - allow\_unsafe\_delete\_for\_all: Erteilen Sie allen Benutzern Berechtigungen zum Löschen von Dateien. Wenn in diesem Fall die Datei\(en\) Verweise enthält oder von anderen Dateien referenziert wird, können Sie diese Dateien auch erzwungen löschen\(en\). Vor dem Löschen der Datei wird Ihnen eine Eingabeaufforderung mit den Verweisen angezeigt. Sie können den Löschvorgang abbrechen, die Verweise entfernen und schließlich die Datei löschen\(en\). Alternativ können Sie die Datei\(en\) erzwungen löschen, ohne die Verweise zu entfernen.
+   - allow\_unsafe\_delete\_for\_all: Erteilen Sie allen Benutzern die Berechtigung zum Löschen von Dateien. Wenn in diesem Fall die Datei\(en\) Verweise enthält oder von anderen Dateien referenziert wird, können Sie diese Dateien auch erzwungen löschen\(en\). Vor dem Löschen der Datei wird Ihnen eine Eingabeaufforderung mit den Verweisen angezeigt. Sie können den Löschvorgang abbrechen, die Verweise entfernen und schließlich die Datei löschen\(en\). Alternativ können Sie die Datei\(en\) erzwungen löschen, ohne die Verweise zu entfernen.
 
-      ![](assets/allow_unsafe_delete-force-delete.PNG){width="550" align="left"}
+     ![](assets/allow_unsafe_delete-force-delete.PNG){width="550" align="left"}
 
-   - allow\_unsafe\_delete\_for\_delete\_assets\_group: Ein Administrator oder ein Benutzer, der zum *delete-assets* -Gruppe Dateien löschen. Wenn ein anderer Benutzer versucht, Dateien mit Verweisen zu löschen, kann er diese Dateien erst löschen, wenn alle Verweise entfernt wurden. Der folgende Screenshot wird angezeigt, wenn ein Benutzer, der keine Berechtigungen hat, versucht, Dateien zu löschen.
+   - allow\_unsafe\_delete\_for\_delete\_assets\_group: Ein Administrator oder ein Benutzer, der zum *delete-assets* -Gruppe Dateien löschen kann. Wenn ein anderer Benutzer versucht, Dateien mit Verweisen zu löschen, kann er diese Dateien erst löschen, wenn alle Verweise entfernt wurden. Der folgende Screenshot wird angezeigt, wenn ein Benutzer, der keine Berechtigungen hat, versucht, Dateien zu löschen.
 
-      ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG){width="550" align="left"}
+     ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG){width="550" align="left"}
 
    - block\_unsafe\_delete\_for\_all: Deaktivieren Sie alle Benutzer \(einschließlich Administratoren\) vom Löschen von Dateien, bis die Verweise auf und aus der Datei\(en\) entfernt werden.
 
@@ -214,11 +213,11 @@ Führen Sie die folgenden Schritte aus, um die älteren Versionen zu bereinigen:
 - **Erstellte Versionen innerhalb des Zeitbereichs beibehalten \(in Tagen\)**: Geben Sie das Höchstalter einer Version in Tagen an. Die Versionen, die älter als die angegebene Anzahl von Tagen sind, sind für die Bereinigung qualifiziert, falls andere Bereinigungsbedingungen erfüllt sind. Wenn Sie beispielsweise 100 eingeben, werden alle Versionen, die vor 100 Tagen erstellt wurden, für die Bereinigung qualifiziert, falls andere Bereinigungsbedingungen erfüllt sind.
 - **Pfad**: Wählen Sie den Pfad der Datei oder des Ordners aus, deren Dateien Sie bereinigen möchten.
 
-   >[!NOTE]
-   >
-   > Sie können nur DITA-Dateien bereinigen.
+  >[!NOTE]
+  >
+  > Sie können nur DITA-Dateien bereinigen.
 
-1. Klicken **Bericht zur Bereinigung der Vorschau**.
+1. Klicks **Bericht zur Bereinigung der Vorschau**.
 
    >[!NOTE]
    >
@@ -233,10 +232,9 @@ Führen Sie die folgenden Schritte aus, um die älteren Versionen zu bereinigen:
 
    Der Bereinigungsstatus wird angezeigt.
 
-   Klicken **Bericht zur Versionsbereinigung herunterladen** , um die bereinigten Versionen anzuzeigen. Dieser Bericht liefert den Bereinigungsstatus für alle Versionen zusammen mit den Gründen, warum eine bestimmte Version beibehalten wurde oder warum sie bereinigt wurde.
+   Klicks **Bericht zur Versionsbereinigung herunterladen** , um die bereinigten Versionen anzuzeigen. Dieser Bericht liefert den Bereinigungsstatus für alle Versionen zusammen mit den Gründen, warum eine bestimmte Version beibehalten wurde oder warum sie bereinigt wurde.
 
 
 >[!NOTE]
 >
-> Der Bericht wird am folgenden Speicherort heruntergeladen: /var/dxml/versionpurge
-
+> Der Bericht wird unter folgendem Pfad heruntergeladen: /var/dxml/versionpurge

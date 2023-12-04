@@ -1,13 +1,12 @@
 ---
 title: Standardmäßig Attribut @navtitle einschließen
 description: Erfahren Sie, wie Sie standardmäßig das Attribut @navtitle einschließen.
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 1%
 
 ---
-
 
 # Standardmäßig Attribut @navtitle einschließen {#id2115BC0J0XA}
 
@@ -19,7 +18,7 @@ Einbeziehen `@navtitle` -Attribut in den Eigenschaften der Referenzdateien stand
 
 1. Laden Sie die Datei ui\_config.json herunter.
 
-   Sie können diese Änderung auf globaler Ebene oder auf Ordnerebene vornehmen. Abhängig davon, wo Sie diese Änderung vornehmen möchten, müssen Sie die entsprechende Datei ui\_config.json herunterladen. Weitere Informationen zum Herunterladen der Datei ui\_config.json finden Sie unter [Konfigurieren und Anpassen des XML-Web-Editors](conf-folder-level.md#id2065G300O5Z).
+   Sie können diese Änderung auf globaler Ebene oder auf Ordnerebene vornehmen. Abhängig davon, wo Sie diese Änderung vornehmen möchten, müssen Sie die entsprechende Datei ui\_config.json herunterladen. Weitere Informationen zum Herunterladen der Datei ui\_config.json finden Sie unter [Konfigurieren und Anpassen des XML Web Editor](conf-folder-level.md#id2065G300O5Z).
 
 1. Suchen Sie nach `ditaAttributes` Definition.
 
@@ -45,4 +44,3 @@ Einbeziehen `@navtitle` -Attribut in den Eigenschaften der Referenzdateien stand
 
 
 Mit dieser Konfiguration enthält jede Referenzdatei, die Sie einer Zuordnung hinzufügen, die `@navtitle` -Attribut.
-

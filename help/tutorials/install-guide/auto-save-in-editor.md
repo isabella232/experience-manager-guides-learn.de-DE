@@ -1,13 +1,12 @@
 ---
 title: Automatische Speicherung von Dateien im Web Editor konfigurieren
 description: Erfahren Sie, wie Sie die automatische Speicherung von Dateien im Web Editor konfigurieren
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 1%
 
 ---
-
 
 # Automatische Speicherung von Dateien im Web Editor konfigurieren {#id199CC0J0M5Z}
 
@@ -23,7 +22,7 @@ Die Funktion zum automatischen Speichern ist nicht standardmäßig aktiviert und
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Suchen Sie nach und klicken Sie auf **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** Bundle.
+1. Suchen Sie nach und klicken Sie auf **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** Bundle
 
 1. Im *XmlEditorConfig* -Einstellungen, wählen Sie die **Automatisches Speichern** -Option.
 
@@ -33,4 +32,3 @@ Die Funktion zum automatischen Speichern ist nicht standardmäßig aktiviert und
 
 
 **Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
-

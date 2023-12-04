@@ -1,10 +1,9 @@
 ---
 title: Arbeiten mit dem erweiterten Map-Editor
 description: Erfahren Sie, wie Sie mit dem erweiterten Map-Editor in AEM Guides arbeiten. Machen Sie sich mit den Funktionen des erweiterten Map-Editors vertraut. Bearbeiten Sie Themen über eine DITA-Zuordnung und verwenden Sie die Layoutansicht, die Autorenansicht und den Vorschaumodus.
-exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '3707'
+source-wordcount: '3695'
 ht-degree: 0%
 
 ---
@@ -168,7 +167,7 @@ Weitere Informationen zum Zusammenführen von Inhalten aus einer anderen Version
 
 Überprüfen Sie die verfügbaren Versionen und Beschriftungen für Ihr aktives Thema und stellen Sie im Editor selbst eine beliebige Version wieder her.
 
-**Versionsetikett** - ![](images/version-label-icon.svg)
+**Versionsbezeichnung** - ![](images/version-label-icon.svg)
 
 Zeigt das Dialogfeld zur Verwaltung der Versionsbeschriftungen an. Wählen Sie eine Version aus der Dropdownliste aus. Wählen Sie den Titel aus, den Sie auf die ausgewählte Version anwenden möchten, und klicken Sie auf **Titel hinzufügen** , um es hinzuzufügen.
 
@@ -282,7 +281,7 @@ Blendet die XML-Tags ein oder aus. Die Tags dienen als visuelle Hinweise zur Beg
 
 Sie können alle in der Zuordnungsdatei vorgenommenen Aktualisierungen verfolgen, indem Sie den Modus Änderungen verfolgen aktivieren. Nachdem Sie die Verfolgungsänderungen aktiviert haben, werden alle Einfügungen und Löschungen im Dokument erfasst. Weitere Informationen finden Sie unter [Änderungen aktivieren/deaktivieren](web-editor-features.md#id205DF0203Y4) im Web-Editor.
 
-**Bewertungsaufgabe erstellen** - ![](images/create-review-task-icon.svg)
+**Prüfungsaufgabe erstellen** - ![](images/create-review-task-icon.svg)
 
 Sie können eine Prüfungsaufgabe des aktuellen Themas oder der Zuordnungsdatei direkt im Web-Editor erstellen. Öffnen Sie die Datei, für die Sie die Prüfungsaufgabe erstellen möchten, und klicken Sie auf Prüfungsaufgabe erstellen , um den Überprüfungserstellungsprozess zu starten. Befolgen Sie die Anweisungen im Abschnitt [Themen oder Zuordnungen überprüfen](review.md#) für weitere Details.
 

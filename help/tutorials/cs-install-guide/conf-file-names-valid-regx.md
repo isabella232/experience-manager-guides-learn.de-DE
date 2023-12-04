@@ -1,13 +1,12 @@
 ---
 title: Konfigurieren von Regx für gültige Dateinamenzeichen
 description: Erfahren Sie, wie Sie Regx für gültige Dateinamenzeichen konfigurieren.
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
-
 
 # Konfigurieren von Regx für gültige Dateinamenzeichen {#id214BD0550E8}
 
@@ -30,4 +29,3 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 > Ähnlich wie bei der Liste gültiger Dateinamenzeichen können Sie auch eine Liste gültiger Dateinamenzeichen für AEM Site-Ausgabe angeben. Weitere Informationen finden Sie unter [Gültige Dateinamen für AEM Site-Ausgabe konfigurieren](conf-file-names-valid-regx-aem-site-output.md#).
 
 **Übergeordnetes Thema:**[ Dateinamen konfigurieren](conf-file-names.md)
-

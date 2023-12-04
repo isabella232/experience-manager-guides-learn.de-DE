@@ -1,11 +1,10 @@
 ---
-title: Versionshinweise | Aktualisierungsanweisungen und behobene Probleme in der Version 4.2.1 der Adobe Experience Manager-Handbücher
+title: Versionshinweise | Aktualisierungsanweisungen und behobene Probleme in Adobe Experience Manager-Handbüchern 4.2.1
 description: Erfahren Sie mehr über die Fehlerbehebungen und das Upgrade auf Version 4.2.1 der Adobe Experience Manager-Handbücher.
-exl-id: 19b23164-4a07-4748-a8c4-1760bfdb2ca6
-source-git-commit: 6d7b17709e7a17c30b544a7f3f3707328431aac0
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 5%
+source-wordcount: '876'
+ht-degree: 1%
 
 ---
 
@@ -46,21 +45,21 @@ Weitere Informationen finden Sie unter *Technische Anforderungen* im Handbuch &q
 
 ### FrameMaker und FrameMaker Publishing Server
 
-| Release | FMPS 2022 | FMPS 2020 | FM 2022 | FM 2020 |
+| Freigabe | FMPS 2022 | FMPS 2020 | FM 2022 | FM 2020 |
 | --- | --- | --- | --- | --- |
 | 4.2.1 (Nicht-UUID) | 2022 oder höher | 2020.2 oder höher* | 2022 oder höher | 2020.3 oder höher |
 | 4.2.1 (UUID) | 2022 oder höher | 2020.2 oder höher* | 2022 oder höher | 2020.4 oder höher |
-|  |  |  |  |
+| | | | |
 
 *Die in AEM erstellten Grundlinien und Bedingungen werden in FMPS-Versionen ab 2020.2 unterstützt.
 
 ### Sauerstoffanschluss
 
-| Release | Sauerstoff Connector Windows | Sauerstoff Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
+| Freigabe | Sauerstoff Connector Windows | Sauerstoff Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
 | --- | --- | --- |--- |--- |
-| 4.2.1 (Nicht-UUID) | 2.2-normal-3 | 2.2-normal-3 | 1.6 | 1.6 |
-| 4.2.1 (UUID) | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
-|  |  |  |
+| 4.2.1 (Nicht-UUID) | 2.2-normal-3 | 2.2-normal-3 | 1,6 | 1,6 |
+| 4.2.1 (UUID) | 2.9-uuid-2 | 2.9-uuid-2 | 2,3 | 2,3 |
+|  |  |   |
 
 ## Behobene Probleme
 
@@ -69,7 +68,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 ### Authoring
 
 * Navtitle wird beim Wechsel von der Layoutansicht zur Autoren- oder Quellansicht aus dem Inhalt entfernt. (12174)
-* Schaltfläche &quot;Schließen&quot;im Web Editor führt nicht zu AEM Navigationsseite. (11948)
+* Schaltfläche &quot;Schließen&quot;im Web Editor führt nicht zu AEM Navigationsseite. (1948)
 * Manchmal tritt beim Klicken auf eine DITA Map ein Anwendungsfehler auf. (11842)
 * Problem tritt beim Verschieben (per Drag-and-Drop) anstelle eines vorhandenen Listenelements auf, bei dem &quot;Änderungen verfolgen&quot;aktiviert ist. (11570)
 * Beim Verschieben (per Drag &amp; Drop) als neues Listenelement mit aktivierter Option Änderungen verfolgen tritt ein Problem auf. (11569)
@@ -77,12 +76,12 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Wenn Sie Inhalte in einer Zeile mit aktivierter Option &quot;Änderungen verfolgen&quot;hinzufügen und die Option &quot;Änderungen verfolgen&quot;dann deaktivieren, wird dies nicht deaktiviert. (11567)
 * Schwierigkeiten beim Ziehen und Ablegen eines Listenelements besteht darin, dass Text anstelle des Listenelements verschoben wird. (11566)
 * Beim Authoring im Element, das grün (Änderungen verfolgen) angezeigt wird, wird der neue Inhalt als Verfolgungsänderung angezeigt, auch wenn die Verfolgungsänderung deaktiviert ist. (7021)
-* Der Browser (Web Editor) friert beim Laden von Inhalten mit benutzerdefiniertem Schema ein. (11211)
+* Der Browser (Web Editor) friert beim Laden von Inhalten mit benutzerdefiniertem Schema ein. (1121)
 * Native PDF | Beim Erstellen einer Ausgabevorgabe mit der Option &quot;Zum Ordnerprofil hinzufügen&quot;schlägt die PDF-Erstellung mit einer Nullzeiger-Ausnahme fehl. (10950)
 * Native PDF | Bild-Tag fügt allen Bildern das Attribut display-inline hinzu. (10653)
 * Das Einfügen von Audio- und Video-Multimediadateien schlägt im YouTube-Format unter dem **Multimedia einfügen** Symbol. (11320)
 * Der Validierungsfehler tritt auf, wenn eine Zuordnung mithilfe der Vorlage erstellt wird, die über ein spezielles Titelelement verfügt. (11212)
-* Web Editor | Beim Bearbeiten eines Themas wird im XML-Editor geschütztes Leerzeichen hinzugefügt. (11786)
+* Web-Editor | Beim Bearbeiten eines Themas wird im XML-Editor geschütztes Leerzeichen hinzugefügt. (11786)
 
 ### Verwaltung
 
@@ -93,12 +92,12 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
 ### Veröffentlichung
 
-* Native PDF | Das Veröffentlichen von Inhalten mit einer Ausgabeklasse mit Klammern() führt zum Einfrieren der Veröffentlichung. (11936)
-* JSON-Ausgabe | Zuordnen von Metadaten mit Eigenschaftswert als `"value in spaces and double quotes"` führt zu einem Veröffentlichungsfehler. (11933)
+* Native PDF | Das Veröffentlichen von Inhalten mit einer Ausgabeklasse mit Klammern() führt zum Einfrieren der Veröffentlichung. (1936)
+* JSON-Ausgabe | Zuordnen von Metadaten mit Eigenschaftswert als `"value in spaces and double quotes"` führt zu einem Veröffentlichungsfehler. (1933)
 * Problem tritt bei AEM Site-Suche auf (funktioniert nicht über 2-3-Level-Knoten hinaus). (11352)
-* Web Editor | Ausgabepfad und Vorlage können nicht in der AEM-Vorgabe ausgewählt werden. (11530)
+* Web-Editor | Ausgabepfad und Vorlage können nicht in der AEM-Vorgabe ausgewählt werden. (11530)
 * Bei der Aktualisierung von Version 4.1.x auf Version 4.2 funktioniert die Native PDF Engine nicht und gibt auch für das unterstützte Betriebssystem eine NullPointerException aus.(11526)
-* Der Download-PDF-Prozess funktioniert im Web Editor nicht ordnungsgemäß. (11496)
+* Der Download-PDF-Prozess funktioniert im Web-Editor nicht ordnungsgemäß. (11496)
 * Native PDF | Entwurfskommentare sind standardmäßig in der generierten Ausgabe ausgeblendet. (10560)
 * Native PDF | navtitle wird für topichead nicht geehrt. (10509)
 * Native PDF | Hinzufügen `xref` in ein Bild wird das Bild nicht auf der generierten PDF gerendert. (11346)

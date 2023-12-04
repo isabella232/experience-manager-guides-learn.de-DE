@@ -1,13 +1,12 @@
 ---
 title: Veröffentlichen eines Themas in einem Inhaltsfragment
 description: Veröffentlichen Sie ein Thema oder die Elemente innerhalb eines Themas in einem Inhaltsfragment in AEM Handbüchern.  Erfahren Sie, wie Sie die für ein Thema vorhandenen Inhaltsfragmente anzeigen und erneut veröffentlichen können.
-source-git-commit: 6143bdcb4c8a9e1f35ea752cf1be142ab98a716b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 1%
+source-wordcount: '605'
+ht-degree: 0%
 
 ---
-
 
 # In einem Inhaltsfragment veröffentlichen
 
@@ -65,4 +64,3 @@ Sie können das Inhaltsfragment auch erneut veröffentlichen, um das Inhaltsfrag
 
 
 Nachdem Sie die Inhaltsfragmente veröffentlicht haben, können Sie sie auch auf jeder beliebigen AEM verwenden.
-

@@ -1,13 +1,12 @@
 ---
 title: Java-basierte APIs für die Verwendung mit Grundlinien und Bezeichnungen
 description: Erfahren Sie mehr über die Java-basierten APIs für die Verwendung mit Grundlinien und Bezeichnungen
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '890'
 ht-degree: 0%
 
 ---
-
 
 # Java-basierte APIs für die Verwendung mit Grundlinien und Bezeichnungen {#id175UB30E05Z}
 
@@ -50,7 +49,7 @@ LinkedHashMap indirectContext)
 throws GuidesApiException
 ```
 
-**Parameter**: |Name|Typ|Beschreibung| |—|—|—| |`session`|javax.jcr.Session|Eine gültige JCR-Sitzung. Die Benutzersitzung muss sowohl Lese- als auch Schreibberechtigungen für die DITA-Zuordnung und Leseberechtigungen für alle in der Grundlinie enthaltenen Referenzdateien haben.| |`sourcePath`|String|Absoluter Pfad der DITA-Map-Datei im AEM Repository.| |`baselineTitle`|Zeichenfolge|Ein eindeutiger Titel für die Grundlinie.| |`label`|Zeichenfolge|Wählen Sie die Version eines Themas aus, auf das die angegebene Bezeichnung angewendet wird.| |`directContext`|LinkedHashMap&lt;string object=&quot;&quot;>|Die Konfigurationen, anhand derer direkt referenziertes Thema \(Inhalt\) ausgewählt wird, werden in der Reihenfolge, die in der Zuordnung erwähnt wird, befolgt, um eine Version aufzulösen. <br> Wenn nach der Iteration auf allen Schlüsseln der Zuordnung keine Version gefunden wird, schlägt der Prozess zur Erstellung der Grundlinie fehl. <br> Wenn die HashMap leer ist \(leere und keine Null-Zuordnung als Standard senden\), wird sie standardmäßig wie folgt ausgefüllt: <br>`directContext.put("label", label);` <br> `directContext.put("latest", true);` <br> Wenn Sie möchten, dass bei der Grundlinien-Erstellung nur die Version einer bestimmten Beschriftung ausgewählt wird und fehlschlägt, wenn keine solche Version vorhanden ist, setzen Sie die Variable `label` und der Beschriftung, für die Sie eine Grundlinie erstellen möchten.| |`indirectContext`|LinkedHashMap&lt;string object=&quot;&quot;>|Die Konfigurationen, anhand deren indirekt referenziertes Thema \(referenzierter Inhalt\) ausgewählt wird, werden in der Reihenfolge, die in der Zuordnung erwähnt wird, befolgt, um eine Version aufzulösen. <br> Wenn nach der Iteration auf allen Schlüsseln der Zuordnung keine Version gefunden wird, schlägt der Prozess zur Erstellung der Grundlinie fehl. <br> Wenn die HashMap leer ist \(leere und keine Null-Zuordnung als Standard senden\), wird sie standardmäßig wie folgt ausgefüllt: <br>`indirectContext.put("label", label);` <br>`indirectContext.put "pickAutomatically", null);` <br> Wenn es die neueste Version sein soll, anstatt eine Version automatisch zu übernehmen, ersetzen Sie: <br>`indirectContext.put("pickAutomatically", null);` <br> _durch:_ <br>`indirectContext.put("latest", true)`|
+**Parameter**: |Name|Typ|Beschreibung| |—|—|—| |`session`|javax.jcr.Session|Eine gültige JCR-Sitzung. Die Benutzersitzung muss sowohl Lese- als auch Schreibberechtigungen für die DITA-Zuordnung und Leseberechtigungen für alle in der Grundlinie enthaltenen Referenzdateien haben.| |`sourcePath`|String|Absoluter Pfad der DITA-Map-Datei im AEM Repository.| |`baselineTitle`|Zeichenfolge|Ein eindeutiger Titel für die Grundlinie.| |`label`|Zeichenfolge|Wählen Sie die Version eines Themas aus, auf das die angegebene Bezeichnung angewendet wird.| |`directContext`|LinkedHashMap&lt;string object=&quot;&quot;>|Die Konfigurationen, anhand derer direkt referenziertes Thema \(Inhalt\) ausgewählt wird, werden in der Reihenfolge, die in der Zuordnung erwähnt wird, befolgt, um eine Version aufzulösen. <br> Wenn nach der Iteration auf allen Schlüsseln der Zuordnung keine Version gefunden wird, schlägt der Prozess zur Erstellung der Grundlinie fehl. <br> Wenn die HashMap leer ist \(leere und keine Null-Zuordnung als Standard senden\), wird sie standardmäßig wie folgt ausgefüllt: <br>`directContext.put("label", label);` <br> `directContext.put("latest", true);` <br> Wenn Sie möchten, dass bei der Grundlinien-Erstellung nur die Version einer bestimmten Beschriftung ausgewählt wird und fehlschlägt, wenn keine solche Version vorhanden ist, setzen Sie die Variable `label` und der Beschriftung, für die Sie eine Grundlinie erstellen möchten.| |`indirectContext`|LinkedHashMap&lt;string object=&quot;&quot;>|Die Konfigurationen, anhand deren indirekt referenziertes Thema \(referenzierter Inhalt\) ausgewählt wird, werden in der Reihenfolge, die in der Zuordnung erwähnt wird, befolgt, um eine Version aufzulösen. <br> Wenn nach der Iteration auf allen Schlüsseln der Zuordnung keine Version gefunden wird, schlägt der Prozess zur Erstellung der Grundlinie fehl. <br> Wenn die HashMap leer ist \(leere und keine Null-Zuordnung als Standard senden\), wird sie standardmäßig wie folgt ausgefüllt: <br>`indirectContext.put("label", label);` <br>`indirectContext.put "pickAutomatically", null);` <br> Wenn es die neueste Version sein soll, anstatt eine Version automatisch zu übernehmen, ersetzen Sie: <br>`indirectContext.put("pickAutomatically", null);` <br> _mit:_ <br>`indirectContext.put("latest", true)`|
 
 **Rückgabe**: Der Name der Grundlinie, der der Knotenname der Grundlinie im JCR-Repository ist. Der Titel der neu erstellten Grundlinie wird dem Benutzer auf der Grundlagenseite für die DITA-Zuordnung angezeigt.
 
@@ -109,4 +108,3 @@ String label) throws GuidesApiException
 **Rückgabe**: Die Zuordnung mit *key:value* pair of `path:deletedlabels` für alle Dateien in der Grundlinie.
 
 **Ausnahme**: Threads ``RepositoryException`, `VersionException`, `Exception``.
-

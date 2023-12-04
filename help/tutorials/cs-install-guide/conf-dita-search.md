@@ -1,17 +1,16 @@
 ---
 title: Konfigurieren der Suche in der AEM Assets-Benutzeroberfläche
 description: Erfahren Sie, wie Sie die Suche für die AEM Assets-Benutzeroberfläche konfigurieren
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: '1580'
 ht-degree: 1%
 
 ---
 
-
 # Konfigurieren der Suche in der AEM Assets-Benutzeroberfläche {#id192SC800MY4}
 
-Standardmäßig erkennt AEM DITA-Inhalte nicht, bietet daher keinen Mechanismus zum Durchsuchen von DITA-Inhalten innerhalb seines Repositorys. Außerdem gibt es keine OOTB-Fähigkeit, Inhalte basierend auf ihrer UUID zu suchen. Mit AEM Guides können Sie die DITA-Inhaltssuche und UUID-basierte Suchfunktionen zum AEM Repository hinzufügen.
+Standardmäßig erkennt AEM DITA-Inhalte nicht, bietet daher keinen Mechanismus zum Durchsuchen von DITA-Inhalten in seinem Repository. Außerdem gibt es keine OOTB-Fähigkeit, Inhalte basierend auf ihrer UUID zu suchen. Mit AEM Guides können Sie die DITA-Inhaltssuche und UUID-basierte Suchfunktionen zum AEM Repository hinzufügen.
 
 Die Konfiguration der DITA-Inhaltssuche umfasst die folgenden Aufgaben:
 
@@ -42,7 +41,7 @@ Führen Sie die folgenden Schritte aus, um die DITA-Inhaltssuchkomponente in der
 
    ![](assets/drag-search-predicate.png)
 
-1. Klicken **Fertig** , um Ihre Änderungen zu speichern.
+1. Klicks **Fertig** , um Ihre Änderungen zu speichern.
 
    Wenn Sie auf die Option Filter in der Assets-Benutzeroberfläche zugreifen, erhalten Sie die Filteroption DITA-Element-Suche .
 
@@ -62,13 +61,13 @@ Führen Sie Folgendes aus, um die UUID-basierte Suchkomponente in der AEM Assets
 1. Im **Forms durchsuchen** Liste, wählen Sie die **Asset-Admin-Suchleiste**.
 
 1. Klicken Sie auf **Bearbeiten**.
-1. Im **Eigenschaft auswählen** Registerkarte, wählen Sie **Eigenschaftsprädikat** und ziehen Sie sie per Drag-and-Drop an die gewünschte Position im Suchformular.
+1. Im **Eigenschaft auswählen** auswählen **Eigenschaftsprädikat** und ziehen Sie sie per Drag-and-Drop an die gewünschte Position im Suchformular.
 
 1. Im **Einstellungen** -Registerkarte die folgenden Details für das neu hinzugefügte **Eigenschaftsprädikat** component:
 
    - **Feldbezeichnung**: UUID
    - **Eigenschaftsname**: jcr:content/fmUuid
-1. Klicken **Fertig** , um Ihre Änderungen zu speichern.
+1. Klicks **Fertig** , um Ihre Änderungen zu speichern.
 
    Wenn Sie auf die Option Filter in der Assets-Benutzeroberfläche zugreifen, erhalten Sie die UUIS-basierte Suchfilteroption.
 
@@ -114,7 +113,7 @@ Mit der Standardsuchkonfiguration können Sie innerhalb des DITA nach allen Elem
 >
 > Wenn Sie mit der Standardsuchkonfiguration innerhalb der `prolog` -Element ein, können Sie diesen Prozess überspringen.
 
-Diese Datei enthält zwei Hauptabschnitte: Attributsatz und Regelsatz. Im Folgenden finden Sie einen Abschnitt zum Regelsatz:
+Diese Datei enthält zwei Hauptabschnitte: Attributsatz und Regelsatz. Im Folgenden finden Sie einen Ausschnitt des Regelsatzabschnitts:
 
 ```
 <ruleset filetypes="xml dita"><!-- Element rules --><rule xpath="//[contains(@class, 'topic/topic')]/[contains(@class, 'topic/prolog')]//*[not(*)]" text="yes" attributeset="all-attrs" /><!-- Attribute rules --><rule xpath="//[contains(@class, 'topic/topic')]/[contains(@class, 'topic/prolog')]///@[local-name() != 'class']" /></ruleset>
@@ -129,7 +128,7 @@ Im Regelsatzabschnitt können Sie Folgendes angeben:
 
 Eine Regel besteht aus folgenden Elementen:
 
-xpath : Dies ist die XPath-Abfrage, die die Elemente oder Attribute aus DITA-Dateien abruft. Die Standardkonfiguration für die Elementregel ruft alle `prolog` -Elemente. Und die Standardkonfiguration für die Attributregel ruft alle Attribute von `prolog` -Elemente. Sie können eine XPath-Abfrage angeben, um die Elemente oder Attribute zu serialisieren, nach denen Sie suchen möchten.
+xpath : Die XPath-Abfrage, mit der die Elemente oder Attribute aus DITA-Dateien abgerufen werden. Die Standardkonfiguration für die Elementregel ruft alle `prolog` -Elemente. Und die Standardkonfiguration für die Attributregel ruft alle Attribute von `prolog` -Elemente. Sie können eine XPath-Abfrage angeben, um die Elemente oder Attribute zu serialisieren, nach denen Sie suchen möchten.
 
     Die XPath-Abfrage enthält den Klassennamen des Dokumenttyps. Die Klasse &quot;topic/topic&quot;wird für DITA-Dokumente des Thementyps verwendet. Wenn Sie eine Regel für andere DITA-Dokumente erstellen möchten, müssen Sie die folgenden Klassennamen verwenden:
     
@@ -143,17 +142,17 @@ xpath : Dies ist die XPath-Abfrage, die die Elemente oder Attribute aus DITA-Dat
 
 text : Wenn Sie nach dem Text innerhalb des angegebenen Elements suchen möchten, geben Sie den Wert yes an. Wenn Sie &quot;Nein&quot;als Wert angeben, werden nur die Attribute innerhalb des Elements serialisiert. Die Attribute, nach denen Sie suchen möchten, müssen im Abschnitt &quot;Attributsatz&quot;angegeben werden.
 
-attributeset : Geben Sie die Kennung des Attributsatzes an, den Sie mit dieser Regel verknüpfen möchten. Der Wert &quot;all-attrs&quot;ist ein Sonderfall, der angibt, dass alle Attribute für diese Regel serialisiert werden müssen.
+attributeset : Geben Sie die ID des Attributsatzes an, den Sie mit dieser Regel verknüpfen möchten. Der Wert &quot;all-attrs&quot;ist ein Sonderfall, der angibt, dass alle Attribute für diese Regel serialisiert werden müssen.
 
 Ein Attributsatz enthält eine Liste von Attributen, nach denen Sie in DITA-Inhalten suchen möchten. Der Attributsatz enthält Folgendes:
 
 id : Eine eindeutige Kennung für den Attributsatz. Diese ID wird im Parameter attributeset eines Regelsatzes angegeben.
 
-attribute : Eine Liste der Attribute, die durchsucht werden sollen. Für jedes Attribut müssen Sie einen einzelnen Eintrag im `attribute` -Element.
+attribute : Eine Liste der Attribute, die Sie suchen möchten. Für jedes Attribut müssen Sie einen einzelnen Eintrag im `attribute` -Element.
 
 Führen Sie die folgenden Schritte aus, um benutzerdefinierte DITA-Elemente oder -Attribute zur Serialisierungsdatei für die Suche hinzuzufügen:
 
-1. Verwenden Sie Package Manager, um die Datei /libs/fmdita/config/serializationconfig.xml herunterzuladen.
+1. Verwenden Sie Package Manager, um die Datei &quot;/libs/fmdita/config/serializationconfig.xml&quot;herunterzuladen.
 
 1. Erstellen Sie einen Überlagerungsknoten des `config` -Ordner in `apps` Knoten.
 
@@ -170,7 +169,7 @@ Die neuen Serialisierungsinformationen werden gespeichert und für die Suche akt
 
 ## Extrahieren von Metadaten aus vorhandenem Inhalt {#id192SF0GA0HT}
 
-Nachdem Sie die standardmäßige Serialisierungsdatei für die Suche geändert haben, müssen Sie die Option DITA-Metadatenextraktion im *com.adobe.fmdita.config.ConfigManager* Bundle erstellen und dann den Workflow zum Extrahieren von Metadaten ausführen. Dadurch werden die erforderlichen Metadaten aus den vorhandenen DITA-Dateien extrahiert und dieselben werden dann für die Suche bereitgestellt.
+Nachdem Sie die standardmäßige Serialisierungsdatei für die Suche geändert haben, müssen Sie die Option DITA-Metadatenextraktion im *com.adobe.fmdita.config.ConfigManager* Bundle erstellen und dann den Workflow ausführen, um Metadaten zu extrahieren. Dadurch werden die erforderlichen Metadaten aus den vorhandenen DITA-Dateien extrahiert und dieselben werden dann für die Suche bereitgestellt.
 
 Wenn Sie nach dem Aktualisieren der Serialisierungsdatei neue Dateien erstellen oder eine Datei bearbeiten, werden die Metadaten automatisch aus diesen Dateien extrahiert. Der Prozess zum Extrahieren von Metadaten ist nur für Dateien erforderlich, die bereits im AEM Repository vorhanden sind.
 
@@ -222,7 +221,7 @@ Führen Sie die folgenden Schritte aus, um den temporären Übersetzungsordner v
 
    | Eigenschaftsname | Typ | Wert |
    |-------------|----|-----|
-   | excludedPaths | Zeichenfolge\[\] | Fügen Sie dieser Eigenschaft den folgenden Wert hinzu:<br> `/content/dam/projects/translation\_output` |
+   | excludedPaths | String\[\] | Fügen Sie dieser Eigenschaft den folgenden Wert hinzu:<br> `/content/dam/projects/translation\_output` |
 
 1. Navigieren Sie zum Knoten lucene , der unter folgendem Speicherort verfügbar ist:
 
@@ -232,6 +231,4 @@ Führen Sie die folgenden Schritte aus, um den temporären Übersetzungsordner v
 
    | Eigenschaftsname | Typ | Wert |
    |-------------|----|-----|
-   | excludedPaths | Zeichenfolge\[\] | Fügen Sie dieser Eigenschaft die folgenden Werte hinzu:<br> `/content/dam/projects/translation\_output` |
-
-
+   | excludedPaths | String\[\] | Fügen Sie dieser Eigenschaft die folgenden Werte hinzu:<br> `/content/dam/projects/translation\_output` |

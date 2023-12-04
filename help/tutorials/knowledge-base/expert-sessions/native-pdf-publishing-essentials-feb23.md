@@ -1,11 +1,10 @@
 ---
 title: Grundlagen der nativen PDF-Veröffentlichung
 description: Erfahren Sie, wie Sie PDF mithilfe der nativen PDF-Engine in AEM Guides veröffentlichen.
-exl-id: e7ba6d2d-ebfb-4400-9b10-c4fb173123cf
-source-git-commit: 093cb6c3b3a523e56f401e813c2b51a414c725d2
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 1%
+source-wordcount: '204'
+ht-degree: 2%
 
 ---
 
@@ -15,7 +14,7 @@ AEM Guides verfügen über eine integrierte PDF-Publishing-Engine, mit der Benut
 
 ## Sitzungsübersicht
 
-In dieser Sitzung erfahren Sie, wie Sie PDF mithilfe der nativen PDF-Engine in AEM Guides veröffentlichen
+In dieser Sitzung erfahren Sie, wie Sie PDF mithilfe der nativen PDF-Engine in AEM Guides veröffentlichen.
 
 ## Sitzungsaufzeichnung
 
@@ -26,9 +25,9 @@ In dieser Sitzung erfahren Sie, wie Sie PDF mithilfe der nativen PDF-Engine in A
 - **Datum** - 23. Februar 2023
 - **Anzahl der TeilnehmerInnen** - 135
 - **Dauer** - 60 Minuten
-- **Zielgruppe** - Kunden, Partner und Mitarbeiter der Adobe
+- **Zielgruppe** - Kunden, Partner und Adobe-Mitarbeiter
 
-## Wichtige Schritte
+## Haupterkenntnisse
 
 In dieser Sitzung erfahren Sie mehr über Folgendes:
 - PDF Publishing Essentials
@@ -43,14 +42,13 @@ In dieser Sitzung erfahren Sie mehr über Folgendes:
 
 - **Benutzerhandbuch** - [Native PDF-Veröffentlichung](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/pdf-template.html?lang=en)
 
-- **Community-Forum** - Sitzungsspezifische Community-Interaktionen auf Experience League finden Sie unter  [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Community-Forum** - Sitzungsspezifische Community-Interaktionen auf dem Experience League finden Sie unter  [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > Die in dieser Sitzung angezeigten Funktionen sind in den folgenden Versionen AEM Handbücher verfügbar:
 > - On-Premise 4.2 oder höher
-> - Cloud Services 2211 und höher
-
+> - Cloud Service 2211 und höher
 
 ## Kontakt
 

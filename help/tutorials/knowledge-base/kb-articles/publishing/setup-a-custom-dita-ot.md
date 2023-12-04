@@ -2,10 +2,9 @@
 title: Einrichten von benutzerdefiniertem DITA-OT in [!DNL AEM Guides]
 description: Erfahren Sie, wie Sie benutzerdefinierte DITA-OT in [!DNL Adobe Experience Manager Guides]
 role: Admin
-exl-id: f479c2cf-5b8b-4517-be97-81303468007a
-source-git-commit: 6ae539eff23b1fd5f1d74878b03cf6dd5b20a57d
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
@@ -22,9 +21,8 @@ Auf hoher Ebene sind die Schritte:
 + Nehmen Sie Änderungen in DITA-OT vor, wie [Hinzufügen eines neuen Plug-ins](https://www.dita-ot.org/dev/topics/plugins-installing.html)oder Anpassung vorhandener Plug-ins (siehe Beispiel im Abschnitt zu verwandten Links unten)
 + Hochladen `DITA-OT.zip` empfangen von `/apps/<project-folder>/dita_resources` (Es wird empfohlen, einen benutzerdefinierten Projektordner zu erstellen.)
 + Hinzufügen eines DITA-Profils durch **[!UICONTROL Instrumente]** > **[!UICONTROL Handbücher]** > **[!UICONTROL DITA-Profile]** (Verwenden Sie den DITA-OT-Pfad, in den das benutzerdefinierte DITA-OT hochgeladen wird, siehe Screenshot unten).
-   ![DITA-Profile](assets/dita-profile.png)
+  ![DITA-Profile](assets/dita-profile.png)
 
 >[!MORELIKETHIS]
 >
 >+ [DITA-OT-Plug-in-Beispiele anpassen](https://www.dita-ot.org/dev/topics/pdf-customization.html)
-

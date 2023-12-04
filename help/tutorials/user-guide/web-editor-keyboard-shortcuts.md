@@ -1,11 +1,10 @@
 ---
 title: Tastaturbefehle im Web-Editor
 description: Entdecken Sie zeitsparende Tastaturbefehle im Web-Editor von AEM Guides.
-exl-id: d843c5a9-04f8-44f2-9bf5-60cb4ed7fa38
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 2%
+source-wordcount: '353'
+ht-degree: 1%
 
 ---
 
@@ -40,7 +39,7 @@ Es gibt viele Vorgänge im Web Editor, die Sie mit den Tastaturbefehlen ausführ
 | Verschieben Sie den Cursor an das Ende des vorherigen Elements. | ***Umschalt***+***Registerkarte*** | ***Umschalt***+***Registerkarte*** |
 | Ziehen Sie das Listenelement in die vorherige Ebene. | ***Umschalt***+***Registerkarte*** | ***Umschalt***+***Registerkarte*** |
 | XML-Einzug automatisch in die Quellansicht | ***Strg***+***Alt***+***L*** | ***Befehl***+***Option***+***L*** |
-| Aktuelles Element aufteilen | ***Geben Sie ein*** | ***Rückgabe*** |
+| Aktuelles Element aufteilen | ***Eingabe*** | ***Rückgabe*** |
 | Ausgewählten Text kopieren | ***Strg***+**C** | ***Befehl***+**C** |
 | Einfügen | ***Strg***+**V** | ***Befehl***+**V** |
 | Formatierung einfügen und anpassen | ***Strg***+***Umschalt***+**V** | ***Befehl***+***Umschalt***+**V** |

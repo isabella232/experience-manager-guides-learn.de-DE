@@ -1,10 +1,9 @@
 ---
 title: AEM Umgebung für native PDF-Veröffentlichung konfigurieren
 description: AEM Umgebung für native PDF-Veröffentlichung konfigurieren
-exl-id: 40266ca0-0b0b-4418-b606-f70270addbaa
-source-git-commit: 45dfe6078039001327e91ae85ea2a5beeacb2d59
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '902'
 ht-degree: 1%
 
 ---
@@ -146,7 +145,7 @@ Der manuelle Import der heruntergeladenen Knotenmodule für das Linux-Betriebssy
 
    i) Ausführen **./node-darwin/bin/node** Befehl aus dem Ordner /crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166
 
-   ![Mac](../assets/publishing/mac.png)
+   ![mac](../assets/publishing/mac.png)
 
    ii) a = require(&#39;java&#39;)
 

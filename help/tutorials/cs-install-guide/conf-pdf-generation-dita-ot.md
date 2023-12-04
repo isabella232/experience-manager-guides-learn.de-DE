@@ -1,13 +1,12 @@
 ---
 title: PDF-Generierung für einzelne Themen konfigurieren
 description: Erfahren Sie, wie Sie die Erstellung von PDF für einzelne Themen konfigurieren
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
-
 
 # PDF-Generierung für einzelne Themen konfigurieren {#id22ADC70M0XA}
 
@@ -25,7 +24,7 @@ So aktivieren Sie die alte PDF-Generierung über DITA-OT im Themenvorschaumodus:
 1. Auswählen **Handbücher** aus der Liste der Tools und klicken Sie auf die Schaltfläche **Ordnerprofile**.
 1. Klicken Sie auf **Globales Profil** Kachel.
 1. Wählen Sie die **Konfiguration des XML-Editors** Registerkarte und klicken Sie auf **Bearbeiten** Symbol oben
-1. Klicken Sie auf **Download** -Symbol, um die Datei ui\_config.json auf Ihr lokales System herunterzuladen. Anschließend können Sie Änderungen an der Datei vornehmen und diese dann hochladen.
+1. Klicken Sie auf **Herunterladen** -Symbol, um die Datei ui\_config.json auf Ihr lokales System herunterzuladen. Anschließend können Sie Änderungen an der Datei vornehmen und diese dann hochladen.
 1. Im `ui_config.json` -Datei, suchen Sie die folgende Konfiguration:
 
    ```
@@ -57,4 +56,3 @@ So aktivieren Sie die alte PDF-Generierung über DITA-OT im Themenvorschaumodus:
 Wenn Sie nach dem Ausführen der oben genannten Schritte unter Benutzereinstellungen im Web-Editor dasselbe Ordnerprofil auswählen, wird im Vorschaumodus eines Themas die Option zum Generieren von PDF angezeigt.
 
 **Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
-

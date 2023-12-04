@@ -1,8 +1,7 @@
 ---
 title: Weitere Funktionen im Map-Editor
 description: Entdecken Sie einige gängige Funktionen im Basic- und Advanced Map Editor. Erfahren Sie, wie Sie wichtige Verweise im Map-Editor auflösen.
-exl-id: ed6f42f6-b95e-4c4d-a648-6f29641a3488
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 0%

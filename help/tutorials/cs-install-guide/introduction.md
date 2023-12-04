@@ -1,13 +1,12 @@
 ---
 title: Informationen zu diesem Handbuch
 description: Informationen zu diesem Handbuch
-source-git-commit: e3b2fc8c96ce535bb91e7bce935720aa389a917a
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 10%
+source-wordcount: '663'
+ht-degree: 3%
 
 ---
-
 
 # Informationen zu diesem Handbuch {#id175MC0P0S5Z}
 
@@ -15,7 +14,7 @@ Adobe Experience Manager-Handbücher \(später bezeichnet als *AEM*\) ist eine l
 
 Dieses Handbuch enthält Anweisungen zum Herunterladen, Installieren und Konfigurieren AEM Handbücher. In diesem Handbuch finden Sie detaillierte Anweisungen zum Einrichten AEM Guides gemäß Ihren Anforderungen an die Erstellung und Veröffentlichung im Unternehmen.
 
-Dieses Handbuch richtet sich an folgende Zielgruppen:
+Dieses Handbuch richtet sich an folgende Zielgruppentypen:
 
 - Administratoren, die AEM Handbücher installieren und verwalten.
 
@@ -26,11 +25,11 @@ Dieses Handbuch richtet sich an folgende Zielgruppen:
 
 Die Informationen in diesem Handbuch sind wie folgt organisiert:
 
-- [Informationen zu diesem Handbuch](#id175MC0P0S5Z): Dieses Thema bietet eine Einführung in dieses Handbuch, die gewünschte Zielgruppe und die Organisation der Informationen in diesem Handbuch.
+- [Informationen zu diesem Handbuch](#id175MC0P0S5Z): Dieses Thema enthält eine Einführung in dieses Handbuch, die geplante Zielgruppe und die Organisation der Informationen in diesem Handbuch.
 
 - [Herunterladen und installieren](download-install.md#): Hier wird beschrieben, wie Sie AEM Handbücher herunterladen, installieren oder aktualisieren.
 
-- [Benutzerverwaltung und Sicherheit](user-admin-sec.md#): Hier werden das Kernkonzept der Benutzer und die Authentifizierung in AEM und die von AEM Guides erstellten Standardbenutzergruppen beschrieben.
+- [Benutzerverwaltung und -sicherheit](user-admin-sec.md#): Hier werden das Kernkonzept von Benutzern und Authentifizierung in AEM und die von AEM Guides erstellten Standardbenutzergruppen beschrieben.
 
 - [Verwenden einer benutzerdefinierten DITA-OT- und DITA-Spezialisierung](dita-ot-specialization.md#): In diesem Thema wird beschrieben, wie Sie benutzerdefinierte DITA-OT-Plug-ins konfigurieren und DITA-Spezialisierung verwenden.
 
@@ -38,9 +37,9 @@ Die Informationen in diesem Handbuch sind wie folgt organisiert:
 
 - [Migrieren vorhandener Inhalte](migrate-content.md#): Hier wird beschrieben, wie Sie vorhandenen Inhalt in AEM Repository integrieren.
 
-- [Dateinamen konfigurieren](conf-file-names.md#): In diesem Thema wird erläutert, wie Sie Einstellungen konfigurieren, um automatisch Dateinamen zuzuweisen und einen Regex für gültige Dateinamenzeichen zu definieren.
+- [Dateinamen konfigurieren](conf-file-names.md#): In diesem Thema wird beschrieben, wie Sie Einstellungen konfigurieren, um automatisch Dateinamen zuzuweisen und einen Regex für gültige Dateinamenzeichen zu definieren.
 
-- [Konfigurieren von Themen- und Zuordnungsvorlagen](conf-template-tags.md#): Hier wird beschrieben, wie Sie Themen- und Zuordnungsvorlagen konfigurieren, um Ihren Authoring-Anforderungen zu entsprechen. Erfahren Sie mehr über das Tagging-System in AEM und wie Sie Tags für die Verwendung mit AEM Handbüchern konfigurieren.
+- [Konfigurieren von Themen- und Zuordnungsvorlagen](conf-template-tags.md#): Hier wird beschrieben, wie Sie Themen- und Zuordnungsvorlagen entsprechend Ihren Authoring-Anforderungen konfigurieren. Erfahren Sie mehr über das Tagging-System in AEM und wie Sie Tags für die Verwendung mit AEM Handbüchern konfigurieren.
 
 - [Anpassen des Web-Editors](conf-web-editor.md#): In diesem Thema werden die verschiedenen Anpassungen erläutert, die Sie im Web Editor vornehmen können, um die Funktionalität zu verbessern.
 
@@ -50,7 +49,7 @@ Die Informationen in diesem Handbuch sind wie folgt organisiert:
 
 - [Versionsverwaltung](version-management.md#): Hier wird beschrieben, wie Sie das automatische Auschecken von Dateien konfigurieren, die zur Bearbeitung im Web Editor geöffnet sind.
 
-- [Ausgabegenerierungseinstellungen konfigurieren](conf-output-generation.md#): In diesem Thema werden die verschiedenen Konfigurationen beschrieben, die Sie vornehmen können, um den standardmäßigen Generierungsprozess für die Ausgabe anzupassen.
+- [Ausgabegenerierungseinstellungen konfigurieren](conf-output-generation.md#): Hier werden die verschiedenen Konfigurationen beschrieben, die Sie vornehmen können, um den standardmäßigen Generierungsprozess der Ausgabe anzupassen.
 
 - [Workflows konfigurieren und anpassen](customize-workflows.md#): Hier werden verschiedene Konfigurationen beschrieben, um die standardmäßigen Workflows anzupassen, die in den AEM-Handbüchern enthalten sind.
 
@@ -63,12 +62,12 @@ Die Informationen in diesem Handbuch sind wie folgt organisiert:
 
 [Adobe Experience Manager \(AEM\)](https://business.adobe.com/de/products/experience-manager/adobe-experience-manager.html) ist eine umfassende Content-Management-Lösung zum Erstellen von Websites, mobilen Apps und Formularen. AEM hilft Ihnen bei der Verwaltung Ihrer Marketing-Inhalte und -Assets. AEM ist as a Cloud Service verfügbar. AEM as a Cloud Service hilft Ihnen, Ihren Kunden personalisierte, inhaltsgesteuerte Erlebnisse bereitzustellen, indem Sie die Leistungsfähigkeit des AEM Content Management Systems mit AEM Digital Asset Management kombinieren. Einige der wichtigsten Ressourcen, die Ihnen bei den ersten Schritten und der Bereitstellung für AEM as a Cloud Service helfen können, sind:
 
-- [as a Cloud Service Übersicht über Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=de)
-- [Erste Schritte auf der Migrationstour zu Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/getting-started.html?lang=en)
-- [Starten Sie den Einstieg in den Experience Manager as a Cloud Service .](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/home.html?lang=enhttps://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/home.html?lang=en)
+- [as a Cloud Service Übersicht über Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=en)
+- [Erste Schritte mit der Migration-Journey zu AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/getting-started.html?lang=en)
+- [Einstieg in den Experience Manager as a Cloud Service starten](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/home.html?lang=enhttps://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/home.html?lang=en)
 - [Implementieren von Programmen für AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/home.html?lang=de)
 - [Bereitstellen in AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=de)
-- [Handbuch zu Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=de)
+- [As a Cloud Service Anleitung zu Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=de)
 
 ## Zusätzliche Ressourcen
 
@@ -76,4 +75,3 @@ Im Folgenden finden Sie eine Liste weiterer hilfreicher Ressourcen AEM Handbüch
 
 - Benutzerhandbuch
 - API-Referenzhandbuch
-

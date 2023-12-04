@@ -1,16 +1,16 @@
 ---
 title: Versionshinweise | Upgrade-Anweisungen und behobene Probleme in Adobe Experience Manager-Handbüchern, Version Juli 2023
 description: Erfahren Sie mehr über die Fehlerbehebungen und das Upgrade auf die Adobe Experience Manager Guides-Version vom Juli 2023 as a Cloud Service.
-source-git-commit: 6061d35b86790e24c6f55e4ccac5dbb40c43aae8
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 2%
+source-wordcount: '926'
+ht-degree: 1%
 
 ---
 
 # Version der Adobe Experience Manager-Handbücher as a Cloud Service im Juli 2023
 
-In diesem Versionshinweis werden die Aktualisierungsanweisungen, die Kompatibilitätsmatrix und die in Version Juli 2023 der Adobe Experience Manager-Handbücher behobenen Probleme (später auch als *AEM as a Cloud Service Handbücher*).
+In diesem Versionshinweis werden die Aktualisierungsanweisungen, die Kompatibilitätsmatrix und die in Version Juli 2023 der Adobe Experience Manager-Handbücher behobenen Probleme (später auch als *AEM as a Cloud Service Guides*).
 
 Weitere Informationen zu den neuen Funktionen und Verbesserungen finden Sie unter [Neue Funktionen in der Version von AEM Guides as a Cloud Service im Juli 2023](whats-new-2023.7.0.md).
 
@@ -18,9 +18,9 @@ Weitere Informationen zu den neuen Funktionen und Verbesserungen finden Sie unte
 
 Führen Sie die folgenden Schritte aus, um die aktuelle as a Cloud Service Einrichtung der AEM Guides zu aktualisieren:
 
-1. Sehen Sie sich den Git-Code des Cloud Services an und wechseln Sie zu der Verzweigung, die in der Cloud Services-Pipeline entsprechend der Umgebung konfiguriert ist, die Sie aktualisieren möchten.
-2. Aktualisieren `<dox.version>` -Eigenschaft in `/dox/dox.installer/pom.xml` -Datei Ihres Cloud Services-Git-Codes auf 2023.7.0.314.
-3. Nehmen Sie die Änderungen vor und führen Sie die Cloud Services-Pipeline aus, um auf die Version der as a Cloud Service AEM Guides vom Juli 2023 zu aktualisieren.
+1. Sehen Sie sich den Git-Code des Cloud Service an und wechseln Sie zu der Verzweigung, die in der Cloud Service-Pipeline entsprechend der Umgebung konfiguriert ist, die Sie aktualisieren möchten.
+2. Aktualisieren `<dox.version>` -Eigenschaft in `/dox/dox.installer/pom.xml` -Datei Ihres Cloud Service-Git-Codes auf 2023.7.0.314.
+3. Nehmen Sie die Änderungen vor und führen Sie die Cloud Service-Pipeline aus, um auf die Version der as a Cloud Service AEM Guides vom Juli 2023 zu aktualisieren.
 
 ## Schritte zum Aktivieren des Triggers eines Skripts über ein Servlet
 
@@ -102,17 +102,17 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen
 
 ### FrameMaker und FrameMaker Publishing Server
 
-| AEM zu Handbüchern as a Cloud - Version | FMPS | FrameMaker |
+| AEM-Handbücher für Cloud | FMPS | FrameMaker |
 | --- | --- | --- |
-| 2023.07.0 | Nicht kompatibel | 2022 oder höher |
+| 2023,07,0 | Nicht kompatibel | 2022 oder höher |
 | | | |
 
 
 ### Sauerstoffanschluss
 
-| AEM zu Handbüchern as a Cloud - Version | Sauerstoff Connector Windows | Sauerstoff Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
+| AEM-Handbücher für Cloud | Sauerstoff Connector Windows | Sauerstoff Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
 | --- | --- | --- | --- | --- |
-| 2023.07.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
+| 2023,07,0 | 2.9-uuid-2 | 2.9-uuid-2 | 2,3 | 2,3 |
 |  |  |  |  |
 
 
@@ -126,12 +126,10 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 - Hochladen von Dateien im Oxygen Plugin für AEM Guides funktioniert nicht in Cloud-Services, wenn Sie haben ! im Dateinamen. (12207)
 - Die DITA-Map-Veröffentlichung ist mit bearbeitbaren Vorlagen sehr langsam. (12075)
 - Die Konfiguration der globalen Profil-Benutzeroberfläche stimmt nicht mit dem Ordnerprofil überein. (11970)
-- Inhaltsreferenzen sind beim Kopieren und Einfügen von DITA-Dateien fehlerhaft. (11959)
+- Inhaltsreferenzen sind beim Kopieren und Einfügen von DITA-Dateien fehlerhaft. (1959)
 - Inhaltsfragment kann nicht in der Spaltenansicht bearbeitet werden, wenn AEM Guides installiert sind. (7342)
 - Der Inhalt geht verloren, wenn sich eine entpackte xref unter einem untergeordneten Element-Tag befindet. (12532)
 
 ### Veröffentlichung
 
 - Der Genehmigungs-Workflow funktioniert nicht, wenn in den Dateieigenschaften des rechten Bedienfelds document in &quot;end state&quot;geändert wird. (11026)
-
-

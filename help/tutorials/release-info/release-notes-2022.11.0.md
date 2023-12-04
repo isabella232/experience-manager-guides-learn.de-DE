@@ -1,11 +1,10 @@
 ---
-title: Versionshinweise | Adobe Experience Manager-Handbücher as a Cloud Service, Version November 2022
+title: Versionshinweise | Adobe Experience Manager Guides as a Cloud Service, Version November 2022
 description: November-Version der Adobe Experience Manager-Handbücher as a Cloud Service
-exl-id: 9f329ec1-dd74-47cc-8567-3fadd962584a
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1372'
-ht-degree: 2%
+source-wordcount: '1384'
+ht-degree: 0%
 
 ---
 
@@ -13,10 +12,10 @@ ht-degree: 2%
 
 ## Aktualisierung auf die November-Version
 
-Aktualisieren Sie Ihre aktuellen Adobe Experience Manager-Handbücher as a Cloud Service (später als *AEM as a Cloud Service Handbücher*) einrichten, indem Sie die folgenden Schritte ausführen:
-1. Sehen Sie sich den Git-Code des Cloud Services an und wechseln Sie zu der Verzweigung, die in der Cloud Services-Pipeline entsprechend der Umgebung konfiguriert ist, die Sie aktualisieren möchten.
-1. Aktualisieren `<dox.version>` -Eigenschaft in `/dox/dox.installer/pom.xml` -Datei Ihres Cloud Services-Git-Codes auf 2022.11.198.
-1. Übertragen Sie die Änderungen und führen Sie die Cloud Services-Pipeline aus, um auf die November-Version von AEM Guides as a Cloud Service zu aktualisieren.
+Aktualisieren Sie Ihre aktuellen Adobe Experience Manager-Handbücher as a Cloud Service (später als *AEM as a Cloud Service Guides*) einrichten, indem Sie die folgenden Schritte ausführen:
+1. Sehen Sie sich den Git-Code des Cloud Service an und wechseln Sie zu der Verzweigung, die in der Cloud Service-Pipeline entsprechend der Umgebung konfiguriert ist, die Sie aktualisieren möchten.
+1. Aktualisieren `<dox.version>` -Eigenschaft in `/dox/dox.installer/pom.xml` -Datei Ihres Cloud Service-Git-Codes auf 2022.11.198.
+1. Übertragen Sie die Änderungen und führen Sie die Cloud Service-Pipeline aus, um auf die November-Version von AEM Guides as a Cloud Service zu aktualisieren.
 
 ## Schritte zum Indexieren des vorhandenen Inhalts (nur, wenn Sie eine Version vor der September-Version von AEM Guides as a Cloud Service verwenden)
 
@@ -26,8 +25,7 @@ Führen Sie die folgenden Schritte für die Indizierung des vorhandenen Inhalts 
 (Optional: Sie können bestimmte Pfade der Maps übergeben, um sie zu indizieren. Standardmäßig werden alle Maps indiziert || Beispiel : `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 * Die API gibt eine jobId zurück. Um den Status des Auftrags zu überprüfen, können Sie eine GET-Anfrage mit Auftrags-ID an denselben Endpunkt senden - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
-(Beispiel: http://&lt;
-_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
+(Beispiel: http://&lt;_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
 
 * Nach Abschluss des Auftrags antwortet die obige GET-Anfrage mit Erfolg und gibt an, ob Zuordnungen fehlgeschlagen sind. Die erfolgreich indizierten Maps können über die Serverprotokolle bestätigt werden.
 
@@ -40,19 +38,19 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen
 | FMPS | FrameMaker |
 | --- | --- |
 | Nicht kompatibel | Aktualisierung 4 und höher für 2020 |
-|  |  |
+| | |
 
 *Die in AEM erstellten Grundlinien und Bedingungen werden in FMPS-Versionen ab 2020.2 unterstützt.
 
 ### Sauerstoffanschluss
 
-| AEM zu Handbüchern as a Cloud - Version | Sauerstoff Connector Windows | Sauerstoff Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
+| AEM-Handbücher für Cloud | Sauerstoff Connector Windows | Sauerstoff Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
 | --- | --- | --- | --- | --- |
-| 2022.11.0 | 2.7.13 | 2.7.13 | 2.3 | 2.3 |
+| 2022.11.0 | 2,7,13 | 2,7,13 | 2,3 | 2,3 |
 |  |  |  |  |
 
 
-## Neue Funktionen und Erweiterungen
+## Neue Funktionen und Verbesserungen
 
 AEM Guides as a Cloud Service bietet Verbesserungen und neue Funktionen in der November-Version:
 
@@ -92,7 +90,7 @@ AEM Handbücher bieten Ihnen die Möglichkeit, Ausgabevorgaben für die globalen
 
 **Hinweis** Nur Benutzer mit Administratorrechten auf Ordnerebene können Vorgaben für Global- und Ordnerprofile erstellen.
 
-Diese globalen Vorgaben werden unter der **Ausgabe** -Registerkarte aller zugehörigen Maps. Sie können sie verwenden, um die Ausgabe für alle zugehörigen Maps zu generieren. Sie können die Vorgabe als standardmäßige PDF-Vorgabe auswählen, um die PDF-Ausgabe zu generieren. Sie können auch **Bearbeiten**, **Umbenennen**, **Duplizieren** oder **Löschen** eine vorhandene Ausgabevorgabe aus der **Optionen** Menü.
+Diese globalen Vorgaben werden unter der **Ausgabe** -Registerkarte aller zugehörigen Karten. Sie können sie verwenden, um die Ausgabe für alle zugehörigen Maps zu generieren. Sie können die Vorgabe als standardmäßige PDF-Vorgabe auswählen, um die PDF-Ausgabe zu generieren. Sie können auch **Bearbeiten**, **Umbenennen**, **Duplizieren** oder **Löschen** eine vorhandene Ausgabevorgabe aus der **Optionen** Menü.
 
 ### Spalte &quot;Versionsbezeichnung&quot;zum Übersetzungs-Dashboard hinzugefügt
 
@@ -111,7 +109,7 @@ Auf der PDF wird eine Änderungsleiste angezeigt, die den geänderten, eingefüg
 * Eingefügten Inhalt in grüner Farbe anzeigen und unterstrichen
 * Gelöschte Inhalte in roter Farbe anzeigen und mit einem Durchstreichen markieren
 
-### Native PDF | Variablenunterstützung für Output Path und PDF File Name
+### Native PDF | Variablenunterstützung für Ausgabepfad und PDF-Dateiname
 
 Jetzt können Sie auch die folgenden vordefinierten Variablen verwenden, um den Ausgabepfad und die PDF-Datei zu definieren. Sie können eine einzelne oder eine Kombination von Variablen verwenden, um die folgenden Optionen zu definieren:
 * `${map_filename}`
@@ -140,7 +138,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Wenn Sie die Rücktaste am Ende eines Listenelements drücken, wird die gesamte Liste entfernt. (10540)
 * Bei Verwendung eines nativen PDF exportieren Sie die verschachtelten `<indexterm>` sind nicht im Index verschachtelt. (10521)
 * **Auto-Indent** in der Symbolleiste fehlt in der Quellansicht. (10448)
-* Das erste Zeichen eines Listenelements geht verloren, während die Liste im Editor erstellt wird. (10447)
+* Das erste Zeichen eines Listenelements geht verloren, während die Liste im Editor erstellt wird. 10447)
 * Es werden mehrere Popups angezeigt, wenn eine DITA-Asset-Version geändert und im Fenster der Basisbearbeitung gespeichert wird. (10399)
 * Anwendungsfehler beim Klicken **Bearbeiten** nach Auswahl aller Ausgabevorgaben aus dem Bereich Schnellgenerierung . (10388)
 * Benutzerdefinierte Metadaten für DITA-Themen werden nicht beibehalten, wenn eine Aktion zum Kopieren und Einfügen über die Assets-Benutzeroberfläche ausgeführt wird. (10367)

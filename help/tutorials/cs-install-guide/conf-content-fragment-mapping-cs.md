@@ -1,13 +1,12 @@
 ---
 title: Konfigurieren Sie die JSON-basierte Zuordnung zwischen einem Thema und einem Inhaltsfragmentmodell.
 description: Erfahren Sie, wie Sie die JSON-basierte Zuordnung zwischen einem Thema und einem Inhaltsfragmentmodell konfigurieren.
-source-git-commit: dd677257d94015d888705e4b6a43ae877e58be4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
 
 ---
-
 
 # Erstellen einer Zuordnung zwischen einem Thema und einem Inhaltsfragment
 

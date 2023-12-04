@@ -1,13 +1,12 @@
 ---
 title: Java-basierte API zum Erstellen und Aktivieren von Paketen
 description: Informationen zur Java-basierten API zum Erstellen und Aktivieren von Paketen
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
-
 
 # Java-basierte API zum Erstellen und Aktivieren von Paketen {#id175UB30E05Z}
 
@@ -90,4 +89,3 @@ Die JSON-Beispielabfrage besteht aus den folgenden Regeln:
 - Nur die Bilder .png, .jpg und .gif unter /content/dam/nested werden in das Paket aufgenommen.
 - Alle Knoten unter /content/output/sites/hierarchy\_ditamap sind im Paket enthalten.
 - Die in der `fileReference` -Eigenschaft von Knoten unter /content/output/sites/hierarchy\_ditamap im Paket enthalten.
-

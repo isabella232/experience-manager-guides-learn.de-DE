@@ -1,10 +1,9 @@
 ---
 title: Native PDF-Veröffentlichungsfunktion | Erstellen eines Seitenlayouts
 description: Erfahren Sie, wie Sie Ihr Seitenlayout für die Präsentation von Informationen in verschiedenen Bereichen Ihrer PDF-Ausgabe entwerfen.
-exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
-source-git-commit: 5abcc887a24d838caabdf9a34a84ebc851ed4cbf
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '4807'
+source-wordcount: '4825'
 ht-degree: 0%
 
 ---
@@ -416,7 +415,7 @@ Im folgenden Beispiel werden wir eine Seitenzahl und einen Kapiteltitel in den F
 
    1. Klicken Sie auf das Element Feld im Breadcrumb, um das Feld Kapiteltitel auszuwählen.
 
-   1. Klicken Sie im rechten Bereich auf die **Inhaltseigenschaften** (<img src="./assets/content-properties-icon.png" width="25">) Symbol.
+   1. Klicken Sie im rechten Bereich auf die **Inhaltseigenschaften** (<img src="./assets/content-properties-icon.png" width="25">).
 
    1. Erweitern Sie die **Layout** Eigenschaftenabschnitt und legen Sie die **Float** Eigenschaftswert auf **right**.
       <img src="./assets/float-prop-html-content.png" width="400">
@@ -468,7 +467,7 @@ Im folgenden Beispiel wird ein Kapitel-TOC in das erste Seitenlayout eines Kapit
 
 1. Platzieren Sie den Cursor im Inhaltsbereich des Seitenlayouts.
 
-1. Klicken Sie auf das Kapitel-Inhaltsverzeichnis (<img src="./assets/chapter-toc-icon.svg">) Symbol.
+1. Klicken Sie auf das Kapitel-Inhaltsverzeichnis (<img src="./assets/chapter-toc-icon.svg">).
 
    Das standardmäßige Kapitel-Inhaltsverzeichnis wird in den Inhaltsbereich eingefügt.
 

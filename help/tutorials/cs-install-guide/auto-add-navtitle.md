@@ -1,13 +1,12 @@
 ---
 title: Standardmäßig Attribut @navtitle einschließen
 description: Erfahren Sie, wie Sie standardmäßig das Attribut @navtitle einschließen.
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 1%
 
 ---
-
 
 # Standardmäßig Attribut @navtitle einschließen {#id2115BC0J0XA}
 
@@ -23,8 +22,8 @@ Einbeziehen `@navtitle` -Attribut in den Eigenschaften der Referenzdateien stand
 1. Auswählen **Handbücher** aus der Liste der Tools und klicken Sie auf die Schaltfläche **Ordnerprofile**.
 1. Klicken Sie auf **Globales Profil** Kachel.
 1. Wählen Sie die **Konfiguration des XML-Editors** Registerkarte und klicken Sie auf **Bearbeiten** Symbol oben
-1. Klicken Sie auf **Download** -Symbol, um die Datei ui\_config.json auf Ihr lokales System herunterzuladen.
-1. Sie können diese Änderung auf globaler Ebene oder auf Ordnerebene vornehmen. Abhängig davon, wo Sie diese Änderung vornehmen möchten, müssen Sie die entsprechende Datei ui\_config.json herunterladen. Weitere Informationen zum Herunterladen der Datei ui\_config.json finden Sie unter [Konfigurieren und Anpassen des XML-Web-Editors](conf-folder-level.md#id2065G300O5Z).
+1. Klicken Sie auf **Herunterladen** -Symbol, um die Datei ui\_config.json auf Ihr lokales System herunterzuladen.
+1. Sie können diese Änderung auf globaler Ebene oder auf Ordnerebene vornehmen. Abhängig davon, wo Sie diese Änderung vornehmen möchten, müssen Sie die entsprechende Datei ui\_config.json herunterladen. Weitere Informationen zum Herunterladen der Datei ui\_config.json finden Sie unter [Konfigurieren und Anpassen des XML Web Editor](conf-folder-level.md#id2065G300O5Z).
 
 1. Suchen Sie nach `ditaAttributes` Definition.
 
@@ -52,4 +51,3 @@ Einbeziehen `@navtitle` -Attribut in den Eigenschaften der Referenzdateien stand
 Mit dieser Konfiguration enthält jede Referenzdatei, die Sie einer Zuordnung hinzufügen, die `@navtitle` -Attribut.
 
 **Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
-

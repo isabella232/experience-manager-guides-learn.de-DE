@@ -1,13 +1,12 @@
 ---
 title: Anpassen des Web-Editors
 description: Erfahren Sie, wie Sie den Web Editor anpassen
-source-git-commit: 419cb49fb122d8cf05f82ed4588fc28eac1b81bd
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
 
 ---
-
 
 # Anpassen des Web-Editors {#id181AI0003PN}
 
@@ -56,5 +55,3 @@ AEM Handbücher sind mit einem leistungsstarken Web-Editor ausgestattet, mit dem
 - **[Festlegen des Erweiterten Map-Editors als Standard](conf-map-editor.md)**
 
 - **[Standardmäßig Attribut @navtitle einschließen](auto-add-navtitle.md)**
-
-

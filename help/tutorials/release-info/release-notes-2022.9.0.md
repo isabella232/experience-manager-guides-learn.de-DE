@@ -1,11 +1,10 @@
 ---
-title: Versionshinweise | Adobe Experience Manager-Handbücher as a Cloud Service, Version September 2022
+title: Versionshinweise | Adobe Experience Manager Guides as a Cloud Service, Version September 2022
 description: September-Version der Adobe Experience Manager-Handbücher as a Cloud Service
-exl-id: f6247f91-43cc-43a4-a6f8-3b1f09d0533f
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1285'
-ht-degree: 3%
+source-wordcount: '1299'
+ht-degree: 0%
 
 ---
 
@@ -13,10 +12,10 @@ ht-degree: 3%
 
 ## Aktualisierung auf die September-Version
 
-Aktualisieren Sie Ihre aktuellen Adobe Experience Manager-Handbücher as a Cloud Service (später als *AEM as a Cloud Service Handbücher*) einrichten, indem Sie die folgenden Schritte ausführen:
-1. Sehen Sie sich den Git-Code des Cloud Services an und wechseln Sie zu der Verzweigung, die in der Cloud Services-Pipeline entsprechend der Umgebung konfiguriert ist, die Sie aktualisieren möchten.
-1. Aktualisieren `<dox.version>` -Eigenschaft in `/dox/dox.installer/pom.xml` -Datei Ihres Cloud Services-Git-Codes auf 2022.9.178.
-1. Übertragen Sie die Änderungen und führen Sie die Cloud Services-Pipeline aus, um auf die September-Version von AEM Guides as a Cloud Service zu aktualisieren.
+Aktualisieren Sie Ihre aktuellen Adobe Experience Manager-Handbücher as a Cloud Service (später als *AEM as a Cloud Service Guides*) einrichten, indem Sie die folgenden Schritte ausführen:
+1. Sehen Sie sich den Git-Code des Cloud Service an und wechseln Sie zu der Verzweigung, die in der Cloud Service-Pipeline entsprechend der Umgebung konfiguriert ist, die Sie aktualisieren möchten.
+1. Aktualisieren `<dox.version>` -Eigenschaft in `/dox/dox.installer/pom.xml` -Datei Ihres Cloud Service-Git-Codes auf 2022.9.178.
+1. Übertragen Sie die Änderungen und führen Sie die Cloud Service-Pipeline aus, um auf die September-Version von AEM Guides as a Cloud Service zu aktualisieren.
 
 ## Schritte zum Indexieren des vorhandenen Inhalts
 
@@ -37,19 +36,19 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen
 | FMPS | FrameMaker |
 | --- | --- |
 | Nicht kompatibel | Aktualisierung 4 und höher für 2020 |
-|  |  |
+| | |
 
 *Die in AEM erstellten Grundlinien und Bedingungen werden in FMPS-Versionen ab 2020.2 unterstützt.
 
 ### Sauerstoffanschluss
 
-| AEM zu Handbüchern as a Cloud - Version | Sauerstoff Connector Windows | Sauerstoff Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
+| AEM-Handbücher für Cloud | Sauerstoff Connector Windows | Sauerstoff Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
 | --- | --- | --- | --- | --- |
-| 2022.9.0 | 2.7.13 | 2.7.13 | 2.3 | 2.3 |
+| 2022.9.0 | 2,7,13 | 2,7,13 | 2,3 | 2,3 |
 |  |  |  |  |
 
 
-## Neue Funktionen und Erweiterungen
+## Neue Funktionen und Verbesserungen
 
 AEM Guides as a Cloud Service bietet viele Verbesserungen und neue Funktionen in der Septemberversion:
 
@@ -92,7 +91,7 @@ Diese Metadaten setzen die auf Buchebene definierten Metadaten außer Kraft. Sie
 
 Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
-* Web Editor | Beim Verschieben von Elementen innerhalb eines Themas werden die zugewiesenen IDs für Elemente durch automatisch zugewiesene IDs überschrieben. (7895)
+* Web-Editor | Beim Verschieben von Elementen innerhalb eines Themas werden die zugewiesenen IDs für Elemente durch automatisch zugewiesene IDs überschrieben. (7895)
 * Änderungen verfolgen | Der Inhalt geht verloren, wenn mithilfe der Eingabetaste ein neues Element eingegeben wird. (10246)
 * Die auf die Hauptkarte in dita-templates verweisende Unterkarte wird nicht erstellt. (10231)
 * XML-Editor | Kopieren/Einfügen funktioniert nicht im Autorenmodus. (10309)
@@ -115,7 +114,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Native PDF | `xref` für ein Konzept für ein bestimmtes DITA-Thema nicht richtig aufgelöst. (10229)
 * Native PDF | Beschriftungstext für eine Tabelle kann in der generierten PDF-Ausgabe nicht angezeigt werden. (9827)
 * Native PDF | Verweise in Anhängen werden in der PDF-Ausgabe nicht als Anhänge angezeigt. (10182)
-* Native PDF | Das Attribut &quot;Frame&quot;für eine Tabelle wird nicht auf die temporäre HTML (als Klasse) übertragen. (10353)
+* Native PDF | Das Attribut &quot;Frame&quot;für eine Tabelle wird nicht auf die temporäre HTML (als -Klasse) übertragen. (10353)
 * Native PDF | temp HTML-Dateien fügen die Klassen colsep und rowsep zu td hinzu und die , selbst wenn ihr Wert 0 in der Quell-DITA beträgt. (10352)
 * Native PDF | Metadaten für im Seitenlayout hinzugefügte Kriterien werden nicht berücksichtigt. (10377)
 * Native PDF | Die Erstellung von PDF schlägt bei bestimmten Inhalten fehl. (9927)
@@ -130,7 +129,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
 ## Bekannte Probleme
 
-Adobe hat die folgenden bekannten Probleme in der Version AEM Guides as a Cloud Service vom September 2022 identifiziert.
+Adobe hat die folgenden bekannten Probleme für AEM Guides as a Cloud Service vom September 2022 identifiziert.
 
 
 * Die dynamische Grundlinie ist nicht in die Knowledgebase-Veröffentlichung integriert.

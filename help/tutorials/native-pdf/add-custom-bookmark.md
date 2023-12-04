@@ -1,13 +1,12 @@
 ---
 title: Native PDF-Veröffentlichungsfunktion | Hinzufügen eines benutzerdefinierten Lesezeichens in der PDF-Ausgabe
 description: Erfahren Sie, wie Sie Stile für Ihren Inhalt erstellen und Stile erstellen.
-source-git-commit: fb7ffbaefcdca4302e43d8369bc056c1f08a3ed6
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 0%
 
 ---
-
 
 # Hinzufügen eines benutzerdefinierten Lesezeichens in der PDF-Ausgabe
 
@@ -38,4 +37,3 @@ In der PDF-Ausgabe wird die *Kontaktliste* -Tabelle wird auf der zweiten Ebene i
 >[!NOTE]
 >
 >Sie müssen die richtige Ebene auswählen, auf der das benutzerdefinierte Lesezeichen hinzugefügt wird. Wenn Sie eine Zahl angeben, die kleiner als das Lesezeichen des übergeordneten Themas ist, nimmt das benutzerdefinierte Lesezeichen die Position des übergeordneten Lesezeichens an, und alle anderen Lesezeichen werden als untergeordnete Elemente angezeigt. Dies kann zu einer unerwarteten Lesezeichenstruktur führen.
-

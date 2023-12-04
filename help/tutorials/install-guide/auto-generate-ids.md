@@ -1,13 +1,12 @@
 ---
 title: Element-IDs automatisch generieren
 description: Erfahren Sie, wie Sie Element-IDs automatisch generieren
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
-
 
 # Element-IDs automatisch generieren {#id20CIL40016I}
 
@@ -25,7 +24,7 @@ Führen Sie die folgenden Schritte aus, um Elemente so zu konfigurieren, dass si
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Suchen Sie nach und klicken Sie auf **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** Bundle.
+1. Suchen Sie nach und klicken Sie auf **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** Bundle
 
 1. Im *XmlEditorConfig* -Einstellungen ein oder mehrere Elemente in der **Automatische Generierung von IDs für Element-Tags** -Feld.
 
@@ -33,7 +32,7 @@ Führen Sie die folgenden Schritte aus, um Elemente so zu konfigurieren, dass si
    >
    > Element-Tags sind DITA-Elementnamen, z. B. `body`, `title`, `codeblock`usw. Um mehrere Elemente anzugeben, trennen Sie Elementnamen durch ein Komma.
 
-1. Im **Muster für das Generieren von IDs** ein Muster zum Generieren einer ID angeben.
+1. Im **Muster für das Generieren von IDs** -Feld ein Muster zum Generieren einer ID angeben.
 
    Der Standardwert für dieses Feld ist auf `${elementName}_${id}`. Die `${elementName}` durch den Namen des Elements ersetzt. Die `${id}` generiert eine sequenzielle Zahl für das Element. Wenn Sie beispielsweise das Absatzelement mit automatisch generierten IDs zuweisen, erhält der erste Absatz im Thema oder Dokument eine ID wie p\_1, der nächste Absatz erhält p\_2 usw. In einem anderen Dokument wird der ID-Generierungsprozess jedoch neu gestartet. Das bedeutet, dass in einem anderen Dokument IDs wie p\_1 und p\_2 Absatzelementen zugewiesen werden können.
 
@@ -43,4 +42,3 @@ Führen Sie die folgenden Schritte aus, um Elemente so zu konfigurieren, dass si
 
 
 **Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
-

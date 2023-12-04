@@ -1,13 +1,12 @@
 ---
 title: Benutzerdefinierte DITA-Themenvorlage konfigurieren
 description: Erfahren Sie, wie Sie benutzerdefinierte DITA-Themenvorlagen konfigurieren
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 2%
 
 ---
-
 
 # Benutzerdefinierte DITA-Themenvorlage konfigurieren {#id16A7G0O02TD}
 
@@ -36,7 +35,7 @@ Um die DITA-Themenvorlage anzupassen und sie für das Authoring zu verwenden, m�
 
 1. [Benutzerdefinierte Authoring-Vorlage erstellen](conf-folder-level.md#id1917D0EG0HJ)
 
-1. Fügen Sie eine benutzerdefinierte Vorlage zum Profil auf globaler Ebene oder auf Ordnerebene hinzu, wie im Abschnitt [Bearbeitungsvorlagen konfigurieren](conf-folder-level.md#id1889D0IL0Y4) Abschnitt
+1. Fügen Sie eine benutzerdefinierte Vorlage zum Profil auf globaler Ebene oder auf Ordnerebene hinzu, wie im Abschnitt [Authoring-Vorlagen konfigurieren](conf-folder-level.md#id1889D0IL0Y4) Abschnitt
 
 
 ## Benutzerdefinierten DITA-Vorlagenordnerpfad konfigurieren {#id191LCF0095Z}
@@ -62,4 +61,3 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 | `com.adobe.fmdita.config.ConfigManager` | `topic.templates` | Geben Sie einen Speicherort für benutzerdefinierte Vorlagen an.<br> Wenn der angegebene Speicherort in DAM vorhanden ist, werden alle standardmäßigen Zuordnungs- und Themenvorlagen in diesen Ordner kopiert. Wenn der Speicherort nicht vorhanden ist, wird der Ordner mit allen standardmäßigen Zuordnungs- und Themenvorlagen erstellt. |
 
 **Übergeordnetes Thema:**[ Konfigurieren von Themen- und Zuordnungsvorlagen](conf-template-tags.md)
-

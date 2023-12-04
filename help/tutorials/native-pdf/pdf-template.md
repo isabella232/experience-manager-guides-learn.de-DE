@@ -1,10 +1,9 @@
 ---
 title: Native PDF-Vorlagen erstellen und anpassen
 description: Erfahren Sie, wie Sie native PDF-Vorlagen erstellen und anpassen.
-exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
-source-git-commit: 9e806ae9a06eb77441e47413981f27f6e69bd2f9
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1154'
 ht-degree: 0%
 
 ---

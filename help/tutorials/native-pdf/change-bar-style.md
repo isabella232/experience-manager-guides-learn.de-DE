@@ -1,7 +1,7 @@
 ---
 title: Native PDF-Veröffentlichungsfunktion | Arbeiten mit benutzerdefinierten Änderungsbalkenstilen
 description: Erfahren Sie, wie Sie Stile auf Änderungsleisten anwenden.
-source-git-commit: b6fd82fd09c04a3deefab51b1064a3b6aea73e47
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 # Arbeiten mit benutzerdefinierten Änderungsbalkenstilen
 
-Eine Änderungsleiste ist eine vertikale Linie, die neue oder überarbeitete Inhalte visuell identifiziert. In AEM Guides können Sie eine Änderungsleiste links neben dem geänderten Inhalt in den Themen und auch die geänderten Themen im Inhaltsverzeichnis der PDF-Ausgabe anzeigen.
+Ein Änderungsbalken ist eine vertikale Linie, die neue oder überarbeitete Inhalte visuell identifiziert. In AEM Guides können Sie eine Änderungsleiste links neben dem geänderten Inhalt in den Themen und auch die geänderten Themen im Inhaltsverzeichnis der PDF-Ausgabe anzeigen.
 
 Weitere Informationen zum Anzeigen der Änderungsleiste finden Sie unter *PDF mit Änderungsleiste zwischen veröffentlichten Versionen erstellen* Einstellung in [PDF-Ausgabe veröffentlichen](../web-editor/native-pdf-web-editor.md).
 

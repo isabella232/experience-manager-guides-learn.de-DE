@@ -1,10 +1,9 @@
 ---
 title: Berichte in AEM Handbüchern
-description: Erfahren Sie, welche Berichte in AEM verfügbar sind, um Benutzer bei der Verbesserung der Inhaltsqualität zu unterstützen.
-exl-id: f0d761ff-efea-452c-bb8e-865f34a182fc
-source-git-commit: 7871a54f3181fd114e24e0e10cfc15351cefd761
+description: Erfahren Sie, welche Berichte in AEM zur Verfügung stehen, um Benutzer bei der Verbesserung der Inhaltsqualität zu unterstützen.
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '263'
 ht-degree: 1%
 
 ---
@@ -34,7 +33,7 @@ In dieser Sitzung wurden native Berichte angezeigt, die Benutzern zur Verfügung
 - **Datum** - 30. März 2023
 - **Anzahl der TeilnehmerInnen** - 102
 - **Dauer** - 60 Minuten
-- **Zielgruppe** - Kunden, Partner und Mitarbeiter der Adobe
+- **Zielgruppe** - Kunden, Partner und Adobe-Mitarbeiter
 
 
 ## Haupterkenntnisse
@@ -53,14 +52,13 @@ In dieser Sitzung haben Sie Folgendes erfahren:
 
 - **Benutzerhandbuch** - [Autoreninhalt](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
-- **Community-Forum** - Sitzungsspezifische Community-Interaktionen auf Experience League finden Sie unter  [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Community-Forum** - Sitzungsspezifische Community-Interaktionen auf dem Experience League finden Sie unter  [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > Die in dieser Sitzung angezeigten Funktionen sind in den folgenden Versionen AEM Handbücher verfügbar:
 > - On-Premise: 4.2 oder höher
-> - Cloud Services: 2302 oder höher
-
+> - Cloud Service: 2302 oder höher
 
 
 ## Nächste Sachverständigensitzung

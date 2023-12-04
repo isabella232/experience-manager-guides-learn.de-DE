@@ -2,11 +2,10 @@
 title: Arbeiten mit bedingten Inhalten
 description: Erfahren Sie, wie Sie Bedingungen erstellen und dann die Generierung bedingter Inhalte in [!DNL AEM Guides]
 role: User
-exl-id: a86007e3-48d1-458b-84a7-b683e113e5b2
-source-git-commit: c8feab55ed3b8e7b36ec46b21f63155766627e40
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 2%
+source-wordcount: '199'
+ht-degree: 5%
 
 ---
 
@@ -23,21 +22,21 @@ ht-degree: 2%
 
 **Schritt 1**
 
-Bedingungen für die Dokumentation definieren unter [!UICONTROL Ordnerprofile]: Siehe Abschnitt **Bedingte Attribute für globale Profile oder Profile auf Ordnerebene konfigurieren** in [Seite 69 des Installations- und Konfigurationshandbuchs](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf)
+Definieren Sie Bedingungen, die für die Dokumentation in [!UICONTROL Ordnerprofile]: siehe Abschnitt **Bedingte Attribute für globale Profile oder Profile auf Ordnerebene konfigurieren** in [Seite 69 des Installations- und Konfigurationshandbuchs](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf)
 
 ![Bedingungen in Ordnerprofilen konfigurieren](assets/conditions-in-profiles.png)
 
 **Schritt 2**
 
-Wählen Sie die **[!UICONTROL Ordnerprofil]** definiert in Schritt 1 unter **Benutzereinstellungen** im XML-Editor: Siehe Abschnitt **Benutzereinstellungen** in [Seite 41 des Benutzerhandbuchs](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)
+Wählen Sie die **[!UICONTROL Ordnerprofil]** definiert in Schritt 1 unter **Benutzereinstellungen** im XML-Editor, siehe Abschnitt **Benutzereinstellungen** in [Seite 41 des Benutzerhandbuchs](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)
 
 
 **Schritt 3**
 
-Verwenden Sie die Bedingungen, um Abschnitte des Inhalts mit Bedingungen zu versehen: Siehe Abschnitt **Bedingungen** in [Seite 90 des Benutzerhandbuchs](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)
+Bedingungen zum Konditionalisieren von Inhaltsabschnitten verwenden : siehe Abschnitt . **Bedingungen** in [Seite 90 des Benutzerhandbuchs](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)
 
 ![Nutzungsbedingungen im Web-Editor](assets/conditions-in-web-editor.png)
 
 **Schritt 4**
 
-Definieren Sie Bedingungsvorgaben auf Zuordnungsebene, um zu wählen, welche Bedingungen in der Ausgabe aktiviert werden sollen: Siehe Abschnitt **Verwenden von Bedingungsvorgaben** in [Seite 249 des Benutzerhandbuchs](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)
+Definieren Sie Bedingungsvorgaben auf Zuordnungsebene, um zu entscheiden, welche Bedingungen in der Ausgabe aktiviert werden sollen: Siehe Abschnitt . **Verwenden von Bedingungsvorgaben** in [Seite 249 des Benutzerhandbuchs](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)

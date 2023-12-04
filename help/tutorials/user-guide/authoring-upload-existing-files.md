@@ -1,11 +1,10 @@
 ---
 title: Hochladen von Dateien
 description: Erfahren Sie, wie Sie Ihre Dateien in das AEM-Repository hochladen und Fehler beheben können. Erfahren Sie mehr über die Benutzeroberfläche der Asset-Konsole, AEM Desktop-Programm, die Erfassung von Asset-Massen und die Verwendung von FrameMaker für Massen-Uploads.
-exl-id: d6a73953-94dd-4fa5-b09c-5e4c77fead62
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 4%
+source-wordcount: '405'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +24,7 @@ Sie können Inhalte auf Ihrem Desktop auswählen und auf die AEM-Benutzeroberfl�
 
 Verwenden Sie AEM Desktop-Programm, wenn Sie Kreativprofis sind und die Assets auf Ihrem lokalen Desktop verwalten möchten. Sie können diese Assets mit Ihren Desktop-Applikationen öffnen und bearbeiten. Sie können auch Versionen verwalten und Ihre Dateien für andere Benutzer freigeben. Weitere Informationen finden Sie unter [AEM Desktop-Programm](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=de).
 
-## Tool zur Asset-Massenaufnahme
+## Asset-Massenaufnahme
 
 Wenn Sie über umfangreiche Migrationen und gelegentliche Massenaufnahmen verfügen, verwenden Sie Asset-Massenaufnahmen, um Ihre Inhalte hochzuladen. Mit diesem Tool können Sie Masseninhalte aus unterstützten Datenspeichern wie Azure oder S3 hochladen. Weitere Informationen finden Sie unter [Asset-Massenaufnahme](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor).
 

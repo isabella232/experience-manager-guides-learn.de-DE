@@ -1,14 +1,14 @@
 ---
-title: Fügen Sie eine neue, benutzerdefiniert umsetzbare Schaltfläche in der Web-Beditor-Symbolleiste hinzu
+title: Fügen Sie eine neue, benutzerdefiniert umsetzbare Schaltfläche in der Web-Beditor-Symbolleiste hinzu.
 description: Erfahren Sie, wie Sie eine neue benutzerdefinierte Schaltfläche in der WebBeditor-Symbolleiste hinzufügen und JavaScript aufrufen, um sie benutzerdefiniert zu bedienen.
-source-git-commit: 26a6acde54953eab1d751f165d0f7769c7e790fe
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
 
-# Fügen Sie eine neue, benutzerdefiniert umsetzbare Schaltfläche in der Web-Beditor-Symbolleiste hinzu
+# Fügen Sie eine neue, benutzerdefiniert umsetzbare Schaltfläche in der Web-Beditor-Symbolleiste hinzu.
 
 In diesem Artikel erfahren wir, wie Sie eine neue benutzerdefinierte Schaltfläche in der WebBeditor-Symbolleiste hinzufügen und JavaScript aufrufen, um den gewünschten benutzerdefinierten Vorgang auszuführen.
 
@@ -63,7 +63,7 @@ Verwenden Sie die Ordnerprofile, um die *ui_config.json* Fügen Sie auf der Regi
 
 
 - Erstellen Sie nach dem Speichern des Ordnerprofils einen &quot;cq:ClientLibraryFolder&quot;in einem Projektverzeichnis (möglicherweise unter */apps*) und fügen Sie Eigenschaften hinzu, wie im Screenshot unten gezeigt:
-   ![Client-Bibliothekseinstellungen für WebBeditor](../../../assets/authoring/webeditor-add-customtoolbarbutton-clientlibrarysettings.png)
+  ![Client-Bibliothekseinstellungen für WebEditor](../../../assets/authoring/webeditor-add-customtoolbarbutton-clientlibrarysettings.png)
 
 ```
 This example uses "coralui3" library to show a dialog as it is used in the Javascript sample we presented.
@@ -71,8 +71,8 @@ You may use different library of your choice.
 ```
 
 - Erstellen Sie unter diesem Client-Bibliotheksordner zwei Dateien, wie unten erwähnt:
-   - *overrides.js*: über den JavaScript-Code zur Verarbeitung des On-Click-Ereignisses für &quot;insertJIRARef&quot;(verwenden Sie das angehängte Paket, um den Inhalt dieses JavaScripts zu erhalten)
-   - *js.txt*: , das die &quot;overrides.js&quot;enthält, um dieses JavaScript zu aktivieren
+   - *overrides.js*: enthält den JavaScript-Code zur Verarbeitung des On-Click-Ereignisses für &quot;insertJIRARef&quot;(verwenden Sie das angehängte Paket, um den Inhalt dieses JavaScripts zu erhalten)
+   - *js.txt*: enthält die Datei &quot;overrides.js&quot;, um dieses JavaScript zu aktivieren.
 
 - Speichern Sie die Änderungen und Sie sollten bereit zum Testen sein.
 

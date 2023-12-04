@@ -1,13 +1,12 @@
 ---
 title: Versionsverwaltung
 description: Erfahren Sie, wie Sie Versionen verwalten
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1498'
-ht-degree: 1%
+source-wordcount: '1502'
+ht-degree: 0%
 
 ---
-
 
 # Versionsverwaltung {#id181GB000XY4}
 
@@ -26,7 +25,7 @@ In einer Umgebung mit mehreren Anwendungen ist es auch wichtig sicherzustellen, 
 So aktivieren Sie die **Neue Version für hochgeladene Datei erstellen** -Option, führen Sie die folgenden Schritte aus:
 
 1. Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-install-additional-config-override.md#) , um die Konfigurationsdatei zu erstellen.
-1. Geben Sie in der Konfigurationsdatei die folgenden \(property\) Details an, um die **Neue Version für hochgeladene Datei erstellen** Option:
+1. Geben Sie in der Konfigurationsdatei die folgenden \(Eigenschaft\)-Details an, um die **Neue Version für hochgeladene Datei erstellen** Option:
 
 
    | PID | Eigenschaftenschlüssel | Eigenschaftswert |
@@ -68,7 +67,7 @@ Darüber hinaus können Sie konfigurieren, dass eine Warnmeldung angezeigt wird,
 So können Benutzer die Datei beim Hochladen überschreiben, die von ihnen oder einem anderen Benutzer ausgecheckt wurde:
 
 1. Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-install-additional-config-override.md#) , um die Konfigurationsdatei zu erstellen.
-1. Geben Sie in der Konfigurationsdatei die folgenden \(property\) Details an, um die **Auscheckte Datei beim Hochladen überschreiben** Option:
+1. Geben Sie in der Konfigurationsdatei die folgenden \(Eigenschaft\)-Details an, um die **Auscheckte Datei beim Hochladen überschreiben** Option:
 
 
 | PID | Eigenschaftenschlüssel | Eigenschaftswert |
@@ -106,11 +105,11 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 
 Je nachdem, wem Sie Zugriff auf das Löschen gewähren möchten, geben Sie eine der folgenden Konstanten an:
 
-- allow\_unsafe\_delete\_for\_all: Erteilen Sie allen Benutzern Berechtigungen zum Löschen von Dateien. Wenn in diesem Fall die Datei\(en\) Verweise enthält oder von anderen Dateien referenziert wird, können Sie diese Dateien auch erzwungen löschen\(en\). Vor dem Löschen der Datei wird Ihnen eine Eingabeaufforderung mit den Verweisen angezeigt. Sie können den Löschvorgang abbrechen, die Verweise entfernen und schließlich die Datei löschen\(en\). Alternativ können Sie die Datei\(en\) erzwungen löschen, ohne die Verweise zu entfernen.
+- allow\_unsafe\_delete\_for\_all: Erteilen Sie allen Benutzern die Berechtigung zum Löschen von Dateien. Wenn in diesem Fall die Datei\(en\) Verweise enthält oder von anderen Dateien referenziert wird, können Sie diese Dateien auch erzwungen löschen\(en\). Vor dem Löschen der Datei wird Ihnen eine Eingabeaufforderung mit den Verweisen angezeigt. Sie können den Löschvorgang abbrechen, die Verweise entfernen und schließlich die Datei löschen\(en\). Alternativ können Sie die Datei\(en\) erzwungen löschen, ohne die Verweise zu entfernen.
 
   ![](assets/allow_unsafe_delete-force-delete.PNG)
 
-- allow\_unsafe\_delete\_for\_delete\_assets\_group: Ein Administrator oder ein Benutzer, der zum *delete-assets* -Gruppe Dateien löschen. Wenn ein anderer Benutzer versucht, Dateien mit Verweisen zu löschen, kann er diese Dateien erst löschen, wenn alle Verweise entfernt wurden. Der folgende Screenshot wird angezeigt, wenn ein Benutzer, der keine Berechtigungen hat, versucht, Dateien zu löschen.
+- allow\_unsafe\_delete\_for\_delete\_assets\_group: Ein Administrator oder ein Benutzer, der zum *delete-assets* -Gruppe Dateien löschen kann. Wenn ein anderer Benutzer versucht, Dateien mit Verweisen zu löschen, kann er diese Dateien erst löschen, wenn alle Verweise entfernt wurden. Der folgende Screenshot wird angezeigt, wenn ein Benutzer, der keine Berechtigungen hat, versucht, Dateien zu löschen.
 
   ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG)
 
@@ -148,7 +147,7 @@ Führen Sie die folgenden Schritte aus, um die älteren Versionen zu bereinigen:
   >
   > Sie können nur DITA-Dateien bereinigen.
 
-1. Klicken **Bericht zur Bereinigung der Vorschau**.
+1. Klicks **Bericht zur Bereinigung der Vorschau**.
 
    >[!NOTE]
    >
@@ -163,10 +162,9 @@ Führen Sie die folgenden Schritte aus, um die älteren Versionen zu bereinigen:
 
    Der Bereinigungsstatus wird angezeigt.
 
-   Klicken **Bericht zur Versionsbereinigung herunterladen** , um die bereinigten Versionen anzuzeigen. Dieser Bericht liefert den Bereinigungsstatus für alle Versionen zusammen mit den Gründen, warum eine bestimmte Version beibehalten wurde oder warum sie bereinigt wurde.
+   Klicks **Bericht zur Versionsbereinigung herunterladen** , um die bereinigten Versionen anzuzeigen. Dieser Bericht liefert den Bereinigungsstatus für alle Versionen zusammen mit den Gründen, warum eine bestimmte Version beibehalten wurde oder warum sie bereinigt wurde.
 
 
 >[!NOTE]
 >
 > Der Bericht wird am folgenden Speicherort heruntergeladen: `/var/dxml/versionpurge`
-

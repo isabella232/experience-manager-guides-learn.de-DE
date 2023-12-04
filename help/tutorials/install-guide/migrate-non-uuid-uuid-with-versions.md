@@ -1,15 +1,12 @@
 ---
 title: Konvertieren von Nicht-UUID-Inhalten mit Versionen in UUID-Inhalt
 description: Erfahren Sie, wie Sie Nicht-UUID-Inhalte mit Versionen migrieren.
-source-git-commit: 33cdc1b14db0d123c01bbc719c2833ce0df4c9d9
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 4%
+source-wordcount: '1287'
+ht-degree: 2%
 
 ---
-
-
-
 
 # Migrieren von Nicht-UUID-Inhalten mit Versionen
 
@@ -19,7 +16,7 @@ Führen Sie diese Schritte aus, um Ihren Nicht-UUID-Inhalt mit Versionen zu UUID
 
 | Aktuelle AEM Guides-Version (Nicht-UUID) | Erforderliche Version für die Migration zu UUID | Unterstützter Aktualisierungspfad |
 |---|---|---|
-| 3.8.5 | 4.0 non-UUID | Installieren Sie 4.1 (UUID) und führen Sie die Migration aus. |
+| 3,8,5 | 4.0 non-UUID | Installieren Sie 4.1 (UUID) und führen Sie die Migration aus. |
 | 4.0, 4.0.x, 4.1 oder 4.1.x | Wie aktuelle Nicht-UUID | Installieren Sie 4.1 (UUID) und führen Sie die Migration aus. |
 | 4.2 oder höher | nicht vorhanden | Noch nicht unterstützt |
 
@@ -57,7 +54,7 @@ Dieser Schritt kann fehlschlagen, wenn sich im System viele DITA-Dateien befinde
 
 ### Schritt 1: Konfiguration aktualisieren
 
-1. Stellen Sie sicher, dass der verfügbare freie Speicherplatz mindestens dem 10-fachen des Speicherplatz entspricht, den AEM (crx-quickstart-Verzeichnis) während der Migration benötigt. Nach Abschluss der Migration können Sie den Großteil des Festplattenspeichers durch Ausführen der Komprimierung zurückgewinnen (siehe [Revisionsbereinigung](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en)).
+1. Stellen Sie sicher, dass der verfügbare freie Speicherplatz mindestens dem 10-fachen des Speicherplatz entspricht, den AEM (crx-quickstart-Verzeichnis) während der Migration benötigt. Nach Abschluss der Migration können Sie den Großteil des Festplattenspeichers durch Ausführen der Komprimierung zurückgewinnen (siehe [Revisionsbereinigung](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=de)).
 
 1. Aktivieren *Aktivieren von Workflow-Startern für Nachbearbeitung* in `com.adobe.fmdita.config.ConfigManager` und *Aktivieren der Versionspostverarbeitung* in `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.`
 
@@ -87,7 +84,7 @@ Führen Sie die angegebene Abfrage für einen Ordner mit kleineren Daten aus, be
 
 | Endpunkt-URL | Anfragetyp | Abfrageparameter | Erwartete Ergebnisse |
 |---|---|---|---|
-| `/bin/guides/uuid_upgrade`<br><br> **Beispiel**: `http://localhost:4502/bin/guides/uuid_upgrade?root=/content/dam/test` | GET | **root**: Stammordner <br>**Wert**: /content/dam für das gesamte Repository.<br><br>**ignoreImageVersions**<br> **Wert**: true/false (ignoriert die Verarbeitung von Bildversionen. Der Standardwert lautet false) | Migrationsbericht mit Liste der erfolgreich migrierten Dateien, fehlgeschlagene Aktualisierung, fehlerhafte Aktualisierung und Gesamtdauer der Aktualisierung. <br><br> **Beispielausgabe**: <br> [INFO] Liste der fehlgeschlagenen Dateien:0 <br>[INFO] Anzahl der erfolgreich aktualisierten Dateien: 2241 <br>[INFO] Anzahl Fehlerbehebung bei fehlerhaften Dateien: 28 <br>[INFO] Anzahl von Dateien fehlgeschlagen Aktualisierung: 0 <br> [INFO] Gesamtbesuchszeit: 0:37:03 131 |
+| `/bin/guides/uuid_upgrade`<br><br> **Beispiel**: `http://localhost:4502/bin/guides/uuid_upgrade?root=/content/dam/test` | GET | **root**: Stammordner <br>**Wert**: /content/dam für das gesamte Repository.<br><br>**ignoreImageVersions**<br> **Wert**: true/false (ignoriert die Verarbeitung von Bildversionen. Der Standardwert ist &quot;false&quot;) | Migrationsbericht mit Liste der erfolgreich migrierten Dateien, fehlgeschlagene Aktualisierung, fehlerhafte Aktualisierung und Gesamtdauer der Aktualisierung. <br><br> **Beispielausgabe**: <br> [INFO] Liste der fehlgeschlagenen Dateien:0 <br>[INFO] Anzahl der erfolgreich aktualisierten Dateien: 2241 <br>[INFO] Anzahl Fehlerbehebung bei fehlerhaften Dateien: 28 <br>[INFO] Anzahl von Dateien fehlgeschlagen Aktualisierung: 0 <br> [INFO] Gesamtbesuchszeit: 0:37:03 131 |
 
 >[!NOTE]
 >
@@ -101,7 +98,7 @@ Führen Sie die Abfrage für den Ordner aus, den Sie bereits migriert haben, um 
 
 | Endpunkt-URL | Anfragetyp | Abfrageparameter | Erwartete Ergebnisse |
 |---|---|---|---|
-| `/bin/guides/baseline_uuid_upgrade`<br><br> **Beispiel**: ` http://localhost:4502/bin/guides/baseline_uuid_upgrade?root=/content/dam/test` | GET | **root**: Stammordner <br> **Wert**: /content/dam für das gesamte Repository. <br><br> **ignoreImageVersions**<br> **Wert**: true/false <br>(Die Verarbeitung von Bildversionen wird ignoriert. Der Standardwert lautet false) <br><br> **doReviews** <br> **Wert**: true/false <br> (Wenn Überprüfungen aktualisiert werden müssen oder nicht. Der Standardwert lautet false.) Migrationsbericht mit Liste der erfolgreich migrierten Dateien, fehlgeschlagene Aktualisierung, fehlerhafte Aktualisierung und Gesamtdauer der Aktualisierung. <br> <br> **Beispielausgabe**:<br>[INFO] Liste der fehlgeschlagenen Dateien <br> [INFO] Anzahl der erfolgreich aktualisierten Dateien 2241<br> [INFO] Anzahl von Dateien, die mit Fehlern aktualisiert wurden 28<br>[INFO] Anzahl von Dateien fehlgeschlagen Aktualisierung 0<br>[INFO] Gesamtbesuchszeit: 0:37:03 131 |
+| `/bin/guides/baseline_uuid_upgrade`<br><br> **Beispiel**: ` http://localhost:4502/bin/guides/baseline_uuid_upgrade?root=/content/dam/test` | GET | **root**: Stammordner <br> **Wert**: /content/dam für das gesamte Repository. <br><br> **ignoreImageVersions**<br> **Wert**: true/false <br>(Die Verarbeitung von Bildversionen wird ignoriert. Der Standardwert ist &quot;false&quot;) <br><br> **doReviews** <br> **Wert**: true/false <br> (Wenn Überprüfungen aktualisiert werden müssen oder nicht. Der Standardwert ist false.) Migrationsbericht mit Liste der erfolgreich migrierten Dateien, fehlgeschlagene Aktualisierung, fehlerhafte Aktualisierung und Gesamtdauer der Aktualisierung. <br> <br> **Beispielausgabe**:<br>[INFO] Liste der fehlgeschlagenen Dateien <br> [INFO] Anzahl der erfolgreich aktualisierten Dateien 2241<br> [INFO] Anzahl von Dateien, die mit Fehlern aktualisiert wurden 28<br>[INFO] Anzahl von Dateien fehlgeschlagen Aktualisierung 0<br>[INFO] Gesamtbesuchszeit: 0:37:03 131 |
 
 
 ### Schritt 3: Konfiguration wiederherstellen

@@ -1,17 +1,16 @@
 ---
 title: Installation AEM Guides überprüfen
 description: Erfahren Sie, wie Sie die Installation AEM Guides überprüfen
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 5%
+source-wordcount: '128'
+ht-degree: 0%
 
 ---
 
-
 # Installation AEM Guides überprüfen {#id213BD030FBE}
 
-Nachdem Sie AEM Guides installiert haben, müssen Sie überprüfen, ob die Installation erfolgreich war oder nicht. Führen Sie die folgenden Schritte aus, um die Installation zu überprüfen:
+Nach der Installation AEM Guides müssen Sie überprüfen, ob die Installation erfolgreich war oder nicht. Führen Sie die folgenden Schritte aus, um die Installation zu überprüfen:
 
 1. Rufen Sie die Entwicklerkonsole Ihres Cloud Service auf.
 
@@ -27,4 +26,3 @@ Nachdem Sie AEM Guides installiert haben, müssen Sie überprüfen, ob die Insta
 
 
 **Übergeordnetes Thema:**[ Herunterladen und installieren](download-install.md)
-

@@ -1,13 +1,12 @@
 ---
 title: Anpassen des Web-Editors
 description: Erfahren Sie, wie Sie den Web Editor anpassen
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
 
 ---
-
 
 # Anpassen des Web-Editors {#id181AI0003PN}
 
@@ -40,5 +39,3 @@ AEM Handbücher sind mit einem leistungsstarken Web-Editor ausgestattet, mit dem
 - [Konfigurieren der Anzahl der LimitReads für eine Abfrage](conf-query-limitreads.md)
 
 - [Pakete für die artikelbasierte Veröffentlichung installieren](configure-article-based-publishing.md)
-
-

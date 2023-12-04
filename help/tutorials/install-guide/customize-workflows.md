@@ -1,13 +1,12 @@
 ---
 title: Workflows konfigurieren und anpassen
 description: Erfahren Sie, wie Sie Workflows konfigurieren und anpassen.
-source-git-commit: 9fe396dcfd2e3570ec386c958d7d4efdb4d608e5
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1781'
-ht-degree: 5%
+source-wordcount: '1744'
+ht-degree: 3%
 
 ---
-
 
 # Workflows konfigurieren und anpassen {#id181AI0OJ0RO}
 
@@ -15,11 +14,11 @@ Mit Workflows können Sie Adobe Experience Manager \(AEM\)-Aktivitäten automati
 
 Weitere Informationen zu Workflows in AEM finden Sie unter:
 
-- [Verwalten von Workflows](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/workflows.html)
+- [Verwalten von Workflows](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)
 
-- Anwenden von und Teilnehmen an Workflows: [Arbeiten mit Workflows](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/workflows.html).
+- Anwenden von und Teilnehmen an Workflows: [Arbeiten mit Workflows](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html).
 
-- Das Erstellen von Workflow-Modellen und die Erweiterung der Workflow-Funktionalität: [Entwickeln und Erweitern von Workflows](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/workflows.html).
+- Das Erstellen von Workflow-Modellen und die Erweiterung der Workflow-Funktionalität: [Entwickeln und Erweitern von Workflows](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html).
 
 - Verbesserung der Leistung von Workflows, die umfangreiche Serverressourcen nutzen: [Gleichzeitige Workflow-Verarbeitung](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
 
@@ -28,17 +27,17 @@ Die Abschnitte in diesem Thema führen Sie durch verschiedene Anpassungen, die S
 
 ## Anpassen des Prüfungs-Workflows {#id176NE0C00HS}
 
-Das Content-Authoring-Team jedes Unternehmens arbeitet auf eine bestimmte Weise, um seine Geschäftsanforderungen zu erfüllen. In einigen Unternehmen gibt es einen dedizierten Editor, während einige andere Organisationen ein automatisiertes Redaktionsüberprüfungssystem einrichten könnten. In einer Organisation könnte beispielsweise ein typischer Bearbeitungs- und Veröffentlichungsarbeitsablauf Aufgaben wie beispielsweise umfassen: Wenn ein Autor mit Authoring-Inhalten fertig ist, wird er automatisch an die Validierer gesendet und nach Abschluss der Überprüfung wird er zum Generieren der endgültigen Ausgabe an den Herausgeber weitergeleitet. In AEM können Aktivitäten, die Sie mit Ihren Inhalten und Assets durchführen, in Form eines Prozesses kombiniert und einem AEM Workflow zugeordnet werden. Weitere Informationen zu Workflows in AEM finden Sie unter [Verwalten von Workflows](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/workflows.html) in AEM Dokumentation.
+Das Content-Authoring-Team jedes Unternehmens arbeitet auf eine bestimmte Weise, um seine Geschäftsanforderungen zu erfüllen. In einigen Unternehmen gibt es einen dedizierten Editor, während einige andere Organisationen ein automatisiertes Redaktionsüberprüfungssystem einrichten könnten. In einer Organisation könnte beispielsweise ein typischer Bearbeitungs- und Veröffentlichungsarbeitsablauf Aufgaben wie beispielsweise umfassen: Wenn ein Autor mit Authoring-Inhalten fertig ist, wird er automatisch an die Validierer gesendet und nach Abschluss der Überprüfung wird er zum Generieren der endgültigen Ausgabe an den Herausgeber weitergeleitet. In AEM können Aktivitäten, die Sie mit Ihren Inhalten und Assets durchführen, in Form eines Prozesses kombiniert und einem AEM Workflow zugeordnet werden. Weitere Informationen zu Workflows in AEM finden Sie unter [Verwalten von Workflows](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html) in AEM Dokumentation.
 
 Mit AEM Guides können Sie den standardmäßigen Prüfungs-Workflow anpassen. Sie können die folgenden vier benutzerdefinierten Review-bezogenen Prozesse mit Ihren anderen Authoring- oder Publishing-Workflows verwenden.
 
-- **Prüfung erstellen**: Dieser Prozess bereitet die zum Erstellen einer Prüfungsaufgabe erforderlichen Metadaten vor. Beispielsweise werden den Validierungsverantwortlichen Prüfungsberechtigungen zugewiesen, der Status der zu überprüfenden Themen festgelegt, Zeitpläne für die Überprüfung festgelegt und mehr. Von den vier Prozessen ist dies der einzige erforderliche Prozess, der in Ihren benutzerdefinierten Workflow aufgenommen werden muss. Im Workflow können Sie die drei anderen Prozesse ein- oder ausschließen.
+- **Prüfung erstellen**: Dieser Prozess bereitet die Metadaten vor, die zum Erstellen einer Prüfungsaufgabe erforderlich sind. Beispielsweise werden den Validierungsverantwortlichen Prüfungsberechtigungen zugewiesen, der Status der zu überprüfenden Themen festgelegt, Zeitpläne für die Überprüfung festgelegt und mehr. Von den vier Prozessen ist dies der einzige erforderliche Prozess, der in Ihren benutzerdefinierten Workflow aufgenommen werden muss. Im Workflow können Sie die drei anderen Prozesse ein- oder ausschließen.
 
-- **Prüfungsaufgabe zuweisen**: Dieser Prozess erstellt die Prüfungsaufgabe und sendet die Aufgabenbenachrichtigung an den Initiator und die Überprüfer.
+- **Prüfungsaufgabe zuweisen**: Dieser Prozess erstellt die Überprüfungsaufgabe und sendet die Aufgabenbenachrichtigung an den Initiator und die Überprüfer.
 
-- **Überprüfungs-E-Mail senden**: Dieser Prozess sendet die Überprüfungs-E-Mail an den Initiator und die Überprüfer.
+- **Überprüfungs-E-Mail senden**: Dieser Prozess sendet die Review-E-Mail an den Initiator und die Überprüfer.
 
-- **Vorgang planen zum Schließen der Überprüfung**: Dadurch wird sichergestellt, dass der Überprüfungsprozess mit Erreichen der Frist abgeschlossen ist.
+- **Vorgang planen zum Schließen der Überprüfung**: Dieser Prozess stellt sicher, dass der Überprüfungsprozess beim Erreichen des Termins abgeschlossen ist.
 
 
 Wenn Sie einen benutzerdefinierten Überprüfungs-Workflow erstellen, besteht die erste Aufgabe darin, die erforderlichen Metadaten festzulegen, die für den Prozess zum Erstellen einer Überprüfung erforderlich sind. Dazu können Sie ein ECMA-Skript erstellen. Nachfolgend finden Sie ein Beispiel für das ECMA-Skript, das die Metadaten zuweist:
@@ -79,14 +78,14 @@ Nachdem Sie das Skript erstellt haben, rufen Sie es auf, bevor Sie in Ihrem Work
 
 Um die Leistung der Workflow-Engine zu verbessern, können Sie regelmäßig abgeschlossene Workflow-Instanzen aus dem AEM-Repository bereinigen. Wenn Sie die standardmäßigen AEM verwenden, werden alle abgeschlossenen Workflow-Instanzen nach einem bestimmten Zeitraum bereinigt. Dies führt auch dazu, dass alle Prüfungs-Workflows aus dem AEM-Repository gelöscht werden.
 
-Sie können die automatische Bereinigung von Überprüfungs-Workflows verhindern, indem Sie das Überprüfungs-Workflow-Modell \(Informationen\) aus der automatischen Bereinigungskonfiguration entfernen. Sie müssen die **Adobe Granite-Workflow-Bereinigungskonfiguration** , um die Überprüfungs-Workflow-Modelle aus der Liste der automatischen Bereinigung zu entfernen.
+Sie können die automatische Bereinigung von Überprüfungs-Workflows verhindern, indem Sie das Überprüfungs-Workflow-Modell \(Informationen\) aus der automatischen Bereinigungskonfiguration entfernen. Sie müssen die **Adobe Granite-Workflow-Bereinigungskonfiguration** , um die Überprüfungs-Workflow-Modelle aus der Liste für die automatische Bereinigung zu entfernen.
 
-Im **Adobe Granite-Workflow-Bereinigungskonfiguration**, stellen Sie sicher, dass Sie mindestens einen Workflow auflisten, den Sie sicher bereinigen können. Sie können beispielsweise einen der folgenden, von AEM Guides erstellten Workflows verwenden:
+Im **Adobe Granite-Workflow-Bereinigungskonfiguration** müssen Sie mindestens einen Workflow auflisten, den Sie sicher bereinigen können. Sie können beispielsweise einen der folgenden, von AEM Guides erstellten Workflows verwenden:
 
 - /etc/workflow/models/publishditamap/jcr:content/model
 - /etc/workflow/models/post-dita-project-creation-tasks/ jcr:content/model
 
-Hinzufügen eines Workflows im **Adobe Granite-Workflow-Bereinigungskonfiguration** stellt sicher, dass AEM nur die in der Konfiguration aufgelisteten Workflows löscht. Dadurch wird verhindert, dass AEM die Informationen des Prüfungs-Workflows bereinigen.
+Workflow im **Adobe Granite-Workflow-Bereinigungskonfiguration** stellt sicher, dass AEM nur die in der Konfiguration aufgelisteten Workflows löscht. Dadurch wird verhindert, dass AEM die Informationen des Prüfungs-Workflows bereinigen.
 
 Weitere Informationen zum Konfigurieren der **Adobe Granite-Workflow-Bereinigungskonfiguration**, siehe *Verwalten von Workflow-Instanzen* in AEM Dokumentation.
 
@@ -96,7 +95,7 @@ Einige der Workflows für AEM Guides nutzen E-Mail-Benachrichtigungen. Wenn Sie 
 
 AEM Guides enthalten eine Reihe von E-Mail-Vorlagen, die Sie anpassen können. Führen Sie die folgenden Schritte aus, um diese Vorlagen anzupassen:
 
-1. Melden Sie sich bei AEM an und öffnen Sie den Modus CRXDE Lite .
+1. Melden Sie sich bei AEM an und öffnen Sie den CRXDE Lite-Modus.
 
 1. Navigieren Sie auf der Registerkarte Navigator zum folgenden Speicherort:
 
@@ -127,7 +126,7 @@ Sie können ein neues Workflow-Modell erstellen, das als Workflow für die Gener
 | `generatedPath` | Zeichenfolge | Pfad in DAM, in dem die generierte Ausgabe gespeichert wird. |
 | `outputType` | com.adobe.fmdita.output.OutputType | Typ der Ausgabevorgabe. |
 | `outputTitle` | Zeichenfolge | Titel der Ausgabevorgabe. |
-| `outputHistoryPath` | Zeichenfolge | Repository-Pfad des Verlaufsknotens. |
+| `outputHistoryPath` | Zeichenfolge | Repository-Pfad des Verlaufsknotens |
 | `isSuccess` | Boolesch | Eine Markierung, die den finalen Status des Generierungsprozesses der Ausgabe darstellt - Erfolg oder Fehler. |
 | `logPath` | Zeichenfolge | Pfad in DAM, in dem die Ausgabegenerierungsprotokolle gespeichert werden. |
 | `generatedTime` | Long | Zeitpunkt, zu dem der Output-Generierungsprozess ausgelöst wurde. |
@@ -160,11 +159,11 @@ generatedPath;
 */
 ```
 
-Rufen Sie nach der Erstellung des Skripts das benutzerdefinierte Skript in Ihrem Workflow auf. Anschließend können Sie entsprechend Ihren Anforderungen die anderen Workflow-Prozesse aufrufen. Nachdem Sie Ihren benutzerdefinierten Workflow entworfen haben, rufen Sie die *Post-Generierung abschließen* als letzten Schritt in Ihrem Workflow-Prozess. Die *Post-Generierung abschließen* Schritt stellt sicher, dass der Status der Ausgabegenerierungsaufgabe aktualisiert wird auf *Abgeschlossen* nach Abschluss des Generierungsprozesses der Ausgabe. Nach der Erstellung eines benutzerdefinierten Workflows für die Erstellung nach der Ausgabe können Sie ihn mit einer beliebigen Ausgabegenerierungsvoreinstellung konfigurieren. Wählen Sie den gewünschten Workflow im *Workflow &quot;Nach der Erstellung ausführen&quot;* -Eigenschaft der erforderlichen Vorgabe. Wenn Sie eine Ausgabegenerierungsaufgabe mit der konfigurierten Ausgabevorgabe ausführen, ändert sich der Aufgabenstatus \(auf der Registerkarte &quot;Ausgabe&quot;\) in *Nachbearbeitung*.
+Rufen Sie nach der Erstellung des Skripts das benutzerdefinierte Skript in Ihrem Workflow auf. Anschließend können Sie entsprechend Ihren Anforderungen die anderen Workflow-Prozesse aufrufen. Nachdem Sie Ihren benutzerdefinierten Workflow entworfen haben, rufen Sie die *Post-Generierung abschließen* als letzten Schritt in Ihrem Workflow-Prozess. Die *Post-Generierung abschließen* Schritt stellt sicher, dass der Status der Ausgabegenerierungsaufgabe aktualisiert wird auf *Abgeschlossen* nach Abschluss des Generierungsprozesses. Nach der Erstellung eines benutzerdefinierten Workflows für die Erstellung nach der Ausgabe können Sie ihn mit einer beliebigen Ausgabegenerierungsvoreinstellung konfigurieren. Wählen Sie den gewünschten Workflow im *Workflow &quot;Nach der Erstellung ausführen&quot;* -Eigenschaft der erforderlichen Vorgabe. Wenn Sie eine Ausgabegenerierungsaufgabe mit der konfigurierten Ausgabevorgabe ausführen, ändert sich der Aufgabenstatus \(auf der Registerkarte &quot;Ausgabe&quot;\) in *Nachbearbeitung*.
 
-## Workflow &quot;Asset-Update anpassen&quot; {#id18C3D0I0B5Z}
+## Anpassen des Workflows &quot;Asset aktualisieren&quot; {#id18C3D0I0B5Z}
 
-Standardmäßig wird die *DAM-Update-Asset* Workflow-Trigger jedes Mal, wenn Sie ein AEM Asset erstellen oder aktualisieren \(XML oder Nicht-XML\). Wenn Sie beispielsweise ein Thema erstellen oder aktualisieren, wird die *DAM-Update-Asset* wird ausgeführt. Die *DAM-Update-Asset* Workflow versucht, relevante Metadaten aus Assets zu extrahieren. Die vordefinierten *Asset-Update-Workflow* verfügt über keine Schritte zum Extrahieren relevanter Metadaten aus einer DITA-Datei und die *DAM-Update-Asset* Der Workflow erzeugt zum Zeitpunkt der Ausführung eine Vielzahl von Protokollen. Wenn Sie die zusätzlichen Protokolle vermeiden möchten, können Sie den Workflow so konfigurieren, dass alle XML-Dateien von der Verarbeitung übersprungen werden.
+Standardmäßig wird die Variable *DAM-Update-Asset* Workflow-Trigger jedes Mal, wenn Sie ein AEM Asset erstellen oder aktualisieren \(XML oder Nicht-XML\). Wenn Sie beispielsweise ein Thema erstellen oder aktualisieren, wird die *DAM-Update-Asset* wird ausgeführt. Die *DAM-Update-Asset* Workflow versucht, relevante Metadaten aus Assets zu extrahieren. Die vordefinierten *Asset-Update-Workflow* verfügt über keine Schritte zum Extrahieren relevanter Metadaten aus einer DITA-Datei und die *DAM-Update-Asset* Der Workflow erzeugt zum Zeitpunkt der Ausführung eine Vielzahl von Protokollen. Wenn Sie die zusätzlichen Protokolle vermeiden möchten, können Sie den Workflow so konfigurieren, dass alle XML-Dateien von der Verarbeitung übersprungen werden.
 
 Führen Sie die folgenden Schritte aus, um die *DAM-Update-Asset* workflow:
 
@@ -189,7 +188,7 @@ Führen Sie die folgenden Schritte aus, um die *DAM-Update-Asset* workflow:
 
 ## Konfigurieren des Nachbearbeitungs-XML-Workflows {#id18CJB03J0Y4}
 
-AEM Guides erstellen eine Reihe von Workflows, mit denen Sie mit DITA-Inhalten in AEM arbeiten können. Es gibt beispielsweise Workflows, die ausgeführt werden, wenn Sie DITA-Inhalte hochladen oder vorhandene Inhalte aktualisieren. Diese Workflows analysieren DITA-Dokumente und führen verschiedene Aufgaben durch, z. B. das Festlegen der Metadaten, das Hinzufügen von standardmäßigen Ausgabevorgaben zu neuen DITA-Maps und andere damit verbundene Aufgaben.
+AEM Guides erstellen eine Reihe von Workflows, mit denen Sie DITA-Inhalte in AEM verwenden können. Es gibt beispielsweise Workflows, die ausgeführt werden, wenn Sie DITA-Inhalte hochladen oder vorhandene Inhalte aktualisieren. Diese Workflows analysieren DITA-Dokumente und führen verschiedene Aufgaben durch, z. B. das Festlegen der Metadaten, das Hinzufügen von standardmäßigen Ausgabevorgaben zu neuen DITA-Maps und andere damit verbundene Aufgaben.
 
 >[!NOTE]
 >
@@ -199,10 +198,9 @@ Die folgenden Eigenschaften steuern, wie AEM Guides die Nachbearbeitungs-Workflo
 
 >[!NOTE]
 >
-> Auf die folgenden Eigenschaften kann über die Web-Konsole zugegriffen werden: http://&lt;server name=&quot;&quot;>:&lt;port>/system/console/configMgr.
+> Die folgenden Eigenschaften sind über die Web-Konsole zugänglich: http://&lt;server name=&quot;&quot;>:&lt;port>/system/console/configMgr.
 
 | Eigenschaft | Bundle-Name | Beschreibung |
 |--------|-----------|-----------|
 | Dynamische Outrefs | `com.adobe.fmdita.postprocess.PostProcessObservation` | Bei allen Dateien, bei denen die Nachbearbeitung nicht durchgeführt wurde, werden die ausgehenden Verweise abgerufen, indem die Themendateien analysiert werden. Es wird empfohlen, diese Option deaktiviert zu lassen, da es möglich ist, das System zu überlasten, wenn die Anzahl der zu verarbeitenden Dateien groß ist. |
-| Nachbearbeitungs-Threads | `com.adobe.fmdita.config.ConfigManager` | Legt die Anzahl der Nachbearbeitungs-Threads fest, die für Nachbearbeitungs-Workflows verwendet werden sollen. <br>Der Standardwert ist 1. |
-
+| Nachbearbeitungs-Threads | `com.adobe.fmdita.config.ConfigManager` | Legt die Anzahl der Nachbearbeitungs-Threads fest, die für Nachbearbeitungs-Workflows verwendet werden sollen. <br>Der Standardwert ist 1. |

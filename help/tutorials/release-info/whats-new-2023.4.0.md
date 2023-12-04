@@ -1,22 +1,22 @@
 ---
-title: Versionshinweise | Adobe Experience Manager-Handbücher as a Cloud Service, Version April 2023
+title: Versionshinweise | Adobe Experience Manager Guides as a Cloud Service, Version April 2023
 description: Version der Adobe Experience Manager-Handbücher as a Cloud Service vom April 2023
-source-git-commit: 4bb9ce2690a2e76a5b2a93b65db7dd452e15d295
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
 
 # Neue Funktionen in der Version von Adobe Experience Manager Guides as a Cloud Service im April 2023
 
-Dieser Artikel behandelt die neuen und verbesserten Funktionen in Version April 2023 der Adobe Experience Manager-Handbücher (später auch als *AEM as a Cloud Service Handbücher*).
+Dieser Artikel behandelt die neuen und verbesserten Funktionen in Version April 2023 der Adobe Experience Manager-Handbücher (später auch als *AEM as a Cloud Service Guides*).
 
 Weitere Informationen zu den Upgrade-Anweisungen, der Kompatibilitätsmatrix und den in dieser Version behobenen Problemen finden Sie in der [Versionshinweise](release-notes-2023.4.0.md) Artikel.
 
 ## Erweiterte Metadatenunterstützung beim PDF-Publishing
 
-AEM Guides bieten jetzt erweiterte Unterstützung für die Metadaten, die den Metadaten in Ihrer PDF-Ausgabe zugeordnet sind. Die Metadatenoptionen enthalten Informationen über das Dokument und seinen Inhalt, wie den Namen des Autors, den Dokumenttitel, Schlüsselwörter, Copyright-Informationen und andere Datenfelder.
+AEM Guides bieten jetzt erweiterte Unterstützung für die Metadaten, die den Metadaten in Ihrer PDF-Ausgabe zugeordnet sind. Die Metadatenoptionen enthalten Informationen über das Dokument und seinen Inhalt, wie z. B. den Namen des Autors, den Dokumenttitel, Schlüsselwörter, Copyright-Informationen und andere Datenfelder.
 
 <img src="assets/pdf-metadata.png" alt=" native PDF-Metadaten">
 
@@ -42,4 +42,3 @@ AEM Guides as a Cloud Service bietet die Möglichkeit, große Veröffentlichungs
 
 Ab der April-Version können Sie mehrere Veröffentlichungsanforderungen gleichzeitig ausführen und mithilfe des Microservice-basierten nativen PDF-Publishing sehr effizient Bulk-PDF-Ausgaben generieren.
 Weitere Informationen finden Sie unter [Neue mikrodienstbasierte Veröffentlichung für AEM Guides as a Cloud Service konfigurieren](../knowledge-base/publishing/configure-microservices.md).
-

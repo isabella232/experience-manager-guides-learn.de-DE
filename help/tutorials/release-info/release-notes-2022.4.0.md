@@ -1,11 +1,10 @@
 ---
-title: Versionshinweise | Adobe Experience Manager-Handbücher as a Cloud Service, Version April 2022
+title: Versionshinweise | Adobe Experience Manager Guides as a Cloud Service, Version April 2022
 description: April-Version der Adobe Experience Manager-Handbücher as a Cloud Service
-exl-id: c735ba24-a803-454b-8723-57dacf90061b
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 3%
+source-wordcount: '809'
+ht-degree: 0%
 
 ---
 
@@ -14,9 +13,9 @@ ht-degree: 3%
 ## Aktualisierung auf die Version vom April
 
 Aktuelles Upgrade durchführen [!DNL Adobe Experience Manager Guides] as a Cloud Service (später genannt) *[!DNL AEM Guides]as a Cloud Service*) einrichten, indem Sie die folgenden Schritte ausführen:
-1. Sehen Sie sich den Git-Code des Cloud Services an und wechseln Sie zu der Verzweigung, die in der Cloud Services-Pipeline entsprechend der Umgebung konfiguriert ist, die Sie aktualisieren möchten.
-1. Aktualisieren `<dox.version>` -Eigenschaft in `/dox/dox.installer/pom.xml` -Datei Ihres Cloud Services-Git-Codes auf 2022.4.133.
-1. Übertragen Sie die Änderungen und führen Sie die Cloud Services-Pipeline aus, um auf die April-Version von zu aktualisieren. [!DNL AEM Guides] as a Cloud Service.
+1. Sehen Sie sich den Git-Code des Cloud Service an und wechseln Sie zu der Verzweigung, die in der Cloud Service-Pipeline entsprechend der Umgebung konfiguriert ist, die Sie aktualisieren möchten.
+1. Aktualisieren `<dox.version>` -Eigenschaft in `/dox/dox.installer/pom.xml` -Datei Ihres Cloud Service-Git-Codes auf 2022.4.133.
+1. Übertragen Sie die Änderungen und führen Sie die Cloud Service-Pipeline aus, um auf die April-Version von zu aktualisieren. [!DNL AEM Guides] as a Cloud Service.
 
 ## Kompatibilitätsmatrix
 
@@ -27,19 +26,19 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die von [!DNL AEM Guide
 | FMPS | FrameMaker |
 | --- | --- |
 | Nicht kompatibel | Aktualisierung 4 und höher für 2020 |
-|  |  |
+| | |
 
 
 ### Sauerstoffanschluss
 
 | Cloud-Version für AEM Guides | Sauerstoff Connector Windows | Sauerstoff Connector Mac |
 | --- | --- | --- |
-| 2022.4.0 | 2.5.6 | 2.5.6 |
+| 2022.4.0 | 2,5,6 | 2,5,6 |
 |  |  |  |
 
 *Die in AEM erstellten Grundlinien und Bedingungen werden in FMPS-Versionen ab 2020.2 unterstützt.
 
-## Neue Funktionen und Erweiterungen
+## Neue Funktionen und Verbesserungen
 
 Im Web-Editor wurden viele Verbesserungen und neue Funktionen hinzugefügt:
 
@@ -90,15 +89,15 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Die Einstellung Mit Bedingungsattributen validieren wird nicht sofort geöffnet. Stattdessen muss der Benutzer die Datei erneut öffnen, um die Validierungen anzuzeigen. (9300)
 * Metadaten können nicht entfernt werden, nachdem eine DITA-Zuordnung mit Metadaten veröffentlicht wurde.  (9178)
 * Das Übersetzungsfenster ist auch beim Öffnen der DITA-Karte im Map Editor sichtbar. (9053)
-* Benutzerdefinierte DTD, die vom Benutzer definiert wird, hat keinen Vorrang vor standardmäßiger DITA-DTD, die in DITA-OT eingebettet ist. (9104)
+* Benutzerdefinierte DTD, die vom Benutzer definiert wird, hat keinen Vorrang vor standardmäßiger DITA-DTD, die in DITA-OT eingebettet ist. 9104
 * In der Funktion Native PDF schlägt der Upload in die Vorlagen bei Nicht-DITA- und Nicht-Bilddateien fehl. (9070)
 * Der Autorisierungsmechanismus führt in einigen spezialisierten Szenarien zwei Abfragen anstelle einer aus. (9221)
 * Das Veröffentlichen der AEM Site-Ausgabe schlägt bei der Verwendung der benutzerdefinierten DTD fehl. (9243)
-* Die Fußnote &quot;Verwendung nach Referenz&quot;scrollt nicht zum Fußnote-Abschnitt in AEM Site-Ausgabe. (9234)
+* Die Fußnote &quot;Verwendung nach Referenz&quot;scrollt nicht zum Fußnote-Abschnitt in AEM Site-Ausgabe. 9234
 
 ## Bekannte Probleme
 
-Adobe hat das folgende bekannte Problem im [!DNL AEM Guides] as a Cloud Service April-Version.
+Adobe hat das folgende bekannte Problem in der [!DNL AEM Guides] as a Cloud Service April-Version.
 
-* Der Web Editor meldet keinen Fehler, wenn zwei oder mehr Grundlinien mit demselben Namen erstellt werden, jedoch Unterschiede bei Leerzeichen oder Groß-/Kleinschreibung bestehen. Beispielsweise &quot;adobe&quot;und &quot;Adobe&quot;oder &quot;Adobe&quot;.
+* Der Web Editor meldet keinen Fehler, wenn zwei oder mehr Grundlinien mit demselben Namen erstellt werden, jedoch Unterschiede bei Leerzeichen oder Groß-/Kleinschreibung bestehen. Beispiel: &quot;adobe&quot;und &quot;Adobe&quot;oder &quot;Adobe&quot;.
 * Der Sauerstoff-Connector hängt zwischenzeitlich beim häufigen Anmelden, Abmelden oder Wechseln zwischen verschiedenen Authentifizierungstypen.

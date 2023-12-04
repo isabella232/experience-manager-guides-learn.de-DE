@@ -1,11 +1,10 @@
 ---
 title: Native PDF-Veröffentlichungsfunktion | Verwenden von JavaScript zum Arbeiten mit Inhalt oder Stil
 description: Erfahren Sie, wie Sie Stile für Ihren Inhalt erstellen und Stile erstellen.
-exl-id: 2f301f6a-0d1c-4194-84c2-0fddaef8d3ec
-source-git-commit: 99ca14a816630f5f0ec1dc72ba77994ffa71dff6
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '519'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -15,7 +14,7 @@ Mit der nativen PDF-Veröffentlichungsfunktion können Sie JavaScript ausführen
 Um die Ausführung von JavaScript zu unterstützen, bietet Ihnen die Funktion Native PDF Publishing die folgenden Callback-Funktionen:
 
 * `window.pdfLayout.onBeforeCreateTOC(callback)`: Diese Rückruffunktion wird ausgeführt, bevor das Inhaltsverzeichnis generiert wird.
-* `window.pdfLayout.onBeforePagination(callback)`: Diese Rückruffunktion wird ausgeführt, nachdem das Inhaltsverzeichnis generiert wurde, aber bevor Seitenumbrüche zum PDF hinzugefügt werden.
+* `window.pdfLayout.onBeforePagination(callback)`: Diese Rückruffunktion wird ausgeführt, nachdem das Inhaltsverzeichnis generiert wurde, aber bevor Seitenumbrüche in der PDF hinzugefügt werden.
 * `window.pdfLayout.onAfterPagination(callback)`: Diese Rückruffunktion wird ausgeführt, nachdem das Inhaltsverzeichnis und die Seitenumbrüche im PDF hinzugefügt wurden.
 
 >[!NOTE]
@@ -29,7 +28,7 @@ Im folgenden Beispiel wird die Position der Titel der Abbildung von über den Bi
 1. Öffnen Sie die Vorgabe zur Bearbeitung.
 1. Navigieren Sie zu **Erweitert** Registerkarte.
 1. Wählen Sie die **JavaScript aktivieren** -Option.
-1. Speichern Sie die Vorgabe und schließen Sie sie.
+1. Speichern und schließen Sie die Vorgabe.
 
 Erstellen Sie anschließend eine JavaScript-Datei mit dem folgenden Code und speichern Sie sie im Ordner Ressourcen Ihrer Vorlage:
 
@@ -70,7 +69,7 @@ Die mithilfe dieses Codes generierte Ausgabe und die Vorlage zeigt den Titel der
 
 <img src="./assets/fig-title-below-image.png" width="500">
 
-## Hinzufügen eines Wasserzeichens zur PDF-Ausgabe für Entwürfe von Dokumenten {#watermark-draft-document}
+## Hinzufügen eines Wasserzeichens zur PDF-Ausgabe für Entwurfsdokumente {#watermark-draft-document}
 
 Sie können auch JavaScript verwenden, um bedingte Wasserzeichen hinzuzufügen. Diese Wasserzeichen werden Ihrem Dokument hinzugefügt, wenn die definierte Bedingung erfüllt ist.\
 Sie können beispielsweise eine JavaScript-Datei mit folgendem Code erstellen, um ein Wasserzeichen für die PDF-Ausgabe des Dokuments zu erstellen, das noch nicht genehmigt wurde. Dieses Wasserzeichen wird nicht angezeigt, wenn Sie die PDF für das Dokument im Dokumentstatus &quot;Genehmigt&quot;generieren.

@@ -1,9 +1,9 @@
 ---
 title: Versionshinweise | Neue Funktionen in Version 4.3.1 der Adobe Experience Manager-Handbücher
 description: Erfahren Sie mehr über die neuen und verbesserten Funktionen in Version 4.3.1 der Adobe Experience Manager-Handbücher.
-source-git-commit: a865630527045574ef5a96622537e767eacd9fc2
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---

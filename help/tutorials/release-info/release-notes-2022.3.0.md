@@ -1,11 +1,10 @@
 ---
 title: Versionshinweise für [!DNL AEM Guides], Version März 2022
 description: März-Version [!DNL Adobe Experience Manager Guides] as a Cloud Service
-exl-id: 885edbb5-dfe4-4bdc-bb66-0df64addb094
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 2%
+source-wordcount: '777'
+ht-degree: 1%
 
 ---
 
@@ -14,9 +13,9 @@ ht-degree: 2%
 ## Aktualisierung auf die Version vom März
 
 Aktuelles Upgrade durchführen [!DNL Adobe Experience Manager Guides] as a Cloud Service (später genannt) *[!DNL AEM Guides]as a Cloud Service*) einrichten, indem Sie die folgenden Schritte ausführen:
-1. Sehen Sie sich den Git-Code des Cloud Services an und wechseln Sie zu der Verzweigung, die in der Cloud Services-Pipeline entsprechend der Umgebung konfiguriert ist, die Sie aktualisieren möchten.
-1. Aktualisieren `<dox.version>` -Eigenschaft in `/dox/dox.installer/pom.xml` -Datei Ihres Cloud Services-Git-Codes auf 2022.3.123.
-1. Übertragen Sie die Änderungen und führen Sie die Cloud Services-Pipeline aus, um auf die März-Version von zu aktualisieren. [!DNL AEM Guides] as a Cloud Service.
+1. Sehen Sie sich den Git-Code des Cloud Service an und wechseln Sie zu der Verzweigung, die in der Cloud Service-Pipeline entsprechend der Umgebung konfiguriert ist, die Sie aktualisieren möchten.
+1. Aktualisieren `<dox.version>` -Eigenschaft in `/dox/dox.installer/pom.xml` -Datei Ihres Cloud Service-Git-Codes auf 2022.3.123.
+1. Übertragen Sie die Änderungen und führen Sie die Cloud Service-Pipeline aus, um auf die März-Version von zu aktualisieren. [!DNL AEM Guides] as a Cloud Service.
 
 ## Kompatibilitätsmatrix
 
@@ -27,7 +26,7 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die von [!DNL AEM Guide
 | FMPS | FrameMaker |
 | --- | --- |
 | Nicht kompatibel | Aktualisierung 4 und höher für 2020 |
-|  |  |
+| | |
 
 
 ### Sauerstoffanschluss
@@ -39,7 +38,7 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die von [!DNL AEM Guide
 
 *Die in AEM erstellten Grundlinien und Bedingungen werden in FMPS-Versionen ab 2020.2 unterstützt.
 
-## Neue Funktionen und Erweiterungen
+## Neue Funktionen und Verbesserungen
 
 ### Neues Grundlinien-Dashboard
 
@@ -47,7 +46,7 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die von [!DNL AEM Guide
 
 Hinweis: Für ein aktualisiertes System aktualisieren Sie bitte die neueste **ui_config.json** für das Ordnerprofil.
 
-Verwenden Sie diese Funktion, um eine Grundlinie mit einer bestimmten Version der Themen zu erstellen, die an einem bestimmten Datum und zu einer bestimmten Uhrzeit verfügbar sind. Außerdem erhalten Sie die API-Unterstützung zum Erstellen oder Aktualisieren einer Grundlinie mit einem für eine Themenversion definierten Titel.
+Verwenden Sie diese Funktion, um eine Grundlinie mit einer bestimmten Version der Themen zu erstellen, die an einem bestimmten Datum und zu einer bestimmten Uhrzeit verfügbar sind. Außerdem erhalten Sie die API-Unterstützung zum Erstellen oder Aktualisieren einer Grundlinie mit einer für eine Themenversion definierten Beschriftung.
 
 ![Grundlegende Registerkarte](assets/baseline-manage.png)
 
@@ -57,7 +56,7 @@ Sie können die Dateien anhand von Dateinamen oder Dateispeicherort durchsuchen.
 
 Die Leistung für die Grundlagenerstellung wurde weiter verbessert. Der Prozess zum Erstellen von Grundlinien ist asynchron, sodass Sie andere Dateien im Web Editor weiter bearbeiten können, während die Grundlinie erstellt wird. Weitere Informationen finden Sie unter *Erstellen und Verwalten von Grundlinien im Web-Editor* im Benutzerhandbuch.
 
-Hinweis: Die Registerkarte &quot;Grundlinie&quot;im Dashboard der Karte ist standardmäßig ausgeblendet. Ihr Administrator kann die Registerkarte &quot;Grundlinie&quot;im Dashboard der Landkarte aktivieren.
+Hinweis: Die Registerkarte &quot;Grundlinie&quot;im Dashboard der Zuordnung ist standardmäßig ausgeblendet. Ihr Administrator kann die Registerkarte &quot;Grundlinie&quot;im Dashboard der Landkarte aktivieren.
 
 ### Verbessertes Aktualisierungsverhalten des Web-Editors
 
@@ -91,7 +90,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
 ## Bekannte Probleme
 
-Adobe hat das folgende bekannte Problem im [!DNL AEM Guides] as a Cloud Service März-Version.
+Adobe hat das folgende bekannte Problem in der [!DNL AEM Guides] as a Cloud Service März-Version.
 
 * Wenn Sie Beschriftungen für direkte Verweise entfernen, werden die Beschriftungen auch aus indirekten Verweisen entfernt.
 

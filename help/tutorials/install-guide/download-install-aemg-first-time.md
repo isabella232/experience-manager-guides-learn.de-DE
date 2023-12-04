@@ -1,13 +1,12 @@
 ---
 title: erstmaliges Herunterladen und Installieren AEM Handbücher
 description: Erfahren Sie, wie Sie zum ersten Mal AEM Handbücher herunterladen und installieren
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 2%
+source-wordcount: '232'
+ht-degree: 0%
 
 ---
-
 
 # erstmaliges Herunterladen und Installieren AEM Handbücher {#id213BCL00KEV}
 
@@ -31,7 +30,7 @@ Führen Sie die folgenden Schritte aus, um AEM Guides zum ersten Mal auf einen C
 
 1. Um das Package AEM Guides hochzuladen, klicken Sie auf **Paket hochladen**.
 
-1. Navigieren Sie im Dialogfeld &quot;Paket hochladen&quot;zur Datei &quot;AEM Guides&quot;, die Sie in Schritt 1 heruntergeladen haben, und klicken Sie auf **OK**.
+1. Navigieren Sie im Dialogfeld Paket hochladen zur Datei mit den AEM Guides, die Sie in Schritt 1 heruntergeladen haben, und klicken Sie auf **OK**.
 
    Das Paket wird in Ihre AEM-Instanz hochgeladen.
 
@@ -49,4 +48,3 @@ Führen Sie die folgenden Schritte aus, um AEM Guides zum ersten Mal auf einen C
 > Führen Sie den Installationsvorgang für alle Instanzen von AEM-Servern in Ihrer Einrichtung durch.
 
 **Übergeordnetes Thema:**[ Herunterladen und installieren](download-install.md)
-

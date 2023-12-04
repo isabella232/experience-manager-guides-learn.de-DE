@@ -1,13 +1,12 @@
 ---
 title: Eingabeaufforderung zum Speichern als neue Version beim Schließen konfigurieren
-description: Erfahren Sie, wie Sie die Eingabeaufforderung zum Speichern als neue Version beim Schließen konfigurieren
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+description: Erfahren Sie, wie Sie die Aufforderung zum Speichern als neue Version beim Schließen konfigurieren
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
 
 ---
-
 
 # Eingabeaufforderung zum Speichern als neue Version beim Schließen konfigurieren {#id222HBI00XXA}
 
@@ -23,7 +22,7 @@ Die **Als neue Version speichern** nicht standardmäßig aktiviert ist und Sie d
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Suchen Sie nach und klicken Sie auf **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** Bundle.
+1. Suchen Sie nach und klicken Sie auf **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** Bundle
 
 1. Wählen Sie die **Neue Version beim Schließen anfordern** -Option.
 
@@ -35,4 +34,3 @@ Wenn diese Option ausgewählt ist, wird die **Als neue Version speichern** ist i
 Weitere Informationen finden Sie unter *Szenarien zum Schließen und Speichern von Dateien* im as a Cloud Service Handbuch Verwenden von Adobe Experience Manager-Handbüchern beschrieben.
 
 **Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
-

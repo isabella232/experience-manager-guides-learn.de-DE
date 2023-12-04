@@ -1,13 +1,12 @@
 ---
 title: Automatische Dateinamen basierend auf UUID konfigurieren
 description: Erfahren Sie, wie Sie automatische Dateinamen basierend auf der UUID konfigurieren.
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 1%
 
 ---
-
 
 # Automatische Dateinamen basierend auf UUID konfigurieren {#id205QG070D5Z}
 
@@ -24,4 +23,3 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 > Wenn diese Option aktiviert ist, sehen Autoren beim Erstellen eines neuen Themas oder einer neuen Zuordnungsdatei nicht die Option, den Dateinamen anzugeben. Eine neue Themen- oder Zuordnungsdatei kann über die Assets-Benutzeroberfläche und den Web-Editor erstellt werden.
 
 **Übergeordnetes Thema:**[ Dateinamen konfigurieren](conf-file-names.md)
-

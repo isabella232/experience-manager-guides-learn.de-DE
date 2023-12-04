@@ -1,15 +1,14 @@
 ---
-title: AEM
+title: Upgrade AEM Handbücher
 description: Erfahren Sie, wie Sie AEM aktualisieren
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
 
-
-# AEM {#id213BD050YPH}
+# Upgrade AEM Handbücher {#id213BD050YPH}
 
 1. Greifen Sie auf das Git-Repository von Cloud Manager zu.
 
@@ -29,4 +28,3 @@ ht-degree: 0%
 Nach Abschluss des Aktualisierungsprozesses müssen alle Benutzer den Browser-Cache löschen, bevor die aktualisierte Version der AEM-Handbücher verwendet werden kann.
 
 **Übergeordnetes Thema:**[ Herunterladen und installieren](download-install.md)
-

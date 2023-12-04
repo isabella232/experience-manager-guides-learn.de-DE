@@ -1,13 +1,12 @@
 ---
 title: AEM Standardwörterbuch anpassen
 description: Erfahren Sie, wie Sie AEM Standardwörterbuch anpassen
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 2%
 
 ---
-
 
 # AEM Standardwörterbuch anpassen {#id209SD8000WU}
 
@@ -15,7 +14,7 @@ Der Web Editor kann so konfiguriert werden, dass er AEM Rechtschreibprüfung ode
 
 Führen Sie die folgenden Schritte aus, um Ihre benutzerdefinierte Wortliste zu erstellen, die AEM Wörterbuch hinzugefügt wird:
 
-1. Melden Sie sich bei AEM an und öffnen Sie den Modus CRXDE Lite .
+1. Melden Sie sich bei AEM an und öffnen Sie den CRXDE Lite-Modus.
 
 1. Navigieren Sie zum folgenden Knoten:
 
@@ -35,4 +34,3 @@ Führen Sie die folgenden Schritte aus, um Ihre benutzerdefinierte Wortliste zu 
 Autoren müssen ihre Web-Editor-Sitzung neu starten, damit die benutzerdefinierte Wörterbuchliste im AEM Wörterbuch aktualisiert wird.
 
 **Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
-

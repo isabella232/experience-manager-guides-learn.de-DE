@@ -1,13 +1,12 @@
 ---
 title: Festlegen des Erweiterten Map-Editors als Standard
-description: Erfahren Sie, wie Sie den erweiterten Map Editor als Standard festlegen.
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+description: Erfahren Sie, wie Sie den erweiterten Map-Editor als Standard festlegen.
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 0%
 
 ---
-
 
 # Festlegen des Erweiterten Map-Editors als Standard {#id181AI0003PN}
 
@@ -25,10 +24,8 @@ Führen Sie die folgenden Schritte aus, um den erweiterten Map-Editor als Standa
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Suchen Sie nach und klicken Sie auf **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** Bundle.
+1. Suchen Sie nach und klicken Sie auf **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** Bundle
 
 1. Wählen Sie die **Grundlegenden Map-Editor ausblenden** -Option.
 
-   Wenn diese Option aktiviert ist, wird den Benutzern der Link &quot;Grundlegender Map-Editor&quot;nirgendwo auf der Benutzeroberfläche angezeigt. Standardmäßig werden Zuordnungsdateien im erweiterten Map-Editor geöffnet.
-
-
+   Wenn diese Option aktiviert ist, wird den Benutzern der Link &quot;Grundlegender Map-Editor&quot;nirgends in der Benutzeroberfläche angezeigt. Standardmäßig werden Zuordnungsdateien im erweiterten Map-Editor geöffnet.

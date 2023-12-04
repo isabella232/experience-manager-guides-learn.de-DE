@@ -1,10 +1,9 @@
 ---
 title: Best Practices für die Übersetzung von Inhalten
 description: Machen Sie sich mit den Best Practices für die Übersetzung von Inhalten in AEM Handbüchern vertraut. Erfahren Sie, wie Sie den Übersetzungsdienst konfigurieren, ein neues Übersetzungsprojekt erstellen und den Übersetzungsauftrag starten.
-exl-id: 4eff0f27-b3d1-4c6e-af88-bcb3f6d96990
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1304'
+source-wordcount: '1295'
 ht-degree: 2%
 
 ---

@@ -1,10 +1,9 @@
 ---
 title: Verwenden des DITAVAL-Editors
 description: Erfahren Sie, wie Sie DITAVAL-Dateien mit dem DIVATAL Editor in AEM Guides erstellen und bearbeiten. Erfahren Sie, wie der DITAVAL-Editor DITAVAL-Dateien in der Autoren- und Quellansicht unterstützt.
-exl-id: 53dc9a61-aa07-4fb0-a442-ac845433c8f5
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '758'
 ht-degree: 0%
 
 ---

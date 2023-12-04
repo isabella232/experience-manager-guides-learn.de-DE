@@ -1,13 +1,12 @@
 ---
 title: AEM Standardwörterbuch anpassen
 description: Erfahren Sie, wie Sie AEM Standardwörterbuch anpassen
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 1%
 
 ---
-
 
 # AEM Standardwörterbuch anpassen {#id209SD8000WU}
 
@@ -33,4 +32,3 @@ Führen Sie die folgenden Schritte aus, um Ihre benutzerdefinierte Wortliste zu 
 Autoren müssen ihre Web-Editor-Sitzung neu starten, damit die benutzerdefinierte Wörterbuchliste im AEM Wörterbuch aktualisiert wird.
 
 **Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
-

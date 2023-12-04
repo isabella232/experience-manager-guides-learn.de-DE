@@ -1,13 +1,12 @@
 ---
 title: Textfilter konfigurieren
 description: Erfahren Sie, wie Sie Textfilter konfigurieren
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
 
 ---
-
 
 # Textfilter konfigurieren {#id21BPD0FK0XA}
 
@@ -100,4 +99,3 @@ Führen Sie die folgenden Schritte aus, um die Textfilter zu konfigurieren:
 Die konfigurierten Filter sind im Filterbereich verfügbar.
 
 **Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
-

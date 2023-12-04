@@ -1,8 +1,7 @@
 ---
 title: Grundlegende Fehlerbehebung
 description: Beheben Sie Probleme mit der grundlegenden Fehlerbehebung in AEM Handbüchern. Erfahren Sie, wie Sie die Protokolldatei in einem Texteditor anzeigen, kopieren und überprüfen und JSP-Kompilierungsfehler beheben können.
-exl-id: b5ab2618-6f11-4aaa-8471-09521f8bb512
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%

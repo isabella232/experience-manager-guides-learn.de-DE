@@ -1,17 +1,16 @@
 ---
-title: Versionshinweise | Adobe Experience Manager-Handbücher as a Cloud Service, Version Februar 2023
+title: Versionshinweise | Adobe Experience Manager Guides as a Cloud Service, Version Februar 2023
 description: Februar-Version der Adobe Experience Manager-Handbücher as a Cloud Service
-source-git-commit: 4bb9ce2690a2e76a5b2a93b65db7dd452e15d295
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1428'
+source-wordcount: '1426'
 ht-degree: 0%
 
 ---
 
-
 # Neue Funktionen in der Version von Adobe Experience Manager Guides as a Cloud Service im Februar 2023
 
-Dieser Artikel behandelt die neuen und verbesserten Funktionen in Version Februar 2023 der Adobe Experience Manager-Handbücher (später auch als *AEM as a Cloud Service Handbücher*).
+Dieser Artikel behandelt die neuen und verbesserten Funktionen in Version Februar 2023 der Adobe Experience Manager-Handbücher (später auch als *AEM as a Cloud Service Guides*).
 
 Weitere Informationen zu den Upgrade-Anweisungen, der Kompatibilitätsmatrix und den in dieser Version behobenen Problemen finden Sie in der [Versionshinweise](release-notes-2023.2.0.md) Artikel.
 
@@ -49,13 +48,13 @@ Jetzt bieten AEM Handbücher eine verbesserte UX, mit der Sie die Themen, die zu
 * Die Kommentare werden in der Reihenfolge des kommentierten Texts im Dokument angezeigt.
 * Der Name der Prüfungsaufgabe wird im Überprüfungs-Workflow angezeigt.
 * Wählen Sie die Rootmap für die Überprüfungsaufgabe aus, die zur Auflösung aller wichtigen Verweise und Glossarbegriffe verwendet wird, die im Überprüfungsinhalt verwendet werden.
-* Kontextuelle Symbolleiste, die Ihnen beim schnellen Hervorheben oder Durchstreichen von Text hilft
+* Kontextuelle Symbolleiste, mit der Sie schnell Text hervorheben oder durchstreichen können
 * Menü &quot;Optionen&quot;zum Bearbeiten oder Löschen eigener Kommentare
-* Für veraltete Kommentare haben Sie Zugriff auf eine nebeneinander liegende Ansicht, die Ihnen hilft, die vorherige Version des Themas mit der aktuellen Reviewversion zu vergleichen.
+* Für veraltete Kommentare haben Sie Zugriff auf eine nebeneinander liegende Ansicht, die Ihnen beim Vergleich der vorherigen Version des Themas mit der aktuellen Reviewversion hilft.
 * Bei Verwendung der Filter werden die Kommentare im rechten Bereich entsprechend der Auswahl gefiltert und die Anzahl der Kommentare im linken Bereich wird entsprechend aktualisiert.
 
 
-   <img alt="Prüfungsaufgabe" src="assets/comment-pop-up-panel.png" width="600">
+  <img alt="Prüfungsaufgabe" src="assets/comment-pop-up-panel.png" width="600">
 
 
 
@@ -141,4 +140,3 @@ Jetzt können Sie die Seitenmarkierung in den Fußnoten gestalten. Sie können b
 Mit AEM Guides können Sie jetzt die geänderten Themen im Inhaltsverzeichnis der PDF-Ausgabe schnell identifizieren.  Er zeigt eine Änderungsleiste links von den geänderten Themen im Inhaltsverzeichnis an. Sie können auf das Thema im Inhaltsverzeichnis klicken und die detaillierten Änderungen anzeigen.
 
 <img src="assets/change-marker-toc.png" alt="Markierung im Inhaltsverzeichnis ändern " width="500">
-

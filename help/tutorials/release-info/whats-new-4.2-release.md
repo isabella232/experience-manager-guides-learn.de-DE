@@ -1,9 +1,9 @@
 ---
 title: Versionshinweise | Neue Funktionen in Version 4.2 der Adobe Experience Manager-Handbücher
 description: Erfahren Sie mehr über die neuen und verbesserten Funktionen in Version 4.2 der Adobe Experience Manager-Handbücher.
-source-git-commit: a54ada55dad4ff8da8eee3dccb5ad9028b4cdc9e
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '2417'
+source-wordcount: '2423'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Jetzt bieten AEM Handbücher eine verbesserte UX, mit der Sie die Themen, die zu
 * Die Kommentare werden in der Reihenfolge des kommentierten Texts im Dokument angezeigt.
 * Der Name der Prüfungsaufgabe wird im Überprüfungs-Workflow angezeigt.
 * Wählen Sie die Rootmap für die Überprüfungsaufgabe aus, die zur Auflösung aller wichtigen Verweise und Glossarbegriffe verwendet wird, die im Überprüfungsinhalt verwendet werden.
-* Kontextsymbolleiste, mit der Sie schnell Text hervorheben oder durchstreichen können.
+* Kontextuelle Symbolleiste, die Ihnen beim schnellen Hervorheben oder Durchstreichen von Text hilft.
 * Menü &quot;Optionen&quot;, um Ihre eigenen Kommentare zu bearbeiten oder zu löschen.
 * Für veraltete Kommentare haben Sie Zugriff auf eine Seitenansicht, die Ihnen hilft, die vorherige Version des Themas mit der aktuellen Reviewversion zu vergleichen
 * Bei Verwendung der Filter werden die Kommentare im rechten Bereich entsprechend der Auswahl gefiltert und die Anzahl der Kommentare im linken Bereich wird entsprechend aktualisiert.
@@ -49,7 +49,7 @@ Jetzt bieten AEM Handbücher eine verbesserte UX, mit der Sie die Themen, die zu
 <img alt="Prüfungsaufgabe" src="assets/comment-pop-up-panel.png" width="600">
 
 
-Weitere Informationen finden Sie im Abschnitt *Themen oder Karten überprüfen* im Handbuch Verwenden von Adobe Experience Manager-Handbüchern.
+Weitere Informationen finden Sie im Abschnitt *Themen oder Zuordnungen überprüfen* im Handbuch Verwenden von Adobe Experience Manager-Handbüchern.
 
 ## Verbesserungen bei der Übersetzung
 
@@ -97,7 +97,7 @@ AEM Handbücher bieten Ihnen die Möglichkeit, Ausgabevorgaben für die globalen
 <img alt="Vorgabe hinzufügen" src="assets/add-global-output-preset.png" width="400">
 
 
-Diese globalen Vorgaben werden unter der **Ausgabe** -Registerkarte aller zugehörigen Maps. Sie können sie verwenden, um die Ausgabe für alle zugehörigen Maps zu generieren. Sie können die Vorgabe als PDF-Standardvorgabe auswählen, um die PDF-Ausgabe zu generieren. Sie können auch **Bearbeiten**, **Umbenennen**, **Duplizieren** oder **Löschen** eine vorhandene Ausgabevorgabe aus der **Optionen** Menü.
+Diese globalen Vorgaben werden unter der **Ausgabe** -Registerkarte aller zugehörigen Karten. Sie können sie verwenden, um die Ausgabe für alle zugehörigen Maps zu generieren. Sie können die Vorgabe als PDF-Standardvorgabe auswählen, um die PDF-Ausgabe zu generieren. Sie können auch **Bearbeiten**, **Umbenennen**, **Duplizieren** oder **Löschen** eine vorhandene Ausgabevorgabe aus der **Optionen** Menü.
 
 >[!NOTE]
 >
@@ -126,7 +126,7 @@ Sie können Themenverweise, Themengruppen und Schlüsseldefinitionen in eine Zuo
 Die Ansicht &quot;Layout&quot;bietet außerdem die **Anzeigeoptionen** um die Zeilennummer ein- oder auszublenden, das Kontrollkästchen ein- oder auszublenden oder den Dateinamen oder Titel für die Themen in einer Zuordnung anzuzeigen.
 Sie können die Themen auch basierend auf den angewendeten bedingten Filtern anzeigen.
 
-Neben der Organisation von Themen in der Map-Datei können Sie auch Verweise hinzufügen, verschieben, kopieren, einfügen oder löschen, indem Sie die **Optionen** für ein Element in der Ansicht &quot;Layout&quot;verfügbar.
+Zusätzlich zum Organisieren von Themen in der Map-Datei können Sie auch Verweise hinzufügen, verschieben, kopieren, einfügen oder löschen, indem Sie die **Optionen** für ein Element in der Ansicht &quot;Layout&quot;verfügbar.
 
 <img src="assets/layout-inline-attributes.png" alt=" Zuordnungslayoutattribute" width="600">
 
@@ -198,7 +198,7 @@ Auf der PDF wird eine Änderungsleiste angezeigt, die den geänderten, eingefüg
 * Eingefügten Inhalt in grüner Farbe anzeigen und unterstrichen
 * Gelöschte Inhalte in roter Farbe anzeigen und mit einem Durchstreichen markieren
 
-## Native PDF | Variablenunterstützung für Output Path und PDF File Name
+## Native PDF | Variablenunterstützung für Ausgabepfad und PDF-Dateiname
 
 Jetzt können Sie auch die folgenden vordefinierten Variablen verwenden, um den Ausgabepfad und die PDF-Datei zu definieren. Sie können eine einzelne oder eine Kombination von Variablen verwenden, um die folgenden Optionen zu definieren:
 * `${map_filename}`

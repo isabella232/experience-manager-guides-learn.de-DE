@@ -1,13 +1,12 @@
 ---
 title: Konfigurieren eines Datenquellen-Connectors
 description: Erfahren Sie, wie Sie einen Datenquellen-Connector konfigurieren
-source-git-commit: fc142d8a6e907fac1321dfd5c2cb9615d523709d
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '387'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
-
 
 # Konfigurieren eines Datenquellen-Connectors
 
@@ -176,11 +175,10 @@ Andere Felder werden basierend auf der Konfigurationsklasse angepasst, die zum A
 
 Laden Sie die Datei an einen Speicherort in AEM Assets hoch.
 
-Zum Beispiel: `/content/dam/jira.json`
+Beispiel:  `/content/dam/jira.json`
 
 ## Erstellen einer Konfiguration mithilfe der REST-API
 
 Sie können die Konfiguration mithilfe der REST-API registrieren. Weitere Informationen finden Sie unter *REST-API zur Registrierung eines Datenquellen-Connectors* in der API-Referenz für Adobe Experience Manager-Handbücher.
 
 Nachdem Sie die Datenquelle konfiguriert haben, wird der Connector im Web Editor im Bereich &quot;Data Sources&quot;aufgeführt. Anschließend können Sie eine Verbindung zur Datenquelle herstellen und ein Inhaltsfragment in Ihre Themen einfügen. Weitere Informationen finden Sie unter [Inhaltsfragment aus Ihrer Datenquelle einfügen](../user-guide/web-editor-content-snippet.md).
-

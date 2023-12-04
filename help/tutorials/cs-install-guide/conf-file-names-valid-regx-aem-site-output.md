@@ -1,13 +1,12 @@
 ---
 title: Gültige Dateinamen für AEM Site-Ausgabe konfigurieren
 description: Erfahren Sie, wie Sie gültige Dateinamen für AEM Site-Ausgabe konfigurieren.
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '146'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
-
 
 # Gültige Dateinamen für AEM Site-Ausgabe konfigurieren {#id214GK0X0KXA}
 
@@ -20,4 +19,3 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 | `com.adobe.fmdita.common.SanitizeNodeNameImpl` | `aemsite.DisallowedFileNameChars` | Fügen Sie Zeichen hinzu, die Sie durch einen Unterstrich in den Namen der AEM Site-Ausgabedateien ersetzen möchten. <br> **Standardwert**: ``'<\>\`@$`` |
 
 **Übergeordnetes Thema:**[ Dateinamen konfigurieren](conf-file-names.md)
-

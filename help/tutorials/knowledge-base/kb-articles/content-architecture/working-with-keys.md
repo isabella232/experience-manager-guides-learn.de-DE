@@ -2,10 +2,9 @@
 title: Arbeiten mit Schlüsseln
 description: Erstellen von Schlüsseln zur Verwendung in unternehmensübergreifenden Inhalten
 role: Admin
-exl-id: b8e3a6d2-ea82-4fdb-bd16-3f4b6594af52
-source-git-commit: c8feab55ed3b8e7b36ec46b21f63155766627e40
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
@@ -36,9 +35,9 @@ Erstellen Sie eine Zuordnung und fügen Sie die [!UICONTROL keyref] -Element.
 </map>
 ```
 
-Hier haben Sie zwei Definitionen definiert, wie oben gezeigt, und eine [!UICONTROL keyref] as _AEM_ für _Adobe Experience Manager_ Text.
+Hier haben Sie zwei Definitionen definiert, wie oben gezeigt, und eine [!UICONTROL keyref] as _AEM_ für die _Adobe Experience Manager_ Text.
 
-## Schritt 2: Hinzufügen dieser Karte zu Ihrer Publikationskarte
+## Schritt 2: Hinzufügen dieser Karte zu Ihrer Veröffentlichungskarte
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -52,12 +51,12 @@ Hier haben Sie zwei Definitionen definiert, wie oben gezeigt, und eine [!UICONTR
 </map>
 ```
 
-## Schritt 3: Verwenden Sie die Schlüssel, um auf die in der globalen Schlüsselzuordnung definierten Variablen zu verweisen
+## Schritt 3: Verwenden Sie die Schlüssel, um auf die in der globalen Schlüsselzuordnung definierten Variablen zu verweisen.
 
 + Bearbeiten Sie das Thema und fügen Sie den Schlüsselwert mithilfe des [!UICONTROL keyref].
 + Wie im Screenshot gezeigt, wird ein kleines Fenster angezeigt, in dem Keywords ausgewählt werden können. Dies wird angezeigt, wenn Sie das Element &quot;keyword&quot;hinzufügen.
-   ![Element einfügen](assets/insert_element.png)
-   ![Key Ref](assets/key_ref.png)
+  ![Element einfügen](assets/insert_element.png)
+  ![Key Ref](assets/key_ref.png)
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>

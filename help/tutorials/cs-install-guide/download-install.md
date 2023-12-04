@@ -1,13 +1,12 @@
 ---
 title: Herunterladen und installieren
 description: Erfahren Sie, wie Sie herunterladen und installieren
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '53'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
-
 
 # Herunterladen und installieren {#id1645E0O04MK}
 
@@ -15,14 +14,12 @@ Die AEM Guides werden über das GitHub-Repository bereitgestellt. Sie können di
 
 - **[Modul AEM Handbücher bereitstellen](download-install-dxml-first-time.md)**
 
-- **[Konfiguration des Dispatchers](download-install-configure-dispatcher.md)**
+- **[Konfigurieren des Dispatchers](download-install-configure-dispatcher.md)**
 
 - **[Installation AEM Guides überprüfen](download-install-verify-dxml-installation.md)**
 
-- **[AEM](download-install-upgrade-dxml.md)**
+- **[Upgrade AEM Handbücher](download-install-upgrade-dxml.md)**
 
 - **[Konfigurationsüberschreibungen](download-install-additional-config-override.md)**
 
 - **[Recommendations zur Leistungsoptimierung](download-install-recommend-perf-optimiz.md)**
-
-

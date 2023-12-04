@@ -1,10 +1,9 @@
 ---
 title: Funktionen des Web Editors kennen
 description: Entdecken Sie die Funktionen des Webeditors in AEM Handbüchern. Machen Sie sich mit der Benutzeroberfläche des Web-Editors vertraut, einschließlich der Hauptsymbolleiste, der sekundären Symbolleiste, des linken Bedienfelds, des Inhaltsbearbeitungsbereichs und des rechten Bedienfelds.
-exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '17231'
+source-wordcount: '17222'
 ht-degree: 0%
 
 ---
@@ -65,7 +64,7 @@ Wenn Sie den Mauszeiger über den Titel eines Themas bewegen, werden Ihnen der D
 >
 > Sobald eine Version Ihres Themas verfügbar ist, können Sie Ihrem Thema auch Beschriftungen hinzufügen. Diese Beschriftungen können dann verwendet werden, um eine Grundlinie für die Veröffentlichung einer bestimmten Version Ihres Dokuments zu erstellen. Weitere Informationen zur Verwendung von Bezeichnungen in Ihren Themen finden Sie unter [Verwenden von Bezeichnungen](web-editor-use-label.md#).
 
-**Rückgängig machen und wiederholen** - ![](images/Undo_icon.svg) / ![](images/Redo_icon.svg)
+**Rückgängig und Wiederherstellen** - ![](images/Undo_icon.svg) / ![](images/Redo_icon.svg)
 
 Rückgängig oder Wiederherstellen der letzten Aktion
 
@@ -307,7 +306,7 @@ Sie können Attribute auch für mehrere Zellen, ganze Zeilen oder Spalten einer 
 1. Im **Attribute** Abschnitt, klicken Sie auf **+Hinzufügen**.
 1. Wählen Sie die `@valign` -Attribut aus **Attribut** Dropdown-Liste.
 1. Wählen Sie in der Wert-Dropdown-Liste die gewünschte Textausrichtung aus, die Sie auf die ausgewählten Tabellenzellen anwenden möchten.
-1. Klicken Sie auf **Hinzufügen.**
+1. Klicks **Hinzufügen.**
 
 ![](images/align-table-cell_cs.png){width="800" align="left"}
 
@@ -649,7 +648,7 @@ Um auf den Versionsverlauf zuzugreifen und zu einer bestimmten Version Ihres The
 
 1. \(*Optional*\) Geben Sie einen Grund für die Wiederherstellung einer früheren Version an. Sie können auch eine neue Version der derzeit aktiven Arbeitskopie Ihres Themas erstellen.
 
-1. Klicken Sie auf **Bestätigen.**
+1. Klicks **Bestätigen Sie.**
 
    Ihre Arbeitskopie der Datei wird auf die ausgewählte Version zurückgesetzt. Wenn Sie eine neue Version der derzeit aktiven Arbeitskopie erstellen möchten, wird auch eine neue Version der Datei mit allen Arbeitsänderungen erstellt.
 
@@ -701,7 +700,7 @@ So fügen Sie Ihrem Thema im Web Editor Beschriftungen hinzu:
 1. Wählen Sie in der Bestätigungsnachricht Titel anwenden die Option **Beschriftung verschieben** Option zum Verschieben von Bezeichnungen von einer vorhandenen Version auf die ausgewählte Version. Wenn Sie diese Option nicht auswählen und es Beschriftungen gibt, die einer anderen Version des Themas zugewiesen sind, werden sie nicht in die Version des ausgewählten Themas verschoben. Solche Bezeichnungen werden im Bezeichnungsanwendungsprozess ignoriert.
 
 
-**Bewertungsaufgabe erstellen** -  ![](images/create-review-task-icon.svg)
+**Prüfungsaufgabe erstellen** -  ![](images/create-review-task-icon.svg)
 
 Sie können eine Prüfungsaufgabe des aktuellen Themas oder der Zuordnungsdatei direkt im Web-Editor erstellen. Öffnen Sie die Datei, für die Sie die Prüfungsaufgabe erstellen möchten, und klicken Sie auf Prüfungsaufgabe erstellen , um den Überprüfungserstellungsprozess zu starten.
 
@@ -1023,7 +1022,7 @@ Im **Neue Karte erstellen** Geben Sie die folgenden Details an:
 
 Wenn Sie auf **Erstellen**, wird die Zuordnung in dem Ordner erstellt und hinzugefügt, der im Feld Pfad angegeben ist. Außerdem wird die Karte in der Kartenansicht geöffnet. Sie können die Map-Datei im Map Editor öffnen und Themen hinzufügen. Weitere Informationen zum Hinzufügen von Themen zu einer Map-Datei finden Sie unter [Erstellen einer Karte](map-editor-create-map.md#).
 
-***Erstellen eines Ordners***
+***Ordner erstellen***
 
 Wenn Sie auswählen, *Erstellen neuer Ordner*, erhalten Sie die **Neuen Ordner erstellen** dialog:
 
@@ -1594,7 +1593,7 @@ Nachdem die Vorlage erstellt wurde, müssen Sie sie Ihrem globalen Profil oder P
 
 Im Menü Optionen einer vorhandenen Vorlage können Sie zwischen **Bearbeiten** oder **Duplizieren** es. Im Falle einer Duplizierung wird die Struktur und der Typ der Vorlage \(des Dokuments\) beibehalten und Sie können sie erneut verwenden, um daraus eine andere Vorlage zu erstellen.
 
-**Überprüfung** -  ![](images/active-review-tasklist-icon.svg)
+**Überprüfen** -  ![](images/active-review-tasklist-icon.svg)
 
 AEM Handbücher bieten die Möglichkeit, alle Prüfungsaufgaben in Ihren Projekten anzuzeigen. Sie können alle Überprüfungsprojekte und die aktiven Prüfungsaufgaben innerhalb der Überprüfungsprojekte anzeigen, zu denen Sie gehören, aus dem **Überprüfen** Bedienfeld.  Anschließend können Sie die Prüfungsaufgaben öffnen, um die Kommentare der einzelnen Prüfer anzuzeigen.
 Im Prüfungsbereich werden die Prüfungsaufgaben angezeigt. Standardmäßig können Sie die Dateien anhand von Titeln anzeigen. Wenn Sie den Mauszeiger über eine Datei bewegen, können Sie den Dateinamen und den Dateipfad als QuickInfo anzeigen.
@@ -1815,7 +1814,7 @@ Standardmäßig können Sie die Dateien anhand von Titeln anzeigen. Wenn Sie den
 
 Neben dem Öffnen von Dateien können Sie auch mithilfe der **Optionen** im Abschnitt &quot;Verweise&quot;angezeigt. Zu den Aktionen, die Sie ausführen können, gehören Bearbeiten, Vorschau, UUID kopieren, Pfad kopieren, Zu Favoriten hinzufügen, Eigenschaften und Dashboard Karte öffnen .
 
-**Überprüfung** -  ![](images/review-icon.svg)
+**Überprüfen** -  ![](images/review-icon.svg)
 
 Wenn Sie auf das Symbol Überprüfen klicken, wird der Überprüfungsbereich geöffnet, in dem Sie eine Prüfungsaufgabe für das derzeit geöffnete Dokument erstellen können.
 

@@ -1,10 +1,9 @@
 ---
 title: Hinzufügen von [!DNL AEM Guides] auf [!DNL AEM as a Cloud Service] Umgebung
 description: Erfahren Sie, wie Sie [!DNL AEM Guides] auf [!DNL AEM as a Cloud Service] Umgebung
-exl-id: a1e020c2-360c-4d71-b5fd-8179d9ceacda
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -31,9 +30,9 @@ Wenn Sie ein Kunde sind, der [!DNL AEM Guides] as a Cloud Service am oder nach d
 
 1. Wechseln zu **[!UICONTROL Lösungen und Add-ons]** Registerkarte.
 
-1. Im **[!UICONTROL Lösungen und Add-ons]** Tabelle, klicken Sie auf **[!UICONTROL Assets]**.
+1. Im **[!UICONTROL Lösungen und Add-ons]** Tabelle, auf **[!UICONTROL Assets]**.
 
-1. Auswählen **[!UICONTROL Handbücher]** und wählen Sie **[!UICONTROL Speichern]**.
+1. Auswählen **[!UICONTROL Handbücher]** und wählen **[!UICONTROL Speichern]**.
 
 Sie haben Ihr Programm erfolgreich für die automatische Bereitstellung der AEM Guides-Lösung konfiguriert.
 
@@ -41,4 +40,4 @@ Sie haben Ihr Programm erfolgreich für die automatische Bereitstellung der AEM 
 
 >[!NOTE]
 >
->Installieren [!DNL AEM Guides] in jeder Umgebung des integrierten Programms müssen Sie die mit der Umgebung verknüpfte Pipeline ausführen. Für die Installation von [!DNL AEM Guides].
+>Installieren [!DNL AEM Guides] in jeder Umgebung des integrierten Programms müssen Sie die mit der Umgebung verknüpfte Pipeline ausführen. Für die Installation von CM-Git-Codebase ist keine zusätzliche Konfiguration erforderlich [!DNL AEM Guides].

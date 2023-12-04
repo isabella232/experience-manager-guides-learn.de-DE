@@ -1,13 +1,12 @@
 ---
 title: Konvertierungs-Prozess-Ereignishandler
 description: Erfahren Sie mehr über den Konversionsprozess-Ereignishandler
-source-git-commit: 8707acf3ba01b7488eea6597c434da73a901d037
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 0%
 
 ---
-
 
 # Konvertierungs-Prozess-Ereignishandler {#id175UB30E05Z}
 
@@ -25,4 +24,3 @@ com/adobe/fmdita/conversion/complete
 
 **Parameter**:\
 |Name|Typ|Beschreibung| |—|—|—| |`status`|String|Der Rückgabestatus für den ausgeführten Vorgang. Die möglichen Optionen sind: - SUCCESS: Der Konvertierungsprozess wurde erfolgreich abgeschlossen. <br> - MIT FEHLERN ABGESCHLOSSEN: Der Konvertierungsprozess wurde abgeschlossen, jedoch mit einigen Fehlern. <br>- FEHLGESCHLAGEN: Der Konvertierungsprozess schlug aufgrund eines schwerwiegenden Fehlers fehl.| |`filePath`|Zeichenfolge|Absoluter Pfad der Quelldatei \(zu konvertieren\) im AEM Repository.| |`outputPath`|Zeichenfolge|Absoluter Pfad des Zielorts, an dem die konvertierten DITA-Dateien gespeichert werden.| |`logPath`|String|Absoluter Pfad des Knotens, in dem das Konvertierungsprotokoll gespeichert wird.|
-

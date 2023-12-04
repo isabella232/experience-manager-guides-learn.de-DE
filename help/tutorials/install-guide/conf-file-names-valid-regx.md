@@ -1,13 +1,12 @@
 ---
 title: Konfigurieren von Regx für gültige Dateinamenzeichen
 description: Erfahren Sie, wie Sie Regx für gültige Dateinamenzeichen konfigurieren.
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
-
 
 # Konfigurieren von Regx für gültige Dateinamenzeichen {#id214BD0550E8}
 
@@ -29,7 +28,7 @@ Führen Sie die folgenden Schritte aus, um regx für gültige \(oder zulässige\
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Suchen Sie nach und klicken Sie auf *com.adobe.fmdita.config.ConfigManager* Bundle.
+1. Suchen Sie nach und klicken Sie auf *com.adobe.fmdita.config.ConfigManager* Bundle
 
 1. Im **Regex für gültige Zeichen** -Eigenschaft festlegen, stellen Sie sicher, dass die Eigenschaft auf \[-a-zA-Z0-9\_\] festgelegt ist. Sie können dieser Liste jedoch weitere Zeichen hinzufügen. Diese einfachen Zeichen müssen jedoch unbedingt vorhanden sein und die Liste muss mit einem Bindestrich (-) beginnen.
 
@@ -45,4 +44,3 @@ Führen Sie die folgenden Schritte aus, um regx für gültige \(oder zulässige\
 > Ähnlich wie bei der Liste gültiger Dateinamenzeichen können Sie auch eine Liste gültiger Dateinamenzeichen für AEM Site-Ausgabe angeben. Weitere Informationen finden Sie unter [Gültige Dateinamen für AEM Site-Ausgabe konfigurieren](conf-file-names-valid-regx-aem-site-output.md#).
 
 **Übergeordnetes Thema:**[ Dateinamen konfigurieren](conf-file-names.md)
-

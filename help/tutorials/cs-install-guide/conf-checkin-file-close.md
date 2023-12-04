@@ -1,13 +1,12 @@
 ---
 title: Eingabeaufforderung zum Einchecken einer Datei beim Schließen konfigurieren
-description: Erfahren Sie, wie Sie die Eingabeaufforderung zum Einchecken einer Datei beim Schließen konfigurieren
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+description: Erfahren Sie, wie Sie die Aufforderung zum Einchecken einer Datei beim Schließen konfigurieren
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 1%
 
 ---
-
 
 # Eingabeaufforderung zum Einchecken einer Datei beim Schließen konfigurieren {#id222HC040PE8}
 
@@ -24,4 +23,3 @@ Wenn diese Konfiguration aktiviert ist, wird die **Datei entsperren** ist im Dia
 Weitere Informationen finden Sie unter *Szenarien zum Schließen und Speichern von Dateien* im as a Cloud Service Handbuch Verwenden von Adobe Experience Manager-Handbüchern beschrieben.
 
 **Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
-

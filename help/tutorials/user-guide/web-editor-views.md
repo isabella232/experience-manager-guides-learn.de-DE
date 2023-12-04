@@ -1,8 +1,7 @@
 ---
 title: Web-Editor-Ansichten
 description: Dokumente im Autoren-, Quell- und Vorschaumodus anzeigen. Erfahren Sie, wie Sie Inhalte basierend auf bedingten Filtern anzeigen, die Markierungen von Änderungen verfolgen und ein Thema als PDF in AEM Guides exportieren können.
-exl-id: 86d8abc2-1d0e-4744-91c9-848c00447971
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 0%
@@ -13,7 +12,7 @@ ht-degree: 0%
 
 Der Web Editor von AEM Guides unterstützt das Anzeigen von Dokumenten in drei verschiedenen Modi oder Ansichten:
 
-## Autor
+## Author
 
 Dies ist eine typische Ansicht des Web-Editors, was Sie sehen, was Sie \(WYSISYG\) erhalten. Sie können das Thema wie in jedem normalen Rich-Text-Editor bearbeiten. In der Autorenansicht haben Sie die Möglichkeit, eine Revision des Dokuments zu speichern, Inhalte zu suchen und zu ersetzen, Elemente einzufügen, Hyperlinks einzufügen, Inhaltsreferenz einzufügen und vieles mehr.
 
@@ -47,7 +46,7 @@ Weitere Informationen finden Sie unter **Suchen und Ersetzen** Funktionsbeschrei
 
 - Die Quellansicht bietet viele Tastaturbefehle, mit denen Sie schnell zu einem Dokument navigieren und daran arbeiten können. In der folgenden Tabelle sind die unterstützten Aktionen und ihre Tastaturbefehle aufgeführt:
 
-  | Gehen Sie hierfür wie folgt vor | Verwenden Sie diesen Tastaturbefehl |
+  | Gehen Sie dazu folgendermaßen vor | Verwenden Sie diesen Tastaturbefehl |
   |----------|-----------------|
   | Mehrere Cursor hinzufügen | **Strg**+Links klicken |
   | Mehrere nicht aufeinander folgende Textauswahlen | **Strg**+ Linksklick zum Ziehen und Auswählen von Text |
@@ -140,7 +139,7 @@ Gehen Sie wie folgt vor, um ein Thema als PDF zu exportieren:
 
 1. *\(Optional\)* Geben Sie den DITA-OT-Transformationsnamen und alle Befehlszeilenargumente an, die Sie verwenden möchten.
 
-1. Klicken Sie auf **Download**.
+1. Klicken Sie auf **Herunterladen**.
 
    >[!NOTE]
    >
