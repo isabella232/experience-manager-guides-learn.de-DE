@@ -1,8 +1,8 @@
 ---
 sidebar_position: 8
-source-git-commit: f00c135222adf57a418b4885cff2f3f036ea07ff
+source-git-commit: d99be38f5d69a7472909511faad230bea9bc435b
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ In dieser Datei berechnen und weisen wir die eindeutige Kommentar-ID zu, die im 
 5. [Themenüberprüfungsbereich](../../src/review_app_examples/topic_reviews.ts): Diese Datei erweitert [Inline-Prüfungsbereich](../../src/review_app_examples/inline_review_panel.ts) sodass hinzugefügte Anpassungen auch auf der Seite &quot;Review App&quot;funktionieren.
 
 6. [Annehmen mit Dialogfeld &quot;Änderung&quot;](../../src/review_app_examples/accept_with_modification_dialog.ts)
-Dies ist ein Beispiel für das Hinzufügen neuer Widgets zur App. Hier haben wir ein neues Dialogfeld erstellt, das zwei Eingabetextfelder enthält: `Revised Text` und `Adjudicator Comment Rationale`
+Dies ist ein Beispiel für das Hinzufügen eines neuen Widgets zur App. Hier haben wir ein neues Dialogfeld erstellt, das zwei Eingabetextfelder enthält: `Revised Text` und `Adjudicator Comment Rationale`
 
 ![Dialogfeld &quot;Annehmen mit Änderung&quot;](./imgs/accept_with_modification_dialogue.png)
 

@@ -1,10 +1,10 @@
 ---
 title: Versionshinweise | Upgrade-Anweisungen und behobene Probleme in Adobe Experience Manager-Handbüchern, Version Dezember 2023
 description: Erfahren Sie mehr über die Fehlerbehebungen und wie Sie auf die Version von Adobe Experience Manager Guides vom Dezember 2023 as a Cloud Service aktualisieren können.
-source-git-commit: 9fcc8faec4631d710dbdfd7e4f8567069d0ba120
+source-git-commit: b4bbed1de8fc2d8ef81332445a5c96161be508d4
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 3%
+source-wordcount: '1319'
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,7 @@ Weitere Informationen zu den neuen Funktionen und Verbesserungen finden Sie unte
 Führen Sie die folgenden Schritte aus, um die aktuelle as a Cloud Service Einrichtung der Experience Manager-Handbücher zu aktualisieren:
 
 1. Sehen Sie sich den Git-Code des Cloud Service an und wechseln Sie zu der Verzweigung, die in der Cloud Service-Pipeline entsprechend der Umgebung konfiguriert ist, die Sie aktualisieren möchten.
-2. Aktualisieren `<dox.version>` -Eigenschaft in `/dox/dox.installer/pom.xml` -Datei Ihres Cloud Service-Git-Codes auf 2023.12.0.15.
+2. Aktualisieren `<dox.version>` -Eigenschaft in `/dox/dox.installer/pom.xml` -Datei Ihres Cloud Service-Git-Codes auf 2023.12.0.16.
 3. Übertragen Sie die Änderungen und führen Sie die Cloud Service-Pipeline aus, um auf die Version der Experience Manager-Handbücher vom Dezember 2023 as a Cloud Service zu aktualisieren.
 
 ## Schritte zum Aktivieren des Triggers eines Skripts über ein Servlet
@@ -122,7 +122,7 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen
 
 | Experience Manager-Handbücher für as a Cloud | Sauerstoff Connector Windows | Sauerstoff Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
 | --- | --- | --- | --- | --- |
-| 2023.12.0 | 3.3-uuid.5 | 3.3-uuid.5 | 2.3 | 2.3 |
+| 2023.12.0 | 3.3-uuid.5 | 3.3-uuid.5 | 2,3 | 2,3 |
 |  |  |  |  |
 
 
@@ -160,7 +160,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 - AEM Site-Veröffentlichung tritt beim Übertragen an den Datenspeicher für große Maps mit Perimeter-Peer-Links auf ein Problem auf. (13531)
 - Eine Site kann nicht über das Dashboard &quot;Massenveröffentlichung&quot;des Experience Manager Guides aktiviert werden. (13439)
 - Die Lokalisierung der Elementbeschriftungen funktioniert in der AEM Sites-Ausgabe nicht ordnungsgemäß. (12144)
-- Fehlt **Ditaval** -Option in Ausgabevorgaben auf Ordnerprofilebene, die über die Benutzeroberfläche des Web-Editors erstellt wurden. (11903)
+- Fehlt **Ditaval** -Option in Ausgabevorgaben auf Ordnerprofilebene, die über die Benutzeroberfläche des Web-Editors erstellt wurden. (1903)
 
 ### Verwaltung
 
