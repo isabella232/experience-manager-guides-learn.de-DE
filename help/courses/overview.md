@@ -1,15 +1,15 @@
 ---
-title: Videobasierte Lernkurse für [!DNL Adobe Experience Manager Guides]
+title: Video-Tutorials für [!DNL Adobe Experience Manager Guides]
 description: Video-Tutorials zu [!DNL Adobe Experience Manager Guides], AEM XML-Add-on, AEM XML-Plugin, AEM DoX und AEM Dox.
 exl-id: 4066431b-0838-45a6-b6b1-e366f210eb8d
-source-git-commit: b2c51539bbe49c6d5de601e319ceb5def99d9020
+source-git-commit: 6a35536d55bec04d69d1c296b75b55f034f70186
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '112'
 ht-degree: 1%
 
 ---
 
-# Videokurse für [!DNL Adobe Experience Manager Guides] {#overview}
+# Video-Tutorials für [!DNL Adobe Experience Manager Guides] {#overview}
 
 In diesem Bereich finden Sie videobasierte Kurse für [!DNL Adobe Experience Manager Guides].
 
@@ -21,12 +21,12 @@ In diesem Bereich finden Sie videobasierte Kurse für [!DNL Adobe Experience Man
 
 * **[[!DNL AEM Guides] Authoring-Kurs](course-3/overview.md)**
 
-   *Erweitertes Benutzerhandbuch zu [!DNL AEM Guides] Editor*
+  *Erweitertes Benutzerhandbuch zu [!DNL AEM Guides] Bearbeiter*
 
 * **[[!DNL AEM Guides] Einführungskurs](course-1/overview.md)**
 
-   *Erfahren Sie, wie Sie Inhalte erstellen, organisieren, erstellen und veröffentlichen können mit [!DNL Adobe Experience Manager Guides].*
+  *Erfahren Sie, wie Sie Inhalte erstellen, organisieren, erstellen und veröffentlichen können mit [!DNL Adobe Experience Manager Guides].*
 
 * **[Generierung der Ausgabe mit [!DNL AEM Guides]](course-2/overview.md)**
 
-   *Erfahren Sie, wie Sie eine Ausgabe generieren mit [!DNL Adobe Experience Manager Guides]. Erfahren Sie mehr über verschiedene Funktionen, die für die Generierung von Ausgaben verfügbar sind - Berichte, Grundlinien, Bedingungen, Fehlerbehebung, Massenveröffentlichung und Aktivierung.*
+  *Erfahren Sie, wie Sie eine Ausgabe generieren mit [!DNL Adobe Experience Manager Guides]. Erfahren Sie mehr über verschiedene Funktionen, die für die Generierung von Ausgaben verfügbar sind - Berichte, Grundlinien, Bedingungen, Fehlerbehebung, Massenveröffentlichung und Aktivierung.*
