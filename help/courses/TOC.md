@@ -1,11 +1,11 @@
 ---
-user-guide-title: Adobe Experience Manager-Handbücher - Tutorials
+user-guide-title: Tutorials zu Adobe Experience Manager Guides
 user-guide-description: Eine Videosammlung für Adobe Experience Manager Guides.
 breadcrumb-title: Videos zu AEM Guides
 source-git-commit: 6a35536d55bec04d69d1c296b75b55f034f70186
 workflow-type: tm+mt
 source-wordcount: '125'
-ht-degree: 13%
+ht-degree: 17%
 
 ---
 
